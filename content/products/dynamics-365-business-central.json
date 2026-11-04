@@ -1,0 +1,44 @@
+{
+  "name": "Dynamics 365 Business Central",
+  "status": "published",
+  "vendor": { "name": "Microsoft", "website": "https://www.microsoft.com/en-us/dynamics-365/products/business-central" },
+  "primaryCategory": "accounting",
+  "summary": "Business Central is Microsoft's accounting and ERP product for growing companies, priced per user per month and paid yearly. Essentials costs $80 and Premium $110 per user, and Team Members at $8 are limited users. Bank statements import as files or through the Envestnet Yodlee feed service, and North American installs also have a separate check-and-deposit worksheet without file import.",
+  "qualifies": [
+    {
+      "category": "accounting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "general ledger", "sourceUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-general-ledger" },
+        { "capability": "bank feeds and reconciliation", "sourceUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately" },
+        { "capability": "financial statements", "sourceUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-general-ledger" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "To import bank statements as bank feeds, an administrator must set up the Envestnet Yodlee Bank Feed service and link bank accounts. CSV statement files can be imported without it.", "sourceUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately", "checkedAt": "2026-11-04" },
+    { "text": "The North American version also offers a Bank Rec. Worksheet that suits checks and deposits but does not import bank statement files.", "sourceUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately", "checkedAt": "2026-11-04" },
+    { "text": "Account categories define the layout of the financial statements, and users with a Team Member license cannot edit the chart of accounts.", "sourceUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-general-ledger", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page offers a free 30-day trial and says listed prices are for information only, with the actual price shown at checkout.", "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/products/business-central/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Essentials", "priceUsd": 80, "billing": "month", "unit": "per user", "notes": "Listed as per user per month, paid yearly" },
+      { "name": "Premium", "priceUsd": 110, "billing": "month", "unit": "per user", "notes": "Listed as per user per month, paid yearly" },
+      { "name": "Team Members", "priceUsd": 8, "billing": "month", "unit": "per user", "notes": "Listed as per user per month, paid yearly. Limited users who cannot edit the chart of accounts" }
+    ],
+    "hiddenCosts": [
+      "Every full user needs an Essentials or Premium license, so a five-person finance team pays at least $400 a month before any Team Members.",
+      "Bank feeds need the Envestnet Yodlee service to be set up, and the pricing page says the actual price is confirmed at checkout."
+    ],
+    "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/products/business-central/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Envestnet Yodlee", "Power BI"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

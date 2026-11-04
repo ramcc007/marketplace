@@ -1,0 +1,48 @@
+{
+  "name": "Workday Adaptive Planning",
+  "status": "published",
+  "vendor": { "name": "Workday", "website": "https://www.workday.com" },
+  "primaryCategory": "budgeting-forecasting",
+  "summary": "Workday Adaptive Planning is an enterprise planning platform for budgeting, forecasting, reporting and scenario modeling, with shareable what-if scenarios inside a governed model. The product page shows no prices and offers a free trial, a demo and a sales contact.",
+  "qualifies": [
+    {
+      "category": "budgeting-forecasting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "budget models", "sourceUrl": "https://www.workday.com/en-us/products/adaptive-planning/overview.html" },
+        { "capability": "forecasts and scenarios", "sourceUrl": "https://www.workday.com/en-us/products/adaptive-planning/overview.html" },
+        { "capability": "variance reports", "sourceUrl": "https://www.workday.com/en-us/products/adaptive-planning/overview.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The overview page lists no prices or plan tiers and shows Free Trial, Request a Demo and Contact Sales buttons.", "sourceUrl": "https://www.workday.com/en-us/products/adaptive-planning/overview.html", "checkedAt": "2026-11-04" },
+    { "text": "The page's FAQ says Adaptive supports personal and shareable what-if scenarios inside a governed model.", "sourceUrl": "https://www.workday.com/en-us/products/adaptive-planning/overview.html", "checkedAt": "2026-11-04" },
+    { "text": "The page describes variance analysis in natural language and says plans, actuals and operational data sit in one governed model.", "sourceUrl": "https://www.workday.com/en-us/products/adaptive-planning/overview.html", "checkedAt": "2026-11-04" },
+    { "text": "The page cites ISO/IEC 42001 certification for Workday's AI management system, which is not a SOC report.", "sourceUrl": "https://www.workday.com/en-us/products/adaptive-planning/overview.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Adaptive Planning", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices published on the overview page; the footer links to Subscriptions and Flex Credits without describing them" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.workday.com/en-us/products/adaptive-planning/overview.html",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.workday.com/en-us/products/adaptive-planning/overview.html",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

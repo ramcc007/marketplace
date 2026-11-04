@@ -1,0 +1,62 @@
+{
+  "name": "Vacation Tracker",
+  "status": "published",
+  "vendor": { "name": "Vacation Tracker", "website": "https://vacationtracker.io" },
+  "primaryCategory": "leave-management",
+  "summary": "Vacation Tracker has two paid plans, Core at $2 per active user a month and Complete at $4, with a monthly minimum of $50 or $100 that covers up to 25 users. It runs inside Slack, Microsoft Teams or Google Workspace. Accrual rules and multi-level approval start on Complete.",
+  "qualifies": [
+    {
+      "category": "leave-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "leave requests and approvals", "sourceUrl": "https://vacationtracker.io/pricing/" },
+        { "capability": "accrual policies", "sourceUrl": "https://vacationtracker.io/pricing/" },
+        { "capability": "team calendar", "sourceUrl": "https://vacationtracker.io/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Both plans carry a monthly minimum: $50 on Core and $100 on Complete, each covering up to 25 users. Above 25 users the per-user price applies.", "sourceUrl": "https://vacationtracker.io/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Accruals and caps, time off in lieu, blackout periods, probation periods and a maximum number of users away are listed under Complete. Core has custom leave types and allowances, one approver per request and a wallchart.", "sourceUrl": "https://vacationtracker.io/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Vacation Tracker says it holds a SOC 2 Type II report and complies with GDPR, with servers in North America and Europe on AWS.", "sourceUrl": "https://vacationtracker.io/security/", "checkedAt": "2026-11-04" },
+    { "text": "Its terms say data can be exported at any time from the Reports section as CSV or Excel, at no charge, and that cancellation takes effect at the end of the current paid term.", "sourceUrl": "https://vacationtracker.io/terms-of-service/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Core", "priceUsd": 2, "billing": "month", "unit": "per active user", "notes": "Monthly minimum of $50 covering up to 25 users. Single approver, up to 3 locations and 10 departments" },
+      { "name": "Complete", "priceUsd": 4, "billing": "month", "unit": "per active user", "notes": "Monthly minimum of $100 covering up to 25 users. Adds accruals, multi-level approvals and unlimited locations and departments" }
+    ],
+    "hiddenCosts": [
+      "A monthly minimum applies: $50 on Core and $100 on Complete for up to 25 users, so a team of 10 pays $50 on Core, not $20.",
+      "Annual billing saves about 10%, but the annual rates are priced by user tier and are not listed on the pricing page.",
+      "The pricing page shows a dollar sign without naming the currency."
+    ],
+    "sourceUrl": "https://vacationtracker.io/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Core and Complete",
+    "sourceUrl": "https://vacationtracker.io/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Cancel at any time from the account; cancellation takes effect at the end of the current paid term. Refunds follow a separate refund policy.",
+    "dataExport": "Leave Request, Leave Balance and Monthly Leave Balance reports as CSV or Excel, with no export fee.",
+    "sourceUrl": "https://vacationtracker.io/terms-of-service/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "Google Workspace", "Zapier", "ADP"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

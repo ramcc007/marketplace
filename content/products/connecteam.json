@@ -1,0 +1,57 @@
+{
+  "name": "Connecteam",
+  "status": "published",
+  "vendor": { "name": "Connecteam", "website": "https://connecteam.com" },
+  "primaryCategory": "leave-management",
+  "summary": "Connecteam is free for up to 10 users, and its paid HR & Skills hub starts at a $29 monthly base fee that covers the first 30 users on yearly billing. Time off sits inside the HR & Skills hub, with accrual and carry-over periods set per policy. It suits teams with shift or mobile staff more than an office that only needs a holiday calendar.",
+  "qualifies": [
+    {
+      "category": "leave-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "leave requests and approvals", "sourceUrl": "https://connecteam.com/hr-people-management/pto/" },
+        { "capability": "accrual policies", "sourceUrl": "https://connecteam.com/hr-people-management/pto/" },
+        { "capability": "team calendar", "sourceUrl": "https://connecteam.com/hr-people-management/pto/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "On the HR & Skills hub, each base fee covers the first 30 users. Extra users cost $0.5, $1.5 or $3 a month on Basic, Advanced or Expert with yearly billing, and $0.6, $1.8 or $3.6 on monthly billing.", "sourceUrl": "https://connecteam.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The Small Business plan is free for up to 10 users and includes all hubs. The page also lists a 14-day free trial with no credit card.", "sourceUrl": "https://connecteam.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The number of time-off policies with balance management is limited by plan: 6 on Basic, 9 on Advanced and Small Business, and unlimited on Expert.", "sourceUrl": "https://connecteam.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The time off page says admins set custom year periods to manage accruals, carryovers and maximum limits, and managers can see who is on vacation and get conflict alerts. It does not describe a calendar view by name.", "sourceUrl": "https://connecteam.com/hr-people-management/pto/", "checkedAt": "2026-11-04" },
+    { "text": "The site footer shows badges for SOC 2 Type 2, ISO/IEC 27001 and GDPR compliance.", "sourceUrl": "https://connecteam.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Small Business", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Free for up to 10 users, all hubs included" },
+      { "name": "HR & Skills Basic", "priceUsd": 0.5, "billing": "month", "unit": "per extra user", "baseFeeUsd": 29, "notes": "Yearly billing; base fee covers the first 30 users. $35 base and $0.6 per extra user on monthly billing" },
+      { "name": "HR & Skills Advanced", "priceUsd": 1.5, "billing": "month", "unit": "per extra user", "baseFeeUsd": 49, "notes": "Yearly billing; base fee covers the first 30 users. $59 base and $1.8 per extra user on monthly billing" },
+      { "name": "HR & Skills Expert", "priceUsd": 3, "billing": "month", "unit": "per extra user", "baseFeeUsd": 99, "notes": "Yearly billing; base fee covers the first 30 users. $119 base and $3.6 per extra user on monthly billing" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Custom pricing" }
+    ],
+    "hiddenCosts": [
+      "Prices are for one hub. Each hub, such as Operations or Communications, is priced separately, so a team using several pays several base fees.",
+      "The pricing page does not label which price column is yearly; the lower figures are about 18% below the higher ones, matching the page's yearly-saving toggle.",
+      "Basic allows 6 time-off policies with balance management, so more leave types need a higher plan."
+    ],
+    "sourceUrl": "https://connecteam.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://connecteam.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

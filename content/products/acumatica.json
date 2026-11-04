@@ -1,0 +1,40 @@
+{
+  "name": "Acumatica",
+  "status": "published",
+  "vendor": { "name": "Acumatica", "website": "https://www.acumatica.com" },
+  "primaryCategory": "accounting",
+  "summary": "Acumatica is a cloud ERP whose financial management covers the general ledger, bank feeds and reconciliation, and customizable financial statements. It publishes no price. Cost is set by the applications a company implements, expected usage and deployment choice, and the page promises unlimited users on one price quoted after a pricing review.",
+  "qualifies": [
+    {
+      "category": "accounting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "general ledger", "sourceUrl": "https://www.acumatica.com/cloud-erp-software/financial-management/" },
+        { "capability": "bank feeds and reconciliation", "sourceUrl": "https://www.acumatica.com/cloud-erp-software/financial-management/" },
+        { "capability": "financial statements", "sourceUrl": "https://www.acumatica.com/cloud-erp-software/financial-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Acumatica's pricing page says cost is based on the applications you need, your expected usage and resource requirements, and your deployment preferences.", "sourceUrl": "https://www.acumatica.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page is headed Unlimited Users. One Transparent Price, yet it publishes no figure and offers a custom pricing review instead.", "sourceUrl": "https://www.acumatica.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The financial management page describes ledger automation across multiple entities, currencies, countries and books.", "sourceUrl": "https://www.acumatica.com/cloud-erp-software/financial-management/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom quote", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Priced by applications implemented, expected usage and deployment choice" }
+    ],
+    "hiddenCosts": [
+      "No price is published, so the total depends on the applications chosen."
+    ],
+    "sourceUrl": "https://www.acumatica.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

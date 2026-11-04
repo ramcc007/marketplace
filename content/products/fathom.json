@@ -1,0 +1,62 @@
+{
+  "name": "Fathom",
+  "status": "published",
+  "vendor": { "name": "Fathom", "website": "https://www.fathomhq.com" },
+  "primaryCategory": "budgeting-forecasting",
+  "summary": "Fathom is built for accounting firms and advisors who report on many client companies. Pro costs $450 a month for 25 companies, and a Portfolio plan covers 100 companies for $67 a month, with forecasting, budgets, scenarios and variance reporting on Pro. Billing is monthly with no minimum term.",
+  "qualifies": [
+    {
+      "category": "budgeting-forecasting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "budget models", "sourceUrl": "https://www.fathomhq.com/pricing" },
+        { "capability": "forecasts and scenarios", "sourceUrl": "https://www.fathomhq.com/pricing" },
+        { "capability": "variance reports", "sourceUrl": "https://www.fathomhq.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Pro includes three-way cash flow forecasting, scenario planning, rolling and driver-based forecasts, budgets and what-ifs, and variance reporting.", "sourceUrl": "https://www.fathomhq.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The Portfolio plan does not include forecasting or budget tools; a company must be upgraded to Pro for three-way cash flow, custom reporting and consolidations.", "sourceUrl": "https://www.fathomhq.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Fathom lists Xero, QuickBooks Online and Desktop, MYOB and FreeAgent integrations, plus Excel and Google Sheets import.", "sourceUrl": "https://www.fathomhq.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Prices are listed in USD, AUD, NZD, CAD, GBP, EUR and ZAR and exclude sales tax.", "sourceUrl": "https://www.fathomhq.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Pro (Gold)", "priceUsd": 450, "billing": "month", "unit": "per 25 companies", "notes": "Extra companies cost $17 each beyond the 25 included. Unlimited users are not stated for Pro on the page" },
+      { "name": "Portfolio", "priceUsd": 67, "billing": "month", "unit": "per 100 companies", "notes": "Unlimited users and 36 months of history per company. Tiers of 300 and unlimited companies are listed without prices" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per portfolio", "notes": "For firms with more than 50 companies; includes the Pro feature set and volume pricing" }
+    ],
+    "hiddenCosts": [
+      "Forecasting, budgets and variance reporting need Pro, so a Portfolio company that needs them costs more than the $0.67 per company headline.",
+      "Upgrades happen automatically as companies are added, but downgrades do not, so a firm has to change its own plan after removing companies."
+    ],
+    "sourceUrl": "https://www.fathomhq.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.fathomhq.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Billing is monthly with no minimum term, and cancelling stops renewal at the end of the current monthly billing cycle.",
+    "dataExport": null,
+    "sourceUrl": "https://www.fathomhq.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Xero", "QuickBooks Online", "QuickBooks Desktop", "MYOB", "FreeAgent", "Excel", "Google Sheets"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

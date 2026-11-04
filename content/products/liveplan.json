@@ -1,0 +1,52 @@
+{
+  "name": "LivePlan",
+  "status": "published",
+  "vendor": { "name": "LivePlan", "website": "https://www.liveplan.com" },
+  "primaryCategory": "budgeting-forecasting",
+  "summary": "LivePlan builds profit, balance sheet and cash flow forecasts for a single small business, with up to 10 forecast scenarios and budget versus actual dashboards. Plans cost $15 to $30 a month on annual billing and include five contributors, so it suits an owner or a small finance team rather than a multi-entity group.",
+  "qualifies": [
+    {
+      "category": "budgeting-forecasting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "budget models", "sourceUrl": "https://www.liveplan.com/pricing" },
+        { "capability": "forecasts and scenarios", "sourceUrl": "https://www.liveplan.com/pricing" },
+        { "capability": "variance reports", "sourceUrl": "https://www.liveplan.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Both plans include one active company at a time and five contributors, with unlimited guests.", "sourceUrl": "https://www.liveplan.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists up to 10 full forecast scenarios and CSV export of forecasts to Excel or Google Sheets.", "sourceUrl": "https://www.liveplan.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "All subscriptions come with a 35-day money-back guarantee, and the page says there are no contracts.", "sourceUrl": "https://www.liveplan.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The page lists QuickBooks Online and Xero connections as Premium features.", "sourceUrl": "https://www.liveplan.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Standard", "priceUsd": 15, "billing": "month", "unit": "per plan, billed annually", "notes": "$20 a month when not billed annually. The page does not name the currency; it shows a dollar sign. 1 active company and 5 contributors" },
+      { "name": "Premium", "priceUsd": 30, "billing": "month", "unit": "per plan, billed annually", "notes": "$40 a month when not billed annually. Adds deeper research, scenarios and financial analysis per the page tagline" },
+      { "name": "LivePlan Expert (add-on)", "priceUsd": 30, "billing": "month", "unit": "add-on", "notes": "30-minute one-on-one video meetings; not a standalone plan" }
+    ],
+    "hiddenCosts": [
+      "Only one company can be active at a time, so a bookkeeper or advisor with several clients has to switch between them."
+    ],
+    "sourceUrl": "https://www.liveplan.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The page says there are no contracts and offers a 35-day money-back guarantee. It does not say how to cancel or whether plans renew automatically.",
+    "dataExport": "Forecasts export as CSV for Excel or Google Sheets.",
+    "sourceUrl": "https://www.liveplan.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["QuickBooks Online", "Xero", "Excel", "Google Sheets"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

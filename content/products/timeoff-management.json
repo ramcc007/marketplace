@@ -1,0 +1,60 @@
+{
+  "name": "TimeOff.Management",
+  "status": "published",
+  "vendor": { "name": "TimeOff.Management", "website": "https://www.timeoff.management" },
+  "primaryCategory": "leave-management",
+  "summary": "TimeOff.Management sells one plan at $1.50 per user a month with every leave feature included and no setup fee. Managers see who else is off before approving, and an accrual schedule can build allowance over the year. Single sign-on is included on every account, and all data stays in the UK.",
+  "qualifies": [
+    {
+      "category": "leave-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "leave requests and approvals", "sourceUrl": "https://www.timeoff.management/platform-overview" },
+        { "capability": "accrual policies", "sourceUrl": "https://www.timeoff.management/platform-overview" },
+        { "capability": "team calendar", "sourceUrl": "https://www.timeoff.management/platform-overview" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The vendor says features are the same at every team size. Monthly billing counts the employees on the last day of the billing month, and partial months are not refunded after cancellation.", "sourceUrl": "https://www.timeoff.management/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Annual billing is available on request by email, and the pricing page gives no annual price or discount.", "sourceUrl": "https://www.timeoff.management/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The platform page lists two-tier approval, leave allowance automation covering accruals, carry-over and pro-rata, Team View with visibility groups, and a CSV export of leave reports.", "sourceUrl": "https://www.timeoff.management/platform-overview", "checkedAt": "2026-11-04" },
+    { "text": "The vendor states that the application, database and backups all stay in the UK. It does not mention SOC 2, ISO 27001 or HIPAA.", "sourceUrl": "https://www.timeoff.management/platform-overview", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Standard", "priceUsd": 1.5, "billing": "month", "unit": "per user", "notes": "One plan with all leave features, no setup fees and no stated minimum. The page also offers GBP and EUR but lists no amounts for them" }
+    ],
+    "hiddenCosts": [
+      "Annual billing has to be requested by email and no annual price is published.",
+      "Partial months are not refunded after cancellation."
+    ],
+    "sourceUrl": "https://www.timeoff.management/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "All accounts",
+    "sourceUrl": "https://www.timeoff.management/platform-overview",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Cancel at any time under Billing; no refund for partial months, and no further charges after cancelling.",
+    "dataExport": "CSV export of leave reports, with an audit trail.",
+    "sourceUrl": "https://www.timeoff.management/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Google Calendar", "Outlook", "Apple Calendar"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

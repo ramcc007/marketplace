@@ -1,0 +1,56 @@
+{
+  "name": "QuickBooks Online",
+  "status": "published",
+  "vendor": { "name": "Intuit", "website": "https://quickbooks.intuit.com" },
+  "primaryCategory": "accounting",
+  "summary": "QuickBooks Online is Intuit's cloud accounting product, sold in four paid tiers plus a free plan limited to one user. Bank and credit card transactions sync automatically, reconciliation is offered from the Plus tier, and balance sheet, profit and loss and cash flow reports are included. A small team pays from $38 a month at list price for one user and up to $340 a month for 25.",
+  "qualifies": [
+    {
+      "category": "accounting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "general ledger", "sourceUrl": "https://quickbooks.intuit.com/learn-support/en-us/help-article/profit-loss-reports/create-report-shows-debits-credits-transaction/L1zvqNX0e_US_en_US" },
+        { "capability": "bank feeds and reconciliation", "sourceUrl": "https://quickbooks.intuit.com/accounting/" },
+        { "capability": "financial statements", "sourceUrl": "https://quickbooks.intuit.com/accounting/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The paid plans carry a 50% off for 3 months promotion on the pricing page, so the first three months cost half the list price.", "sourceUrl": "https://quickbooks.intuit.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The Free plan allows one user, with no accountant access, no mobile app access and no third-party integrations.", "sourceUrl": "https://quickbooks.intuit.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Simple Start includes 1 user, Essentials 3, Plus 5 and Advanced 25.", "sourceUrl": "https://quickbooks.intuit.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says paid plans have no annual contract and can be cancelled at any time.", "sourceUrl": "https://quickbooks.intuit.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The General Ledger report can show a Cleared column with the reconciliation status of each transaction.", "sourceUrl": "https://quickbooks.intuit.com/learn-support/en-us/help-article/profit-loss-reports/create-report-shows-debits-credits-transaction/L1zvqNX0e_US_en_US", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per company", "notes": "1 user. No accountant access, mobile app or third-party integrations" },
+      { "name": "Simple Start", "priceUsd": 38, "billing": "month", "unit": "per company", "notes": "1 user, 2 accountant seats. Listed promotion: $19 a month for the first 3 months" },
+      { "name": "Essentials", "priceUsd": 85, "billing": "month", "unit": "per company", "notes": "3 users, 2 accountant seats. Listed promotion: $42.50 a month for the first 3 months" },
+      { "name": "Plus", "priceUsd": 140, "billing": "month", "unit": "per company", "notes": "5 users, 2 accountant seats. Reconciliation is listed under this tier. Listed promotion: $70 a month for the first 3 months" },
+      { "name": "Advanced", "priceUsd": 340, "billing": "month", "unit": "per company", "notes": "25 users, 3 accountant seats. Listed promotion: $170 a month for the first 3 months" }
+    ],
+    "hiddenCosts": [
+      "The headline prices are the 50% off for 3 months promotion. The list price applies afterward, and the terms behind the asterisk were not shown in the page text we read.",
+      "The pricing page lists reconciliation under the Plus tier, so lower tiers should be checked in a trial before relying on month-end reconciliation."
+    ],
+    "sourceUrl": "https://quickbooks.intuit.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The pricing page says there is no annual contract on paid plans and that they can be cancelled at any time.",
+    "dataExport": null,
+    "sourceUrl": "https://quickbooks.intuit.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

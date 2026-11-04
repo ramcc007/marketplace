@@ -1,0 +1,39 @@
+{
+  "name": "Workday HCM",
+  "status": "published",
+  "vendor": { "name": "Workday, Inc.", "website": "https://www.workday.com" },
+  "primaryCategory": "hris",
+  "summary": "Workday Human Capital Management is an enterprise HR system built around Core HCM, with absence management inside Workforce Management and analytics and reporting on top. The product page shows no prices and directs buyers to Contact Sales or a demo.",
+  "qualifies": [
+    {
+      "category": "hris",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employee records", "sourceUrl": "http://www.workday.com/en-us/products/human-capital-management.html" },
+        { "capability": "time-off tracking", "sourceUrl": "http://www.workday.com/en-us/products/human-capital-management.html" },
+        { "capability": "hr reports", "sourceUrl": "http://www.workday.com/en-us/products/human-capital-management.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The product page describes Core HCM as a foundation for HR data, and says absence needs for a global workforce are managed in Workforce Management.", "sourceUrl": "http://www.workday.com/en-us/products/human-capital-management.html", "checkedAt": "2026-11-04" },
+    { "text": "The page shows Contact Sales and Request a Demo buttons and no dollar figures.", "sourceUrl": "http://www.workday.com/en-us/products/human-capital-management.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact Sales or request a demo" }
+    ],
+    "hiddenCosts": [
+      "No prices, minimums or contract terms are published on the product page."
+    ],
+    "sourceUrl": "http://www.workday.com/en-us/products/human-capital-management.html",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

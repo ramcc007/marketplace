@@ -1,0 +1,62 @@
+{
+  "name": "LeaveBoard",
+  "status": "published",
+  "vendor": { "name": "LeaveBoard", "website": "https://www.leaveboard.com" },
+  "primaryCategory": "leave-management",
+  "summary": "LeaveBoard is free for up to 9 employees and charges $1.35 per employee a month on its Pro plan, which adds priority support and advanced leave policies. The vendor prices companies above 81 employees on Enterprise. Annual accrual, carry-over and pro-rata amounts are calculated automatically.",
+  "qualifies": [
+    {
+      "category": "leave-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "leave requests and approvals", "sourceUrl": "https://www.leaveboard.com/leave-management/" },
+        { "capability": "accrual policies", "sourceUrl": "https://www.leaveboard.com/leave-management/" },
+        { "capability": "team calendar", "sourceUrl": "https://www.leaveboard.com/leave-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Free plan is capped at 9 employees. Pro has no stated employee limit, and Enterprise is described for companies larger than 81 employees with an account manager and no published price.", "sourceUrl": "https://www.leaveboard.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Yearly billing is marked as saving 17%, but the yearly per-employee price is not shown. Prices exclude EU VAT for European businesses, and card payments run through Braintree.", "sourceUrl": "https://www.leaveboard.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The leave page lists automatic annual accrual, carry-over and pro-rata calculation, with allowances that can differ by employee, and annual, office and team calendar views.", "sourceUrl": "https://www.leaveboard.com/leave-management/", "checkedAt": "2026-11-04" },
+    { "text": "Leave-of-absence reports for payroll export in XLS format. The page mentions single sign-on and daily backups and names no security certification.", "sourceUrl": "https://www.leaveboard.com/leave-management/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Up to 9 employees, with time off tracking, leave policies and an absence calendar" },
+      { "name": "Pro", "priceUsd": 1.35, "billing": "month", "unit": "per employee", "notes": "Adds priority support and advanced leave policies. The page does not say whether the shown price is monthly or yearly billing" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "For companies larger than 81 employees; adds an account manager" }
+    ],
+    "hiddenCosts": [
+      "The pricing page does not state whether $1.35 is the monthly or the yearly-billing rate; yearly billing is marked as saving 17% with no figure.",
+      "Prices exclude EU VAT for European businesses."
+    ],
+    "sourceUrl": "https://www.leaveboard.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Google, Outlook or Slack sign-in; plan not stated",
+    "sourceUrl": "https://www.leaveboard.com/leave-management/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "No long-term contract; cancel at any time, effective at the next renewal.",
+    "dataExport": "Leave reports for payroll in XLS format.",
+    "sourceUrl": "https://www.leaveboard.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Google Calendar", "Outlook", "Slack"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

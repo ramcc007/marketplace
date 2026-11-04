@@ -1,0 +1,41 @@
+{
+  "name": "Factorial",
+  "status": "published",
+  "vendor": { "name": "Factorial", "website": "https://factorial.com" },
+  "primaryCategory": "hris",
+  "summary": "Factorial is an HR platform whose pricing page says it starts at $8 per user per month. Every plan includes Factorial Core, with an employee directory, onboarding, document sending and e-signature. Time Off and other modules are add-ons whose prices are not listed.",
+  "qualifies": [
+    {
+      "category": "hris",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employee records", "sourceUrl": "https://factorial.com/pricing" },
+        { "capability": "time-off tracking", "sourceUrl": "https://factorial.com/hr-software/" },
+        { "capability": "hr reports", "sourceUrl": "https://factorial.com/hr-software/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Time Off, Time Tracking, Performance, Shift Management, Recruitment and several other modules are add-ons to Factorial Core, and the pricing page lists no prices for them.", "sourceUrl": "https://factorial.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The HR software page describes absence policies with request approval and downloadable reports based on company activity.", "sourceUrl": "https://factorial.com/hr-software/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page shows the $8 figure with a dollar sign only and gives no currency code, so the figure may differ by country.", "sourceUrl": "https://factorial.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starting price", "priceUsd": 8, "billing": "month", "unit": "per user", "notes": "Includes Factorial Core. Add-on modules and tailored quotes are priced separately" }
+    ],
+    "hiddenCosts": [
+      "Add-on module prices, including Time Off, are not published.",
+      "The page does not state contract length, minimum commitment or trial terms."
+    ],
+    "sourceUrl": "https://factorial.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

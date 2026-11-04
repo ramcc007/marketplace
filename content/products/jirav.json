@@ -1,0 +1,54 @@
+{
+  "name": "Jirav",
+  "status": "published",
+  "vendor": { "name": "Jirav", "website": "https://www.jirav.com" },
+  "primaryCategory": "budgeting-forecasting",
+  "summary": "Jirav builds three-statement budgets, rolling forecasts and multiple scenarios, and compares plan with actuals in its reporting. A business pays $10,000 a year for Starter or $15,000 for Pro, and a separate wholesale price list for accounting and CFO advisory firms starts at $50 a month.",
+  "qualifies": [
+    {
+      "category": "budgeting-forecasting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "budget models", "sourceUrl": "https://www.jirav.com/accounting-planning-budgeting-forecasting" },
+        { "capability": "forecasts and scenarios", "sourceUrl": "https://www.jirav.com/accounting-planning-budgeting-forecasting" },
+        { "capability": "variance reports", "sourceUrl": "https://www.jirav.com/accounting-reporting-and-dashboards" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Jirav publishes two price lists: business pricing in dollars per year, and wholesale pricing for accounting and CFO advisory firms in dollars per month.", "sourceUrl": "https://jirav.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The business pricing page shows model duration of 24, 48 and 84 months across Starter, Professional and Enterprise, and 2, 3 and 5 active plans.", "sourceUrl": "https://www.jirav.com/business-pricing", "checkedAt": "2026-11-04" },
+    { "text": "The reporting page says users can view performance from one budget to the next or plan versus actuals, with commentary on variance reports.", "sourceUrl": "https://www.jirav.com/accounting-reporting-and-dashboards", "checkedAt": "2026-11-04" },
+    { "text": "The business pricing page offers a demo and does not mention a free trial.", "sourceUrl": "https://www.jirav.com/business-pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter (business)", "priceUsd": 10000, "billing": "year", "unit": "per account", "notes": "Up to 5 planning departments, 2 admin or editor users and 24 months of model duration", "sourceUrl": "https://www.jirav.com/business-pricing" },
+      { "name": "Pro (business)", "priceUsd": 15000, "billing": "year", "unit": "per account", "notes": "Up to 15 planning departments, 5 admin or editor users and 48 months of model duration", "sourceUrl": "https://www.jirav.com/business-pricing" },
+      { "name": "Enterprise (business)", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact for a quote; 15 admin or editor users and 84 months of model duration", "sourceUrl": "https://www.jirav.com/business-pricing" },
+      { "name": "Controller Essentials (accounting firms)", "priceUsd": 50, "billing": "month", "unit": "per client, starting at", "notes": "Wholesale price for accounting and CFO advisory firms: 2 plans and a 1-year forecast", "sourceUrl": "https://jirav.com/pricing" },
+      { "name": "CFO Enterprise (accounting firms)", "priceUsd": 150, "billing": "month", "unit": "per client, starting at", "notes": "Wholesale price for accounting and CFO advisory firms: 5 active scenarios and a 7-year forecast", "sourceUrl": "https://jirav.com/pricing" }
+    ],
+    "hiddenCosts": [
+      "The wholesale list says \"starting at\" and does not say what the unit is, so confirm what a client is counted as before comparing it with the business price list."
+    ],
+    "sourceUrl": "https://www.jirav.com/business-pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.jirav.com/business-pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

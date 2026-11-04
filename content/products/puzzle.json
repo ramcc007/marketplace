@@ -1,0 +1,45 @@
+{
+  "name": "Puzzle",
+  "status": "published",
+  "vendor": { "name": "Puzzle", "website": "https://puzzle.io" },
+  "primaryCategory": "accounting",
+  "summary": "Puzzle is accounting software for startups that runs cash and accrual books on one real-time ledger. It connects to bank and card accounts through Plaid and prepares financial statements for investors. Plans run from $30 a month for one seat to $360, and AI-prepared reconciliations start on the $120 Complete plan.",
+  "qualifies": [
+    {
+      "category": "accounting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "general ledger", "sourceUrl": "https://puzzle.io/" },
+        { "capability": "bank feeds and reconciliation", "sourceUrl": "https://puzzle.io/" },
+        { "capability": "financial statements", "sourceUrl": "https://puzzle.io/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Puzzle says it connects to 12,000+ banks and cards through Plaid and syncs direct integrations daily.", "sourceUrl": "https://puzzle.io/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists AI-powered reconciliations from the Complete plan upward, and custom chart of accounts from Core.", "sourceUrl": "https://puzzle.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "An Expert Reviewed add-on, where a bookkeeper checks reconciliations, costs $171 a month for up to $10,000 in monthly expenses.", "sourceUrl": "https://puzzle.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Yearly billing is offered as 12 months for the price of 10.", "sourceUrl": "https://puzzle.io/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 30, "billing": "month", "unit": "per account", "notes": "1 seat. Cash and accrual books, unlimited connections, auto-drafted financial statements" },
+      { "name": "Core", "priceUsd": 72, "billing": "month", "unit": "per account", "notes": "5 seats. Adds advanced reporting and custom chart of accounts" },
+      { "name": "Complete", "priceUsd": 120, "billing": "month", "unit": "per account", "notes": "Unlimited seats. Adds AI-powered reconciliations and accuracy review" },
+      { "name": "Scale", "priceUsd": 360, "billing": "month", "unit": "per account", "notes": "Unlimited seats. Adds subledgers, no transaction limits and 300 AI credits a month" }
+    ],
+    "hiddenCosts": [
+      "AI-prepared reconciliations are not on Starter or Core.",
+      "Expert Reviewed bookkeeping is $171 a month on top of a Core plan, and Full Service is priced by an expense slider with no figures shown."
+    ],
+    "sourceUrl": "https://puzzle.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Plaid"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

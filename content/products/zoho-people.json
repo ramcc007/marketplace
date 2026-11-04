@@ -1,0 +1,47 @@
+{
+  "name": "Zoho People",
+  "status": "published",
+  "vendor": { "name": "Zoho Corporation", "website": "https://www.zoho.com" },
+  "primaryCategory": "hris",
+  "summary": "Zoho People is an HRIS with a free plan and four paid plans: Essential HR, Professional, Premium and Enterprise. Paid plans need at least 5 users and come with a 30-day trial. The pricing pages we could read show no dollar amounts, and they disagree on how many users the free plan allows.",
+  "qualifies": [
+    {
+      "category": "hris",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employee records", "sourceUrl": "https://www.zoho.com/people/features.html" },
+        { "capability": "time-off tracking", "sourceUrl": "https://www.zoho.com/people/features.html" },
+        { "capability": "hr reports", "sourceUrl": "https://www.zoho.com/people/features.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page says the Free plan includes employee database management and time-off management, and that accounts move to the Free plan when the trial ends.", "sourceUrl": "https://www.zoho.com/people/zohopeople-pricing.html", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page puts HR reports in Essential HR, attendance and timesheets in Professional, and performance, compensation and advanced HR analytics in Premium.", "sourceUrl": "https://www.zoho.com/people/zohopeople-pricing.html", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says the Free plan is free for up to 53 users.", "sourceUrl": "https://www.zoho.com/people/zohopeople-pricing.html", "checkedAt": "2026-11-04" },
+    { "text": "The pricing comparison page says Free for 5 users in one table and Free for 3 users in another.", "sourceUrl": "https://www.zoho.com/people/pricing-comparison.html", "checkedAt": "2026-11-04" },
+    { "text": "Companies with more than 500 users are directed to request a quote.", "sourceUrl": "https://www.zoho.com/people/zohopeople-pricing.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "User limit differs between Zoho pages: 53, 5 or 3" },
+      { "name": "Essential HR", "priceUsd": null, "billing": "month", "unit": "per user", "notes": "At least 5 users. Price not visible in the page text we could read" },
+      { "name": "Professional", "priceUsd": null, "billing": "month", "unit": "per user", "notes": "At least 5 users. Price not visible in the page text we could read" },
+      { "name": "Premium", "priceUsd": null, "billing": "month", "unit": "per user", "notes": "At least 5 users. Price not visible in the page text we could read" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "month", "unit": "per user", "notes": "At least 5 users. Price not visible in the page text we could read" }
+    ],
+    "hiddenCosts": [
+      "Dollar amounts for the paid plans did not appear in the page text we could read, so check the live page before budgeting.",
+      "Attendance, timesheets, performance and analytics sit in higher plans than the basic HR plan."
+    ],
+    "sourceUrl": "https://www.zoho.com/people/zohopeople-pricing.html",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

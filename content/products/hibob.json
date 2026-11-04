@@ -1,0 +1,40 @@
+{
+  "name": "HiBob",
+  "status": "published",
+  "vendor": { "name": "HiBob", "website": "https://www.hibob.com" },
+  "primaryCategory": "hris",
+  "summary": "HiBob sells Bob, an HR platform whose core module holds structured employee records, time off policies and people analytics dashboards. Its pricing page shows no prices and sends buyers to a demo form, so the cost is quote only.",
+  "qualifies": [
+    {
+      "category": "hris",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employee records", "sourceUrl": "https://www.hibob.com/platform/core/self-service/" },
+        { "capability": "time-off tracking", "sourceUrl": "https://www.hibob.com/platform/payroll/time-and-attendance/" },
+        { "capability": "hr reports", "sourceUrl": "https://www.hibob.com/platform/core/analytics/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The time and attendance page says time off policies can be set by location, department or employee group, and covers holidays, sick days and PTO.", "sourceUrl": "https://www.hibob.com/platform/payroll/time-and-attendance/", "checkedAt": "2026-11-04" },
+    { "text": "The analytics page lists configurable HR dashboard views with role-based data access.", "sourceUrl": "https://www.hibob.com/platform/core/analytics/", "checkedAt": "2026-11-04" },
+    { "text": "The home page shows SOC 2 and ISO 27001 badge images but states neither certification in text.", "sourceUrl": "https://www.hibob.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "The pricing page offers only a demo request form" }
+    ],
+    "hiddenCosts": [
+      "No plan names, prices or minimums are published."
+    ],
+    "sourceUrl": "https://www.hibob.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

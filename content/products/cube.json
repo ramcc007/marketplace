@@ -1,0 +1,63 @@
+{
+  "name": "Cube",
+  "status": "published",
+  "vendor": { "name": "Cube Software", "website": "https://www.cubesoftware.com" },
+  "primaryCategory": "budgeting-forecasting",
+  "summary": "Cube puts annual budgeting, rolling forecasts, scenario planning and variance analysis on top of Excel and Google Sheets. It publishes no prices: Bronze, Silver and Gold are quoted by entity count, with 1, up to 10 and up to 50 legal entities, and all plans include unlimited users.",
+  "qualifies": [
+    {
+      "category": "budgeting-forecasting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "budget models", "sourceUrl": "https://www.cubesoftware.com/annual-budget-rolling-forecast" },
+        { "capability": "forecasts and scenarios", "sourceUrl": "https://www.cubesoftware.com/scenario-planning" },
+        { "capability": "variance reports", "sourceUrl": "https://www.cubesoftware.com/variance-analysis" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page says no prices are published and that pricing is configured with each customer around entities, sources and teams.", "sourceUrl": "https://www.cubesoftware.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Cube states that it is SOC 1 and SOC 2 Type II certified and HIPAA compliant, with reports available on request.", "sourceUrl": "https://www.cubesoftware.com/security", "checkedAt": "2026-11-04" },
+    { "text": "Multicurrency consolidation is an add-on on Bronze and Silver and is included in Gold.", "sourceUrl": "https://www.cubesoftware.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Companies with more than 50 entities or more than 1 TB of data are directed to a custom Strategic quote.", "sourceUrl": "https://www.cubesoftware.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Bronze", "priceUsd": null, "billing": "quote", "unit": "1 legal entity", "notes": "4 hours of training; no Slack, Teams, SSO or advanced role-based access listed" },
+      { "name": "Silver", "priceUsd": null, "billing": "quote", "unit": "up to 10 legal entities", "notes": "12 hours of training; adds Slack, Teams, workflows, SSO and advanced role-based access" },
+      { "name": "Gold", "priceUsd": null, "billing": "quote", "unit": "up to 50 legal entities", "notes": "Includes everything in Silver; the plan card and comparison table disagree on whether premium support is included" },
+      { "name": "Strategic", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "For 50 or more entities or more than 1 TB of data" }
+    ],
+    "hiddenCosts": [
+      "Premium Support+, Additional Modules and API Access are add-ons on any plan, and none has a published price.",
+      "Multicurrency consolidation is an add-on on Bronze and Silver."
+    ],
+    "sourceUrl": "https://www.cubesoftware.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": true,
+    "ssoPlan": "Silver and above",
+    "sourceUrl": "https://www.cubesoftware.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.cubesoftware.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Excel", "Google Sheets", "Oracle", "Sage", "Microsoft Dynamics 365", "Salesforce", "HubSpot", "ADP", "Snowflake", "MongoDB"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

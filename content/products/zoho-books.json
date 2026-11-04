@@ -1,0 +1,49 @@
+{
+  "name": "Zoho Books",
+  "status": "published",
+  "vendor": { "name": "Zoho Corporation", "website": "https://www.zoho.com/us/books/" },
+  "primaryCategory": "accounting",
+  "summary": "Zoho Books has a free plan for businesses with revenue under $50,000 and five paid tiers from $20 a month on monthly billing. Bank feeds and statement imports in six file formats feed a matching tool for reconciliation, and a detailed general ledger report exports opening and closing balances. Profit and loss, balance sheet and cash flow reports are included.",
+  "qualifies": [
+    {
+      "category": "accounting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "general ledger", "sourceUrl": "https://www.zoho.com/us/books/kb/reports/detailed-general-ledger.html" },
+        { "capability": "bank feeds and reconciliation", "sourceUrl": "https://www.zoho.com/us/books/accounting-software/bank-reconciliation/" },
+        { "capability": "financial statements", "sourceUrl": "https://www.zoho.com/us/books/help/reports/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Free plan stays free while revenue for the financial year does not exceed $50,000, and covers 1 user plus 1 accountant and 1,000 invoices a year.", "sourceUrl": "https://www.zoho.com/us/books/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Extra users cost $3 a month each, or $2.50 a month on annual billing, and add-ons are not supported on the Free plan.", "sourceUrl": "https://www.zoho.com/us/books/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Statements can be imported in CSV, TSV, XLS, OFX, QIF and CAMT.053 formats, and bank feed connections run through third-party providers.", "sourceUrl": "https://www.zoho.com/us/books/accounting-software/bank-reconciliation/", "checkedAt": "2026-11-04" },
+    { "text": "The Detailed General Ledger export shows opening and closing balances for all accounts with a row for every transaction.", "sourceUrl": "https://www.zoho.com/us/books/kb/reports/detailed-general-ledger.html", "checkedAt": "2026-11-04" },
+    { "text": "The reports list includes Profit and Loss, Cash Flow Statement and Balance Sheet.", "sourceUrl": "https://www.zoho.com/us/books/help/reports/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per organization", "notes": "1 user plus 1 accountant, 1,000 invoices and 1,000 bills a year. Free while yearly revenue stays at or under $50,000" },
+      { "name": "Standard", "priceUsd": 20, "billing": "month", "unit": "per organization", "notes": "3 users, 5,000 invoices a year. $15 a month on annual billing" },
+      { "name": "Professional", "priceUsd": 50, "billing": "month", "unit": "per organization", "notes": "5 users, 10,000 invoices a year. $40 a month on annual billing" },
+      { "name": "Premium", "priceUsd": 70, "billing": "month", "unit": "per organization", "notes": "10 users, 25,000 invoices a year. $60 a month on annual billing" },
+      { "name": "Elite", "priceUsd": 150, "billing": "month", "unit": "per organization", "notes": "10 users, 100,000 invoices a year. $120 a month on annual billing" },
+      { "name": "Ultimate", "priceUsd": 275, "billing": "month", "unit": "per organization", "notes": "15 users, 100,000 invoices a year. $240 a month on annual billing" }
+    ],
+    "hiddenCosts": [
+      "Extra users cost $3 a month each ($2.50 on annual billing).",
+      "The Free plan ends when yearly revenue passes $50,000.",
+      "Prices exclude local taxes."
+    ],
+    "sourceUrl": "https://www.zoho.com/us/books/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Paycor",
+  "status": "published",
+  "vendor": { "name": "Paycor", "website": "https://www.paycor.com" },
+  "primaryCategory": "hris",
+  "summary": "Paycor is an HR and payroll suite with an HR software module for employee information and documents, and an analytics module with custom dashboards and up to seven years of workforce history. Its plans page splits buyers into below 50 employees and 50 or more, and asks for a custom quote.",
+  "qualifies": [
+    {
+      "category": "hris",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employee records", "sourceUrl": "https://www.paycor.com/hcm-software/hr-software/" },
+        { "capability": "time-off tracking", "sourceUrl": "https://www.paycor.com/hcm-software/payroll-software/mobile-app/" },
+        { "capability": "hr reports", "sourceUrl": "https://www.paycor.com/hcm-software/analytics/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The analytics page lists custom dashboards, scheduled report delivery and up to seven years of workforce data.", "sourceUrl": "https://www.paycor.com/hcm-software/analytics/", "checkedAt": "2026-11-04" },
+    { "text": "The mobile app page describes PTO requests from the app and manager approval, and does not mention viewing time off balances.", "sourceUrl": "https://www.paycor.com/hcm-software/payroll-software/mobile-app/", "checkedAt": "2026-11-04" },
+    { "text": "The HR software page lists reporting on turnover, headcount and gender pay equity.", "sourceUrl": "https://www.paycor.com/hcm-software/hr-software/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Below 50 employees", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom price quote after a short questionnaire" },
+      { "name": "50 to 1,000+ employees", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Mid-market plans, quoted" }
+    ],
+    "hiddenCosts": [
+      "No prices or minimums are published on the plans page."
+    ],
+    "sourceUrl": "https://www.paycor.com/plans-pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "OrangeHRM",
+  "status": "published",
+  "vendor": { "name": "OrangeHRM", "website": "https://www.orangehrm.com" },
+  "primaryCategory": "leave-management",
+  "summary": "OrangeHRM offers a free open-source Starter edition with a leave management module, and sells an Advanced edition per employee per month on a quote. Its pricing page lists request and approval, a PTO calendar and automated PTO accrual for Advanced, with a 30-day trial. No price is published.",
+  "qualifies": [
+    {
+      "category": "leave-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "leave requests and approvals", "sourceUrl": "https://www.orangehrm.com/en/pricing/" },
+        { "capability": "accrual policies", "sourceUrl": "https://www.orangehrm.com/en/pricing/" },
+        { "capability": "team calendar", "sourceUrl": "https://www.orangehrm.com/en/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page describes Starter as free and open-source HR software, and says Advanced pricing operates per employee per month and needs a quote through a form.", "sourceUrl": "https://www.orangehrm.com/en/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The comparison table lists Request/Approve Leave, PTO Calendar, Advanced Leave Configuration and Automated PTO Accrual, but marks tiers with unlabeled icons. We could not confirm from the text which sub-features Starter includes.", "sourceUrl": "https://www.orangehrm.com/en/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The 30-day free trial is listed for the Advanced edition, which is the one that needs a quote.", "sourceUrl": "https://www.orangehrm.com/en/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Starter", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Free and open source; self-hosted" },
+      { "name": "Advanced", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "Per employee per month; quote through a form, modules selectable" }
+    ],
+    "hiddenCosts": [
+      "Advanced has no published price, so a buyer cannot compare it before contacting sales.",
+      "The pricing page marks features by tier with unlabeled icons, so check in the trial which leave features Starter includes."
+    ],
+    "sourceUrl": "https://www.orangehrm.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "ADP Workforce Now",
+  "status": "published",
+  "vendor": { "name": "ADP, Inc.", "website": "https://www.adp.com" },
+  "primaryCategory": "hris",
+  "summary": "ADP Workforce Now is a payroll and HR platform sold in three packages named Select, Plus and Premium. Plus adds benefits administration to Select, and Premium adds time tracking to Plus. The product page shows Get pricing buttons that lead to a form and lists no prices.",
+  "qualifies": [
+    {
+      "category": "hris",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employee records", "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx" },
+        { "capability": "time-off tracking", "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx" },
+        { "capability": "hr reports", "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The page describes a single connected view of workforce data, time off requests made in a few clicks, and an analytics portal for running reports from one dashboard.", "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx", "checkedAt": "2026-11-04" },
+    { "text": "Premium adds time tracking to Plus, so time and attendance is not in the lower two packages.", "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Select", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Get pricing form" },
+      { "name": "Plus", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Adds benefits administration to Select" },
+      { "name": "Premium", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Adds time tracking to Plus" }
+    ],
+    "hiddenCosts": [
+      "No prices are published, and the pricing form first asks whether the company already uses ADP."
+    ],
+    "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-workforce-now.aspx",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Pigment",
+  "status": "published",
+  "vendor": { "name": "Pigment", "website": "https://www.pigment.com" },
+  "primaryCategory": "budgeting-forecasting",
+  "summary": "Pigment is a planning platform where finance teams build integrated plans, re-forecast as assumptions change, try one-click scenarios and run variance analysis in the same tool as the budget. Its homepage shows no prices and offers a free trial sign-up and a demo.",
+  "qualifies": [
+    {
+      "category": "budgeting-forecasting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "budget models", "sourceUrl": "https://www.pigment.com/use-case/finance" },
+        { "capability": "forecasts and scenarios", "sourceUrl": "https://www.pigment.com/use-case/finance" },
+        { "capability": "variance reports", "sourceUrl": "https://www.pigment.com/use-case/finance" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The homepage lists no prices or plan tiers; its two calls to action are Start free trial and Book a demo.", "sourceUrl": "https://www.pigment.com/", "checkedAt": "2026-11-04" },
+    { "text": "The finance use case page says variance analysis runs on the same platform used to build the budget.", "sourceUrl": "https://www.pigment.com/use-case/finance", "checkedAt": "2026-11-04" },
+    { "text": "The page marks the Planner Agent, which is meant to simulate scenarios and forecast, as coming soon.", "sourceUrl": "https://www.pigment.com/use-case/finance", "checkedAt": "2026-11-04" },
+    { "text": "The homepage makes no SOC 2 or ISO 27001 statement.", "sourceUrl": "https://www.pigment.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Pigment", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices published on the homepage; trial length is not stated" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.pigment.com/",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.pigment.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

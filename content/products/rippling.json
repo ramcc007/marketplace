@@ -1,0 +1,41 @@
+{
+  "name": "Rippling",
+  "status": "published",
+  "vendor": { "name": "Rippling", "website": "https://www.rippling.com" },
+  "primaryCategory": "hris",
+  "summary": "Rippling sells HR, payroll and IT as separate products on one employee record. Its pricing page says plans start at $8 per employee per month plus a monthly base fee whose amount is not shown, and the total comes from a custom quote based on the products chosen.",
+  "qualifies": [
+    {
+      "category": "hris",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employee records", "sourceUrl": "https://www.rippling.com/hris" },
+        { "capability": "time-off tracking", "sourceUrl": "https://www.rippling.com/hris" },
+        { "capability": "hr reports", "sourceUrl": "https://www.rippling.com/hris" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The HRIS page describes custom PTO policies, request approval and real-time balances, and a report builder for reports and dashboards.", "sourceUrl": "https://www.rippling.com/hris", "checkedAt": "2026-11-04" },
+    { "text": "The HRIS page cites more than 650 integrations, including Slack, Microsoft Teams, Zoom and Salesforce.", "sourceUrl": "https://www.rippling.com/hris", "checkedAt": "2026-11-04" },
+    { "text": "A startup program gives eligible US VC-backed startups free access for 6 months, depending on funding status and stage.", "sourceUrl": "https://www.rippling.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Per product", "priceUsd": 8, "billing": "month", "unit": "per employee", "notes": "Starting price. A monthly base fee also applies and its amount is not published. Final price comes from a custom quote" }
+    ],
+    "hiddenCosts": [
+      "The monthly base fee is not stated on the pricing page.",
+      "Cost depends on which products are selected and on headcount, so the $8 figure covers one product only."
+    ],
+    "sourceUrl": "https://www.rippling.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "Zoom", "Microsoft 365", "Salesforce"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

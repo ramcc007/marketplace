@@ -1,0 +1,53 @@
+{
+  "name": "Digits",
+  "status": "published",
+  "vendor": { "name": "Digits", "website": "https://digits.com" },
+  "primaryCategory": "accounting",
+  "summary": "Digits is AI-assisted accounting software priced per month with no setup fee: Essentials at $65 and Core at $100, with a $250 Pro plan listed as coming soon. Every tier lists bank, card and payroll connections to 12,000+ providers, automated reconciliation and live profit and loss, balance sheet and cash flow statements. Digits states SOC 2 Type II compliance.",
+  "qualifies": [
+    {
+      "category": "accounting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "general ledger", "sourceUrl": "https://digits.com/pricing" },
+        { "capability": "bank feeds and reconciliation", "sourceUrl": "https://digits.com/pricing" },
+        { "capability": "financial statements", "sourceUrl": "https://digits.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Digits states that it is SOC 2 Type II compliant.", "sourceUrl": "https://digits.com/security", "checkedAt": "2026-11-04" },
+    { "text": "Additional entities are free up to 250 transactions a year, then start at $35 a month.", "sourceUrl": "https://digits.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page offers a 30-day free trial and no setup fees, and notes that sales tax may apply depending on location.", "sourceUrl": "https://digits.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists the ledger as drill-down from category to transaction, which is the closest it comes to naming a general ledger.", "sourceUrl": "https://digits.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Essentials", "priceUsd": 65, "billing": "month", "unit": "per account", "notes": "For solopreneurs and early-stage businesses" },
+      { "name": "Core", "priceUsd": 100, "billing": "month", "unit": "per account", "notes": "Marked most popular, for small and growing businesses" },
+      { "name": "Pro", "priceUsd": 250, "billing": "month", "unit": "per account", "notes": "Listed as coming soon. For businesses with internal finance teams" }
+    ],
+    "hiddenCosts": [
+      "Additional entities cost $35 a month or more once they pass 250 transactions a year.",
+      "The page does not state user or seat limits for the business plans."
+    ],
+    "sourceUrl": "https://digits.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://digits.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

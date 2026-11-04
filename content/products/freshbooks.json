@@ -1,0 +1,130 @@
+{
+  "name": "FreshBooks",
+  "status": "published",
+  "vendor": {
+    "name": "FreshBooks",
+    "website": "https://www.freshbooks.com"
+  },
+  "primaryCategory": "accounting",
+  "summary": "FreshBooks prices by billable client, not by transaction, with plans for 5, 50 or unlimited clients. The chart of accounts, general ledger report and bank reconciliation are limited to the Plus, Premium and Select plans, so the $23 Lite plan does not include the accounting core. Extra team members cost $11 a month each.",
+  "qualifies": [
+    {
+      "category": "accounting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "general ledger",
+          "sourceUrl": "https://support.freshbooks.com/hc/en-us/articles/360006976571-What-is-the-Chart-of-Accounts"
+        },
+        {
+          "capability": "bank feeds and reconciliation",
+          "sourceUrl": "https://support.freshbooks.com/hc/en-us/articles/360040117691-How-do-I-set-up-bank-reconciliation"
+        },
+        {
+          "capability": "financial statements",
+          "sourceUrl": "https://support.freshbooks.com/hc/en-us/articles/360006976571-What-is-the-Chart-of-Accounts"
+        }
+      ]
+    },
+    {
+      "category": "invoicing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "invoice creation",
+          "sourceUrl": "https://support.freshbooks.com/hc/en-us/articles/216631328-How-do-I-create-an-invoice"
+        },
+        {
+          "capability": "online payment links",
+          "sourceUrl": "https://www.freshbooks.com/accept-payments"
+        },
+        {
+          "capability": "payment status tracking",
+          "sourceUrl": "https://support.freshbooks.com/hc/en-us/articles/216631328-How-do-I-create-an-invoice"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "text": "Advanced Accounting and the customizable chart of accounts are only available on the Plus, Premium and Select plans.",
+      "sourceUrl": "https://support.freshbooks.com/hc/en-us/articles/360006976571-What-is-the-Chart-of-Accounts",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Bank reconciliation is available on trial accounts and on Plus, Premium and Select only. Where bank connections are not available, a manual account with CSV uploads can be used.",
+      "sourceUrl": "https://support.freshbooks.com/hc/en-us/articles/360040117691-How-do-I-set-up-bank-reconciliation",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Accounts in the chart of accounts also appear in the General Ledger report.",
+      "sourceUrl": "https://support.freshbooks.com/hc/en-us/articles/360006976571-What-is-the-Chart-of-Accounts",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "The pricing page lists an 80% discount for the first 4 months on Lite, Plus and Premium.",
+      "sourceUrl": "https://www.freshbooks.com/pricing",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Payroll is an add-on at $40 a month plus $6 a month per user, and Advanced Payments is $20 a month on Lite, Plus and Premium.",
+      "sourceUrl": "https://www.freshbooks.com/pricing",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      {
+        "name": "Lite",
+        "priceUsd": 23,
+        "billing": "month",
+        "unit": "per account",
+        "notes": "5 billable clients. Does not include the accounting features. Listed promotion: $4.60 a month for the first 4 months"
+      },
+      {
+        "name": "Plus",
+        "priceUsd": 43,
+        "billing": "month",
+        "unit": "per account",
+        "notes": "50 billable clients. Listed promotion: $8.60 a month for the first 4 months"
+      },
+      {
+        "name": "Premium",
+        "priceUsd": 70,
+        "billing": "month",
+        "unit": "per account",
+        "notes": "Unlimited billable clients. Listed promotion: $14 a month for the first 4 months"
+      },
+      {
+        "name": "Select",
+        "priceUsd": null,
+        "billing": "quote",
+        "unit": "per account",
+        "notes": "Unlimited billable clients and 2 team member accounts included. Price not published"
+      }
+    ],
+    "hiddenCosts": [
+      "Each extra team member costs $11 a month on every plan.",
+      "The chart of accounts, general ledger and bank reconciliation are not on Lite, so the first accounting plan is Plus at $43.",
+      "Payroll adds $40 a month plus $6 a month per user, and Advanced Payments adds $20 a month on Lite, Plus and Premium."
+    ],
+    "sourceUrl": "https://www.freshbooks.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.freshbooks.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

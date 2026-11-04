@@ -1,0 +1,57 @@
+{
+  "name": "Prophix",
+  "status": "published",
+  "vendor": { "name": "Prophix", "website": "https://www.prophix.com" },
+  "primaryCategory": "budgeting-forecasting",
+  "summary": "Prophix One handles department budgets with approval routing, rolling 12 or 18 month forecasts, base, upside and downside cases in one model, and budget versus actual variance across entities and cost centers. Prices are not published, so every buyer starts with a demo or a call.",
+  "qualifies": [
+    {
+      "category": "budgeting-forecasting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "budget models", "sourceUrl": "https://www.prophix.com/use-case/budgeting-planning/" },
+        { "capability": "forecasts and scenarios", "sourceUrl": "https://www.prophix.com/use-case/forecasting/" },
+        { "capability": "variance reports", "sourceUrl": "https://www.prophix.com/use-case/budgeting-planning/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page contains no dollar figures and offers a demo and a call; it points to a blog guide for the factors that affect cost.", "sourceUrl": "https://www.prophix.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The forecasting page describes a rolling 12 or 18 month view that extends each period as actuals arrive, and base, upside and downside cases compared side by side.", "sourceUrl": "https://www.prophix.com/use-case/forecasting/", "checkedAt": "2026-11-04" },
+    { "text": "Prophix states SOC 2 Type II and ISAE 3402 Type 2 attestations and ISO 27001, 27017 and 27018 certifications.", "sourceUrl": "https://www.prophix.com/security/", "checkedAt": "2026-11-04" },
+    { "text": "The security page does not mention GDPR or HIPAA.", "sourceUrl": "https://www.prophix.com/security/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Prophix One", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices or plan tiers published; the page offers Watch Demo and Book a call" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.prophix.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.prophix.com/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.prophix.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["PointClickCare"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

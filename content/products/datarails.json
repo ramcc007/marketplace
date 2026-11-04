@@ -1,0 +1,52 @@
+{
+  "name": "Datarails",
+  "status": "published",
+  "vendor": { "name": "Datarails", "website": "https://www.datarails.com" },
+  "primaryCategory": "budgeting-forecasting",
+  "summary": "Datarails keeps finance teams in Excel while adding budgeting, rolling forecasts, scenario modeling with cycle cloning, and comparisons of actuals with budget or the latest forecast. Plans are quoted: Professional includes 2 users, Premium 5 and Expert 15 plus 50 viewers.",
+  "qualifies": [
+    {
+      "category": "budgeting-forecasting",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "budget models", "sourceUrl": "https://www.datarails.com/solutions/planning-budgeting-forecasting/" },
+        { "capability": "forecasts and scenarios", "sourceUrl": "https://www.datarails.com/solutions/planning-budgeting-forecasting/" },
+        { "capability": "variance reports", "sourceUrl": "https://www.datarails.com/variance-analysis/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page shows only Request Quote buttons, and its FAQ says exact pricing is not publicly documented.", "sourceUrl": "https://www.datarails.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The variance page says users can compare actuals with budget, with the latest forecast, or year over year.", "sourceUrl": "https://www.datarails.com/variance-analysis/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page counts 1, 2 and 3 integrations for Professional, Premium and Expert, so connecting more data sources may change the quote.", "sourceUrl": "https://www.datarails.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The site names more than 600 data sources, including NetSuite, Xero, Sage, QuickBooks, Dynamics 365, Salesforce and HubSpot.", "sourceUrl": "https://www.datarails.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Professional", "priceUsd": null, "billing": "quote", "unit": "2 users, 1 integration", "notes": "Planning, dashboards and reporting included" },
+      { "name": "Premium", "priceUsd": null, "billing": "quote", "unit": "5 users, 2 integrations", "notes": "Adds spend management (cards, bill pay, contracts)" },
+      { "name": "Expert", "priceUsd": null, "billing": "quote", "unit": "15 users and 50 viewers, 3 integrations", "notes": "Adds cash management, month-end close, receivables and a desk module" }
+    ],
+    "hiddenCosts": [
+      "Each plan caps users and integrations, so extra seats or data connections are likely to change the quote."
+    ],
+    "sourceUrl": "https://www.datarails.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.datarails.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Excel", "Oracle NetSuite", "Xero", "Sage", "QuickBooks", "Microsoft Dynamics 365", "HubSpot", "Salesforce", "Snowflake", "Power BI", "ADP", "Workday"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
