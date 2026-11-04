@@ -1,0 +1,46 @@
+{
+  "name": "Smartsheet",
+  "status": "published",
+  "vendor": { "name": "Smartsheet Inc.", "website": "https://www.smartsheet.com" },
+  "primaryCategory": "project-management",
+  "summary": "Smartsheet has no free plan. Pro costs $9 per member a month billed yearly for 1 to 10 members, and Business costs $19 for 3 or more members. Grid, Gantt, calendar, table and board views come with every plan, and a 30-day trial is offered.",
+  "qualifies": [
+    {
+      "category": "project-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "task lists and boards", "sourceUrl": "https://www.smartsheet.com/pricing" },
+        { "capability": "timelines", "sourceUrl": "https://www.smartsheet.com/pricing" },
+        { "capability": "team collaboration on tasks", "sourceUrl": "https://www.smartsheet.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Grid, Gantt, Calendar, Table and Board views are included on all four plans, and a Timeline view needs Business or higher.", "sourceUrl": "https://www.smartsheet.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Comments and conversations, and assigning people to work, are included on all plans.", "sourceUrl": "https://www.smartsheet.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "SAML single sign-on is listed for Enterprise and Advanced Work Management, while every plan allows sign-in with a Google, Microsoft or Apple account.", "sourceUrl": "https://www.smartsheet.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The page says the Pro plan is only available to new customers.", "sourceUrl": "https://www.smartsheet.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Pro", "priceUsd": 9, "billing": "month", "unit": "per member", "notes": "Billed yearly. $12 on monthly billing. For 1 to 10 members" },
+      { "name": "Business", "priceUsd": 19, "billing": "month", "unit": "per member", "notes": "Billed yearly. $24 on monthly billing. For 3 or more members" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per member", "notes": "For 10 or more members. Includes SAML sign-in" },
+      { "name": "Advanced Work Management", "priceUsd": null, "billing": "quote", "unit": "per member", "notes": "Custom pricing" }
+    ],
+    "hiddenCosts": [
+      "The Timeline view and larger teams need Business, which has a 3-member minimum.",
+      "SAML single sign-on needs a quoted plan."
+    ],
+    "sourceUrl": "https://www.smartsheet.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": null, "iso27001": null, "gdpr": null, "hipaa": null, "ssoPlan": "Enterprise (SAML)", "sourceUrl": "https://www.smartsheet.com/pricing", "checkedAt": "2026-11-04" },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "monday.com",
+  "status": "published",
+  "vendor": { "name": "monday.com Ltd.", "website": "https://monday.com" },
+  "primaryCategory": "project-management",
+  "summary": "monday.com sells work management plans from $9 per seat a month on annual billing, with Standard at $12 and Pro at $19. Paid plans start at three users, and timeline and Gantt views begin on Standard. The free plan allows 2 seats and 3 boards.",
+  "qualifies": [
+    {
+      "category": "project-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "task lists and boards", "sourceUrl": "https://monday.com/features/kanban" },
+        { "capability": "timelines", "sourceUrl": "https://monday.com/work-management" },
+        { "capability": "team collaboration on tasks", "sourceUrl": "https://monday.com/work-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The free plan is limited to 2 seats, 3 boards and 3 docs.", "sourceUrl": "https://monday.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says plans start from 3 users, and plans for more than 40 users are quoted.", "sourceUrl": "https://monday.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Timeline and Gantt views are included from the Standard plan, not on Basic or Free.", "sourceUrl": "https://monday.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page mentions a 14-day free trial of the Pro plan.", "sourceUrl": "https://monday.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per seat", "notes": "Up to 2 seats" },
+      { "name": "Basic", "priceUsd": 9, "billing": "month", "unit": "per seat", "notes": "Billed annually" },
+      { "name": "Standard", "priceUsd": 12, "billing": "month", "unit": "per seat", "notes": "Billed annually. Adds timeline and Gantt views" },
+      { "name": "Pro", "priceUsd": 19, "billing": "month", "unit": "per seat", "notes": "Billed annually" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per seat", "notes": "Quote only" }
+    ],
+    "hiddenCosts": [
+      "Prices exclude tax.",
+      "Paid plans start at three users, so a two-person team pays for three seats or uses the free plan.",
+      "The vendor says monthly billing is not discounted, and the pricing page lists annual prices."
+    ],
+    "sourceUrl": "https://monday.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": { "annualOnly": null, "minSeats": 3, "autoRenew": null, "cancellation": null, "dataExport": null, "sourceUrl": "https://monday.com/pricing", "checkedAt": "2026-11-04" },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

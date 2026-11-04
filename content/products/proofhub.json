@@ -1,0 +1,43 @@
+{
+  "name": "ProofHub",
+  "status": "published",
+  "vendor": { "name": "Ideascale Inc. (ProofHub)", "website": "https://www.proofhub.com" },
+  "primaryCategory": "project-management",
+  "summary": "ProofHub charges a flat monthly fee instead of a per-user price. Essential costs $45 a month billed annually for 40 projects, and Ultimate Control costs $89 for unlimited projects, before a stated rise to $135. Both plans allow unlimited users.",
+  "qualifies": [
+    {
+      "category": "project-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "task lists and boards", "sourceUrl": "https://www.proofhub.com/" },
+        { "capability": "timelines", "sourceUrl": "https://www.proofhub.com/" },
+        { "capability": "team collaboration on tasks", "sourceUrl": "https://www.proofhub.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Both plans allow unlimited users with no per-user fee: Essential includes 40 projects and 15GB, and Ultimate Control includes unlimited projects and 100GB.", "sourceUrl": "https://www.proofhub.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing FAQ says Ultimate Control is $89 a month on annual billing or $99 on monthly billing for the first three months, then rises to $135 or $150.", "sourceUrl": "https://www.proofhub.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The home page describes task lists, board columns, Gantt charts with dependencies, and discussions and comments.", "sourceUrl": "https://www.proofhub.com/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page does not mention single sign-on.", "sourceUrl": "https://www.proofhub.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Essential", "priceUsd": 45, "billing": "month", "unit": "per account", "notes": "Billed annually. $50 on monthly billing. 40 projects, unlimited users" },
+      { "name": "Ultimate Control", "priceUsd": 89, "billing": "month", "unit": "per account", "notes": "Billed annually. $99 on monthly billing. Rises to $135 and $150 after three months per the FAQ" }
+    ],
+    "hiddenCosts": [
+      "The Ultimate Control price rises after three months, from $89 to $135 a month on annual billing.",
+      "The vendor can end the promotional price without notice."
+    ],
+    "sourceUrl": "https://www.proofhub.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

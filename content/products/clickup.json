@@ -1,0 +1,47 @@
+{
+  "name": "ClickUp",
+  "status": "published",
+  "vendor": { "name": "Mango Technologies, Inc. (ClickUp)", "website": "https://clickup.com" },
+  "primaryCategory": "project-management",
+  "summary": "ClickUp has a free plan with unlimited tasks and free members. Core costs $9 per user a month billed yearly, and Business costs $17. Board and list views are on every plan, while the timeline view needs Business and SAML sign-in needs Enterprise.",
+  "qualifies": [
+    {
+      "category": "project-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "task lists and boards", "sourceUrl": "https://clickup.com/pricing" },
+        { "capability": "timelines", "sourceUrl": "https://clickup.com/pricing" },
+        { "capability": "team collaboration on tasks", "sourceUrl": "https://clickup.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Board, List, Calendar and Table views are on every plan including Free, while Gantt charts are included from Core.", "sourceUrl": "https://clickup.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The Timeline view is included from Business and shown as a trial on the Free and Core plans.", "sourceUrl": "https://clickup.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The Free Forever plan caps file storage at 60 MB, with 5 Spaces, 100 automation actions a month and 5 active automation rules.", "sourceUrl": "https://clickup.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Google sign-in is listed from Business, and Microsoft, Okta and SAML sign-in from Enterprise.", "sourceUrl": "https://clickup.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free Forever", "priceUsd": 0, "billing": "month", "unit": "per user" },
+      { "name": "Core", "priceUsd": 9, "billing": "month", "unit": "per user", "notes": "Billed yearly. The page also shows a regular price of $12" },
+      { "name": "Business", "priceUsd": 17, "billing": "month", "unit": "per user", "notes": "Billed yearly. The page also shows a regular price of $25" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Contact sales" },
+      { "name": "Max", "priceUsd": 100, "billing": "month", "unit": "per user", "notes": "Billed yearly. The page also shows a regular price of $120" }
+    ],
+    "hiddenCosts": [
+      "The pricing page shows only yearly prices in its text, and it does not say how many days the trial features last.",
+      "Microsoft, Okta and SAML sign-in need Enterprise or Max."
+    ],
+    "sourceUrl": "https://clickup.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": null, "iso27001": null, "gdpr": null, "hipaa": null, "ssoPlan": "Enterprise (Google sign-in from Business)", "sourceUrl": "https://clickup.com/pricing", "checkedAt": "2026-11-04" },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

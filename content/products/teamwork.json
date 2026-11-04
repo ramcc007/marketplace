@@ -1,0 +1,48 @@
+{
+  "name": "Teamwork.com",
+  "status": "published",
+  "vendor": { "name": "Teamwork.com", "website": "https://www.teamwork.com" },
+  "primaryCategory": "project-management",
+  "summary": "Teamwork.com has a free plan for up to 5 users with 5 projects. Basics costs $9.99 per user a month billed annually with a 3-user minimum, and Accelerate costs $24.99 with a 5-user minimum. Optimize and Enterprise are quoted.",
+  "qualifies": [
+    {
+      "category": "project-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "task lists and boards", "sourceUrl": "https://www.teamwork.com/pricing/" },
+        { "capability": "timelines", "sourceUrl": "https://www.teamwork.com/pricing/" },
+        { "capability": "team collaboration on tasks", "sourceUrl": "https://www.teamwork.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The free plan allows up to 5 users, 5 projects, 100 MB of file storage and 100 automations.", "sourceUrl": "https://www.teamwork.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page mentions task, list, board, Gantt and table views, with Gantt and board listed on the Basics plan.", "sourceUrl": "https://www.teamwork.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "All paid Teamwork.com plans include a 14-day free trial without a credit card.", "sourceUrl": "https://www.teamwork.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Single sign-on is listed under Enterprise only.", "sourceUrl": "https://www.teamwork.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Up to 5 users" },
+      { "name": "Basics", "priceUsd": 9.99, "billing": "month", "unit": "per user", "notes": "Billed annually. 3 users minimum" },
+      { "name": "Accelerate", "priceUsd": 24.99, "billing": "month", "unit": "per user", "notes": "Billed annually. 5 users minimum" },
+      { "name": "Optimize", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Contact sales" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Contact sales. Includes single sign-on" }
+    ],
+    "hiddenCosts": [
+      "The page publishes annual prices only and says annual billing saves about 29% against monthly billing.",
+      "Teamwork Desk, the help desk product, is priced separately."
+    ],
+    "sourceUrl": "https://www.teamwork.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": null, "iso27001": null, "gdpr": null, "hipaa": null, "ssoPlan": "Enterprise", "sourceUrl": "https://www.teamwork.com/pricing/", "checkedAt": "2026-11-04" },
+  "contract": { "annualOnly": null, "minSeats": 3, "autoRenew": null, "cancellation": null, "dataExport": null, "sourceUrl": "https://www.teamwork.com/pricing/", "checkedAt": "2026-11-04" },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

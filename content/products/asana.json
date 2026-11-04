@@ -1,0 +1,45 @@
+{
+  "name": "Asana",
+  "status": "published",
+  "vendor": { "name": "Asana, Inc.", "website": "https://asana.com" },
+  "primaryCategory": "project-management",
+  "summary": "Asana offers list, board and calendar views on a free plan for 2 users. Starter costs $10.99 per user a month on annual billing and adds timeline and Gantt views. Advanced costs $24.99, and Enterprise is quoted by sales.",
+  "qualifies": [
+    {
+      "category": "project-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "task lists and boards", "sourceUrl": "https://asana.com/pricing" },
+        { "capability": "timelines", "sourceUrl": "https://asana.com/pricing" },
+        { "capability": "team collaboration on tasks", "sourceUrl": "https://asana.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The free Personal plan covers 2 users, with unlimited tasks and projects and a 100MB limit per file.", "sourceUrl": "https://asana.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Timeline and Gantt views start on the Starter plan, and the pricing page lists unlimited comments among the project management essentials.", "sourceUrl": "https://asana.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "SAML sign-in is listed under Enterprise, while admins on paid plans can require Microsoft sign-in.", "sourceUrl": "https://asana.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Personal", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Free for 2 users" },
+      { "name": "Starter", "priceUsd": 10.99, "billing": "month", "unit": "per user", "notes": "Billed annually. $13.49 on monthly billing" },
+      { "name": "Advanced", "priceUsd": 24.99, "billing": "month", "unit": "per user", "notes": "Billed annually. $30.49 on monthly billing" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Contact sales" }
+    ],
+    "hiddenCosts": [
+      "Single sign-on through SAML needs the quote-only Enterprise plan.",
+      "The pricing page does not state a free trial."
+    ],
+    "sourceUrl": "https://asana.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": null, "iso27001": null, "gdpr": null, "hipaa": null, "ssoPlan": "Enterprise (SAML)", "sourceUrl": "https://asana.com/pricing", "checkedAt": "2026-11-04" },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

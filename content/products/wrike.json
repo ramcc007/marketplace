@@ -1,0 +1,47 @@
+{
+  "name": "Wrike",
+  "status": "published",
+  "vendor": { "name": "Wrike, Inc.", "website": "https://www.wrike.com" },
+  "primaryCategory": "project-management",
+  "summary": "Wrike prices Team at $10 per user a month for 2 to 15 users and Business at $25 for 5 to 200 users, both billed annually. Pinnacle and Apex are quoted. A free plan exists, and the pricing page cites a 14-day trial for new users.",
+  "qualifies": [
+    {
+      "category": "project-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "task lists and boards", "sourceUrl": "https://www.wrike.com/pricing/" },
+        { "capability": "timelines", "sourceUrl": "https://www.wrike.com/" },
+        { "capability": "team collaboration on tasks", "sourceUrl": "https://www.wrike.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page says amounts are per month and billed annually per user, and that Business plans and above are annual only.", "sourceUrl": "https://www.wrike.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Up to 30 seats are sold in groups of five, 30 to 100 seats in groups of 10, and above 100 in groups of 25.", "sourceUrl": "https://www.wrike.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The listed prices apply to new purchases on or after January 21, 2026.", "sourceUrl": "https://www.wrike.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The Gantt chart appears on the Team plan, and the board view appears on the Free plan.", "sourceUrl": "https://www.wrike.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per user" },
+      { "name": "Team", "priceUsd": 10, "billing": "month", "unit": "per user", "notes": "Billed annually. For 2 to 15 users" },
+      { "name": "Business", "priceUsd": 25, "billing": "month", "unit": "per user", "notes": "Billed annually. For 5 to 200 users" },
+      { "name": "Pinnacle", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Contact sales" },
+      { "name": "Apex", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Contact sales" }
+    ],
+    "hiddenCosts": [
+      "Business plans and above are annual only.",
+      "Seats are sold in blocks of five, so a team of 11 pays for 15 seats."
+    ],
+    "sourceUrl": "https://www.wrike.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": { "annualOnly": null, "minSeats": 2, "autoRenew": null, "cancellation": null, "dataExport": null, "sourceUrl": "https://www.wrike.com/pricing/", "checkedAt": "2026-11-04" },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

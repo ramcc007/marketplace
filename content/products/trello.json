@@ -1,0 +1,46 @@
+{
+  "name": "Trello",
+  "status": "published",
+  "vendor": { "name": "Atlassian Pty Ltd", "website": "https://trello.com" },
+  "primaryCategory": "project-management",
+  "summary": "Trello is a card and board tool from Atlassian. The free plan allows 10 collaborators and 10 boards per Workspace. Standard costs $5 per user a month on annual billing, Premium costs $10 and adds the timeline view, and Enterprise costs $17.50.",
+  "qualifies": [
+    {
+      "category": "project-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "task lists and boards", "sourceUrl": "https://trello.com/pricing" },
+        { "capability": "timelines", "sourceUrl": "https://trello.com/pricing" },
+        { "capability": "team collaboration on tasks", "sourceUrl": "https://trello.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The free plan allows up to 10 collaborators per Workspace, 10 boards per Workspace, 250 Workspace command runs a month and 10MB per file.", "sourceUrl": "https://trello.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Cards are unlimited on every plan, and assignee and due dates are included on Free and all paid plans.", "sourceUrl": "https://trello.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The timeline view is a Premium feature, which Enterprise also includes.", "sourceUrl": "https://trello.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "SAML sign-in comes from Atlassian Guard, a separate subscription starting at $4 per user a month, and Enterprise includes it.", "sourceUrl": "https://trello.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Up to 10 collaborators and 10 boards per Workspace" },
+      { "name": "Standard", "priceUsd": 5, "billing": "month", "unit": "per user", "notes": "Billed annually. $6 on monthly billing" },
+      { "name": "Premium", "priceUsd": 10, "billing": "month", "unit": "per user", "notes": "Billed annually. $12.50 on monthly billing. Adds the timeline view" },
+      { "name": "Enterprise", "priceUsd": 17.5, "billing": "year", "unit": "per user", "notes": "Listed as $210 per user a year, billed annually only" }
+    ],
+    "hiddenCosts": [
+      "SAML sign-in for Standard and Premium needs a separate Atlassian Guard subscription from $4 per user a month.",
+      "The pricing page offers a Premium trial but does not state how many days it lasts."
+    ],
+    "sourceUrl": "https://trello.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": null, "iso27001": null, "gdpr": null, "hipaa": null, "ssoPlan": "Enterprise (Atlassian Guard)", "sourceUrl": "https://trello.com/pricing", "checkedAt": "2026-11-04" },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
