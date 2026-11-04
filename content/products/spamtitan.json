@@ -1,0 +1,36 @@
+{
+  "name": "SpamTitan",
+  "status": "published",
+  "vendor": { "name": "TitanHQ", "website": "https://www.titanhq.com" },
+  "primaryCategory": "email-security",
+  "summary": "SpamTitan is TitanHQ's email filter with dual antivirus engines, sandboxing, an AI anti-phishing option and display-name impersonation tests. TitanHQ shows no prices on its pricing page, which points to Contact Sales and a quote form.",
+  "qualifies": [
+    {
+      "category": "email-security",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "phishing and malware filtering", "sourceUrl": "https://www.titanhq.com/email-protection/malware/" },
+        { "capability": "impersonation protection", "sourceUrl": "https://docs.titanhq.com/en/9009-anti-spoofing.html" },
+        { "capability": "quarantine management", "sourceUrl": "https://www.titanhq.com/email-protection/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The anti-spoofing documentation describes an ANTISPOOF_NAME test as impersonation protection against spam sent with the From name of a high profile person, plus a fuzzy-name test. Each triggered test adds 5 to the spam score.", "sourceUrl": "https://docs.titanhq.com/en/9009-anti-spoofing.html", "checkedAt": "2026-11-04" },
+    { "text": "TitanHQ says SpamTitan blocks phishing, ransomware and malicious email with dual antivirus scanning and sandboxing.", "sourceUrl": "https://www.titanhq.com/email-protection/", "checkedAt": "2026-11-04" },
+    { "text": "Quarantine reports let end users control their own quarantined mail.", "sourceUrl": "https://www.titanhq.com/email-protection/", "checkedAt": "2026-11-04" },
+    { "text": "SpamTitan Plus is described as an AI-driven anti-phishing solution.", "sourceUrl": "https://www.titanhq.com/email-protection/malware/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.titanhq.com/spamtitan/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

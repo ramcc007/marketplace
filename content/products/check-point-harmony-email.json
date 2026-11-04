@@ -1,0 +1,37 @@
+{
+  "name": "Check Point Harmony Email & Collaboration",
+  "status": "published",
+  "vendor": { "name": "Check Point Software Technologies", "website": "https://www.checkpoint.com" },
+  "primaryCategory": "email-security",
+  "summary": "Harmony Email & Collaboration is sold for Microsoft 365 and Gmail and includes anti-phishing, nickname impersonation checks and a quarantine workflow that can let users release suspected phishing. It comes in two packages, Advanced Protect and Complete Protect, priced by custom quote with a 14-day trial.",
+  "qualifies": [
+    {
+      "category": "email-security",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "phishing and malware filtering", "sourceUrl": "https://www.checkpoint.com/harmony/email-security/" },
+        { "capability": "impersonation protection", "sourceUrl": "https://sc1.checkpoint.com/documents/Harmony_Email_and_Collaboration/Email_Security/Admin_Guide/Topics/anti-phishing/anti-phishing-smart-phish.html" },
+        { "capability": "quarantine management", "sourceUrl": "https://blog.checkpoint.com/product-updates/release-suspected-phishing-without-admin-approval/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Check Point claims 99.9% malware prevention and 99.7% phishing prevention. These are vendor figures we have not tested.", "sourceUrl": "https://www.checkpoint.com/harmony/email-security/", "checkedAt": "2026-11-04" },
+    { "text": "The anti-phishing engine detects phishing, suspected phishing and spam emails, and includes nickname impersonation detection for senders who mimic executive names.", "sourceUrl": "https://sc1.checkpoint.com/documents/Harmony_Email_and_Collaboration/Email_Security/Admin_Guide/Topics/anti-phishing/anti-phishing-smart-phish.html", "checkedAt": "2026-11-04" },
+    { "text": "A February 2023 Check Point post says administrators can let end users release Suspected Phishing emails without administrator approval.", "sourceUrl": "https://blog.checkpoint.com/product-updates/release-suspected-phishing-without-admin-approval/", "checkedAt": "2026-11-04" },
+    { "text": "Packages are Advanced Protect and Complete Protect, each offered as Email Only or Email & Collaboration, and Check Point offers a 14-day free trial.", "sourceUrl": "https://www.checkpoint.com/harmony/email-security/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.checkpoint.com/harmony/email-security/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft 365", "Gmail"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

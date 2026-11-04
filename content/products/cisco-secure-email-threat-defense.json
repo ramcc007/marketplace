@@ -1,0 +1,35 @@
+{
+  "name": "Cisco Secure Email Threat Defense",
+  "status": "published",
+  "vendor": { "name": "Cisco Systems", "website": "https://www.cisco.com" },
+  "primaryCategory": "email-security",
+  "summary": "Cisco Secure Email Threat Defense detects phishing, malware, and user and brand impersonation, and can move flagged mail to quarantine. Cisco's data sheet lists no prices and describes subscriptions of one, three or five years, so ask Cisco or a partner for a quote.",
+  "qualifies": [
+    {
+      "category": "email-security",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "phishing and malware filtering", "sourceUrl": "https://www.cisco.com/c/en/us/products/collateral/security/cloud-email-security/secure-email-threat-defense-ds.html" },
+        { "capability": "impersonation protection", "sourceUrl": "https://www.cisco.com/c/en/us/products/collateral/security/cloud-email-security/secure-email-threat-defense-ds.html" },
+        { "capability": "quarantine management", "sourceUrl": "https://www.cisco.com/c/en/us/products/collateral/security/cloud-email-security/secure-email-threat-defense-ds.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The data sheet says the product combats phishing through sender authentication and business email compromise detection, and detects both user impersonation and brand impersonation.", "sourceUrl": "https://www.cisco.com/c/en/us/products/collateral/security/cloud-email-security/secure-email-threat-defense-ds.html", "checkedAt": "2026-11-04" },
+    { "text": "Malware detection uses file reputation, sandboxing and retrospection, and Move to Quarantine is a listed enforcement action.", "sourceUrl": "https://www.cisco.com/c/en/us/products/collateral/security/cloud-email-security/secure-email-threat-defense-ds.html", "checkedAt": "2026-11-04" },
+    { "text": "It is sold as a subscription with 1-, 3- or 5-year terms, with High-Value Support Services included by default.", "sourceUrl": "https://www.cisco.com/c/en/us/products/collateral/security/cloud-email-security/secure-email-threat-defense-ds.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.cisco.com/c/en/us/products/collateral/security/cloud-email-security/secure-email-threat-defense-ds.html",
+    "verifiedAt": "2026-11-04"
+  },
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "TrendAI Email Security",
+  "status": "published",
+  "vendor": { "name": "Trend Micro", "website": "https://www.trendmicro.com" },
+  "primaryCategory": "email-security",
+  "summary": "TrendAI Email Security filters phishing, spam, virus and business email compromise mail and lets admins review, release or delete quarantined messages. Its high profile user list checks mail that forges the display names of executives. No prices are published.",
+  "qualifies": [
+    {
+      "category": "email-security",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "phishing and malware filtering", "sourceUrl": "https://docs.trendmicro.com/en-us/documentation/article/trend-micro-email-security-online-help-features-and-benefit" },
+        { "capability": "impersonation protection", "sourceUrl": "https://docs.trendmicro.com/en-us/documentation/article/trend-micro-email-security-online-help-configuring-high-pro_001" },
+        { "capability": "quarantine management", "sourceUrl": "https://docs.trendmicro.com/en-us/documentation/article/trend-micro-email-security-online-help-querying-the-quarant" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The help centre says the product detects phishing, spam and business email compromise scams, and checks files against known virus patterns with Predictive Machine Learning for new malware.", "sourceUrl": "https://docs.trendmicro.com/en-us/documentation/article/trend-micro-email-security-online-help-features-and-benefit", "checkedAt": "2026-11-04" },
+    { "text": "High profile users are people whose display names attackers often forge. The service applies fraud checking to incoming mail that claims to come from them.", "sourceUrl": "https://docs.trendmicro.com/en-us/documentation/article/trend-micro-email-security-online-help-configuring-high-pro_001", "checkedAt": "2026-11-04" },
+    { "text": "On the Query screen, admins can review quarantined messages, delete them or release them for further scanning.", "sourceUrl": "https://docs.trendmicro.com/en-us/documentation/article/trend-micro-email-security-online-help-querying-the-quarant", "checkedAt": "2026-11-04" },
+    { "text": "Trend offers a free trial, with no trial length stated on the product page.", "sourceUrl": "https://www.trendaisecurity.com/en-us/platform/email-security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.trendaisecurity.com/en-us/platform/email-security",
+    "verifiedAt": "2026-11-04"
+  },
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

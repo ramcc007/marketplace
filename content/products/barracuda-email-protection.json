@@ -1,0 +1,39 @@
+{
+  "name": "Barracuda Email Protection",
+  "status": "published",
+  "vendor": { "name": "Barracuda Networks", "website": "https://www.barracuda.com" },
+  "primaryCategory": "email-security",
+  "summary": "Barracuda sells Email Protection in tiered plans that combine gateway filtering, impersonation and business email compromise detection, and quarantine tools. Its pricing page shows a per-user field with no amount in the page text we could read, plus a Get Custom Quote button and a note that minimums apply.",
+  "qualifies": [
+    {
+      "category": "email-security",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "phishing and malware filtering", "sourceUrl": "https://documentation.campus.barracuda.com/wiki/display/EBTHREE/Overview+of+Email+Protection+Plans" },
+        { "capability": "impersonation protection", "sourceUrl": "https://documentation.campus.barracuda.com/wiki/display/EBTHREE/Overview+of+Email+Protection+Plans" },
+        { "capability": "quarantine management", "sourceUrl": "https://www.barracuda.com/products/email-protection" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Barracuda's documentation lists six plans: three Integrated Email Protection tiers and Email Protection Advanced, Premium and Premium Plus. Email Gateway Defense is included only in the three Email Protection plans.", "sourceUrl": "https://documentation.campus.barracuda.com/wiki/display/EBTHREE/Overview+of+Email+Protection+Plans", "checkedAt": "2026-11-04" },
+    { "text": "Admins can view and release emails that Microsoft quarantined from the Barracuda console.", "sourceUrl": "https://documentation.campus.barracuda.com/wiki/display/EBTHREE/Overview+of+Email+Protection+Plans", "checkedAt": "2026-11-04" },
+    { "text": "Barracuda lists spam, malware and advanced threat protection as a use case, and describes remediating, releasing or quarantining across thousands of mailboxes.", "sourceUrl": "https://www.barracuda.com/products/email-protection", "checkedAt": "2026-11-04" },
+    { "text": "Barracuda offers a free Email Threat Scan and a Try Free trial link, with no trial length stated.", "sourceUrl": "https://www.barracuda.com/products/email-protection", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [
+      "The pricing page says minimums apply but does not state them."
+    ],
+    "sourceUrl": "https://www.barracuda.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft 365"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

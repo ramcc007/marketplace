@@ -1,0 +1,50 @@
+{
+  "name": "Microsoft Defender for Office 365",
+  "status": "published",
+  "vendor": { "name": "Microsoft", "website": "https://www.microsoft.com" },
+  "primaryCategory": "email-security",
+  "summary": "Defender for Office 365 adds impersonation protection, attachment scanning and quarantine controls on top of the basic filtering that every Microsoft 365 cloud mailbox already has. Plan 1 lists at $2 per user a month and Plan 2 at $5, both paid yearly. Microsoft's documentation describes it for Microsoft 365 cloud mailboxes.",
+  "qualifies": [
+    {
+      "category": "email-security",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "phishing and malware filtering", "sourceUrl": "https://learn.microsoft.com/en-us/defender-office-365/anti-malware-protection-about" },
+        { "capability": "impersonation protection", "sourceUrl": "https://learn.microsoft.com/en-us/defender-office-365/anti-phishing-policies-about" },
+        { "capability": "quarantine management", "sourceUrl": "https://learn.microsoft.com/en-us/defender-office-365/quarantine-about" }
+      ]
+    },
+    {
+      "category": "security-awareness-training",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "training modules", "sourceUrl": "https://learn.microsoft.com/en-us/defender-office-365/attack-simulation-training-training-modules" },
+        { "capability": "phishing simulations", "sourceUrl": "https://learn.microsoft.com/en-us/defender-office-365/attack-simulation-training-get-started" },
+        { "capability": "completion reports", "sourceUrl": "https://learn.microsoft.com/en-us/defender-office-365/attack-simulation-training-insights" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Impersonation protection for users and domains is available only in Defender for Office 365. Microsoft's anti-phishing policies for all cloud mailboxes cover spoofing but not impersonation.", "sourceUrl": "https://learn.microsoft.com/en-us/defender-office-365/anti-phishing-policies-about", "checkedAt": "2026-11-04" },
+    { "text": "Each anti-phishing policy can protect up to 350 users and 50 custom domains from impersonation, and by default no senders or domains are configured.", "sourceUrl": "https://learn.microsoft.com/en-us/defender-office-365/anti-phishing-policies-about", "checkedAt": "2026-11-04" },
+    { "text": "Malware and high-confidence phishing messages are always quarantined, and quarantine cannot be turned off. Users cannot release their own quarantined malware messages.", "sourceUrl": "https://learn.microsoft.com/en-us/defender-office-365/quarantine-about", "checkedAt": "2026-11-04" },
+    { "text": "Spam and phishing quarantine is kept for 15 days in the default anti-spam policy and 30 days in the Standard and Strict preset policies. Malware quarantine is kept for 30 days and cannot be changed.", "sourceUrl": "https://learn.microsoft.com/en-us/defender-office-365/quarantine-about", "checkedAt": "2026-11-04" },
+    { "text": "Microsoft offers a 90-day trial of Defender for Office 365 Plan 2 through the Microsoft Defender portal.", "sourceUrl": "https://learn.microsoft.com/en-us/defender-office-365/anti-phishing-policies-about", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 90,
+    "plans": [
+      { "name": "Plan 1", "priceUsd": 2, "billing": "month", "unit": "per user", "notes": "Paid yearly on an annual subscription that auto-renews" },
+      { "name": "Plan 2", "priceUsd": 5, "billing": "month", "unit": "per user", "notes": "Paid yearly on an annual subscription that auto-renews. Adds tracking of cyberthreat campaigns that might affect your organization" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-defender-office-365",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft 365", "Exchange Online"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

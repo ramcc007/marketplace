@@ -1,0 +1,37 @@
+{
+  "name": "Sophos Email",
+  "status": "published",
+  "vendor": { "name": "Sophos", "website": "https://www.sophos.com" },
+  "primaryCategory": "email-security",
+  "summary": "Sophos Email is managed from Sophos Central and covers phishing, malware and impersonation with VIP, brand and general impersonation checks. Sophos publishes no prices and sends buyers to a Get pricing form, so budget by asking for a written quote.",
+  "qualifies": [
+    {
+      "category": "email-security",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "phishing and malware filtering", "sourceUrl": "https://www.sophos.com/en-us/products/sophos-email" },
+        { "capability": "impersonation protection", "sourceUrl": "https://docs.sophos.com/central/customer/help/en-us/ManageYourProducts/EmailSecurity/EmailPolicies/EmailSecurityPolicy/EmailImpersProtection/index.html" },
+        { "capability": "quarantine management", "sourceUrl": "https://docs.sophos.com/central/customer/help/en-us/ManageYourProducts/EmailSecurity/QuarantinedMessages/EmailM365Quarantine/index.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Sophos documents three impersonation checks: VIP impersonation, brand impersonation and general impersonation. Quarantine is one of the available actions, where the message is held in quarantine.", "sourceUrl": "https://docs.sophos.com/central/customer/help/en-us/ManageYourProducts/EmailSecurity/EmailPolicies/EmailSecurityPolicy/EmailImpersProtection/index.html", "checkedAt": "2026-11-04" },
+    { "text": "The anti-malware policy scans messages and attachments with heuristic checks and Intelix sandbox analysis, and can quarantine known malware, unscannable messages and Intelix Malicious and Suspicious messages.", "sourceUrl": "https://docs.sophos.com/central/customer/help/en-us/ManageYourProducts/EmailSecurity/EmailPolicies/EmailSecurityPolicy/EmailAntiMalware/index.html", "checkedAt": "2026-11-04" },
+    { "text": "Admins can search messages that Microsoft 365 quarantined and release or delete them from the M365 quarantine tab in Sophos Central.", "sourceUrl": "https://docs.sophos.com/central/customer/help/en-us/ManageYourProducts/EmailSecurity/QuarantinedMessages/EmailM365Quarantine/index.html", "checkedAt": "2026-11-04" },
+    { "text": "The Email Security policy has sections for authentication checks, anti-malware, anti-spam, impersonation protection, URL and QR code protection, image analysis and end user quarantine.", "sourceUrl": "https://docs.sophos.com/central/customer/help/en-us/ManageYourProducts/EmailSecurity/EmailPolicies/EmailSecurityPolicy/index.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.sophos.com/en-us/products/sophos-email",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft 365"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
