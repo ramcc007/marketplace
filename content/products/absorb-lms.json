@@ -1,0 +1,47 @@
+{
+  "name": "Absorb LMS",
+  "status": "published",
+  "vendor": { "name": "Absorb Software", "website": "https://www.absorbai.com" },
+  "primaryCategory": "learning-management-system",
+  "summary": "Absorb LMS publishes no prices; its pricing page is a form that asks for learner count, from 1 to 50 up to 25,000 or more, and a salesperson replies. It auto-assigns training by role, region or regulation, shows course progress and completion, and builds custom reports through Absorb Analyze.",
+  "qualifies": [
+    {
+      "category": "learning-management-system",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "course delivery", "sourceUrl": "https://www.absorbai.com/" },
+        { "capability": "assignments and tracking", "sourceUrl": "https://www.absorbai.com/" },
+        { "capability": "completion reports", "sourceUrl": "https://www.absorbai.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing request form asks how many learners you have, with tiers from 1 to 50 up to 25,000 or more, and shows no price figures.", "sourceUrl": "https://www.absorbai.com/get-pricing", "checkedAt": "2026-11-04" },
+    { "text": "The home page says compliance training is auto-assigned by role, region or regulation, and lets admins monitor course progress and completion.", "sourceUrl": "https://www.absorbai.com/", "checkedAt": "2026-11-04" },
+    { "text": "The home page names ADP, Workday and Salesforce integrations plus more than 40 other systems, with an API and webhooks.", "sourceUrl": "https://www.absorbai.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Quote", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Priced after a form submission that asks for learner count" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.absorbai.com/get-pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.absorbai.com/get-pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["ADP", "Workday", "Salesforce"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "LearnUpon",
+  "status": "published",
+  "vendor": { "name": "LearnUpon", "website": "https://www.learnupon.com" },
+  "primaryCategory": "learning-management-system",
+  "summary": "LearnUpon is a quote-only LMS with stated minimums: from 100 users for employee training, 150 for associations and 300 for customer education. Its reporting suite covers course status, certificates, exams and survey results, and it can filter, export and schedule reports.",
+  "qualifies": [
+    {
+      "category": "learning-management-system",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "course delivery", "sourceUrl": "https://www.learnupon.com/" },
+        { "capability": "assignments and tracking", "sourceUrl": "https://www.learnupon.com/platform/reporting/" },
+        { "capability": "completion reports", "sourceUrl": "https://www.learnupon.com/platform/reporting/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page lists no dollar prices and sends buyers to book a demo; plans start from 100 users (Employees), 150 (Associations) and 300 (Customer Education).", "sourceUrl": "https://www.learnupon.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing FAQ says LearnUpon is not a fit for companies looking for a solution for fewer than 100 users.", "sourceUrl": "https://www.learnupon.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The reporting page lists out-of-the-box reports for course status, certificates and credits, exams and surveys, with filter, export and schedule options.", "sourceUrl": "https://www.learnupon.com/platform/reporting/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says all plans include an implementation consultant, customer success and 24/7 technical support.", "sourceUrl": "https://www.learnupon.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Employees", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "From 100 users" },
+      { "name": "Associations", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "From 150 users" },
+      { "name": "Customer Education", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "From 300 users" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.learnupon.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": 100,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.learnupon.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

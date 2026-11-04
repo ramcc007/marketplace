@@ -1,0 +1,60 @@
+{
+  "name": "360Learning",
+  "status": "published",
+  "vendor": { "name": "360Learning", "website": "https://360learning.com" },
+  "primaryCategory": "learning-management-system",
+  "summary": "360Learning is an LMS with a published Team plan at $8 per user a month for up to 100 users, billed monthly with no annual commitment, and quote-only Business and Enterprise plans. It enrolls learners automatically from filters, tracks completion on a dashboard and sends scheduled reports.",
+  "qualifies": [
+    {
+      "category": "learning-management-system",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "course delivery", "sourceUrl": "https://360learning.com/product/learning-management-system/" },
+        { "capability": "assignments and tracking", "sourceUrl": "https://360learning.com/product/learning-management-system/" },
+        { "capability": "completion reports", "sourceUrl": "https://360learning.com/product/learning-management-system/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Team plan covers up to 100 users and is billed monthly, and the FAQ says it can be cancelled at any time.", "sourceUrl": "https://360learning.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing FAQ says no minimum number of users is required and mentions a 30-day free trial.", "sourceUrl": "https://360learning.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Dynamic enrollment uses custom filters to keep assignments current as the workforce changes, and automatic re-enrollment recycles training for compliance.", "sourceUrl": "https://360learning.com/product/learning-management-system/", "checkedAt": "2026-11-04" },
+    { "text": "Completion certificates include start and end dates, time spent, failed attempts and scores.", "sourceUrl": "https://360learning.com/product/learning-management-system/", "checkedAt": "2026-11-04" },
+    { "text": "The product page states the platform is GDPR-compliant and lists single sign-on with Microsoft, Google and Okta.", "sourceUrl": "https://360learning.com/product/learning-management-system/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Team", "priceUsd": 8, "billing": "month", "unit": "per user", "notes": "Up to 100 users, billed monthly with no annual commitment. The pricing page shows a $ sign without naming the currency" },
+      { "name": "Business", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing, demo required" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing, demo required" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://360learning.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://360learning.com/product/learning-management-system/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The Team plan is billed monthly with no annual commitment and can be cancelled at any time.",
+    "dataExport": null,
+    "sourceUrl": "https://360learning.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Salesforce", "Slack", "Zoom", "Microsoft Teams", "SAP SuccessFactors", "Workday", "LinkedIn Learning", "Udemy", "Go1"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

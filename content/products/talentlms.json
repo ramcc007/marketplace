@@ -1,0 +1,65 @@
+{
+  "name": "TalentLMS",
+  "status": "published",
+  "vendor": { "name": "TalentLMS", "website": "https://www.talentlms.com" },
+  "primaryCategory": "learning-management-system",
+  "summary": "TalentLMS is a cloud LMS with a free plan for up to 5 users and 10 courses, then published monthly prices of $119, $229 and $449 for Core, Grow and Pro. It delivers courses and SCORM content, assigns training through learning paths, and offers real-time, scheduled and custom reports.",
+  "qualifies": [
+    {
+      "category": "learning-management-system",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "course delivery", "sourceUrl": "https://www.talentlms.com/features" },
+        { "capability": "assignments and tracking", "sourceUrl": "https://www.talentlms.com/features" },
+        { "capability": "completion reports", "sourceUrl": "https://www.talentlms.com/features" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Free plan has no time limit and covers up to 5 users and up to 10 courses.", "sourceUrl": "https://www.talentlms.com/prices", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says yearly billing saves 20% compared with monthly billing.", "sourceUrl": "https://www.talentlms.com/prices", "checkedAt": "2026-11-04" },
+    { "text": "The features page describes scheduled reports that can be emailed weekly or monthly, and custom reports filtered by user activity, learning progress or certifications.", "sourceUrl": "https://www.talentlms.com/features", "checkedAt": "2026-11-04" },
+    { "text": "The features page lists SCORM import, LTI 1.3, a REST API, Zapier and SSO among its integration options.", "sourceUrl": "https://www.talentlms.com/features", "checkedAt": "2026-11-04" },
+    { "text": "The security page lists ISO/IEC 27001:2022 certification and GDPR compliance verified under the EU Cloud Code of Conduct.", "sourceUrl": "https://www.talentlms.com/security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Up to 5 users and 10 courses, no time limit, 100MB upload limit per file" },
+      { "name": "Core", "priceUsd": 119, "billing": "month", "unit": "per account", "notes": "Monthly price shown for the smallest user band; the pricing page offers larger bands up to 1,000 users and its band selector is unclear about which prices apply to them. One branch" },
+      { "name": "Grow", "priceUsd": 229, "billing": "month", "unit": "per account", "notes": "Three branches and five learning paths. Monthly price shown for the smallest user band" },
+      { "name": "Pro", "priceUsd": 449, "billing": "month", "unit": "per account", "notes": "Plus $6 per additional user. Fifteen branches and unlimited learning paths" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Starts at 1,000 users; contact sales" }
+    ],
+    "hiddenCosts": [
+      "Bundles with TalentHR and TalentCards are priced on request.",
+      "TalentLibrary is an add-on available with all plans and its fee is not shown on the pricing page."
+    ],
+    "sourceUrl": "https://www.talentlms.com/prices",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.talentlms.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.talentlms.com/prices",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Zapier", "LTI 1.3", "REST API"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "iSpring Learn",
+  "status": "published",
+  "vendor": { "name": "iSpring Solutions", "website": "https://www.ispring.com" },
+  "primaryCategory": "learning-management-system",
+  "summary": "iSpring Learn is an LMS sold on published per-user prices for its Business plan: $6.91 per user a month for 100 users, falling to $3.97 at 500 users, billed annually. It supports SCORM 1.2 and 2004, learning tracks with a strict completion order, automatic assignments and content and people reports.",
+  "qualifies": [
+    {
+      "category": "learning-management-system",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "course delivery", "sourceUrl": "https://www.ispring.com/ispring-learn/features" },
+        { "capability": "assignments and tracking", "sourceUrl": "https://www.ispring.com/ispring-learn/features" },
+        { "capability": "completion reports", "sourceUrl": "https://www.ispring.com/ispring-learn/features" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Business plan is priced at 100, 300 and 500 user tiers, with annual prices of $8,286, $16,050 and $23,790.", "sourceUrl": "https://www.ispring.com/ispring-learn/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page offers a 30-day trial with no credit card required.", "sourceUrl": "https://www.ispring.com/ispring-learn/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Learning tracks can enforce a strict completion order so learners advance only after finishing the current chapter.", "sourceUrl": "https://www.ispring.com/ispring-learn/features", "checkedAt": "2026-11-04" },
+    { "text": "The mobile app lets learners study offline, and progress syncs when they reconnect.", "sourceUrl": "https://www.ispring.com/ispring-learn/features", "checkedAt": "2026-11-04" },
+    { "text": "Native connectors named on the product page are Salesforce, Microsoft Azure, Microsoft Exchange and BambooHR, plus course libraries from Udemy, Go1 and LinkedIn Learning.", "sourceUrl": "https://www.ispring.com/ispring-learn", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Business, 100 users", "priceUsd": 6.91, "billing": "month", "unit": "per user, billed annually ($8,286 a year)" },
+      { "name": "Business, 300 users", "priceUsd": 4.46, "billing": "month", "unit": "per user, billed annually ($16,050 a year)" },
+      { "name": "Business, 500 users", "priceUsd": 3.97, "billing": "month", "unit": "per user, billed annually ($23,790 a year)" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price or user limit shown; the page says to talk to an iSpring expert" }
+    ],
+    "hiddenCosts": [
+      "The pricing page mentions a money-back guarantee but does not state its length."
+    ],
+    "sourceUrl": "https://www.ispring.com/ispring-learn/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": 100,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.ispring.com/ispring-learn/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Salesforce", "Microsoft Azure", "Microsoft Exchange", "BambooHR", "Udemy", "Go1", "LinkedIn Learning"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

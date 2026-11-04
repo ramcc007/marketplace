@@ -1,0 +1,50 @@
+{
+  "name": "Litmos",
+  "status": "published",
+  "vendor": { "name": "Litmos", "website": "https://www.litmos.com" },
+  "primaryCategory": "learning-management-system",
+  "summary": "Litmos is an LMS aimed at compliance training, with pricing that starts at $8,000 a year for Foundation and $15,000 a year for Platinum. It assigns courses by role, location or risk class, re-enrolls staff before certifications expire and exports audit reports.",
+  "qualifies": [
+    {
+      "category": "learning-management-system",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "course delivery", "sourceUrl": "https://www.litmos.com/solutions/compliance-training" },
+        { "capability": "assignments and tracking", "sourceUrl": "https://www.litmos.com/solutions/compliance-training" },
+        { "capability": "completion reports", "sourceUrl": "https://www.litmos.com/solutions/compliance-training" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page shows Foundation as starting at $8K per year and Platinum as starting at $15K per year; Platinum AI is listed as talk to sales.", "sourceUrl": "https://www.litmos.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The compliance page says courses are assigned automatically by role, location, department or risk classification.", "sourceUrl": "https://www.litmos.com/solutions/compliance-training", "checkedAt": "2026-11-04" },
+    { "text": "The compliance page describes time-stamped training history for every employee and exportable audit reports in multiple formats.", "sourceUrl": "https://www.litmos.com/solutions/compliance-training", "checkedAt": "2026-11-04" },
+    { "text": "The compliance page cites more than 17,700 courses across its content libraries, available in 37 or more languages.", "sourceUrl": "https://www.litmos.com/solutions/compliance-training", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Foundation", "priceUsd": 8000, "billing": "year", "unit": "per account", "notes": "Listed as starting at $8K per year; request pricing for specifics" },
+      { "name": "Platinum", "priceUsd": 15000, "billing": "year", "unit": "per account", "notes": "Listed as starting at $15K per year; request pricing for specifics" },
+      { "name": "Platinum AI", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Talk to sales" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.litmos.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.litmos.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
