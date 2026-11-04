@@ -1,0 +1,59 @@
+{
+  "name": "Payhawk",
+  "status": "published",
+  "vendor": { "name": "Payhawk", "website": "https://payhawk.com" },
+  "primaryCategory": "expense-management",
+  "summary": "Payhawk sells expenses as the Cards & Expenses module, starting at $449 a month on its US pricing page. Unlimited employee seats and approval workflows are included, and the final price depends on plan, add-ons, cards and transaction volume.",
+  "qualifies": [
+    {
+      "category": "expense-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "receipt capture", "sourceUrl": "https://payhawk.com/product-expense-management" },
+        { "capability": "expense policies and approvals", "sourceUrl": "https://payhawk.com/product-expense-management" },
+        { "capability": "reimbursement", "sourceUrl": "https://payhawk.com/product-expense-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Approval flows can be defined per expense type and routed by amount, supplier, category or team.", "sourceUrl": "https://payhawk.com/product-expense-management", "checkedAt": "2026-11-04" },
+    { "text": "Payouts can go to employees' personal bank accounts through payroll integration or direct bank transfer.", "sourceUrl": "https://payhawk.com/product-expense-management", "checkedAt": "2026-11-04" },
+    { "text": "Payhawk says the price depends on plans, add-ons, admin and accountant seats, cards and transaction volume, with no implementation fee.", "sourceUrl": "https://www.payhawk.com/en-us/pricing-and-plans", "checkedAt": "2026-11-04" },
+    { "text": "Its security page names ISO 27001 and SOC 1 and 2 compliance for its cloud providers, not for Payhawk itself.", "sourceUrl": "https://payhawk.com/security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Cards & Expenses", "priceUsd": 449, "billing": "month", "unit": "per account", "notes": "Starting price on the US page; unlimited employee seats. Final cost depends on add-ons, cards and volume" }
+    ],
+    "hiddenCosts": [
+      "Credit line, budget tracking, native ERP integrations and extra entities are add-ons with no published price."
+    ],
+    "sourceUrl": "https://www.payhawk.com/en-us/pricing-and-plans",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Included in every module",
+    "sourceUrl": "https://payhawk.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.payhawk.com/en-us/pricing-and-plans",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

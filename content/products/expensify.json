@@ -1,0 +1,63 @@
+{
+  "name": "Expensify",
+  "status": "published",
+  "vendor": { "name": "Expensify, Inc.", "website": "https://www.expensify.com" },
+  "primaryCategory": "expense-management",
+  "summary": "Expensify charges $5 a member each month on its Collect plan, with no annual commitment, for accounts created on or after April 1, 2025. The Control plan costs $9 to $36 an active member, depending on term and whether the Expensify Card carries half of US spend.",
+  "qualifies": [
+    {
+      "category": "expense-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "receipt capture", "sourceUrl": "https://use.expensify.com/blog/collect-plan-pricing-update" },
+        { "capability": "expense policies and approvals", "sourceUrl": "https://help.expensify.com/articles/new-expensify/workspaces/Workspace-Rules" },
+        { "capability": "reimbursement", "sourceUrl": "https://use.expensify.com/blog/collect-plan-pricing-update" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Collect covers unlimited SmartScans, expense approvals and next-day ACH reimbursement.", "sourceUrl": "https://use.expensify.com/blog/collect-plan-pricing-update", "checkedAt": "2026-11-04" },
+    { "text": "Receipt requirements and amount flags need the Control plan, while Collect gets only a few rules such as required fields.", "sourceUrl": "https://help.expensify.com/articles/new-expensify/workspaces/Workspace-Rules", "checkedAt": "2026-11-04" },
+    { "text": "On Control, an active member is anyone who creates, submits, approves, reimburses or exports reports in the month.", "sourceUrl": "https://help.expensify.com/articles/expensify-classic/expensify-billing/Billing-Overview", "checkedAt": "2026-11-04" },
+    { "text": "The $9 Control rate needs an annual subscription and the Expensify Card for 50% or more of settled US spending in the month.", "sourceUrl": "https://help.expensify.com/articles/expensify-classic/expensify-billing/Billing-Overview", "checkedAt": "2026-11-04" },
+    { "text": "Expensify says it is free for individuals and offers a 30-day free trial for companies.", "sourceUrl": "https://www.expensify.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Collect", "priceUsd": 5, "billing": "month", "unit": "per member", "notes": "Month to month with no annual contract. Applies to accounts whose first workspace was created on or after April 1, 2025; earlier accounts keep the older structure", "sourceUrl": "https://use.expensify.com/blog/collect-plan-pricing-update" },
+      { "name": "Control, annual with Expensify Card", "priceUsd": 9, "billing": "month", "unit": "per active member", "notes": "Needs an annual term and the Expensify Card for 50% or more of settled US spending" },
+      { "name": "Control, annual without card use", "priceUsd": 18, "billing": "month", "unit": "per active member", "notes": "Annual term; users above the committed number cost $36 a month each" },
+      { "name": "Control, pay per use", "priceUsd": 36, "billing": "month", "unit": "per active member", "notes": "No commitment" }
+    ],
+    "hiddenCosts": [
+      "Annual Control subscriptions can add users at any time but can reduce them only after the term ends."
+    ],
+    "sourceUrl": "https://help.expensify.com/articles/expensify-classic/expensify-billing/Billing-Overview",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://use.expensify.com/ai-disclosure",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://help.expensify.com/articles/expensify-classic/expensify-billing/Billing-Overview",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["QuickBooks Online", "Xero", "Gusto", "Zenefits", "NetSuite", "Sage Intacct", "QuickBooks Desktop"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

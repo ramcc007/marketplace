@@ -1,0 +1,61 @@
+{
+  "name": "Brex",
+  "status": "published",
+  "vendor": { "name": "Brex Inc.", "website": "https://www.brex.com" },
+  "primaryCategory": "expense-management",
+  "summary": "Brex lists Essentials at $0 a user each month and Premium at $12. Reimbursements and multi-level approvals are on Essentials, while multiple customizable expense policies start on Premium.",
+  "qualifies": [
+    {
+      "category": "expense-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "receipt capture", "sourceUrl": "https://www.brex.com/pricing" },
+        { "capability": "expense policies and approvals", "sourceUrl": "https://www.brex.com/pricing" },
+        { "capability": "reimbursement", "sourceUrl": "https://www.brex.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Premium adds advanced receipt data extraction, role-based policy exceptions and auto-approval rules.", "sourceUrl": "https://www.brex.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Essentials includes travel booking, bill pay, reimbursements and accounting integrations.", "sourceUrl": "https://www.brex.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Brex states SOC 2 Type II and PCI-DSS certification on its security page.", "sourceUrl": "https://www.brex.com/security", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page links to a separate fee schedule for the business account and bill pay.", "sourceUrl": "https://www.brex.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Essentials", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Includes reimbursements, multi-level approval chains and up to two entities" },
+      { "name": "Premium", "priceUsd": 12, "billing": "month", "unit": "per user", "notes": "Adds multiple customizable expense policies, advanced approvals and multi-entity support" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales" }
+    ],
+    "hiddenCosts": [
+      "Business account and bill pay fees are on a separate fee schedule."
+    ],
+    "sourceUrl": "https://www.brex.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.brex.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.brex.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

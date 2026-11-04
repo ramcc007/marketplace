@@ -1,0 +1,59 @@
+{
+  "name": "Navan",
+  "status": "published",
+  "vendor": { "name": "Navan, Inc.", "website": "https://www.navan.com" },
+  "primaryCategory": "expense-management",
+  "summary": "Navan Expense is free for the first 5 monthly expensing users on Navan Business and costs $15 a user each month after that. Navan Business is for companies of up to 300 employees, and larger companies get a quote on Enterprise.",
+  "qualifies": [
+    {
+      "category": "expense-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "receipt capture", "sourceUrl": "https://www.navan.com/expense-management" },
+        { "capability": "expense policies and approvals", "sourceUrl": "https://www.navan.com/expense-management" },
+        { "capability": "reimbursement", "sourceUrl": "https://www.navan.com/expense-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "An expensing user is anyone who submits a transaction into Navan Expense, manually or through Navan Connect.", "sourceUrl": "https://www.navan.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Out-of-policy transactions are flagged for review, and admins approve or reject them in a dedicated dashboard.", "sourceUrl": "https://www.navan.com/expense-management", "checkedAt": "2026-11-04" },
+    { "text": "Navan says approved claims are reimbursed through payroll or directly to the employee's bank account.", "sourceUrl": "https://www.navan.com/expense-management", "checkedAt": "2026-11-04" },
+    { "text": "Navan Enterprise has no published price and offers unlimited expensing users.", "sourceUrl": "https://navan.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Navan Business, first 5 users", "priceUsd": 0, "billing": "month", "unit": "per expensing user", "notes": "For companies of up to 300 employees" },
+      { "name": "Navan Business, after 5 users", "priceUsd": 15, "billing": "month", "unit": "per expensing user", "notes": "For companies of up to 300 employees" },
+      { "name": "Navan Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "For companies above 300 employees" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.navan.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.navan.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.navan.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

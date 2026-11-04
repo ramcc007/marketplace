@@ -1,0 +1,63 @@
+{
+  "name": "Fyle",
+  "status": "published",
+  "vendor": { "name": "Fyle", "website": "https://www.fylehq.com" },
+  "primaryCategory": "expense-management",
+  "summary": "Fyle charges $11.99 an active user each month on Growth with a 5-user minimum, or $14.99 on Business with a 10-user minimum, both billed annually. Multi-stage approvals and US ACH reimbursement start on Business.",
+  "qualifies": [
+    {
+      "category": "expense-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "receipt capture", "sourceUrl": "https://www.fylehq.com/pricing" },
+        { "capability": "expense policies and approvals", "sourceUrl": "https://www.fylehq.com/pricing" },
+        { "capability": "reimbursement", "sourceUrl": "https://www.fylehq.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Growth checks policy violations in real time but allows single-stage approvals only.", "sourceUrl": "https://www.fylehq.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "ACH reimbursements are listed on Business and are US only.", "sourceUrl": "https://www.fylehq.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "An active user creates at least one expense or has a corporate card with one transaction in the month.", "sourceUrl": "https://www.fylehq.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Fyle says it became SOC 2 Type II compliant on August 18, 2022, after reaching Type I in January 2022.", "sourceUrl": "https://www.fylehq.com/blog/announcing-fyles-soc-2-type-ii-compliance", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Growth", "priceUsd": 11.99, "billing": "month", "unit": "per active user", "notes": "Billed annually with a 5-user minimum; no monthly price is shown" },
+      { "name": "Business", "priceUsd": 14.99, "billing": "month", "unit": "per active user", "notes": "Billed annually with a 10-user minimum" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing for organizations with 250 or more employees" }
+    ],
+    "hiddenCosts": [
+      "Two-way accounting integrations carry a one-time implementation fee.",
+      "SSO and premium support are optional add-ons with extra fees.",
+      "The QuickBooks Desktop integration costs extra."
+    ],
+    "sourceUrl": "https://www.fylehq.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Optional add-on",
+    "sourceUrl": "https://www.fylehq.com/blog/announcing-fyles-soc-2-type-ii-compliance",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": 5,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.fylehq.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["QuickBooks Online", "Xero", "Sage 50", "Sage Intacct", "Sage 300 CRE", "QuickBooks Desktop"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
