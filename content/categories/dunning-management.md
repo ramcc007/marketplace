@@ -1,19 +1,23 @@
 ---
 title: Dunning management software compared
-definition: Seven billing platforms compared on published fees and automatic retry rules after a failed card payment, checked at vendor pages.
+definition: Eight billing platforms and dunning tools compared on published fees and retry rules after a failed card payment, checked at vendor pages.
 primaryKeyword: dunning management software
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-04
     note: First draft. Seven products checked against vendor pages, six more reviewed and left out.
   - date: 2026-11-05
     note: Second pass. Stripe retry rules and fees, Chargebee, Recurly, Maxio and Rebilly prices re-read from vendor pages. Card updater and reminder claims that were not re-read were removed. The left-out list was removed because its claims were not re-checked.
+  - date: 2026-11-05
+    note: Eighth product added. Churnkey plan prices and Payment Recovery claims taken from its home and pricing pages. Its retry count and retry window were not recorded.
 ---
 
 Dunning management is the work a subscription business does after a recurring charge fails. The software retries the payment, may ask the customer for new card details, and sends reminders until the invoice is paid or the subscription ends. Most dunning features ship inside a billing platform rather than as a separate product, so this page sits inside [subscription billing software](/software/subscription-billing).
 
-The seven platforms on this page are Stripe Billing, Chargebee, Recurly, Maxio, Zuora, Rebilly and Ordway. This draft has checked published fees for Stripe, Chargebee, Recurly, Maxio and Rebilly, and it has read Stripe's retry documentation in full. For Zuora and Ordway we have not read a pricing or retry page in this pass, so their rows make no claims.
+The eight products on this page are Stripe Billing, Chargebee, Recurly, Maxio, Zuora, Rebilly, Ordway and Churnkey. This draft has checked published fees for Stripe, Chargebee, Recurly, Maxio, Rebilly and Churnkey, and it has read Stripe's retry documentation in full. For Zuora and Ordway we have not read a pricing or retry page in this pass, so their rows make no claims.
 
 ## Why failed payments split in two
 
@@ -43,9 +47,17 @@ Maxio's pricing page lists Grow at $599 a month. Its Scale plan is priced on req
 
 Rebilly lists Basic at $15 a month and Pro at $125 a month. It charges 1% of monthly revenue before volume discounts, and Pro offers volume discounts of up to 50%. Its pages list a 30-day free trial and a fee of $0.05 for each attempted 3D Secure authentication. Retry counts and intervals are not on the pages we read, so ask Rebilly for the schedule in writing.
 
+## Churnkey pricing
+
+Churnkey sells Payment Recovery. Its home page describes it as smart retries, dunning campaigns and in-app card updates after a failed payment, and says it reaches customers by SMS, email or in the app when a hard decline happens.
+
+Churnkey's pricing page lists Starter at $250 a month billed yearly, or $300 billed monthly, for teams under $5k monthly churn. Core is listed from $500 a month billed yearly. Monthly billing starts at $600 for up to $10k churn volume. Intelligence starts at $625 a month billed yearly, with quarterly billing from $750 a month for up to $10k churn volume and no monthly option. Enterprise is a custom quote. The page shows no price for churn volume between $50k and $60k, between $60k and $90k, or above $100k.
+
+The page does not price dunning separately. It appears as a feature inside each plan, and Core and Intelligence add A/B testing of Payment Recovery. The plan table lists unlimited dunning campaigns and self-improving retry logic. This draft did not record Churnkey's retry count or retry window, so it cannot be set beside Stripe's schedule above. Its pages use dollar signs and do not name a currency.
+
 ## Card updater services
 
-A card updater passes replacement card details from the card networks to the merchant after a card is reissued. Whether a platform offers one, and which networks it covers, is one of the most useful questions in a trial. This draft did not verify updater coverage for any of the seven platforms, so no product is credited with one here. Ask each vendor which card networks and countries its updater covers, and what it costs.
+A card updater passes replacement card details from the card networks to the merchant after a card is reissued. Whether a platform offers one, and which networks it covers, is one of the most useful questions in a trial. This draft did not verify updater coverage for any of the eight products, so no product is credited with one here. Ask each vendor which card networks and countries its updater covers, and what it costs.
 
 ## Customer reminders
 

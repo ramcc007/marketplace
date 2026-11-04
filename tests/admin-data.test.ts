@@ -17,7 +17,10 @@ describe('admin dashboard data', () => {
 
   it('only marks a category indexable when every gate threshold is met', () => {
     for (const page of overview.pages.filter((p) => p.type === 'category' && p.indexable)) {
-      expect(page.count).toBeGreaterThanOrEqual(GATE.category.minQualifyingProducts);
+      const level = loadTaxonomy().find((c) => c.slug === page.slug)?.level;
+      const minProducts =
+        level === 'L2' ? GATE.subcategory.minQualifyingProducts : GATE.category.minQualifyingProducts;
+      expect(page.count).toBeGreaterThanOrEqual(minProducts);
       expect(page.words).toBeGreaterThanOrEqual(GATE.category.minEditorialWords);
       expect(page.criteriaApproved).toBe(true);
       expect(page.signedOff).toBe(true);

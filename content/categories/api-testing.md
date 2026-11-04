@@ -1,17 +1,21 @@
 ---
 title: API testing tools for building, organizing and running requests
-definition: Seven API clients compared on the prices and free plan limits published on their vendor pages, with notes on where collections are stored.
+definition: Eight API clients compared on the prices and free plan limits published on their vendor pages, with notes on where collections are stored.
 primaryKeyword: api testing tools
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-04
     note: First draft. Seven products checked against vendor pages and documentation.
   - date: 2026-11-05
     note: Second pass. Prices and free plan limits re-read from vendor pricing pages. Hoppscotch prices could not be read and were removed. Feature claims that were not re-read were removed.
+  - date: 2026-11-05
+    note: Eighth product added. Yaak's free use terms, yearly prices and yearly-only billing taken from its home and pricing pages.
 ---
 
-An API testing tool lets a developer or tester save an HTTP request, send it again later to a chosen server, and check the response. This page covers seven clients. For each one we read the vendor's pricing page and recorded the per-user price, the billing period and the limits on the free plan. Feature claims beyond those figures are not covered in this draft, so the comparison leans on price and plan limits.
+An API testing tool lets a developer or tester save an HTTP request, send it again later to a chosen server, and check the response. This page covers eight clients. For each one we read the vendor's pricing page and recorded the per-user price, the billing period and the limits on the free plan. Feature claims beyond those figures are not covered in this draft, so the comparison leans on price and plan limits.
 
 ## Where collections are stored
 
@@ -23,19 +27,25 @@ Bruno's pricing page lists an Open Source tier at $0 per user. On that tier its 
 
 Testfully's Developer plan lets up to 5 users join one workspace without a charge. That fits a small team that keeps collections in a hosted space and does not use Git. Thunder Client's Free plan caps a user at 10 collections, with up to 50 requests in each.
 
+Yaak calls itself local-first. The facts we recorded for it do not say where its collections are kept or whether it offers Git sync, so this page makes no storage claim for it.
+
 ## Free plans and their limits
 
 A free plan answers a narrower question than the headline price. Thunder Client's Free plan allows 10 collections, 50 requests per collection and 50 local collection runner runs per user each month. Its pricing page says CI/CD runs have no limit. Postman's Free plan covers one user and 1,000 monitoring requests per team each month. That is enough for one person to test, and it stops working as soon as a second tester needs access.
 
 Testfully's Developer plan has a 5-user workspace limit, and its runner has no monthly request cap on any plan. Those two numbers matter more to a team than the price.
 
+Yaak's free use is for personal work only. Using it at work requires a commercial license after a 30-day trial.
+
 ## Prices as published
 
-The figures below are per user per month and billed annually, as each vendor page states.
+The figures below are per user per month and billed annually, as each vendor page states, except Yaak, which bills per year.
 
 Postman charges $9 for Solo and $19 for Team. A five-person Team plan therefore costs $1,140 a year. Bruno's Pro plan is $6 per user and Ultimate is $11, which comes to $360 and $660 a year for five users. Thunder Client lists Starter at $3, Business at $7 and Enterprise at $16. Testfully lists Team at $14 and Enterprise at $29. Requestly lists Team at $10 and Team Pro at $15, with Enterprise on contact-sales terms. Insomnia lists Pro at $12 and Enterprise at $45, and its Enterprise page says self-serve covers up to 50 users.
 
-Requestly's page shows a dollar sign and no currency code, so its figures are recorded as shown. Insomnia's page has a monthly and annual toggle that states a 17% saving for annual billing. It shows one price per plan and does not say which period that price reflects, so confirm the figure at checkout before budgeting.
+Yaak lists Individual at $79 a year and Business at $149 per user a year, both billed yearly. A five-person Business plan therefore costs $745 a year. Its one-time Individual lifetime price is $349, and its pricing page offers no monthly billing.
+
+Requestly's page shows a dollar sign and no currency code, so its figures are recorded as shown. Yaak's pricing page does the same. Insomnia's page has a monthly and annual toggle that states a 17% saving for annual billing. It shows one price per plan and does not say which period that price reflects, so confirm the figure at checkout before budgeting.
 
 Hoppscotch's pricing page did not return any plan names or prices when we read it. Its home page calls the product an open source API development ecosystem, which is the only statement we record for it on this page.
 
@@ -49,13 +59,13 @@ For a small team, per-user pricing and the storage choice matter more than role 
 
 Environments hold named sets of variables, such as a base address for staging or production. Every product here is built around this idea, but this draft did not re-read the variable scope rules on each product page, so this page does not rank them.
 
-Automated runs are what move an API test into a build. Thunder Client's pricing page says CI/CD runs are not limited by plan. For the other six products, this draft did not check how a command line runner is installed or what report formats it writes. Before choosing, look up the runner documentation for the tool you are considering and confirm it writes a report format your build server can read.
+Automated runs are what move an API test into a build. Thunder Client's pricing page says CI/CD runs are not limited by plan. For the other seven products, this draft did not check how a command line runner is installed or what report formats it writes. Before choosing, look up the runner documentation for the tool you are considering and confirm it writes a report format your build server can read.
 
 Build pipelines themselves are covered on the [CI/CD page](/software/ci-cd).
 
 ## Products on this page
 
-The seven clients are Bruno, Hoppscotch, Insomnia, Postman, Requestly, Testfully and Thunder Client. Each has a product page with the figures above. Products that were not part of this set, such as Yaak, are not covered here.
+The eight clients are Bruno, Hoppscotch, Insomnia, Postman, Requestly, Testfully, Thunder Client and Yaak. Each has a product page with the figures above.
 
 ## How to run a short trial
 

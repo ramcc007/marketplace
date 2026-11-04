@@ -1,19 +1,23 @@
 ---
 title: DMARC management software compared
-definition: Seven DMARC management tools compared on published prices, plan limits and overage terms, with the Google sender rules that make the record a requirement.
+definition: Eight DMARC management tools compared on published prices, plan limits and overage terms, with the Google sender rules that make the record a requirement.
 primaryKeyword: DMARC management software
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-04
     note: First draft. Seven products checked against vendor pages, prices fetched twice. Postmark, Cloudflare, Valimail and Red Sift were checked and left out, with reasons given on the page.
   - date: 2026-11-05
     note: Second pass. Prices, plan limits and overage terms re-read from vendor pricing pages. Feature and alert claims that were not re-read were removed. Postmark, Cloudflare, Valimail, Red Sift and PowerDMARC removed from the page because their claims were not re-checked.
+  - date: 2026-11-05
+    note: Eighth product added. Red Sift OnDMARC prices, plan limits and SPF feature taken from its pricing and product pages. Red Sift is no longer listed among the left-out tools.
 ---
 
 A DMARC record is one line of text in DNS. It tells receiving mail servers what to do with mail that claims to come from your domain but fails authentication. The record also names an address where receivers send daily reports about every source that sent mail as your domain. DMARC management software reads those reports and helps a domain owner move from a record that only watches to one that blocks forged mail.
 
-This page compares seven tools on the figures their vendor pages publish: plan prices, domain and message limits, data history and overage charges. It does not rank the tools on how well they read reports or raise alerts, because this draft did not re-read those feature pages.
+This page compares eight tools on the figures their vendor pages publish: plan prices, domain and message limits, data history and overage charges. It does not rank the tools on how well they read reports or raise alerts, because this draft did not re-read those feature pages.
 
 ## Why a DMARC record became a requirement
 
@@ -29,9 +33,9 @@ The first is your own mail failing authentication. A service you forgot about se
 
 DMARC does not stop a lookalike domain, which is a different domain with its own valid records. That threat needs separate monitoring or filtering.
 
-## The seven products
+## The eight products
 
-The seven tools are DMARC Report, dmarcian, EasyDMARC, Skysnag, URIports, Dmarcly and Sendmarc. Each has a product page in this directory. This draft recorded the published price and plan limits for five of them. For DMARC Report and Skysnag we could not confirm a price on the pages we read, so they appear in the list without figures.
+The eight tools are DMARC Report, dmarcian, EasyDMARC, Skysnag, URIports, Dmarcly, Sendmarc and Red Sift OnDMARC. Each has a product page in this directory. This draft recorded the published price and plan limits for six of them. For DMARC Report and Skysnag we could not confirm a price on the pages we read, so they appear in the list without figures.
 
 Sendmarc's free trial covers one domain and up to 5,000 emails, with 21 days of data history. Its Premium plan has no listed price, only a request-a-quote button.
 
@@ -45,11 +49,15 @@ dmarcian lists Basic at $24 a month or $19.99 a month on yearly billing, for up 
 
 EasyDMARC lists DMARC Plus at $35.99 a month and DMARC Premium at $71.99 a month, both on annual billing. Its pages show dollar signs but do not name a currency, so the figures sit as shown.
 
+Red Sift's OnDMARC Express plan is listed from $9 a month on annual billing. It covers up to 4 domains and up to 1 million emails a month, with 30 days of data history. The page shows no price for Essentials, Premier or Enterprise. Its pages show dollar signs without naming a currency.
+
 ## Limits and overage charges
 
 Message volume and domain count set the price on most plans, and the overage terms decide what a busy month costs.
 
 Dmarcly's FAQ says volume above the plan quota moves the account to the next plan that covers it, and it charges $10 per million emails above the 5 million tier. It also charges $1 per DMARC domain beyond the plan quota and $10 per Safe SPF domain beyond the plan quota. Its Safe SPF feature starts on the Growth plan with one domain included.
+
+Red Sift's Essentials, Enterprise and Premier plans list 25, 25 and 50 active sender domains, with unlimited email volume and one year of data history. No overage charges for OnDMARC are recorded in this draft.
 
 URIports sells extra domains as a block. Dmarcian's data history depends on the plan. Its free Personal plan keeps one month of data, covers 2 active domains and one user, and allows 1,250 DMARC-capable messages a month. Basic keeps three months, Plus keeps one year, and Enterprise keeps data without a stated limit.
 
@@ -57,11 +65,11 @@ Short data history makes a year-over-year comparison hard and weakens an investi
 
 ## Who owns SPF
 
-Some vendors on this list offer managed SPF, where the tool publishes a flattened record for you. Dmarcly's Safe SPF is one example and is priced by domain. dmarcian's Personal plan is limited to two domains that send fewer than 1,250 emails a month, so a business with more mail needs a paid plan. Before choosing, decide whether you want a vendor to host your SPF record, because that choice affects how you leave later.
+Some vendors on this list offer managed SPF, where the tool publishes a flattened record for you. Dmarcly's Safe SPF is one example and is priced by domain. Red Sift's Dynamic SPF is another. Its product page says it consolidates records to avoid SPF lookup limits. dmarcian's Personal plan is limited to two domains that send fewer than 1,250 emails a month, so a business with more mail needs a paid plan. Before choosing, decide whether you want a vendor to host your SPF record, because that choice affects how you leave later.
 
 ## Products left out
 
-Several tools that come up in this category are not on the list. This draft did not re-read their pages, so we make no statement about their prices or features. Postmark, Cloudflare, Valimail, Red Sift and PowerDMARC were in the first draft and have been removed until their pages are checked again.
+Several tools that come up in this category are not on the list. This draft did not re-read their pages, so we make no statement about their prices or features. Postmark, Cloudflare, Valimail and PowerDMARC were in the first draft and have been removed until their pages are checked again.
 
 ## Testing before you pay
 
