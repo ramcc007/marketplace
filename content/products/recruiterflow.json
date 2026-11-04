@@ -1,0 +1,50 @@
+{
+  "name": "Recruiterflow",
+  "status": "published",
+  "vendor": { "name": "Recruiterflow", "website": "https://www.recruiterflow.com" },
+  "primaryCategory": "applicant-tracking",
+  "summary": "Recruiterflow is built for recruiting agencies and prices its Platform plan at $149 per user a month, with a second AIRA plan quoted on request. The pricing page shows a monthly and annual toggle but gives no annual figure, and it does not mention a free trial.",
+  "qualifies": [
+    {
+      "category": "applicant-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "job postings", "sourceUrl": "https://help.recruiterflow.com/en/articles/2364266-recruiterflow-start-guide" },
+        { "capability": "candidate pipeline", "sourceUrl": "https://help.recruiterflow.com/en/articles/1241370-create-an-interview-scorecard" },
+        { "capability": "interview scheduling and feedback", "sourceUrl": "https://help.recruiterflow.com/en/articles/3753311-how-to-schedule-an-event-with-the-candidate" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Its start guide says jobs can be posted for free to boards such as LinkedIn and Indeed by toggling boards on in the job's Promote section.", "sourceUrl": "https://help.recruiterflow.com/en/articles/2364266-recruiterflow-start-guide", "checkedAt": "2026-11-04" },
+    { "text": "Scorecards are configured per interview stage on the pipeline, and different stages can carry different scorecards.", "sourceUrl": "https://help.recruiterflow.com/en/articles/1241370-create-an-interview-scorecard", "checkedAt": "2026-11-04" },
+    { "text": "Interviews are scheduled from the Schedule tab on the candidate profile, where the recruiter adds interviewers, date and time and saves the event to send the invite.", "sourceUrl": "https://help.recruiterflow.com/en/articles/3753311-how-to-schedule-an-event-with-the-candidate", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Platform", "priceUsd": 149, "billing": "month", "unit": "per user", "notes": "Unlimited jobs, candidates, contacts and companies. No annual price is shown on the page." },
+      { "name": "AIRA", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Includes everything in Platform plus AIRA features. Custom pricing." }
+    ],
+    "hiddenCosts": [
+      "The pricing page offers a demo booking and no free trial."
+    ],
+    "sourceUrl": "https://www.recruiterflow.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.recruiterflow.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["LinkedIn", "Indeed"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

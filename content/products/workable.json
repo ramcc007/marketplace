@@ -1,0 +1,63 @@
+{
+  "name": "Workable",
+  "status": "published",
+  "vendor": { "name": "Workable", "website": "https://www.workable.com" },
+  "primaryCategory": "applicant-tracking",
+  "summary": "Workable sells three applicant tracking plans priced by company size, and the page shows only the 1 to 20 employee band: $299, $599 and $719 a month. Texting, video interviews and assessments cost extra on the cheapest plan, and its AI agents draw on prepaid credits.",
+  "qualifies": [
+    {
+      "category": "applicant-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "job postings", "sourceUrl": "https://get.workable.com/job-posting" },
+        { "capability": "candidate pipeline", "sourceUrl": "https://resources.workable.com/hiring-with-workable/interview-candidates" },
+        { "capability": "interview scheduling and feedback", "sourceUrl": "https://resources.workable.com/hiring-with-workable/interview-candidates" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Workable's job posting page advertises one-click posting to 200+ sites.", "sourceUrl": "https://get.workable.com/job-posting", "checkedAt": "2026-11-04" },
+    { "text": "Interviewers complete scorecards with a 3-point rating scale, and the evaluations can be viewed one by one or in aggregate.", "sourceUrl": "https://resources.workable.com/hiring-with-workable/interview-candidates", "checkedAt": "2026-11-04" },
+    { "text": "Each ATS plan includes 3,000 AI credits. Credit packs start at 5,000 credits for $600, and credits expire one year after purchase.", "sourceUrl": "https://www.workable.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Workable's terms let it raise renewal fees by up to 5% with at least 45 days' notice.", "sourceUrl": "https://www.workable.com/terms", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 15,
+    "plans": [
+      { "name": "Standard", "priceUsd": 299, "billing": "month", "unit": "per month, 1 to 20 employee band", "notes": "$3,588 a year when billed annually. Unlimited active jobs under fair usage limits." },
+      { "name": "Premier", "priceUsd": 599, "billing": "month", "unit": "per month, 1 to 20 employee band", "notes": "$7,188 a year. Texting, video interviews, assessments and referrals are included." },
+      { "name": "Enterprise", "priceUsd": 719, "billing": "month", "unit": "per month, 1 to 20 employee band", "notes": "$8,628 a year. Same included add-ons as Premier." }
+    ],
+    "hiddenCosts": [
+      "Prices for companies above 20 employees are not shown on the page.",
+      "On Standard, Texting+ costs $89 a month, Video interviews+ $109, Assessments+ $59 and Performance & Engagement+ $39.",
+      "The Sourcing, Screening and Engagement agents are add-ons that use AI credits, and the free trial does not include Workable Agent."
+    ],
+    "sourceUrl": "https://www.workable.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.workable.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Subscriptions renew for successive one-year terms. Cancel before the anniversary or end date. Fees are generally non-refundable, and early termination does not refund prepaid fees.",
+    "dataExport": "The terms say Workable must provide tools to export or retrieve the customer's data on termination and at any time before it.",
+    "sourceUrl": "https://www.workable.com/terms",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Google Calendar", "Office 365 Calendar"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

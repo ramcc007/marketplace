@@ -1,0 +1,44 @@
+{
+  "name": "ApplicantStack",
+  "status": "published",
+  "vendor": { "name": "ApplicantStack", "website": "https://www.applicantstack.com" },
+  "primaryCategory": "applicant-tracking",
+  "summary": "ApplicantStack prices per account rather than per user, from $29.99 a month for one open job to $109.99 for unlimited jobs and $159.99 for the Bundle. Trials show only the first 100 candidates, and candidate texting costs extra at amounts the page does not list.",
+  "qualifies": [
+    {
+      "category": "applicant-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "job postings", "sourceUrl": "https://www.applicantstack.com/job-boards/" },
+        { "capability": "candidate pipeline", "sourceUrl": "https://www.applicantstack.com/candidate-management/" },
+        { "capability": "interview scheduling and feedback", "sourceUrl": "https://www.applicantstack.com/candidate-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "ApplicantStack says it uploads job posts and updates to Indeed, JobTarget and more.", "sourceUrl": "https://www.applicantstack.com/job-boards/", "checkedAt": "2026-11-04" },
+    { "text": "Its candidate management page describes triggers for each stage of the hiring process, scheduling emails and interviews, and scorecards the hiring team uses to rate applicants.", "sourceUrl": "https://www.applicantstack.com/candidate-management/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing FAQ says there are no required setup costs and no contract or cancellation fee.", "sourceUrl": "https://www.applicantstack.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Starter", "priceUsd": 29.99, "billing": "month", "unit": "per account", "notes": "1 active job at a time, 1 admin seat and 5 hiring manager seats." },
+      { "name": "Growth", "priceUsd": 49.99, "billing": "month", "unit": "per account", "notes": "3 active jobs at a time." },
+      { "name": "Recruit", "priceUsd": 109.99, "billing": "month", "unit": "per account", "notes": "Unlimited jobs. More admin and hiring manager seats can be added." },
+      { "name": "Bundle", "priceUsd": 159.99, "billing": "month", "unit": "per account", "notes": "Unlimited jobs. The Bundle button says Learn More, so a trial is not stated for it." }
+    ],
+    "hiddenCosts": [
+      "Candidate Texting and Premium Candidate Texting carry an additional fee on every plan, with no amount listed.",
+      "During the free trial you can view only the first 100 candidates."
+    ],
+    "sourceUrl": "https://www.applicantstack.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Indeed", "JobTarget"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

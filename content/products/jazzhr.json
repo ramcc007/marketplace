@@ -1,0 +1,45 @@
+{
+  "name": "JazzHR",
+  "status": "published",
+  "vendor": { "name": "JazzHR", "website": "https://www.jazzhr.com" },
+  "primaryCategory": "applicant-tracking",
+  "summary": "JazzHR sells three yearly plans at $1,000, $3,480 and $5,508 with no monthly option shown. The Hero plan starts at 3 jobs a month, and some add-ons are billed by usage at rates the pricing page does not give. Standard pricing may not apply to staffing agencies or companies over 250 employees.",
+  "qualifies": [
+    {
+      "category": "applicant-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "job postings", "sourceUrl": "https://www.jazzhr.com/features/" },
+        { "capability": "candidate pipeline", "sourceUrl": "https://www.jazzhr.com/onboarding/workflows" },
+        { "capability": "interview scheduling and feedback", "sourceUrl": "https://www.jazzhr.com/onboarding/interviews/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "JazzHR's features page shows jobs auto-posted to Indeed, LinkedIn, Glassdoor, ZipRecruiter, Monster and Facebook.", "sourceUrl": "https://www.jazzhr.com/features/", "checkedAt": "2026-11-04" },
+    { "text": "JazzHR describes workflows as customizable recruiting stages with built-in automation.", "sourceUrl": "https://www.jazzhr.com/onboarding/workflows", "checkedAt": "2026-11-04" },
+    { "text": "Its interview scheduler sends automatic reminders, lets candidates self-schedule, and collects comments and rankings inside applicant profiles.", "sourceUrl": "https://www.jazzhr.com/onboarding/interviews/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Hero", "priceUsd": 1000, "billing": "year", "unit": "per year", "notes": "Starting at 3 jobs a month. Job posting availability is subject to eligibility at JazzHR's discretion." },
+      { "name": "Plus", "priceUsd": 3480, "billing": "year", "unit": "per year", "notes": "Up to 200 active jobs. Advanced visual reporting and offers with eSignatures are add-ons." },
+      { "name": "Pro", "priceUsd": 5508, "billing": "year", "unit": "per year", "notes": "Offers with eSignatures and advanced visual reporting are listed as add-ons in the comparison table." }
+    ],
+    "hiddenCosts": [
+      "No monthly price is shown. The page says paying yearly saves up to 24%.",
+      "Some add-on features are billed by how much you use them, and the page does not say which features or at what rates.",
+      "Premium listings and syndication to extra boards cost more, with no prices given.",
+      "Standard pricing may not apply to staffing agencies, HR service providers, franchises, multi-location businesses or organizations with over 250 employees."
+    ],
+    "sourceUrl": "https://www.jazzhr.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Indeed", "LinkedIn", "Glassdoor", "ZipRecruiter", "Monster", "Facebook"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

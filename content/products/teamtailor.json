@@ -1,0 +1,41 @@
+{
+  "name": "Teamtailor",
+  "status": "published",
+  "vendor": { "name": "Teamtailor", "website": "https://www.teamtailor.com" },
+  "primaryCategory": "applicant-tracking",
+  "summary": "Teamtailor publishes no plan prices. Its pricing page asks for company details and promises a quote, and it markets unlimited job postings and unlimited users. Requisitions and approval flows, and divisions and multi-brand management, are labeled Premium with no cost shown.",
+  "qualifies": [
+    {
+      "category": "applicant-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "job postings", "sourceUrl": "https://www.teamtailor.com/en/all-features/" },
+        { "capability": "candidate pipeline", "sourceUrl": "https://support.teamtailor.com/en/articles/6062470-add-stages-to-your-recruitment-process" },
+        { "capability": "interview scheduling and feedback", "sourceUrl": "https://support.teamtailor.com/en/articles/3421442-interview-kits" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Teamtailor's feature list includes a built-in career site and automatic posting to a variety of free job boards integrated with the ATS.", "sourceUrl": "https://www.teamtailor.com/en/all-features/", "checkedAt": "2026-11-04" },
+    { "text": "Every stage in a job's process is categorized as Screening, Interview or Offer, and the Inbox and Hired stages are fixed.", "sourceUrl": "https://support.teamtailor.com/en/articles/6062470-add-stages-to-your-recruitment-process", "checkedAt": "2026-11-04" },
+    { "text": "Interview kits bundle instructions, skills and traits to rate, and questions, and the kit for a stage is pre-selected when a meeting is booked with a candidate at that stage.", "sourceUrl": "https://support.teamtailor.com/en/articles/3421442-interview-kits", "checkedAt": "2026-11-04" },
+    { "text": "Its Smart schedule feature picks meeting times that work for the team and sends candidates options to choose from.", "sourceUrl": "https://www.teamtailor.com/en/all-features/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Quote", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "The page says Teamtailor will get back with a price after a form about the company." }
+    ],
+    "hiddenCosts": [
+      "Requisitions and approval flows, and divisions and multi-brand management, are marked Premium, and the page does not say what they cost."
+    ],
+    "sourceUrl": "https://www.teamtailor.com/en/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

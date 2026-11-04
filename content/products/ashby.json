@@ -1,0 +1,45 @@
+{
+  "name": "Ashby",
+  "status": "published",
+  "vendor": { "name": "Ashby", "website": "https://www.ashbyhq.com" },
+  "primaryCategory": "applicant-tracking",
+  "summary": "Ashby lists one price, $400 a month for its Foundations plan for companies up to 100 employees, and quotes Plus (101 to 1,000 employees) and Enterprise by sales. The page shows a dollar sign without naming the currency. Advanced scheduling features sit in a paid add-on.",
+  "qualifies": [
+    {
+      "category": "applicant-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "job postings", "sourceUrl": "https://www.ashbyhq.com/pricing" },
+        { "capability": "candidate pipeline", "sourceUrl": "https://docs.ashbyhq.com/candidate-pipeline" },
+        { "capability": "interview scheduling and feedback", "sourceUrl": "https://docs.ashbyhq.com/scheduling-and-interviews-an-introduction" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Ashby's pricing page describes job posting as publishing to Ashby's job board and third-party boards such as LinkedIn, Indeed and Google Jobs.", "sourceUrl": "https://www.ashbyhq.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Pipeline stage groups are Leads, Application Review, Active, Pending Offer, Hired and Archived.", "sourceUrl": "https://docs.ashbyhq.com/candidate-pipeline", "checkedAt": "2026-11-04" },
+    { "text": "Candidates can book through a direct booking link that shows the interview panel's availability, and interviewers submit feedback on a form assigned to each interview.", "sourceUrl": "https://docs.ashbyhq.com/scheduling-and-interviews-an-introduction", "checkedAt": "2026-11-04" },
+    { "text": "SSO costs $100 a month and extra candidate texting messages cost $90 per 1,000.", "sourceUrl": "https://www.ashbyhq.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Foundations", "priceUsd": 400, "billing": "month", "unit": "per month, up to 100 employees", "notes": "The page shows $400 with /Month and a 10% discount for annual commitments, but does not name the currency. How the company-size selector changes the price is not shown." },
+      { "name": "Plus", "priceUsd": null, "billing": "quote", "unit": "101 to 1,000 employees", "notes": "Depends on company size, usage and commitment." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "over 1,000 employees" }
+    ],
+    "hiddenCosts": [
+      "Several scheduling features, such as calendar holds and automatic replacement of declined interviewers, are labeled as an Advanced Scheduling add-on.",
+      "SSO is $100 a month and the AI Notetaker is a paid add-on.",
+      "Ashby Analytics is quoted separately for companies of 100 or more."
+    ],
+    "sourceUrl": "https://www.ashbyhq.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["LinkedIn", "Indeed", "Google Jobs"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

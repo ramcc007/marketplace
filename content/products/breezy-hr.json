@@ -1,0 +1,55 @@
+{
+  "name": "Breezy HR",
+  "status": "published",
+  "vendor": { "name": "Breezy HR", "website": "https://breezy.hr" },
+  "primaryCategory": "applicant-tracking",
+  "summary": "Breezy HR charges a flat monthly price per plan with unlimited users and positions: $157, $273 or $439 a month when billed annually, or $189, $329 and $529 when billed monthly. A 14-day trial needs no card, and AI credits, texting and onboarding are separate add-ons.",
+  "qualifies": [
+    {
+      "category": "applicant-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "job postings", "sourceUrl": "https://breezy.hr/features" },
+        { "capability": "candidate pipeline", "sourceUrl": "https://help.breezy.hr/en/articles/5260355-the-candidate-profile" },
+        { "capability": "interview scheduling and feedback", "sourceUrl": "https://help.breezy.hr/en/articles/5260231" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Breezy's features page says it advertises open positions on 50+ top job sites with a single click.", "sourceUrl": "https://breezy.hr/features", "checkedAt": "2026-11-04" },
+    { "text": "Interviews are scheduled from the candidate profile, where the scheduler can check interviewer availability and choose whether team members complete a scorecard after each interview.", "sourceUrl": "https://help.breezy.hr/en/articles/5260231", "checkedAt": "2026-11-04" },
+    { "text": "Custom scorecards are available on the Growth, Business and Pro plans.", "sourceUrl": "https://help.breezy.hr/en/articles/5260339", "checkedAt": "2026-11-04" },
+    { "text": "Breezy's terms say plans renew automatically for another term of the same length unless cancelled first, and they do not include a refund policy.", "sourceUrl": "https://breezy.hr/terms", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Startup", "priceUsd": 157, "billing": "month", "unit": "per month, annual billing", "notes": "$189 a month when billed monthly. The page does not label the two figures; the lower one fits its 'two months free' annual offer. Unlimited users and positions." },
+      { "name": "Growth", "priceUsd": 273, "billing": "month", "unit": "per month, annual billing", "notes": "$329 a month when billed monthly. Adds up to 5 locations per position." },
+      { "name": "Business", "priceUsd": 439, "billing": "month", "unit": "per month, annual billing", "notes": "$529 a month when billed monthly. Adds one-way candidate video up to 5 minutes." },
+      { "name": "Custom Pro", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Includes a dedicated account manager. API access and data export or import are optional extras." }
+    ],
+    "hiddenCosts": [
+      "Breezy Intelligence credits start at $30 for 100,000 credits.",
+      "SMS texting credits start at $41 a month and the Onboard add-on starts at $49 a month.",
+      "API access, advanced reporting and data export or import are offered only on Custom Pro, with no prices listed."
+    ],
+    "sourceUrl": "https://breezy.hr/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Plans renew for another monthly or annual term unless cancelled before the renewal date through Breezy's cancellation process. The terms do not describe that process.",
+    "dataExport": "The terms do not address export or return of data on termination.",
+    "sourceUrl": "https://breezy.hr/terms",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

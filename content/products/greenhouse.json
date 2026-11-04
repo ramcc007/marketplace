@@ -1,0 +1,42 @@
+{
+  "name": "Greenhouse",
+  "status": "published",
+  "vendor": { "name": "Greenhouse", "website": "https://www.greenhouse.com" },
+  "primaryCategory": "applicant-tracking",
+  "summary": "Greenhouse publishes no prices. Its Core, Plus and Pro plans each lead to a demo request, and the FAQ says pricing is customized to the company's hiring needs. Budget for a sales conversation before comparing it with the products that list their rates.",
+  "qualifies": [
+    {
+      "category": "applicant-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "job postings", "sourceUrl": "https://support.greenhouse.io/hc/en-us/articles/206486335-Add-multiple-external-job-boards" },
+        { "capability": "candidate pipeline", "sourceUrl": "https://support.greenhouse.io/hc/en-us/articles/4874727408795-Visual-Candidate-Pipeline" },
+        { "capability": "interview scheduling and feedback", "sourceUrl": "https://www.greenhouse.com/ats" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Greenhouse's help center says a job is posted to external job boards by choosing a board in the Post To dropdown when you create or edit the job.", "sourceUrl": "https://support.greenhouse.io/hc/en-us/articles/206486335-Add-multiple-external-job-boards", "checkedAt": "2026-11-04" },
+    { "text": "Interviewers use scorecards to submit feedback after an interview, with key takeaways, attribute ratings and an overall recommendation.", "sourceUrl": "https://support.greenhouse.io/hc/en-us/articles/4414777492891-Scorecard-overview", "checkedAt": "2026-11-04" },
+    { "text": "The ATS page lists candidate self-scheduling and scheduling links among its features.", "sourceUrl": "https://www.greenhouse.com/ats", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Core", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Links to a demo request." },
+      { "name": "Plus", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Links to a demo request." },
+      { "name": "Pro", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Links to a demo request." }
+    ],
+    "hiddenCosts": [
+      "No price is published, so the cost cannot be compared before a sales call."
+    ],
+    "sourceUrl": "https://www.greenhouse.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
