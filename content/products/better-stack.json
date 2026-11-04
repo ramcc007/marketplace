@@ -13,6 +13,15 @@
         { "capability": "alerting", "sourceUrl": "https://betterstack.com/pricing" },
         { "capability": "uptime reports", "sourceUrl": "https://betterstack.com/pricing" }
       ]
+    },
+    {
+      "category": "incident-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "on-call schedules and escalation", "sourceUrl": "https://betterstack.com/incident-management" },
+        { "capability": "alert routing", "sourceUrl": "https://betterstack.com/incident-management" },
+        { "capability": "incident timeline and postmortems", "sourceUrl": "https://betterstack.com/incident-management" }
+      ]
     }
   ],
   "facts": [

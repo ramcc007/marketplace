@@ -1,0 +1,55 @@
+{
+  "name": "incident.io",
+  "status": "published",
+  "vendor": { "name": "incident.io", "website": "https://incident.io" },
+  "primaryCategory": "incident-management",
+  "summary": "incident.io has a free Basic plan with one on-call schedule and one status page. Team costs $15 per user a month on annual billing or $19 monthly, Pro costs $25, and on-call is a separate add-on at $10 on Team or $20 on Pro.",
+  "qualifies": [
+    {
+      "category": "incident-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "on-call schedules and escalation", "sourceUrl": "https://docs.incident.io/alerts/escalations-from-alerts" },
+        { "capability": "alert routing", "sourceUrl": "https://docs.incident.io/alerts/escalations-from-alerts" },
+        { "capability": "incident timeline and postmortems", "sourceUrl": "https://incident.io/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Alert routes can send an alert to escalation paths, to users, or to both, and an expression can pick the path from the alert's team or service.", "sourceUrl": "https://docs.incident.io/alerts/escalations-from-alerts", "checkedAt": "2026-11-04" },
+    { "text": "Multiple postmortem documents and a custom post-incident flow start on the Pro plan.", "sourceUrl": "https://incident.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "A standalone on-call product costs $20 per user a month, and the pricing page does not say whether that is billed monthly or annually.", "sourceUrl": "https://incident.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The page states SOC 2 Type I and II and GDPR compliance, and does not mention ISO 27001 or HIPAA.", "sourceUrl": "https://incident.io/security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Basic", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Single-team on-call, 1 schedule, 1 workflow, 2 integrations, 1 public status page" },
+      { "name": "Team", "priceUsd": 15, "billing": "month", "unit": "per user", "notes": "Billed annually; $19 on monthly billing. On-call adds $10 per user a month" },
+      { "name": "Pro", "priceUsd": 25, "billing": "month", "unit": "per user", "notes": "The page does not state the billing period. On-call adds $20 per user a month. Includes SAML" },
+      { "name": "On-call only", "priceUsd": 20, "billing": "month", "unit": "per user", "notes": "Standalone on-call product; billing period not stated" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing. Adds SCIM" }
+    ],
+    "hiddenCosts": [
+      "On-call is an add-on on Team and Pro, so a Pro responder with on-call costs $45 per user a month before discounts.",
+      "The pricing page does not state the billing period for Pro."
+    ],
+    "sourceUrl": "https://incident.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Team (SSO); Pro adds SAML",
+    "sourceUrl": "https://incident.io/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Asana", "ClickUp", "GitHub", "GitLab", "Jira", "Linear", "Shortcut", "Zendesk"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Zenduty",
+  "status": "published",
+  "vendor": { "name": "Xurrent", "website": "https://zenduty.com" },
+  "primaryCategory": "incident-management",
+  "summary": "Zenduty, now branded Xurrent IMR, lists Starter at $6 and Growth at $16 per user a month with a 14-day trial. The page does not say whether those figures assume yearly billing, so treat them as list prices to confirm.",
+  "qualifies": [
+    {
+      "category": "incident-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "on-call schedules and escalation", "sourceUrl": "https://zenduty.com/pricing/" },
+        { "capability": "alert routing", "sourceUrl": "https://zenduty.com/pricing/" },
+        { "capability": "incident timeline and postmortems", "sourceUrl": "https://zenduty.com/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page says every plan includes scheduling, escalation policies, postmortem templates, alert rules by priority, service or team, and single sign-on.", "sourceUrl": "https://zenduty.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The page offers a Bill Yearly toggle labeled Save 16%, and it does not state which price is shown when the toggle is off.", "sourceUrl": "https://zenduty.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Starter allows up to 5 seats and Growth up to 50, and Enterprise is quoted on request.", "sourceUrl": "https://zenduty.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Starter", "priceUsd": 6, "billing": "month", "unit": "per user", "notes": "Up to 5 seats and 1 team. The page does not say whether this assumes yearly billing" },
+      { "name": "Growth", "priceUsd": 16, "billing": "month", "unit": "per user", "notes": "Up to 50 seats and 5 teams. The page does not say whether this assumes yearly billing" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Unlimited seats, price on request" }
+    ],
+    "hiddenCosts": [
+      "The yearly billing toggle saves 16%, but the page does not show which of the two prices the figures above represent."
+    ],
+    "sourceUrl": "https://zenduty.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Amazon EventBridge", "AppDynamics", "AppOptics", "AppSignal", "Alerta"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

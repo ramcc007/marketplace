@@ -1,0 +1,52 @@
+{
+  "name": "All Quiet",
+  "status": "published",
+  "vendor": { "name": "All Quiet", "website": "https://allquiet.app" },
+  "primaryCategory": "incident-management",
+  "summary": "All Quiet charges $4.99 per user a month on Standard and $9.99 on Pro, billed monthly, with a 14-day trial and no free plan. SMS and phone alerts carry no per-message charge, and status pages start on Pro.",
+  "qualifies": [
+    {
+      "category": "incident-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "on-call schedules and escalation", "sourceUrl": "https://allquiet.app/incident-management" },
+        { "capability": "alert routing", "sourceUrl": "https://allquiet.app/incident-management" },
+        { "capability": "incident timeline and postmortems", "sourceUrl": "https://allquiet.app/incident-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Escalation tiers re-route automatically when an alert goes unacknowledged, and the example on the product page escalates after 10 minutes.", "sourceUrl": "https://allquiet.app/incident-management", "checkedAt": "2026-11-04" },
+    { "text": "Standard includes unlimited on-call schedules, escalation policies and overrides, and retains incidents for 6 months, against 12 months on Pro.", "sourceUrl": "https://allquiet.app/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The FAQ says there are no per-channel or per-message charges, though status page SMS subscribers are listed as custom with no price.", "sourceUrl": "https://allquiet.app/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Data is hosted in Frankfurt for EU customers or US-East 1 for US customers, and All Quiet says it is not HIPAA compliant.", "sourceUrl": "https://allquiet.app/security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Standard", "priceUsd": 4.99, "billing": "month", "unit": "per user", "notes": "Billed monthly. SSO, 6 months of incident retention" },
+      { "name": "Pro", "priceUsd": 9.99, "billing": "month", "unit": "per user", "notes": "Billed monthly. Adds OIDC, SCIM, status pages and 12 months of retention" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing" }
+    ],
+    "hiddenCosts": [
+      "Status page SMS subscribers are listed as custom with no published price."
+    ],
+    "sourceUrl": "https://allquiet.app/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": false,
+    "ssoPlan": "Standard (SSO); Pro adds OIDC and SCIM",
+    "sourceUrl": "https://allquiet.app/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Amazon CloudWatch", "Datadog", "Google Cloud Monitoring", "Grafana", "PRTG", "Prometheus Alertmanager", "Sentry", "ServiceNow"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

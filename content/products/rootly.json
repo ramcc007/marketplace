@@ -1,0 +1,54 @@
+{
+  "name": "Rootly",
+  "status": "published",
+  "vendor": { "name": "Rootly", "website": "https://rootly.com" },
+  "primaryCategory": "incident-management",
+  "summary": "Rootly sells incident response and on-call as two products at $20 per user a month each, so a team that wants both pays $40. It has no free plan, and the pricing page does not state the billing period.",
+  "qualifies": [
+    {
+      "category": "incident-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "on-call schedules and escalation", "sourceUrl": "https://docs.rootly.com/alerts/alert-routing" },
+        { "capability": "alert routing", "sourceUrl": "https://docs.rootly.com/alerts/alert-routing" },
+        { "capability": "incident timeline and postmortems", "sourceUrl": "https://rootly.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Routing an alert to a team or service triggers that team's configured escalation policy.", "sourceUrl": "https://docs.rootly.com/alerts/alert-routing", "checkedAt": "2026-11-04" },
+    { "text": "On-call, with paging, rotations and shift swaps, is a separate product from Incident Response, which includes retrospectives and status pages.", "sourceUrl": "https://rootly.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Startups under 25 employees can pay what they can, and companies under 100 employees can get up to 50% off.", "sourceUrl": "https://rootly.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The page shows SOC 2 Type 2, HIPAA, GDPR and CCPA badges and does not mention ISO 27001.", "sourceUrl": "https://rootly.com/security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Incident Response", "priceUsd": 20, "billing": "month", "unit": "per user", "notes": "Billing period not stated. Includes retrospectives and status pages" },
+      { "name": "On-Call", "priceUsd": 20, "billing": "month", "unit": "per user", "notes": "Billing period not stated. Paging, rotations and shift swaps" },
+      { "name": "AI SRE", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Not published; requires Incident Response" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing. Adds SCIM and audit logs" }
+    ],
+    "hiddenCosts": [
+      "Incident Response and On-Call are priced separately, so both together cost $40 per user a month.",
+      "The FAQ says trials typically last two weeks and can be extended."
+    ],
+    "sourceUrl": "https://rootly.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": "SSO and SAML on the listed plans; SCIM on Enterprise",
+    "sourceUrl": "https://rootly.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Datadog", "GitHub", "Jira Cloud", "Microsoft Teams", "PagerDuty", "Grafana", "Prometheus Alertmanager", "Slack"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

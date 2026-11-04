@@ -1,0 +1,53 @@
+{
+  "name": "FireHydrant",
+  "status": "published",
+  "vendor": { "name": "FireHydrant", "website": "https://firehydrant.com" },
+  "primaryCategory": "incident-management",
+  "summary": "FireHydrant's free plan covers up to 10 responders with a Slack and Teams chatbot and one status page. Pro costs $25 per responder a month billed annually and adds on-call scheduling, with SMS and voice sold separately.",
+  "qualifies": [
+    {
+      "category": "incident-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "on-call schedules and escalation", "sourceUrl": "https://firehydrant.com/pricing/" },
+        { "capability": "alert routing", "sourceUrl": "https://firehydrant.com/pricing/" },
+        { "capability": "incident timeline and postmortems", "sourceUrl": "https://firehydrant.com/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Pro lists on-call scheduling, unlimited escalation policies, unlimited webhooks and alert rules, and one retrospective template.", "sourceUrl": "https://firehydrant.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The Signals alerting product is charged by the number of alerts sent, and the pricing page publishes no per-alert price.", "sourceUrl": "https://firehydrant.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "A 14-day Pro trial needs no credit card.", "sourceUrl": "https://firehydrant.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "FireHydrant states SOC 2 Type II compliance and gives September 2021 as the date it achieved it.", "sourceUrl": "https://firehydrant.com/security/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Up to 10 responders, 2 runbooks, Slack and Teams chatbot, 1 public status page, 3 integrations" },
+      { "name": "Pro", "priceUsd": 25, "billing": "month", "unit": "per responder", "notes": "Billed annually; no monthly option is published. SSO included" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing. Adds live call routing, SCIM and unlimited retrospective templates" }
+    ],
+    "hiddenCosts": [
+      "SMS and voice notifications are available for purchase on Pro, with no price published.",
+      "Signals alerting is charged per alert sent, with no price published."
+    ],
+    "sourceUrl": "https://firehydrant.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Pro",
+    "sourceUrl": "https://firehydrant.com/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "Jira Cloud", "AWS CloudWatch", "Alertmanager", "Bugsnag", "Checkly"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Grafana IRM",
+  "status": "published",
+  "vendor": { "name": "Grafana Labs", "website": "https://grafana.com" },
+  "primaryCategory": "incident-management",
+  "summary": "Grafana IRM is free for up to 3 active users a month. The self-serve Pro tier costs $20 per active IRM user plus a $19 monthly platform fee, and Enterprise has a $25,000 a year minimum commitment.",
+  "qualifies": [
+    {
+      "category": "incident-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "on-call schedules and escalation", "sourceUrl": "https://grafana.com/docs/grafana-cloud/alerting-and-irm/irm/" },
+        { "capability": "alert routing", "sourceUrl": "https://grafana.com/docs/grafana-cloud/alerting-and-irm/irm/" },
+        { "capability": "incident timeline and postmortems", "sourceUrl": "https://grafana.com/docs/grafana-cloud/alerting-and-irm/irm/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Grafana's documentation says alerts are grouped and routed through escalation steps that the team defines.", "sourceUrl": "https://grafana.com/docs/grafana-cloud/alerting-and-irm/irm/", "checkedAt": "2026-11-04" },
+    { "text": "The documentation describes a post-incident review stage and an incident timeline, and does not describe a postmortem template.", "sourceUrl": "https://grafana.com/docs/grafana-cloud/alerting-and-irm/irm/", "checkedAt": "2026-11-04" },
+    { "text": "Pro includes 3 active IRM users in the $19 monthly platform fee, with pay-as-you-go pricing beyond that and automatic volume discounts.", "sourceUrl": "https://grafana.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Up to 3 active IRM users a month, community support" },
+      { "name": "Pro", "priceUsd": 20, "billing": "month", "unit": "per active IRM user", "baseFeeUsd": 19, "notes": "The $19 platform fee includes 3 active IRM users and 8x5 email support" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Minimum commitment of $25,000 a year" }
+    ],
+    "hiddenCosts": [
+      "Pro bills by active IRM user in a month, so the total varies with how many people respond."
+    ],
+    "sourceUrl": "https://grafana.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Grafana Alerting", "Slack", "Microsoft Teams"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
