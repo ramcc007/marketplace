@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import GateNote from '../../components/GateNote.astro';
 import ProductCard from '../../components/ProductCard.astro';
+import CompareTable from '../../components/CompareTable.astro';
 import { categories, categoryTitle, childrenOf, getCategory, getDepartment, relatedCategories } from '../../lib/taxonomy';
 import { getSiteIndex } from '../../lib/site-index';
 import { priceSummary } from '../../lib/catalog';
@@ -34,6 +35,16 @@ const prices = priceSummary(products);
 const paying = products.filter((p) => p.data.paidRelationship);
 const lastUpdate = editorial?.data.updateLog.at(-1);
 
+// Newest and oldest price check, so the header can say how fresh the data is.
+const checkedDates = products.map((p) => p.data.pricing.verifiedAt).sort();
+const oldestCheck = checkedDates[0];
+const newestCheck = checkedDates.at(-1);
+
+// Where to send someone who landed on a category with nothing in it yet.
+const populatedRelated = [...index.categories.values()]
+  .filter((c) => c.products.length > 0 && c.category.departmentSlug === category.departmentSlug && c.category.slug !== category.slug)
+  .slice(0, 6);
+
 const crumbs = [
   { name: 'Home', path: '/' },
   { name: dept.name, path: `/categories/${dept.slug}` },
@@ -44,42 +55,89 @@ const jsonLd = [breadcrumbList(crumbs, site)];
 if (products.length > 0) {
   jsonLd.push(itemList(products.map((p) => ({ name: p.data.name, path: `/products/${p.id}` })), site));
 }
+
+const toc = [
+  ...(products.length > 0 ? [{ id: 'compare', label: 'Compare at a glance' }] : []),
+  ...(Editorial ? [{ id: 'notes', label: 'Our notes' }] : []),
+  { id: 'criteria', label: 'What a product needs' },
+  ...(products.length > 0 ? [{ id: 'products', label: 'Products in brief' }] : []),
+  ...(prices.products >= 3 ? [{ id: 'prices', label: 'Price summary' }] : []),
+  { id: 'who-pays', label: 'Who pays us' },
+];
 ---
 
 <BaseLayout title={title} description={description} path={`/software/${category.slug}`} index={gate.indexable} jsonLd={jsonLd}>
-  <div class="mx-auto max-w-6xl px-4 py-8">
-    <Breadcrumbs crumbs={crumbs} />
-    <h1 class="mt-4 text-3xl font-bold tracking-tight">{title}</h1>
-    <p class="mt-2 text-sm text-slate-500">Also searched as {category.aliases.join(', ')}</p>
-    <div class="mt-6"><GateNote gate={gate} /></div>
-
-    <div class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem]">
-      <div>
+  <section class="hero-bg border-b border-slate-200">
+    <div class="mx-auto max-w-6xl px-4 py-8 sm:py-10">
+      <Breadcrumbs crumbs={crumbs} />
+      <h1 class="mt-4 max-w-3xl text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">{title}</h1>
+      {editorial?.data.definition && <p class="mt-3 max-w-3xl text-lg leading-relaxed text-slate-600">{editorial.data.definition}</p>}
+      <p class="mt-2 text-sm text-slate-500">Also searched as {category.aliases.join(', ')}</p>
+      <dl class="mt-5 flex flex-wrap gap-x-8 gap-y-2 text-sm">
+        <div>
+          <dt class="text-slate-500">Products checked</dt>
+          <dd class="text-base font-semibold text-slate-900">{products.length}</dd>
+        </div>
         {
-          !gate.indexable && (
-            <p class="rounded border border-slate-200 bg-slate-50 p-4 text-slate-700">
+          newestCheck && (
+            <div>
+              <dt class="text-slate-500">Prices checked</dt>
+              <dd class="text-base font-semibold text-slate-900">
+                {oldestCheck === newestCheck ? formatDate(newestCheck) : `${formatDate(oldestCheck)} to ${formatDate(newestCheck)}`}
+              </dd>
+            </div>
+          )
+        }
+        <div>
+          <dt class="text-slate-500">Order of the list</dt>
+          <dd class="text-base font-semibold text-slate-900">Alphabetical</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <div class="mx-auto max-w-6xl px-4 py-8">
+    <GateNote gate={gate} />
+
+    <div class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_16rem]">
+      <div class="min-w-0">
+        {
+          !gate.indexable && products.length > 0 && (
+            <p class="rounded-lg border border-slate-200 bg-slate-50 p-4 text-sm text-slate-700">
               {products.length >= minProducts
-                ? `${products.length} products meet the inclusion criteria below. Rankings appear once enough verified reviews are in, so the list is in alphabetical order for now.`
-                : `Products for this category are still being checked. Rankings appear once at least ${minProducts} products meet the inclusion criteria below and enough verified reviews are in.`}
+                ? `${products.length} products meet the inclusion criteria. Reviews are not open yet, so the list is in alphabetical order and carries no scores.`
+                : `${products.length} products meet the inclusion criteria so far. We open rankings for a category once at least ${minProducts} do and verified reviews are in. Until then the list is alphabetical.`}
             </p>
           )
         }
 
         {
-          Editorial && (
-            <div class="editorial mt-8">
-              <Editorial />
-            </div>
+          products.length > 0 && (
+            <section class="mt-6" aria-labelledby="compare">
+              <h2 id="compare" class="text-xl font-semibold text-slate-900">Compare at a glance</h2>
+              <CompareTable products={products} />
+            </section>
           )
         }
 
-        <section class="mt-8" aria-labelledby="criteria">
-          <h2 id="criteria" class="text-xl font-semibold">What a product needs to be listed</h2>
-          <ul class="mt-3 space-y-1.5">
+        {
+          Editorial && (
+            <section class="mt-12" aria-labelledby="notes">
+              <h2 id="notes" class="text-xl font-semibold text-slate-900">Our notes</h2>
+              <div class="editorial mt-2">
+                <Editorial />
+              </div>
+            </section>
+          )
+        }
+
+        <section class="mt-12" aria-labelledby="criteria">
+          <h2 id="criteria" class="text-xl font-semibold text-slate-900">What a product needs to be listed</h2>
+          <ul class="mt-3 space-y-2">
             {
               category.mustHave.map((item) => (
-                <li class="flex gap-2">
-                  <span aria-hidden="true" class="text-teal-700">
+                <li class="flex gap-3">
+                  <span aria-hidden="true" class="mt-0.5 inline-flex h-5 w-5 flex-none items-center justify-center rounded-full bg-brand-50 text-xs font-bold text-brand-700">
                     &#10003;
                   </span>
                   <span class="first-letter:uppercase">{item}</span>
@@ -89,18 +147,43 @@ if (products.length > 0) {
           </ul>
           {
             !editorial?.data.criteriaApproved && (
-              <p class="mt-2 text-sm text-slate-500">Draft criteria. An editor approves them before the category opens.</p>
+              <p class="mt-3 text-sm text-slate-500">These are draft criteria. An editor approves them before the category opens.</p>
             )
           }
         </section>
 
-        <section class="mt-10" aria-labelledby="products">
-          <h2 id="products" class="text-xl font-semibold">Products that meet the criteria</h2>
+        <section class="mt-12" aria-labelledby="products">
+          <h2 id="products" class="text-xl font-semibold text-slate-900">
+            {products.length > 0 ? 'Products in brief' : 'Products that meet the criteria'}
+          </h2>
           {
             products.length === 0 ? (
-              <p class="mt-3 text-slate-600">No product has been verified against these criteria yet.</p>
+              <div class="mt-4 rounded-xl border border-dashed border-slate-300 bg-slate-50 p-6">
+                <p class="font-medium text-slate-900">No product has been checked against these criteria yet.</p>
+                <p class="mt-1 text-sm text-slate-600">
+                  We add products only after reading the vendor's own pages for each requirement above, so this list stays
+                  empty until that is done.
+                </p>
+                {populatedRelated.length > 0 && (
+                  <>
+                    <p class="mt-4 text-sm font-medium text-slate-700">Categories in {dept.name} that already have products:</p>
+                    <ul class="mt-2 flex flex-wrap gap-2">
+                      {populatedRelated.map((c) => (
+                        <li>
+                          <a
+                            href={`/software/${c.category.slug}`}
+                            class="inline-flex items-center rounded-full border border-slate-300 bg-white px-3 py-1 text-sm text-slate-700 hover:border-brand-700 hover:text-brand-800"
+                          >
+                            {c.category.name} <span class="ml-1.5 text-slate-500">{c.products.length}</span>
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                )}
+              </div>
             ) : (
-              <ul class="mt-4 space-y-4">
+              <ul class="mt-4 grid gap-4 md:grid-cols-2">
                 {products.map((p) => (
                   <ProductCard product={p} />
                 ))}
@@ -111,38 +194,36 @@ if (products.length > 0) {
 
         {
           prices.products >= 3 && (
-            <section class="mt-10" aria-labelledby="prices">
-              <h2 id="prices" class="text-xl font-semibold">
-                Prices across {prices.products} products
-              </h2>
-              <dl class="mt-3 grid grid-cols-2 gap-4 sm:grid-cols-3">
+            <section class="mt-12" aria-labelledby="prices">
+              <h2 id="prices" class="text-xl font-semibold text-slate-900">Prices across {prices.products} products</h2>
+              <dl class="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
                 {prices.lowestStart !== null && (
-                  <div class="rounded border border-slate-200 p-3">
+                  <div class="rounded-xl border border-slate-200 bg-white p-4">
                     <dt class="text-sm text-slate-500">Lowest starting price</dt>
-                    <dd class="text-lg font-semibold">{formatUsd(prices.lowestStart)} a month</dd>
+                    <dd class="mt-1 text-lg font-semibold text-slate-900">{formatUsd(prices.lowestStart)} a month</dd>
                   </div>
                 )}
                 {prices.medianStart !== null && (
-                  <div class="rounded border border-slate-200 p-3">
+                  <div class="rounded-xl border border-slate-200 bg-white p-4">
                     <dt class="text-sm text-slate-500">Median starting price</dt>
-                    <dd class="text-lg font-semibold">{formatUsd(prices.medianStart)} a month</dd>
+                    <dd class="mt-1 text-lg font-semibold text-slate-900">{formatUsd(prices.medianStart)} a month</dd>
                   </div>
                 )}
-                <div class="rounded border border-slate-200 p-3">
+                <div class="rounded-xl border border-slate-200 bg-white p-4">
                   <dt class="text-sm text-slate-500">Free plan</dt>
-                  <dd class="text-lg font-semibold">
+                  <dd class="mt-1 text-lg font-semibold text-slate-900">
                     {prices.withFreePlan} of {prices.products}
                   </dd>
                 </div>
-                <div class="rounded border border-slate-200 p-3">
+                <div class="rounded-xl border border-slate-200 bg-white p-4">
                   <dt class="text-sm text-slate-500">Free trial</dt>
-                  <dd class="text-lg font-semibold">
+                  <dd class="mt-1 text-lg font-semibold text-slate-900">
                     {prices.withFreeTrial} of {prices.products}
                   </dd>
                 </div>
-                <div class="rounded border border-slate-200 p-3">
+                <div class="rounded-xl border border-slate-200 bg-white p-4">
                   <dt class="text-sm text-slate-500">Price on request only</dt>
-                  <dd class="text-lg font-semibold">
+                  <dd class="mt-1 text-lg font-semibold text-slate-900">
                     {prices.quoteOnly} of {prices.products}
                   </dd>
                 </div>
@@ -156,8 +237,8 @@ if (products.length > 0) {
           )
         }
 
-        <section class="mt-10" aria-labelledby="who-pays">
-          <h2 id="who-pays" class="text-xl font-semibold">Who pays us</h2>
+        <section class="mt-12" aria-labelledby="who-pays">
+          <h2 id="who-pays" class="text-xl font-semibold text-slate-900">Who pays us</h2>
           {
             paying.length === 0 ? (
               <p class="mt-3 text-slate-600">
@@ -174,26 +255,39 @@ if (products.length > 0) {
             )
           }
           <p class="mt-2 text-sm text-slate-500">
-            Payment never changes the order of the list above. <a href="/transparency" class="text-teal-700 underline">How we
-            keep it that way</a>
+            Payment never changes the order of the list. <a href="/transparency" class="text-brand-700 underline">How we keep it that way</a>
           </p>
         </section>
 
         {
           lastUpdate && (
-            <p class="mt-10 text-sm text-slate-500">
+            <p class="mt-10 border-t border-slate-200 pt-4 text-sm text-slate-500">
               Last updated {formatDate(lastUpdate.date)}: {lastUpdate.note}
             </p>
           )
         }
       </div>
 
-      <aside class="space-y-8 text-sm">
+      <aside class="space-y-8 text-sm lg:sticky lg:top-24 lg:self-start">
+        <nav aria-label="On this page">
+          <h2 class="font-semibold text-slate-900">On this page</h2>
+          <ul class="mt-2 space-y-1.5 border-l border-slate-200">
+            {
+              toc.map((t) => (
+                <li>
+                  <a href={`#${t.id}`} class="-ml-px block border-l border-transparent py-0.5 pl-3 text-slate-600 hover:border-brand-700 hover:text-brand-800">
+                    {t.label}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </nav>
         {
           parent && (
             <div>
-              <h2 class="font-semibold">Part of</h2>
-              <a href={`/software/${parent.slug}`} class="mt-2 inline-block text-teal-700 hover:underline">
+              <h2 class="font-semibold text-slate-900">Part of</h2>
+              <a href={`/software/${parent.slug}`} class="mt-2 inline-block text-brand-700 hover:underline">
                 {parent.name}
               </a>
             </div>
@@ -202,11 +296,11 @@ if (products.length > 0) {
         {
           children.length > 0 && (
             <div>
-              <h2 class="font-semibold">More specific categories</h2>
+              <h2 class="font-semibold text-slate-900">More specific categories</h2>
               <ul class="mt-2 space-y-1">
                 {children.map((c) => (
                   <li>
-                    <a href={`/software/${c.slug}`} class="text-teal-700 hover:underline">
+                    <a href={`/software/${c.slug}`} class="text-brand-700 hover:underline">
                       {c.name}
                     </a>
                   </li>
@@ -218,11 +312,11 @@ if (products.length > 0) {
         {
           related.length > 0 && (
             <div>
-              <h2 class="font-semibold">Related in {dept.name}</h2>
+              <h2 class="font-semibold text-slate-900">Related in {dept.name}</h2>
               <ul class="mt-2 space-y-1">
                 {related.map((c) => (
                   <li>
-                    <a href={`/software/${c.slug}`} class="text-slate-700 hover:text-teal-700">
+                    <a href={`/software/${c.slug}`} class="text-slate-700 hover:text-brand-800">
                       {c.name}
                     </a>
                   </li>

@@ -1,0 +1,147 @@
+---
+import type { Product } from '../lib/catalog';
+import { startingPriceLabel, startingPriceSortKey } from '../lib/catalog';
+import { formatDate } from '../lib/dates';
+
+interface Props {
+  products: Product[];
+  /** Unique per page so two tables could coexist. */
+  id?: string;
+}
+const { products, id = 'compare' } = Astro.props;
+
+const yesNo = (v: boolean | null | undefined) => (v === null || v === undefined ? 'Not stated' : v ? 'Yes' : 'No');
+const sortYesNo = (v: boolean | null | undefined) => (v === true ? 0 : v === false ? 2 : 1);
+
+const rows = products.map((p) => {
+  const d = p.data;
+  return {
+    id: p.id,
+    name: d.name,
+    vendor: d.vendor.name,
+    price: startingPriceLabel(p),
+    priceKey: startingPriceSortKey(p),
+    freePlan: d.pricing.freePlan,
+    trialDays: d.pricing.freeTrialDays ?? 0,
+    soc2: d.security?.soc2,
+    sso: d.security?.ssoPlan ?? null,
+    checked: d.pricing.verifiedAt,
+    priced: startingPriceSortKey(p) < Number.MAX_SAFE_INTEGER - 1,
+  };
+});
+---
+
+<div data-compare={id} class="mt-5">
+  <fieldset class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
+    <legend class="sr-only">Filter the table</legend>
+    <span class="font-medium text-slate-700">Show only</span>
+    <label class="inline-flex cursor-pointer items-center gap-2 text-slate-700">
+      <input type="checkbox" data-filter="free" class="h-4 w-4 rounded border-slate-300 accent-teal-700" /> Free plan
+    </label>
+    <label class="inline-flex cursor-pointer items-center gap-2 text-slate-700">
+      <input type="checkbox" data-filter="trial" class="h-4 w-4 rounded border-slate-300 accent-teal-700" /> Free trial
+    </label>
+    <label class="inline-flex cursor-pointer items-center gap-2 text-slate-700">
+      <input type="checkbox" data-filter="priced" class="h-4 w-4 rounded border-slate-300 accent-teal-700" /> Published price
+    </label>
+    <span class="ml-auto text-slate-500" role="status" aria-live="polite" data-count>{rows.length} of {rows.length} products</span>
+  </fieldset>
+
+  <div class="mt-3 overflow-x-auto rounded-xl border border-slate-200 bg-white">
+    <table class="data-table min-w-[44rem]">
+      <caption class="sr-only">Products compared by starting price, plans, security and the date prices were checked</caption>
+      <thead>
+        <tr>
+          <th scope="col" aria-sort="none" data-col="name"><button type="button">Product</button></th>
+          <th scope="col" aria-sort="none" data-col="price"><button type="button">From</button></th>
+          <th scope="col" aria-sort="none" data-col="free"><button type="button">Free plan</button></th>
+          <th scope="col" aria-sort="none" data-col="trial"><button type="button">Free trial</button></th>
+          <th scope="col" aria-sort="none" data-col="soc2"><button type="button">SOC 2</button></th>
+          <th scope="col" aria-sort="none" data-col="sso"><button type="button">Single sign-on</button></th>
+          <th scope="col" aria-sort="none" data-col="checked"><button type="button">Prices checked</button></th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          rows.map((r) => (
+            <tr
+              data-free={r.freePlan ? '1' : '0'}
+              data-trial={r.trialDays > 0 ? '1' : '0'}
+              data-priced={r.priced ? '1' : '0'}
+            >
+              <th scope="row" data-sort={r.name.toLowerCase()}>
+                <a href={`/products/${r.id}`} class="font-semibold text-slate-900 hover:text-brand-700">
+                  {r.name}
+                </a>
+                <span class="block text-xs font-normal text-slate-500">{r.vendor}</span>
+              </th>
+              <td data-sort={r.priceKey}>{r.price}</td>
+              <td data-sort={r.freePlan ? 0 : 1}>{r.freePlan ? 'Yes' : 'No'}</td>
+              <td data-sort={r.trialDays > 0 ? 100 - r.trialDays : 1000}>{r.trialDays > 0 ? `${r.trialDays} days` : 'No'}</td>
+              <td data-sort={sortYesNo(r.soc2)}>{yesNo(r.soc2)}</td>
+              <td data-sort={r.sso ? r.sso.toLowerCase() : '~'}>{r.sso ?? 'Not stated'}</td>
+              <td data-sort={r.checked}>{formatDate(r.checked)}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+  <p class="mt-2 text-xs text-slate-500">
+    Starting prices use the cheapest plan with a published price. Where a vendor only quotes, the table says so. Open a
+    product for plan-by-plan prices and the page each figure came from.
+  </p>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-compare]').forEach((root) => {
+    const table = root.querySelector('table');
+    if (!table) return;
+    const body = table.tBodies[0];
+    const rows = [...body.rows];
+    const count = root.querySelector<HTMLElement>('[data-count]');
+    const filters = [...root.querySelectorAll<HTMLInputElement>('[data-filter]')];
+    const heads = [...table.querySelectorAll<HTMLTableCellElement>('thead th')];
+
+    const cellValue = (row: HTMLTableRowElement, col: number) => {
+      const raw = (row.cells[col] as HTMLElement).dataset.sort ?? row.cells[col].textContent ?? '';
+      const num = Number(raw);
+      return raw !== '' && !Number.isNaN(num) ? num : raw;
+    };
+
+    const applyFilters = () => {
+      const active = filters.filter((f) => f.checked).map((f) => f.dataset.filter!);
+      let shown = 0;
+      for (const row of rows) {
+        const ok = active.every((key) => row.dataset[key] === '1');
+        row.hidden = !ok;
+        if (ok) shown++;
+      }
+      if (count) count.textContent = `${shown} of ${rows.length} products`;
+    };
+    filters.forEach((f) => f.addEventListener('change', applyFilters));
+
+    heads.forEach((th, col) => {
+      th.querySelector('button')?.addEventListener('click', () => {
+        const next = th.getAttribute('aria-sort') === 'ascending' ? 'descending' : 'ascending';
+        heads.forEach((h) => h.setAttribute('aria-sort', 'none'));
+        th.setAttribute('aria-sort', next);
+        const dir = next === 'ascending' ? 1 : -1;
+        rows
+          .sort((a, b) => {
+            const x = cellValue(a, col);
+            const y = cellValue(b, col);
+            if (typeof x === 'number' && typeof y === 'number') {
+              // Products with no comparable price carry a huge sort key; keep them at the bottom in either direction.
+              const xLast = x >= 9e15;
+              const yLast = y >= 9e15;
+              if (xLast !== yLast) return xLast ? 1 : -1;
+              return (x - y) * dir;
+            }
+            return String(x).localeCompare(String(y)) * dir;
+          })
+          .forEach((row) => body.appendChild(row));
+      });
+    });
+  });
+</script>

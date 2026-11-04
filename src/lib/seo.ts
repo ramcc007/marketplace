@@ -6,4 +6,6 @@ export interface SeoProps {
   /** False renders "noindex, follow". Page templates pass the quality gate result here. */
   index?: boolean;
   jsonLd?: Record<string, unknown>[];
+  /** Path of the share image. Defaults to the site-wide one. */
+  image?: string;
 }

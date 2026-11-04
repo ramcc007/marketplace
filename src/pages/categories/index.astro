@@ -2,9 +2,12 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { categories, departments, getCategory } from '../../lib/taxonomy';
+import { getSiteIndex } from '../../lib/site-index';
 import { breadcrumbList } from '../../lib/schema';
 
 const site = Astro.site ?? new URL(Astro.url.origin);
+const index = await getSiteIndex();
+const productCount = (slug: string) => index.categories.get(slug)?.products.length ?? 0;
 const crumbs = [
   { name: 'Home', path: '/' },
   { name: 'Categories', path: '/categories' },
@@ -17,42 +20,54 @@ const crumbs = [
   path="/categories"
   jsonLd={[breadcrumbList(crumbs, site)]}
 >
-  <div class="mx-auto max-w-6xl px-4 py-8">
-    <Breadcrumbs crumbs={crumbs} />
-    <h1 class="mt-4 text-3xl font-bold tracking-tight">All software categories</h1>
-    <p class="mt-2 max-w-3xl text-slate-600">
-      {categories.length} categories in {departments.length} departments. Each category lists the capabilities a product
-      needs before it can appear there.
-    </p>
+  <section class="hero-bg border-b border-slate-200">
+    <div class="mx-auto max-w-6xl px-4 py-8 sm:py-10">
+      <Breadcrumbs crumbs={crumbs} />
+      <h1 class="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">All software categories</h1>
+      <p class="mt-3 max-w-3xl text-lg leading-relaxed text-slate-600">
+        {categories.length} categories in {departments.length} departments. Each one lists the capabilities a product needs
+        before it can appear there. A number next to a category is how many products we have checked so far.
+      </p>
 
-    <label for="filter" class="mt-6 block text-sm font-medium text-slate-700">Filter categories</label>
-    <input
-      id="filter"
-      type="search"
-      autocomplete="off"
-      placeholder="For example payroll, SIEM or help desk"
-      class="mt-1 w-full max-w-md rounded border border-slate-300 px-3 py-2 focus:border-teal-700 focus:outline-none"
-    />
-    <p id="filter-empty" class="mt-4 text-slate-600" hidden>No category matches that search.</p>
+      <label for="filter" class="mt-6 block text-sm font-medium text-slate-700">Filter categories</label>
+      <input
+        id="filter"
+        type="search"
+        autocomplete="off"
+        placeholder="For example payroll, SIEM or help desk"
+        class="mt-1.5 min-h-12 w-full max-w-md rounded-lg border border-slate-300 bg-white px-4 shadow-sm placeholder:text-slate-400 focus:border-brand-700 focus:outline-none"
+      />
+      <p id="filter-count" class="mt-2 text-sm text-slate-500" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <div class="mx-auto max-w-6xl px-4 pb-4">
+    <p id="filter-empty" class="mt-6 text-slate-600" hidden>No category matches that search.</p>
 
     {
       departments.map((dept) => (
         <section class="mt-10" data-dept>
-          <h2 class="flex items-baseline gap-3 text-xl font-semibold">
-            <a href={`/categories/${dept.slug}`} class="hover:text-teal-700">
+          <h2 class="flex items-baseline gap-3 border-b border-slate-200 pb-2 text-xl font-semibold text-slate-900">
+            <a href={`/categories/${dept.slug}`} class="hover:text-brand-700">
               {dept.name}
             </a>
-            <span class="text-sm font-normal text-slate-500">{dept.categories.length}</span>
+            <span class="text-sm font-normal text-slate-500">{dept.categories.length} categories</span>
           </h2>
-          <ul class="mt-3 grid gap-x-6 gap-y-1.5 text-sm sm:grid-cols-2 lg:grid-cols-3">
-            {dept.categories.map((c) => (
-              <li data-search={[c.name, ...c.aliases].join(' ').toLowerCase()}>
-                <a href={`/software/${c.slug}`} class="text-slate-700 hover:text-teal-700">
-                  {c.name}
-                </a>
-                {c.parentSlug && <span class="text-slate-400"> in {getCategory(c.parentSlug)?.name}</span>}
-              </li>
-            ))}
+          <ul class="mt-3 grid gap-x-8 gap-y-1 sm:grid-cols-2 lg:grid-cols-3">
+            {dept.categories.map((c) => {
+              const n = productCount(c.slug);
+              return (
+                <li data-search={[c.name, ...c.aliases].join(' ').toLowerCase()}>
+                  <a href={`/software/${c.slug}`} class="cat-link">
+                    <span>
+                      {c.name}
+                      {c.parentSlug && <span class="text-slate-500"> in {getCategory(c.parentSlug)?.name}</span>}
+                    </span>
+                    {n > 0 && <span class="cat-count">{n}</span>}
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </section>
       ))
@@ -63,9 +78,10 @@ const crumbs = [
 <script>
   const input = document.getElementById('filter') as HTMLInputElement;
   const empty = document.getElementById('filter-empty') as HTMLElement;
+  const count = document.getElementById('filter-count') as HTMLElement;
   const sections = [...document.querySelectorAll<HTMLElement>('[data-dept]')];
 
-  input.addEventListener('input', () => {
+  function apply() {
     const query = input.value.trim().toLowerCase();
     let shown = 0;
     for (const section of sections) {
@@ -79,5 +95,14 @@ const crumbs = [
       shown += visible;
     }
     empty.hidden = shown > 0;
-  });
+    count.textContent = query === '' ? '' : `${shown} ${shown === 1 ? 'category matches' : 'categories match'}`;
+  }
+
+  input.addEventListener('input', apply);
+  // The home page search sends visitors here as /categories?q=payroll.
+  const q = new URLSearchParams(location.search).get('q');
+  if (q) {
+    input.value = q;
+    apply();
+  }
 </script>

@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>B2B Rated admin</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f766e'/%3E%3Crect x='7' y='17' width='4.5' height='8' rx='1.2' fill='%23fff'/%3E%3Crect x='13.75' y='12' width='4.5' height='13' rx='1.2' fill='%23fff'/%3E%3Crect x='20.5' y='7' width='4.5' height='18' rx='1.2' fill='%23fff'/%3E%3Crect x='20.5' y='7' width='4.5' height='5' rx='1.2' fill='%23fbbf24'/%3E%3C/svg%3E">
+<style>
+  :root { --ink:#0f172a; --mut:#64748b; --line:#e2e8f0; --bg:#f8fafc; --brand:#0f766e; --brand-d:#115e59; --warn:#b45309; --bad:#b91c1c; --ok:#15803d; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:15px/1.5 ui-sans-serif,system-ui,"Segoe UI",Roboto,Arial,sans-serif; color:var(--ink); background:var(--bg); }
+  header { background:#fff; border-bottom:1px solid var(--line); position:sticky; top:0; z-index:5; }
+  .bar { max-width:1200px; margin:0 auto; padding:10px 16px; display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:800; font-size:17px; }
+  .brand small { font-weight:500; color:var(--mut); font-size:12px; border:1px solid var(--line); border-radius:99px; padding:2px 8px; }
+  nav { display:flex; gap:4px; margin-left:auto; flex-wrap:wrap; }
+  nav button { background:none; border:0; padding:8px 14px; border-radius:8px; font:inherit; cursor:pointer; color:var(--mut); }
+  nav button[aria-selected="true"] { background:#f0fdfa; color:var(--brand-d); font-weight:600; }
+  main { max-width:1200px; margin:0 auto; padding:20px 16px 60px; }
+  h1 { font-size:22px; margin:0 0 4px; } h2 { font-size:16px; margin:24px 0 8px; }
+  .muted { color:var(--mut); } .small { font-size:13px; }
+  .grid { display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); }
+  .card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+  .card b { display:block; font-size:26px; letter-spacing:-.02em; } .card span { color:var(--mut); font-size:13px; }
+  table { width:100%; border-collapse:collapse; background:#fff; border:1px solid var(--line); border-radius:12px; overflow:hidden; font-size:14px; }
+  th { text-align:left; background:#f1f5f9; padding:8px 10px; font-size:12px; color:#475569; white-space:nowrap; cursor:pointer; user-select:none; }
+  td { padding:8px 10px; border-top:1px solid #f1f5f9; vertical-align:top; }
+  tbody tr { cursor:pointer; } tbody tr:hover td { background:#f8fafc; }
+  .tablewrap { overflow-x:auto; border-radius:12px; }
+  .pill { display:inline-block; padding:1px 8px; border-radius:99px; font-size:12px; font-weight:600; }
+  .yes { background:#dcfce7; color:var(--ok); } .no { background:#fee2e2; color:var(--bad); } .type { background:#e0f2fe; color:#0369a1; }
+  .row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin:10px 0; }
+  input[type=search], input[type=text], select { font:inherit; padding:8px 10px; border:1px solid #cbd5e1; border-radius:8px; background:#fff; }
+  button.act { font:inherit; padding:8px 14px; border-radius:8px; border:1px solid #cbd5e1; background:#fff; cursor:pointer; }
+  button.act:hover { border-color:var(--brand); color:var(--brand-d); }
+  button.primary { background:var(--brand); color:#fff; border-color:var(--brand); } button.primary:hover { background:var(--brand-d); color:#fff; }
+  button:disabled { opacity:.5; cursor:wait; }
+  textarea { width:100%; min-height:460px; font:13px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace; padding:12px; border:1px solid #cbd5e1; border-radius:10px; tab-size:2; }
+  pre { background:#0f172a; color:#e2e8f0; padding:12px; border-radius:10px; overflow:auto; max-height:420px; font-size:12.5px; white-space:pre-wrap; }
+  ul.tight { margin:6px 0; padding-left:20px; } ul.tight li { margin:3px 0; }
+  .msg-bad { color:var(--bad); } .msg-ok { color:var(--ok); } .msg-warn { color:var(--warn); }
+  .hidden { display:none; } a { color:var(--brand-d); }
+  .two { display:grid; gap:16px; grid-template-columns:minmax(0,1fr) 340px; } @media (max-width:900px){ .two { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<header><div class="bar">
+  <div class="brand">
+    <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#0f766e"/><rect x="7" y="17" width="4.5" height="8" rx="1.2" fill="#fff"/><rect x="13.75" y="12" width="4.5" height="13" rx="1.2" fill="#fff"/><rect x="20.5" y="7" width="4.5" height="18" rx="1.2" fill="#fff"/><rect x="20.5" y="7" width="4.5" height="5" rx="1.2" fill="#fbbf24"/></svg>
+    B2B Rated <small>admin, local only</small>
+  </div>
+  <nav role="tablist" aria-label="Sections">
+    <button role="tab" data-tab="overview" aria-selected="true">Overview</button>
+    <button role="tab" data-tab="pages" aria-selected="false">Pages</button>
+    <button role="tab" data-tab="edit" aria-selected="false">Edit</button>
+    <button role="tab" data-tab="tools" aria-selected="false">Checks and live site</button>
+  </nav>
+</div></header>
+
+<main>
+  <section id="tab-overview">
+    <h1>Overview</h1>
+    <p class="muted small" id="asof">Reading the content files and applying the quality gate. This takes a few seconds.</p>
+    <div class="grid" id="cards"></div>
+    <h2>What is keeping category pages out of search</h2>
+    <p class="muted small">The quality gate keeps a page out of search results until every check passes. These are the most common blockers across all categories.</p>
+    <ul class="tight" id="blockers"></ul>
+    <h2>Pages that pass the gate</h2>
+    <ul class="tight" id="passing"></ul>
+  </section>
+
+  <section id="tab-pages" class="hidden">
+    <h1>Pages</h1>
+    <div class="row">
+      <input type="search" id="q" placeholder="Search title or address" aria-label="Search pages" size="28">
+      <select id="ftype" aria-label="Page type"><option value="">All types</option><option value="category">Categories</option><option value="product">Products</option><option value="department">Departments</option></select>
+      <select id="findex" aria-label="Index status"><option value="">Any index status</option><option value="yes">Passes the gate</option><option value="no">Blocked by the gate</option></select>
+      <label class="small"><input type="checkbox" id="ferr"> Writing-rule errors only</label>
+      <label class="small"><input type="checkbox" id="fstale"> Prices over 180 days old</label>
+      <span class="muted small" id="pcount"></span>
+    </div>
+    <div class="tablewrap"><table id="ptable">
+      <thead><tr>
+        <th data-k="type">Type</th><th data-k="title">Page</th><th data-k="indexable">Search</th><th data-k="reasons">First blocker</th>
+        <th data-k="count">Products or categories</th><th data-k="words">Words</th><th data-k="priceAgeDays">Price age (days)</th><th data-k="writingErrors">Rule errors</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table></div>
+    <p class="muted small" id="pmore"></p>
+  </section>
+
+  <section id="tab-edit" class="hidden">
+    <h1 id="etitle">Edit</h1>
+    <p class="muted" id="ehint">Pick a page from the Pages tab. Products open as JSON, categories as markdown.</p>
+    <div id="editor" class="hidden">
+      <div class="two">
+        <div>
+          <textarea id="etext" spellcheck="false" aria-label="File contents"></textarea>
+          <div class="row">
+            <button class="act" id="evalidate">Check without saving</button>
+            <button class="act primary" id="esave">Save to file</button>
+            <button class="act" id="ereload">Discard changes</button>
+            <span class="small muted" id="epath"></span>
+          </div>
+          <div id="eresult"></div>
+        </div>
+        <aside>
+          <div class="card">
+            <b class="small" style="font-size:14px">Search status</b>
+            <p id="egate" class="small"></p>
+            <p class="small"><a id="elocal" target="_blank" rel="noopener">Open this page on the live site</a></p>
+          </div>
+          <div class="card hidden" id="approval" style="margin-top:12px">
+            <b style="font-size:14px">Editorial approval</b>
+            <p class="small muted">These two steps are a person's decision. They change the file and nothing else. Nothing is published until you commit and push.</p>
+            <div class="row"><button class="act" id="acrit">Approve the inclusion criteria</button></div>
+            <div class="row"><input type="text" id="aeditor" placeholder="Editor name" aria-label="Editor name" size="18"><button class="act" id="asign">Sign off copy</button></div>
+            <div class="row"><button class="act" id="arevoke">Withdraw approval</button></div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section id="tab-tools" class="hidden">
+    <h1>Checks and live site</h1>
+    <div class="row">
+      <button class="act primary" data-run="check-content">Run writing checks</button>
+      <button class="act primary" data-run="test">Run tests</button>
+      <button class="act primary" data-run="build">Build the site (temporary folder)</button>
+      <button class="act" id="gitbtn">Git status</button>
+      <button class="act" id="livebtn">Check the live site</button>
+    </div>
+    <p class="muted small">Builds go to a temporary folder, never over your working files. Nothing here commits, pushes or deploys.</p>
+    <div id="toolout"></div>
+  </section>
+</main>
+
+<script>
+const TOKEN = '__TOKEN__';
+const $ = (s, r = document) => r.querySelector(s);
+const api = async (path, opts = {}) => {
+  const r = await fetch(path, { ...opts, headers: { 'x-admin-token': TOKEN, 'content-type': 'application/json', ...(opts.headers || {}) } });
+  const data = await r.json();
+  if (!r.ok) throw new Error(data.error || r.statusText);
+  return data;
+};
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+let overview = null, pages = [], sortKey = 'title', sortDir = 1, current = null, original = '';
+
+// Tabs
+function show(tab) {
+  for (const b of document.querySelectorAll('nav button')) b.setAttribute('aria-selected', String(b.dataset.tab === tab));
+  for (const s of document.querySelectorAll('main > section')) s.classList.toggle('hidden', s.id !== 'tab-' + tab);
+}
+document.querySelectorAll('nav button').forEach((b) => b.addEventListener('click', () => show(b.dataset.tab)));
+
+// Overview
+async function loadOverview() {
+  overview = await api('/api/overview');
+  pages = overview.pages;
+  const t = overview.totals;
+  $('#asof').textContent = `Computed ${overview.today} from the files in content/. Same quality-gate rules as the site build.`;
+  const cards = [
+    [t.pages, 'pages on the site'], [t.indexable, 'pages that pass the gate'], [t.categoriesWithProducts + ' of ' + t.categories, 'categories with products'],
+    [t.products, 'published products'], [t.productsStale, 'products with prices over ' + overview.gate.stalePricingDays + ' days old'],
+    [pages.reduce((n, p) => n + p.writingErrors, 0), 'writing-rule errors'], [t.unreadableFiles, 'product files that will not parse']
+  ];
+  $('#cards').innerHTML = cards.map(([n, l]) => `<div class="card"><b>${esc(n)}</b><span>${esc(l)}</span></div>`).join('');
+  $('#blockers').innerHTML = overview.topBlockers.map((b) => `<li>${esc(b.reason)} <span class="muted">(${b.pages} categories)</span></li>`).join('') || '<li>None.</li>';
+  const passing = pages.filter((p) => p.indexable);
+  $('#passing').innerHTML = (passing.length ? passing.map((p) => `<li>${esc(p.type)}: ${esc(p.title)}</li>`).join('') : '') +
+    '<li class="muted">Home, All categories, How we rank and Transparency are static pages and always indexable.</li>';
+  renderPages();
+}
+
+// Pages table
+function renderPages() {
+  const q = $('#q').value.trim().toLowerCase(), ft = $('#ftype').value, fi = $('#findex').value;
+  const err = $('#ferr').checked, stale = $('#fstale').checked;
+  let rows = pages.filter((p) =>
+    (!q || p.title.toLowerCase().includes(q) || p.url.includes(q)) && (!ft || p.type === ft) &&
+    (!fi || (fi === 'yes') === p.indexable) && (!err || p.writingErrors > 0) &&
+    (!stale || (p.priceAgeDays ?? 0) > overview.gate.stalePricingDays));
+  const val = (p) => sortKey === 'reasons' ? p.reasons.length : p[sortKey];
+  rows.sort((a, b) => { const x = val(a), y = val(b); return (typeof x === 'string' ? x.localeCompare(y) : (x ?? -1) - (y ?? -1)) * sortDir; });
+  $('#pcount').textContent = `${rows.length} of ${pages.length} pages`;
+  const shown = rows.slice(0, 200);
+  $('#ptable tbody').innerHTML = shown.map((p) => `<tr data-type="${p.type}" data-slug="${esc(p.slug)}">
+    <td><span class="pill type">${p.type}</span></td><td><b>${esc(p.title)}</b><br><span class="muted small">${esc(p.url)}</span></td>
+    <td><span class="pill ${p.indexable ? 'yes' : 'no'}">${p.indexable ? 'passes' : 'blocked'}</span></td>
+    <td class="small">${esc(p.reasons[0] ?? '')}${p.reasons.length > 1 ? ` <span class="muted">+${p.reasons.length - 1} more</span>` : ''}</td>
+    <td>${p.count}</td><td>${p.words || ''}</td><td>${p.priceAgeDays ?? ''}</td><td>${p.writingErrors ? `<span class="msg-bad">${p.writingErrors}</span>` : '0'}</td></tr>`).join('');
+  $('#pmore').textContent = rows.length > shown.length ? `Showing the first ${shown.length}. Narrow the filters to see the rest.` : '';
+}
+['q', 'ftype', 'findex', 'ferr', 'fstale'].forEach((id) => $('#' + id).addEventListener('input', renderPages));
+document.querySelectorAll('#ptable th').forEach((th) => th.addEventListener('click', () => { sortDir = sortKey === th.dataset.k ? -sortDir : 1; sortKey = th.dataset.k; renderPages(); }));
+$('#ptable tbody').addEventListener('click', (e) => { const tr = e.target.closest('tr'); if (tr && tr.dataset.type !== 'department') openEditor(tr.dataset.type, tr.dataset.slug); });
+
+// Editor
+async function openEditor(kind, slug) {
+  try {
+    const f = await api(`/api/${kind}/${slug}`);
+    current = { kind, slug };
+    original = f.text;
+    $('#etext').value = f.text;
+    $('#epath').textContent = f.path;
+    $('#etitle').textContent = `${kind === 'product' ? 'Product' : 'Category'}: ${slug}`;
+    $('#ehint').textContent = kind === 'product' ? 'JSON. Saving rewrites the file with standard formatting.' : 'Markdown with a front-matter block between the --- lines.';
+    $('#editor').classList.remove('hidden');
+    $('#approval').classList.toggle('hidden', kind !== 'category');
+    $('#eresult').innerHTML = '';
+    const row = pages.find((p) => p.type === kind && p.slug === slug);
+    $('#egate').innerHTML = row ? (row.indexable ? '<span class="pill yes">Passes the gate</span>' : '<span class="pill no">Blocked</span><ul class="tight">' + row.reasons.map((r) => `<li>${esc(r)}</li>`).join('') + '</ul>') : '';
+    $('#elocal').href = overview ? new URL(row ? row.url : '/', 'https://b2brated.com').toString() : '#';
+    show('edit');
+  } catch (e) { alert(e.message); }
+}
+function showResult(r) {
+  const issues = (r.issues || []).map((i) => `<li class="${i.severity === 'error' ? 'msg-bad' : 'msg-warn'}">${esc(i.severity)} [${esc(i.rule)}] ${esc(i.message)}${i.excerpt ? `<br><span class="muted small">${esc(i.excerpt)}</span>` : ''}</li>`).join('');
+  $('#eresult').innerHTML =
+    (r.saved ? '<p class="msg-ok"><b>Saved.</b> Run the checks and a build before you commit.</p>' : '') +
+    (r.problems?.length ? `<p class="msg-bad"><b>${r.saved ? 'Saved, with problems to fix:' : 'Not saved:'}</b></p><ul class="tight">${r.problems.map((p) => `<li class="msg-bad">${esc(p)}</li>`).join('')}</ul>` : (r.saved ? '' : '<p class="msg-ok"><b>No structural problems.</b></p>')) +
+    (issues ? `<p><b>Writing rules</b></p><ul class="tight">${issues}</ul>` : '');
+}
+async function put(validateOnly) {
+  if (!current) return;
+  const btns = [...document.querySelectorAll('#editor button')]; btns.forEach((b) => (b.disabled = true));
+  try { const r = await api(`/api/${current.kind}/${current.slug}`, { method: 'PUT', body: JSON.stringify({ text: $('#etext').value, validateOnly }) }); showResult(r); if (r.saved) { original = $('#etext').value; loadOverview(); } }
+  catch (e) { $('#eresult').innerHTML = `<p class="msg-bad">${esc(e.message)}</p>`; }
+  btns.forEach((b) => (b.disabled = false));
+}
+$('#evalidate').addEventListener('click', () => put(true));
+$('#esave').addEventListener('click', () => put(false));
+$('#ereload').addEventListener('click', () => { $('#etext').value = original; $('#eresult').innerHTML = ''; });
+async function approve(action) {
+  if (!current || current.kind !== 'category') return;
+  const editor = $('#aeditor').value.trim();
+  const sentence = { criteria: 'Approve the inclusion criteria for this category?', signoff: `Sign off this copy as "${editor}"? Only do this after you have read it and checked the claims.`, revoke: 'Withdraw approval and sign-off?' }[action];
+  if (!confirm(sentence)) return;
+  try { await api(`/api/approve/${current.slug}`, { method: 'POST', body: JSON.stringify({ action, editor }) }); await openEditor('category', current.slug); await loadOverview(); }
+  catch (e) { alert(e.message); }
+}
+$('#acrit').addEventListener('click', () => approve('criteria'));
+$('#asign').addEventListener('click', () => approve('signoff'));
+$('#arevoke').addEventListener('click', () => approve('revoke'));
+
+// Tools
+document.querySelectorAll('[data-run]').forEach((b) => b.addEventListener('click', async () => {
+  const all = document.querySelectorAll('#tab-tools button'); all.forEach((x) => (x.disabled = true));
+  $('#toolout').innerHTML = '<p class="muted">Running. A build can take a minute.</p>';
+  try { const r = await api('/api/run/' + b.dataset.run, { method: 'POST' });
+    $('#toolout').innerHTML = `<p class="${r.code === 0 ? 'msg-ok' : 'msg-bad'}"><b>${r.code === 0 ? 'Passed' : 'Failed'} (exit code ${r.code})</b>${r.outDir ? ` Built into ${esc(r.outDir)}` : ''}</p><pre>${esc(r.output)}</pre>`; }
+  catch (e) { $('#toolout').innerHTML = `<p class="msg-bad">${esc(e.message)}</p>`; }
+  all.forEach((x) => (x.disabled = false));
+}));
+$('#gitbtn').addEventListener('click', async () => { const r = await api('/api/git'); $('#toolout').innerHTML = `<p><b>Last commit:</b> ${esc(r.last)}</p><pre>${esc(r.status)}</pre><p class="muted small">Read only. Commit and push from a terminal when you are ready.</p>`; });
+$('#livebtn').addEventListener('click', async () => {
+  $('#toolout').innerHTML = '<p class="muted">Checking.</p>';
+  try { const r = await api('/api/live', { method: 'POST', body: '{}' });
+    $('#toolout').innerHTML = `<p><b>${esc(r.site)}</b></p><div class="tablewrap"><table><thead><tr><th>Path</th><th>Status</th><th>X-Robots-Tag</th><th>Robots meta</th><th>Canonical</th></tr></thead><tbody>` +
+      r.rows.map((x) => `<tr><td>${esc(x.path)}</td><td>${x.status || '<span class="msg-bad">' + esc(x.error) + '</span>'}</td><td>${esc(x.xRobotsTag ?? '')}</td><td>${esc(x.robotsMeta ?? '')}</td><td class="small">${esc(x.canonical ?? '')}</td></tr>`).join('') + '</tbody></table></div>'; }
+  catch (e) { $('#toolout').innerHTML = `<p class="msg-bad">${esc(e.message)}</p>`; }
+});
+
+loadOverview().catch((e) => { $('#asof').textContent = 'Could not load: ' + e.message; });
+</script>
+</body>
+</html>

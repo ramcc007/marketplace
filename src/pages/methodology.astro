@@ -51,7 +51,8 @@ const weights = [
       <p>
         Each category has a short list of capabilities a product must have, written before any product is added. A
         product appears in the category only after we check each capability against the vendor's own documentation and
-        record the page we used. Vendors can send corrections, and they cannot pay to be listed or to skip a requirement.
+        record the page we used. No vendor can pay to be listed or to skip a requirement. A way for vendors to send us
+        corrections is not set up yet.
       </p>
 
       <h2 id="gate">When a category opens</h2>
@@ -77,23 +78,25 @@ const weights = [
 
       <h2 id="scores">How scores will work</h2>
       <p>
-        Scores appear only after a product has verified reviews. Each score combines five parts with fixed weights, and
-        every score on the site links back to this table.
+        No product has a score yet, because review collection has not opened. When scores arrive, each one will combine
+        the five parts below and link back to this table. The weights are a draft. We will settle them before the first
+        score is published and record the date here.
       </p>
     </div>
 
-    <div class="mt-2 overflow-x-auto">
-      <table class="w-full text-left text-sm">
-        <thead class="border-b border-slate-200 text-slate-500">
-          <tr><th class="py-2 pr-4 font-medium">Part</th><th class="py-2 pr-4 font-medium">Weight</th><th class="py-2 font-medium">What it measures</th></tr>
+    <div class="mt-2 overflow-x-auto rounded-xl border border-slate-200 bg-white">
+      <table class="data-table min-w-[32rem]">
+        <caption class="sr-only">Draft score weights</caption>
+        <thead>
+          <tr><th scope="col">Part</th><th scope="col">Draft weight</th><th scope="col">What it measures</th></tr>
         </thead>
         <tbody>
           {
             weights.map((w) => (
-              <tr class="border-b border-slate-100 align-top">
-                <td class="py-2 pr-4 font-medium">{w.part}</td>
-                <td class="py-2 pr-4">{w.weight}</td>
-                <td class="py-2 text-slate-600">{w.detail}</td>
+              <tr>
+                <th scope="row">{w.part}</th>
+                <td>{w.weight}</td>
+                <td class="text-slate-600">{w.detail}</td>
               </tr>
             ))
           }
@@ -110,23 +113,24 @@ const weights = [
       <h2 id="prices">How prices are checked</h2>
       <p>
         Each price comes from the vendor's public pricing page or a written quote, and the page shows the date we checked
-        it. Prices are checked again every 90 days. When a price has gone {GATE.stalePricingDays} days without a new check,
-        the page says so next to the price.
+        it. The first round of checks was made in early November 2026. We plan to check every price again within 90
+        days. When a price has gone {GATE.stalePricingDays} days without a new check, the page says so next to the price.
       </p>
       <p>
         Costs outside the plan price are listed separately. Common examples are single sign-on offered only on the top
         plan, setup fees, minimum seat counts and annual-only billing.
       </p>
 
-      <h2 id="reviews">How reviews are verified</h2>
+      <h2 id="reviews">How reviews will be verified</h2>
       <p>
-        Every reviewer confirms their identity with a work email address or a LinkedIn account before a review is
-        published. Each review shows how the reviewer was verified and whether the vendor invited them. When a reviewer
-        received a gift or payment, the review says so, and the reward never depends on the rating given.
+        Review collection has not opened, so this describes the rules we will follow when it does. Every reviewer will
+        confirm their identity with a work email address or a LinkedIn account before a review is published. Each review
+        will show how the reviewer was verified and whether the vendor invited them. When a reviewer received a gift or
+        payment, the review will say so, and the reward will never depend on the rating given.
       </p>
       <p>
-        Vendors can reply to reviews and can flag a review with a reason. They cannot remove reviews, and every removal
-        is counted on the product page together with its reason.
+        Vendors will be able to reply to reviews and to flag a review with a reason. They will not be able to remove
+        reviews, and every removal will be counted on the product page together with its reason.
       </p>
     </div>
   </div>

@@ -36,8 +36,10 @@ const rules = [
   <div class="mx-auto max-w-3xl px-4 py-8">
     <Breadcrumbs crumbs={crumbs} />
     <h1 class="mt-4 text-3xl font-bold tracking-tight">Transparency</h1>
-    <p class="mt-2 text-slate-600">
-      The rules we hold ourselves to, and the current numbers behind them as of {formatDate(index.today)}.
+    <p class="mt-2 max-w-2xl text-slate-600">
+      The rules we hold ourselves to, and the current numbers behind them as of {formatDate(index.today)}. Several rules
+      cover features that have not launched yet, such as reviews and sponsored rows. We wrote them down first so they
+      bind us when those features arrive.
     </p>
 
     <dl class="mt-8 grid gap-4 sm:grid-cols-3">
@@ -50,7 +52,7 @@ const rules = [
         <dd class="mt-1 text-2xl font-semibold">{openCategories} of {categories.length}</dd>
       </div>
       <div class="rounded-lg border border-slate-200 p-4">
-        <dt class="text-sm text-slate-500">Reviews removed</dt>
+        <dt class="text-sm text-slate-500">Reviews published</dt>
         <dd class="mt-1 text-2xl font-semibold">0</dd>
       </div>
     </dl>

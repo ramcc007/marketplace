@@ -1,8 +1,10 @@
 ---
 import '../styles/global.css';
 import Seo from '../components/Seo.astro';
+import Logo from '../components/Logo.astro';
 import type { SeoProps } from '../lib/seo';
 import { SITE } from '../config/site';
+import { departments } from '../lib/taxonomy';
 
 type Props = SeoProps;
 const props = Astro.props;
@@ -12,6 +14,8 @@ const nav = [
   { href: '/transparency', label: 'Transparency' },
 ];
 const current = Astro.url.pathname;
+const isCurrent = (href: string) => current === href || current.startsWith(`${href}/`);
+// The footer links to every department so each one is reachable from every page.
 ---
 
 <!doctype html>
@@ -22,27 +26,30 @@ const current = Astro.url.pathname;
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <Seo {...props} />
   </head>
-  <body class="flex min-h-screen flex-col bg-white text-slate-900 antialiased">
+  <body class="flex min-h-screen flex-col bg-white text-slate-800 antialiased">
     <a
       href="#main"
-      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:rounded focus:bg-white focus:px-3 focus:py-2 focus:shadow"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-white focus:px-3 focus:py-2 focus:shadow"
       >Skip to content</a
     >
-    <header class="border-b border-slate-200">
-      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-4">
-        <a href="/" class="text-lg font-semibold tracking-tight text-slate-900">{SITE.name}</a>
+    <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur">
+      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-6 gap-y-2 px-4 py-3">
+        <a href="/" class="flex items-center gap-2.5" aria-label={`${SITE.name} home`}>
+          <Logo class="h-8 w-8" />
+          <span class="text-lg tracking-tight text-slate-900"><span class="font-extrabold">B2B</span> <span class="font-medium text-brand-700">Rated</span></span>
+        </a>
         <nav aria-label="Main">
-          <ul class="flex flex-wrap gap-x-5 gap-y-1 text-sm">
+          <ul class="flex flex-wrap items-center gap-x-1 text-sm">
             {
               nav.map((item) => (
                 <li>
                   <a
                     href={item.href}
                     class:list={[
-                      'hover:text-teal-700',
-                      current.startsWith(item.href) ? 'font-semibold text-teal-700' : 'text-slate-600',
+                      'inline-flex min-h-10 items-center rounded-md px-3 hover:bg-slate-100 hover:text-brand-800',
+                      isCurrent(item.href) ? 'bg-brand-50 font-semibold text-brand-800' : 'text-slate-600',
                     ]}
-                    aria-current={current.startsWith(item.href) ? 'page' : undefined}
+                    aria-current={isCurrent(item.href) ? 'page' : undefined}
                   >
                     {item.label}
                   </a>
@@ -58,19 +65,39 @@ const current = Astro.url.pathname;
       <slot />
     </main>
 
-    <footer class="mt-16 border-t border-slate-200 bg-slate-50">
-      <div class="mx-auto grid max-w-6xl gap-6 px-4 py-8 text-sm text-slate-600 sm:grid-cols-2">
+    <footer class="mt-20 bg-slate-900 text-slate-300">
+      <div class="mx-auto grid max-w-6xl gap-10 px-4 py-12 text-sm md:grid-cols-[1.2fr_1fr_2fr]">
         <div>
-          <p class="font-semibold text-slate-900">{SITE.name}</p>
-          <p class="mt-2 max-w-md">
-            Rankings are never for sale. Any paid placement is labeled and kept apart from the ranked list.
+          <p class="flex items-center gap-2.5 text-base text-white">
+            <Logo class="h-7 w-7" />
+            <span><span class="font-extrabold">B2B</span> <span class="font-medium text-brand-100">Rated</span></span>
+          </p>
+          <p class="mt-4 max-w-xs leading-relaxed">
+            Prices come from each vendor's own pages and carry the date we read them. No vendor pays to be listed or ranked.
           </p>
         </div>
-        <ul class="flex flex-wrap gap-x-5 gap-y-2 sm:justify-end">
-          <li><a class="hover:text-teal-700" href="/categories">All categories</a></li>
-          <li><a class="hover:text-teal-700" href="/methodology">How we rank</a></li>
-          <li><a class="hover:text-teal-700" href="/transparency">Transparency</a></li>
-        </ul>
+        <div>
+          <p class="font-semibold text-white">About</p>
+          <ul class="mt-2">
+            <li><a class="inline-block py-1.5 hover:text-white hover:underline" href="/categories">All categories</a></li>
+            <li><a class="inline-block py-1.5 hover:text-white hover:underline" href="/methodology">How we rank</a></li>
+            <li><a class="inline-block py-1.5 hover:text-white hover:underline" href="/transparency">Transparency</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="font-semibold text-white">Departments</p>
+          <ul class="mt-2 grid grid-cols-2 gap-x-4 sm:grid-cols-3">
+            {
+              departments.map((dept) => (
+                <li>
+                  <a class="inline-block py-1.5 hover:text-white hover:underline" href={`/categories/${dept.slug}`}>
+                    {dept.name}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
       </div>
     </footer>
   </body>

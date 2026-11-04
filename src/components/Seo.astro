@@ -2,9 +2,10 @@
 import type { SeoProps } from '../lib/seo';
 import { SITE } from '../config/site';
 
-const { title, description, path, index = true, jsonLd = [] } = Astro.props as SeoProps;
+const { title, description, path, index = true, jsonLd = [], image = '/og-image.png' } = Astro.props as SeoProps;
 const site = Astro.site ?? new URL(Astro.url.origin);
 const canonical = new URL(path, site).toString();
+const imageUrl = new URL(image, site).toString();
 // PLAN.md 5.2: titles stay within 60 characters, so the site name is dropped when it would not fit.
 const withSuffix = `${title} | ${SITE.name}`;
 const fullTitle = title === SITE.name || withSuffix.length > 60 ? title : withSuffix;
@@ -15,11 +16,22 @@ const serialize = (data: Record<string, unknown>) => JSON.stringify(data).replac
 <title>{fullTitle}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
-<meta name="robots" content={index ? 'index, follow' : 'noindex, follow'} />
+<meta name="robots" content={index ? 'index, follow, max-image-preview:large' : 'noindex, follow'} />
+<meta name="theme-color" content="#0f766e" />
+<link rel="manifest" href="/site.webmanifest" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content={SITE.name} />
 <meta property="og:title" content={fullTitle} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={canonical} />
 <meta property="og:locale" content={SITE.locale} />
+<meta property="og:image" content={imageUrl} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content={`${SITE.name}: business software compared with dated prices`} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageUrl} />
 {jsonLd.map((data) => <script type="application/ld+json" set:html={serialize(data)} />)}

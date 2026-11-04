@@ -40,6 +40,21 @@ Every page's robots tag and every sitemap entry come from the same gate result, 
 - **Category copy:** add `content/categories/<slug>.md` with the frontmatter in `src/content.config.ts`. Run `npm run check:content`, then set `criteriaApproved`, `editor` and `signedOffAt` once reviewed.
 - `content/products/example-ledger.json` is a fictional draft used to check the product template in dev. Drafts never appear in a production build.
 
+## Admin dashboard (local only)
+
+```
+npm run admin
+```
+
+Open the address it prints, including the `?token=` part. It listens on `127.0.0.1` only, the token changes on every start, and it adds no page to the public site.
+
+- **Overview and Pages:** every page with its quality-gate result and the reasons it is still out of search, sortable and filterable.
+- **Edit:** products open as JSON and categories as markdown. Saving is refused when the JSON does not parse. The writing rules run on every check.
+- **Approvals:** buttons set `criteriaApproved`, `editor` and `signedOffAt` in a category file. They are an editor's decision and change only that file.
+- **Checks and live site:** run the writing checks, the tests, or a build into a temporary folder, see `git status`, and check status codes and robots headers on https://b2brated.com.
+
+The dashboard never commits, pushes or deploys. Publishing stays a terminal step: review `git status`, commit, push. Its page list is computed by `scripts/admin/data.ts`, which imports the same gate and writing-rule code as the build; `tests/admin-data.test.ts` guards against the two drifting.
+
 ## Not built yet
 
 Database (Neon) for reviews, vendor accounts and claims; review submission and verification; vendor portal; search beyond the category filter; deployment. Prices and gate results are computed at build time, so the site needs a scheduled rebuild (for example nightly) once it is live.

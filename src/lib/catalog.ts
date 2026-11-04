@@ -1,6 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import type { Category } from './taxonomy';
-import { daysBetween } from './dates';
+import { daysBetween, formatMoney, formatUsd, formatVolumeFee } from './dates';
 import { GATE } from './quality-gate';
 
 // The only module that knows where product data lives. Swap the body of getProducts()
@@ -78,6 +78,32 @@ export function startingListedPrice(product: Product): { amount: number; currenc
       currency: p.listedPrice!.currency,
     }));
   return listed.length ? listed.reduce((a, b) => (b.amount < a.amount ? b : a)) : null;
+}
+
+/** The "from" price as shown on cards and in the comparison table. One place, so they never disagree. */
+export function startingPriceLabel(product: Product): string {
+  const volumeFee = startingVolumeFee(product);
+  if (volumeFee) return formatVolumeFee(volumeFee);
+  const start = startingMonthlyUsd(product);
+  if (start !== null) {
+    const baseFee = startingBaseFeeUsd(product);
+    return `${formatUsd(start)} a month${baseFee ? ` plus a ${formatUsd(baseFee)} monthly base fee` : ''}`;
+  }
+  const listed = startingListedPrice(product);
+  if (listed) return `${formatMoney(listed.amount, listed.currency)} a month`;
+  return product.data.pricing.model === 'free' ? 'Free' : 'Price on request';
+}
+
+/** "From $4 a month", but plain "Price on request" or "Free" where "From" would read wrongly. */
+export function fromPhrase(product: Product): string {
+  const label = startingPriceLabel(product);
+  return label === 'Price on request' || label === 'Free' ? label : `From ${label}`;
+}
+
+/** Numeric key for sorting by price. Products with no comparable flat price sort last. */
+export function startingPriceSortKey(product: Product): number {
+  if (startingVolumeFee(product)) return Number.MAX_SAFE_INTEGER - 1;
+  return startingMonthlyUsd(product) ?? Number.MAX_SAFE_INTEGER;
 }
 
 export interface PriceSummary {
