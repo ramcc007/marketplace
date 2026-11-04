@@ -1,0 +1,50 @@
+{
+  "name": "Rivermate",
+  "status": "published",
+  "vendor": { "name": "Rivermate", "website": "https://www.rivermate.com" },
+  "primaryCategory": "employer-of-record",
+  "summary": "Rivermate employs people in 180+ countries through 38 entities it owns plus partner entities. Employer of record starts at $349 per employee per month with no onboarding or offboarding costs, and the price varies by country, headcount and whether the hire is an expat.",
+  "qualifies": [
+    {
+      "category": "employer-of-record",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employment in countries without an entity", "sourceUrl": "https://www.rivermate.com/employer-of-record" },
+        { "capability": "local contracts and benefits", "sourceUrl": "https://www.rivermate.com/employer-of-record" },
+        { "capability": "payroll and tax compliance", "sourceUrl": "https://www.rivermate.com/employer-of-record" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Rivermate says it uses its own entities and partner entities, and that it owns 38 entities.", "sourceUrl": "https://www.rivermate.com/employer-of-record", "checkedAt": "2026-11-04" },
+    { "text": "Rivermate uses a network of local providers for healthcare and dental benefits.", "sourceUrl": "https://www.rivermate.com/employer-of-record", "checkedAt": "2026-11-04" },
+    { "text": "Rivermate says it is GDPR compliant, and notes that its AWS hosting is SOC 2 Type II and ISO/IEC 27001 compliant, which is not a certification of Rivermate itself.", "sourceUrl": "https://www.rivermate.com/security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Employer of Record", "priceUsd": 349, "billing": "month", "unit": "per employee", "notes": "Starting price. Varies by country, headcount, project and expat versus local hire. No onboarding or offboarding costs" }
+    ],
+    "hiddenCosts": [
+      "Global health insurance is optional and its price is not listed.",
+      "Billing terms and deposits are not published on the pricing page."
+    ],
+    "sourceUrl": "https://www.rivermate.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.rivermate.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

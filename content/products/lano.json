@@ -1,0 +1,51 @@
+{
+  "name": "Lano",
+  "status": "published",
+  "vendor": { "name": "Lano", "website": "https://lano.io" },
+  "primaryCategory": "employer-of-record",
+  "summary": "Lano lets you employ people in 170+ countries without local entities, with country-specific contracts and benefits. It lists its price in euros only, from 499 euros per employee per month, so US buyers should expect currency conversion on top.",
+  "qualifies": [
+    {
+      "category": "employer-of-record",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employment in countries without an entity", "sourceUrl": "https://www.lano.io/global-employment" },
+        { "capability": "local contracts and benefits", "sourceUrl": "https://www.lano.io/global-employment" },
+        { "capability": "payroll and tax compliance", "sourceUrl": "https://www.lano.io/global-employment" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Lano states it is SOC 2 Type II certified, in a post dated May 10, 2024.", "sourceUrl": "https://www.lano.io/blog/lano-is-now-soc-2-type-ii-certified", "checkedAt": "2026-11-04" },
+    { "text": "Lano's pricing is set by proposal based on team size, number of countries and services, and volume discounts exist without published amounts.", "sourceUrl": "https://lano.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Payments over SWIFT cost 25 euros per transaction, and local-network payments are free where available as part of an optional Integrated Payments add-on.", "sourceUrl": "https://lano.io/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Employer of Record", "priceUsd": null, "listedPrice": { "amount": 499, "currency": "EUR" }, "billing": "month", "unit": "per employee", "notes": "Listed as 'From 499 euros'. No USD price is published, so the figure is shown as listed" }
+    ],
+    "hiddenCosts": [
+      "The price is in euros, so USD buyers face exchange rates.",
+      "SWIFT payments carry a 25 euro fee per transaction.",
+      "Immigration support and local compliance add-ons are priced during scoping."
+    ],
+    "sourceUrl": "https://lano.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.lano.io/blog/lano-is-now-soc-2-type-ii-certified",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["HiBob", "Workday", "Personio", "Sage", "Zoho People", "Lucca"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

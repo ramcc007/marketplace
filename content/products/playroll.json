@@ -1,0 +1,52 @@
+{
+  "name": "Playroll",
+  "status": "published",
+  "vendor": { "name": "Playroll", "website": "https://www.playroll.com" },
+  "primaryCategory": "employer-of-record",
+  "summary": "Playroll hires in 180+ countries with no local entity and has its in-house legal team check each contract. It starts at $399 per employee per month with no minimum commitment, and asks for a refundable deposit equal to one month's salary.",
+  "qualifies": [
+    {
+      "category": "employer-of-record",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employment in countries without an entity", "sourceUrl": "https://www.playroll.com/employer-of-record" },
+        { "capability": "local contracts and benefits", "sourceUrl": "https://www.playroll.com/employer-of-record" },
+        { "capability": "payroll and tax compliance", "sourceUrl": "https://www.playroll.com/employer-of-record" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Playroll says it employs people in 180+ countries and supports 60+ currencies.", "sourceUrl": "https://www.playroll.com/employer-of-record", "checkedAt": "2026-11-04" },
+    { "text": "Playroll says each contract is vetted by its in-house legal experts and that it has 120+ legal and tax specialists.", "sourceUrl": "https://www.playroll.com/employer-of-record", "checkedAt": "2026-11-04" },
+    { "text": "Statutory employment costs and government charges are billed separately from the monthly fee.", "sourceUrl": "https://www.playroll.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Visa support, salary benchmarking, benefits and background checks are optional add-ons with no published prices.", "sourceUrl": "https://www.playroll.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Employer of Record", "priceUsd": 399, "billing": "month", "unit": "per employee", "notes": "Starting price with no minimum commitment. No onboarding or offboarding fees" }
+    ],
+    "hiddenCosts": [
+      "A fully refundable security deposit equal to one month's salary is taken when an employee is onboarded.",
+      "Statutory employment costs and country-specific government charges are billed on top of the monthly fee.",
+      "Visa support, benefits, salary benchmarking and background checks cost extra."
+    ],
+    "sourceUrl": "https://www.playroll.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.playroll.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["HiBob", "BambooHR"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

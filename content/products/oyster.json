@@ -1,0 +1,60 @@
+{
+  "name": "Oyster",
+  "status": "published",
+  "vendor": { "name": "Oyster", "website": "https://www.oysterhr.com" },
+  "primaryCategory": "employer-of-record",
+  "summary": "Oyster employs people in 120+ countries and generates a contract for each country's rules. The employer of record fee is $699 per employee per month, with setup, onboarding and terminations included, and a refundable deposit whose amount is not published.",
+  "qualifies": [
+    {
+      "category": "employer-of-record",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employment in countries without an entity", "sourceUrl": "https://www.oysterhr.com/employer-of-record" },
+        { "capability": "local contracts and benefits", "sourceUrl": "https://www.oysterhr.com/employer-of-record" },
+        { "capability": "payroll and tax compliance", "sourceUrl": "https://www.oysterhr.com/employer-of-record" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Oyster says it supports 120+ countries and payroll in 120+ currencies.", "sourceUrl": "https://www.oysterhr.com/employer-of-record", "checkedAt": "2026-11-04" },
+    { "text": "Oyster says it carries liability insurance exceeding $8,000,000.", "sourceUrl": "https://www.oysterhr.com/employer-of-record", "checkedAt": "2026-11-04" },
+    { "text": "Oyster has a seat-based annual billing option at a reduced fee, and empty seats can be reused for new roles or backfills at no extra cost.", "sourceUrl": "https://www.oysterhr.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Oyster charges a currency conversion fee only when you pay in a currency other than the contract currency, and the pricing page does not give the amount.", "sourceUrl": "https://www.oysterhr.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Employer of Record", "priceUsd": 699, "billing": "month", "unit": "per employee", "notes": "No minimum headcount. Annual seat pricing is available at a discount that is not published" }
+    ],
+    "hiddenCosts": [
+      "A refundable deposit is required for each employer of record team member, and the amount is not published.",
+      "Paying in a currency other than the contract currency adds a conversion fee of an unpublished amount."
+    ],
+    "sourceUrl": "https://www.oysterhr.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.oysterhr.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.oysterhr.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Xero", "QuickBooks", "Slack", "Carta", "HiBob", "Personio", "Ashby", "BambooHR", "Greenhouse"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

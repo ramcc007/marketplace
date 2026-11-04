@@ -1,0 +1,60 @@
+{
+  "name": "Deel",
+  "status": "published",
+  "vendor": { "name": "Deel", "website": "https://www.deel.com" },
+  "primaryCategory": "employer-of-record",
+  "summary": "Deel employs your hires through its own entities so you can pay people in a country where you have no company. Its employer of record plan starts at $599 per employee per month on month-to-month terms, and the vendor says local compliance, payroll and benefits administration are included in the quote.",
+  "qualifies": [
+    {
+      "category": "employer-of-record",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employment in countries without an entity", "sourceUrl": "https://www.deel.com/employer-of-record/" },
+        { "capability": "local contracts and benefits", "sourceUrl": "https://www.deel.com/employer-of-record/" },
+        { "capability": "payroll and tax compliance", "sourceUrl": "https://www.deel.com/employer-of-record/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Deel's EOR page cites 150+ countries for hiring and 130+ countries for owned entities and its payroll engine.", "sourceUrl": "https://www.deel.com/employer-of-record/", "checkedAt": "2026-11-04" },
+    { "text": "Deel says its team includes 200+ legal experts who cover employment regulations and tax laws by country.", "sourceUrl": "https://www.deel.com/employer-of-record/", "checkedAt": "2026-11-04" },
+    { "text": "Deel's pricing page describes month-to-month pricing with no long-term commitment for EOR, and lists no deposit or termination fee.", "sourceUrl": "https://www.deel.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "A US PEO order form with a minimum two-year term earns three months of platform fee credit, but ending early means paying list price for the whole term, credit included.", "sourceUrl": "https://www.deel.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Employer of Record", "priceUsd": 599, "billing": "month", "unit": "per employee", "notes": "Listed as a starting price. Month-to-month with no long-term commitment." }
+    ],
+    "hiddenCosts": [
+      "The $599 is a starting price, so the quoted rate for a given country may be higher.",
+      "Currency exchange is described as carrying minimal fees, with no figure published."
+    ],
+    "sourceUrl": "https://www.deel.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.deel.com/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The pricing page says there are no long-term commitments and that you can cancel at any time.",
+    "dataExport": null,
+    "sourceUrl": "https://www.deel.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["QuickBooks", "Xero", "NetSuite", "Slack", "Okta", "BambooHR", "HiBob", "Greenhouse", "Lever", "Workable", "Expensify"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

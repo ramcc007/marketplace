@@ -1,0 +1,61 @@
+{
+  "name": "Remote",
+  "status": "published",
+  "vendor": { "name": "Remote", "website": "https://remote.com" },
+  "primaryCategory": "employer-of-record",
+  "summary": "Remote employs your hires through entities it owns in 90+ countries and runs payroll in-house. The employer of record plan starts at $599 per employee per month on an annual contract, with no setup fee and no standard deposit.",
+  "qualifies": [
+    {
+      "category": "employer-of-record",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employment in countries without an entity", "sourceUrl": "https://remote.com/employer-of-record" },
+        { "capability": "local contracts and benefits", "sourceUrl": "https://remote.com/employer-of-record" },
+        { "capability": "payroll and tax compliance", "sourceUrl": "https://remote.com/employer-of-record" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Remote says it is an employer of record in 90+ countries with 100+ entities that it owns and operates.", "sourceUrl": "https://remote.com/employer-of-record", "checkedAt": "2026-11-04" },
+    { "text": "Remote states that onboarding averages 3 days and that payroll accuracy is 99% across every run.", "sourceUrl": "https://remote.com/employer-of-record", "checkedAt": "2026-11-04" },
+    { "text": "Remote charges no standard deposit, but it may ask for a refundable reserve in some cases and says the amount is disclosed before payment.", "sourceUrl": "https://remote.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Remote sets one exchange rate per monthly billing cycle when billing and payroll currencies differ, and says the rate is locked for that cycle.", "sourceUrl": "https://remote.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Employer of Record", "priceUsd": 599, "billing": "month", "unit": "per employee", "notes": "Starting price for annual contracts. No setup or onboarding fee, and the platform has no base fee" },
+      { "name": "Employer of Record equity add-on", "priceUsd": 39, "billing": "month", "unit": "per employee", "notes": "Charged on top of the base fee", "sourceUrl": "https://remote.com/employer-of-record" }
+    ],
+    "hiddenCosts": [
+      "The $599 rate is for annual contracts, so it is not a month-to-month price.",
+      "A refundable reserve may be required in some cases, with the amount confirmed during onboarding."
+    ],
+    "sourceUrl": "https://remote.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://remote.com/employer-of-record",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://remote.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Workday", "Personio", "BambooHR", "Carta", "Pulley"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

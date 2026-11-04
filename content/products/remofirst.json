@@ -1,0 +1,61 @@
+{
+  "name": "RemoFirst",
+  "status": "published",
+  "vendor": { "name": "RemoFirst", "website": "https://www.remofirst.com" },
+  "primaryCategory": "employer-of-record",
+  "summary": "RemoFirst hires and pays teams in 185+ countries and handles multi-country payroll, tax filings and pension contributions. Employer of record starts at $199 per employee per month with no annual contract, no minimums and no setup or termination fees.",
+  "qualifies": [
+    {
+      "category": "employer-of-record",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employment in countries without an entity", "sourceUrl": "https://www.remofirst.com/employer-of-record" },
+        { "capability": "local contracts and benefits", "sourceUrl": "https://www.remofirst.com/employer-of-record" },
+        { "capability": "payroll and tax compliance", "sourceUrl": "https://www.remofirst.com/employer-of-record" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "RemoFirst says the $199 fee may vary with local country requirements and that it gives a full cost breakdown before you commit.", "sourceUrl": "https://www.remofirst.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "RemoFirst's pricing page says it will do its best to match a better price found elsewhere.", "sourceUrl": "https://www.remofirst.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Payroll can be invoiced in USD, EUR, GBP, CAD, AUD, NZD, SGD or ILS and summarized into one payment.", "sourceUrl": "https://www.remofirst.com/employer-of-record", "checkedAt": "2026-11-04" },
+    { "text": "The EOR page and its FAQ give conflicting counts for visa-support countries and for support hours, so check both with the vendor.", "sourceUrl": "https://www.remofirst.com/employer-of-record", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Employer of Record", "priceUsd": 199, "billing": "month", "unit": "per employee", "notes": "Starting price, which can vary by country. No setup, onboarding or termination fees" }
+    ],
+    "hiddenCosts": [
+      "RemoHealth insurance is an optional add-on starting at $55 per person per month.",
+      "Visa and immigration services are priced by location, visa category and employee status.",
+      "The $199 is a floor, and the fee may be higher in countries with extra requirements."
+    ],
+    "sourceUrl": "https://www.remofirst.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.remofirst.com/employer-of-record",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The FAQ says there are no annual contracts, no minimums and no termination fees.",
+    "dataExport": null,
+    "sourceUrl": "https://www.remofirst.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

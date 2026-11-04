@@ -1,0 +1,41 @@
+{
+  "name": "Skuad",
+  "status": "published",
+  "vendor": { "name": "Skuad", "website": "https://www.skuad.io" },
+  "primaryCategory": "employer-of-record",
+  "summary": "Skuad employs full-time hires through locally compliant contracts and manages statutory benefits and social contributions. Employer of record starts at $199 per employee per month, with discounts for more onboardings that are not published.",
+  "qualifies": [
+    {
+      "category": "employer-of-record",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "employment in countries without an entity", "sourceUrl": "https://www.skuad.io/employer-of-record" },
+        { "capability": "local contracts and benefits", "sourceUrl": "https://www.skuad.io/employer-of-record" },
+        { "capability": "payroll and tax compliance", "sourceUrl": "https://www.skuad.io/employer-of-record" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Skuad's EOR page says 160+ countries while an FAQ on the same page says 150+, so confirm your country before relying on either figure.", "sourceUrl": "https://www.skuad.io/employer-of-record", "checkedAt": "2026-11-04" },
+    { "text": "Skuad says it runs payroll in 70 currencies and offers 24/5 support.", "sourceUrl": "https://www.skuad.io/employer-of-record", "checkedAt": "2026-11-04" },
+    { "text": "Skuad's pricing page publishes only the starting price and directs buyers to a demo for the full fee structure.", "sourceUrl": "https://www.skuad.io/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Employer of Record", "priceUsd": 199, "billing": "month", "unit": "per employee", "notes": "Starting price. Discounts for more onboardings are mentioned without amounts" }
+    ],
+    "hiddenCosts": [
+      "Billing frequency, deposits and other fees are not published; ask for them in writing.",
+      "The $199 is a floor, and the final rate is set through a demo."
+    ],
+    "sourceUrl": "https://www.skuad.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
