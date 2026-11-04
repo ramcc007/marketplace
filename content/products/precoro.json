@@ -1,0 +1,65 @@
+{
+  "name": "Precoro",
+  "status": "published",
+  "vendor": { "name": "Precoro", "website": "https://precoro.com" },
+  "primaryCategory": "procurement",
+  "summary": "Precoro is a purchasing platform with requisitions, purchase orders, receipts, invoice matching and approvals. Core starts at $499 a month and Automation at $999 a month, both billed annually, and Enterprise is sold by quote. Single sign-on and the supplier portal sit on the Automation plan or above.",
+  "qualifies": [
+    {
+      "category": "procurement",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "purchase requests and purchase orders", "sourceUrl": "https://precoro.com/" },
+        { "capability": "supplier catalog or onboarding", "sourceUrl": "https://precoro.com/solutions/supplier-management" },
+        { "capability": "approval workflows", "sourceUrl": "https://precoro.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Precoro says approved purchase requests convert into purchase orders with no data re-entry, and documents route to approvers by department, amount, project or other custom criteria.", "sourceUrl": "https://precoro.com/", "checkedAt": "2026-11-04" },
+    { "text": "The supplier management page describes customizable vendor registration forms with approval workflows, and a supplier portal where vendors upload documents and update product catalogs.", "sourceUrl": "https://precoro.com/solutions/supplier-management", "checkedAt": "2026-11-04" },
+    { "text": "Precoro says it is SOC 2 Type II, GDPR and CCPA compliant, and that SSO, IP whitelisting and US or EU servers are supported.", "sourceUrl": "https://precoro.com/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists PunchOut connectors for suppliers such as Amazon Business, Grainger and Home Depot.", "sourceUrl": "https://precoro.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Signing up means accepting the terms rather than signing a formal contract, and cancellation takes 30 days' notice with access until the billing period ends.", "sourceUrl": "https://precoro.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Core", "priceUsd": 499, "billing": "month", "unit": "per account", "notes": "Starting price, billed annually. Requisitions, POs, receipts, invoices, 2-way and 3-way matching, approvals and catalogs" },
+      { "name": "Automation", "priceUsd": 999, "billing": "month", "unit": "per account", "notes": "Starting price, billed annually. Adds PunchOuts, intake management, supplier portal, vendor onboarding, RFPs, API access and SSO" },
+      { "name": "AP Module", "priceUsd": 499, "billing": "month", "unit": "per account", "notes": "Starting price, billed annually. Invoice processing and payments" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Adds unlimited users, IP whitelisting and US or EU server choice" }
+    ],
+    "hiddenCosts": [
+      "Multiple Companies, Integrations, Concierge Setup and Dedicated Support are paid add-ons with no published price.",
+      "Prices are starting prices and the page does not say what raises them.",
+      "The pricing page names no free trial. It offers a demo."
+    ],
+    "sourceUrl": "https://precoro.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Automation",
+    "sourceUrl": "https://precoro.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Cancellation takes 30 days' notice, and access continues until the current billing period ends.",
+    "dataExport": null,
+    "sourceUrl": "https://precoro.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["QuickBooks Online", "Xero", "NetSuite", "Sage Intacct", "Microsoft Dynamics 365 Business Central", "BILL", "Slack", "Microsoft Teams"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

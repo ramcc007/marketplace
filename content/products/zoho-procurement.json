@@ -1,0 +1,63 @@
+{
+  "name": "Zoho Procurement",
+  "status": "published",
+  "vendor": { "name": "Zoho Corporation", "website": "https://www.zoho.com" },
+  "primaryCategory": "procurement",
+  "summary": "Zoho Procurement charges per user, at $35 a month on Premium and $75 on Enterprise, billed annually, with a 14-day trial. Each paid user license includes 50 free requester licenses for staff who only raise purchase requests. Single sign-on starts on Enterprise.",
+  "qualifies": [
+    {
+      "category": "procurement",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "purchase requests and purchase orders", "sourceUrl": "https://www.zoho.com/procurement/" },
+        { "capability": "supplier catalog or onboarding", "sourceUrl": "https://www.zoho.com/procurement/pricing/" },
+        { "capability": "approval workflows", "sourceUrl": "https://www.zoho.com/procurement/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Zoho says employees can submit ad hoc and catalog purchase requests, and that purchase orders are generated automatically from approved requests and RFQs.", "sourceUrl": "https://www.zoho.com/procurement/", "checkedAt": "2026-11-04" },
+    { "text": "Both plans include supplier onboarding, a self-service vendor portal, product catalog management and purchase order management.", "sourceUrl": "https://www.zoho.com/procurement/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Custom approval workflows, single sign-on, contract management and RFx sourcing are listed on Enterprise, and Premium has basic approvals.", "sourceUrl": "https://www.zoho.com/procurement/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The product page names Amazon Business punch-in and punch-out as its integration with an external marketplace.", "sourceUrl": "https://www.zoho.com/procurement/", "checkedAt": "2026-11-04" },
+    { "text": "Each purchased user license includes 50 free requester licenses, and the FAQ says the 14-day trial needs no credit card.", "sourceUrl": "https://www.zoho.com/procurement/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Premium", "priceUsd": 35, "billing": "month", "unit": "per user", "notes": "Billed annually. Basic approvals, supplier onboarding and vendor portal, catalogs and purchase orders" },
+      { "name": "Enterprise", "priceUsd": 75, "billing": "month", "unit": "per user", "notes": "Billed annually. Adds custom approval workflows, single sign-on, contract management and RFx sourcing" }
+    ],
+    "hiddenCosts": [
+      "The page shows a dollar sign without naming the currency, and Zoho shows prices by location, so the figure a buyer sees can differ.",
+      "Only annual prices are shown, so no monthly-billing rate is known.",
+      "Several Enterprise items, such as supplier scoring and blanket purchase orders, are marked coming soon."
+    ],
+    "sourceUrl": "https://www.zoho.com/procurement/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://www.zoho.com/procurement/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.zoho.com/procurement/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Amazon Business"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

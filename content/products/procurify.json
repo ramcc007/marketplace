@@ -1,0 +1,71 @@
+{
+  "name": "Procurify",
+  "status": "published",
+  "vendor": { "name": "Procurify Technologies Inc.", "website": "https://www.procurify.com" },
+  "primaryCategory": "procurement",
+  "summary": "Procurify is a purchasing platform built around purchase requests, approval routing and purchase orders, with accounts payable and spend cards sold as add-ons. It publishes no prices. Quotes depend on the products, add-ons, users and integrations a company picks, and unlimited basic users are included.",
+  "qualifies": [
+    {
+      "category": "procurement",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "purchase requests and purchase orders", "sourceUrl": "https://www.procurify.com/procure-to-pay/procurement/purchase-order/" },
+        { "capability": "supplier catalog or onboarding", "sourceUrl": "https://www.procurify.com/procure-to-pay/procurement/vendor-management-system/" },
+        { "capability": "approval workflows", "sourceUrl": "https://www.procurify.com/procure-to-pay/procurement/approval-software/" }
+      ]
+    },
+    {
+      "category": "spend-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "company or virtual cards", "sourceUrl": "https://www.procurify.com/" },
+        { "capability": "purchase approvals", "sourceUrl": "https://www.procurify.com/" },
+        { "capability": "spend visibility by team", "sourceUrl": "https://www.procurify.com/product/budgets/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Procurify says approved requests automatically become purchase orders that keep the original account codes.", "sourceUrl": "https://www.procurify.com/procure-to-pay/procurement/purchase-order/", "checkedAt": "2026-11-04" },
+    { "text": "Approval rules can be set by department, location, account code or amount, and the platform records who approved each purchase and when.", "sourceUrl": "https://www.procurify.com/procure-to-pay/procurement/approval-software/", "checkedAt": "2026-11-04" },
+    { "text": "The vendor management page says buyers can onboard vendors with standardized forms and automated workflows, and can bring external supplier catalogs into Procurify.", "sourceUrl": "https://www.procurify.com/procure-to-pay/procurement/vendor-management-system/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists NetSuite, QuickBooks, Sage Intacct, Dynamics 365 and PunchOut among its integrations, and says basic users are unlimited while pricing is set by the number of Pro users.", "sourceUrl": "https://www.procurify.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Procurify says independent SOC 1 Type 2 and SOC 2 Type 2 audits provide evidence of its controls.", "sourceUrl": "https://www.procurify.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Purchasing (base)", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Order requests, purchase orders, catalogs, vendors, approval routing and budgets. Priced by Pro users, with basic users unlimited" },
+      { "name": "Accounts Payable and Expense and Card", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Sold as add-on products" }
+    ],
+    "hiddenCosts": [
+      "Guided Intake and Contracts are priced as add-ons, and no amounts are published.",
+      "The pricing page names no free trial. It offers a demo and self-guided tours."
+    ],
+    "sourceUrl": "https://www.procurify.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.procurify.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.procurify.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["NetSuite", "QuickBooks", "Sage Intacct", "Microsoft Dynamics 365 Business Central", "PunchOut catalogs"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

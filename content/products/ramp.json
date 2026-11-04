@@ -13,6 +13,24 @@
         { "capability": "expense policies and approvals", "sourceUrl": "https://ramp.com/pricing" },
         { "capability": "reimbursement", "sourceUrl": "https://ramp.com/pricing" }
       ]
+    },
+    {
+      "category": "spend-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "company or virtual cards", "sourceUrl": "https://ramp.com/spend-management" },
+        { "capability": "purchase approvals", "sourceUrl": "https://ramp.com/spend-management" },
+        { "capability": "spend visibility by team", "sourceUrl": "https://ramp.com/spend-management" }
+      ]
+    },
+    {
+      "category": "procurement",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "purchase requests and purchase orders", "sourceUrl": "https://ramp.com/procurement" },
+        { "capability": "supplier catalog or onboarding", "sourceUrl": "https://ramp.com/procurement" },
+        { "capability": "approval workflows", "sourceUrl": "https://ramp.com/procurement" }
+      ]
     }
   ],
   "facts": [

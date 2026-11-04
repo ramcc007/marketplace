@@ -1,0 +1,63 @@
+{
+  "name": "Tradogram",
+  "status": "published",
+  "vendor": { "name": "Tradogram", "website": "https://www.tradogram.com" },
+  "primaryCategory": "procurement",
+  "summary": "Tradogram sells purchasing software in three tiers. Essentials costs $99 a month, or $950.40 a year, and includes purchase orders and supplier management. Requisitions and custom approval routing are add-ons on Essentials and come with the quoted Premium and Scale plans.",
+  "qualifies": [
+    {
+      "category": "procurement",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "purchase requests and purchase orders", "sourceUrl": "https://www.tradogram.com/pricing" },
+        { "capability": "supplier catalog or onboarding", "sourceUrl": "https://www.tradogram.com/vendor-management" },
+        { "capability": "approval workflows", "sourceUrl": "https://www.tradogram.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Purchase orders and supplier management are in every plan, while requisitions and custom approval routing are add-ons on Essentials.", "sourceUrl": "https://www.tradogram.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The vendor management page says new vendors complete onboarding through a self-service vendor portal and submit contact details, documents and pricing once.", "sourceUrl": "https://www.tradogram.com/vendor-management", "checkedAt": "2026-11-04" },
+    { "text": "Single sign-on, API access, ERP and accounting integrations and PunchOut are paid add-ons on any plan.", "sourceUrl": "https://www.tradogram.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The homepage names AICPA SOC, ISO 27001, PCI DSS and GDPR only in the alt text of a badge image and gives no scope or status.", "sourceUrl": "https://www.tradogram.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Essentials", "priceUsd": 99, "billing": "month", "unit": "per account", "notes": "Annual billing is $950.40 a year, which is 20% off. Purchase orders, supplier management, AP invoices, expenses and mobile apps. An extra-user fee applies and the amount is not published" },
+      { "name": "Premium", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "For 20 or more users. Adds requisitions, sourcing RFx, receiving, budgets, contracts and custom approvals" },
+      { "name": "Scale", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Unlimited users, custom SLA and multi-region hosting" }
+    ],
+    "hiddenCosts": [
+      "Essentials charges an additional user fee that the pricing page does not state.",
+      "Requisitions, receiving, budgets and custom approvals are paid add-ons on Essentials, with no add-on prices published.",
+      "Single sign-on and API access are add-ons on every plan."
+    ],
+    "sourceUrl": "https://www.tradogram.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Add-on on any plan",
+    "sourceUrl": "https://www.tradogram.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.tradogram.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["QuickBooks Online", "QuickBooks Desktop", "Xero", "NetSuite", "Sage", "Microsoft Dynamics 365 Business Central"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

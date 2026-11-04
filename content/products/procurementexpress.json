@@ -1,0 +1,64 @@
+{
+  "name": "ProcurementExpress.com",
+  "status": "published",
+  "vendor": { "name": "ProcurementExpress.com", "website": "https://www.procurementexpress.com" },
+  "primaryCategory": "procurement",
+  "summary": "ProcurementExpress.com prices by monthly purchasing volume rather than by user. Basic costs $415 a month for up to $10,000 of purchases, Better $900 for up to $1 million and Best $2,550 for up to $10 million. A 14-day trial needs no credit card.",
+  "qualifies": [
+    {
+      "category": "procurement",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "purchase requests and purchase orders", "sourceUrl": "https://www.procurementexpress.com/features" },
+        { "capability": "supplier catalog or onboarding", "sourceUrl": "https://www.procurementexpress.com/features" },
+        { "capability": "approval workflows", "sourceUrl": "https://www.procurementexpress.com/features" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The features page says approved purchase orders sync to QuickBooks Online, invoices become bills, and paying the bill in QuickBooks marks the purchase order paid.", "sourceUrl": "https://www.procurementexpress.com/features", "checkedAt": "2026-11-04" },
+    { "text": "Approval settings named on the features page include automatic or manual routing, approval limits and self-approval rules.", "sourceUrl": "https://www.procurementexpress.com/features", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page ties each plan to a monthly purchasing cap: $10,000 on Basic, $1 million on Better, $10 million on Best and $50 million on Enterprise.", "sourceUrl": "https://www.procurementexpress.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Amazon punch-outs start on Better, and punch-outs for more than 100 stores start on Best.", "sourceUrl": "https://www.procurementexpress.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The security page states a SOC 2 Type II report covering April 18, 2024 to April 17, 2025.", "sourceUrl": "https://www.procurementexpress.com/company/security/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Basic", "priceUsd": 415, "billing": "month", "unit": "per account", "notes": "Up to $10,000 of purchases a month. QuickBooks integration" },
+      { "name": "Better", "priceUsd": 900, "billing": "month", "unit": "per account", "notes": "Up to $1 million a month. Adds Sage 50 and Amazon punch-outs" },
+      { "name": "Best", "priceUsd": 2550, "billing": "month", "unit": "per account", "notes": "Up to $10 million a month and up to 5 organizations. Adds a dedicated implementer and scan and match" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Up to $50 million a month. Adds NetSuite, Dynamics and Okta or Azure sign-in" }
+    ],
+    "hiddenCosts": [
+      "Plans are capped by monthly purchase volume, so a growing company moves up a tier even with the same headcount.",
+      "The page offers 501(c)(3) nonprofits special pricing through sales, with no amount published."
+    ],
+    "sourceUrl": "https://www.procurementexpress.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Enterprise (Okta or Azure)",
+    "sourceUrl": "https://www.procurementexpress.com/company/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.procurementexpress.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["QuickBooks Online", "Sage 50", "Sage 200", "NetSuite", "Microsoft Dynamics", "Okta", "Azure"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

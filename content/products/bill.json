@@ -13,6 +13,24 @@
         { "capability": "approval workflows", "sourceUrl": "https://www.bill.com/product/accounts-payable" },
         { "capability": "vendor payments", "sourceUrl": "https://www.bill.com/product/accounts-payable" }
       ]
+    },
+    {
+      "category": "spend-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "company or virtual cards", "sourceUrl": "https://www.bill.com/product/spend-and-expense" },
+        { "capability": "purchase approvals", "sourceUrl": "https://www.bill.com/product/budgets" },
+        { "capability": "spend visibility by team", "sourceUrl": "https://www.bill.com/product/budgets" }
+      ]
+    },
+    {
+      "category": "procurement",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "purchase requests and purchase orders", "sourceUrl": "https://www.bill.com/product/procurement" },
+        { "capability": "supplier catalog or onboarding", "sourceUrl": "https://www.bill.com/product/procurement" },
+        { "capability": "approval workflows", "sourceUrl": "https://www.bill.com/product/procurement" }
+      ]
     }
   ],
   "facts": [
