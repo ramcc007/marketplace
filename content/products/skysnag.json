@@ -1,0 +1,46 @@
+{
+  "name": "Skysnag",
+  "status": "published",
+  "vendor": { "name": "Skysnag", "website": "https://www.skysnag.com" },
+  "primaryCategory": "dmarc",
+  "summary": "Skysnag turns DMARC reports into dashboards and auto-discovers sending sources. Its pricing page lists SPF record hosting and DKIM record management. Plans start at EUR 39 a month for Comply and EUR 249 a month for Protect, and authentication pricing depends on legitimate email volume.",
+  "qualifies": [
+    {
+      "category": "dmarc",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "dmarc report parsing", "sourceUrl": "https://www.skysnag.com/" },
+        { "capability": "spf and dkim management", "sourceUrl": "https://www.skysnag.com/pricing" },
+        { "capability": "spoofing alerts", "sourceUrl": "https://www.skysnag.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The home page says the platform sends instant alerts for spoofing attempts, shadow IT senders and authentication failures, and that BrandGuard sends real-time alerts on suspicious domain registrations.", "sourceUrl": "https://www.skysnag.com/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists SPF record hosting, DKIM record management and an SPF optimization engine. These are feature names only, with no descriptions.", "sourceUrl": "https://www.skysnag.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Comply processes reports every 24 hours with 12 months of data. Protect processes them in real time with 5 years of data.", "sourceUrl": "https://www.skysnag.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Non-profits may get up to 50% off Protect plans, and startups under 2 years old with under $5,000,000 in funding may get 20% off.", "sourceUrl": "https://www.skysnag.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The trial is free for 14 days and does not require a credit card.", "sourceUrl": "https://www.skysnag.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Comply", "priceUsd": null, "listedPrice": { "amount": 39, "currency": "EUR" }, "billing": "month", "unit": "from, 2 domains", "notes": "Listed as From €39/month. Reports processed every 24 hours, 12 months of data" },
+      { "name": "Protect", "priceUsd": null, "listedPrice": { "amount": 249, "currency": "EUR" }, "billing": "month", "unit": "from, 2 domains", "notes": "Listed as From €249/month. Real-time processing, 5 years of data. Fully managed authentication with enforcement and monitoring" },
+      { "name": "Skysnag Suite", "priceUsd": null, "billing": "quote", "unit": "unlimited domains", "notes": "Custom enterprise pricing" }
+    ],
+    "hiddenCosts": [
+      "Authentication plan prices depend on the volume of legitimate email reported on the platform, so the starting figure may not match your bill.",
+      "The BIMI Digital Trademark service is billed annually and the VMC certificate is an add-on, with no price shown.",
+      "The feature table does not show which plan includes each feature, so confirm tier coverage with sales."
+    ],
+    "sourceUrl": "https://www.skysnag.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

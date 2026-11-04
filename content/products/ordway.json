@@ -1,0 +1,40 @@
+{
+  "name": "Ordway",
+  "status": "published",
+  "vendor": { "name": "Ordway Labs, Inc.", "website": "https://ordwaylabs.com" },
+  "primaryCategory": "dunning-management",
+  "summary": "Ordway publishes no prices for its billing software and offers a 30-minute demo instead. Its Recurring Payments product combines a card auto updater with automated payment retries and dunning workflows.",
+  "qualifies": [
+    {
+      "category": "dunning-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "automatic payment retries", "sourceUrl": "https://ordwaylabs.com/products/recurring-billing-software/" },
+        { "capability": "card updater", "sourceUrl": "https://ordwaylabs.com/blog/credit-card-auto-updater/" },
+        { "capability": "customer payment reminders", "sourceUrl": "https://ordwaylabs.com/faqs/dunning-emails-quick-qa-guide/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Ordway's blog says its Recurring Payments product integrates credit card auto updater functionality with automated dunning, retry logic and cash application.", "sourceUrl": "https://ordwaylabs.com/blog/credit-card-auto-updater/", "checkedAt": "2026-11-05" },
+    { "text": "The blog says the updater covers Visa, Mastercard, American Express and Discover, and that updates run on a daily or weekly batch or in real time when a decline occurs. It does not say what the service costs.", "sourceUrl": "https://ordwaylabs.com/blog/credit-card-auto-updater/", "checkedAt": "2026-11-05" },
+    { "text": "Ordway's FAQ defines a dunning email as a system-generated reminder sent when a customer's invoice becomes past due, and advises sending only to billing or accounts payable contacts from the seller's own domain.", "sourceUrl": "https://ordwaylabs.com/faqs/dunning-emails-quick-qa-guide/", "checkedAt": "2026-11-05" },
+    { "text": "The product page describes automated retries and smart dunning workflows, but gives no retry counts or schedule.", "sourceUrl": "https://ordwaylabs.com/products/recurring-billing-software/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage offers a '30-minute Ordway demo with one of our sales engineers'. It does not describe the demo as free.", "sourceUrl": "https://ordwaylabs.com/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [
+      "No prices are published on the product page or the homepage. The ordwaylabs.com/pricing URL returned 404."
+    ],
+    "sourceUrl": "https://ordwaylabs.com/products/recurring-billing-software/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

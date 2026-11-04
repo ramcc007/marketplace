@@ -1,0 +1,47 @@
+{
+  "name": "Qvalia",
+  "status": "published",
+  "vendor": { "name": "Qvalia", "website": "https://qvalia.com" },
+  "primaryCategory": "e-invoicing",
+  "summary": "Qvalia sends and receives e-invoices over Peppol, with six monthly plans in euros from 25 to 30,000 messages. Archiving of received invoices comes with the Large plan and above, not with Small or Medium.",
+  "qualifies": [
+    {
+      "category": "e-invoicing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "e-invoice upload formats", "sourceUrl": "https://qvalia.com/e-invoicing/" },
+        { "capability": "network delivery such as peppol", "sourceUrl": "https://qvalia.com/pricing/" },
+        { "capability": "invoice archiving", "sourceUrl": "https://qvalia.com/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The e-invoicing page lists XRechnung, CII, ZUGFeRD, Factur-X, EDIFACT, cXML, Svefaktura and Finvoice as upload formats available through the API. It says each invoice is checked against EN 16931 and the Peppol rules before it leaves.", "sourceUrl": "https://qvalia.com/e-invoicing/", "checkedAt": "2026-11-05" },
+    { "text": "Peppol is the default delivery route, and customers that cannot yet receive e-invoices can get the invoice as a PDF.", "sourceUrl": "https://qvalia.com/e-invoicing/", "checkedAt": "2026-11-05" },
+    { "text": "Archiving is listed as not included in Small and Medium and included in Large, 1X, 2X and 3X.", "sourceUrl": "https://qvalia.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Additional messages on the Large plan are charged at EUR 0.50 each and billed in arrears. Each plan card says 'Billed monthly, cancel anytime.'", "sourceUrl": "https://qvalia.com/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Connect Small", "priceUsd": null, "listedPrice": { "amount": 9, "currency": "EUR" }, "billing": "month", "unit": "per account, 25 messages", "notes": "Extra messages EUR 1 each. No archiving" },
+      { "name": "Connect Medium", "priceUsd": null, "listedPrice": { "amount": 39, "currency": "EUR" }, "billing": "month", "unit": "per account, 100 messages", "notes": "Extra messages EUR 1 each. No archiving" },
+      { "name": "Connect Large", "priceUsd": null, "listedPrice": { "amount": 99, "currency": "EUR" }, "billing": "month", "unit": "per account, 1,000 messages", "notes": "Extra messages EUR 0.50 each, billed in arrears. Archiving included" },
+      { "name": "Connect 1X", "priceUsd": null, "listedPrice": { "amount": 299, "currency": "EUR" }, "billing": "month", "unit": "per account, 5,000 messages", "notes": "Archiving included. Extra message price not stated on the pricing page" },
+      { "name": "Connect 2X", "priceUsd": null, "listedPrice": { "amount": 499, "currency": "EUR" }, "billing": "month", "unit": "per account, 12,000 messages", "notes": "Archiving included. Extra message price not stated on the pricing page" },
+      { "name": "Connect 3X", "priceUsd": null, "listedPrice": { "amount": 899, "currency": "EUR" }, "billing": "month", "unit": "per account, 30,000 messages", "notes": "Archiving included. Extra message price not stated on the pricing page" }
+    ],
+    "hiddenCosts": [
+      "Additional messages on the Large plan are billed in arrears.",
+      "The pricing page does not say whether the euro prices include VAT."
+    ],
+    "sourceUrl": "https://qvalia.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

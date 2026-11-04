@@ -1,0 +1,45 @@
+{
+  "name": "OneUptime",
+  "status": "published",
+  "vendor": { "name": "OneUptime", "website": "https://oneuptime.com" },
+  "primaryCategory": "status-page",
+  "summary": "OneUptime is an open source monitoring platform with public and private status pages. The free plan has 1 status page and 100 subscribers. Growth costs $22 and Scale $99 on the plan cards, both with unlimited status pages and subscribers.",
+  "qualifies": [
+    {
+      "category": "status-page",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "public status page", "sourceUrl": "https://oneuptime.com/status-page" },
+        { "capability": "incident updates and subscriptions", "sourceUrl": "https://oneuptime.com/status-page" },
+        { "capability": "uptime history", "sourceUrl": "https://oneuptime.com/status-page" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Subscribers can be notified by email, SMS, webhook, RSS and Slack. Microsoft Teams appears on the page only in a section about team alerts, not in the subscriber list.", "sourceUrl": "https://oneuptime.com/status-page", "checkedAt": "2026-11-05" },
+    { "text": "The sample status page labels its resource history from 60 days ago to today.", "sourceUrl": "https://oneuptime.com/status-page", "checkedAt": "2026-11-05" },
+    { "text": "The code is open source under the Apache License 2.0, except an ee directory under the OneUptime Enterprise License. It can be self-hosted with Docker Compose or the Helm chart.", "sourceUrl": "https://github.com/oneuptime/oneuptime", "checkedAt": "2026-11-05" },
+    { "text": "The 14-day free trial applies only to new paid accounts. Existing accounts that upgrade are not eligible.", "sourceUrl": "https://oneuptime.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "not stated", "notes": "1 public status page, 100 subscribers" },
+      { "name": "Growth", "priceUsd": 22, "billing": "month", "unit": "per user (page title only)", "notes": "The page title says paid plans start at $22 per user; the plan card shows no unit. Unlimited status pages and subscribers. Billing is shown as monthly or yearly with no separate figures for each." },
+      { "name": "Scale", "priceUsd": 99, "billing": "month", "unit": "not stated", "notes": "Same status page and subscriber limits as Growth. The plan card shows no unit, and the page shows no separate monthly and yearly figures." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom yearly pricing" }
+    ],
+    "hiddenCosts": [
+      "The page shows a dollar sign without naming the currency and lists no separate monthly or yearly prices.",
+      "The plan cards do not show the billing unit behind the Growth and Scale prices. The page title says per user."
+    ],
+    "sourceUrl": "https://oneuptime.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "Webhooks"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Hoppscotch",
+  "status": "published",
+  "vendor": { "name": "Hoppscotch", "website": "https://hoppscotch.com" },
+  "primaryCategory": "api-testing",
+  "summary": "Hoppscotch is an open source API client that runs in the browser, on the desktop and from a CLI, and can be self-hosted. The Free plan covers collections, environments and the runner. Business costs $6 and Enterprise $11 per user a month, billed annually.",
+  "qualifies": [
+    {
+      "category": "api-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "request builder", "sourceUrl": "https://hoppscotch.com/" },
+        { "capability": "collections and environments", "sourceUrl": "https://docs.hoppscotch.io/documentation/features/environments.md" },
+        { "capability": "automated api test runs", "sourceUrl": "https://docs.hoppscotch.io/documentation/clients/cli/overview.md" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The hopp test command runs a collection from the terminal and returns a non-zero exit code when an assertion fails.", "sourceUrl": "https://docs.hoppscotch.io/documentation/clients/cli/overview.md", "checkedAt": "2026-11-05" },
+    { "text": "The CLI can write a JUnit XML report and repeat a collection with rows from a CSV file.", "sourceUrl": "https://docs.hoppscotch.io/documentation/clients/cli/overview.md", "checkedAt": "2026-11-05" },
+    { "text": "Environments come in global, personal and shared types, and secret variables keep their values local and out of exports.", "sourceUrl": "https://docs.hoppscotch.io/documentation/features/environments.md", "checkedAt": "2026-11-05" },
+    { "text": "Hoppscotch can be used offline, self-hosted on premises, or in its cloud.", "sourceUrl": "https://docs.hoppscotch.io/", "checkedAt": "2026-11-05" },
+    { "text": "Collections can be imported and exported in Hoppscotch, OpenAPI and Postman formats.", "sourceUrl": "https://docs.hoppscotch.io/documentation/features/collections.md", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "free, no billing period", "notes": "Personal workspace, collections and environments, scripts and tests, collection runner, community support" },
+      { "name": "Business", "priceUsd": 6, "billing": "month", "unit": "per user per month, billed annually", "notes": "The page has an Annually/Monthly toggle but lists no monthly price. Adds team workspaces, API documentation publishing and mocking. The page shows $ without naming a currency" },
+      { "name": "Enterprise", "priceUsd": 11, "billing": "month", "unit": "per user per month, billed annually", "notes": "The page has an Annually/Monthly toggle but lists no monthly price. Adds single sign-on, SCIM, audit logs and role-based access. The page shows $ without naming a currency" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://hoppscotch.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

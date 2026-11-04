@@ -1,0 +1,44 @@
+{
+  "name": "Rebilly",
+  "status": "published",
+  "vendor": { "name": "Rebilly", "website": "https://www.rebilly.com" },
+  "primaryCategory": "dunning-management",
+  "summary": "Rebilly charges 1% of successfully collected revenue on top of a monthly plan, $15 for Basic or $125 for Pro, with a 30-day free trial. It retries declined payments, runs an Account Updater for cards on file, and sends declined and past due notices through its automations.",
+  "qualifies": [
+    {
+      "category": "dunning-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "automatic payment retries", "sourceUrl": "https://www.rebilly.com/product/renewals" },
+        { "capability": "card updater", "sourceUrl": "https://www.rebilly.com/product/renewals" },
+        { "capability": "customer payment reminders", "sourceUrl": "https://www.rebilly.com/docs/billing/automate-emailing-invoices" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The renewals page says Rebilly can automatically and intelligently retry declined payments and keep card-on-file data updated with Account Updater.", "sourceUrl": "https://www.rebilly.com/product/renewals", "checkedAt": "2026-11-05" },
+    { "text": "Customer notices are set up through billing events, including Renewal invoice payment declined and Invoice past due.", "sourceUrl": "https://www.rebilly.com/docs/billing/automate-emailing-invoices", "checkedAt": "2026-11-05" },
+    { "text": "Rebilly will only charge for invoices that are marked as paid, not for each payment attempt.", "sourceUrl": "https://www.rebilly.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page states prices in USD and says developers can ask for a permanent sandbox account.", "sourceUrl": "https://www.rebilly.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Basic", "priceUsd": 15, "billing": "month", "unit": "per account", "volumeFee": { "percent": 1, "basis": "of revenue successfully collected" }, "notes": "One gateway account. The page lists $0 for transaction fees. The 30-day trial needs no credit card" },
+      { "name": "Pro", "priceUsd": 125, "billing": "month", "unit": "per account", "volumeFee": { "percent": 1, "basis": "of revenue successfully collected, with volume discounts" }, "notes": "Up to 10 gateway accounts and a full rules engine. The revenue fee is 20% lower from $100,000 a month, 30% lower from $1 million, 40% lower from $10 million and 50% lower from $50 million" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Unlimited gateway accounts and custom integrations" }
+    ],
+    "hiddenCosts": [
+      "3D Secure authentication costs $0.05 per attempted authentication on all plans.",
+      "For average transactions above $100, the page suggests asking Rebilly about a cap on the fee per paid invoice."
+    ],
+    "sourceUrl": "https://www.rebilly.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

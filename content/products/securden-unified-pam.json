@@ -1,0 +1,48 @@
+{
+  "name": "Securden Unified PAM",
+  "status": "published",
+  "vendor": { "name": "Securden, Inc.", "website": "https://www.securden.com" },
+  "primaryCategory": "privileged-access-management",
+  "summary": "Securden Unified PAM is licensed per user who logs in to the PAM interface. The vendor publishes no price and quotes on request. It offers a 30-day free trial and a proof of concept at no extra cost.",
+  "qualifies": [
+    {
+      "category": "privileged-access-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "admin credential vaulting", "sourceUrl": "https://www.securden.com/privileged-access-management/" },
+        { "capability": "session recording", "sourceUrl": "https://www.securden.com/privileged-account-manager/features/privileged-session-management.html" },
+        { "capability": "just-in-time access", "sourceUrl": "https://www.securden.com/privileged-account-manager/features/approval-workflow-just-in-time-access.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Securden says it can centrally store, rotate and manage every privileged credential, and can launch, proxy, monitor and record RDP, SSH and SQL sessions.", "sourceUrl": "https://www.securden.com/privileged-access-management/", "checkedAt": "2026-11-05" },
+    { "text": "Securden says approved users get access for a limited time, after which access is revoked and the password is reset automatically.", "sourceUrl": "https://www.securden.com/privileged-account-manager/features/approval-workflow-just-in-time-access.html", "checkedAt": "2026-11-05" },
+    { "text": "The vendor says recordings are stored centrally, can be replayed, and can be searched by text commands, keywords or keystroke filters. The page does not say where recordings are stored or how long they are kept.", "sourceUrl": "https://www.securden.com/privileged-account-manager/features/privileged-session-management.html", "checkedAt": "2026-11-05" },
+    { "text": "The page says quotes for PAM products usually depend on endpoints, users and connections, and that Securden Unified PAM is licensed by the users who access the PAM interface.", "sourceUrl": "https://www.securden.com/privileged-account-manager/index.html", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Unified PAM", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Quote through the vendor's request page. No price, currency or billing period is published." }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.securden.com/privileged-account-manager/index.html",
+    "verifiedAt": "2026-11-05"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.securden.com/privileged-access-management/",
+    "checkedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

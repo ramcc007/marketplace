@@ -1,0 +1,52 @@
+{
+  "name": "WorkTango",
+  "status": "published",
+  "vendor": { "name": "WorkTango", "website": "https://www.worktango.com" },
+  "primaryCategory": "employee-recognition",
+  "summary": "WorkTango sells Recognition and Rewards on its own or bundled with surveys, and publishes no prices. Its FAQ gives a 12 month minimum contract and says annual cost depends on employee count. Points never expire and are paid for on redemption.",
+  "qualifies": [
+    {
+      "category": "employee-recognition",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "peer recognition", "sourceUrl": "https://www.worktango.com/recognition-software" },
+        { "capability": "rewards catalog or points", "sourceUrl": "https://www.worktango.com/employee-rewards-marketplace" },
+        { "capability": "recognition analytics", "sourceUrl": "https://www.worktango.com/recognition-software" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The recognition page lists peer-to-peer as the most common recognition flow and says programs can run with or without rewards, points or tokens.", "sourceUrl": "https://www.worktango.com/recognition-software", "checkedAt": "2026-11-05" },
+    { "text": "Users can view recognition data and insights by department, location and job role. The FAQ says the analytics show whether some employees are over-recognized while others are overlooked.", "sourceUrl": "https://www.worktango.com/recognition-software", "checkedAt": "2026-11-05" },
+    { "text": "The rewards page says points are the currency, never expire, and are paid for only when employees redeem them in the marketplace. It cites over 10 million choices across 90 plus countries.", "sourceUrl": "https://www.worktango.com/employee-rewards-marketplace", "checkedAt": "2026-11-05" },
+    { "text": "The pricing FAQ states a minimum contract length of 12 months. Most organizations are ready to launch in 4-6 weeks.", "sourceUrl": "https://www.worktango.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Recognition & Rewards", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price published. Annual cost depends on employee count" },
+      { "name": "Full Employee Experience Platform", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Bundles surveys and recognition. No price published" }
+    ],
+    "hiddenCosts": [
+      "Minimum contract length is 12 months.",
+      "Reward redemptions are paid for separately when employees redeem points."
+    ],
+    "sourceUrl": "https://www.worktango.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.worktango.com/pricing",
+    "checkedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

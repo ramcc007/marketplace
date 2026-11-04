@@ -1,0 +1,54 @@
+{
+  "name": "ManageEngine PAM360",
+  "status": "published",
+  "vendor": { "name": "Zoho Corporation (ManageEngine)", "website": "https://www.manageengine.com" },
+  "primaryCategory": "privileged-access-management",
+  "summary": "PAM360 publishes annual English-edition subscription prices from $7,995 for 10 administrators and 25 keys to $49,995 for 200 administrators and 1,000 keys. A free edition covers one administrator and 10 resources with no expiry date, and a 30-day trial is offered.",
+  "qualifies": [
+    {
+      "category": "privileged-access-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "admin credential vaulting", "sourceUrl": "https://www.manageengine.com/privileged-access-management/features.html" },
+        { "capability": "session recording", "sourceUrl": "https://www.manageengine.com/privileged-access-management/features.html" },
+        { "capability": "time-limited privilege elevation", "sourceUrl": "https://www.manageengine.com/privileged-access-management/features.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "PAM360 is licensed by the number of administrators and keys, and password users and password auditors are unlimited.", "sourceUrl": "https://www.manageengine.com/privileged-access-management/pricing.html", "checkedAt": "2026-11-05" },
+    { "text": "A single license covers a high availability setup with a secondary server, and one application gateway is bundled with each license.", "sourceUrl": "https://www.manageengine.com/privileged-access-management/pricing.html", "checkedAt": "2026-11-05" },
+    { "text": "The vault encrypts stored credentials with AES-256 and applies role-based access permissions.", "sourceUrl": "https://www.manageengine.com/privileged-access-management/features.html", "checkedAt": "2026-11-05" },
+    { "text": "Recorded sessions can be archived as video files, and a session shadowing feature lets a supervisor watch a privileged user's activity.", "sourceUrl": "https://www.manageengine.com/privileged-access-management/features.html", "checkedAt": "2026-11-05" },
+    { "text": "The privilege elevation feature gives domain accounts higher privileges only when required and can revoke them automatically after a set period.", "sourceUrl": "https://www.manageengine.com/privileged-access-management/features.html", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Free Edition", "priceUsd": 0, "billing": "year", "unit": "1 administrator, up to 10 resources", "notes": "Valid forever, with no expiry date." },
+      { "name": "Subscription, 10 administrators and 25 keys", "priceUsd": 7995, "billing": "year", "unit": "per account", "notes": "English edition. Includes annual maintenance and support. The multilingual edition costs $9,595." },
+      { "name": "Subscription, 20 administrators and 50 keys", "priceUsd": 12995, "billing": "year", "unit": "per account", "notes": "English edition. Multilingual $15,595." },
+      { "name": "Subscription, 25 administrators and 100 keys", "priceUsd": 14995, "billing": "year", "unit": "per account", "notes": "English edition. Multilingual $17,995." },
+      { "name": "Subscription, 50 administrators and 200 keys", "priceUsd": 24995, "billing": "year", "unit": "per account", "notes": "English edition. Multilingual $29,995." },
+      { "name": "Subscription, 100 administrators and 300 keys", "priceUsd": 36995, "billing": "year", "unit": "per account", "notes": "English edition. Multilingual $44,395." },
+      { "name": "Subscription, 150 administrators and 500 keys", "priceUsd": 44995, "billing": "year", "unit": "per account", "notes": "English edition. Multilingual $53,995." },
+      { "name": "Subscription, 200 administrators and 1,000 keys", "priceUsd": 49995, "billing": "year", "unit": "per account", "notes": "English edition. Multilingual $59,995." },
+      { "name": "Perpetual, 10 administrators and 25 keys", "priceUsd": 19995, "billing": "one_time", "unit": "per account", "notes": "English edition. Annual maintenance and support is $3,999 and is charged separately from the second year." },
+      { "name": "Perpetual, 200 administrators and 1,000 keys", "priceUsd": 124995, "billing": "one_time", "unit": "per account", "notes": "English edition. Annual maintenance and support is $24,999." }
+    ],
+    "hiddenCosts": [
+      "Onboarding services are sold separately: online training costs $995 to $1,995, online onboarding with implementation costs $2,495 to $4,495, and onsite packages cost $4,999 to $9,999.",
+      "Additional application gateways beyond the one bundled with each license need a quote from sales.",
+      "Perpetual licenses carry yearly maintenance and support from the second year.",
+      "The pricing page uses a dollar sign without naming the currency. We record the figures as US dollars."
+    ],
+    "sourceUrl": "https://www.manageengine.com/privileged-access-management/pricing.html",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

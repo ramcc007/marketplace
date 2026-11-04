@@ -1,0 +1,41 @@
+{
+  "name": "Nectar",
+  "status": "published",
+  "vendor": { "name": "Nectar", "website": "https://www.nectarhr.com" },
+  "primaryCategory": "employee-recognition",
+  "summary": "Nectar sells Recognize, Comms and Engage separately or as a Nectar One bundle, and publishes no prices. Every plan routes to a demo request. Recognize covers peer and manager recognition, a points system with a global catalog and recognition analytics.",
+  "qualifies": [
+    {
+      "category": "employee-recognition",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "peer recognition", "sourceUrl": "https://www.nectarhr.com/pricing" },
+        { "capability": "rewards catalog or points", "sourceUrl": "https://www.nectarhr.com/pricing" },
+        { "capability": "recognition analytics", "sourceUrl": "https://www.nectarhr.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Nectar Recognize lists peer-to-peer and manager recognition, points-based rewards with flexible budgets, and a global reward catalog of gift cards, Amazon, swag and custom rewards.", "sourceUrl": "https://www.nectarhr.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page shows no dollar figure for any plan. The Get pricing button links to the demo page at /get-a-demo, not to a price list.", "sourceUrl": "https://www.nectarhr.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Nectar One combines Recognize, Engage and Comms. Nectar Perform is marked as coming soon.", "sourceUrl": "https://www.nectarhr.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Nectar Recognize", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price published. Demo request required" },
+      { "name": "Nectar One", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Bundle of Recognize, Engage and Comms. No price published" }
+    ],
+    "hiddenCosts": [
+      "No prices, minimums or trial terms are published, so reward budgets and contract length need to be confirmed in a quote."
+    ],
+    "sourceUrl": "https://www.nectarhr.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "UKG", "ADP", "Rippling", "Paycor", "Workday", "Okta"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Sendmarc",
+  "status": "published",
+  "vendor": { "name": "Sendmarc", "website": "https://www.sendmarc.com" },
+  "primaryCategory": "dmarc",
+  "summary": "Sendmarc monitors DMARC reports, helps manage SPF and DKIM records, and offers threat intelligence alerting for spoofing and unauthorized use of a domain. It publishes no paid prices: Premium is quoted, and a free trial covers 1 domain and up to 5,000 emails.",
+  "qualifies": [
+    {
+      "category": "dmarc",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "dmarc report parsing", "sourceUrl": "https://sendmarc.com/dmarc/dmarc-monitor/" },
+        { "capability": "spf management", "sourceUrl": "https://sendmarc.com/spf/" },
+        { "capability": "dkim management", "sourceUrl": "https://sendmarc.com/dkim/" },
+        { "capability": "spoofing alerts", "sourceUrl": "https://sendmarc.com/dmarc/threat-intelligence-alerting/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Threat intelligence alerting is described as detecting spoofing and phishing attempts, unauthorized use of a domain, and malicious IP addresses trying to spoof it.", "sourceUrl": "https://sendmarc.com/dmarc/threat-intelligence-alerting/", "checkedAt": "2026-11-05" },
+    { "text": "Lookalike Domain Defense lists notifications of new domain permutations and a watchlist of existing lookalike domains. The page does not say how often it checks or how alerts are delivered.", "sourceUrl": "https://sendmarc.com/lookalike-domain-defense/", "checkedAt": "2026-11-05" },
+    { "text": "The free trial covers 1 domain, up to 5,000 emails, 21 days of data history and 1 portal user. The page does not say how long the trial lasts.", "sourceUrl": "https://www.sendmarc.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Paid plans are obtained through a Get a quote form, and the page lists no price, currency or billing period.", "sourceUrl": "https://www.sendmarc.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free Trial", "priceUsd": null, "billing": "quote", "unit": "1 domain, up to 5,000 emails", "notes": "21 days of data history, aggregate reports, 1 portal user. Trial length not stated" },
+      { "name": "Premium", "priceUsd": null, "billing": "quote", "unit": "unlimited domains and emails", "notes": "DMARC, SPF, DKIM and BIMI management, aggregate and forensic reports, SSO, audit logs" },
+      { "name": "Microsoft, Google & Yahoo Compliance", "priceUsd": null, "billing": "quote", "unit": "unlimited domains and emails", "notes": "The page lists the same features as Premium" },
+      { "name": "Enterprise and Government", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Adds a service agreement, project management and supply chain analysis" }
+    ],
+    "hiddenCosts": [
+      "No price is published. Ask a quote to state the unit, term and which features such as lookalike domain alerts are included."
+    ],
+    "sourceUrl": "https://www.sendmarc.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

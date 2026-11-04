@@ -1,0 +1,46 @@
+{
+  "name": "Status.io",
+  "status": "published",
+  "vendor": { "name": "Status.io", "website": "https://status.io" },
+  "primaryCategory": "status-page",
+  "summary": "Status.io sells hosted status pages with no free plan. Paid plans cost $79 to $349 a month for 500 to 5,000 subscribers, and every plan includes a custom domain. Updates go out by email, SMS, webhook and RSS.",
+  "qualifies": [
+    {
+      "category": "status-page",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "public status page", "sourceUrl": "https://status.io/features/" },
+        { "capability": "incident updates and subscriptions", "sourceUrl": "https://status.io/features/" },
+        { "capability": "uptime history", "sourceUrl": "https://status.io/features/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Incidents automatically trigger notifications and update component statuses, and the history page keeps past incident and maintenance events.", "sourceUrl": "https://status.io/features/", "checkedAt": "2026-11-05" },
+    { "text": "Subscribers choose which components they receive notifications for and can change their subscriptions at any time.", "sourceUrl": "https://status.io/features/", "checkedAt": "2026-11-05" },
+    { "text": "The page shows 90-day historical status charts, and metrics can come from a Custom Metric API or tools such as New Relic and Pingdom.", "sourceUrl": "https://status.io/features/", "checkedAt": "2026-11-05" },
+    { "text": "A custom domain is included in all plans.", "sourceUrl": "https://status.io/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Basic", "priceUsd": 79, "billing": "month", "unit": "per account", "notes": "500 subscribers and 5 team members" },
+      { "name": "Standard", "priceUsd": 149, "billing": "month", "unit": "per account", "notes": "2,000 subscribers and 20 team members" },
+      { "name": "Plus", "priceUsd": 349, "billing": "month", "unit": "per account", "notes": "5,000 subscribers and 50 team members" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Listed as starting at $999 a month" }
+    ],
+    "hiddenCosts": [
+      "The page offers a 5% discount for annual subscriptions but lists no annual prices.",
+      "The page shows a dollar sign without naming the currency.",
+      "The page does not say which plans include email, SMS and webhook notifications."
+    ],
+    "sourceUrl": "https://status.io/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["Nagios", "New Relic", "Opsgenie", "PagerDuty", "Pingdom", "Twilio", "Vonage"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

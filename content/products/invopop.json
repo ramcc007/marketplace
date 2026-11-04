@@ -1,0 +1,44 @@
+{
+  "name": "Invopop",
+  "status": "published",
+  "vendor": { "name": "Invopop", "website": "https://invopop.com" },
+  "primaryCategory": "e-invoicing",
+  "summary": "Invopop is an API for developers that generates each country's required invoice format, reports to tax authorities and sends documents over Peppol. The free Dev plan includes one government app, and Pro costs 500 euros a month.",
+  "qualifies": [
+    {
+      "category": "e-invoicing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "government-compliant e-invoice formats", "sourceUrl": "https://invopop.com" },
+        { "capability": "network delivery such as peppol", "sourceUrl": "https://invopop.com" },
+        { "capability": "invoice archiving", "sourceUrl": "https://docs.invopop.com/guides/it-sdi-archiving" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Invopop lists national formats including Facturae and Veri*Factu in Spain, ZUGFeRD in Germany, SDI in Italy and Online Szamla in Hungary, with certified connections to tax authorities in 30+ countries.", "sourceUrl": "https://invopop.com", "checkedAt": "2026-11-05" },
+    { "text": "Its docs say certified archiving for Italy (conservazione a norma) runs through A-Cube's preservation service, and they state no retention period.", "sourceUrl": "https://docs.invopop.com/guides/it-sdi-archiving", "checkedAt": "2026-11-05" },
+    { "text": "Usage is metered in Pops. The pricing page lists 5 Pops for the SDI (Italy) issue invoice workflow, and 3 Pops for the standalone send-to-SDI action.", "sourceUrl": "https://invopop.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Dev", "priceUsd": null, "listedPrice": { "amount": 0, "currency": "EUR" }, "billing": "month", "unit": "per account", "notes": "200 Pops, one free government app, community support, limited to one user" },
+      { "name": "Pro", "priceUsd": null, "listedPrice": { "amount": 500, "currency": "EUR" }, "billing": "month", "unit": "per account", "notes": "Unlimited users, audit log and priority support. The page shows a yearly toggle but no yearly Pro price" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom contract with a custom Pops plan" }
+    ],
+    "hiddenCosts": [
+      "Each government app after the first costs EUR 300 a month.",
+      "Extra Pops cost EUR 40 a month for 1,000 and EUR 1,000 a month for 200,000 on monthly billing.",
+      "Stripe and Chargebee integrations cost EUR 100 and EUR 200 a month."
+    ],
+    "sourceUrl": "https://invopop.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["Stripe", "Chargebee"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Monofor Monopam",
+  "status": "published",
+  "vendor": { "name": "Monofor, Inc.", "website": "https://monofor.com" },
+  "primaryCategory": "privileged-access-management",
+  "summary": "Monopam is Monofor's privileged access product. Monofor licenses it by concurrent privileged session, not per target, vault or feature. It lists an encrypted vault, session recording and just-in-time access with approvals. The page shows no Monopam price and sends buyers to sales.",
+  "qualifies": [
+    {
+      "category": "privileged-access-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "admin credential vaulting", "sourceUrl": "https://monofor.com/pricing" },
+        { "capability": "session recording", "sourceUrl": "https://monofor.com/pricing" },
+        { "capability": "just-in-time access", "sourceUrl": "https://monofor.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Monofor says buyers pay for concurrent privileged sessions, not per target, per vault or per feature.", "sourceUrl": "https://monofor.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Monopam lists an encrypted credential vault, session recording with video and keystrokes, and just-in-time access with approvals.", "sourceUrl": "https://monofor.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Monopam is one of three Monofor products. Monosign, from $4 per user per month, covers SSO, MFA and user provisioning, and Monosync covers identity governance.", "sourceUrl": "https://monofor.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Monopam", "priceUsd": null, "billing": "quote", "unit": "per concurrent session", "notes": "The page shows the label Per session and the button Talk to sales. The 30-day free trial is mentioned in the Every plan includes section, but the only Start free trial button sits under Monosign, so Monopam trial terms are unclear." }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://monofor.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

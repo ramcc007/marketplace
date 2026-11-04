@@ -1,0 +1,54 @@
+{
+  "name": "Recognize",
+  "status": "published",
+  "vendor": { "name": "Recognize", "website": "https://recognizeapp.com" },
+  "primaryCategory": "employee-recognition",
+  "summary": "Recognize sells Start-Up, Mid-Market and Enterprise tiers by custom price and publishes no figures. Billing is annual and priced per user. A full refund is available in the first 30 days. Point-based budgeting starts at the Mid-Market tier.",
+  "qualifies": [
+    {
+      "category": "employee-recognition",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "peer recognition", "sourceUrl": "https://recognizeapp.com/pricing" },
+        { "capability": "rewards catalog or points", "sourceUrl": "https://recognizeapp.com/pricing" },
+        { "capability": "recognition analytics", "sourceUrl": "https://recognizeapp.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Social employee recognition is listed in all three tiers. Gift card rewards and people analytics are also in all tiers.", "sourceUrl": "https://recognizeapp.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Point-based budgeting is listed from Mid-Market up, not in Start-Up. Enterprise adds multi-currency rewards, individual reward catalog funding and AI-generated reporting.", "sourceUrl": "https://recognizeapp.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The FAQ says the vendor charges annually and prices future years on the current active user count.", "sourceUrl": "https://recognizeapp.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "A full refund can be requested within the first 30 days. After the first month of an annual subscription there are no refunds, and deposited reward funds are returned minus a $50 processing fee on cancellation.", "sourceUrl": "https://recognizeapp.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Start-Up", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "No price published. Custom price; billed annually. Currency not stated" },
+      { "name": "Mid-Market", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "No price published. Custom price; billed annually" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "No price published. Custom price; billed annually" }
+    ],
+    "hiddenCosts": [
+      "Reward funds are deposited separately from the subscription.",
+      "Cancelling returns deposited reward funds minus a $50 fee.",
+      "There are no refunds on annual subscriptions after the first month."
+    ],
+    "sourceUrl": "https://recognizeapp.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Full refund on request in the first 30 days; no refunds on annual subscriptions after the first month; deposited reward funds returned minus a $50 fee",
+    "dataExport": null,
+    "sourceUrl": "https://recognizeapp.com/pricing",
+    "checkedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

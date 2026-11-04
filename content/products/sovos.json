@@ -1,0 +1,38 @@
+{
+  "name": "Sovos",
+  "status": "published",
+  "vendor": { "name": "Sovos Compliance", "website": "https://sovos.com" },
+  "primaryCategory": "e-invoicing",
+  "summary": "Sovos runs an e-invoicing compliance network with built-in Peppol connectivity and a separate eArchive product for more than 60 countries. It publishes no prices, and its site sends buyers to a sales call.",
+  "qualifies": [
+    {
+      "category": "e-invoicing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "compliance network for post-audit and CTC e-invoicing mandates", "sourceUrl": "https://sovos.com/solutions/peppol-e-invoicing-compliance/" },
+        { "capability": "network delivery such as peppol", "sourceUrl": "https://sovos.com/solutions/peppol-e-invoicing-compliance/" },
+        { "capability": "invoice archiving", "sourceUrl": "https://sovos.com/vat/products/earchive/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Sovos says its Compliance Network helps businesses meet post-audit e-invoicing requirements and CTC mandates in 65+ countries, and it describes fully embedded PEPPOL connectivity. The page cites no sources for the country figure.", "sourceUrl": "https://sovos.com/solutions/peppol-e-invoicing-compliance/", "checkedAt": "2026-11-05" },
+    { "text": "Sovos eArchive covers more than 60 countries. It offers global reach through a single API in clearance and post-audit countries, and it keeps the original invoice in its government-mandated schema, such as XML or PDF.", "sourceUrl": "https://sovos.com/vat/products/earchive/", "checkedAt": "2026-11-05" },
+    { "text": "The Sovos home page lists a TCO calculator and a Book a Call button, and no price list.", "sourceUrl": "https://www.sovos.com/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices are published on the pages we read" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.sovos.com/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

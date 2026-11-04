@@ -1,0 +1,43 @@
+{
+  "name": "Sorry",
+  "status": "published",
+  "vendor": { "name": "Sorry", "website": "https://sorryapp.com" },
+  "primaryCategory": "status-page",
+  "summary": "Sorry's Status Page plan costs US$99 a month, billed monthly, and includes 1,000 subscribers and 5 team members. Enterprise pricing is given after a demo. A 7-day trial needs no card, and there is no free plan.",
+  "qualifies": [
+    {
+      "category": "status-page",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "public status page", "sourceUrl": "https://sorryapp.com/" },
+        { "capability": "incident updates and subscriptions", "sourceUrl": "https://sorryapp.com/" },
+        { "capability": "uptime history", "sourceUrl": "https://sorryapp.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Each subscriber has one profile tied to an email address and chooses channels and components, with email, Slack, Microsoft Teams, Google Chat and SMS listed as notification options.", "sourceUrl": "https://sorryapp.com/", "checkedAt": "2026-11-05" },
+    { "text": "The sample page shows a Past 30 days uptime view per component, with figures such as 99.95%.", "sourceUrl": "https://sorryapp.com/", "checkedAt": "2026-11-05" },
+    { "text": "Planned maintenance notices can be scheduled in advance.", "sourceUrl": "https://sorryapp.com/", "checkedAt": "2026-11-05" },
+    { "text": "Team member single sign-on with any SAML provider and role-based access control are listed on the Status Page plan.", "sourceUrl": "https://sorryapp.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 7,
+    "plans": [
+      { "name": "Status Page", "priceUsd": 99, "billing": "month", "unit": "per account", "notes": "1,000 subscribers, 5 team members, custom domain, REST API. The page offers monthly or yearly payment but lists no yearly price." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom arrangements handled through a demo request" }
+    ],
+    "hiddenCosts": [
+      "Extra team members cost from $5 a month each.",
+      "Private status pages and multiple status pages are add-ons with no price shown."
+    ],
+    "sourceUrl": "https://sorryapp.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "Google Chat"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

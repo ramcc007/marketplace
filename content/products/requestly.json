@@ -1,0 +1,42 @@
+{
+  "name": "Requestly",
+  "status": "published",
+  "vendor": { "name": "Requestly", "website": "https://requestly.com" },
+  "primaryCategory": "api-testing",
+  "summary": "Requestly is an API client with collections, environments, a collection runner and scheduled cloud runs. Team costs $10 and Team Pro $15 per user a month, billed annually. The pricing page lists no free plan, but it offers a 30-day trial with no credit card.",
+  "qualifies": [
+    {
+      "category": "api-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "sending api requests with authorization", "sourceUrl": "https://docs.requestly.com/api-client/send-api-request/authorization.md" },
+        { "capability": "collections and environments", "sourceUrl": "https://docs.requestly.com/api-client/environments-and-variables.md" },
+        { "capability": "automated api test runs", "sourceUrl": "https://docs.requestly.com/api-client/collection-runner.md" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The collection runner has a Run in CLI tab that generates pipeline files for GitHub Actions, GitLab CI, Jenkins and Azure Pipelines.", "sourceUrl": "https://docs.requestly.com/api-client/collection-runner.md", "checkedAt": "2026-11-05" },
+    { "text": "A Scheduled tab in the runner runs a collection automatically on a recurring schedule.", "sourceUrl": "https://docs.requestly.com/api-client/collection-runner.md", "checkedAt": "2026-11-05" },
+    { "text": "Variables are scoped at global, runtime, environment and collection level, and the docs include a variable precedence page.", "sourceUrl": "https://docs.requestly.com/api-client/environments-and-variables.md", "checkedAt": "2026-11-05" },
+    { "text": "The Team plan lists unlimited manual collection runs, unlimited automated cloud runs, a CLI runner and data-driven testing.", "sourceUrl": "https://requestly.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page offers a 30-day trial with full Team Pro features and says 'no credit card required'.", "sourceUrl": "https://requestly.com/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Team", "priceUsd": 10, "billing": "month", "unit": "per user", "notes": "Billed annually, $600 a year for 5 users; the page shows no monthly-billing price. Sold in seat tiers of 5, 10, 15, 20 and more than 20. The page shows $ without naming a currency" },
+      { "name": "Team Pro", "priceUsd": 15, "billing": "month", "unit": "per user", "notes": "Billed annually, $900 a year for 5 users; the page shows no monthly-billing price. Adds AI features, secret scanning, external vault integrations and advanced test reporting" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales; annual only and an add-on to Team or Team Pro. Adds single sign-on, SCIM, audit logs and data residency or self-hosting" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://requestly.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["GitHub Actions", "GitLab CI", "Jenkins", "Azure Pipelines"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

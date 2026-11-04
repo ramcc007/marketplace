@@ -1,0 +1,44 @@
+{
+  "name": "OneDev",
+  "status": "published",
+  "vendor": { "name": "OneDev", "website": "https://onedev.io" },
+  "primaryCategory": "version-control",
+  "summary": "OneDev is a self-hosted Git server with pull requests, code review policies and role-based project permissions. The Community Edition is free. Enterprise costs $6 per user a month with a minimum of 12 user months per order. The pages checked show no hosted option.",
+  "qualifies": [
+    {
+      "category": "version-control",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "git repository hosting", "sourceUrl": "https://docs.onedev.io/" },
+        { "capability": "pull or merge requests", "sourceUrl": "https://docs.onedev.io/concepts" },
+        { "capability": "access controls", "sourceUrl": "https://docs.onedev.io/concepts" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The quickstart creates a project in the web interface and pushes to it with a normal Git remote. OneDev runs in Docker or on bare metal.", "sourceUrl": "https://docs.onedev.io/", "checkedAt": "2026-11-05" },
+    { "text": "OneDev has pull requests for work submission and code review, and code review policies can require specific reviewers when certain files change.", "sourceUrl": "https://docs.onedev.io/concepts", "checkedAt": "2026-11-05" },
+    { "text": "A role defines a set of permissions, and a role must be chosen when a project is granted to a user or group.", "sourceUrl": "https://docs.onedev.io/concepts", "checkedAt": "2026-11-05" },
+    { "text": "Enterprise orders have a minimum of 12 user months, and disabled users, service accounts and AI users are excluded from the license count.", "sourceUrl": "https://onedev.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Community Edition support runs through the issue tracker, while Enterprise lists priority email support with a response within two business days.", "sourceUrl": "https://onedev.io/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Community Edition", "priceUsd": 0, "billing": "month", "unit": "not applicable", "notes": "Listed as Free, with community support through the issue tracker and no guaranteed response time" },
+      { "name": "Enterprise", "priceUsd": 6, "billing": "month", "unit": "per user per month", "notes": "Minimum of 12 user months per order. A Try Free button is offered; the page does not state its length. No currency is named" }
+    ],
+    "hiddenCosts": [
+      "Each Enterprise order has a minimum of 12 user months.",
+      "The pages checked describe self-hosting only, so server and upkeep costs fall on the buyer."
+    ],
+    "sourceUrl": "https://onedev.io/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

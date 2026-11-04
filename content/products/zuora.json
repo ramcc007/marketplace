@@ -1,0 +1,39 @@
+{
+  "name": "Zuora",
+  "status": "published",
+  "vendor": { "name": "Zuora, Inc.", "website": "https://www.zuora.com" },
+  "primaryCategory": "dunning-management",
+  "summary": "Zuora publishes no prices and sends buyers to a sales call. For failed payments it offers configurable card retries, a Payment Method Updater for Visa, Mastercard and American Express cards that runs before each bill cycle, and collections follow-up email templates that address customers or specific invoices.",
+  "qualifies": [
+    {
+      "category": "dunning-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "automatic payment retries", "sourceUrl": "https://docs.zuora.com/en/zuora-payments/payment-orchestration/payment-retry" },
+        { "capability": "card updater", "sourceUrl": "https://docs.zuora.com/zuora-payments/payment-orchestration/payment-method-updater" },
+        { "capability": "collections follow-up emails", "sourceUrl": "https://docs.zuora.com/en/accounts-receivable/collections/account-settings/email-templates/build-collections-email-templates" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Payment Retry lets you configure the retry count, the interval between retries and the retry logic. Configurable Payment Retry supports card retries only and does not support direct debit methods such as ACH, SEPA, BACS or PAD.", "sourceUrl": "https://docs.zuora.com/en/zuora-payments/payment-orchestration/payment-retry", "checkedAt": "2026-11-05" },
+    { "text": "Payment Method Updater sends a batch of cards to the card networks' updater services before each bill cycle day, creates a new default payment method when a card number changes, and closes payment methods for closed accounts.", "sourceUrl": "https://docs.zuora.com/zuora-payments/payment-orchestration/payment-method-updater", "checkedAt": "2026-11-05" },
+    { "text": "Payment Method Updater supports Visa, Mastercard and American Express credit cards.", "sourceUrl": "https://docs.zuora.com/zuora-payments/payment-orchestration/payment-method-updater", "checkedAt": "2026-11-05" },
+    { "text": "Collections follow-up email templates can address an individual customer, a specific invoice or multiple invoices.", "sourceUrl": "https://docs.zuora.com/en/accounts-receivable/collections/account-settings/email-templates/build-collections-email-templates", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "The pricing page shows no plan prices and offers a Speak to an expert call to action. Dollar figures in its screenshots are sample data, not list prices" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.zuora.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

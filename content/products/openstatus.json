@@ -1,0 +1,46 @@
+{
+  "name": "openstatus",
+  "status": "published",
+  "vendor": { "name": "openstatus", "website": "https://www.openstatus.dev" },
+  "primaryCategory": "status-page",
+  "summary": "openstatus is an AGPL-3.0 status page and uptime monitoring service that can be self-hosted. The free Hobby plan has 1 page with 3 components. Paid plans cost $30, $100 and $500 a month, or less on yearly billing.",
+  "qualifies": [
+    {
+      "category": "status-page",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "public status page", "sourceUrl": "https://www.openstatus.dev/" },
+        { "capability": "incident updates and subscriptions", "sourceUrl": "https://github.com/openstatusHQ/openstatus" },
+        { "capability": "uptime history", "sourceUrl": "https://www.openstatus.dev/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Every status report update stays on the status page with its timestamp, and the sample page shows components with a 45-day uptime bar.", "sourceUrl": "https://www.openstatus.dev/", "checkedAt": "2026-11-05" },
+    { "text": "The project README lists subscriber notifications by email and RSS.", "sourceUrl": "https://github.com/openstatusHQ/openstatus", "checkedAt": "2026-11-05" },
+    { "text": "The code is licensed under AGPL-3.0 and can be self-hosted, with Docker Compose as the recommended route.", "sourceUrl": "https://github.com/openstatusHQ/openstatus", "checkedAt": "2026-11-05" },
+    { "text": "Starter, Pro and Scale include 1, 5 and 10 status pages, and extra pages cost $20 a month each.", "sourceUrl": "https://www.openstatus.dev/pricing", "checkedAt": "2026-11-05" },
+    { "text": "New users can try Starter free for 14 days without a card, after which the workspace returns to Hobby.", "sourceUrl": "https://www.openstatus.dev/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Hobby", "priceUsd": 0, "billing": "month", "unit": "per workspace", "notes": "1 status page with 3 components, 1 monitor at a 10-minute minimum interval" },
+      { "name": "Starter", "priceUsd": 30, "billing": "month", "unit": "per workspace", "notes": "$300 a year on yearly billing. 1 status page, 20 components, subscribers, custom domain" },
+      { "name": "Pro", "priceUsd": 100, "billing": "month", "unit": "per workspace", "notes": "$1,000 a year on yearly billing. 5 status pages, 50 components" },
+      { "name": "Scale", "priceUsd": 500, "billing": "month", "unit": "per workspace", "notes": "$5,000 a year on yearly billing. 10 status pages, 500 components" }
+    ],
+    "hiddenCosts": [
+      "Extra status pages cost $20 a month each on every paid plan.",
+      "The page offers prices in USD and EUR, and we record the USD figures."
+    ],
+    "sourceUrl": "https://www.openstatus.dev/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

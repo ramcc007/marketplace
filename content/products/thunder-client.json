@@ -1,0 +1,47 @@
+{
+  "name": "Thunder Client",
+  "status": "published",
+  "vendor": { "name": "Thunder Client", "website": "https://www.thunderclient.com" },
+  "primaryCategory": "api-testing",
+  "summary": "Thunder Client is an API client inside VS Code and JetBrains. Free allows 10 collections and 50 local runner runs a month per user. Starter costs $3, Business $7 and Enterprise $16 per user a month, billed annually.",
+  "qualifies": [
+    {
+      "category": "api-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "request builder", "sourceUrl": "https://www.thunderclient.com/" },
+        { "capability": "environments", "sourceUrl": "https://docs.thunderclient.com/features/environments" },
+        { "capability": "collection runner", "sourceUrl": "https://docs.thunderclient.com/features/collection-runner" },
+        { "capability": "automated api test runs", "sourceUrl": "https://docs.thunderclient.com/cli/ci-cd" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Running collections on a build server requires the Git Sync feature.", "sourceUrl": "https://docs.thunderclient.com/cli/ci-cd", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists Git Sync on the Starter, Business and Enterprise plans and not on Free.", "sourceUrl": "https://www.thunderclient.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The tc command runs a collection and writes XML, HTML, JSON or CSV reports, and the docs include a sample GitHub Actions workflow.", "sourceUrl": "https://docs.thunderclient.com/cli/ci-cd", "checkedAt": "2026-11-05" },
+    { "text": "The collection runner supports sequential and parallel runs, CSV or JSON data files, iterations and a delay between requests.", "sourceUrl": "https://docs.thunderclient.com/features/collection-runner", "checkedAt": "2026-11-05" },
+    { "text": "Global and Local environments and .env files require the paid version.", "sourceUrl": "https://docs.thunderclient.com/features/environments", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says local runner limits are monthly and that CI/CD runs have no limit.", "sourceUrl": "https://www.thunderclient.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "10 collections, 50 requests per collection, 50 local runner runs a month, no credit card required" },
+      { "name": "Starter", "priceUsd": 3, "billing": "month", "unit": "per user", "notes": "Billed annually; the page shows no monthly-billing price. Individual license, credit card only. Adds Git Sync, unlimited collections and 250 runner runs a month" },
+      { "name": "Business", "priceUsd": 7, "billing": "month", "unit": "per user", "notes": "Billed annually; the page shows no monthly-billing price. Adds team and user management, centralized billing and 500 runner runs a month" },
+      { "name": "Enterprise", "priceUsd": 16, "billing": "month", "unit": "per user", "notes": "Billed annually; the page shows no monthly-billing price. Unlimited runner runs, offline activation, audit logs and secrets manager integration" }
+    ],
+    "hiddenCosts": [
+      "The pricing page footnote says Enterprise single sign-on carries an additional cost, but it does not state the amount."
+    ],
+    "sourceUrl": "https://www.thunderclient.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["GitHub Actions", "VS Code", "JetBrains"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

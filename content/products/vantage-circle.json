@@ -1,0 +1,41 @@
+{
+  "name": "Vantage Circle",
+  "status": "published",
+  "vendor": { "name": "Vantage Circle", "website": "https://www.vantagecircle.com" },
+  "primaryCategory": "employee-recognition",
+  "summary": "Vantage Circle publishes no prices and says cost depends on organization size, selected products and required integrations. Grow includes peer recognition, global redemption options and basic analytics. Transform adds deeper analytics, HRMS and SSO integrations, and configurable workflows.",
+  "qualifies": [
+    {
+      "category": "employee-recognition",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "peer recognition", "sourceUrl": "https://www.vantagecircle.com/pricing/" },
+        { "capability": "worldwide redemption options", "sourceUrl": "https://www.vantagecircle.com/pricing/" },
+        { "capability": "recognition analytics", "sourceUrl": "https://www.vantagecircle.com/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Grow lists recognition between colleagues, worldwide redemption options and basic analytics. Transform includes everything in Grow and adds deeper analytics, HRMS and SSO integrations, and configurable workflows.", "sourceUrl": "https://www.vantagecircle.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The redemption comparison table names Amazon, experiences and holidays, gift cards and merchandise. The table does not show which plan includes each option.", "sourceUrl": "https://www.vantagecircle.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The page says pricing is custom and based on organization size, selected products and required integrations, and that a demo is needed for a quote.", "sourceUrl": "https://www.vantagecircle.com/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Grow", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price published. Currency and billing period not stated" },
+      { "name": "Transform", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price published. Includes everything in Grow" }
+    ],
+    "hiddenCosts": [
+      "Required integrations affect the quote, so HRIS connections should be priced during the demo."
+    ],
+    "sourceUrl": "https://www.vantagecircle.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

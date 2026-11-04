@@ -1,0 +1,43 @@
+{
+  "name": "Testfully",
+  "status": "published",
+  "vendor": { "name": "Testfully", "website": "https://www.testfully.io" },
+  "primaryCategory": "api-testing",
+  "summary": "Testfully combines an API client with test runs and monitoring for REST and GraphQL APIs. The Developer plan is free with no runner limit. Team costs $14 and Enterprise $29 per user a month, billed annually.",
+  "qualifies": [
+    {
+      "category": "api-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "request builder", "sourceUrl": "https://docs.testfully.io/docs/requests" },
+        { "capability": "environments", "sourceUrl": "https://docs.testfully.io/docs/environments" },
+        { "capability": "automated api test runs", "sourceUrl": "https://docs.testfully.io/docs/runner" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The folder runner offers serial, parallel and random execution, concurrency limits, delays, CSV or JSON datasets and repeated iterations.", "sourceUrl": "https://docs.testfully.io/docs/runner", "checkedAt": "2026-11-05" },
+    { "text": "The runner is available on all plans with no monthly request limit.", "sourceUrl": "https://docs.testfully.io/docs/runner", "checkedAt": "2026-11-05" },
+    { "text": "Requests can carry checks on the response code, time, headers and body, and can be chained into a serial scenario.", "sourceUrl": "https://docs.testfully.io/docs/requests", "checkedAt": "2026-11-05" },
+    { "text": "The Developer plan includes one offline and one cloud workspace and up to 5 users per workspace.", "sourceUrl": "https://www.testfully.io/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Developer Edition", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "1 offline and 1 cloud workspace, up to 5 users per workspace, collection runner with no limits" },
+      { "name": "Team Edition", "priceUsd": 14, "billing": "month", "unit": "per user", "notes": "Billed annually; the page shows no monthly-billing price. Adds unlimited workspaces, Git integration for offline workspaces, role-based access and secret management. The page does not name a currency" },
+      { "name": "Enterprise Edition", "priceUsd": 29, "billing": "month", "unit": "per user", "notes": "Billed annually; the page shows no monthly-billing price. Adds single sign-on, SCIM, domain capture and audit logs. The page also points to Contact Sales" }
+    ],
+    "hiddenCosts": [
+      "API Monitoring credits are a separate add-on: 10K for $10 a month, 30K for $27, 50K for $40 and 100K for $70."
+    ],
+    "sourceUrl": "https://www.testfully.io/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

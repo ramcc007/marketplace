@@ -1,0 +1,45 @@
+{
+  "name": "Instatus",
+  "status": "published",
+  "vendor": { "name": "Instatus", "website": "https://instatus.com" },
+  "primaryCategory": "status-page",
+  "summary": "Instatus offers a free Starter plan with 200 subscribers, 15 monitors and 5 team members. Pro starts at $20 a month with 5,000 subscribers and SMS alerts. Subscribers can follow by email, SMS, webhook, chat tools and feeds.",
+  "qualifies": [
+    {
+      "category": "status-page",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "public status page", "sourceUrl": "https://instatus.com/help/status-page/public-page" },
+        { "capability": "incident updates and subscriptions", "sourceUrl": "https://instatus.com/help/status-page/subscribers" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Public pages are open to anyone with the link, without a login, and visitors can subscribe through any channel the owner enables.", "sourceUrl": "https://instatus.com/help/status-page/public-page", "checkedAt": "2026-11-05" },
+    { "text": "Subscriber channels are email, SMS through a connected provider, signed webhooks, Slack, Microsoft Teams, Discord, Google Chat, X, RSS and Atom feeds, and a public API.", "sourceUrl": "https://instatus.com/help/status-page/subscribers", "checkedAt": "2026-11-05" },
+    { "text": "Adding an incident update lets the author choose whether to notify subscribers.", "sourceUrl": "https://instatus.com/help/incident-response/incidents", "checkedAt": "2026-11-05" },
+    { "text": "Enterprise adds a 99.99% uptime SLA, SCIM directory sync and multiple SSO connections.", "sourceUrl": "https://instatus.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "15 monitors at 2-minute checks, email alerts only, 5 team members, 200 subscribers, no custom domain" },
+      { "name": "Pro", "priceUsd": 20, "billing": "month", "unit": "per account", "notes": "Listed as from $20 a month in the page title; the plan card shows only the unit. 50 monitors at 30-second checks, email and SMS alerts, 5,000 subscribers, one or more custom domains. Yearly billing shows 25% off." },
+      { "name": "Business", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Shown with monthly billing, but no price appeared on the page we read. 1,000 monitors, 25,000 subscribers, SAML SSO." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price shown on the page we read. Adds a 99.99% uptime SLA, SCIM directory sync and multiple SSO connections." }
+    ],
+    "hiddenCosts": [
+      "The Pro price is shown as a starting figure, and the pricing table itself did not repeat the amount.",
+      "The page uses a dollar sign without naming the currency.",
+      "SMS delivery on status page subscriptions needs a connected SMS provider."
+    ],
+    "sourceUrl": "https://instatus.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "Discord", "Google Chat", "Webhooks"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

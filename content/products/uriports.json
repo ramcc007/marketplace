@@ -1,0 +1,45 @@
+{
+  "name": "URIports",
+  "status": "published",
+  "vendor": { "name": "URIports", "website": "https://www.uriports.com" },
+  "primaryCategory": "dmarc",
+  "summary": "URIports processes DMARC aggregate and failure reports into a dashboard and watches SPF, DKIM and DMARC records for changes. Plans run from USD 6 to 480 a month on annual billing, with a one-month trial and unlimited email volume.",
+  "qualifies": [
+    {
+      "category": "dmarc",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "dmarc report parsing", "sourceUrl": "https://www.uriports.com/features/dmarc" },
+        { "capability": "spf, dkim and dmarc monitoring", "sourceUrl": "https://www.uriports.com/features/dns-monitoring" },
+        { "capability": "spoofing alerts", "sourceUrl": "https://www.uriports.com/blog/notifications" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "URIports sends alerts by webhook, email or Telegram. Webhook and Telegram alerts go out instantly, and email digests can be hourly, daily or weekly.", "sourceUrl": "https://www.uriports.com/blog/notifications", "checkedAt": "2026-11-05" },
+    { "text": "DNS monitoring flags changes and errors in SPF, DMARC and DKIM records, and the site links SPF, DKIM and DMARC validators. The DNS monitoring page does not describe publishing or flattening records.", "sourceUrl": "https://www.uriports.com/features/dns-monitoring", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page has monthly and annual billing options and says annual billing saves 10%. Pebble is shown at USD 72 a year on annual billing.", "sourceUrl": "https://www.uriports.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Pebble", "priceUsd": 7, "billing": "month", "unit": "5 domains, 100,000 reports a month", "notes": "USD 6 a month on annual billing ($72 a year). 30 days of retention. DNS Monitor and Hosted MTA-STS are optional at USD 6 a month" },
+      { "name": "Stone", "priceUsd": 33, "billing": "month", "unit": "25 domains, 500,000 reports a month", "notes": "USD 30 a month on annual billing ($360 a year). Includes DNS Monitor, Hosted MTA-STS, team access and API" },
+      { "name": "Mountain", "priceUsd": 133, "billing": "month", "unit": "100 domains, 2.5 million reports a month", "notes": "USD 120 a month on annual billing ($1,440 a year). 90 days of retention, adds OpenID Connect" },
+      { "name": "Himalaya", "priceUsd": 530, "billing": "month", "unit": "400 domains, 10 million reports a month", "notes": "USD 480 a month on annual billing ($5,760 a year). Adds security specialist support" },
+      { "name": "Sand", "priceUsd": 15, "billing": "year", "unit": "3 domains, 10,000 reports a month", "notes": "For personal and hobby projects" }
+    ],
+    "hiddenCosts": [
+      "Extra domains cost USD 12 a month per 10 on Stone and above.",
+      "The free trial is described as one month with no payment details. Annual billing is described as saving 10%."
+    ],
+    "sourceUrl": "https://www.uriports.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["Telegram"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

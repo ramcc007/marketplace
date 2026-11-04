@@ -1,0 +1,44 @@
+{
+  "name": "Insomnia",
+  "status": "published",
+  "vendor": { "name": "Kong Inc.", "website": "https://insomnia.rest" },
+  "primaryCategory": "api-testing",
+  "summary": "Insomnia is Kong's API client for HTTP, GraphQL, gRPC and WebSocket requests. Essentials is free, with Git Sync for up to 3 users. Pro lists at $12 and Enterprise at $45 per user a month, and the page does not say whether those figures are annual or monthly.",
+  "qualifies": [
+    {
+      "category": "api-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "request builder", "sourceUrl": "https://developer.konghq.com/insomnia/requests/" },
+        { "capability": "collections and environments", "sourceUrl": "https://developer.konghq.com/insomnia/environments/" },
+        { "capability": "automated api test runs", "sourceUrl": "https://developer.konghq.com/how-to/automate-tests/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Insomnia environments exist at global, collection and folder level, and folder values take precedence over global base values.", "sourceUrl": "https://developer.konghq.com/insomnia/environments/", "checkedAt": "2026-11-05" },
+    { "text": "Secret variables are encrypted with a vault key, while confidential variables only hide values in the interface and are stored in plain text.", "sourceUrl": "https://developer.konghq.com/insomnia/environments/", "checkedAt": "2026-11-05" },
+    { "text": "The Inso CLI runs Insomnia tests from a terminal with an exit code, and can run in CI/CD. Legacy unit tests are hidden by default from version 13.3.", "sourceUrl": "https://developer.konghq.com/how-to/automate-tests/", "checkedAt": "2026-11-05" },
+    { "text": "A collection can be built from scratch, from a pasted cURL command, or by importing Postman, OpenAPI, HAR or WSDL files.", "sourceUrl": "https://developer.konghq.com/insomnia/requests/", "checkedAt": "2026-11-05" },
+    { "text": "Essentials includes unlimited collection runs and environments and 1,000 mock server requests a month.", "sourceUrl": "https://insomnia.rest/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Essentials", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Git Sync for up to 3 users, Inso CLI access, 1,000 mock server requests a month" },
+      { "name": "Pro", "priceUsd": 12, "billing": "month", "unit": "per user", "notes": "The page does not state whether $12 is the annual or the monthly rate. The page shows $ without naming a currency. Adds Git Sync for all users, role-based access and 10,000 mock server requests a month" },
+      { "name": "Enterprise", "priceUsd": 45, "billing": "month", "unit": "per user", "notes": "The page does not state whether $45 is the annual or the monthly rate. Self-serve up to 50 users, then contact sales. Adds SAML and OIDC single sign-on, SCIM and unlimited mock server requests" }
+    ],
+    "hiddenCosts": [
+      "Mock server requests beyond the included amount cost $10 per 25,000 requests on Essentials and Pro."
+    ],
+    "sourceUrl": "https://insomnia.rest/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}
