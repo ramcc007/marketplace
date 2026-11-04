@@ -2,8 +2,10 @@
 title: Privileged access management software
 definition: Seven privileged access management products checked for vaulting, session recording and just-in-time access, with the pricing models each vendor uses.
 primaryKeyword: privileged access management software
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-04
     note: First draft. Seven products checked against vendor pages, two of them added to existing product files.

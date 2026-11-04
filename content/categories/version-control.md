@@ -2,8 +2,10 @@
 title: Version control hosting compared
 definition: Eight Git hosting services compared on prices checked at the source, free tier limits, review enforcement, access roles and self-hosting.
 primaryKeyword: version control hosting
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages. AWS CodeCommit, Beanstalk and Backlog left out for reasons given on the page.

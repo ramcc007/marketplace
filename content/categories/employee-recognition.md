@@ -2,8 +2,10 @@
 title: Employee recognition software compared
 definition: Eight employee recognition tools compared on peer recognition, rewards catalogs and points, analytics, list prices and contract terms.
 primaryKeyword: employee recognition software
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pricing and product pages. Tax context taken from IRS Publication 15-B.

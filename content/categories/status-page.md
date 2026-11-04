@@ -2,8 +2,10 @@
 title: Status page software for incident communication
 definition: Nine status page tools compared on prices checked at the source, subscriber channels, uptime history, free plans and open source options.
 primaryKeyword: status page software
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-04
     note: First draft. Nine products checked against vendor pages, with prices read twice from the pricing pages.

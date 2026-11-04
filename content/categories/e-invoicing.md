@@ -2,8 +2,10 @@
 title: E-invoicing software compared
 definition: E-invoicing products compared on published prices and archive terms, with the EU, Belgian and Polish mandate dates checked at government sources.
 primaryKeyword: e-invoicing software
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages. Avalara added from an existing file. Published prices read twice.
