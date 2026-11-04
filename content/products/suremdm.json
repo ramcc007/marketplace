@@ -1,0 +1,65 @@
+{
+  "name": "SureMDM",
+  "status": "published",
+  "vendor": { "name": "42Gears", "website": "https://www.42gears.com" },
+  "primaryCategory": "mdm",
+  "summary": "SureMDM from 42Gears manages Android, Windows, macOS, Linux and iOS devices. Its three plans list at $3.99, $5.49 and $7.99 per device a month, with no minimum device count and volume pricing on request. The page shows dollar signs without naming a currency or the billing period behind each figure.",
+  "qualifies": [
+    {
+      "category": "mdm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "device enrollment", "sourceUrl": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/device-enrollment-settings" },
+        { "capability": "policy enforcement", "sourceUrl": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-management/" },
+        { "capability": "remote lock and wipe", "sourceUrl": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Device enrollment settings let admins set device naming and authentication, restrict enrollment by platform, OS version or model, and customize agent permissions for Android and macOS.", "sourceUrl": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/device-enrollment-settings", "checkedAt": "2026-11-04" },
+    { "text": "The Android Enterprise page says administrators can remotely lock or wipe devices in case of loss or theft, and describes policies such as password rules and application restrictions.", "sourceUrl": "https://docs.42gears.com/suremdm/android-enterprise/android-enterprise/android-device-management/", "checkedAt": "2026-11-04" },
+    { "text": "On Android devices in Device Owner or Device Admin mode a wipe factory-resets the device and removes the agent, while in Work Profile mode it removes only the work container and its apps.", "sourceUrl": "https://knowledgebase.42gears.com/article/how-wipe-device-action-works-based-on-enrollment-mode/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists Premium and Enterprise add-ons SureAccess at $1.99 per device a month and SureIdP at $3.49 per user a month.", "sourceUrl": "https://www.42gears.com/pricing/mobile-device-management/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page offers a free trial but does not state its length, and links to a separate refund policy page.", "sourceUrl": "https://www.42gears.com/pricing/mobile-device-management/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Standard", "priceUsd": 3.99, "billing": "month", "unit": "per device", "notes": "3 admin users. Annual billing is listed as saving 20%. The page does not say which period the shown price reflects" },
+      { "name": "Premium", "priceUsd": 5.49, "billing": "month", "unit": "per device", "notes": "25 admin users. Annual billing is listed as saving 21%" },
+      { "name": "Enterprise", "priceUsd": 7.99, "billing": "month", "unit": "per device", "notes": "Unlimited admin users. Annual billing is listed as saving 11%" }
+    ],
+    "hiddenCosts": [
+      "The page does not say whether the displayed prices are monthly or annual rates.",
+      "The page shows dollar signs without naming a currency, and says applicable taxes may vary.",
+      "SureAccess ($1.99 per device a month) and SureIdP ($3.49 per user a month) are add-ons for Premium and Enterprise only.",
+      "The page says to contact 42Gears for volume pricing."
+    ],
+    "sourceUrl": "https://www.42gears.com/pricing/mobile-device-management/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://docs.42gears.com/suremdm/system-settings/system-settings/account-settings/device-enrollment-settings",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.42gears.com/pricing/mobile-device-management/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["SureIdP", "SAML", "OAuth", "Android Enterprise"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

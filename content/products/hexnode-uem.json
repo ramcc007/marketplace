@@ -1,0 +1,65 @@
+{
+  "name": "Hexnode UEM",
+  "status": "published",
+  "vendor": { "name": "Hexnode", "website": "https://www.hexnode.com" },
+  "primaryCategory": "mdm",
+  "summary": "Hexnode UEM manages Android, iOS, macOS, Windows and Linux devices. Its listed prices run from $2.20 to $4.70 per device a month across three plans, with a fourth plan on request. The pricing page does not say whether the figures are monthly or annual rates, so confirm that before budgeting.",
+  "qualifies": [
+    {
+      "category": "mdm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "device enrollment", "sourceUrl": "https://www.hexnode.com/mobile-device-management/help/how-to-make-mdm-profile-non-removable-on-ios-devices/" },
+        { "capability": "policy enforcement", "sourceUrl": "https://www.hexnode.com/mobile-device-management/help/group-management-functions/" },
+        { "capability": "remote lock and wipe", "sourceUrl": "https://www.hexnode.com/mobile-device-management/help/wipe-a-device-completely-using-hexnode-mdm/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Wipe Device action factory-resets a managed device and permanently erases its data, and it cannot be stopped once started.", "sourceUrl": "https://www.hexnode.com/mobile-device-management/help/wipe-a-device-completely-using-hexnode-mdm/", "checkedAt": "2026-11-04" },
+    { "text": "The Lock Device action locks a managed device's screen and supports Android, iOS, macOS, Windows and Linux.", "sourceUrl": "https://www.hexnode.com/mobile-device-management/help/lock-a-device-using-hexnode-mdm/", "checkedAt": "2026-11-04" },
+    { "text": "Admins can associate policies with device groups or user groups, and the policy then applies its configurations and restrictions to the devices in those groups.", "sourceUrl": "https://www.hexnode.com/mobile-device-management/help/group-management-functions/", "checkedAt": "2026-11-04" },
+    { "text": "For iOS devices in Apple automated enrollment, the enrollment profile has a setting that makes the MDM profile non-removable on supervised devices.", "sourceUrl": "https://www.hexnode.com/mobile-device-management/help/how-to-make-mdm-profile-non-removable-on-ios-devices/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page has a Monthly or Annually toggle and says annual billing saves 10%. The page does not show which billing period the listed prices reflect.", "sourceUrl": "https://www.hexnode.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Pro (MDM Essentials)", "priceUsd": 2.2, "billing": "month", "unit": "per device", "notes": "Includes 2 technicians. The page does not state whether this is the monthly or annual rate" },
+      { "name": "Enterprise (Advanced MDM)", "priceUsd": 3.2, "billing": "month", "unit": "per device", "notes": "Includes 3 technicians, directory integrations with Entra ID, Active Directory and Google Workspace" },
+      { "name": "Ultimate (UEM Essentials)", "priceUsd": 4.7, "billing": "month", "unit": "per device", "notes": "Includes 4 technicians, basic Okta SSO and Windows Autopilot" },
+      { "name": "Ultra (Advanced UEM)", "priceUsd": null, "billing": "quote", "unit": "per device", "notes": "Pricing on request. Includes 5 technicians, patch management and BitLocker" }
+    ],
+    "hiddenCosts": [
+      "The page does not say whether the listed prices are monthly or annual rates, and annual billing is described as saving 10%.",
+      "The page says to start with 15 devices, but the FAQ answer on minimum licenses did not load, so the minimum is unconfirmed.",
+      "Okta SSO starts at the Ultimate plan, and Okta Device Trust is on the quote-only Ultra plan."
+    ],
+    "sourceUrl": "https://www.hexnode.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Ultimate (basic Okta SSO)",
+    "sourceUrl": "https://www.hexnode.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.hexnode.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft Entra ID", "Active Directory", "Google Workspace", "Okta", "Windows Autopilot", "Apple Business Manager", "Android Enterprise"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

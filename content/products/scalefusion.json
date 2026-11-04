@@ -1,0 +1,67 @@
+{
+  "name": "Scalefusion",
+  "status": "published",
+  "vendor": { "name": "Scalefusion", "website": "https://www.scalefusion.com" },
+  "primaryCategory": "mdm",
+  "summary": "Scalefusion manages Android, Apple, Windows, macOS, Linux and ChromeOS devices. Its four UEM plans cost $2 to $6 per device a month, billed annually only, with a 10-device minimum and a 14-day trial. Features such as OS patch management and live location tracking sit on the higher plans.",
+  "qualifies": [
+    {
+      "category": "mdm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "device enrollment", "sourceUrl": "https://help.scalefusion.com/docs/manage-ade-devices-using-scalefusion" },
+        { "capability": "policy enforcement", "sourceUrl": "https://help.scalefusion.com/v1/docs/configure-password-policy-for-windows-devices" },
+        { "capability": "remote lock and wipe", "sourceUrl": "https://help.scalefusion.com/docs/device-level-actions" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Scalefusion links to an Apple Business or School Manager account with a server token, syncs ADE devices and enforces supervision and automatic enrollment when devices are unboxed or factory reset.", "sourceUrl": "https://help.scalefusion.com/docs/manage-ade-devices-using-scalefusion", "checkedAt": "2026-11-04" },
+    { "text": "Password policies are applied by publishing them to selected device profiles, and profile-level policies override global settings.", "sourceUrl": "https://help.scalefusion.com/v1/docs/configure-password-policy-for-windows-devices", "checkedAt": "2026-11-04" },
+    { "text": "The device actions page lists Lock/Unlock, Lock Screen and Reset Device, which factory resets the device.", "sourceUrl": "https://help.scalefusion.com/docs/device-level-actions", "checkedAt": "2026-11-04" },
+    { "text": "Remote factory reset of a Mac works on Apple Silicon and T2 Macs running macOS 12 or later, while older Intel Macs need a six-digit Mac PIN.", "sourceUrl": "https://help.scalefusion.com/docs/factory-reset-wipe-a-macos-device", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says all plans are billed annually only, and that a minimum of 10 total devices is required.", "sourceUrl": "https://www.scalefusion.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The footer of the security page states ISO/IEC 27001:2022 certification and SOC-2 Type-2 compliance.", "sourceUrl": "https://www.scalefusion.com/security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Essential", "priceUsd": 2, "billing": "month", "unit": "per device", "notes": "Billed annually at $24 per device. 1 administrator" },
+      { "name": "Growth", "priceUsd": 3.5, "billing": "month", "unit": "per device", "notes": "Billed annually at $42 per device. Adds BYOD and Apple User Enrollment, 5 administrators" },
+      { "name": "Business", "priceUsd": 5, "billing": "month", "unit": "per device", "notes": "Billed annually at $60 per device. Adds LDAP, Windows Autopilot, OS update and patch management, 10 administrators" },
+      { "name": "Enterprise", "priceUsd": 6, "billing": "month", "unit": "per device", "notes": "Billed annually at $72 per device. Adds maker-checker approval, live location tracking, webhooks, 25 administrators" }
+    ],
+    "hiddenCosts": [
+      "All plans are billed annually only, with no monthly option.",
+      "The page requires a minimum of 10 total devices.",
+      "Secure web gateway and vulnerability management add $2 per device a month each, and the Veltar bundle adds $4.",
+      "Conditional SSO sits in the separate Access Pro product at $5 per device a month."
+    ],
+    "sourceUrl": "https://www.scalefusion.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Access Pro (conditional SSO, separate product)",
+    "sourceUrl": "https://www.scalefusion.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": 10,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.scalefusion.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Apple Business Manager", "Android Enterprise", "Windows Autopilot", "LDAP", "Check Point Harmony"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

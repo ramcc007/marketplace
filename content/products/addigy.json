@@ -1,0 +1,63 @@
+{
+  "name": "Addigy",
+  "status": "published",
+  "vendor": { "name": "Addigy", "website": "https://addigy.com" },
+  "primaryCategory": "mdm",
+  "summary": "Addigy manages Apple devices, with MDM plans starting at $8.25 per Mac a month and a 14-day free trial that needs no payment details. Policies are hierarchical, so child policies inherit settings from parents. iOS devices are an add-on at a rate the pricing page does not state.",
+  "qualifies": [
+    {
+      "category": "mdm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "device enrollment", "sourceUrl": "https://docs.addigy.com/mdm/Automated_Device_Enrollment/" },
+        { "capability": "policy enforcement", "sourceUrl": "https://docs.addigy.com/interface/Policies/" },
+        { "capability": "remote lock and wipe", "sourceUrl": "https://support.addigy.com/hc/en-us/articles/4403542406419-Remote-Lock-and-Remote-Wipe-with-Addigy-Mobile-Device-Management-MDM" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Addigy's help article says the console can push a Remote Lock or Remote Wipe command to an MDM-enrolled device, and the device does not need a specific policy assigned.", "sourceUrl": "https://support.addigy.com/hc/en-us/articles/4403542406419-Remote-Lock-and-Remote-Wipe-with-Addigy-Mobile-Device-Management-MDM", "checkedAt": "2026-11-04" },
+    { "text": "Once an Automated Device Enrollment token is uploaded, devices enroll automatically during first setup or after a wipe, and Apple tokens need yearly renewal.", "sourceUrl": "https://docs.addigy.com/mdm/Automated_Device_Enrollment/", "checkedAt": "2026-11-04" },
+    { "text": "Policies are hierarchical, so assets and settings added to a parent policy are inherited by its child policies.", "sourceUrl": "https://docs.addigy.com/interface/Policies/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says no multi-year contracts are required and that committing to a multi-year plan can lower the rate.", "sourceUrl": "https://addigy.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Addigy's compliance page says it performs regular SOC 2 Type 2 audits and holds a SOC 3 report, with report access requiring an NDA.", "sourceUrl": "https://addigy.com/legal/compliance/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Apple MDM", "priceUsd": 8.25, "billing": "month", "unit": "per Mac", "notes": "Listed as starting at $8.25. Managed service providers get lower rates" },
+      { "name": "Security Suite", "priceUsd": 16, "billing": "month", "unit": "per Mac", "notes": "Listed as starting at $16" }
+    ],
+    "hiddenCosts": [
+      "iPhone, iPad and Apple TV management is an add-on, and the pricing page does not state its rate.",
+      "Migration services are scoped and quoted separately.",
+      "The pricing page says Addigy Intelligence was free for all customers through October 31, 2026 and then becomes a paid tier, with no price listed."
+    ],
+    "sourceUrl": "https://addigy.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://addigy.com/legal/compliance/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://addigy.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Apple Business Manager", "Apple School Manager"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

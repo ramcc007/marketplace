@@ -1,0 +1,69 @@
+{
+  "name": "ManageEngine Mobile Device Manager Plus",
+  "status": "published",
+  "vendor": { "name": "ManageEngine", "website": "https://www.manageengine.com" },
+  "primaryCategory": "mdm",
+  "summary": "Mobile Device Manager Plus is free for up to 25 devices with all features and a 30-day trial. Paid cloud plans are priced by device tier, from $645 a year for 50 devices on Standard, with extra technician seats costing more. The pricing page shows dollar signs without naming a currency.",
+  "qualifies": [
+    {
+      "category": "mdm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "device enrollment", "sourceUrl": "https://www.manageengine.com/mobile-device-management/mobile-device-management.html" },
+        { "capability": "policy enforcement", "sourceUrl": "https://www.manageengine.com/mobile-device-management/mobile-device-management.html" },
+        { "capability": "remote lock and wipe", "sourceUrl": "https://www.manageengine.com/mobile-device-management/help/security_management/mdm_security_management.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Remote Lock works on Android, iOS and macOS devices. The help page states that Windows is not supported.", "sourceUrl": "https://www.manageengine.com/mobile-device-management/help/security_management/mdm_security_management.html", "checkedAt": "2026-11-04" },
+    { "text": "Complete Wipe erases all data on Android, iOS, macOS, ChromeOS and Windows devices, while Corporate Wipe removes only profiles and apps installed through MDM.", "sourceUrl": "https://www.manageengine.com/mobile-device-management/help/security_management/mdm_security_management.html", "checkedAt": "2026-11-04" },
+    { "text": "Enrollment options include self-enrollment, invitations and CSV bulk upload for personal devices, and automated enrollment for corporate devices through Apple Business Manager, Android Zero Touch, Samsung Knox and Windows Autopilot.", "sourceUrl": "https://www.manageengine.com/mobile-device-management/mobile-device-management.html", "checkedAt": "2026-11-04" },
+    { "text": "Admins publish profiles to individual devices or groups to restrict device features and to set up corporate email, Wi-Fi and VPN access.", "sourceUrl": "https://www.manageengine.com/mobile-device-management/mobile-device-management.html", "checkedAt": "2026-11-04" },
+    { "text": "The FAQ says a full remote wipe works only on fully managed devices, and that devices with a work profile can only have the work profile removed.", "sourceUrl": "https://www.manageengine.com/mobile-device-management/faq.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Free edition", "priceUsd": 0, "billing": "year", "unit": "up to 25 devices", "notes": "Fully functional with all features, according to the pricing page" },
+      { "name": "Standard cloud, 50 devices", "priceUsd": 645, "billing": "year", "unit": "per year, 1 technician", "notes": "Cloud monthly billing is $64 for the same tier" },
+      { "name": "Standard cloud, 100 devices", "priceUsd": 1195, "billing": "year", "unit": "per year, 1 technician" },
+      { "name": "Standard cloud, 250 devices", "priceUsd": 2845, "billing": "year", "unit": "per year, 1 technician" },
+      { "name": "Professional cloud, 50 devices", "priceUsd": 1195, "billing": "year", "unit": "per year, 1 technician" },
+      { "name": "Professional cloud, 100 devices", "priceUsd": 2245, "billing": "year", "unit": "per year, 1 technician" },
+      { "name": "Professional cloud, 250 devices", "priceUsd": 5195, "billing": "year", "unit": "per year, 1 technician" }
+    ],
+    "hiddenCosts": [
+      "Each plan includes one technician. Extra technician seats on cloud annual billing cost $445 a year for one and $595 for two.",
+      "The page shows dollar signs without naming a currency, so confirm the currency at checkout.",
+      "Paid tiers start at 50 devices, so a business with 26 to 49 devices pays the 50-device price.",
+      "Larger tiers up to 10,000 devices are listed on the page and are not shown in this profile."
+    ],
+    "sourceUrl": "https://www.manageengine.com/mobile-device-management/pricing.html",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.manageengine.com/mobile-device-management/faq.html",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": 50,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.manageengine.com/mobile-device-management/pricing.html",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Apple Business Manager", "Android Zero Touch", "Samsung Knox", "Windows Autopilot"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

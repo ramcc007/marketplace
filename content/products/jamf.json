@@ -1,0 +1,64 @@
+{
+  "name": "Jamf",
+  "status": "published",
+  "vendor": { "name": "Jamf", "website": "https://www.jamf.com" },
+  "primaryCategory": "mdm",
+  "summary": "Jamf manages Apple devices. Jamf for Mac costs $12.50 per device a month and Jamf for Mobile costs $5.75, both billed annually with a 25-device minimum. Jamf Now, for organizations under 25 employees, starts at $4 per device a month. Jamf lists SOC 2 and ISO 27001 on its trust center.",
+  "qualifies": [
+    {
+      "category": "mdm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "device enrollment", "sourceUrl": "https://docs.jamf.com/10.25.0/jamf-pro/administrator-guide/Mobile_Device_Enrollment_Methods.html" },
+        { "capability": "policy enforcement", "sourceUrl": "https://docs.jamf.com/10.25.0/jamf-pro/administrator-guide/Mobile_Device_Configuration_Profiles.html" },
+        { "capability": "remote lock and wipe", "sourceUrl": "https://docs.jamf.com/10.25.0/jamf-pro/administrator-guide/Remote_Commands_for_Mobile_Devices.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Jamf Pro enrolls mobile devices three ways: Automated Device Enrollment for organization-owned devices, Device Enrollment for manual enrollment, and User Enrollment for personally owned devices, which requires Managed Apple IDs.", "sourceUrl": "https://docs.jamf.com/10.25.0/jamf-pro/administrator-guide/Mobile_Device_Enrollment_Methods.html", "checkedAt": "2026-11-04" },
+    { "text": "Configuration profiles are .mobileconfig files that define settings and restrictions for devices, computers and users.", "sourceUrl": "https://docs.jamf.com/10.25.0/jamf-pro/administrator-guide/Mobile_Device_Configuration_Profiles.html", "checkedAt": "2026-11-04" },
+    { "text": "The Wipe Device command permanently erases all data on a mobile device and deactivates it, while the device record stays in Jamf Pro.", "sourceUrl": "https://docs.jamf.com/10.25.0/jamf-pro/administrator-guide/Remote_Commands_for_Mobile_Devices.html", "checkedAt": "2026-11-04" },
+    { "text": "Lock Device can show an optional message and phone number on the lock screen of a mobile device.", "sourceUrl": "https://docs.jamf.com/10.25.0/jamf-pro/administrator-guide/Remote_Commands_for_Mobile_Devices.html", "checkedAt": "2026-11-04" },
+    { "text": "Jamf's pricing page says local-currency pricing is available through a Jamf representative or a reseller and may differ from the USD figures.", "sourceUrl": "https://www.jamf.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Jamf for Mac", "priceUsd": 12.5, "billing": "month", "unit": "per macOS device", "notes": "Billed annually, 25-device minimum, sold through a contact form" },
+      { "name": "Jamf for Mobile", "priceUsd": 5.75, "billing": "month", "unit": "per mobile device", "notes": "Billed annually, 25-device minimum, sold through a contact form" },
+      { "name": "Jamf Now", "priceUsd": 4, "billing": "month", "unit": "per device", "notes": "Listed as starting at $4, for organizations with fewer than 25 employees. The page states no billing term" }
+    ],
+    "hiddenCosts": [
+      "Jamf for Mac and Jamf for Mobile each have a 25-device minimum and are billed annually.",
+      "Both main plans go through a contact request, not self-serve checkout.",
+      "Prices in other currencies come from a Jamf representative or reseller and can differ from the USD list."
+    ],
+    "sourceUrl": "https://www.jamf.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.jamf.com/trust-center/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": 25,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.jamf.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Apple Push Notification service", "Apple Automated Device Enrollment", "Apple Configurator"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

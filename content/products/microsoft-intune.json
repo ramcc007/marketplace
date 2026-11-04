@@ -1,0 +1,70 @@
+{
+  "name": "Microsoft Intune",
+  "status": "published",
+  "vendor": { "name": "Microsoft", "website": "https://www.microsoft.com" },
+  "primaryCategory": "mdm",
+  "summary": "Microsoft Intune manages Android, iOS and iPadOS, macOS, Windows, ChromeOS and Linux devices from one admin center. Plan 1 costs $8.00 per user a month on its own, and extras such as Remote Help and Endpoint Privilege Management are separate add-ons that need Plan 1. Devices register in Microsoft Entra ID before they enroll.",
+  "qualifies": [
+    {
+      "category": "mdm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "device enrollment", "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-enrollment/enroll-devices" },
+        { "capability": "policy enforcement", "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-security/compliance/overview" },
+        { "capability": "remote lock and wipe", "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-management/actions/remote-lock" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Intune supports enrollment of Android, Android Enterprise, iOS, iPadOS, Linux, macOS and Windows devices, and a device must be registered in Microsoft Entra ID before it can enroll.", "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-enrollment/enroll-devices", "checkedAt": "2026-11-04" },
+    { "text": "A tenant can submit up to 500 Wipe actions per day, counted across single-device actions, bulk actions and Graph API requests.", "sourceUrl": "https://learn.microsoft.com/mem/intune/remote-actions/devices-wipe", "checkedAt": "2026-11-04" },
+    { "text": "Remote lock only works well when a passcode or PIN is already set. Without one, the screen may turn off and the user can still use the device.", "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-management/actions/remote-lock", "checkedAt": "2026-11-04" },
+    { "text": "Remote lock is documented for Android Enterprise corporate-owned modes, AOSP, iOS and iPadOS, macOS and visionOS 2.0 or later. Windows is not on the list.", "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-management/actions/remote-lock", "checkedAt": "2026-11-04" },
+    { "text": "A compliance policy can lock a device remotely after it stays noncompliant for a set time. Blocking access to company resources needs Microsoft Entra Conditional Access, which in turn needs Entra ID P1 or P2.", "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-security/compliance/overview", "checkedAt": "2026-11-04" },
+    { "text": "Devices with no compliance policy assigned are marked Compliant by default, and an admin has to switch that setting to Not compliant to change it.", "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-security/compliance/overview", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Intune Plan 1", "priceUsd": 8, "billing": "month", "unit": "per user", "notes": "Standalone price from the vendor's FAQ. The page does not state a billing term for this plan" },
+      { "name": "Intune Suite", "priceUsd": 10, "billing": "month", "unit": "per user", "notes": "Price from the vendor's FAQ. The page does not state a billing term for this plan" },
+      { "name": "Intune Plan 2 (add-on)", "priceUsd": 4, "billing": "month", "unit": "per user", "notes": "Paid yearly, annual subscription that auto-renews" },
+      { "name": "Remote Help (add-on)", "priceUsd": 3.5, "billing": "month", "unit": "per user", "notes": "Paid yearly. Needs Intune Plan 1" },
+      { "name": "Endpoint Privilege Management (add-on)", "priceUsd": 3, "billing": "month", "unit": "per user", "notes": "Paid yearly. Needs Intune Plan 1" },
+      { "name": "Advanced Analytics (add-on)", "priceUsd": 5, "billing": "month", "unit": "per user", "notes": "Paid yearly. Needs Intune Plan 1" },
+      { "name": "Enterprise Application Management (add-on)", "priceUsd": 2, "billing": "month", "unit": "per user", "notes": "Paid yearly. Needs Intune Plan 1" },
+      { "name": "Microsoft Cloud PKI (add-on)", "priceUsd": 2, "billing": "month", "unit": "per user", "notes": "Paid yearly. Needs Intune Plan 1" }
+    ],
+    "hiddenCosts": [
+      "Most add-ons need an Intune Plan 1 subscription underneath them, so the real per-user price is the add-on plus $8.00.",
+      "The pricing page says prices may vary based on your Microsoft agreement and points to Contact Sales for a custom quote.",
+      "Windows Autopilot and Conditional Access enrollment steps need a Microsoft Entra ID P1 or P2 license."
+    ],
+    "sourceUrl": "https://www.microsoft.com/en-us/security/business/microsoft-intune-pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-home",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Add-ons are sold as annual subscriptions that auto-renew. The pricing page states no cancellation terms for Plan 1 or the Suite.",
+    "dataExport": null,
+    "sourceUrl": "https://www.microsoft.com/en-us/security/business/microsoft-intune-pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft Entra ID", "Apple Business Manager", "Apple School Manager", "Managed Google Play", "Windows Autopilot", "Microsoft Configuration Manager"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
