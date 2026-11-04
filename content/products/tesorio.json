@@ -1,0 +1,51 @@
+{
+  "name": "Tesorio",
+  "status": "published",
+  "vendor": { "name": "Tesorio", "website": "https://tesorio.com" },
+  "primaryCategory": "ar-automation",
+  "summary": "Tesorio is an AI-driven AR and cash forecasting platform. Its agents deliver invoices to supplier portals, run escalating dunning sequences, match incoming payments to open invoices, and its executive dashboard shows AR aging beside collection performance. The site has no prices and sends buyers to a demo request. Its security site lists SOC 1 and SOC 2 Type 2 reports.",
+  "qualifies": [
+    {
+      "category": "ar-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice delivery and reminders", "sourceUrl": "https://tesorio.com/" },
+        { "capability": "payment matching", "sourceUrl": "https://tesorio.com/product/cash-application" },
+        { "capability": "aging reports", "sourceUrl": "https://www.tesorio.com/for/cfo" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Tesorio's homepage says its Supplier Portals Agent logs into supplier portals, submits and delivers invoices and monitors status, and that automated dunning runs scheduled, escalating sequences across the whole book.", "sourceUrl": "https://tesorio.com/", "checkedAt": "2026-11-04" },
+    { "text": "Tesorio's cash application page says its models match incoming payments to open invoices and handle partial payments, overpayments and multi-entity matching, with unmatched payments sent to an exceptions workspace. It claims 95%+ accuracy, a vendor figure.", "sourceUrl": "https://tesorio.com/product/cash-application", "checkedAt": "2026-11-04" },
+    { "text": "The page for CFOs describes a dashboard for cash position, AR aging, collection performance and forecast against actuals, with drill-down to individual invoices.", "sourceUrl": "https://www.tesorio.com/for/cfo", "checkedAt": "2026-11-04" },
+    { "text": "Tesorio's security site lists CCPA, GDPR, PCI DSS, SOC 1 and SOC 2, and says it uploaded SOC 1 Type 2 and SOC 2 Type 2 reports covering March 1, 2025 to February 28, 2026.", "sourceUrl": "https://security.tesorio.com/", "checkedAt": "2026-11-04" },
+    { "text": "Tesorio names NetSuite, Sage Intacct, Workday, QuickBooks and Zuora among its integrations and says other ERPs connect through Tesorio Connect.", "sourceUrl": "https://tesorio.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom quote", "priceUsd": null, "billing": "quote", "unit": "custom" }
+    ],
+    "hiddenCosts": [
+      "The pricing page shows no prices or plan names. Its calls to action are 'Speak With a Human' and 'Contact Sales'."
+    ],
+    "sourceUrl": "https://www.tesorio.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://security.tesorio.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["NetSuite", "Sage Intacct", "Workday", "QuickBooks", "Zuora"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

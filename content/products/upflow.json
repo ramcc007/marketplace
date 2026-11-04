@@ -1,0 +1,69 @@
+{
+  "name": "Upflow",
+  "status": "published",
+  "vendor": { "name": "Upflow", "website": "https://upflow.io" },
+  "primaryCategory": "ar-automation",
+  "summary": "Upflow is an accounts receivable platform that connects to an ERP or billing system and runs multi-channel payment follow-up by email, SMS, calls and letters. Its aging balance chart groups open amounts into due and overdue buckets, and a cash application agent matches bank payments to invoices on the Accelerate plan and above. Plans are priced by annual invoiced revenue and invoice volume, and every tier is sold by quote.",
+  "qualifies": [
+    {
+      "category": "ar-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice delivery and reminders", "sourceUrl": "https://upflow.io/features/cash-collection" },
+        { "capability": "payment matching", "sourceUrl": "https://upflow.io/features/cash-application" },
+        { "capability": "aging reports", "sourceUrl": "https://docs.upflow.io/en-us/analytics/widgets/aging-balance" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Upflow's pricing page lists five paid tiers by annual invoiced revenue and new invoices a year. Starter covers up to $10M and 40,000 invoices, Grow $25M and 100,000, Scale $50M and 200,000, Accelerate $100M and 300,000, and Entreprise above $100M and 700,000. Every tier shows 'Ask for a quote'.", "sourceUrl": "https://www.upflow.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The Cash Application Agent and enterprise SSO are listed only on the Accelerate and Entreprise plans.", "sourceUrl": "https://www.upflow.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Upflow's documentation says its aging balance chart splits receivables into buckets for not yet due, overdue under 30 days, 30 to 60 days, 60 to 90 days and over 90 days.", "sourceUrl": "https://docs.upflow.io/en-us/analytics/widgets/aging-balance", "checkedAt": "2026-11-04" },
+    { "text": "Upflow says its AP Portal Agent submits invoices into customers' AP portals, and its collections page lists outreach across email, SMS, calls and letters.", "sourceUrl": "https://upflow.io/features/cash-collection", "checkedAt": "2026-11-04" },
+    { "text": "Upflow states it holds a SOC 2 Type 2 report and shows a GDPR compliant badge. It does not mention ISO 27001 on its security page.", "sourceUrl": "https://upflow.io/security", "checkedAt": "2026-11-04" },
+    { "text": "Upflow lists NetSuite, Sage Intacct, QuickBooks Online, Xero, Pennylane and Rillet as accounting and ERP integrations, and Zuora, Chargebee and Stripe Billing as billing integrations. SAP S/4HANA and Dynamics 365 Business Central are marked coming soon.", "sourceUrl": "https://upflow.io/integrations", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Discover", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Free access to dashboards and AR health insights" },
+      { "name": "Starter", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Up to $10M annual invoiced revenue and 40,000 new invoices a year, unlimited seats" },
+      { "name": "Grow", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Up to $25M and 100,000 new invoices a year, adds branded customer portals and a REST API" },
+      { "name": "Scale", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Up to $50M and 200,000 new invoices a year, adds a Smart Rules engine and a Collections Agent" },
+      { "name": "Accelerate", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Up to $100M and 300,000 new invoices a year, adds the Cash Application Agent and enterprise SSO" },
+      { "name": "Entreprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Over $100M and 700,000 new invoices a year" },
+      { "name": "Upflow Payments (add-on)", "priceUsd": null, "billing": "month", "unit": "per account", "baseFeeUsd": 390, "volumeFee": { "percent": 3.5, "fixedUsd": 0.3, "basis": "per successful card transaction, domestic and international" }, "notes": "ACH direct debit costs 0.8% capped at $5 per transaction. Volume pricing is available from the Scale plan up" }
+    ],
+    "hiddenCosts": [
+      "SMS, calls and letters are 'subject to usage fee' on all plans, and the page lists no amounts.",
+      "Plans are prepaid and usage fees are billed afterward.",
+      "Prices exclude taxes."
+    ],
+    "sourceUrl": "https://www.upflow.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://upflow.io/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.upflow.io/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["NetSuite", "Sage Intacct", "QuickBooks Online", "Xero", "Pennylane", "Rillet", "Zuora", "Chargebee", "Stripe Billing", "HubSpot", "Salesforce", "Slack"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

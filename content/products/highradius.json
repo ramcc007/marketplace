@@ -1,0 +1,50 @@
+{
+  "name": "HighRadius",
+  "status": "published",
+  "vendor": { "name": "HighRadius", "website": "https://www.highradius.com" },
+  "primaryCategory": "ar-automation",
+  "summary": "HighRadius sells order-to-cash software, and its integrated receivables product covers invoice sharing, automated dunning, payment-to-invoice matching and dashboards that show aging accounts. It is aimed at large finance teams, lists more than 50 ERP integrations, and publishes no prices. Its trust center lists SOC 1, SOC 2, ISO 27001, GDPR and PCI DSS.",
+  "qualifies": [
+    {
+      "category": "ar-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice delivery and reminders", "sourceUrl": "https://www.highradius.com/product/integrated-receivables/" },
+        { "capability": "payment matching", "sourceUrl": "https://www.highradius.com/software/order-to-cash/cash-application-management/" },
+        { "capability": "aging reports", "sourceUrl": "https://www.highradius.com/product/integrated-receivables/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "HighRadius's integrated receivables page says the product shares invoices by email or preferred channels and tracks status, and that it automates reminders and follow-ups with dunning.", "sourceUrl": "https://www.highradius.com/product/integrated-receivables/", "checkedAt": "2026-11-04" },
+    { "text": "The same page says its analytics reveal payment trends, customer behavior and aging accounts, and that it integrates with 110+ banks, 40 credit agencies, 50+ ERPs and 15+ billing systems.", "sourceUrl": "https://www.highradius.com/product/integrated-receivables/", "checkedAt": "2026-11-04" },
+    { "text": "The cash application page describes automating remittance matching to open invoices in the ERP and matching remittances, payments and invoices three ways.", "sourceUrl": "https://www.highradius.com/software/order-to-cash/cash-application-management/", "checkedAt": "2026-11-04" },
+    { "text": "HighRadius's trust center lists SOC 1 Type 2, SOC 2 Type 2, ISO/IEC 27001:2022, GDPR and PCI DSS v4.0.1.", "sourceUrl": "https://trust.highradius.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom quote", "priceUsd": null, "billing": "quote", "unit": "custom" }
+    ],
+    "hiddenCosts": [
+      "The product page lists no prices, tiers or pricing model. Its calls to action are demo and discovery call requests."
+    ],
+    "sourceUrl": "https://www.highradius.com/product/integrated-receivables/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://trust.highradius.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["SAP", "Oracle", "Microsoft Dynamics", "NetSuite"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

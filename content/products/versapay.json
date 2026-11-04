@@ -1,0 +1,51 @@
+{
+  "name": "Versapay",
+  "status": "published",
+  "vendor": { "name": "Versapay", "website": "https://www.versapay.com" },
+  "primaryCategory": "ar-automation",
+  "summary": "Versapay combines invoice presentment, a customer payment portal, collections, cash application and AR reporting. Its reporting page includes configurable AR aging reports, and its cash application page says payments made through the portal match to invoices automatically. It publishes no prices and routes pricing questions to a sales conversation, so budget has to be confirmed before a shortlist.",
+  "qualifies": [
+    {
+      "category": "ar-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice delivery and reminders", "sourceUrl": "https://www.versapay.com/ar-automation" },
+        { "capability": "payment matching", "sourceUrl": "https://www.versapay.com/solutions/cash-application" },
+        { "capability": "aging reports", "sourceUrl": "https://www.versapay.com/solutions/reporting-reconciliation" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Versapay's platform overview lists invoice delivery and presentment, dunning notifications and basic collections activities among the tasks it handles.", "sourceUrl": "https://www.versapay.com/ar-automation", "checkedAt": "2026-11-04" },
+    { "text": "Versapay's cash application page says online payments made through its payment portal are matched to invoices 100% of the time, and lists matching with 90%+ straight-through processing. These are vendor claims.", "sourceUrl": "https://www.versapay.com/solutions/cash-application", "checkedAt": "2026-11-04" },
+    { "text": "The reporting page has a section headed 'Customize AR aging reports to focus on what matters most'.", "sourceUrl": "https://www.versapay.com/solutions/reporting-reconciliation", "checkedAt": "2026-11-04" },
+    { "text": "Versapay names native integrations for Oracle NetSuite, Sage Intacct, Microsoft Dynamics 365 Business Central and Dynamics 365 Finance and Supply Chain Management, and says other ERPs connect through open APIs or flat files.", "sourceUrl": "https://www.versapay.com/integrated-payments", "checkedAt": "2026-11-04" },
+    { "text": "The site footer lists PCI compliance and 'AICPA SOC Compliance' without naming the report type.", "sourceUrl": "https://www.versapay.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom quote", "priceUsd": null, "billing": "quote", "unit": "custom" }
+    ],
+    "hiddenCosts": [
+      "No prices, plan names or pricing page appear on the site. The main call to action is 'Talk with an expert'."
+    ],
+    "sourceUrl": "https://www.versapay.com/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.versapay.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Oracle NetSuite", "Sage Intacct", "Microsoft Dynamics 365 Business Central", "Microsoft Dynamics 365 Finance and Supply Chain Management"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

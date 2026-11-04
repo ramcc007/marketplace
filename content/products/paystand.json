@@ -1,0 +1,42 @@
+{
+  "name": "Paystand",
+  "status": "published",
+  "vendor": { "name": "Paystand", "website": "https://www.paystand.com" },
+  "primaryCategory": "ar-automation",
+  "summary": "Paystand pairs receivables automation with its own B2B payment network. It sends digital invoices with embedded payment links, automates reminders and dunning, reconciles payments in the ERP, and shows aging balances on dashboards. It describes a flat monthly subscription instead of per-transaction fees but does not publish the amount, so cost can only be confirmed through its ROI request.",
+  "qualifies": [
+    {
+      "category": "ar-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice delivery and reminders", "sourceUrl": "https://www.paystand.com/receivables/automatic-reconciliation" },
+        { "capability": "payment matching", "sourceUrl": "https://www.paystand.com/receivables/automatic-reconciliation" },
+        { "capability": "aging reports", "sourceUrl": "https://www.paystand.com/receivables/collections-automation" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Paystand's reconciliation page says billing automation can create and distribute digital invoices, send invoices with embedded payment links, and run automated reminders.", "sourceUrl": "https://www.paystand.com/receivables/automatic-reconciliation", "checkedAt": "2026-11-04" },
+    { "text": "The same page promises to eliminate manual matching of incoming payments and to auto-reconcile transactions in the system of record.", "sourceUrl": "https://www.paystand.com/receivables/automatic-reconciliation", "checkedAt": "2026-11-04" },
+    { "text": "The collections page says dashboards track payment status, aging balances and collections activity, and that dunning schedules reminders and escalations by preset rules.", "sourceUrl": "https://www.paystand.com/receivables/collections-automation", "checkedAt": "2026-11-04" },
+    { "text": "Paystand's homepage lists NetSuite, Sage, Dynamics 365, Acumatica and Xero among its ERP and commerce integrations.", "sourceUrl": "https://www.paystand.com/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page describes a subscription with a flat monthly rate and zero fees on bank-to-bank transfers over the Paystand B2B Network. Credit card, digital check, ACH and EFT payments use pre-negotiated wholesale rates. It states no amounts.", "sourceUrl": "https://www.paystand.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Subscription (flat monthly rate)", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "Amount not published. The page directs visitors to a customized ROI analysis" }
+    ],
+    "hiddenCosts": [
+      "Card, digital check, ACH and EFT payments carry pre-negotiated wholesale rates that the page does not state."
+    ],
+    "sourceUrl": "https://www.paystand.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["NetSuite", "Sage", "Microsoft Dynamics 365", "Acumatica", "Xero"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
