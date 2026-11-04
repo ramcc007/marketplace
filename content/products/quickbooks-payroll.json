@@ -1,0 +1,96 @@
+{
+  "name": "QuickBooks Payroll",
+  "status": "published",
+  "vendor": {
+    "name": "QuickBooks Payroll",
+    "website": "https://quickbooks.intuit.com"
+  },
+  "primaryCategory": "payroll",
+  "summary": "QuickBooks Payroll is sold as Workforce bundles. The cheapest listed bundle is $88 plus $6.50 per employee, shown as $44 for the first three months on a 50% promotion. It calculates, files and pays federal and state payroll taxes, offers same-day direct deposit, and gives employees pay stubs through QuickBooks Workforce.",
+  "qualifies": [
+    {
+      "category": "payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "pay runs and payslips",
+          "sourceUrl": "https://quickbooks.intuit.com/learn-support/en-us/help-article/form-w-2/invite-employees-quickbooks-workforce-see-pay-w-2s/L2kUDcEJs_US_en_US"
+        },
+        {
+          "capability": "tax withholding and filings",
+          "sourceUrl": "https://quickbooks.intuit.com/payroll/"
+        },
+        {
+          "capability": "direct deposit",
+          "sourceUrl": "https://quickbooks.intuit.com/payroll/"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "text": "QuickBooks says it will calculate, file and pay federal and state payroll taxes, and guarantees 100% accurate tax calculations.",
+      "sourceUrl": "https://quickbooks.intuit.com/payroll/",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Employees can view and print their own pay stubs and W-2s online through QuickBooks Workforce.",
+      "sourceUrl": "https://quickbooks.intuit.com/learn-support/en-us/help-article/form-w-2/invite-employees-quickbooks-workforce-see-pay-w-2s/L2kUDcEJs_US_en_US",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "The page advertises same-day direct deposit, and the Essentials bundle adds a 7:00 am cutoff for it.",
+      "sourceUrl": "https://quickbooks.intuit.com/payroll/pricing/",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Background checks cost extra, starting at $29.99 per report.",
+      "sourceUrl": "https://quickbooks.intuit.com/payroll/pricing/",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      {
+        "name": "Workforce Payroll + Simple Start",
+        "priceUsd": 6.5,
+        "billing": "month",
+        "unit": "per employee",
+        "baseFeeUsd": 88,
+        "notes": "Promotion: $44 a month for 3 months with 50% off, terms not shown on the page. The page does not label the $88 as monthly, though the promotional line is"
+      },
+      {
+        "name": "Workforce Payroll + Essentials",
+        "priceUsd": 6.5,
+        "billing": "month",
+        "unit": "per employee",
+        "baseFeeUsd": 125,
+        "notes": "Promotion: $62.50 a month for 3 months. Adds same-day direct deposit when payroll is run by 7:00 am, up to 3 users and extra reports"
+      },
+      {
+        "name": "Workforce Premium + Plus",
+        "priceUsd": 10,
+        "billing": "month",
+        "unit": "per employee",
+        "baseFeeUsd": 203,
+        "notes": "Promotion: $101.50 a month for 3 months. Adds payroll setup review, HR tools and 5 users"
+      }
+    ],
+    "hiddenCosts": [
+      "The promotional 50% discount lasts 3 months, after which the listed price applies.",
+      "Background checks start at $29.99 per report."
+    ],
+    "sourceUrl": "https://quickbooks.intuit.com/payroll/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [
+    "QuickBooks Online",
+    "QuickBooks Time"
+  ],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

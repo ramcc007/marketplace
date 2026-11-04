@@ -1,0 +1,79 @@
+{
+  "name": "Paychex Flex",
+  "status": "published",
+  "vendor": {
+    "name": "Paychex Flex",
+    "website": "https://www.paychex.com"
+  },
+  "primaryCategory": "payroll",
+  "summary": "Paychex Flex is sold by quote, with Request Pricing on every plan. Paychex handles direct deposit, tax filing and pay stubs or checks once payroll is approved. The plan names listed are Basic, Foundations, Advanced and Complete, plus HR Pro and HR PEO packages. A promotion carries a one-year service term.",
+  "qualifies": [
+    {
+      "category": "payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "pay runs and payslips",
+          "sourceUrl": "https://www.paychex.com/payroll"
+        },
+        {
+          "capability": "tax withholding and filings",
+          "sourceUrl": "https://www.paychex.com/payroll"
+        },
+        {
+          "capability": "direct deposit",
+          "sourceUrl": "https://www.paychex.com/payroll"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "text": "Paychex says it calculates, files and pays payroll taxes for the client.",
+      "sourceUrl": "https://www.paychex.com/payroll",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Under its \"Do Not Pay Until April 2027\" promotion the offer covers the payroll component only, so setup, NSF, delivery, 401(k) and Time and Attendance fees still apply.",
+      "sourceUrl": "https://www.paychex.com/payroll",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "The promotion has a one-year service term, and ending early lets Paychex recover the value of free months already credited.",
+      "sourceUrl": "https://www.paychex.com/payroll",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      {
+        "name": "Paychex Flex",
+        "priceUsd": null,
+        "billing": "quote",
+        "unit": "per account",
+        "notes": "Every plan shows Request Pricing. Payroll and HR plans: Basic, Foundations, Advanced, Complete; PEO-style packages: HR Pro and HR PEO"
+      }
+    ],
+    "hiddenCosts": [
+      "Setup, NSF, delivery, 401(k) and Time and Attendance fees are charged separately under the current promotion."
+    ],
+    "sourceUrl": "https://www.paychex.com/payroll/compare-payroll-solutions",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Under the Do Not Pay Until April 2027 promotion the agreement has a one-year term from the first processed payroll, and Paychex can recover the value of free months if it ends early.",
+    "dataExport": null,
+    "sourceUrl": "https://www.paychex.com/payroll",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

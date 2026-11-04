@@ -1,0 +1,76 @@
+{
+  "name": "Wave Payroll",
+  "status": "published",
+  "vendor": {
+    "name": "Wave Payroll",
+    "website": "https://www.waveapps.com"
+  },
+  "primaryCategory": "payroll",
+  "summary": "Wave Payroll in the US costs $40 a month plus $6 per active employee and $6 per contractor paid, with a 30-day trial that starts when the first payroll is processed. Its tax service files state and federal payroll taxes in all 50 states but does not cover 1099 filings. Employees see pay stubs and W-2s in an online portal.",
+  "qualifies": [
+    {
+      "category": "payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "pay runs and payslips",
+          "sourceUrl": "https://www.waveapps.com/payroll"
+        },
+        {
+          "capability": "tax withholding and filings",
+          "sourceUrl": "https://www.waveapps.com/payroll"
+        },
+        {
+          "capability": "direct deposit",
+          "sourceUrl": "https://www.waveapps.com/payroll"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "text": "Wave says its tax service is available in all 50 US states and the price is the same everywhere.",
+      "sourceUrl": "https://www.waveapps.com/payroll",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Wave says its tax service does not cover 1099 filings and that automatic tax payments can in rare cases fail.",
+      "sourceUrl": "https://www.waveapps.com/payroll",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Wave lists unlimited free direct deposits, and employees see pay stubs and W-2s in an online portal.",
+      "sourceUrl": "https://www.waveapps.com/payroll",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "The listed prices apply to payroll customers who signed up after April 2, 2025.",
+      "sourceUrl": "https://www.waveapps.com/payroll",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      {
+        "name": "Wave Payroll (US)",
+        "priceUsd": 6,
+        "billing": "month",
+        "unit": "per active employee or contractor paid",
+        "baseFeeUsd": 40,
+        "notes": "The trial runs up to 30 days from the first payroll processed. The page says there are no set-up fees"
+      }
+    ],
+    "hiddenCosts": [
+      "1099 filings are not covered by the tax service."
+    ],
+    "sourceUrl": "https://www.waveapps.com/payroll",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

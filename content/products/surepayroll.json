@@ -1,0 +1,82 @@
+{
+  "name": "SurePayroll",
+  "status": "published",
+  "vendor": {
+    "name": "SurePayroll",
+    "website": "https://www.surepayroll.com"
+  },
+  "primaryCategory": "payroll",
+  "summary": "SurePayroll lists its Full Service plan at $29 a month plus $7 per employee, with payroll taxes filed and deposited and 2-day direct deposit included. Multi-state payroll costs $9.99 a month more. The same site also shows a $39 starting price without explaining it, so confirm the price before signing up.",
+  "qualifies": [
+    {
+      "category": "payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "pay runs and payslips",
+          "sourceUrl": "https://www.surepayroll.com/"
+        },
+        {
+          "capability": "tax withholding and filings",
+          "sourceUrl": "https://www.surepayroll.com/"
+        },
+        {
+          "capability": "direct deposit",
+          "sourceUrl": "https://www.surepayroll.com/"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "text": "The home page shows both $29 and $39 monthly prices for the Full Service plan and does not explain the difference.",
+      "sourceUrl": "https://www.surepayroll.com/",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "On its No Tax Filing option the customer files and deposits all payroll taxes.",
+      "sourceUrl": "https://www.surepayroll.com/",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "SurePayroll says payroll history, pay stubs and filings are available online 24/7.",
+      "sourceUrl": "https://www.surepayroll.com/",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      {
+        "name": "Full Service",
+        "priceUsd": 7,
+        "billing": "month",
+        "unit": "per employee",
+        "baseFeeUsd": 29,
+        "notes": "The site also shows $39 a month for this plan without explanation. First state included; multi-state payroll costs $9.99 a month more"
+      }
+    ],
+    "hiddenCosts": [
+      "Multi-state payroll adds $9.99 a month.",
+      "The page says a separate fee applies in areas that require local taxes, and does not list it.",
+      "Annual W-2 and 1099-NEC forms are billed yearly at a $50 base fee plus $5 per form."
+    ],
+    "sourceUrl": "https://www.surepayroll.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The home page says billed monthly, cancel anytime, with no contract.",
+    "dataExport": null,
+    "sourceUrl": "https://www.surepayroll.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

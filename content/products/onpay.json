@@ -1,0 +1,102 @@
+{
+  "name": "OnPay",
+  "status": "published",
+  "vendor": {
+    "name": "OnPay",
+    "website": "https://onpay.com"
+  },
+  "primaryCategory": "payroll",
+  "summary": "OnPay charges $49 a month plus $6 per worker for one full-service payroll plan, with federal, state and local tax filings, W-2s and 1099s included. Contractors and employees are paid in the same pay run at no extra charge. Its page names QuickBooks and Xero integrations, and it holds a SOC 2 Type II report.",
+  "qualifies": [
+    {
+      "category": "payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "pay runs and payslips",
+          "sourceUrl": "https://onpay.com/payroll-software"
+        },
+        {
+          "capability": "tax withholding and filings",
+          "sourceUrl": "https://onpay.com/payroll-software"
+        },
+        {
+          "capability": "direct deposit",
+          "sourceUrl": "https://onpay.com/payroll-software"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "text": "OnPay says it files taxes automatically across all 50 US states and the District of Columbia.",
+      "sourceUrl": "https://onpay.com/payroll-software",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Employees and 1099 contractors are paid in the same pay run at no extra charge.",
+      "sourceUrl": "https://onpay.com/payroll-software",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "OnPay requires multi-factor authentication for its internal systems and tools, but only recommends it for clients.",
+      "sourceUrl": "https://onpay.com/security",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "The pricing page also says \"Pricing starts at $55 per month\" without explaining the gap to the $49 base fee.",
+      "sourceUrl": "https://onpay.com/pricing",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      {
+        "name": "Payroll Essentials",
+        "priceUsd": 6,
+        "billing": "month",
+        "unit": "per worker",
+        "baseFeeUsd": 49,
+        "notes": "Federal, state and local tax filings, W-2s and 1099s are included, with no implementation or integration fees. The page offers \"Get one month free\" with no terms stated"
+      }
+    ],
+    "hiddenCosts": [
+      "The page lists no separate state filing fee, but it also shows \"Pricing starts at $55 per month\", which it does not explain.",
+      "Benefits plans carry their own premiums."
+    ],
+    "sourceUrl": "https://onpay.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://onpay.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The product page says pay runs come with no cancellation fees. It does not say whether a contract is required.",
+    "dataExport": null,
+    "sourceUrl": "https://onpay.com/payroll-software",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [
+    "QuickBooks Online",
+    "QuickBooks Desktop",
+    "Xero",
+    "QuickBooks Time",
+    "Deputy",
+    "When I Work"
+  ],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

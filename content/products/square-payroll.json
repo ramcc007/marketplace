@@ -1,0 +1,99 @@
+{
+  "name": "Square Payroll",
+  "status": "published",
+  "vendor": {
+    "name": "Square Payroll",
+    "website": "https://squareup.com"
+  },
+  "primaryCategory": "payroll",
+  "summary": "Square Payroll costs $35 a month plus $6 per person paid for full-service payroll, or $6 per person a month for contractor-only payroll. It files federal and state payroll taxes, and says there are no long-term contracts. Workers comp, health insurance and 401(k) are add-ons with prices not shown on the pricing page.",
+  "qualifies": [
+    {
+      "category": "payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "pay runs and payslips",
+          "sourceUrl": "https://squareup.com/us/en/payroll/features"
+        },
+        {
+          "capability": "tax withholding and filings",
+          "sourceUrl": "https://squareup.com/us/en/payroll/features"
+        },
+        {
+          "capability": "direct deposit",
+          "sourceUrl": "https://squareup.com/us/en/payroll"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "text": "Square says payroll must be processed by 8 p.m. PT for employees to receive direct deposit on payday.",
+      "sourceUrl": "https://squareup.com/us/en/payroll",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Timecards from Square POS or the Square Team App can be imported straight into payroll.",
+      "sourceUrl": "https://squareup.com/us/en/payroll/features",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Square Payroll for Contractors generates, prepares and files Form 1099-NEC online.",
+      "sourceUrl": "https://squareup.com/us/en/payroll",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Health insurance comes through partner SimplyInsured and 401(k) plans through partner Vestwell.",
+      "sourceUrl": "https://squareup.com/us/en/payroll/features",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      {
+        "name": "Full-service payroll",
+        "priceUsd": 6,
+        "billing": "month",
+        "unit": "per person paid",
+        "baseFeeUsd": 35,
+        "notes": "Includes federal and state tax filings and year-end W-2 and 1099-NEC filings"
+      },
+      {
+        "name": "Contractor-only payroll",
+        "priceUsd": 6,
+        "billing": "month",
+        "unit": "per person paid",
+        "notes": "No base fee listed"
+      }
+    ],
+    "hiddenCosts": [
+      "Mailed paper W-2s and 1099s cost an annual $3 per mailed form; digital delivery is included.",
+      "Workers comp, paid amendment services, health insurance and 401(k) are add-ons, and the pricing page shows no prices for them."
+    ],
+    "sourceUrl": "https://squareup.com/us/en/payroll/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The product page says there is no commitment, cancel anytime, and no long-term contracts.",
+    "dataExport": null,
+    "sourceUrl": "https://squareup.com/us/en/payroll",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [
+    "Square POS",
+    "Square Team App",
+    "QuickBooks Online",
+    "Vestwell",
+    "SimplyInsured"
+  ],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

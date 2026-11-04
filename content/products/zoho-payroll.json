@@ -1,0 +1,102 @@
+{
+  "name": "Zoho Payroll",
+  "status": "published",
+  "vendor": {
+    "name": "Zoho Payroll",
+    "website": "https://www.zoho.com"
+  },
+  "primaryCategory": "payroll",
+  "summary": "Zoho Payroll US charges $29 a month plus $5 per employee on its Standard plan billed annually, or $39 plus $6 billed monthly. It generates pay stubs, files federal, state and local taxes in all 50 states, and pays by direct deposit. Payroll must be approved 4 business days before the pay date.",
+  "qualifies": [
+    {
+      "category": "payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "pay runs and payslips",
+          "sourceUrl": "https://www.zoho.com/us/payroll/"
+        },
+        {
+          "capability": "tax withholding and filings",
+          "sourceUrl": "https://www.zoho.com/us/payroll/"
+        },
+        {
+          "capability": "direct deposit",
+          "sourceUrl": "https://www.zoho.com/us/payroll/help/employer/direct-deposit/employees.html"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "text": "Zoho says payroll must be approved at least 4 business days before the pay date.",
+      "sourceUrl": "https://www.zoho.com/us/payroll/kb/employer/running-payroll/processing-payroll.html",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Bank account verification for a new direct deposit takes 2 to 3 business days, and updating the details restarts it.",
+      "sourceUrl": "https://www.zoho.com/us/payroll/help/employer/direct-deposit/employees.html",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Zoho Payroll posts pay stubs to the employee portal as soon as payroll is paid.",
+      "sourceUrl": "https://www.zoho.com/us/payroll/",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "The only integration named on the product page is Zoho Books, for payroll journal entries.",
+      "sourceUrl": "https://www.zoho.com/us/payroll/",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      {
+        "name": "Standard (billed monthly)",
+        "priceUsd": 6,
+        "billing": "month",
+        "unit": "per employee",
+        "baseFeeUsd": 39
+      },
+      {
+        "name": "Standard (billed annually)",
+        "priceUsd": 5,
+        "billing": "month",
+        "unit": "per employee, billed yearly",
+        "baseFeeUsd": 29
+      },
+      {
+        "name": "Professional (billed monthly)",
+        "priceUsd": 8.5,
+        "billing": "month",
+        "unit": "per employee",
+        "baseFeeUsd": 59
+      },
+      {
+        "name": "Professional (billed annually)",
+        "priceUsd": 7,
+        "billing": "month",
+        "unit": "per employee, billed yearly",
+        "baseFeeUsd": 49
+      }
+    ],
+    "hiddenCosts": [
+      "Next-day processing costs $3 per employee and is for businesses approved for it.",
+      "Mailing a Form W-2 costs $3 per employee.",
+      "A wire transfer costs $10, a failed employee payment $8, and a failed employer fund transfer $100 per return.",
+      "An amended tax return or a delayed tax filing costs $150 per filing.",
+      "Prices exclude local taxes."
+    ],
+    "sourceUrl": "https://www.zoho.com/us/payroll/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [
+    "Zoho Books"
+  ],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

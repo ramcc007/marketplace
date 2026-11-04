@@ -1,0 +1,41 @@
+{
+  "name": "Paycom",
+  "status": "published",
+  "vendor": { "name": "Paycom Software, Inc.", "website": "https://www.paycom.com" },
+  "primaryCategory": "payroll",
+  "summary": "Paycom sells payroll by request and shows no prices on its payroll page. It says it debits payroll taxes, deposits them on their due dates and files Forms 941 and 940. Employees can be paid by direct deposit, pay card or daily pay, and Paycom says it does not integrate specifically with other providers.",
+  "qualifies": [
+    {
+      "category": "payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "pay runs and payslips", "sourceUrl": "https://www.paycom.com/software/employee-self-service/" },
+        { "capability": "tax withholding and filings", "sourceUrl": "https://www.paycom.com/software/payroll/" },
+        { "capability": "direct deposit", "sourceUrl": "https://www.paycom.com/software/payroll/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Paycom says it will file IRS Form 940 even if it does not handle the client's payroll all year.", "sourceUrl": "https://www.paycom.com/software/payroll/", "checkedAt": "2026-11-04" },
+    { "text": "Paycom says it does not integrate specifically with other providers, and offers custom data converters for new clients and GL Concierge reports for accounting import.", "sourceUrl": "https://www.paycom.com/software/payroll/", "checkedAt": "2026-11-04" },
+    { "text": "Paper checks are issued from a Paycom bank account, not the client's account.", "sourceUrl": "https://www.paycom.com/software/payroll/", "checkedAt": "2026-11-04" },
+    { "text": "Paycom's self-service FAQ says employees can access pay stubs and review paychecks before payroll is submitted.", "sourceUrl": "https://www.paycom.com/software/employee-self-service/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Payroll", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "The payroll page lists no dollar prices and offers a meeting request" }
+    ],
+    "hiddenCosts": [
+      "The page gives no fees or terms for the Vault payroll card."
+    ],
+    "sourceUrl": "https://www.paycom.com/software/payroll/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
