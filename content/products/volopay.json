@@ -13,6 +13,15 @@
         { "capability": "purchase approvals", "sourceUrl": "https://www.volopay.com/expense-management/" },
         { "capability": "spend visibility by team", "sourceUrl": "https://www.volopay.com/expense-management/" }
       ]
+    },
+    {
+      "category": "corporate-cards",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "physical and virtual cards", "sourceUrl": "https://www.volopay.com/expense-management/" },
+        { "capability": "spend limits", "sourceUrl": "https://www.volopay.com/expense-management/" },
+        { "capability": "accounting sync", "sourceUrl": "https://www.volopay.com/expense-management/" }
+      ]
     }
   ],
   "facts": [

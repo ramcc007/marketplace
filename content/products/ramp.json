@@ -31,6 +31,15 @@
         { "capability": "supplier catalog or onboarding", "sourceUrl": "https://ramp.com/procurement" },
         { "capability": "approval workflows", "sourceUrl": "https://ramp.com/procurement" }
       ]
+    },
+    {
+      "category": "corporate-cards",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "physical and virtual cards", "sourceUrl": "https://ramp.com/pricing" },
+        { "capability": "spend limits", "sourceUrl": "https://ramp.com/pricing" },
+        { "capability": "accounting sync", "sourceUrl": "https://ramp.com/pricing" }
+      ]
     }
   ],
   "facts": [

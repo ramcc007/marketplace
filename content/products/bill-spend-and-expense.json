@@ -1,0 +1,61 @@
+{
+  "name": "BILL Spend & Expense",
+  "status": "published",
+  "vendor": { "name": "BILL Operations, LLC", "website": "https://www.bill.com" },
+  "primaryCategory": "corporate-cards",
+  "summary": "BILL Spend & Expense issues physical and virtual cards with limits assigned per card, and syncs with NetSuite, Sage Intacct, QuickBooks, Microsoft and Xero. The pricing page lists the plan at $0 per user each month, with standard card and payment fees where they apply.",
+  "qualifies": [
+    {
+      "category": "corporate-cards",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "physical and virtual cards", "sourceUrl": "https://www.bill.com/product/spend-and-expense" },
+        { "capability": "spend limits", "sourceUrl": "https://www.bill.com/product/spend-and-expense" },
+        { "capability": "accounting sync", "sourceUrl": "https://www.bill.com/product/spend-and-expense" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The product page says physical or virtual cards can be created for teams, with limits and rules, and for specific teams or projects.", "sourceUrl": "https://www.bill.com/product/spend-and-expense", "checkedAt": "2026-11-04" },
+    { "text": "The FAQ says administrators can create custom business budgets, assign card limits and automate approval workflows.", "sourceUrl": "https://www.bill.com/product/spend-and-expense", "checkedAt": "2026-11-04" },
+    { "text": "Accounting sync is named for NetSuite, Sage Intacct, QuickBooks, Microsoft and Xero, run automatically or on demand.", "sourceUrl": "https://www.bill.com/product/spend-and-expense", "checkedAt": "2026-11-04" },
+    { "text": "The pricing FAQ says there are no per-user subscription fees for BILL Spend & Expense, and that standard card and payment fees apply where applicable.", "sourceUrl": "https://www.bill.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "BILL's security page says it undergoes an annual SOC 1 and SOC 2 Type II audit by a national CPA firm.", "sourceUrl": "https://www.bill.com/security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "free",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Spend & Expense", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Standard card and payment fees apply where applicable. The product page says pricing is based on business needs and the number of users" }
+    ],
+    "hiddenCosts": [
+      "Standard card and payment fees apply on top of the plan, and the card page does not list physical card fees.",
+      "Pay-by-card payments are listed at 2.9% in the payment fee table."
+    ],
+    "sourceUrl": "https://www.bill.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.bill.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "The terms say an account can be canceled at any time, and for subscription accounts the cancellation takes effect on the last day of the current billing cycle.",
+    "dataExport": null,
+    "sourceUrl": "https://www.bill.com/legal/terms-of-service",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["NetSuite", "Sage Intacct", "QuickBooks", "Microsoft", "Xero", "Acumatica", "Slack"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -13,6 +13,15 @@
         { "capability": "purchase approvals", "sourceUrl": "https://www.getmoss.com/solutions/spend-management" },
         { "capability": "spend visibility by team", "sourceUrl": "https://www.getmoss.com/solutions/spend-management" }
       ]
+    },
+    {
+      "category": "corporate-cards",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "physical and virtual cards", "sourceUrl": "https://www.getmoss.com/corporate-credit-card" },
+        { "capability": "spend limits", "sourceUrl": "https://www.getmoss.com/corporate-credit-card" },
+        { "capability": "accounting sync", "sourceUrl": "https://www.getmoss.com/corporate-credit-card" }
+      ]
     }
   ],
   "facts": [

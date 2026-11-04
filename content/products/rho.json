@@ -1,0 +1,63 @@
+{
+  "name": "Rho",
+  "status": "published",
+  "vendor": { "name": "Rho Technologies Inc.", "website": "https://www.rho.co" },
+  "primaryCategory": "corporate-cards",
+  "summary": "Rho issues physical and virtual corporate cards to US-incorporated companies, with limits set per card and no personal guarantee. Its fee summary lists $0 for subscriptions and per-user fees, and cardholders can earn up to 2% cashback on the Platinum tier.",
+  "qualifies": [
+    {
+      "category": "corporate-cards",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "physical and virtual cards", "sourceUrl": "https://www.rho.co/product/corporate-cards" },
+        { "capability": "spend limits", "sourceUrl": "https://www.rho.co/product/corporate-cards" },
+        { "capability": "accounting sync", "sourceUrl": "https://www.rho.co/product/corporate-cards" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Rho says no personal guarantee or personal credit report is required to apply for its corporate card.", "sourceUrl": "https://www.rho.co/product/corporate-cards", "checkedAt": "2026-11-04" },
+    { "text": "Applicants need a US-incorporated company and an EIN. Monthly Terms open at $25,000 held at Rho, or $75,000 combined with linked external accounts, subject to underwriting.", "sourceUrl": "https://www.rho.co/product/corporate-cards", "checkedAt": "2026-11-04" },
+    { "text": "Native accounting integrations named on the card page are QuickBooks Online, NetSuite, Sage Intacct and Puzzle, with bank feed connections to Xero and QuickBooks Online.", "sourceUrl": "https://www.rho.co/product/corporate-cards", "checkedAt": "2026-11-04" },
+    { "text": "Cashback of up to 2% applies to Rho Platinum card spend, and the full statement balance must be paid on time or the cashback is forfeited.", "sourceUrl": "https://www.rho.co/product/corporate-cards", "checkedAt": "2026-11-04" },
+    { "text": "The fee summary lists a 3% late fee on the delinquent balance for each month, for up to six months unless prohibited by law, and 1% for foreign currency transfer and conversion.", "sourceUrl": "https://www.rho.co/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "free",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Rho", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "The fee summary lists $0 for subscription fees and per-user fees. The card page lists $0 for annual, subscription and per-card fees" }
+    ],
+    "hiddenCosts": [
+      "Foreign currency transfer and conversion costs 1%.",
+      "Late payments cost 3% of the delinquent balance each month, for up to six months.",
+      "International wire recall costs $30 on a checking account.",
+      "Rho Treasury charges an annual fee that ranges from 0.15% for deposits of $20 million or more up to 0.6%."
+    ],
+    "sourceUrl": "https://www.rho.co/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.rho.co/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.rho.co/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["QuickBooks Online", "NetSuite", "Sage Intacct", "Puzzle", "Xero"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Airwallex",
+  "status": "published",
+  "vendor": { "name": "Airwallex", "website": "https://www.airwallex.com" },
+  "primaryCategory": "corporate-cards",
+  "summary": "Airwallex issues multi-currency corporate cards from a business account. Employee cards can be virtual or physical, while company cards are virtual only. The Explore plan is $0 per user each month for up to 10 Spend users, and Grow costs $12 per user plus a platform fee.",
+  "qualifies": [
+    {
+      "category": "corporate-cards",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "physical and virtual cards", "sourceUrl": "https://www.airwallex.com/en-us/spend-management/cards" },
+        { "capability": "spend limits", "sourceUrl": "https://www.airwallex.com/en-us/spend-management/cards" },
+        { "capability": "accounting sync", "sourceUrl": "https://www.airwallex.com/en-us/spend-management/cards" }
+      ]
+    },
+    {
+      "category": "payment-processing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "card and wallet payments", "sourceUrl": "https://www.airwallex.com/docs/payments/payment-methods" },
+        { "capability": "payouts", "sourceUrl": "https://www.airwallex.com/us/pricing" },
+        { "capability": "fraud screening", "sourceUrl": "https://help.airwallex.com/hc/en-gb/articles/4406116998297-What-is-Airwallex-real-time-fraud-protection" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The cards page says employee cards can be virtual or physical, and company cards are virtual only.", "sourceUrl": "https://www.airwallex.com/en-us/spend-management/cards", "checkedAt": "2026-11-04" },
+    { "text": "Employee cards take daily, weekly, monthly, quarterly or annual spend limits, and company cards take limits per transaction.", "sourceUrl": "https://www.airwallex.com/en-us/spend-management/cards", "checkedAt": "2026-11-04" },
+    { "text": "Card transactions sync with Xero, NetSuite or QuickBooks, per the cards page.", "sourceUrl": "https://www.airwallex.com/en-us/spend-management/cards", "checkedAt": "2026-11-04" },
+    { "text": "The cards FAQ says a US business can apply with an EIN, without a Social Security Number or personal guarantee, and that there is no underwriting or capital threshold.", "sourceUrl": "https://www.airwallex.com/en-us/spend-management/cards", "checkedAt": "2026-11-04" },
+    { "text": "The Explore plan lists up to 2% cash rebates on local USD spend, with terms that apply.", "sourceUrl": "https://www.airwallex.com/us/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Explore", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Up to 10 free Spend users, with unlimited multi-currency corporate cards and zero international fees" },
+      { "name": "Grow", "priceUsd": 12, "billing": "month", "unit": "per user", "notes": "Adds a platform fee based on team size, and the amount is not published. Up to 250 Spend users, with NetSuite and Dynamics 365 Business Central sync" },
+      { "name": "Accelerate", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing" }
+    ],
+    "hiddenCosts": [
+      "The Grow platform fee is not published.",
+      "The pricing page states monthly prices in USD, and availability of plans and card programs depends on the business's location."
+    ],
+    "sourceUrl": "https://www.airwallex.com/us/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.airwallex.com/us/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Xero", "QuickBooks", "NetSuite", "Microsoft Dynamics 365 Business Central"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
