@@ -1,0 +1,59 @@
+{
+  "name": "Huntress",
+  "status": "published",
+  "vendor": { "name": "Huntress Labs Inc.", "website": "https://www.huntress.com" },
+  "primaryCategory": "endpoint-protection",
+  "summary": "Huntress sells managed endpoint detection and response watched by its own security operations center. Managed EDR lists at $8.99 per endpoint per month (MSRP) on a standard 12-month term. Managed service providers face no seat minimum, while resellers and direct customers need at least 50 seats per product. Huntress also manages Microsoft Defender Antivirus, and the page says its agent runs alongside existing antivirus.",
+  "qualifies": [
+    {
+      "category": "endpoint-protection",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "malware detection", "sourceUrl": "https://www.huntress.com/platform/managed-edr" },
+        { "capability": "threat response on endpoints", "sourceUrl": "https://www.huntress.com/platform/managed-edr" },
+        { "capability": "central management console", "sourceUrl": "https://www.huntress.com/platform/managed-edr" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Huntress says it contains the threat and removes the attacker's foothold, with plain-English guidance for the customer.", "sourceUrl": "https://www.huntress.com/platform/managed-edr", "checkedAt": "2026-11-04" },
+    { "text": "The standard term is 12 months, and Huntress does not offer multi-year terms for price protection.", "sourceUrl": "https://www.huntress.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Per-unit rates fall with volume, and the listed prices are MSRP.", "sourceUrl": "https://www.huntress.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing covers the security operations center but not deployment, integration or day-to-day portal management, which partners can provide.", "sourceUrl": "https://www.huntress.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Managed EDR", "priceUsd": 8.99, "billing": "month", "unit": "per endpoint", "notes": "MSRP. 12-month term. 50-seat minimum per product for resellers and direct customers" }
+    ],
+    "hiddenCosts": [
+      "Deployment, integration and day-to-day portal management are not covered by the listed price."
+    ],
+    "sourceUrl": "https://www.huntress.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.huntress.com/platform/managed-edr",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": 50,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.huntress.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

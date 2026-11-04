@@ -1,0 +1,58 @@
+{
+  "name": "ESET PROTECT",
+  "status": "published",
+  "vendor": { "name": "ESET, spol. s r.o.", "website": "https://www.eset.com" },
+  "primaryCategory": "endpoint-protection",
+  "summary": "ESET PROTECT is a subscription suite with antivirus, a cloud or on-premises management console and an optional extended detection and response module built on ESET Inspect. Plans are billed per year. ESET's US plans page showed a $216.00 figure beside the Premium plan, but it did not state the unit, so we list no price. Guided onboarding and 24/7 managed detection are part of Premium.",
+  "qualifies": [
+    {
+      "category": "endpoint-protection",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "malware detection", "sourceUrl": "https://www.eset.com/us/business/subscription-plans/" },
+        { "capability": "threat response on endpoints", "sourceUrl": "https://help.eset.com/protect_cloud/en-US/" },
+        { "capability": "central management console", "sourceUrl": "https://www.eset.com/us/business/endpoint-protection/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "ESET says you can deploy and manage security through an ESET cloud console or an on-premises console, and recommends the cloud console.", "sourceUrl": "https://www.eset.com/us/business/endpoint-protection/", "checkedAt": "2026-11-04" },
+    { "text": "ESET's documentation says the web console lets an administrator quickly respond to detected threats on remote systems.", "sourceUrl": "https://help.eset.com/protect_cloud/en-US/", "checkedAt": "2026-11-04" },
+    { "text": "The Extended Detection and Response module uses ESET Inspect and needs an activated ESET PROTECT.", "sourceUrl": "https://www.eset.com/us/business/endpoint-protection/", "checkedAt": "2026-11-04" },
+    { "text": "The plans page lists ESET PROTECT Core and Premium, billed per year, and Premium includes 24/7 managed detection and response.", "sourceUrl": "https://www.eset.com/us/business/subscription-plans/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "ESET PROTECT Core", "priceUsd": null, "billing": "year", "unit": "per device", "notes": "Price not readable on the plans page" },
+      { "name": "ESET PROTECT Premium", "priceUsd": null, "billing": "year", "unit": "per device", "notes": "Page shows $216.00 without naming the unit" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.eset.com/us/business/subscription-plans/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.eset.com/us/business/subscription-plans/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.eset.com/us/business/subscription-plans/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "ThreatDown",
+  "status": "published",
+  "vendor": { "name": "ThreatDown (Malwarebytes)", "website": "https://www.threatdown.com" },
+  "primaryCategory": "endpoint-protection",
+  "summary": "ThreatDown is the business security line formerly sold as Malwarebytes for business. It comes in four bundles: Core, Advanced EDR, Elite MDR and Ultimate MDR Plus, billed per year with a 20% saving for a three-year term. The pricing page did not show dollar amounts when we read it, so a buyer should confirm the price in the vendor's store. The Nebula console manages endpoints.",
+  "qualifies": [
+    {
+      "category": "endpoint-protection",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "malware detection", "sourceUrl": "https://www.threatdown.com/products/" },
+        { "capability": "threat response on endpoints", "sourceUrl": "https://www.threatdown.com/products/" },
+        { "capability": "central management console", "sourceUrl": "https://www.threatdown.com/products/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "ThreatDown says Ransomware Rollback can restore files that were encrypted, detected or modified, up to 7 days after an attack.", "sourceUrl": "https://www.threatdown.com/products/", "checkedAt": "2026-11-04" },
+    { "text": "The Core bundle lists threat monitoring and isolation plus automated endpoint remediation.", "sourceUrl": "https://www.threatdown.com/products/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page offers a 20% saving on a three-year term and bills per year, but showed no dollar amounts when we read it.", "sourceUrl": "https://www.threatdown.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Core", "priceUsd": null, "billing": "year", "unit": "per device", "notes": "Price not readable on the pricing page" },
+      { "name": "Advanced EDR", "priceUsd": null, "billing": "year", "unit": "per device", "notes": "Price not readable on the pricing page" },
+      { "name": "Elite MDR", "priceUsd": null, "billing": "year", "unit": "per device", "notes": "Price not readable on the pricing page" },
+      { "name": "Ultimate MDR Plus", "priceUsd": null, "billing": "year", "unit": "per device", "notes": "Price not readable on the pricing page" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.threatdown.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.threatdown.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.threatdown.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

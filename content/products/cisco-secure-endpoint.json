@@ -1,0 +1,56 @@
+{
+  "name": "Cisco Secure Endpoint",
+  "status": "published",
+  "vendor": { "name": "Cisco Systems, Inc.", "website": "https://www.cisco.com" },
+  "primaryCategory": "endpoint-protection",
+  "summary": "Cisco Secure Endpoint is a cloud-native endpoint product sold in Essentials, Advantage and Premier tiers. Cisco's page describes malware blocking backed by Cisco Talos and one-click isolation of an infected host. Advantage adds endpoint detection and response. Cisco publishes no prices on the product page and points buyers to a plan comparison page and a guidance form.",
+  "qualifies": [
+    {
+      "category": "endpoint-protection",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "malware detection", "sourceUrl": "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html" },
+        { "capability": "threat response on endpoints", "sourceUrl": "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html" },
+        { "capability": "central management console", "sourceUrl": "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Essentials tier is described as automating threat responses with one-click isolation of an infected host.", "sourceUrl": "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html", "checkedAt": "2026-11-04" },
+    { "text": "The Advantage tier mentions advanced endpoint detection and response.", "sourceUrl": "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html", "checkedAt": "2026-11-04" },
+    { "text": "The page lists no prices and links to a plan comparison page and a Help me choose form.", "sourceUrl": "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Essentials, Advantage and Premier", "priceUsd": null, "billing": "quote", "unit": "per endpoint", "notes": "No price published on the product page" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Cisco XDR"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

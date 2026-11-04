@@ -1,0 +1,59 @@
+{
+  "name": "Microsoft Defender for Business",
+  "status": "published",
+  "vendor": { "name": "Microsoft Corporation", "website": "https://www.microsoft.com" },
+  "primaryCategory": "endpoint-protection",
+  "summary": "Microsoft Defender for Business is the small-business edition of Defender for Endpoint, priced at $3.00 per user per month, paid yearly. One license covers up to five devices per user on Windows, macOS, iOS and Android, for organizations of up to 300 users. It includes antivirus protection, endpoint detection and response with automated investigation and remediation, and centralized management. Microsoft 365 Business Premium also includes it.",
+  "qualifies": [
+    {
+      "category": "endpoint-protection",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "malware detection", "sourceUrl": "https://learn.microsoft.com/en-us/defender-business/mdb-overview" },
+        { "capability": "threat response on endpoints", "sourceUrl": "https://learn.microsoft.com/en-us/defender-business/mdb-overview" },
+        { "capability": "central management console", "sourceUrl": "https://learn.microsoft.com/en-us/defender-business/mdb-overview" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The standalone license is for organizations of up to 300 users, with up to five devices per user and no minimum device requirement.", "sourceUrl": "https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-business", "checkedAt": "2026-11-04" },
+    { "text": "The subscription is annual and renews automatically, and a one-month free trial converts to a paid subscription.", "sourceUrl": "https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-business", "checkedAt": "2026-11-04" },
+    { "text": "Protection for Windows servers and Linux servers is available but needs extra licenses.", "sourceUrl": "https://learn.microsoft.com/en-us/defender-business/mdb-overview", "checkedAt": "2026-11-04" },
+    { "text": "Microsoft says Defender for Business includes automated investigation and remediation and automatic attack disruption, which Defender for Endpoint Plan 1 lacks.", "sourceUrl": "https://learn.microsoft.com/en-us/defender-business/mdb-overview", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Defender for Business", "priceUsd": 3, "billing": "month", "unit": "per user", "notes": "Paid yearly. Up to five devices per user and 300 users" }
+    ],
+    "hiddenCosts": [
+      "Server protection needs extra licenses."
+    ],
+    "sourceUrl": "https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-business",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://learn.microsoft.com/en-us/defender-business/mdb-overview",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.microsoft.com/en-us/security/business/endpoint-security/microsoft-defender-business",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft Intune", "Microsoft 365 Lighthouse"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "SentinelOne Singularity",
+  "status": "published",
+  "vendor": { "name": "SentinelOne, Inc.", "website": "https://www.sentinelone.com" },
+  "primaryCategory": "endpoint-protection",
+  "summary": "SentinelOne Singularity covers endpoint and cloud workload protection from one console. Singularity Complete is listed at $179.99 per endpoint per year and Commercial at $229.99, with those prices displayed for 5 to 100 workstations. Commercial adds identity detection and 90 days of data retention against 14 days on Complete. Enterprise pricing is by quote, and purchases go through authorized partners.",
+  "qualifies": [
+    {
+      "category": "endpoint-protection",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "malware detection", "sourceUrl": "https://www.sentinelone.com/platform/endpoint-security/" },
+        { "capability": "threat response on endpoints", "sourceUrl": "https://www.sentinelone.com/platform/endpoint-security/" },
+        { "capability": "central management console", "sourceUrl": "https://www.sentinelone.com/platform/endpoint-security/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "SentinelOne describes one-click rollback and remediation, and the ability to isolate devices and kill malicious processes.", "sourceUrl": "https://www.sentinelone.com/platform/endpoint-security/", "checkedAt": "2026-11-04" },
+    { "text": "Singularity Complete keeps data for 14 days, while Commercial keeps it for 90 days.", "sourceUrl": "https://www.sentinelone.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Managed Threat Hunting and Managed Detection and Response appear in the comparison table as add-ons, and the page's table layout is hard to read, so confirm which apply to which plan.", "sourceUrl": "https://www.sentinelone.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says prices may vary by region and partner availability, and that the partner's price controls if the two differ.", "sourceUrl": "https://www.sentinelone.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Singularity Complete", "priceUsd": 179.99, "billing": "year", "unit": "per endpoint", "notes": "Listed for 5 to 100 workstations. 14-day data retention" },
+      { "name": "Singularity Commercial", "priceUsd": 229.99, "billing": "year", "unit": "per endpoint", "notes": "Listed for 5 to 100 workstations. Adds identity detection and 90-day retention" },
+      { "name": "Singularity Enterprise", "priceUsd": null, "billing": "quote", "unit": "per endpoint", "notes": "Contact sales" }
+    ],
+    "hiddenCosts": [
+      "Taxes and other charges are not included in the listed prices.",
+      "Managed threat hunting and managed detection and response are add-ons."
+    ],
+    "sourceUrl": "https://www.sentinelone.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.sentinelone.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.sentinelone.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

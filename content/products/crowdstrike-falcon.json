@@ -1,0 +1,62 @@
+{
+  "name": "CrowdStrike Falcon",
+  "status": "published",
+  "vendor": { "name": "CrowdStrike Holdings, Inc.", "website": "https://www.crowdstrike.com" },
+  "primaryCategory": "endpoint-protection",
+  "summary": "CrowdStrike Falcon is a single-agent endpoint platform with machine-learning antivirus, endpoint detection and response and a central console. It publishes three self-serve bundles: Falcon Go at $59.99, Pro at $99.99 and Enterprise at $184.99 per device per year. Falcon Go is capped at 100 devices per purchase. Falcon Complete, the fully managed service, has no public price.",
+  "qualifies": [
+    {
+      "category": "endpoint-protection",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "malware detection", "sourceUrl": "https://www.crowdstrike.com/en-us/platform/endpoint-security/" },
+        { "capability": "threat response on endpoints", "sourceUrl": "https://www.crowdstrike.com/en-us/platform/endpoint-security/" },
+        { "capability": "central management console", "sourceUrl": "https://www.crowdstrike.com/en-us/platform/endpoint-security/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Falcon Go is limited to 100 devices per purchase.", "sourceUrl": "https://www.crowdstrike.com/en-us/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "CrowdStrike offers a 15-day free trial with no credit card required.", "sourceUrl": "https://www.crowdstrike.com/en-us/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "CrowdStrike describes automated threat remediation and fleet-wide remediation from one Falcon sensor.", "sourceUrl": "https://www.crowdstrike.com/en-us/platform/endpoint-security/", "checkedAt": "2026-11-04" },
+    { "text": "Microsoft notes that security vendors such as CrowdStrike use a kernel driver architecture, which it says gives visibility and tamper resistance at the cost of resilience.", "sourceUrl": "https://www.microsoft.com/en-us/security/blog/2024/07/27/windows-security-best-practices-for-integrating-and-managing-security-tools/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 15,
+    "plans": [
+      { "name": "Falcon Go", "priceUsd": 59.99, "billing": "year", "unit": "per device", "notes": "Up to 100 devices per purchase" },
+      { "name": "Falcon Pro", "priceUsd": 99.99, "billing": "year", "unit": "per device" },
+      { "name": "Falcon Enterprise", "priceUsd": 184.99, "billing": "year", "unit": "per device" },
+      { "name": "Falcon Complete", "priceUsd": null, "billing": "quote", "unit": "per device", "notes": "Managed detection and response. Contact sales" }
+    ],
+    "hiddenCosts": [
+      "The page lists the same module names under Go, Pro and Enterprise, so confirm in writing which capabilities each bundle includes."
+    ],
+    "sourceUrl": "https://www.crowdstrike.com/en-us/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.crowdstrike.com/en-us/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.crowdstrike.com/en-us/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

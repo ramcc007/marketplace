@@ -1,0 +1,56 @@
+{
+  "name": "Sophos Intercept X",
+  "status": "published",
+  "vendor": { "name": "Sophos Ltd.", "website": "https://www.sophos.com" },
+  "primaryCategory": "endpoint-protection",
+  "summary": "Sophos sells endpoint protection in three levels: Endpoint for prevention, EDR for threat hunting and response, and XDR for wider telemetry. All are managed from the Sophos cloud console, which Sophos now calls Fusion. Sophos publishes no prices on its product pages, so a buyer needs a quote from the vendor or a partner. Its CryptoGuard feature reverts files that ransomware has encrypted.",
+  "qualifies": [
+    {
+      "category": "endpoint-protection",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "malware detection", "sourceUrl": "https://www.sophos.com/en-us/products/endpoint-antivirus" },
+        { "capability": "threat response on endpoints", "sourceUrl": "https://www.sophos.com/en-us/products/endpoint-antivirus" },
+        { "capability": "central management console", "sourceUrl": "https://www.sophos.com/en-us/products/intercept-x" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Sophos says Adaptive Attack Protection switches to more aggressive protection to disrupt and contain an attack.", "sourceUrl": "https://www.sophos.com/en-us/products/endpoint-antivirus", "checkedAt": "2026-11-04" },
+    { "text": "Sophos says CryptoGuard automatically reverts encrypted files to their original state.", "sourceUrl": "https://www.sophos.com/en-us/products/endpoint-antivirus", "checkedAt": "2026-11-04" },
+    { "text": "The Intercept X page names three levels, Endpoint, EDR and XDR, and lists no prices.", "sourceUrl": "https://www.sophos.com/en-us/products/intercept-x", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Endpoint, EDR and XDR levels", "priceUsd": null, "billing": "quote", "unit": "per device", "notes": "No price published on the product page" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.sophos.com/en-us/products/intercept-x",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.sophos.com/en-us/products/intercept-x",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.sophos.com/en-us/products/intercept-x",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
