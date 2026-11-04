@@ -1,0 +1,52 @@
+{
+  "name": "Zoho Invoice",
+  "status": "published",
+  "vendor": { "name": "Zoho Corporation", "website": "https://www.zoho.com" },
+  "primaryCategory": "invoicing",
+  "summary": "Zoho Invoice is a free invoicing app for up to two users, three projects and 500 invoices a year. Customers pay through connected payment gateways or its customer portal, and Zoho does not add fees to payments it passes through.",
+  "qualifies": [
+    {
+      "category": "invoicing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice creation", "sourceUrl": "https://www.zoho.com/us/invoice/" },
+        { "capability": "online payment links", "sourceUrl": "https://www.zoho.com/us/invoice/accept-online-payments/" },
+        { "capability": "payment status tracking", "sourceUrl": "https://www.zoho.com/us/invoice/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The free plan allows up to two users, three projects and 500 invoices a year, and invoices carry Powered by Zoho Invoice branding.", "sourceUrl": "https://www.zoho.com/us/invoice/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Zoho deletes free account data after more than 180 days of inactivity, within the following 20 days, and notifies users beforehand.", "sourceUrl": "https://www.zoho.com/us/invoice/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Zoho says it adds no fees to payments you receive, though the payment gateway may charge processing fees.", "sourceUrl": "https://www.zoho.com/us/invoice/accept-online-payments/", "checkedAt": "2026-11-04" },
+    { "text": "Zoho states SOC 2 Type 2 compliance and ISO/IEC 27001 certification across its cloud services.", "sourceUrl": "https://www.zoho.com/compliance.html", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page names no paid plan and points growing businesses to Zoho Billing.", "sourceUrl": "https://www.zoho.com/us/invoice/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "free",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Up to 2 users, 3 projects, 500 invoices a year and up to 2 organizations under one Zoho account" }
+    ],
+    "hiddenCosts": [
+      "Payment gateways charge their own processing fees.",
+      "Free invoices carry Zoho Invoice branding."
+    ],
+    "sourceUrl": "https://www.zoho.com/us/invoice/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.zoho.com/compliance.html",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Stripe", "PayPal", "Square", "Authorize.net", "GoCardless", "Zoho Sign", "Zoho Analytics"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

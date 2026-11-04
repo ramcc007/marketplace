@@ -1,0 +1,44 @@
+{
+  "name": "Billdu",
+  "status": "published",
+  "vendor": { "name": "Billdu", "website": "https://billdu.com" },
+  "primaryCategory": "invoicing",
+  "summary": "Billdu is an invoicing app with no free plan and a 7-day trial that needs no card. Plans start at an average $4.99 a month on annual billing for 10 clients, and a Pay button on online invoices runs on Stripe and PayPal.",
+  "qualifies": [
+    {
+      "category": "invoicing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice creation", "sourceUrl": "https://billdu.com/" },
+        { "capability": "online payment links", "sourceUrl": "https://billdu.com/features/accept-payments-online/" },
+        { "capability": "payment status tracking", "sourceUrl": "https://billdu.com/features/invoice-tracking/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Billdu shows whether an invoice is paid, due or overdue, and says it updates the status automatically after sending.", "sourceUrl": "https://billdu.com/features/invoice-tracking/", "checkedAt": "2026-11-04" },
+    { "text": "Billdu says it is powered by Stripe and PayPal, and the Pay button accepts credit cards, debit cards and PayPal.", "sourceUrl": "https://billdu.com/features/accept-payments-online/", "checkedAt": "2026-11-04" },
+    { "text": "Billdu publishes no payment fee rates on the page we read and says fees vary by payment method and location.", "sourceUrl": "https://billdu.com/features/accept-payments-online/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page footnote says displayed prices are average monthly prices when buying an annual subscription.", "sourceUrl": "https://billdu.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 7,
+    "plans": [
+      { "name": "Lite", "priceUsd": 4.99, "billing": "month", "unit": "per account", "notes": "Average monthly price on annual billing. 10 clients, 1 team member, unlimited invoices, no estimates" },
+      { "name": "Standard", "priceUsd": 9.99, "billing": "month", "unit": "per account", "notes": "Average monthly price on annual billing. 50 clients, up to 2 team members, payment reminders" },
+      { "name": "Premium", "priceUsd": 19.99, "billing": "month", "unit": "per account", "notes": "Average monthly price on annual billing. Unlimited clients, up to 10 team members, recurring invoices and API" }
+    ],
+    "hiddenCosts": [
+      "The page also shows higher figures of $7.99, $14.99 and $27.99 without labeling them; they are probably monthly billing prices.",
+      "Payment processing fees by Stripe and PayPal are charged per transaction and are not listed in rates."
+    ],
+    "sourceUrl": "https://billdu.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Stripe", "PayPal"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

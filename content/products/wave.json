@@ -1,0 +1,44 @@
+{
+  "name": "Wave",
+  "status": "published",
+  "vendor": { "name": "Wave Financial Inc.", "website": "https://www.waveapps.com" },
+  "primaryCategory": "invoicing",
+  "summary": "Wave lets small businesses create unlimited invoices on a free Starter plan and pay only when customers pay by card. Card payments cost 2.9% + $0.60 on Starter, and the Pro plan at $19 a month adds late payment reminders and custom branding.",
+  "qualifies": [
+    {
+      "category": "invoicing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice creation", "sourceUrl": "https://www.waveapps.com/invoicing" },
+        { "capability": "online payment links", "sourceUrl": "https://www.waveapps.com/invoicing" },
+        { "capability": "payment status tracking", "sourceUrl": "https://www.waveapps.com/invoicing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Starter includes unlimited estimates, invoices, bills and bookkeeping records for $0.", "sourceUrl": "https://www.waveapps.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "On Pro, the first ten cumulative card transactions in a monthly period cost 2.9% with no fixed fee, and later ones cost 2.9% + $0.60.", "sourceUrl": "https://www.waveapps.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Pro adds automatic bank transaction import, automated late payment reminders and customizable invoice branding.", "sourceUrl": "https://www.waveapps.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Discover processing is available only to US customers.", "sourceUrl": "https://www.waveapps.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 0, "billing": "month", "unit": "per business", "volumeFee": { "percent": 2.9, "fixedUsd": 0.6, "basis": "per Visa, Mastercard or Discover payment; Amex 3.4% + $0.60" } },
+      { "name": "Pro", "priceUsd": 19, "billing": "month", "unit": "per business", "volumeFee": { "percent": 2.9, "fixedUsd": 0, "basis": "per card payment for the first 10 each monthly period, then + $0.60; Amex 3.4%" } },
+      { "name": "Pro (annual)", "priceUsd": 190, "billing": "year", "unit": "per business" }
+    ],
+    "hiddenCosts": [
+      "Amex payments cost 3.4% + $0.60 on Starter.",
+      "Add-ons such as payroll and bookkeeping are priced separately, and the pricing page does not map every add-on figure to a plan."
+    ],
+    "sourceUrl": "https://www.waveapps.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

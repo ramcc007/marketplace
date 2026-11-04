@@ -1,0 +1,54 @@
+{
+  "name": "Stripe Invoicing",
+  "status": "published",
+  "vendor": { "name": "Stripe, Inc.", "website": "https://stripe.com" },
+  "primaryCategory": "invoicing",
+  "summary": "Stripe Invoicing creates invoices from the Stripe Dashboard or API and lets customers pay on a Stripe-hosted invoice page. It charges 0.4% of each paid invoice on the Starter tier, with no fixed fees, and Stripe's payment processing fees apply on top.",
+  "qualifies": [
+    {
+      "category": "invoicing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice creation", "sourceUrl": "https://docs.stripe.com/invoicing" },
+        { "capability": "online payment links", "sourceUrl": "https://stripe.com/invoicing" },
+        { "capability": "payment status tracking", "sourceUrl": "https://docs.stripe.com/invoicing/overview" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Invoices move through the statuses draft, open, paid, void and uncollectible.", "sourceUrl": "https://docs.stripe.com/invoicing/overview", "checkedAt": "2026-11-04" },
+    { "text": "Customers can pay from a Stripe-hosted invoice page, and an invoice can be sent as a PDF or shared as a link by email or SMS.", "sourceUrl": "https://docs.stripe.com/invoicing", "checkedAt": "2026-11-04" },
+    { "text": "Stripe says Invoicing has no fixed fees or setup costs and that Stripe Payments pricing applies in addition to the per-invoice fee.", "sourceUrl": "https://stripe.com/invoicing/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The Plus tier adds quotes to the Starter features.", "sourceUrl": "https://stripe.com/invoicing/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Stripe states PCI Service Provider Level 1 certification and annual SOC 1 and SOC 2 Type II reports.", "sourceUrl": "https://docs.stripe.com/security/stripe", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": null, "billing": "month", "unit": "per paid invoice", "volumeFee": { "percent": 0.4, "basis": "per paid invoice" }, "notes": "No fixed fee. Payment processing fees are charged separately", "sourceUrl": "https://stripe.com/invoicing/pricing" },
+      { "name": "Plus", "priceUsd": null, "billing": "month", "unit": "per paid invoice", "volumeFee": { "percent": 0.5, "basis": "per paid invoice" }, "notes": "Includes Starter features and quotes", "sourceUrl": "https://stripe.com/invoicing/pricing" },
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "For businesses with large invoice amounts or needs that do not fit the other tiers", "sourceUrl": "https://stripe.com/invoicing/pricing" }
+    ],
+    "hiddenCosts": [
+      "Stripe Payments processing fees apply to every payment, in addition to the per-invoice fee.",
+      "Starter pricing of 0.4% per paid invoice is also shown on Stripe's main pricing page; the Plus tier is listed only on the Invoicing pricing page."
+    ],
+    "sourceUrl": "https://stripe.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "SAML 2.0 single sign-on is supported in the Stripe Dashboard",
+    "sourceUrl": "https://docs.stripe.com/security/stripe",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Stripe Tax", "Stripe Billing"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

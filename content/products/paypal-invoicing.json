@@ -1,0 +1,45 @@
+{
+  "name": "PayPal Invoicing",
+  "status": "published",
+  "vendor": { "name": "PayPal, Inc.", "website": "https://www.paypal.com" },
+  "primaryCategory": "invoicing",
+  "summary": "PayPal Invoicing is included with a PayPal business account and has no monthly fee on the page we read. Payments cost 2.99% + $0.49 for cards, 3.49% + $0.49 for PayPal and Venmo, and 1% capped at $10 for bank payments.",
+  "qualifies": [
+    {
+      "category": "invoicing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice creation", "sourceUrl": "https://www.paypal.com/us/business/accept-payments/invoicing" },
+        { "capability": "online payment links", "sourceUrl": "https://www.paypal.com/us/business/accept-payments/invoicing" },
+        { "capability": "payment status tracking", "sourceUrl": "https://www.paypal.com/us/business/accept-payments/invoicing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Customers do not need a PayPal account to pay and can use cards, PayPal, Venmo, Apple Pay, Pay Later or Pay by Bank.", "sourceUrl": "https://www.paypal.com/us/business/accept-payments/invoicing", "checkedAt": "2026-11-04" },
+    { "text": "Invoices can be shared as a link, by email or SMS, or as a QR code, and the sender can see when an invoice is sent, opened and paid.", "sourceUrl": "https://www.paypal.com/us/business/accept-payments/invoicing", "checkedAt": "2026-11-04" },
+    { "text": "International invoices carry an additional 1.50% on top of the domestic rate, and the fixed fee depends on the currency received.", "sourceUrl": "https://www.paypal.com/us/business/paypal-business-fees", "checkedAt": "2026-11-04" },
+    { "text": "PayPal says invoices can sync with QuickBooks and Xero, and that recurring invoices and automatic reminders are available.", "sourceUrl": "https://www.paypal.com/us/business/accept-payments/invoicing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "free",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Cards and Apple Pay", "priceUsd": 0, "billing": "month", "unit": "per account", "volumeFee": { "percent": 2.99, "fixedUsd": 0.49, "basis": "per paid invoice, US domestic" }, "sourceUrl": "https://www.paypal.com/us/business/paypal-business-fees" },
+      { "name": "PayPal and Venmo", "priceUsd": 0, "billing": "month", "unit": "per account", "volumeFee": { "percent": 3.49, "fixedUsd": 0.49, "basis": "per paid invoice, US domestic" }, "sourceUrl": "https://www.paypal.com/us/business/paypal-business-fees" },
+      { "name": "Pay Later", "priceUsd": 0, "billing": "month", "unit": "per account", "volumeFee": { "percent": 4.99, "fixedUsd": 0.49, "basis": "per paid invoice, US domestic" }, "sourceUrl": "https://www.paypal.com/us/business/paypal-business-fees" },
+      { "name": "Pay by Bank (ACH)", "priceUsd": 0, "billing": "month", "unit": "per account", "volumeFee": { "percent": 1, "basis": "per paid invoice, capped at $10" }, "sourceUrl": "https://www.paypal.com/us/business/paypal-business-fees" }
+    ],
+    "hiddenCosts": [
+      "International invoices add 1.50% to the domestic rate.",
+      "PayPal's fees page also mentions an optional invoicing subscription service with a monthly charge; we did not verify its price twice and do not list it."
+    ],
+    "sourceUrl": "https://www.paypal.com/us/business/accept-payments/invoicing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["QuickBooks", "Xero"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

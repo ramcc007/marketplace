@@ -1,0 +1,46 @@
+{
+  "name": "Invoice Ninja",
+  "status": "published",
+  "vendor": { "name": "Invoice Ninja", "website": "https://invoiceninja.com" },
+  "primaryCategory": "invoicing",
+  "summary": "Invoice Ninja offers unlimited invoicing for up to five clients on a free plan, and Ninja Pro costs $14 a month for unlimited clients. Clients pay from a client portal through gateways such as Stripe, PayPal and Square.",
+  "qualifies": [
+    {
+      "category": "invoicing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice creation", "sourceUrl": "https://invoiceninja.com/features/" },
+        { "capability": "online payment links", "sourceUrl": "https://invoiceninja.com/payments/" },
+        { "capability": "payment status tracking", "sourceUrl": "https://invoiceninja.com/features/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The free plan covers 5 clients with unlimited invoices and excludes the REST API, automatic payment reminders and e-invoicing with PEPPOL.", "sourceUrl": "https://invoiceninja.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "All paid plans come with a 30-day money-back promise.", "sourceUrl": "https://invoiceninja.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Named payment gateways are Stripe, PayPal, Square, GoCardless, Authorize.net and Mollie, and several can be connected at once.", "sourceUrl": "https://invoiceninja.com/features/", "checkedAt": "2026-11-04" },
+    { "text": "After a partial payment the invoice updates with the remaining balance and a new due date.", "sourceUrl": "https://invoiceninja.com/features/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Up to 5 clients with unlimited invoices" },
+      { "name": "Ninja Pro", "priceUsd": 14, "billing": "month", "unit": "per account", "notes": "Unlimited clients. $140 a year on annual billing" },
+      { "name": "Ninja Pro (annual)", "priceUsd": 140, "billing": "year", "unit": "per account", "notes": "Equal to $11.67 a month" },
+      { "name": "Enterprise", "priceUsd": 18, "billing": "month", "unit": "per account, 1 to 2 users", "notes": "Priced by number of users, up to $300 a month for 51 to 100 users" },
+      { "name": "Premium Business", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "From $280 a year" }
+    ],
+    "hiddenCosts": [
+      "Payment gateway fees are paid to the gateway; none are listed on the pricing page.",
+      "Removing Invoice Ninja branding and using a branded portal URL need a paid plan."
+    ],
+    "sourceUrl": "https://invoiceninja.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Stripe", "PayPal", "Square", "GoCardless", "Authorize.net", "Mollie"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

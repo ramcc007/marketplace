@@ -1,0 +1,40 @@
+{
+  "name": "SumUp Invoices",
+  "status": "published",
+  "vendor": { "name": "SumUp Inc.", "website": "https://www.sumup.com" },
+  "primaryCategory": "invoicing",
+  "summary": "SumUp Invoices creates invoices and quotes at no charge and takes a fee only when a customer pays online through the payment link. The US page lists 2.90% + $0.15 per online payment and no fee for cash or check.",
+  "qualifies": [
+    {
+      "category": "invoicing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice creation", "sourceUrl": "https://www.sumup.com/en-us/invoices/" },
+        { "capability": "online payment links", "sourceUrl": "https://www.sumup.com/en-us/invoices/" },
+        { "capability": "payment status tracking", "sourceUrl": "https://www.sumup.com/en-us/invoices/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Customers can pay through the link by card, bank transfer, cash, Google Pay or Apple Pay.", "sourceUrl": "https://www.sumup.com/en-us/invoices/", "checkedAt": "2026-11-04" },
+    { "text": "Each invoice shows one of four statuses: sent, paid, pending or overdue, with a payment timeline for partial payments.", "sourceUrl": "https://www.sumup.com/en-us/invoices/", "checkedAt": "2026-11-04" },
+    { "text": "The page does not say which countries support invoicing, and the page we read is the US version.", "sourceUrl": "https://www.sumup.com/en-us/invoices/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "free",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Invoices", "priceUsd": 0, "billing": "month", "unit": "per account", "volumeFee": { "percent": 2.9, "fixedUsd": 0.15, "basis": "per invoice paid online through the payment link" }, "notes": "Unlimited invoices and quotes. No fee for cash or check payments" }
+    ],
+    "hiddenCosts": [
+      "The pricing figures come from the US page; fees outside the US may differ."
+    ],
+    "sourceUrl": "https://www.sumup.com/en-us/invoices/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
