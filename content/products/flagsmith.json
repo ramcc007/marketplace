@@ -1,0 +1,44 @@
+{
+  "name": "Flagsmith",
+  "status": "published",
+  "vendor": { "name": "Flagsmith", "website": "https://www.flagsmith.com" },
+  "primaryCategory": "feature-flags",
+  "summary": "Flagsmith offers hosted feature flags with a free plan for one team member and 50,000 requests a month. Start-Up costs $40 a month on yearly billing or $45 monthly, and Scale-Up costs $250 or $300. Enterprise is quoted and can run from cloud to air-gapped.",
+  "qualifies": [
+    {
+      "category": "feature-flags",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "flag targeting rules", "sourceUrl": "https://docs.flagsmith.com/flagsmith-concepts/targeting-and-rollouts" },
+        { "capability": "gradual rollouts", "sourceUrl": "https://docs.flagsmith.com/flagsmith-concepts/targeting-and-rollouts" },
+        { "capability": "sdks for major languages", "sourceUrl": "https://docs.flagsmith.com/integrating-with-flagsmith/sdks/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Free plan allows 1 team member, 1 project, 50,000 requests a month and unlimited flags, environments and segments.", "sourceUrl": "https://www.flagsmith.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Extra API calls start at $50 per million per month and the rate falls with volume, while the FAQ lists Start-Up overage at $7 per 100K requests.", "sourceUrl": "https://www.flagsmith.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "SAML single sign-on is listed on Scale-Up, and LDAP with SCIM is marked as coming soon on Enterprise.", "sourceUrl": "https://www.flagsmith.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Client-side SDKs cover JavaScript, Android and Kotlin, iOS and Swift, React, Next.js and Flutter, and a separate page lists server-side SDKs.", "sourceUrl": "https://docs.flagsmith.com/integrating-with-flagsmith/sdks/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "The page shows $ without naming a currency" },
+      { "name": "Start-Up", "priceUsd": 40, "billing": "month", "unit": "per account", "notes": "$40 a month on yearly billing paid up front, or $45 billed monthly. 14-day trial. 1,000,000 requests and 3 team members" },
+      { "name": "Scale-Up", "priceUsd": 250, "billing": "month", "unit": "per account", "notes": "$250 a month on yearly billing, or $300 billed monthly. 14-day trial. 5,000,000+ requests, 5 team members included and up to 20 at $50 each per month" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales" }
+    ],
+    "hiddenCosts": [
+      "Requests above the plan allowance are charged as overage, starting at $50 per million per month."
+    ],
+    "sourceUrl": "https://www.flagsmith.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

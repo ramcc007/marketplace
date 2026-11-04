@@ -1,0 +1,45 @@
+{
+  "name": "GrowthBook",
+  "status": "published",
+  "vendor": { "name": "GrowthBook", "website": "https://www.growthbook.io" },
+  "primaryCategory": "feature-flags",
+  "summary": "GrowthBook combines feature flags with experimentation and can be self-hosted. The cloud Starter plan is free for up to 3 users and the Pro plan costs $40 per seat per month. Feature flags, experiments and traffic are unlimited on both.",
+  "qualifies": [
+    {
+      "category": "feature-flags",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "flag targeting rules", "sourceUrl": "https://docs.growthbook.io/features/targeting" },
+        { "capability": "gradual rollouts", "sourceUrl": "https://docs.growthbook.io/features/rules" },
+        { "capability": "sdks for major languages", "sourceUrl": "https://docs.growthbook.io/lib" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Starter allows 3 users and 1 project, and Pro allows 30 users and 3 projects.", "sourceUrl": "https://www.growthbook.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "CDN requests include 1M a month on Starter and 2M on Pro, then cost $10 per extra million.", "sourceUrl": "https://www.growthbook.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "A percentage rollout samples users on a chosen attribute, so users with the same value get the same experience.", "sourceUrl": "https://docs.growthbook.io/features/rules", "checkedAt": "2026-11-04" },
+    { "text": "SDKs cover JavaScript, React, Vue, Swift, Kotlin, Flutter, React Native, Node.js, Python, Ruby, PHP, Java, C#, Go, Elixir and Rust, plus edge platforms.", "sourceUrl": "https://docs.growthbook.io/lib", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Cloud, up to 3 users and 1 project. The page does not name a currency" },
+      { "name": "Pro", "priceUsd": 40, "billing": "month", "unit": "per seat", "notes": "Cloud, up to 30 users and 3 projects. The page shows $ without naming a currency or a billing cycle other than per seat per month" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing for cloud or self-hosted" },
+      { "name": "Open Source", "priceUsd": 0, "billing": "month", "unit": "per instance", "notes": "Self-hosted, 1 project" }
+    ],
+    "hiddenCosts": [
+      "CDN bandwidth beyond the plan allowance costs $1 per extra GB.",
+      "Managed warehouse events beyond the allowance cost $30 per million."
+    ],
+    "sourceUrl": "https://www.growthbook.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

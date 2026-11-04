@@ -1,0 +1,45 @@
+{
+  "name": "ConfigCat",
+  "status": "published",
+  "vendor": { "name": "ConfigCat", "website": "https://configcat.com" },
+  "primaryCategory": "feature-flags",
+  "summary": "ConfigCat prices feature flags by plan rather than by seat, with unlimited seats and unlimited flag reads on every tier. A Forever Free plan allows 10 flags, Pro costs $110 a month for 100 flags, and Smart costs $325 for unlimited flags.",
+  "qualifies": [
+    {
+      "category": "feature-flags",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "flag targeting rules", "sourceUrl": "https://configcat.com/docs/targeting/targeting-overview/" },
+        { "capability": "gradual rollouts", "sourceUrl": "https://configcat.com/docs/targeting/targeting-overview/" },
+        { "capability": "sdks for major languages", "sourceUrl": "https://configcat.com/docs/sdk-reference/overview/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Targeting rules per flag are capped at 4 on Forever Free, 8 on Pro and unlimited on Smart and above.", "sourceUrl": "https://configcat.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Audit log retention is 7 days on Forever Free, 35 days on Pro and Smart, and 2 years on Enterprise and Dedicated.", "sourceUrl": "https://configcat.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page offers a saving of up to 10% on annual billing but does not list annual prices.", "sourceUrl": "https://configcat.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "SDKs cover .NET, Android, C++, Dart, Elixir, Go, Java, JavaScript, Kotlin Multiplatform, PHP, Python, Ruby, Rust, Swift, Unity and Unreal Engine.", "sourceUrl": "https://configcat.com/docs/sdk-reference/overview/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Forever Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "10 flags, 2 environments, 5 million config downloads a month" },
+      { "name": "Pro", "priceUsd": 110, "billing": "month", "unit": "per account", "notes": "Monthly price as displayed. 100 flags. The page does not say which billing toggle position the figure reflects" },
+      { "name": "Smart", "priceUsd": 325, "billing": "month", "unit": "per account", "notes": "Monthly price as displayed. Unlimited flags" },
+      { "name": "Enterprise", "priceUsd": 900, "billing": "month", "unit": "per account", "notes": "Monthly price as displayed. 99.99% uptime SLA" },
+      { "name": "Dedicated", "priceUsd": 4500, "billing": "month", "unit": "per account", "notes": "Monthly price as displayed. 6 billion+ config downloads" }
+    ],
+    "hiddenCosts": [
+      "Software escrow is available on Enterprise and Dedicated at extra cost."
+    ],
+    "sourceUrl": "https://configcat.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Statsig",
+  "status": "published",
+  "vendor": { "name": "Statsig", "website": "https://www.statsig.com" },
+  "primaryCategory": "feature-flags",
+  "summary": "Statsig bundles feature gates with experimentation and analytics. Flag and config checks are unlimited on every plan, and pricing depends on events. Developer is free with 2 million events a month, and Pro costs $150 a month with 5 million events.",
+  "qualifies": [
+    {
+      "category": "feature-flags",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "flag targeting rules", "sourceUrl": "https://docs.statsig.com/feature-flags/overview" },
+        { "capability": "gradual rollouts", "sourceUrl": "https://docs.statsig.com/feature-flags/create" },
+        { "capability": "sdks for major languages", "sourceUrl": "https://docs.statsig.com/server/introduction" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Each gate rule has a Split % setting that sets the share of matching users who pass the check.", "sourceUrl": "https://docs.statsig.com/feature-flags/create", "checkedAt": "2026-11-04" },
+    { "text": "Above 2 million events on Developer, gate and config targeting keep working but Metric Lift computations stop.", "sourceUrl": "https://www.statsig.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Pro overage is $0.05 per additional 1K events, billed on the following month's invoice, and each Pro subscription covers one project.", "sourceUrl": "https://www.statsig.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Server SDKs cover Node.js, Java, Python, Go, Ruby, C#, PHP, C++ and Rust.", "sourceUrl": "https://docs.statsig.com/server/introduction", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Developer", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "No credit card required. 2,000,000 events a month. The page shows $ without naming a currency" },
+      { "name": "Pro", "priceUsd": 150, "billing": "month", "unit": "per project", "notes": "Charged at the start of each monthly cycle. 5,000,000 events included. The page shows $ without naming a currency" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing and billing terms" }
+    ],
+    "hiddenCosts": [
+      "Pro events above 5 million cost $0.05 per additional 1K."
+    ],
+    "sourceUrl": "https://www.statsig.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

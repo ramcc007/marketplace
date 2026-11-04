@@ -1,0 +1,42 @@
+{
+  "name": "Flipt",
+  "status": "published",
+  "vendor": { "name": "Flipt", "website": "https://www.flipt.io" },
+  "primaryCategory": "feature-flags",
+  "summary": "Flipt is an open source feature flag tool that you run yourself, with unlimited flags in the free edition. Flipt Pro costs $200 a month for up to 10 instances with a 14-day trial. Enterprise is quoted and bills annually by invoice.",
+  "qualifies": [
+    {
+      "category": "feature-flags",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "flag targeting rules", "sourceUrl": "https://docs.flipt.io/v2/concepts" },
+        { "capability": "gradual rollouts", "sourceUrl": "https://docs.flipt.io/v2/concepts" },
+        { "capability": "sdks for major languages", "sourceUrl": "https://docs.flipt.io/v2/integration/client" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Segments group entities by constraints, and rules tie those segments to flag variants.", "sourceUrl": "https://docs.flipt.io/v2/concepts", "checkedAt": "2026-11-04" },
+    { "text": "Rollouts use distributions that split variants by percentage, and threshold rollouts that return true for a given percentage of entities.", "sourceUrl": "https://docs.flipt.io/v2/concepts", "checkedAt": "2026-11-04" },
+    { "text": "Pro includes email support with a 24 hour response, and Open Source has community support only.", "sourceUrl": "https://www.flipt.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page offers a 20% saving on annual Pro billing but does not list the annual price.", "sourceUrl": "https://www.flipt.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The client integration page lists JavaScript, React, Python, Go, Java, Ruby, Dart, C#, Swift and Android SDKs.", "sourceUrl": "https://docs.flipt.io/v2/integration/client", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Open Source", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Self-hosted, unlimited feature flags, community support" },
+      { "name": "Flipt Pro", "priceUsd": 200, "billing": "month", "unit": "per account", "notes": "Up to 10 instances, 14-day trial. The page shows $ without naming a currency" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Unlimited instances, annual contract with invoicing or purchase order billing" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.flipt.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

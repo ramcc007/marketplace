@@ -1,0 +1,44 @@
+{
+  "name": "Unleash",
+  "status": "published",
+  "vendor": { "name": "Unleash", "website": "https://www.getunleash.io" },
+  "primaryCategory": "feature-flags",
+  "summary": "The open source edition of Unleash is free but limited to 1 project, 2 environments and 5,000 flags per instance. Its paid Pay-As-You-Go plan costs $75 per seat per month on a monthly card with no contract. Enterprise annual contracts are quoted.",
+  "qualifies": [
+    {
+      "category": "feature-flags",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "flag targeting rules", "sourceUrl": "https://docs.getunleash.io/concepts/activation-strategies" },
+        { "capability": "gradual rollouts", "sourceUrl": "https://docs.getunleash.io/concepts/activation-strategies" },
+        { "capability": "sdks for major languages", "sourceUrl": "https://docs.getunleash.io/reference/sdks" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Pay-As-You-Go includes 53M API requests a month on Cloud, then $5 per million, and a self-hosted install needs a 5-seat minimum.", "sourceUrl": "https://www.getunleash.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The open source edition has no seat limit and no support SLA.", "sourceUrl": "https://www.getunleash.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Server-side SDKs cover Go, Java, Node.js, PHP, Python, Ruby, Rust and .NET, and client-side SDKs cover Android, Flutter, iOS, JavaScript, Next.js, React, React Native, Svelte and Vue.", "sourceUrl": "https://docs.getunleash.io/reference/sdks", "checkedAt": "2026-11-04" },
+    { "text": "A gradual rollout exposes a feature to a set percentage of users using a hash of the user ID, so each user keeps a consistent experience.", "sourceUrl": "https://docs.getunleash.io/concepts/activation-strategies", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Open Source", "priceUsd": 0, "billing": "month", "unit": "per instance", "notes": "Self-hosted, 1 project, 2 environments, 5,000 flags per instance" },
+      { "name": "Pay-As-You-Go", "priceUsd": 75, "billing": "month", "unit": "per seat", "notes": "Billed monthly by credit card, no contract, 14-day trial. The page shows $ without naming a currency" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Annual invoiced contract, quoted per customer" }
+    ],
+    "hiddenCosts": [
+      "API requests beyond 53M a month on Pay-As-You-Go cost $5 per million.",
+      "Enterprise add-ons include a hosted private instance, multi-region Edge, access logs and IP restrictions."
+    ],
+    "sourceUrl": "https://www.getunleash.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

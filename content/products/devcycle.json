@@ -1,0 +1,43 @@
+{
+  "name": "DevCycle",
+  "status": "published",
+  "vendor": { "name": "DevCycle", "website": "https://devcycle.com" },
+  "primaryCategory": "feature-flags",
+  "summary": "DevCycle sells feature flags with unlimited seats on every plan. The Free plan allows 1,000 client-side monthly active users. The Business plan is shown as $500 a month billed annually on the plan card but $625 a month in the breakdown, so the price needs confirming with the vendor.",
+  "qualifies": [
+    {
+      "category": "feature-flags",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "flag targeting rules", "sourceUrl": "https://docs.devcycle.com/platform/feature-flags/targeting/targeting-overview" },
+        { "capability": "gradual rollouts", "sourceUrl": "https://docs.devcycle.com/platform/feature-flags/targeting/rollouts" },
+        { "capability": "sdks for major languages", "sourceUrl": "https://docs.devcycle.com/sdk" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Free allows 1,000 client-side monthly active users, 10,000 cloud config requests and 100,000 server config requests a month.", "sourceUrl": "https://devcycle.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Business includes 100,000 monthly active users, with overage of $2.50 per 1,000 users.", "sourceUrl": "https://devcycle.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Gradual rollouts take a start percentage and an end percentage on set dates, and multi-step rollouts add percentage milestones.", "sourceUrl": "https://docs.devcycle.com/platform/feature-flags/targeting/rollouts", "checkedAt": "2026-11-04" },
+    { "text": "Server-side SDKs cover NodeJS, NestJS, Go, PHP, Python, Ruby, Java and .NET, with client-side SDKs for JavaScript, React, iOS, Android and others.", "sourceUrl": "https://docs.devcycle.com/sdk", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "No credit card required. Billing period not specified. The page shows $ without naming a currency" },
+      { "name": "Business", "priceUsd": null, "billing": "year", "unit": "per account", "notes": "The plan card shows $500 per month billed annually while the pricing breakdown shows $625 per month, and the page does not explain the difference, so no price is recorded. Currency not named" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom plan, billed annually" }
+    ],
+    "hiddenCosts": [
+      "Business overage is $2 per 10,000 cloud config requests, $2 per 100,000 server config requests and $0.50 per 10,000 events."
+    ],
+    "sourceUrl": "https://devcycle.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

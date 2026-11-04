@@ -1,0 +1,43 @@
+{
+  "name": "LaunchDarkly",
+  "status": "published",
+  "vendor": { "name": "LaunchDarkly", "website": "https://launchdarkly.com" },
+  "primaryCategory": "feature-flags",
+  "summary": "LaunchDarkly is a hosted feature flag service with a free Developer plan and a usage-based Foundation plan. Foundation has no seat or platform fee and bills $10 per service connection per month plus client-side monthly active users. Advanced targeting, approvals and SCIM sit on the quoted Enterprise plan.",
+  "qualifies": [
+    {
+      "category": "feature-flags",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "flag targeting rules", "sourceUrl": "https://launchdarkly.com/docs/home/flags/target-rules" },
+        { "capability": "gradual rollouts", "sourceUrl": "https://launchdarkly.com/docs/home/releases/percentage-rollouts" },
+        { "capability": "sdks for major languages", "sourceUrl": "https://launchdarkly.com/docs/sdk" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Developer plan lists unlimited seats and flags, 5 service connections and 1K client-side monthly active users, with 14 days of data retention for AgentControl.", "sourceUrl": "https://launchdarkly.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page shows Foundation client-side usage at $8.33 per 1K monthly active users in the plan card and $10 per 1K in the comparison table.", "sourceUrl": "https://launchdarkly.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Workflows, approvals, custom roles and SCIM provisioning are listed under Enterprise, not Foundation.", "sourceUrl": "https://launchdarkly.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Server-side SDKs include Go, Java, Python, Ruby, PHP and Rust, and client-side SDKs include JavaScript, React Native, Android, iOS and Flutter.", "sourceUrl": "https://launchdarkly.com/docs/sdk", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Developer", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "No credit card required. The page shows $ without naming a currency" },
+      { "name": "Foundation", "priceUsd": 10, "billing": "month", "unit": "per service connection", "notes": "Billed yearly, pay as you go, 14-day trial. Also $8.33 per 1K client-side monthly active users (the comparison table says $10) and $5 per extra 1K AI runs. 5 service connections are included. The page shows $ without naming a currency" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing. An Enterprise trial is offered, with no length stated" }
+    ],
+    "hiddenCosts": [
+      "Guardian, for release monitoring and automatic rollback, is a separately priced add-on."
+    ],
+    "sourceUrl": "https://launchdarkly.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
