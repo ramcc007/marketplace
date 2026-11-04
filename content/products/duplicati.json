@@ -1,0 +1,63 @@
+{
+  "name": "Duplicati",
+  "status": "published",
+  "vendor": { "name": "Duplicati", "website": "https://duplicati.com" },
+  "primaryCategory": "backup",
+  "summary": "Duplicati is an open-source backup tool that encrypts data with AES-256 on the machine before upload and writes to storage the buyer picks, from Amazon S3 and Azure to SFTP and a NAS. Its paid plans add central monitoring: the Free plan watches 2 machines, and Pro and Enterprise start at about $2 and $3 per machine a month.",
+  "qualifies": [
+    {
+      "category": "backup",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "scheduled backups", "sourceUrl": "https://duplicati.com/" },
+        { "capability": "point-in-time restore", "sourceUrl": "https://docs.duplicati.com/getting-started/restoring-files" },
+        { "capability": "encryption", "sourceUrl": "https://duplicati.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The home page says all data is encrypted with AES-256 locally, before it reaches the network and cloud.", "sourceUrl": "https://duplicati.com/", "checkedAt": "2026-11-04" },
+    { "text": "The restore guide says Duplicati selects the most recent version by default, and a dropdown lets the user pick a different version to restore from.", "sourceUrl": "https://docs.duplicati.com/getting-started/restoring-files", "checkedAt": "2026-11-04" },
+    { "text": "The home page lists retention options such as keeping a set number of backups or deleting backups older than a chosen age, and says heavy backups can be scheduled for off-peak hours.", "sourceUrl": "https://duplicati.com/", "checkedAt": "2026-11-04" },
+    { "text": "The home page lists Amazon S3, Azure Blob Storage, Google Cloud, Dropbox, OneDrive, Backblaze, IDrive e2, SFTP, WebDAV, external drives and NAS among supported destinations.", "sourceUrl": "https://duplicati.com/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page shows both $2 and $2.50 on the Pro plan card without saying which applies.", "sourceUrl": "https://duplicati.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Marked always free. Monitors up to 2 machines and shows the last 200 backups." },
+      { "name": "Pro", "priceUsd": null, "billing": "year", "unit": "per machine per month", "notes": "The card shows both $2 and $2.50 per machine per month on annual billing, so we leave the price unset. Up to 100 machines, 3-year monitoring retention, 100 GB storage per machine." },
+      { "name": "Enterprise", "priceUsd": 3, "billing": "year", "unit": "per machine per month", "notes": "Listed as from $3 per machine per month on a yearly contract, minimum 10 machines." }
+    ],
+    "hiddenCosts": [
+      "Additional storage costs $0.60 per 100 GB per month, billed yearly.",
+      "Microsoft 365 and Google Workspace backup add-ons are listed at $0.50 per user per month, billed yearly."
+    ],
+    "sourceUrl": "https://duplicati.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://duplicati.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": 10,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://duplicati.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Amazon S3", "Azure Blob Storage", "Google Cloud", "Dropbox", "OneDrive", "Backblaze", "IDrive e2", "SFTP", "WebDAV", "Microsoft SharePoint", "Storj"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

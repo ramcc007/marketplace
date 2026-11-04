@@ -1,0 +1,66 @@
+{
+  "name": "CrashPlan",
+  "status": "published",
+  "vendor": { "name": "CrashPlan", "website": "https://www.crashplan.com" },
+  "primaryCategory": "backup",
+  "summary": "CrashPlan sells per-user endpoint backup at $88 a year, per-server backup at $189 a year, and Microsoft 365 or Google Workspace backup at $30 a user a year for organizations under 250 employees. Backups run automatically, restores go to a chosen point in time, and data is encrypted with AES-256.",
+  "qualifies": [
+    {
+      "category": "backup",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "scheduled backups", "sourceUrl": "https://www.crashplan.com/products/servers/" },
+        { "capability": "point-in-time restore", "sourceUrl": "https://www.crashplan.com/products/servers/" },
+        { "capability": "encryption", "sourceUrl": "https://www.crashplan.com/products/endpoints-old/essential/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The server product lists automatic incremental backups with customizable intervals and scheduled no-backup windows, and recovery starts by choosing a point in time from the available restore points.", "sourceUrl": "https://www.crashplan.com/products/servers/", "checkedAt": "2026-11-04" },
+    { "text": "The server product lists AES-256 encryption at rest and TLS 1.2 or later in transit, with encryption keys that can be customer-controlled.", "sourceUrl": "https://www.crashplan.com/products/servers/", "checkedAt": "2026-11-04" },
+    { "text": "The Essential endpoint page says automated backups run every 15 minutes and that users can keep unlimited versions of files.", "sourceUrl": "https://www.crashplan.com/products/endpoints-old/essential/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page contradicts itself on endpoint storage: the plan card says unlimited cloud storage, while an FAQ entry says endpoint subscriptions include 50 GB.", "sourceUrl": "https://www.crashplan.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Organizations with 250 or more employees get custom pricing, and storage can sit in CrashPlan's cloud, Azure, AWS, Wasabi, Backblaze or the customer's own S3.", "sourceUrl": "https://www.crashplan.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Endpoints", "priceUsd": 88, "billing": "year", "unit": "per user", "notes": "Shown as $7.33 a month billed annually, or $158 every 2 years. Storage included is unclear: the plan card says unlimited, an FAQ says 50 GB." },
+      { "name": "Servers", "priceUsd": 189, "billing": "year", "unit": "per server", "notes": "Shown as $15.75 a month billed annually, or $284 every 2 years. 250 GB pooled storage per server." },
+      { "name": "Microsoft 365", "priceUsd": 30, "billing": "year", "unit": "per user", "notes": "Shown as $2.50 a month billed annually, or $60 every 2 years. 50 GB pooled storage per user." },
+      { "name": "Google Workspace", "priceUsd": 30, "billing": "year", "unit": "per user", "notes": "Shown as $2.50 a month billed annually, or $60 every 2 years. 50 GB pooled storage per user." },
+      { "name": "Enterprise (250+ employees)", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Custom volume pricing. Microsoft 365 and Google Workspace have a 50-user minimum." }
+    ],
+    "hiddenCosts": [
+      "Extra storage on Servers, Microsoft 365 and Google Workspace costs $90 a year per 250 GB.",
+      "A card is required at trial signup, and the subscription starts on day 15 unless canceled."
+    ],
+    "sourceUrl": "https://www.crashplan.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.crashplan.com/products/servers/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "The trial converts to a paid subscription on day 15 unless canceled before then.",
+    "dataExport": "Restores to the original or an alternate location, stated as unlimited for servers.",
+    "exportSourceUrl": "https://www.crashplan.com/products/servers/",
+    "sourceUrl": "https://www.crashplan.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft 365", "Google Workspace", "Azure", "AWS", "Wasabi", "Backblaze", "Amazon S3"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Sling",
+  "status": "published",
+  "vendor": { "name": "Sling (part of Toast)", "website": "https://getsling.com" },
+  "primaryCategory": "employee-scheduling",
+  "summary": "Sling has a free plan for up to 30 users that covers shift scheduling, and its paid plans cost $1.70 (Premium) or $3.40 (Business) per user a month on annual billing. Shift swaps and unavailability tracking start on Premium, and kiosk time tracking starts on Business. The security page names no SOC 2 or ISO 27001 report.",
+  "qualifies": [
+    {
+      "category": "employee-scheduling",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "shift schedule builder", "sourceUrl": "https://getsling.com/employee-scheduling/" },
+        { "capability": "availability and shift swaps", "sourceUrl": "https://getsling.com/employee-scheduling/" },
+        { "capability": "mobile access", "sourceUrl": "https://getsling.com/employee-scheduling/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The free plan covers up to 30 users, but the pricing page lists shift offers there and puts shift swaps and unavailability tracking on Premium and Business.", "sourceUrl": "https://getsling.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Sling's security page says all data except passwords and employee IDs is stored without encryption at rest, and it names no SOC 2 or ISO 27001 report.", "sourceUrl": "https://getsling.com/security-faq/", "checkedAt": "2026-11-04" },
+    { "text": "Timesheets can be exported to Toast Payroll, and the integrations page lists Toast, Square, Harbortouch, Restaurant Manager and POSiTouch as point of sale connections.", "sourceUrl": "https://getsling.com/integrations/", "checkedAt": "2026-11-04" },
+    { "text": "The terms say payments are non-refundable and that closing an account in Company Settings is the only valid way to cancel.", "sourceUrl": "https://getsling.com/terms-of-service/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 15,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per workspace", "notes": "Up to 30 users" },
+      { "name": "Premium", "priceUsd": 1.7, "billing": "month", "unit": "per user", "notes": "Billed annually; $2.00 on monthly billing. Adds time tracking, labor cost tools and shift swaps" },
+      { "name": "Business", "priceUsd": 3.4, "billing": "month", "unit": "per user", "notes": "Billed annually; $4.00 on monthly billing. Adds kiosk time tracking, labor and payroll reports and PTO management" }
+    ],
+    "hiddenCosts": [
+      "The pricing page lists no single sign-on on any plan."
+    ],
+    "sourceUrl": "https://getsling.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://getsling.com/security-faq/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Cancel in Company Settings; email or phone requests do not count. No cancellation fee, and payments are non-refundable.",
+    "dataExport": "The terms describe no export process after an account is closed, and say a closed account cannot be recovered.",
+    "sourceUrl": "https://getsling.com/terms-of-service/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Toast", "Toast Payroll", "Square", "Harbortouch", "Restaurant Manager", "POSiTouch"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

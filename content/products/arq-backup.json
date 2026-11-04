@@ -1,0 +1,60 @@
+{
+  "name": "Arq Backup",
+  "status": "published",
+  "vendor": { "name": "Arq", "website": "https://www.arqbackup.com" },
+  "primaryCategory": "backup",
+  "summary": "Arq is a backup app for Mac and Windows sold as a $59.99 license per computer with no storage included, so backups go to a cloud account, NAS, SFTP server or external drive the buyer already pays for. Plans run hourly or daily, use filesystem snapshots, and encrypt data before it leaves the computer.",
+  "qualifies": [
+    {
+      "category": "backup",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "scheduled backups", "sourceUrl": "https://www.arqbackup.com/" },
+        { "capability": "point-in-time restore", "sourceUrl": "https://www.arqbackup.com/documentation/arq7/English.lproj/createBackupPlan.html" },
+        { "capability": "encryption", "sourceUrl": "https://www.arqbackup.com/documentation/arq7/English.lproj/createBackupPlan.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The home page says Arq can back up hourly or daily, and can be blocked on specific Wi-Fi networks or on battery power.", "sourceUrl": "https://www.arqbackup.com/", "checkedAt": "2026-11-04" },
+    { "text": "By default Arq backs up from an APFS snapshot on macOS or a VSS snapshot on Windows, so each backup reflects one moment in time.", "sourceUrl": "https://www.arqbackup.com/documentation/arq7/English.lproj/createBackupPlan.html", "checkedAt": "2026-11-04" },
+    { "text": "A backup plan can thin backup records as they age, keeping hourly, daily, weekly and monthly records for set periods.", "sourceUrl": "https://www.arqbackup.com/documentation/arq7/English.lproj/createBackupPlan.html", "checkedAt": "2026-11-04" },
+    { "text": "When a password is chosen for a plan, Arq encrypts data before sending it and the password never leaves the computer.", "sourceUrl": "https://www.arqbackup.com/documentation/arq7/English.lproj/createBackupPlan.html", "checkedAt": "2026-11-04" },
+    { "text": "The product page offers a 30-day free trial and states that no storage is included.", "sourceUrl": "https://www.arqbackup.com/arqbackup/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Arq license", "priceUsd": 59.99, "billing": "one_time", "unit": "per computer", "notes": "App only, no storage included. The pricing page does not state a billing period, and one page labels it a license." }
+    ],
+    "hiddenCosts": [
+      "Storage is bought separately from the provider the buyer chooses, such as a cloud account, NAS or SFTP server."
+    ],
+    "sourceUrl": "https://www.arqbackup.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.arqbackup.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.arqbackup.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["SFTP", "NAS", "External drives", "Backblaze B2", "Amazon S3"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

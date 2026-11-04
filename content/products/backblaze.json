@@ -1,0 +1,62 @@
+{
+  "name": "Backblaze Business Backup",
+  "status": "published",
+  "vendor": { "name": "Backblaze", "website": "https://www.backblaze.com" },
+  "primaryCategory": "backup",
+  "summary": "Backblaze Business Backup costs $99 a year per computer and backs up laptops and desktops continuously to Backblaze's cloud, with no cap on data size or file types. Old and deleted file versions are kept 30 days by default, with a free one-year option and a paid Forever option.",
+  "qualifies": [
+    {
+      "category": "backup",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "scheduled backups", "sourceUrl": "https://www.backblaze.com/cloud-backup/business" },
+        { "capability": "point-in-time restore", "sourceUrl": "https://www.backblaze.com/computer-backup/docs/create-a-restore-of-deleted-or-previous-file-versions" },
+        { "capability": "encryption", "sourceUrl": "https://www.backblaze.com/cloud-backup/business/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "By default Backblaze keeps old and deleted file versions for 30 days. A one-year setting is free, and Forever retention costs $0.006 per GB per month for files older than one year.", "sourceUrl": "https://www.backblaze.com/cloud-backup/features/extended-version-history", "checkedAt": "2026-11-04" },
+    { "text": "A longer version history setting applies only to files modified after the change is made.", "sourceUrl": "https://www.backblaze.com/computer-backup/docs/version-history", "checkedAt": "2026-11-04" },
+    { "text": "Data is protected with 2048-bit public and private keys around a symmetric AES-128 key, and an account can optionally encrypt everything with its own private key.", "sourceUrl": "https://www.backblaze.com/cloud-backup/business/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Restores can be downloaded as a zip of up to 500 GB per request, or shipped on an encrypted USB drive that is free if returned within 30 days.", "sourceUrl": "https://www.backblaze.com/cloud-backup/business/pricing", "checkedAt": "2026-11-04" },
+    { "text": "To restore an earlier version, the admin sets the 'Files uploaded to' date in View/Restore Files to the day the files existed.", "sourceUrl": "https://www.backblaze.com/computer-backup/docs/create-a-restore-of-deleted-or-previous-file-versions", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Business Backup", "priceUsd": 99, "billing": "year", "unit": "per computer", "notes": "Unlimited data. The page also offers monthly and two-year billing (two years labeled Save 8%) but shows no price for them. The unit is inferred from the page's workstation wording. Trial length is not stated." },
+      { "name": "Enterprise Control", "priceUsd": null, "billing": "quote", "unit": "per computer", "notes": "Contact sales. Adds OIDC single sign-on and restricted restore access." }
+    ],
+    "hiddenCosts": [
+      "Forever version history costs $0.006 per GB per month for files older than one year."
+    ],
+    "sourceUrl": "https://www.backblaze.com/cloud-backup/business/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Business (Google and Microsoft sign-in); Enterprise Control (OIDC, including Okta and Azure AD)",
+    "sourceUrl": "https://www.backblaze.com/cloud-backup/business/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": "Web restore as a zip up to 500 GB per request, or an encrypted USB drive shipped worldwide.",
+    "exportSourceUrl": "https://www.backblaze.com/cloud-backup/business/pricing",
+    "sourceUrl": "https://www.backblaze.com/cloud-backup/business/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Google sign-in", "Microsoft sign-in", "Okta (Enterprise Control)", "Azure AD (Enterprise Control)"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

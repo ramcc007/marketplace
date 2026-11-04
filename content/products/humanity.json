@@ -1,0 +1,52 @@
+{
+  "name": "Humanity",
+  "status": "published",
+  "vendor": { "name": "TCP Software", "website": "https://tcpsoftware.com" },
+  "primaryCategory": "employee-scheduling",
+  "summary": "Humanity Schedule costs $2.75 per employee a month on Essentials for up to 250 employees and starts at $3.75 on Professional, both billed annually, with a 30-day Professional trial. Enterprise is quoted. The monthly billing price is not shown on the pricing page.",
+  "qualifies": [
+    {
+      "category": "employee-scheduling",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "shift schedule builder", "sourceUrl": "https://tcpsoftware.com/products/humanity/" },
+        { "capability": "availability and shift swaps", "sourceUrl": "https://tcpsoftware.com/products/humanity/" },
+        { "capability": "mobile access", "sourceUrl": "https://tcpsoftware.com/products/humanity/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "TCP Software states that all prices on its website and payments are in USD.", "sourceUrl": "https://tcpsoftware.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Professional pricing starts at $3.75 per employee a month and the page notes volume discounts may apply.", "sourceUrl": "https://tcpsoftware.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "TCP provides SOC 2 Type II reports only to customers, prospects and partners under a mutual non-disclosure agreement, and lists public SOC 3 reports including one for Humanity Schedule.", "sourceUrl": "https://tcpsoftware.com/security/", "checkedAt": "2026-11-04" },
+    { "text": "Humanity holds TX-RAMP Level 2 certification, with an expiration date of March 7, 2027 on the security page.", "sourceUrl": "https://tcpsoftware.com/security/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Essentials", "priceUsd": 2.75, "billing": "month", "unit": "per employee", "notes": "Billed annually; up to 250 employees" },
+      { "name": "Professional", "priceUsd": 3.75, "billing": "month", "unit": "per employee", "notes": "Starting price, billed annually; volume discounts may apply" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "Custom quote through sales" }
+    ],
+    "hiddenCosts": [
+      "The pricing page shows a monthly billing option with a 20% annual saving but does not list the monthly price."
+    ],
+    "sourceUrl": "https://tcpsoftware.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://tcpsoftware.com/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

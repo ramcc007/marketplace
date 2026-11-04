@@ -1,0 +1,59 @@
+{
+  "name": "Veeam Data Platform",
+  "status": "published",
+  "vendor": { "name": "Veeam", "website": "https://www.veeam.com" },
+  "primaryCategory": "backup",
+  "summary": "Veeam Data Platform comes in Foundation, Advanced and Premium editions licensed per workload and bought through resellers, service providers or Veeam sales, with no prices published. Backup jobs run on daily, monthly or periodic schedules, keep restore points for a set number of days, and can be encrypted.",
+  "qualifies": [
+    {
+      "category": "backup",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "scheduled backups", "sourceUrl": "https://helpcenter.veeam.com/docs/vbr/qsg/backup_job.html" },
+        { "capability": "point-in-time restore", "sourceUrl": "https://helpcenter.veeam.com/docs/vbr/qsg/backup_job.html" },
+        { "capability": "encryption", "sourceUrl": "https://helpcenter.veeam.com/docs/vbr/userguide/encrypting_backup_jobs.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The quick start guide says a backup job can run automatically on a daily, monthly or periodic schedule, and that a retention policy counts days of restore points, removing the earliest point from the chain when the limit is exceeded.", "sourceUrl": "https://helpcenter.veeam.com/docs/vbr/qsg/backup_job.html", "checkedAt": "2026-11-04" },
+    { "text": "The user guide has a section on encrypting backup jobs, and its topic index lists job encryption, storage encryption, password loss protection and key management system keys.", "sourceUrl": "https://helpcenter.veeam.com/docs/vbr/userguide/encrypting_backup_jobs.html", "checkedAt": "2026-11-04" },
+    { "text": "The packaging page states that Veeam Data Platform licenses are metered per workload and sold through authorized resellers, service providers or Veeam sales.", "sourceUrl": "https://www.veeam.com/products/veeam-data-platform/enterprise-packaging-pricing-options.html", "checkedAt": "2026-11-04" },
+    { "text": "The Essentials page describes a version for businesses with fewer than 250 employees and 50 workloads, sold in packs of five licenses with a minimum of five and a 30-day trial.", "sourceUrl": "https://www.veeam.com/products/veeam-data-platform/essentials.html", "checkedAt": "2026-11-04" },
+    { "text": "The Essentials page describes instant recovery and recovery to on-premises, Azure and AWS.", "sourceUrl": "https://www.veeam.com/products/veeam-data-platform/essentials.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Foundation, Advanced, Premium", "priceUsd": null, "billing": "quote", "unit": "per workload", "notes": "Request pricing through a reseller, service provider or Veeam sales. No dollar amounts on the page." },
+      { "name": "Essentials", "priceUsd": null, "billing": "quote", "unit": "per license", "notes": "Sold in packs of 5, minimum 5, for fewer than 250 employees and 50 workloads. Buy-online links lead to a store that shows no price on the page we checked." }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.veeam.com/products/veeam-data-platform/enterprise-packaging-pricing-options.html",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://helpcenter.veeam.com/docs/vbr/userguide/encrypting_backup_jobs.html",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": 5,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.veeam.com/products/veeam-data-platform/essentials.html",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Azure", "AWS"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

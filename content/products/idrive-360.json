@@ -1,0 +1,63 @@
+{
+  "name": "IDrive 360",
+  "status": "published",
+  "vendor": { "name": "IDrive", "website": "https://www.idrive.com" },
+  "primaryCategory": "backup",
+  "summary": "IDrive 360 is priced by device count, from $14.95 a month for 5 devices, with a 10 TB quota per device. Backups follow a schedule, a daily immutable snapshot allows restore to a chosen date, and a private encryption key that IDrive does not store can be set during installation.",
+  "qualifies": [
+    {
+      "category": "backup",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "scheduled backups", "sourceUrl": "https://www.idrive.com/endpoint-backup/faq_backup" },
+        { "capability": "point-in-time restore", "sourceUrl": "https://www.idrive.com/endpoint-backup/faq_backup" },
+        { "capability": "encryption", "sourceUrl": "https://www.idrive.com/endpoint-backup/faq_backup" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "A daily snapshot is captured for the entire backed-up data of a computer, snapshots are immutable, and restore by date applies only to accounts created or devices added on or after March 5, 2024.", "sourceUrl": "https://www.idrive.com/endpoint-backup/faq_backup", "checkedAt": "2026-11-04" },
+    { "text": "Up to 30 versions of each file are stored, and only the latest version counts toward the storage quota.", "sourceUrl": "https://www.idrive.com/endpoint-backup/faq_backup", "checkedAt": "2026-11-04" },
+    { "text": "IDrive says it does not store the private encryption key, so data cannot be retrieved without it.", "sourceUrl": "https://www.idrive.com/endpoint-backup/faq_backup", "checkedAt": "2026-11-04" },
+    { "text": "Scheduling options include a start time, daily or weekday runs, an optional cut-off time, and starting a missed scheduled backup when the computer is turned on.", "sourceUrl": "https://www.idrive.com/endpoint-backup/faq_backup", "checkedAt": "2026-11-04" },
+    { "text": "The 25% first-year discount applies to yearly plans, and later years are billed at the normal yearly rate.", "sourceUrl": "https://www.idrive.com/endpoint-backup/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 7,
+    "plans": [
+      { "name": "5 devices", "priceUsd": 14.95, "billing": "month", "unit": "per account", "notes": "$112.12 for the first year of a yearly plan with the 25% discount. 10 TB quota per device. Larger device counts are listed on the pricing page." }
+    ],
+    "hiddenCosts": [
+      "Devices beyond the plan limit cost $2.95 per device per month.",
+      "Storage above 10 TB per device costs $6 per TB per month.",
+      "Microsoft 365 and Google Workspace backup are add-ons at $20 per seat per year."
+    ],
+    "sourceUrl": "https://www.idrive.com/endpoint-backup/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.idrive.com/endpoint-backup/faq_backup",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": "Restores are done per computer from the Restore tab, to the same or a different target machine.",
+    "exportSourceUrl": "https://www.idrive.com/endpoint-backup/faq_backup",
+    "sourceUrl": "https://www.idrive.com/endpoint-backup/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft 365", "Google Workspace"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

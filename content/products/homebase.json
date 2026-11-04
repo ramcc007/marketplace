@@ -1,0 +1,55 @@
+{
+  "name": "Homebase",
+  "status": "published",
+  "vendor": { "name": "Homebase", "website": "https://www.joinhomebase.com" },
+  "primaryCategory": "employee-scheduling",
+  "summary": "Homebase is priced per location, not per user: a free Basic plan for up to 10 employees, then $30 (Essentials), $70 (Plus) and $120 (All-in-One) a month for unlimited employees. The pricing page does not say whether those figures are monthly or annual rates. Payroll is a separate add-on.",
+  "qualifies": [
+    {
+      "category": "employee-scheduling",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "shift schedule builder", "sourceUrl": "https://www.joinhomebase.com/employee-scheduling" },
+        { "capability": "availability and shift swaps", "sourceUrl": "https://www.joinhomebase.com/employee-scheduling" },
+        { "capability": "mobile access", "sourceUrl": "https://joinhomebase.com/app" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The free Basic plan covers up to 10 employees at one location, and a 14-day trial of All-in-One needs no credit card.", "sourceUrl": "https://www.joinhomebase.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Payroll is an add-on at a $49 monthly base fee plus $6 a month per employee paid, with the first 6 months free.", "sourceUrl": "https://www.joinhomebase.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Homebase says data is encrypted with AES-256 at rest and TLS in transit, and lists single sign-on, two-factor authentication and role-based access control.", "sourceUrl": "https://joinhomebase.com/security", "checkedAt": "2026-11-04" },
+    { "text": "The security page names no SOC 2 or ISO 27001 report and does not state where data is hosted.", "sourceUrl": "https://joinhomebase.com/security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Basic", "priceUsd": 0, "billing": "month", "unit": "per location", "notes": "Up to 10 employees at one location" },
+      { "name": "Essentials", "priceUsd": 30, "billing": "month", "unit": "per location", "notes": "Unlimited employees. The page has an Annual and Monthly toggle with a 20% saving badge and does not label which period this price reflects" },
+      { "name": "Plus", "priceUsd": 70, "billing": "month", "unit": "per location", "notes": "Page also shows $0 beside a six-month free payroll offer; we read $70 as the plan price. Period not labeled" },
+      { "name": "All-in-One", "priceUsd": 120, "billing": "month", "unit": "per location", "notes": "Adds onboarding, labor cost management and HR and compliance. Period not labeled" }
+    ],
+    "hiddenCosts": [
+      "Payroll costs $49 a month plus $6 per employee paid after a free first 6 months.",
+      "Tip Manager is $25 a month per location and Task Manager is $13 a month per location.",
+      "Background checks cost $30 each."
+    ],
+    "sourceUrl": "https://www.joinhomebase.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://joinhomebase.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Gusto", "Paychex", "ADP", "Square Payroll", "QuickBooks Online", "Toast", "Square", "Clover", "Shopify", "Lightspeed", "PAR", "Zapier"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

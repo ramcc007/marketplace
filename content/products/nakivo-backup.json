@@ -1,0 +1,62 @@
+{
+  "name": "NAKIVO Backup & Replication",
+  "status": "published",
+  "vendor": { "name": "NAKIVO", "website": "https://www.nakivo.com" },
+  "primaryCategory": "backup",
+  "summary": "NAKIVO Backup & Replication protects virtual machines, servers, workstations, NAS shares and Microsoft 365 with scheduled jobs, per-schedule recovery point retention and AES-256 encryption. It sells subscriptions per workload and perpetual licenses per server or socket, with prices given through a calculator or quote, and a 15-day trial.",
+  "qualifies": [
+    {
+      "category": "backup",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "scheduled backups", "sourceUrl": "https://helpcenter.nakivo.com/User-Guide/Content/Backup/Creating-Backup-Copy-Jobs/Backup-Copy-Job-Wizard-Schedule.htm" },
+        { "capability": "point-in-time restore", "sourceUrl": "https://helpcenter.nakivo.com/User-Guide/Content/Overview/Recovery-Point-Retention.htm" },
+        { "capability": "encryption", "sourceUrl": "https://www.nakivo.com/vmware-backup/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "NAKIVO defines a recovery point as a backup of a source at a specific point in time, and supports GFS retention and a schedule retention method with a separate keep-for period per schedule.", "sourceUrl": "https://helpcenter.nakivo.com/User-Guide/Content/Overview/Recovery-Point-Retention.htm", "checkedAt": "2026-11-04" },
+    { "text": "Job schedules can be weekly, monthly, yearly or periodical, or run after another job, and recovery points can be made immutable for a set number of days.", "sourceUrl": "https://helpcenter.nakivo.com/User-Guide/Content/Backup/Creating-Backup-Copy-Jobs/Backup-Copy-Job-Wizard-Schedule.htm", "checkedAt": "2026-11-04" },
+    { "text": "The VMware backup page lists AES-256 encryption at source, in transit and at rest.", "sourceUrl": "https://www.nakivo.com/vmware-backup/", "checkedAt": "2026-11-04" },
+    { "text": "The VMware backup page lists NAS devices, deduplication appliances, Amazon S3, Wasabi, Azure Blob, Backblaze B2 and tape as storage targets.", "sourceUrl": "https://www.nakivo.com/vmware-backup/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page offers a 15-day trial with no credit card, and shows subscription and perpetual license types with minimums such as 5 workloads or 10 Microsoft 365 users.", "sourceUrl": "https://www.nakivo.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": 15,
+    "plans": [
+      { "name": "Subscription (all workloads)", "priceUsd": null, "billing": "quote", "unit": "per workload per month", "notes": "Billed annually upfront, minimum 5 workloads per order, Pro Essentials limited to 50 workloads." },
+      { "name": "Microsoft 365", "priceUsd": null, "billing": "quote", "unit": "per user per month", "notes": "Billed annually upfront, minimum 10 users." },
+      { "name": "Perpetual (servers, workstations, virtual)", "priceUsd": null, "billing": "quote", "unit": "per server, workstation bundle or CPU socket", "notes": "One-time license with 1 year of standard support. Servers and workstations are sold in bundles of 5." }
+    ],
+    "hiddenCosts": [
+      "The pricing page shows no dollar amounts; figures come from its pricing calculator or a quote request."
+    ],
+    "sourceUrl": "https://www.nakivo.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.nakivo.com/vmware-backup/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.nakivo.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["VMware vSphere", "Microsoft Hyper-V", "Amazon S3", "Wasabi", "Azure Blob Storage", "Backblaze B2", "Dell EMC Data Domain", "HPE StoreOnce"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

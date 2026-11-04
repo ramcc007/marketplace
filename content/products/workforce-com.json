@@ -1,0 +1,39 @@
+{
+  "name": "Workforce.com",
+  "status": "published",
+  "vendor": { "name": "Workforce.com", "website": "https://workforce.com" },
+  "primaryCategory": "employee-scheduling",
+  "summary": "Workforce.com sells Scheduling, Payroll, HR and All-in-One bundles, and every plan on the pricing page reads Request Pricing. Licensing is per user, with discounts tied to module count, contract length and billing terms. The scheduling page lists drag-and-drop building, templates, shift swapping and an iOS and Android app.",
+  "qualifies": [
+    {
+      "category": "employee-scheduling",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "shift schedule builder", "sourceUrl": "https://workforce.com/software/scheduling-software" },
+        { "capability": "availability and shift swaps", "sourceUrl": "https://workforce.com/software/scheduling-software" },
+        { "capability": "mobile access", "sourceUrl": "https://workforce.com/software/scheduling-software" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing FAQ says licensing is per user for the bundle selected, and that prices depend on modules, staff count and implementation needs.", "sourceUrl": "https://workforce.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The scheduling page says shifts can be scheduled to employee availability and lists Availability and Unavailability as a feature, without saying how employees submit it.", "sourceUrl": "https://workforce.com/software/scheduling-software", "checkedAt": "2026-11-04" },
+    { "text": "Staff can find their own replacements through shift swapping and shift bidding, according to the scheduling page.", "sourceUrl": "https://workforce.com/software/scheduling-software", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Scheduling", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Request Pricing; no amount published" },
+      { "name": "All-in-One", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Scheduling, HR and payroll together; no amount published" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://workforce.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

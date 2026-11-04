@@ -1,0 +1,47 @@
+{
+  "name": "Quinyx",
+  "status": "published",
+  "vendor": { "name": "Quinyx", "website": "https://www.quinyx.com" },
+  "primaryCategory": "employee-scheduling",
+  "summary": "Quinyx publishes no prices: the pricing page asks buyers to share requirements and wait for contact, so cost is quote only. Managers can build schedules by hand, semi-automatically or fully automatically, with shifts assigned by availability and skills. The privacy page claims GDPR compliance and names Sweden as the main establishment.",
+  "qualifies": [
+    {
+      "category": "employee-scheduling",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "shift schedule builder", "sourceUrl": "https://www.quinyx.com/workforce-management/scheduling" },
+        { "capability": "availability and shift swaps", "sourceUrl": "https://www.quinyx.com/workforce-management/scheduling" },
+        { "capability": "mobile access", "sourceUrl": "https://www.quinyx.com/workforce-management/employee-hub" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page shows no dollar amounts and asks buyers to describe what they need so Quinyx can contact them.", "sourceUrl": "https://www.quinyx.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The privacy page says Quinyx complies with GDPR and names Sweden's IMY as its lead supervisory authority, but it does not state where data is hosted.", "sourceUrl": "https://www.quinyx.com/privacy", "checkedAt": "2026-11-04" },
+    { "text": "The Employee Hub page describes a mobile-first app for teams, but it does not describe shift swapping or availability, which appear on the scheduling page.", "sourceUrl": "https://www.quinyx.com/workforce-management/employee-hub", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom quote", "priceUsd": null, "billing": "quote", "unit": "quoted", "notes": "No plan names or prices are published" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.quinyx.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.quinyx.com/privacy",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Findmyshift",
+  "status": "published",
+  "vendor": { "name": "Findmyshift", "website": "https://www.findmyshift.com" },
+  "primaryCategory": "employee-scheduling",
+  "summary": "Findmyshift charges per team, not per user: a free plan for 5 team members, then $24 (20 members), $38 (100) and $75 (300) a month on yearly billing, or $27, $43 and $85 on monthly billing. Every new account gets a 3 month trial with all features. Availability handling is thinner than shift swaps and time off.",
+  "qualifies": [
+    {
+      "category": "employee-scheduling",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "shift schedule builder", "sourceUrl": "https://www.findmyshift.com/" },
+        { "capability": "availability (managers see time off and can set recurring unavailability) and shift swaps", "sourceUrl": "https://www.findmyshift.com/tour/time-off-management" },
+        { "capability": "mobile access", "sourceUrl": "https://www.findmyshift.com/tour/employee-scheduling" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Plans are priced per team: Free covers 5 team members and 1 manager, Starter 20 members, Business 100 and Enterprise 300.", "sourceUrl": "https://www.findmyshift.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says all features are free for the first 3 months, with no credit card required.", "sourceUrl": "https://www.findmyshift.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The scheduling tour says employees can request shifts, submit cancellations and swap shifts, but it does not say employees can set their own availability.", "sourceUrl": "https://www.findmyshift.com/tour/employee-scheduling", "checkedAt": "2026-11-04" },
+    { "text": "The terms allow refunds only for future dates and only to the original payment card, and they do not address data export after termination.", "sourceUrl": "https://www.findmyshift.com/terms-and-conditions", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 90,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per team", "notes": "5 team members and 1 manager" },
+      { "name": "Starter", "priceUsd": 24, "billing": "month", "unit": "per team", "notes": "Billed yearly ($286 a year); $27 on monthly billing. 20 team members, 1 manager" },
+      { "name": "Business", "priceUsd": 38, "billing": "month", "unit": "per team", "notes": "Billed yearly ($459 a year); $43 on monthly billing. 100 team members and managers" },
+      { "name": "Enterprise", "priceUsd": 75, "billing": "month", "unit": "per team", "notes": "Billed yearly ($904 a year); $85 on monthly billing. 300 team members and managers" }
+    ],
+    "hiddenCosts": [
+      "The trial is stated as 3 months on the pricing page, shown here as 90 days.",
+      "Starter allows only 1 manager, so a team with several schedulers needs Business."
+    ],
+    "sourceUrl": "https://www.findmyshift.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Accounts can be cancelled at any stage, started by the customer after an identity check. Refunds cover future dates only.",
+    "dataExport": null,
+    "sourceUrl": "https://www.findmyshift.com/terms-and-conditions",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Xero", "BambooHR", "CakeHR", "People HR", "Lightspeed", "Vend", "Square", "Slack", "Google Workspace", "Monday"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

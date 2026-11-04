@@ -1,0 +1,63 @@
+{
+  "name": "Carbonite Safe Backup",
+  "status": "published",
+  "vendor": { "name": "Carbonite", "website": "https://www.carbonite.com" },
+  "primaryCategory": "backup",
+  "summary": "Carbonite's business plans run $230.39 to $1,039.99 a year at the 20% off banner shown on the page, covering 25 computers, with a server added from the Power plan up. Backups run continuously by default or on a schedule, up to 12 versions of a changed file are kept, and files are encrypted with AES-256.",
+  "qualifies": [
+    {
+      "category": "backup",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "scheduled backups", "sourceUrl": "https://support.carbonite.com/articles/Pro-Windows-Getting-Started-with-Carbonite-Pro" },
+        { "capability": "point-in-time restore", "sourceUrl": "https://support.carbonite.com/articles/Personal-Pro-Windows-Restoring-Previous-File-Versions" },
+        { "capability": "encryption", "sourceUrl": "https://support.carbonite.com/articles/Data-Security-for-Carbonite-Safe-and-Safe-Backup-Pro" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Carbonite keeps up to 12 versions of a changed file: a daily version for the past week, one weekly version for three weeks and one monthly version for two months, with at least the two latest versions and the original kept.", "sourceUrl": "https://support.carbonite.com/articles/Personal-Pro-Windows-Restoring-Previous-File-Versions", "checkedAt": "2026-11-04" },
+    { "text": "Safe Backup Pro offers automatic continuous backup as the default, or a scheduled backup.", "sourceUrl": "https://support.carbonite.com/articles/Pro-Windows-Getting-Started-with-Carbonite-Pro", "checkedAt": "2026-11-04" },
+    { "text": "Files are encrypted with AES-256 and sent over TLS 1.2. Customers can manage their own encryption key at setup, but not on Mac.", "sourceUrl": "https://support.carbonite.com/articles/Data-Security-for-Carbonite-Safe-and-Safe-Backup-Pro", "checkedAt": "2026-11-04" },
+    { "text": "Safe and Safe Backup Pro data sits in Carbonite's own data centers in the United States, while Safe Server plans use Amazon S3.", "sourceUrl": "https://support.carbonite.com/articles/Data-Security-for-Carbonite-Safe-and-Safe-Backup-Pro", "checkedAt": "2026-11-04" },
+    { "text": "The business page offers a 30-day free trial and mentions a 30-day money-back guarantee.", "sourceUrl": "https://www.carbonite.com/professional/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Core", "priceUsd": 230.39, "billing": "year", "unit": "per account", "notes": "Shown with a 20% off banner; list price $287.99. Up to 25 computers, external drives and NAS, 250 GB storage." },
+      { "name": "Power", "priceUsd": 639.99, "billing": "year", "unit": "per account", "notes": "Shown with a 20% off banner; list price $799.99. 1 server plus up to 25 computers, 500 GB storage." },
+      { "name": "Ultimate", "priceUsd": 1039.99, "billing": "year", "unit": "per account", "notes": "Shown with a 20% off banner; list price $1,299.99. Unlimited servers plus 25 computers, 500 GB storage." }
+    ],
+    "hiddenCosts": [
+      "Extra storage costs $99 per 100 GB on every plan.",
+      "The 20% discount banner carries no stated end date, so the price after it ends is the list price."
+    ],
+    "sourceUrl": "https://www.carbonite.com/professional/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://support.carbonite.com/articles/Data-Security-for-Carbonite-Safe-and-Safe-Backup-Pro",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.carbonite.com/professional/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Amazon S3 (Safe Server plans)"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

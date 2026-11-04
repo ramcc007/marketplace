@@ -1,0 +1,54 @@
+{
+  "name": "Deputy",
+  "status": "published",
+  "vendor": { "name": "Deputy", "website": "https://www.deputy.com" },
+  "primaryCategory": "employee-scheduling",
+  "summary": "Deputy lists Lite at $5, Core at $6.50 and Pro at $9 per user a month, with a 10% saving on annual billing. Shift swaps and availability are on Lite, auto-scheduling starts on Core and single sign-on is on Pro. Monthly plans carry a $30 minimum monthly spend per invoice.",
+  "qualifies": [
+    {
+      "category": "employee-scheduling",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "shift schedule builder", "sourceUrl": "https://www.deputy.com/features/employee-scheduling" },
+        { "capability": "availability and shift swaps", "sourceUrl": "https://www.deputy.com/features/shift-swapping" },
+        { "capability": "mobile access", "sourceUrl": "https://www.deputy.com/features/leave-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "A minimum monthly spend of $30 per invoice applies to monthly Lite, Core and Pro plans.", "sourceUrl": "https://www.deputy.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Deputy states it is SOC 2 Type II compliant and holds ISO 27001 certification, and hosts on AWS in Australia, the UK or the United States.", "sourceUrl": "https://www.deputy.com/security", "checkedAt": "2026-11-04" },
+    { "text": "Deputy Payroll costs $8 per user a month plus a $49 monthly base fee and needs an annual Core or Pro plan in the US.", "sourceUrl": "https://www.deputy.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Managers can choose whether a shift swap needs their approval before it takes effect.", "sourceUrl": "https://www.deputy.com/features/shift-swapping", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Lite", "priceUsd": 5, "billing": "month", "unit": "per user", "notes": "The page shows one price per plan and a 10% annual saving without listing the annual figure" },
+      { "name": "Core", "priceUsd": 6.5, "billing": "month", "unit": "per user", "notes": "Adds auto-scheduling, demand forecasting and wage and labor budgets" },
+      { "name": "Pro", "priceUsd": 9, "billing": "month", "unit": "per user", "notes": "Adds single sign-on, location hierarchies and a sandbox environment" }
+    ],
+    "hiddenCosts": [
+      "Monthly plans have a $30 minimum monthly spend per invoice.",
+      "Deputy Payroll adds $8 per user a month plus a $49 monthly base fee.",
+      "The HR add-on costs $2 per user a month, and Messaging+ and Analytics+ cost $1.95 and $1.50 per user a month unless on Pro."
+    ],
+    "sourceUrl": "https://www.deputy.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Pro",
+    "sourceUrl": "https://www.deputy.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["ADP", "Gusto", "Paychex", "Paycom", "Paycor", "Paylocity", "Rippling", "QuickBooks", "Xero", "NetSuite", "Square", "Lightspeed", "Clover", "Okta", "Zapier"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
