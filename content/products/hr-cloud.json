@@ -1,0 +1,63 @@
+{
+  "name": "HR Cloud",
+  "status": "published",
+  "vendor": { "name": "HR Cloud", "website": "https://www.hrcloud.com" },
+  "primaryCategory": "employee-onboarding",
+  "summary": "HR Cloud sells an Onboard plan alongside Growth and Full Suite, aimed at mid-market and hourly workforces. Onboarding tasks route to HR, managers, IT and the new hire, forms are signed online, and new hires get a mobile welcome page. Prices are quote only, on an annual license tied to headcount.",
+  "qualifies": [
+    {
+      "category": "employee-onboarding",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "onboarding checklists", "sourceUrl": "https://www.hrcloud.com/employee-onboarding-software" },
+        { "capability": "document collection and e-signature", "sourceUrl": "https://www.hrcloud.com/employee-onboarding-software" },
+        { "capability": "new hire portal", "sourceUrl": "https://www.hrcloud.com/employee-onboarding-software" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The onboarding page says tasks are assigned by role and HR can see which items are due, overdue or complete.", "sourceUrl": "https://www.hrcloud.com/employee-onboarding-software", "checkedAt": "2026-11-04" },
+    { "text": "The onboarding page says HR can send forms, collect signatures, track completion and send reminders to people who have not finished.", "sourceUrl": "https://www.hrcloud.com/employee-onboarding-software", "checkedAt": "2026-11-04" },
+    { "text": "The onboarding page describes a mobile-first, branded welcome for new hires with their documents and next steps before the start date.", "sourceUrl": "https://www.hrcloud.com/employee-onboarding-software", "checkedAt": "2026-11-04" },
+    { "text": "The onboarding page states that HR Cloud maintains SOC 2 Type II certification and follows GDPR data-handling practices. It describes HIPAA-sensitive document handling for healthcare but does not claim HIPAA certification.", "sourceUrl": "https://www.hrcloud.com/employee-onboarding-software", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page has a separate small-business section for companies under 250 employees, and the FAQ asks prospects to share team size to confirm a package.", "sourceUrl": "https://www.hrcloud.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Onboard", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Get a quote button, no price shown" },
+      { "name": "Growth", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Get a quote button, no price shown" },
+      { "name": "Full Suite", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Get a quote button, no price shown" }
+    ],
+    "hiddenCosts": [
+      "The pricing page says certain third-party integrations may cost extra.",
+      "Quotes depend on headcount band, plan and add-ons, and no minimum is published."
+    ],
+    "sourceUrl": "https://www.hrcloud.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.hrcloud.com/employee-onboarding-software",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.hrcloud.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

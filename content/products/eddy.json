@@ -1,0 +1,55 @@
+{
+  "name": "Eddy",
+  "status": "published",
+  "vendor": { "name": "Eddy", "website": "https://www.eddy.com" },
+  "primaryCategory": "employee-onboarding",
+  "summary": "Eddy is a small-business HR system whose onboarding packets give each new hire a task list and online forms to sign, including W-4 and I-9. Pricing is published: $4 or $8 per person a month plus a $50 or $75 monthly base fee, billed month to month with no long contract.",
+  "qualifies": [
+    {
+      "category": "employee-onboarding",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "onboarding checklists", "sourceUrl": "https://www.eddy.com/product/onboarding/" },
+        { "capability": "document collection and e-signature", "sourceUrl": "https://www.eddy.com/product/onboarding/" },
+        { "capability": "new hire portal", "sourceUrl": "https://www.eddy.com/product/onboarding/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The onboarding page says admins can reuse packet templates for different roles and track which tasks each new hire has finished and which are outstanding.", "sourceUrl": "https://www.eddy.com/product/onboarding/", "checkedAt": "2026-11-04" },
+    { "text": "The onboarding page says new hires can fill out and sign all necessary forms, including W-4s and I-9s, and that I-9 verification for managers and admins is also done online.", "sourceUrl": "https://www.eddy.com/product/onboarding/", "checkedAt": "2026-11-04" },
+    { "text": "The onboarding page says an uploaded employee handbook can be made signable in two clicks, and that new hires can self-onboard before their first day. It does not use the word portal or say how new hires log in.", "sourceUrl": "https://www.eddy.com/product/onboarding/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says billing counts active employees only, so inactive staff such as seasonal workers or people on leave are not charged.", "sourceUrl": "https://www.eddy.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 4, "billing": "month", "unit": "per active employee", "baseFeeUsd": 50, "notes": "Plus a $50 monthly base fee. The page offers a free account and does not state a trial length" },
+      { "name": "Growth", "priceUsd": 8, "billing": "month", "unit": "per active employee", "baseFeeUsd": 75, "notes": "Plus a $75 monthly base fee. Marked most popular" },
+      { "name": "Premium", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing, request a quote" }
+    ],
+    "hiddenCosts": [
+      "Payroll is an add-on at $6 per person plus a $50 monthly base fee.",
+      "Hiring is an add-on at $199 a month.",
+      "Next-day pay and boosted job postings carry extra charges the page does not price.",
+      "The pricing page states no country or currency code, so the dollar figures may differ outside the US."
+    ],
+    "sourceUrl": "https://www.eddy.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The pricing page says service is month to month and can be cancelled anytime. Upgrades apply immediately and downgrades start at the next billing period.",
+    "dataExport": null,
+    "sourceUrl": "https://www.eddy.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

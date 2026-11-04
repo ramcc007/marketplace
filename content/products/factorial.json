@@ -13,6 +13,15 @@
         { "capability": "time-off tracking", "sourceUrl": "https://factorial.com/hr-software/" },
         { "capability": "hr reports", "sourceUrl": "https://factorial.com/hr-software/" }
       ]
+    },
+    {
+      "category": "employee-onboarding",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "onboarding checklists", "sourceUrl": "https://factorial.com/onboarding-software" },
+        { "capability": "document collection and e-signature", "sourceUrl": "https://factorial.com/onboarding-software" },
+        { "capability": "new hire portal", "sourceUrl": "https://factorial.com/onboarding-software" }
+      ]
     }
   ],
   "facts": [

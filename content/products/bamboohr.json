@@ -13,6 +13,15 @@
         { "capability": "accrual policies", "sourceUrl": "https://www.bamboohr.com/pricing/" },
         { "capability": "team calendar", "sourceUrl": "https://www.bamboohr.com/pricing/" }
       ]
+    },
+    {
+      "category": "employee-onboarding",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "onboarding checklists", "sourceUrl": "https://www.bamboohr.com/platform/onboarding/" },
+        { "capability": "document collection and e-signature", "sourceUrl": "https://www.bamboohr.com/platform/onboarding/" },
+        { "capability": "new hire portal", "sourceUrl": "https://www.bamboohr.com/platform/onboarding/" }
+      ]
     }
   ],
   "facts": [

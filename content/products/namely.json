@@ -1,0 +1,65 @@
+{
+  "name": "Namely",
+  "status": "published",
+  "vendor": { "name": "Namely", "website": "https://www.namely.com" },
+  "primaryCategory": "employee-onboarding",
+  "summary": "Namely is an HR platform with four packages, NamelyNow, NamelyPlus, NamelyPlus People and NamelyComplete. Only NamelyNow has a published price, starting at $9 per employee a month. Its onboarding page covers automated task checklists, document management with e-signature and a tracked I-9 workflow.",
+  "qualifies": [
+    {
+      "category": "employee-onboarding",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "onboarding checklists", "sourceUrl": "https://www.namely.com/onboarding/" },
+        { "capability": "document collection and e-signature", "sourceUrl": "https://www.namely.com/onboarding/" },
+        { "capability": "new hire portal", "sourceUrl": "https://www.namely.com/onboarding/" }
+      ]
+    },
+    {
+      "category": "benefits-administration",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "benefits enrollment", "sourceUrl": "https://www.namely.com/benefits-administration" },
+        { "capability": "carrier connections or plan setup", "sourceUrl": "https://www.namely.com/benefits-administration" },
+        { "capability": "eligibility tracking", "sourceUrl": "https://www.namely.com/benefits-administration" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The benefits page lists open enrollment via mobile or desktop, electronic carrier connections, built-in ACA reporting and compliance management, and says Namely automates eligibility rules, deductions and data flows.", "sourceUrl": "https://www.namely.com/benefits-administration", "checkedAt": "2026-11-04" },
+    { "text": "The package comparison table shows the benefits administration module starting at NamelyPlus, not in the $9 NamelyNow package; the table's icons carry no text labels.", "sourceUrl": "https://namely.com/lp/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The onboarding page describes automated tasks, reminders and hire-date triggers, with tasks assigned by role and plans that can be grouped by start date.", "sourceUrl": "https://www.namely.com/onboarding/", "checkedAt": "2026-11-04" },
+    { "text": "The onboarding page says forms, tax documents and training materials are gathered in one system with document management and e-signatures, and that the I-9 workflow adds secure e-signing with tracking.", "sourceUrl": "https://www.namely.com/onboarding/", "checkedAt": "2026-11-04" },
+    { "text": "The onboarding page does not use the term new hire portal. It describes mobile access that lets remote new hires complete their setup from a phone, which is the closest match to that test.", "sourceUrl": "https://www.namely.com/onboarding/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says contract terms run from month to month up to 3 years, and that managed services are priced by complexity, modules and services required after a diagnostic.", "sourceUrl": "https://namely.com/lp/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "NamelyNow", "priceUsd": 9, "billing": "month", "unit": "per employee", "notes": "Listed as starting at $9. No minimum employee count or fee is stated" },
+      { "name": "NamelyPlus", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "No price shown" },
+      { "name": "NamelyPlus People", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "No price shown" },
+      { "name": "NamelyComplete", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "No price shown" }
+    ],
+    "hiddenCosts": [
+      "Only the entry package has a published price, and it is a starting price.",
+      "Managed payroll, benefits and other services have no listed prices."
+    ],
+    "sourceUrl": "https://namely.com/lp/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The pricing page offers flexible contract terms from month to month up to 3 years and does not state cancellation conditions.",
+    "dataExport": null,
+    "sourceUrl": "https://namely.com/lp/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

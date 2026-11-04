@@ -13,6 +13,15 @@
         { "capability": "accrual policies", "sourceUrl": "https://connecteam.com/hr-people-management/pto/" },
         { "capability": "team calendar", "sourceUrl": "https://connecteam.com/hr-people-management/pto/" }
       ]
+    },
+    {
+      "category": "employee-onboarding",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "onboarding checklists", "sourceUrl": "https://connecteam.com/solutions/employee-onboarding/" },
+        { "capability": "document collection and e-signature", "sourceUrl": "https://connecteam.com/solutions/employee-onboarding/" },
+        { "capability": "new hire portal", "sourceUrl": "https://connecteam.com/solutions/employee-onboarding/" }
+      ]
     }
   ],
   "facts": [

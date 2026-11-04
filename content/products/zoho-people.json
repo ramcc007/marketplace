@@ -13,6 +13,15 @@
         { "capability": "time-off tracking", "sourceUrl": "https://www.zoho.com/people/features.html" },
         { "capability": "hr reports", "sourceUrl": "https://www.zoho.com/people/features.html" }
       ]
+    },
+    {
+      "category": "employee-onboarding",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "onboarding checklists", "sourceUrl": "https://www.zoho.com/people/onboarding-software.html" },
+        { "capability": "document collection and e-signature", "sourceUrl": "https://www.zoho.com/people/onboarding-software.html" },
+        { "capability": "new hire portal", "sourceUrl": "https://www.zoho.com/people/onboarding-software.html" }
+      ]
     }
   ],
   "facts": [
