@@ -1,0 +1,59 @@
+{
+  "name": "Culture Amp",
+  "status": "published",
+  "vendor": { "name": "Culture Amp", "website": "https://www.cultureamp.com" },
+  "primaryCategory": "performance-management",
+  "summary": "Culture Amp sells Perform, its performance product, by quote only. Its pricing page publishes no prices and says cost depends on headcount, product and service tier. All products are billed annually, and service tiers split at 200 and 1,000 employees.",
+  "qualifies": [
+    {
+      "category": "performance-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "review cycles", "sourceUrl": "https://www.cultureamp.com/platform/perform" },
+        { "capability": "goals or okrs", "sourceUrl": "https://www.cultureamp.com/platform/perform" },
+        { "capability": "continuous feedback", "sourceUrl": "https://www.cultureamp.com/platform/perform" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Culture Amp's pricing page says all products are billed annually and that pricing depends on the number of employees, the product and the service tier.", "sourceUrl": "https://www.cultureamp.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page states full GDPR and SOC 2 compliance and says SSO, encryption and HRIS integrations come with every plan.", "sourceUrl": "https://www.cultureamp.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Goals can be pulled into manager reviews and self-reflections only for individual and individual development goals, and only while a cycle is in draft.", "sourceUrl": "https://support.cultureamp.com/en/articles/17209069-use-goals-in-performance-review-cycles", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Perform", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price published. Quote depends on headcount, product and service tier" }
+    ],
+    "hiddenCosts": [
+      "Service tiers differ by headcount: under 200, 200 to 999, and 1,000 or more employees.",
+      "People Science Consulting is an add-on quoted separately."
+    ],
+    "sourceUrl": "https://www.cultureamp.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Included in every plan",
+    "sourceUrl": "https://www.cultureamp.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.cultureamp.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Slack", "Microsoft Teams"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

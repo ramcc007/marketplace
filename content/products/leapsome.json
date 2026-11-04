@@ -1,0 +1,52 @@
+{
+  "name": "Leapsome",
+  "status": "published",
+  "vendor": { "name": "Leapsome GmbH", "website": "https://www.leapsome.com" },
+  "primaryCategory": "performance-management",
+  "summary": "Leapsome prices each talent module separately and lists prices in euros only: Performance Reviews at 7 euros and Goals & OKRs at 4 euros per employee per month. Every module needs its HRIS platform, free at the Foundation tier during a promotion that ends December 31.",
+  "qualifies": [
+    {
+      "category": "performance-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "review cycles", "sourceUrl": "https://www.leapsome.com/product/performance-reviews" },
+        { "capability": "goals or okrs", "sourceUrl": "https://www.leapsome.com/product/goals-and-okrs" },
+        { "capability": "continuous feedback", "sourceUrl": "https://www.leapsome.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Leapsome's review page says reviews can be triggered on recurring schedules with customizable rules and workflows.", "sourceUrl": "https://www.leapsome.com/product/performance-reviews", "checkedAt": "2026-11-04" },
+    { "text": "Instant feedback and meetings are included in the HRIS Foundation and Pro tiers, with no separate price listed.", "sourceUrl": "https://www.leapsome.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page shows the Foundation list price as 7 euros in one place and 5 euros in its calculator, so confirm the final figure with sales.", "sourceUrl": "https://www.leapsome.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Performance Reviews", "priceUsd": null, "listedPrice": { "amount": 7, "currency": "EUR" }, "billing": "month", "unit": "per employee", "notes": "Listed in euros only, not converted" },
+      { "name": "Goals & OKRs", "priceUsd": null, "listedPrice": { "amount": 4, "currency": "EUR" }, "billing": "month", "unit": "per employee", "notes": "Listed in euros only, not converted" },
+      { "name": "Agentic HRIS Pro", "priceUsd": null, "listedPrice": { "amount": 10, "currency": "EUR" }, "billing": "month", "unit": "per employee", "notes": "Listed in euros only, not converted" }
+    ],
+    "hiddenCosts": [
+      "Every talent module requires the HRIS platform. Foundation is 0 euros with any module until December 31 and is then charged at list price.",
+      "The page states no contract or seat minimum, and no setup fee."
+    ],
+    "sourceUrl": "https://www.leapsome.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.leapsome.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "Google Workspace"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Small Improvements",
+  "status": "published",
+  "vendor": { "name": "Small Improvements", "website": "https://www.small-improvements.com" },
+  "primaryCategory": "performance-management",
+  "summary": "Small Improvements publishes three tiers: $3 a month per user for Launch, $6 for Grow and $9 for Elevate, all billed annually. Launch needs 20 users and Elevate needs 30. A 30-day free trial is offered.",
+  "qualifies": [
+    {
+      "category": "performance-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "review cycles", "sourceUrl": "https://www.small-improvements.com/features/performance-reviews/" },
+        { "capability": "goals or okrs", "sourceUrl": "https://www.small-improvements.com/features/goals-objectives/" },
+        { "capability": "continuous feedback", "sourceUrl": "https://www.small-improvements.com/features/feedback-requests/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The goals page describes goals and objectives aligned with company objectives but never uses the term OKR.", "sourceUrl": "https://www.small-improvements.com/features/goals-objectives/", "checkedAt": "2026-11-04" },
+    { "text": "Anytime feedback and 360 feedback start on the Grow plan, while Launch includes essential performance reviews and praise.", "sourceUrl": "https://www.small-improvements.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Custom implementation sessions start at $200 an hour.", "sourceUrl": "https://www.small-improvements.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Launch", "priceUsd": 3, "billing": "month", "unit": "per user", "notes": "Billed annually, 20 user minimum" },
+      { "name": "Grow", "priceUsd": 6, "billing": "month", "unit": "per user", "notes": "Billed annually, 20 user minimum" },
+      { "name": "Elevate", "priceUsd": 9, "billing": "month", "unit": "per user", "notes": "Billed annually, 30 user minimum" }
+    ],
+    "hiddenCosts": [
+      "Custom implementation sessions start at $200 an hour.",
+      "Volume discounts apply from 200 active users on Elevate or 1,000 on Grow."
+    ],
+    "sourceUrl": "https://www.small-improvements.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": 20,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.small-improvements.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Slack", "Google Calendar", "BambooHR", "Workday", "Google Workspace"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

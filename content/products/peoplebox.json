@@ -1,0 +1,51 @@
+{
+  "name": "Peoplebox",
+  "status": "published",
+  "vendor": { "name": "Peoplebox", "website": "https://www.peoplebox.ai" },
+  "primaryCategory": "performance-management",
+  "summary": "Peoplebox lists Performance Management at $8 per employee per month, billed annually, with no minimum stated. Individual development plans ($3), 360 degree ($8), engagement ($2) and compensation ($5) are priced as add-ons. Its plan page names OKRs, KRAs and KPIs for goals.",
+  "qualifies": [
+    {
+      "category": "performance-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "review cycles", "sourceUrl": "https://www.peoplebox.ai/pricing" },
+        { "capability": "goals or okrs", "sourceUrl": "https://www.peoplebox.ai/pricing" },
+        { "capability": "continuous feedback", "sourceUrl": "https://www.peoplebox.ai/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Performance Management plan lists performance reviews, probationary review cycles, 9-box and calibration.", "sourceUrl": "https://www.peoplebox.ai/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The same plan lists cascaded goals with OKRs, KRAs and KPIs, plus anytime feedback that can be given or requested.", "sourceUrl": "https://www.peoplebox.ai/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Hiring tools have no listed price and are quoted by demo.", "sourceUrl": "https://www.peoplebox.ai/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Performance Management", "priceUsd": 8, "billing": "month", "unit": "per employee", "notes": "Billed annually" },
+      { "name": "360 Degree", "priceUsd": 8, "billing": "month", "unit": "per employee", "notes": "Add-on, billed annually" },
+      { "name": "Compensation", "priceUsd": 5, "billing": "month", "unit": "per employee", "notes": "Add-on, billed annually" }
+    ],
+    "hiddenCosts": [
+      "Individual development plans cost $3 and engagement costs $2 per employee per month as add-ons."
+    ],
+    "sourceUrl": "https://www.peoplebox.ai/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.peoplebox.ai/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

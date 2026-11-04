@@ -1,0 +1,59 @@
+{
+  "name": "Betterworks",
+  "status": "published",
+  "vendor": { "name": "Betterworks", "website": "https://www.betterworks.com" },
+  "primaryCategory": "performance-management",
+  "summary": "Betterworks lists Performance at $8 and Performance plus Talent Intelligence at $9 per user per month, with Enterprise on custom pricing. It says it adds most value above 500 employees. Implementation is a one-time cost on top whose amount the page does not give.",
+  "qualifies": [
+    {
+      "category": "performance-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "review cycles", "sourceUrl": "https://www.betterworks.com/pricing/" },
+        { "capability": "goals or okrs", "sourceUrl": "https://www.betterworks.com/pricing/" },
+        { "capability": "continuous feedback", "sourceUrl": "https://www.betterworks.com/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Betterworks calls its review cycles Conversations, included from the Performance plan upward.", "sourceUrl": "https://www.betterworks.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing FAQ says final cost varies with active user count, package, complexity and deployment requirements.", "sourceUrl": "https://www.betterworks.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Performance", "priceUsd": 8, "billing": "month", "unit": "per user" },
+      { "name": "Performance + Talent Intelligence", "priceUsd": 9, "billing": "month", "unit": "per user", "notes": "Adds anytime calibration, succession and skills intelligence" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing" }
+    ],
+    "hiddenCosts": [
+      "Implementation is a one-time cost on top of the per-user price, and the amount is not listed."
+    ],
+    "sourceUrl": "https://www.betterworks.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.betterworks.com/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.betterworks.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

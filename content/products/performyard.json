@@ -1,0 +1,50 @@
+{
+  "name": "PerformYard",
+  "status": "published",
+  "vendor": { "name": "PerformYard", "website": "https://www.performyard.com" },
+  "primaryCategory": "performance-management",
+  "summary": "PerformYard publishes only a range for its Performance plan, $5 to $15 per person per month, billed annually, with the exact rate depending on headcount and products. Reviews, goals, feedback and meetings are in one plan, and a success manager and implementation are included.",
+  "qualifies": [
+    {
+      "category": "performance-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "review cycles", "sourceUrl": "https://www.performyard.com/performance-reviews" },
+        { "capability": "goals or okrs", "sourceUrl": "https://www.performyard.com/goal-management" },
+        { "capability": "continuous feedback", "sourceUrl": "https://www.performyard.com/continuous-feedback" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The review page says HR teams define their own questions, timelines and touchpoints for review cycles.", "sourceUrl": "https://www.performyard.com/performance-reviews", "checkedAt": "2026-11-04" },
+    { "text": "A dedicated success manager, hands-on implementation, HRIS integrations and SSO are included with every plan, with no separate onboarding or training fees.", "sourceUrl": "https://www.performyard.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing calculator shows no computed figure, so a specific price needs a quote.", "sourceUrl": "https://www.performyard.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Performance", "priceUsd": null, "billing": "month", "unit": "per person", "notes": "Listed as a range of $5 to $15, billed annually. Reviews, meetings, goals, engagement, feedback and surveys" },
+      { "name": "Talent Development", "priceUsd": null, "billing": "month", "unit": "per person", "notes": "Listed as a range of $5 to $15, billed annually. Compensation, coaching, competencies, succession planning and career pathing" }
+    ],
+    "hiddenCosts": [
+      "The page states no minimum seat count or contract minimum, and says volume pricing is available."
+    ],
+    "sourceUrl": "https://www.performyard.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.performyard.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["ADP", "BambooHR", "Gusto", "Rippling", "UKG", "Workday", "Paylocity", "Okta", "Slack"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
