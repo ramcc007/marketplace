@@ -1,6 +1,6 @@
 {
-  "name": "B2B Rated",
-  "short_name": "B2B Rated",
+  "name": "B2BRated",
+  "short_name": "B2BRated",
   "description": "Business software compared with dated prices and a public ranking method.",
   "start_url": "/",
   "display": "browser",

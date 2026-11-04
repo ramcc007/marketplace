@@ -1,4 +1,4 @@
-# Website audit prompt: B2B Rated
+# Website audit prompt: B2BRated
 
 Copy everything below the line into a new session opened in this project folder (`C:\Users\RCC\marketplace`).
 
@@ -8,7 +8,7 @@ You are auditing and improving an existing website. Work through the whole brief
 
 ## The site
 
-- Name: **B2B Rated**. Live at https://b2brated.com (also https://marketplace-neon-five.vercel.app). It compares business software with dated prices, published inclusion criteria and a public ranking method.
+- Name: **B2BRated**. Live at https://b2brated.com (also https://marketplace-neon-five.vercel.app). It compares business software with dated prices, published inclusion criteria and a public ranking method.
 - Stack: Astro 7 static site (build.format `file`, trailingSlash `never`), Tailwind 4, content collections with zod, Vitest. Hosted on Vercel from GitHub `ramcc007/marketplace`, branch `main`. Every push to `main` deploys.
 - Pages that exist today: home, `/categories`, `/categories/[department]`, `/software/[slug]` (category pages, 557), `/products/[slug]` (about 400 product pages), `/methodology`, `/transparency`, `/404`, plus robots and sitemaps.
 - Content lives in `content/products/*.json` and `content/categories/*.md`. Read `README.md`, `docs/PLAN.md` (rules, quality gate, writing rules), `src/lib/quality-gate.ts`, `src/lib/seo.ts`, `src/components/Seo.astro` and `scripts/check-content.ts` before you start.
@@ -65,7 +65,7 @@ Test 375 px and 768 px: tables (product pages have wide pricing tables), navigat
 Without adding pages, look at what a visitor can do on each page type today: compare, filter, sort, save, share, jump to the pricing, see "what changed", find a vendor's own page. Identify friction and dead ends. Improve what exists: clearer calls to action, better internal links between related products and categories, a visible "prices last checked" line, sensible empty states. Do not add fake social proof, counters or urgency.
 
 ### 8. Competitor feature gap
-Research G2, Capterra, GetApp, Software Advice, TrustRadius, SaaSworthy, SoftwareSuggest and SelectHub. For each, list the features that matter to a buyer that B2B Rated does not have (for example filters, side-by-side comparison, alternatives pages, pricing tables, "best for" tags, review verification, vendor profiles, buyer guides, newsletter, saved lists). Cite the page you looked at for every claim. Then rank the gaps by buyer value and effort, and mark which can be done inside existing pages and which would need new pages (park those). Do not copy their copy or layouts.
+Research G2, Capterra, GetApp, Software Advice, TrustRadius, SaaSworthy, SoftwareSuggest and SelectHub. For each, list the features that matter to a buyer that B2BRated does not have (for example filters, side-by-side comparison, alternatives pages, pricing tables, "best for" tags, review verification, vendor profiles, buyer guides, newsletter, saved lists). Cite the page you looked at for every claim. Then rank the gaps by buyer value and effort, and mark which can be done inside existing pages and which would need new pages (park those). Do not copy their copy or layouts.
 
 ### 9. Compliance gaps (plan only, no new pages now)
 List what a site like this needs and does not have as pages today, for example privacy policy, terms of use, cookie notice and consent, affiliate and sponsorship disclosure (US FTC endorsement guidance, UK ASA/CMA), review and moderation policy, vendor correction policy, contact and company details, accessibility statement, copyright and takedown contact, and the data-protection duties that apply once you collect any data (UK/EU GDPR, CCPA/CPRA). For each: why it is needed, what it must say, which law or guideline it comes from (cite the official source you opened), and where it would live. Then draft the text for each in a single document, written in plain human language, marked as a draft for a lawyer to review. Do not create pages from them. Also check the existing pages (`/methodology`, `/transparency`, footer) for claims that are not yet true.

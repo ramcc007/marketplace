@@ -1,6 +1,6 @@
 # Compliance gap review and draft policy texts
 
-Prepared 4 November 2026 for B2B Rated (b2brated.com). Research and drafting only. Nothing here is legal advice. Every draft text below is a "Draft for a lawyer to review, not legal advice".
+Prepared 4 November 2026 for B2BRated (b2brated.com). Research and drafting only. Nothing here is legal advice. Every draft text below is a "Draft for a lawyer to review, not legal advice".
 
 Method: I read README.md, docs/PLAN.md, the methodology and transparency pages, BaseLayout.astro, the home page, the category and product page templates, and src/config/site.ts. I opened the official sources listed in each item with WebFetch. Where a source would not open or returned only headings, I say so in the Limits section and do not rely on it.
 
@@ -317,8 +317,8 @@ Every draft below is a "Draft for a lawyer to review, not legal advice". Placeho
 
 > Draft for a lawyer to review, not legal advice. Which items are legally required depends on the country and business form, which the owner has not told us.
 >
-> **About B2B Rated**
-> B2B Rated is run by [legal name or individual name] [, registered in [country] under number [number], if a company].
+> **About B2BRated**
+> B2BRated is run by [legal name or individual name] [, registered in [country] under number [number], if a company].
 > [Registered office or business address, if required or chosen].
 > Email: [contact email]. [VAT or tax number, if registered and required.]
 > [Name of the person who is responsible for editorial content, if you choose to show it.]

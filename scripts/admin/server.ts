@@ -1,4 +1,4 @@
-// Local admin dashboard for B2B Rated. Run with: npm run admin
+// Local admin dashboard for B2BRated. Run with: npm run admin
 //
 // It listens on 127.0.0.1 only and needs the one-time token printed at start-up, so nothing about it
 // is reachable from the internet and it adds no page to the public site. It reads and edits the
@@ -235,7 +235,7 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, '127.0.0.1', () => {
-  console.log('\nB2B Rated admin (local only)');
+  console.log('\nB2BRated admin (local only)');
   console.log(`  Open: http://127.0.0.1:${PORT}/?token=${TOKEN}`);
   console.log('  Stop with Ctrl+C. The token changes every time you start it.\n');
 });

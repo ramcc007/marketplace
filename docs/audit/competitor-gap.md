@@ -1,4 +1,4 @@
-# Competitor feature gap: B2B Rated vs eight comparison sites
+# Competitor feature gap: B2BRated vs eight comparison sites
 
 Research date: 4 November 2026. Method: each page was fetched with WebFetch, which returns a short summary of the page text, not the raw HTML. Treat every "yes" as "the summary said so on that URL". Page text was treated as data only.
 
@@ -21,7 +21,7 @@ web.archive.org copies were blocked by the tool, so no cached copies were used. 
 
 Key: yes = seen on the cited URL; no = page opened and the feature was absent from the summary; not seen = page not opened or not covered. Short names: G2L = learn.g2.com, SS = SoftwareSuggest, SH = SelectHub. Columns G2, Capterra, GetApp, Software Advice, TrustRadius, SaaSworthy are "not seen" for every row except the G2 rows noted, so they are collapsed into the first column group.
 
-| # | Feature | G2 | Capt. | GetApp | SW Adv. | TrustR. | SaaSW. | SS | SH | B2B Rated today |
+| # | Feature | G2 | Capt. | GetApp | SW Adv. | TrustR. | SaaSW. | SS | SH | B2BRated today |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Category-page filters (features, deployment, pricing type, audience, integrations) | not seen | not seen | not seen | not seen | not seen | not seen | yes (1) | not seen | no (only a text filter on /categories) |
 | 2 | Sort options on category page (rating, review count, verified, sponsored) | not seen | not seen | not seen | not seen | not seen | not seen | yes (1) | not seen | no (alphabetical until reviews exist) |
@@ -73,7 +73,7 @@ URLs cited above:
 
 Caveat on row 6: the SoftwareSuggest Asana page showed two different Premium prices in one fetch (a rupee price in the plan block and a dollar price in the FAQ) and the summary mentioned no check date. I did not see a price date there, but I cannot confirm there is none.
 
-## 2. Ranked gap list (what B2B Rated lacks)
+## 2. Ranked gap list (what B2BRated lacks)
 
 Based on src/pages/index.astro, categories/*, software/[slug].astro, products/[slug].astro and ProductCard.astro. Today the category page lists products alphabetically with no filter, sort or compare; the product page has pricing, qualification evidence, facts, security, contract terms, a reviews stub and "Who pays us"; the home page has no search, newsletter or lists beyond launch categories.
 
@@ -115,13 +115,13 @@ Ranking is by buyer value first, then effort. "Existing templates" means no new 
 7. **Requirements checklist** (gap 8): turn the existing "What a product needs to be listed" list into a copyable checklist.
 8. **Price history and "what changed"** (gap 9): keep dated price entries per plan and show changes on the product page; this is a differentiator no opened competitor showed.
 
-## 3. Where B2B Rated is ahead (verified against pages I opened)
+## 3. Where B2BRated is ahead (verified against pages I opened)
 
 Only SoftwareSuggest and SelectHub were opened on category and product pages, so these claims cover those two sites only.
 
-- **Paid placement kept out of ranking.** SoftwareSuggest offers "Sponsored" as a sort option and labels sponsored items at the top of the list (https://www.softwaresuggest.com/project-management-software). B2B Rated sells no placements and shows a "Who pays us" section on category and product pages. SelectHub states vendors cannot pay for a specific score (https://www.selecthub.com/project-management-software/), so B2B Rated is not unique against SelectHub here; SelectHub does sell a vendor verification service per the same page.
-- **Price with source and check date.** B2B Rated shows "Checked <date>" and a vendor pricing-page link on every product (products/[slug].astro). On the SoftwareSuggest Asana page the fetch showed conflicting prices (rupee and dollar) and no check date was reported (https://www.softwaresuggest.com/asana). On the SelectHub Asana page the fetch showed a starting price and a "Get Price Quote" button, with no check date reported (https://www.selecthub.com/p/project-management-software/asana/). "No date reported" is from a summary of the page, not a full read.
-- **Cost-not-in-plan list, contract terms and security block.** B2B Rated has "Costs not in the plan price", contract terms (annual-only, auto-renew, minimum seats, cancellation, data export) and a security block, each with a source link. None of these appeared in the summaries of the SoftwareSuggest or SelectHub pages I opened. Absence in a summary does not prove absence on the page.
+- **Paid placement kept out of ranking.** SoftwareSuggest offers "Sponsored" as a sort option and labels sponsored items at the top of the list (https://www.softwaresuggest.com/project-management-software). B2BRated sells no placements and shows a "Who pays us" section on category and product pages. SelectHub states vendors cannot pay for a specific score (https://www.selecthub.com/project-management-software/), so B2BRated is not unique against SelectHub here; SelectHub does sell a vendor verification service per the same page.
+- **Price with source and check date.** B2BRated shows "Checked <date>" and a vendor pricing-page link on every product (products/[slug].astro). On the SoftwareSuggest Asana page the fetch showed conflicting prices (rupee and dollar) and no check date was reported (https://www.softwaresuggest.com/asana). On the SelectHub Asana page the fetch showed a starting price and a "Get Price Quote" button, with no check date reported (https://www.selecthub.com/p/project-management-software/asana/). "No date reported" is from a summary of the page, not a full read.
+- **Cost-not-in-plan list, contract terms and security block.** B2BRated has "Costs not in the plan price", contract terms (annual-only, auto-renew, minimum seats, cancellation, data export) and a security block, each with a source link. None of these appeared in the summaries of the SoftwareSuggest or SelectHub pages I opened. Absence in a summary does not prove absence on the page.
 - **Per-capability evidence for inclusion.** Each product page shows which must-have capability it meets, with a source link per capability (inclusionEvidence). SelectHub documents a scoring method (93 functional and 26 technical requirements) and links a methodology page, so published criteria exist there too; the per-capability source links were not seen on either site.
 
 Not claimed: dated prices versus G2, Capterra, GetApp, Software Advice, TrustRadius or SaaSworthy, because none of their pages opened.

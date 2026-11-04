@@ -1,4 +1,4 @@
-# B2B Rated audit report
+# B2BRated audit report
 
 Written 4 November 2026. Covers https://b2brated.com as it stands in the working tree. **Nothing in this report is live yet.** All changes are uncommitted and undeployed, as the brief asked.
 
@@ -71,7 +71,7 @@ Severity: high, medium, low. Status: fixed, needs decision, parked, not tested.
 - **Proposed `llms.txt`.** I did not add it, because it creates a new public URL. If you want one, this is the text:
 
 ```
-# B2B Rated
+# B2BRated
 > Business software compared with dated prices and published inclusion criteria. Prices are read from each vendor's own pages and carry the date they were checked. No vendor pays to be listed or ranked.
 
 ## Method
@@ -101,7 +101,7 @@ What the two readable sites have that we lacked, and what I did inside existing 
 | Price history and "what changed" | Not seen on either site | Parked: needs a second dated price per product |
 | Screenshots, videos, Q and A, vendor-claimed profiles, quote flows | SoftwareSuggest | Parked: new pages or the planned database |
 
-Where B2B Rated is already ahead, only against those two sites and only as far as the page summaries showed: no sponsored sorting, and per-capability source links with the check date. SelectHub also says vendors cannot pay for a score, so that point is not unique.
+Where B2BRated is already ahead, only against those two sites and only as far as the page summaries showed: no sponsored sorting, and per-capability source links with the check date. SelectHub also says vendors cannot pay for a score, so that point is not unique.
 
 ## Compliance
 
