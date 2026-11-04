@@ -6,12 +6,30 @@
   "summary": "Maxio charges a flat fee by monthly billings, starting at $599 a month on its Grow plan for up to $100,000 a month, with no share of revenue and unlimited users. Agreements are annual by default, and saved cards stay with the customer's payment gateway.",
   "qualifies": [
     {
+      "category": "dunning-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "automatic payment retries", "sourceUrl": "https://docs.maxio.com/billing/subscriptions/dunning/overview/understanding-how-dunning-works" },
+        { "capability": "card updater", "sourceUrl": "https://docs.maxio.com/payments/additional-gateways/getting-started-with-gateways/configure-gateways/gateway-features" },
+        { "capability": "customer payment reminders", "sourceUrl": "https://docs.maxio.com/billing/subscriptions/dunning/overview/understanding-how-dunning-works" }
+      ]
+    },
+    {
       "category": "subscription-billing",
       "checkedAt": "2026-11-03",
       "evidence": [
         { "capability": "recurring plans and proration", "sourceUrl": "https://docs.maxio.com/billing/subscriptions/management/subscription-actions/upgrade-or-downgrade-a-subscription" },
         { "capability": "dunning", "sourceUrl": "https://docs.maxio.com/billing/subscriptions/dunning/set-up-schedules/configure-credit-card-dunning" },
         { "capability": "mrr and churn metrics", "sourceUrl": "https://www.maxio.com/pricing" }
+      ]
+    },
+    {
+      "category": "usage-based-billing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "usage metering", "sourceUrl": "https://docs.maxio.com/billing/maxio-metering/overview/understand-streams-meters-and-segments" },
+        { "capability": "rating and pricing tiers", "sourceUrl": "https://docs.maxio.com/hc/en-us/articles/24261149166733-Use-Component-Pricing-Schemes" },
+        { "capability": "invoices from usage", "sourceUrl": "https://docs.maxio.com/hc/en-us/articles/24251883961485-Understand-How-Components-Are-Billed" }
       ]
     }
   ],

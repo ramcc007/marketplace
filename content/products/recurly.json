@@ -6,12 +6,30 @@
   "summary": "Recurly's Starter plan costs $249 a month plus 0.9% of billing volume above the first $40,000 each month, with a 90-day free trial. All-Access, which adds the MRR dashboard, intelligent retries and single sign-on, needs at least $1 million in billing volume.",
   "qualifies": [
     {
+      "category": "dunning-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "automatic payment retries", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/dunning-management" },
+        { "capability": "card updater", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/account-updater" },
+        { "capability": "customer payment reminders", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/dunning-management" }
+      ]
+    },
+    {
       "category": "subscription-billing",
       "checkedAt": "2026-11-03",
       "evidence": [
         { "capability": "recurring plans and proration", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/change-subscription" },
         { "capability": "dunning", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/dunning-management" },
         { "capability": "mrr and churn metrics", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/monthly-recurring-revenue" }
+      ]
+    },
+    {
+      "category": "usage-based-billing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "usage metering", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/usage-based-billing" },
+        { "capability": "rating and pricing tiers", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/usage-based-billing" },
+        { "capability": "invoices from usage", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/usage-based-billing" }
       ]
     }
   ],

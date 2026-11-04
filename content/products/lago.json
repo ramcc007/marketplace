@@ -13,6 +13,15 @@
         { "capability": "dunning", "sourceUrl": "https://getlago.com/docs/guide/dunning/automatic-dunning" },
         { "capability": "mrr and churn metrics", "sourceUrl": "https://getlago.com/docs/guide/analytics/revenue/mrr" }
       ]
+    },
+    {
+      "category": "usage-based-billing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "usage metering", "sourceUrl": "https://getlago.com/docs/guide/billable-metrics/aggregation-types/overview" },
+        { "capability": "rating and pricing tiers", "sourceUrl": "https://getlago.com/docs/guide/plans/charges/charge-models/graduated" },
+        { "capability": "invoices from usage", "sourceUrl": "https://getlago.com/docs/guide/plans/charges/usage-based-charges" }
+      ]
     }
   ],
   "facts": [

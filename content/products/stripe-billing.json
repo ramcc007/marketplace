@@ -6,12 +6,30 @@
   "summary": "Stripe Billing charges 0.7% of billing volume on pay-as-you-go, or a monthly fee on a one-year contract from $620 for up to $100,000 of monthly volume. Card processing is charged separately at 2.9% plus 30 cents in the US, and the business stays the seller of record.",
   "qualifies": [
     {
+      "category": "dunning-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "automatic payment retries", "sourceUrl": "https://docs.stripe.com/billing/revenue-recovery/smart-retries" },
+        { "capability": "card updater", "sourceUrl": "https://docs.stripe.com/billing/revenue-recovery/smarter-saved-cards" },
+        { "capability": "customer payment reminders", "sourceUrl": "https://docs.stripe.com/billing/revenue-recovery/customer-emails" }
+      ]
+    },
+    {
       "category": "subscription-billing",
       "checkedAt": "2026-11-03",
       "evidence": [
         { "capability": "recurring plans and proration", "sourceUrl": "https://docs.stripe.com/billing/subscriptions/prorations" },
         { "capability": "dunning", "sourceUrl": "https://docs.stripe.com/billing/revenue-recovery/smart-retries" },
         { "capability": "mrr and churn metrics", "sourceUrl": "https://docs.stripe.com/billing/subscriptions/analytics" }
+      ]
+    },
+    {
+      "category": "usage-based-billing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "usage metering", "sourceUrl": "https://docs.stripe.com/billing/subscriptions/usage-based/recording-usage.md" },
+        { "capability": "rating and pricing tiers", "sourceUrl": "https://docs.stripe.com/billing/subscriptions/usage-based/pricing-models.md" },
+        { "capability": "invoices from usage", "sourceUrl": "https://docs.stripe.com/billing/subscriptions/usage-based/compare-metronome.md" }
       ]
     }
   ],

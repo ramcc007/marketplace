@@ -1,0 +1,43 @@
+{
+  "name": "Orb",
+  "status": "published",
+  "vendor": { "name": "Orb Billing, Inc.", "website": "https://www.withorb.com" },
+  "primaryCategory": "usage-based-billing",
+  "summary": "Orb turns raw usage events into billable metrics, prices them with tiered, package and other models, and keeps a running draft invoice for each subscription. Its Business plan is sold in credit blocks at $6.00 per credit or less, and Enterprise is quoted.",
+  "qualifies": [
+    {
+      "category": "usage-based-billing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "usage metering", "sourceUrl": "https://docs.withorb.com/events-and-metrics/construct-metrics.md" },
+        { "capability": "rating and pricing tiers", "sourceUrl": "https://docs.withorb.com/product-catalog/price-configuration.md" },
+        { "capability": "invoices from usage", "sourceUrl": "https://docs.withorb.com/core-concepts.md" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "A billable metric is defined by a query that filters and aggregates raw usage events, and Orb calculates it separately for each customer.", "sourceUrl": "https://docs.withorb.com/events-and-metrics/construct-metrics.md", "checkedAt": "2026-11-04" },
+    { "text": "Tiered pricing charges each unit at the rate of the tier range it falls into, and package pricing sets the unit size for billing.", "sourceUrl": "https://docs.withorb.com/product-catalog/price-configuration.md", "checkedAt": "2026-11-04" },
+    { "text": "Active subscriptions have an upcoming invoice that captures accrued usage charges, and an ingestion grace period sets how long Orb waits before issuing an end of period invoice.", "sourceUrl": "https://docs.withorb.com/core-concepts.md", "checkedAt": "2026-11-04" },
+    { "text": "Matrix pricing is deprecated and supported only for legacy accounts.", "sourceUrl": "https://docs.withorb.com/product-catalog/price-configuration.md", "checkedAt": "2026-11-04" },
+    { "text": "Orb's pricing page says one credit is 0.60% of billing volume plus event ingestion and other metered dimensions.", "sourceUrl": "https://www.withorb.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Business", "priceUsd": 6, "billing": "month", "unit": "per credit", "notes": "The page shows $6.00 per credit, or less with volume discounts, but names no currency and does not say whether the price is monthly or annual. We read the figure as USD, and the billing field is a stand-in because credits are bought as needed. New sign-ups get 100 free credits" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing. The Enterprise Support Bundle is a quoted add-on" }
+    ],
+    "hiddenCosts": [
+      "Alerting SLAs and a 99.99% uptime SLA are paid Enterprise add-ons with no listed price."
+    ],
+    "sourceUrl": "https://www.withorb.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

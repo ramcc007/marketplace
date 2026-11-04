@@ -1,0 +1,42 @@
+{
+  "name": "Metronome",
+  "status": "published",
+  "vendor": { "name": "Metronome", "website": "https://metronome.com" },
+  "primaryCategory": "usage-based-billing",
+  "summary": "Metronome meters usage events, prices them from rate cards and contracts, and keeps a draft usage invoice that updates as events arrive. Stripe's documentation now describes it as part of Stripe and its recommended platform for new usage-based billing integrations.",
+  "qualifies": [
+    {
+      "category": "usage-based-billing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "usage metering", "sourceUrl": "https://docs.stripe.com/billing/subscriptions/usage-based/compare-metronome.md" },
+        { "capability": "rating and pricing tiers", "sourceUrl": "https://docs.metronome.com/guides/get-started/core-concepts/how-invoicing-works.md" },
+        { "capability": "invoices from usage", "sourceUrl": "https://docs.metronome.com/guides/get-started/core-concepts/how-invoicing-works.md" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Stripe's documentation says Metronome is now part of Stripe and handles metering, rating and billing, while Stripe handles payment collection, tax and revenue recognition.", "sourceUrl": "https://docs.stripe.com/billing/subscriptions/usage-based/compare-metronome.md", "checkedAt": "2026-11-04" },
+    { "text": "When a contract's billing period starts, Metronome creates a draft usage invoice that updates continuously as usage data arrives.", "sourceUrl": "https://docs.metronome.com/guides/get-started/core-concepts/how-invoicing-works.md", "checkedAt": "2026-11-04" },
+    { "text": "Invoice lines show the rate card list price, the customer-specific price and the quantity consumed.", "sourceUrl": "https://docs.metronome.com/guides/get-started/core-concepts/how-invoicing-works.md", "checkedAt": "2026-11-04" },
+    { "text": "The Starter plan lists real-time usage metering and alerting, with SQL-based billable metrics over raw events.", "sourceUrl": "https://metronome.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 0.8, "basis": "of billing volume, plus $0.04 per 1,000 ingest events" }, "notes": "The page names no currency and does not say whether the rates are monthly or annual. We read the $ sign as USD; the billing field is a stand-in because the rate is usage-based" },
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Adds invoicing integrations, data exports, a dedicated account manager and enhanced SLAs" }
+    ],
+    "hiddenCosts": [
+      "Invoicing integrations with Salesforce, NetSuite and cloud marketplaces are listed only on the quoted Custom plan."
+    ],
+    "sourceUrl": "https://metronome.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Stripe", "Salesforce", "NetSuite", "AWS", "Azure", "GCP"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

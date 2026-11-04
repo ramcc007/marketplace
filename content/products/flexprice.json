@@ -1,0 +1,43 @@
+{
+  "name": "Flexprice",
+  "status": "published",
+  "vendor": { "name": "Flexprice", "website": "https://flexprice.io" },
+  "primaryCategory": "usage-based-billing",
+  "summary": "Flexprice is a usage-based billing tool with metered features, volume pricing, wallets and PDF invoices, also offered as open source on GitHub. Paid plans start at $199 a month plus 0.5% of billing, and Enterprise starts at $3,000 a month.",
+  "qualifies": [
+    {
+      "category": "usage-based-billing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "usage metering", "sourceUrl": "https://docs.flexprice.io/docs/event-ingestion/creating-a-metered-feature.md" },
+        { "capability": "rating and pricing tiers", "sourceUrl": "https://docs.flexprice.io/docs/product-catalogue/plans/create.md" },
+        { "capability": "invoices from usage", "sourceUrl": "https://flexprice.io/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Metered features link events by name to aggregation functions including Count, Sum, Average, Count Unique, Latest and Max.", "sourceUrl": "https://docs.flexprice.io/docs/event-ingestion/creating-a-metered-feature.md", "checkedAt": "2026-11-04" },
+    { "text": "The plans documentation lists a volume-based billing model where the price changes with the volume of usage. It does not use the word tiered, so multi-tier support should be confirmed with the vendor.", "sourceUrl": "https://docs.flexprice.io/docs/product-catalogue/plans/create.md", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists PDF invoices, invoices sent by email, invoice grace periods, credit notes and editable draft invoices. It does not state in so many words that invoices are built from metered usage.", "sourceUrl": "https://flexprice.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The open-source version can be deployed from GitHub and is described as suited to small projects.", "sourceUrl": "https://flexprice.io/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Open source", "priceUsd": 0, "billing": "month", "unit": "per deployment", "notes": "Self-hosted from GitHub. No price is listed on the pricing page; you run the infrastructure" },
+      { "name": "Pay as you go", "priceUsd": 199, "billing": "month", "unit": "per account", "volumeFee": { "percent": 0.5, "basis": "of billing" }, "notes": "Includes up to 50M usage events a month. The page uses the $ sign without naming a currency; we read it as USD" },
+      { "name": "Enterprise", "priceUsd": 3000, "billing": "month", "unit": "per account", "notes": "Starts at $3,000 a month with no revenue share. The page uses the $ sign without naming a currency; we read it as USD" }
+    ],
+    "hiddenCosts": [
+      "The pricing page lists FAQ questions about what the 0.5% applies to without answers, so confirm the billing base with the vendor."
+    ],
+    "sourceUrl": "https://flexprice.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

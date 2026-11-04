@@ -1,0 +1,41 @@
+{
+  "name": "m3ter",
+  "status": "published",
+  "vendor": { "name": "m3ter", "website": "https://www.m3ter.com" },
+  "primaryCategory": "usage-based-billing",
+  "summary": "m3ter ingests usage measurements by API or file upload, prices aggregated usage with tiered, volume and stairstep options, and produces bills with usage line items. It targets mid-size and large B2B SaaS companies and publishes no prices.",
+  "qualifies": [
+    {
+      "category": "usage-based-billing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "usage metering", "sourceUrl": "https://docs.m3ter.com/faqs/faqs-metering.md" },
+        { "capability": "rating and pricing tiers", "sourceUrl": "https://docs.m3ter.com/guides/plans-and-pricing/pricing-plans/reviewing-pricing-options-and-pricing-plans" },
+        { "capability": "invoices from usage", "sourceUrl": "https://docs.m3ter.com/faqs/faqs-configuration-rating-and-billing.md" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Usage reaches m3ter by API or file upload, with up to 1,000 measurements per API request.", "sourceUrl": "https://docs.m3ter.com/faqs/faqs-metering.md", "checkedAt": "2026-11-04" },
+    { "text": "Ingestion is idempotent within a 35-day window, and ingested measurements are corrected with positive or negative corrective measurements.", "sourceUrl": "https://docs.m3ter.com/faqs/faqs-metering.md", "checkedAt": "2026-11-04" },
+    { "text": "Pricing types include Tiered, Volume and Stairstep, and a custom pricing description appears against usage line items on bills.", "sourceUrl": "https://docs.m3ter.com/guides/plans-and-pricing/pricing-plans/reviewing-pricing-options-and-pricing-plans", "checkedAt": "2026-11-04" },
+    { "text": "For usage charges only billing in arrears is supported, and a minimum spend can be billed with usage over the minimum added on top.", "sourceUrl": "https://docs.m3ter.com/faqs/faqs-configuration-rating-and-billing.md", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "A monthly core platform fee with allowances for ingested usage data and bill calculations, plus add-ons, support packages and implementation services. No amounts are published" }
+    ],
+    "hiddenCosts": [
+      "Enhanced support and implementation services cost extra on top of the core platform fee."
+    ],
+    "sourceUrl": "https://www.m3ter.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
