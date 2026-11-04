@@ -1,0 +1,44 @@
+{
+  "name": "JobAdder",
+  "status": "published",
+  "vendor": { "name": "JobAdder", "website": "https://jobadder.com" },
+  "primaryCategory": "recruiting-crm",
+  "summary": "JobAdder shows no prices. Its four Recruiter plans, Lite, Essential, Pro and Business, each lead to a Request pricing form, and add-ons are priced separately. The FAQ says annual contracts are standard, paid either monthly or yearly.",
+  "qualifies": [
+    {
+      "category": "recruiting-crm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "talent pool management", "sourceUrl": "https://jobadder.com/recruitment-crm/" },
+        { "capability": "candidate nurture campaigns", "sourceUrl": "https://jobadder.com/platform/workspace/outreach" },
+        { "capability": "sourcing integrations", "sourceUrl": "https://jobadder.com/recruitment-crm/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The recruitment CRM page says recruiters can group candidates into their own pools and share them with a colleague or the whole team.", "sourceUrl": "https://jobadder.com/recruitment-crm/", "checkedAt": "2026-11-04" },
+    { "text": "The outreach page describes automated email sequences and campaigns for candidate aftercare, business development and client check-ins, with each step sent on schedule.", "sourceUrl": "https://jobadder.com/platform/workspace/outreach", "checkedAt": "2026-11-04" },
+    { "text": "The CRM page advertises multi-posting to 130+ job boards, 180+ integration partners, and candidate profiles that can include third-party data from SEEK and LinkedIn.", "sourceUrl": "https://jobadder.com/recruitment-crm/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Recruiter Lite", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Core ATS and CRM, multi-posting, careers page and basic reports. The page does not say whether pricing is per user." },
+      { "name": "Recruiter Essential", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Adds Adder Intelligence, automations, analytics and KPIs." },
+      { "name": "Recruiter Pro", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Adds advanced analytics, Smart Forms and a sandbox." },
+      { "name": "Recruiter Business", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Adds requisition and approval workflows." }
+    ],
+    "hiddenCosts": [
+      "Add-ons such as Analytics, Roi-AI and Broadbean are priced separately and are quote-only.",
+      "The page offers a demo and no free trial, and it names no currency or region for pricing."
+    ],
+    "sourceUrl": "https://jobadder.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["SEEK", "LinkedIn", "Broadbean", "Gmail", "Microsoft", "Twilio"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

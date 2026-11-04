@@ -1,0 +1,45 @@
+{
+  "name": "Recruit CRM",
+  "status": "published",
+  "vendor": { "name": "Recruit CRM", "website": "https://recruitcrm.io" },
+  "primaryCategory": "recruiting-crm",
+  "summary": "Recruit CRM charges $95, $135 and $215 per user a month for Pro, Business and Enterprise, with a 30-day trial on the first two. Job multiposting, AI sourcing, LinkedIn messaging and calling use credits, and each user receives a monthly allowance that is pooled across the account.",
+  "qualifies": [
+    {
+      "category": "recruiting-crm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "talent pool management", "sourceUrl": "https://help.recruitcrm.io/en/articles/3022864-setting-up-your-talent-pool-page" },
+        { "capability": "candidate nurture campaigns", "sourceUrl": "https://recruitcrm.io/blogs/recruit-crm-recruitment-email-marketing/" },
+        { "capability": "sourcing integrations", "sourceUrl": "https://recruitcrm.io/features/linkedin-integration/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Recruit CRM's Talent Pool form lets candidates submit a profile even when no listed job fits. The page can be embedded on a company website, and each submission sends the recruiter a notification.", "sourceUrl": "https://help.recruitcrm.io/en/articles/3022864-setting-up-your-talent-pool-page", "checkedAt": "2026-11-04" },
+    { "text": "A vendor blog post describes setting up a sequence of emails once and letting the system send them on triggers, and it presents this as a way to keep contact with passive candidates.", "sourceUrl": "https://recruitcrm.io/blogs/recruit-crm-recruitment-email-marketing/", "checkedAt": "2026-11-04" },
+    { "text": "The LinkedIn integration page describes multi-step LinkedIn outreach sequences and a Chrome extension for adding profiles while browsing.", "sourceUrl": "https://recruitcrm.io/features/linkedin-integration/", "checkedAt": "2026-11-04" },
+    { "text": "Credits are pooled at the account level. Job multiposting costs 25 credits per unique job, AI sourcing and matching 3 credits per 100 profiles, and LinkedIn messaging and project sync 150 credits per user a month.", "sourceUrl": "https://recruitcrm.io/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Pro", "priceUsd": 95, "billing": "month", "unit": "per user", "notes": "100 free credits per user a month, 1 hiring pipeline, 1 mailbox and 1 multi-channel sequence." },
+      { "name": "Business", "priceUsd": 135, "billing": "month", "unit": "per user", "notes": "200 free credits per user a month, 100 pipelines, 2 mailboxes and up to 1,000 sequences with 500 active enrolments." },
+      { "name": "Enterprise", "priceUsd": 215, "billing": "month", "unit": "per user", "notes": "2,000 free credits per user a month. Booked through a demo, with no trial listed." }
+    ],
+    "hiddenCosts": [
+      "The page does not say whether the listed prices are monthly or annual rates. A toggle offers savings of up to 17% on annual billing without listing the annual prices.",
+      "Advanced analytics costs 300 credits per user a month, WhatsApp messaging 100 credits, and workflow automation a base of 500 credits a month. The page gives no dollar price per credit.",
+      "Calling and texting credit use varies by country."
+    ],
+    "sourceUrl": "https://recruitcrm.io/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["LinkedIn", "Gmail", "Outlook", "Xing", "Zoom", "Slack"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

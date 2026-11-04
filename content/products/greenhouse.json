@@ -13,6 +13,15 @@
         { "capability": "candidate pipeline", "sourceUrl": "https://support.greenhouse.io/hc/en-us/articles/4874727408795-Visual-Candidate-Pipeline" },
         { "capability": "interview scheduling and feedback", "sourceUrl": "https://www.greenhouse.com/ats" }
       ]
+    },
+    {
+      "category": "recruiting-crm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "talent pool management", "sourceUrl": "https://www.greenhouse.com/talent-sourcing" },
+        { "capability": "candidate nurture campaigns", "sourceUrl": "https://support.greenhouse.io/hc/en-us/articles/5045604930843-Create-and-manage-campaign-pools" },
+        { "capability": "sourcing integrations", "sourceUrl": "https://support.greenhouse.io/hc/en-us/articles/360042325672-Candidate-sourcing-guide" }
+      ]
     }
   ],
   "facts": [

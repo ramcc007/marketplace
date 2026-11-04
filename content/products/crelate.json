@@ -1,0 +1,55 @@
+{
+  "name": "Crelate",
+  "status": "published",
+  "vendor": { "name": "Crelate", "website": "https://www.crelate.com" },
+  "primaryCategory": "recruiting-crm",
+  "summary": "Crelate lists Essentials at $85 per user a month, billed annually and capped at 2 users, and Business at $119 per user a month, billed monthly or annually. Business Plus and Platform are quoted. Email campaigns, texting, eSignature and contact enrichment cost extra.",
+  "qualifies": [
+    {
+      "category": "recruiting-crm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "talent pool management", "sourceUrl": "https://www.crelate.com/recruiting-platform/manage-candidates" },
+        { "capability": "candidate nurture campaigns", "sourceUrl": "https://www.crelate.com/recruiting-platform/engage-candidates" },
+        { "capability": "sourcing integrations", "sourceUrl": "https://www.crelate.com/recruiting-platform/discover-talent" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The candidate management page promises talent pools that keep strong runners-up findable for the next role, plus saved and shared views with filters.", "sourceUrl": "https://www.crelate.com/recruiting-platform/manage-candidates", "checkedAt": "2026-11-04" },
+    { "text": "Crelate sequences stop as soon as a person replies on any channel, and the conversation then moves to a human recruiter.", "sourceUrl": "https://www.crelate.com/recruiting-platform/engage-candidates", "checkedAt": "2026-11-04" },
+    { "text": "A rewritten Chrome extension captures candidates, clients and deals from the web, and a job posted once to the Crelate job portal can be distributed to outside boards.", "sourceUrl": "https://www.crelate.com/recruiting-platform/discover-talent", "checkedAt": "2026-11-04" },
+    { "text": "Business limits include 100 premium resume parses, 15 GB of storage, 60 API requests a minute and 2,500 bulk emails a month.", "sourceUrl": "https://www.crelate.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Essentials", "priceUsd": 85, "billing": "month", "unit": "per user, billed annually", "notes": "Up to 2 users and 20,000 contacts. Unlimited jobs and companies." },
+      { "name": "Business", "priceUsd": 119, "billing": "month", "unit": "per user, billed annually or monthly", "notes": "Adds AI Assistant, client and team portals, and reports." },
+      { "name": "Business Plus", "priceUsd": null, "billing": "quote", "unit": "per user, billed annually", "notes": "Adds sequences, automation, full API and marketplace access." },
+      { "name": "Platform", "priceUsd": null, "billing": "quote", "unit": "per user or site license", "notes": "Quoted through sales." }
+    ],
+    "hiddenCosts": [
+      "Email campaigns, text messaging, eSignature and native contact enrichment carry additional fees. The page gives no amounts.",
+      "Crelate Hire is priced per hire and the Data Sync Service by volume and frequency, with no figures shown.",
+      "A free trial is offered without a sales call, but the page gives no length."
+    ],
+    "sourceUrl": "https://www.crelate.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.crelate.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

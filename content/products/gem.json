@@ -1,0 +1,44 @@
+{
+  "name": "Gem",
+  "status": "published",
+  "vendor": { "name": "Gem", "website": "https://www.gem.com" },
+  "primaryCategory": "recruiting-crm",
+  "summary": "Gem quotes its two plans by company headcount: one that sits on top of an existing applicant tracking system and one with a built-in ATS. The only listed price is $130 a month, billed yearly, for startups with 1 to 10 employees.",
+  "qualifies": [
+    {
+      "category": "recruiting-crm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "talent pool management", "sourceUrl": "https://www.gem.com/product/crm" },
+        { "capability": "candidate nurture campaigns", "sourceUrl": "https://www.gem.com/product/crm" },
+        { "capability": "sourcing integrations", "sourceUrl": "https://www.gem.com/product/ai-sourcing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Gem's Talent Communities are meant for roles a company hires repeatedly or finds hard to fill, and they keep those candidates warm until a new requisition opens.", "sourceUrl": "https://www.gem.com/product/crm", "checkedAt": "2026-11-04" },
+    { "text": "Nurture campaigns target candidates who are not ready to move yet, and the tool drafts outreach that can refer to a past interview or a previous rejection.", "sourceUrl": "https://www.gem.com/product/crm", "checkedAt": "2026-11-04" },
+    { "text": "The sourcing extension adds profiles from LinkedIn and over 20 other sites in one click, and Gem says it syncs with Greenhouse, Workday, Lever, iCIMS and SuccessFactors.", "sourceUrl": "https://www.gem.com/product/ai-sourcing", "checkedAt": "2026-11-04" },
+    { "text": "Companies under 30 employees get Gem All-in-One free for six months, then 50% off on a paid plan.", "sourceUrl": "https://www.gem.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Gem + Your ATS", "priceUsd": null, "billing": "quote", "unit": "by company FTE count", "notes": "Keeps the customer's existing ATS." },
+      { "name": "Gem All-in-One", "priceUsd": null, "billing": "quote", "unit": "by company FTE count", "notes": "Includes a built-in ATS." },
+      { "name": "Startup Program (1 to 10 employees)", "priceUsd": 130, "billing": "month", "unit": "per company, billed yearly", "notes": "Shown with 10% off against a struck-through $270. Includes AI sourcing and CRM, analytics, scheduling and ATS." }
+    ],
+    "hiddenCosts": [
+      "Startups with 30 to 100 employees get reduced rates from day one, but the page lists no figures.",
+      "The page shows no per-seat prices and no monthly billing option for the Startup Program."
+    ],
+    "sourceUrl": "https://www.gem.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Greenhouse", "Workday", "Lever", "iCIMS", "SuccessFactors", "LinkedIn"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
