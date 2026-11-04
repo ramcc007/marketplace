@@ -2,9 +2,9 @@
 // moderated by written rule, never hidden because of its rating, and a vendor can reply or flag
 // but cannot edit or delete. Incentives are disclosed and cannot depend on the rating.
 
-import { emailDomain, isWorkEmail, type User } from './auth';
-import type { Doc, Store } from './store';
-import { emailMatchesVendor, isApprovedVendor, type ProductRef } from './vendors';
+import { emailDomain, isWorkEmail, type User } from './auth.ts';
+import type { Doc, Store } from './store.ts';
+import { emailMatchesVendor, isApprovedVendor, type ProductRef } from './vendors.ts';
 
 export const USAGE_LENGTHS = ['under 1 month', '1 to 6 months', '6 to 12 months', '1 to 2 years', 'over 2 years'] as const;
 

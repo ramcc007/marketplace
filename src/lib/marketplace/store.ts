@@ -46,8 +46,11 @@ export class MemoryStore implements Store {
 
 /** Keeps the same data in a JSON file. Writes go through a temp file so a crash cannot leave half a file. */
 export class JsonFileStore extends MemoryStore {
-  constructor(private readonly path: string) {
+  private readonly path: string;
+
+  constructor(path: string) {
     super();
+    this.path = path;
     if (existsSync(path)) this.data = JSON.parse(readFileSync(path, 'utf8')) as Data;
   }
 

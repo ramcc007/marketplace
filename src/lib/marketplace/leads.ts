@@ -1,9 +1,9 @@
 // Quote and demo requests. The visitor ticks an unticked box that names the vendor, the request goes
 // to that vendor only, and the exact consent wording is stored with the request.
 
-import { normalizeEmail, sha256 } from './auth';
-import type { Doc, Store } from './store';
-import { isApprovedVendor } from './vendors';
+import { normalizeEmail, sha256 } from './auth.ts';
+import type { Doc, Store } from './store.ts';
+import { isApprovedVendor } from './vendors.ts';
 
 export const LEAD_NOTICE_VERSION = '2026-11-draft';
 export const LEADS_PER_EMAIL_PER_DAY = 3;

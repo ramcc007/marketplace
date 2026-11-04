@@ -3,8 +3,8 @@
 // vendor-supplied fields. Those fields are labeled as vendor-supplied wherever they appear, and
 // nothing a vendor does can touch reviews, scores, rank or badges.
 
-import { emailDomain, isWorkEmail, type User } from './auth';
-import type { Doc, Store } from './store';
+import { emailDomain, isWorkEmail, type User } from './auth.ts';
+import type { Doc, Store } from './store.ts';
 
 export interface ProductRef {
   id: string;

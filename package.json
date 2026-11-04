@@ -10,7 +10,8 @@
     "check": "astro check",
     "test": "vitest run",
     "check:content": "node scripts/check-content.ts",
-    "admin": "node scripts/admin/server.ts"
+    "admin": "node scripts/admin/server.ts",
+    "marketplace": "node scripts/marketplace/server.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",

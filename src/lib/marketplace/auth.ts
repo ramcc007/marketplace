@@ -2,7 +2,7 @@
 // and the number of links per address is limited. Sending the email is the caller's job.
 
 import { createHash, randomBytes } from 'node:crypto';
-import type { Doc, Store } from './store';
+import type { Doc, Store } from './store.ts';
 
 export interface User extends Doc {
   email: string;
