@@ -1,0 +1,43 @@
+{
+  "name": "Middleware",
+  "status": "published",
+  "vendor": { "name": "Middleware", "website": "https://middleware.io" },
+  "primaryCategory": "apm",
+  "summary": "Middleware charges $0.30 per GB for metrics, logs and traces together on pay as you go, with 30-day default retention. The free plan covers 100 GB of data with 14-day retention, and a 14-day trial allows unlimited ingestion. Browser sessions and synthetic checks are billed separately.",
+  "qualifies": [
+    {
+      "category": "apm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "request tracing", "sourceUrl": "https://middleware.io/product/apm/" },
+        { "capability": "performance metrics", "sourceUrl": "https://middleware.io/product/apm/" },
+        { "capability": "alerting", "sourceUrl": "https://middleware.io/product/apm/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The APM page lists latency, error rate, traffic and saturation (LETS) among the service metrics it tracks.", "sourceUrl": "https://middleware.io/product/apm/", "checkedAt": "2026-11-04" },
+    { "text": "Traces can be viewed as Waterfall, Flame Graph, Spans and Map views, and the page mentions trace-based alerts.", "sourceUrl": "https://middleware.io/product/apm/", "checkedAt": "2026-11-04" },
+    { "text": "Pricing is one flat per-GB rate for metrics, logs and traces, with no separate price for APM or infrastructure.", "sourceUrl": "https://middleware.io/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free Forever", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "100 GB of data, 1,000 RUM sessions, 20,000 synthetic checks, 14-day retention, community support" },
+      { "name": "Pay As You Go", "priceUsd": 0.3, "billing": "month", "unit": "per GB of metrics, logs and traces", "notes": "30-day default retention" },
+      { "name": "Enterprise (BYOC)", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing, bring your own cloud and 24x7 support" }
+    ],
+    "hiddenCosts": [
+      "RUM costs $1 per 1,000 sessions, synthetic checks cost $1 per 5,000 and browser tests cost $10 per 1,000 runs.",
+      "Root cause analysis and automated fixes from the OpsAI feature are billed by token usage."
+    ],
+    "sourceUrl": "https://middleware.io/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Splunk Observability Cloud",
+  "status": "published",
+  "vendor": { "name": "Splunk LLC (Cisco)", "website": "https://www.splunk.com" },
+  "primaryCategory": "apm",
+  "summary": "Splunk Observability Cloud sells editions by host. APM comes with App & Infra at $60 a host a month and End-to-End at $75, both billed annually, while the $15 Infrastructure edition has no APM. The APM product stores 100% of traces for search.",
+  "qualifies": [
+    {
+      "category": "apm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "request tracing", "sourceUrl": "https://www.splunk.com/en_us/products/apm-application-performance-monitoring.html" },
+        { "capability": "performance metrics", "sourceUrl": "https://www.splunk.com/en_us/products/apm-application-performance-monitoring.html" },
+        { "capability": "alerting", "sourceUrl": "https://www.splunk.com/en_us/products/apm-application-performance-monitoring.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Trace search covers any combination of tag values, errors and latencies, and the page states that 100% of traces are stored.", "sourceUrl": "https://www.splunk.com/en_us/products/apm-application-performance-monitoring.html", "checkedAt": "2026-11-04" },
+    { "text": "The page says users can receive alerts on slow response times or problematic queries for common databases.", "sourceUrl": "https://www.splunk.com/en_us/products/apm-application-performance-monitoring.html", "checkedAt": "2026-11-04" },
+    { "text": "The APM product is described as OpenTelemetry-native.", "sourceUrl": "https://www.splunk.com/en_us/products/apm-application-performance-monitoring.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Infrastructure", "priceUsd": 15, "billing": "month", "unit": "per host", "notes": "Starting price, billed annually. Does not include APM" },
+      { "name": "App & Infra", "priceUsd": 60, "billing": "month", "unit": "per host", "notes": "Starting price, billed annually. Includes APM with Always On Profiling" },
+      { "name": "End-to-End", "priceUsd": 75, "billing": "month", "unit": "per host", "notes": "Starting price, billed annually. Includes APM with Always On Profiling" }
+    ],
+    "hiddenCosts": [
+      "All listed prices are starting prices billed annually, and the page directs buyers to request a quote.",
+      "The page does not list a monthly billing option or a trial length, though it offers a free edition download."
+    ],
+    "sourceUrl": "https://www.splunk.com/en_us/products/pricing/observability.html",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["OpenTelemetry"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

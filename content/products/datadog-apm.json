@@ -1,0 +1,45 @@
+{
+  "name": "Datadog APM",
+  "status": "published",
+  "vendor": { "name": "Datadog, Inc.", "website": "https://www.datadoghq.com" },
+  "primaryCategory": "apm",
+  "summary": "Datadog APM is priced per host. The standalone plans cost $36, $41 and $47 per host a month on annual billing for APM, APM Pro and APM Enterprise. Each APM host includes 150 GB of ingested spans and 1 million indexed spans, and extra ingestion costs $0.10 per GB.",
+  "qualifies": [
+    {
+      "category": "apm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "request tracing", "sourceUrl": "https://www.datadoghq.com/product/apm/" },
+        { "capability": "performance metrics", "sourceUrl": "https://www.datadoghq.com/product/apm/" },
+        { "capability": "alerting", "sourceUrl": "https://www.datadoghq.com/product/apm/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The base APM tier includes distributed tracing, automatic service discovery and dependency mapping, 15 days of historical trace search, and request, error and duration metrics based on 100% of traffic with 15 months of retention.", "sourceUrl": "https://www.datadoghq.com/pricing/?product=apm", "checkedAt": "2026-11-04" },
+    { "text": "Data Streams Monitoring is added in APM Pro, and the Continuous Profiler is added in APM Enterprise.", "sourceUrl": "https://www.datadoghq.com/pricing/?product=apm", "checkedAt": "2026-11-04" },
+    { "text": "Different APM tiers cannot be mixed under one commitment.", "sourceUrl": "https://www.datadoghq.com/pricing/?product=apm", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "APM", "priceUsd": 36, "billing": "month", "unit": "per host", "notes": "Standalone, billed annually. Listed at $31 when bought with Infrastructure Monitoring. 150 GB of ingested spans and 1 million indexed spans per host a month" },
+      { "name": "APM Pro", "priceUsd": 41, "billing": "month", "unit": "per host", "notes": "Standalone, billed annually. Listed at $35 with Infrastructure Monitoring. Adds Data Streams Monitoring" },
+      { "name": "APM Enterprise", "priceUsd": 47, "billing": "month", "unit": "per host", "notes": "Standalone, billed annually. Listed at $40 with Infrastructure Monitoring. Adds the Continuous Profiler" }
+    ],
+    "hiddenCosts": [
+      "Ingested spans beyond the included 150 GB per host cost $0.10 per GB.",
+      "Indexed spans beyond the included amount are priced by retention period, for example $1.70 per million for 15 days on annual billing.",
+      "On-demand rates are higher than annual rates, for example $36 against $31 for APM bought with Infrastructure Monitoring.",
+      "The page lists a free trial button for each tier but does not state the trial length."
+    ],
+    "sourceUrl": "https://www.datadoghq.com/pricing/?product=apm",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

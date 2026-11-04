@@ -1,0 +1,44 @@
+{
+  "name": "Dynatrace",
+  "status": "published",
+  "vendor": { "name": "Dynatrace, Inc.", "website": "https://www.dynatrace.com" },
+  "primaryCategory": "apm",
+  "summary": "Dynatrace charges by memory used per hour. Full-Stack Monitoring costs $58 a month for an 8 GiB host, at $0.01 per memory GiB-hour, and includes APM and code-level profiling. Traces cost $0.20 per GiB to ingest. A 15-day free trial is listed.",
+  "qualifies": [
+    {
+      "category": "apm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "request tracing", "sourceUrl": "https://www.dynatrace.com/platform/application-performance-monitoring/" },
+        { "capability": "performance metrics", "sourceUrl": "https://www.dynatrace.com/platform/application-performance-monitoring/" },
+        { "capability": "alerting", "sourceUrl": "https://docs.dynatrace.com/docs/dynatrace-intelligence/anomaly-detection" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Dynatrace learns baselines that include the response times of applications and services, and notifies users of detected problems in real time.", "sourceUrl": "https://docs.dynatrace.com/docs/dynatrace-intelligence/anomaly-detection", "checkedAt": "2026-11-04" },
+    { "text": "Full-Stack Monitoring includes APM, code-level profiling and 10 days of trace retention.", "sourceUrl": "https://www.dynatrace.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Usage draws down from a minimum annual spend commitment at platform level, and the page says Dynatrace never charges penalty-style overages.", "sourceUrl": "https://www.dynatrace.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 15,
+    "plans": [
+      { "name": "Full-Stack Monitoring", "priceUsd": 58, "billing": "month", "unit": "per 8 GiB host", "notes": "Billed at $0.01 per memory GiB-hour. Includes APM, code-level profiling and 10 days of trace retention" },
+      { "name": "Infrastructure Monitoring", "priceUsd": 29, "billing": "month", "unit": "per host", "notes": "Billed at $0.04 per host-hour" }
+    ],
+    "hiddenCosts": [
+      "Traces cost $0.20 per GiB to ingest and process, $0.0007 per GiB-day to retain and $0.0035 per GiB scanned to query.",
+      "Metrics cost $0.15 per 100,000 datapoints to ingest and process.",
+      "The platform subscription needs a minimum annual spend commitment, and larger commitments lower unit prices.",
+      "Memory-based pricing means a host with more memory costs proportionally more than the 8 GiB example."
+    ],
+    "sourceUrl": "https://www.dynatrace.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

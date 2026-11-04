@@ -6,6 +6,15 @@
   "summary": "AppSignal bundles error tracking with performance monitoring and logging. The free plan covers 30,000 requests a month with 5-day retention, and the paid plan costs $279 a year, shown as $23.25 a month, for 250,000 requests with unlimited users and no overage charges.",
   "qualifies": [
     {
+      "category": "apm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "request tracing", "sourceUrl": "https://www.appsignal.com/tour/performance" },
+        { "capability": "performance metrics", "sourceUrl": "https://www.appsignal.com/tour/performance" },
+        { "capability": "alerting", "sourceUrl": "https://www.appsignal.com/tour/performance" }
+      ]
+    },
+    {
       "category": "error-tracking",
       "checkedAt": "2026-11-04",
       "evidence": [

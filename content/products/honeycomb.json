@@ -1,0 +1,43 @@
+{
+  "name": "Honeycomb",
+  "status": "published",
+  "vendor": { "name": "Hound Technology, Inc. (Honeycomb)", "website": "https://www.honeycomb.io" },
+  "primaryCategory": "apm",
+  "summary": "Honeycomb prices by event volume, not by host or seat. The free plan covers 20 million events and 100 million metric data points a month. Pro starts at $150 a month for 50 million events and scales to 750 million, with unlimited seats and SSO included.",
+  "qualifies": [
+    {
+      "category": "apm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "request tracing", "sourceUrl": "https://docs.honeycomb.io/get-started/basics/observability/concepts/distributed-tracing" },
+        { "capability": "performance metrics", "sourceUrl": "https://docs.honeycomb.io/send-data/metrics/" },
+        { "capability": "alerting", "sourceUrl": "https://docs.honeycomb.io/notify/alert/triggers/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Triggers notify a team when query results cross a threshold, through methods such as Slack, PagerDuty or email.", "sourceUrl": "https://docs.honeycomb.io/notify/alert/triggers/", "checkedAt": "2026-11-04" },
+    { "text": "Application and system metrics can be sent to Honeycomb and queried alongside traces and logs.", "sourceUrl": "https://docs.honeycomb.io/send-data/metrics/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists unlimited seats and gives the Free plan 2 triggers, the Pro plan 100 triggers and 2 SLOs.", "sourceUrl": "https://www.honeycomb.io/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Up to 20 million events and 100 million metric data points a month, 2 triggers" },
+      { "name": "Pro", "priceUsd": 150, "billing": "month", "unit": "per account", "notes": "Starting price for 50 million events, scaling to 750 million events and 3.75 billion metric data points a month. 100 triggers and 2 SLOs. Monthly or annual billing" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom quote, with a base allowance of 10 billion events a year" }
+    ],
+    "hiddenCosts": [
+      "The page lists telemetry collection starting at $0.10 per GB in addition to plan prices.",
+      "The page does not state data retention periods or what happens above the event limit."
+    ],
+    "sourceUrl": "https://www.honeycomb.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Slack", "PagerDuty", "Email", "OpenTelemetry", "Prometheus", "Amazon CloudWatch"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

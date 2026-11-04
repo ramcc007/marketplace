@@ -6,6 +6,15 @@
   "summary": "Sentry groups errors into issues, links them to releases and alerts on changes. The Developer plan is free for one user with 5,000 errors a month. Team costs $26 a month on annual billing for 50,000 errors, and Business at $80 adds SAML single sign-on.",
   "qualifies": [
     {
+      "category": "apm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "request tracing", "sourceUrl": "https://docs.sentry.io/product/tracing/" },
+        { "capability": "performance metrics", "sourceUrl": "https://docs.sentry.io/product/tracing/" },
+        { "capability": "alerting", "sourceUrl": "https://docs.sentry.io/product/alerts/" }
+      ]
+    },
+    {
       "category": "error-tracking",
       "checkedAt": "2026-11-04",
       "evidence": [
