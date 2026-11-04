@@ -1,0 +1,54 @@
+{
+  "name": "Ease",
+  "status": "published",
+  "vendor": { "name": "Ease", "website": "https://www.ease.com" },
+  "primaryCategory": "benefits-administration",
+  "summary": "Ease is a benefits administration system sold to insurance brokers, who pay for a Pro, Agency or Enterprise subscription and offer it to small-group clients. It offers carrier connections in three forms and sends eligibility data to carriers through 834 files, with a published list of more than 100 carriers. Subscription prices are not listed, but the FAQ gives add-on prices such as $6 per employee per form per year for ACA 1095 B and C forms.",
+  "qualifies": [
+    {
+      "category": "benefits-administration",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "benefits enrollment", "sourceUrl": "https://www.ease.com/" },
+        { "capability": "carrier connections or plan setup", "sourceUrl": "https://www.ease.com/product/platform/marketplace/connections/" },
+        { "capability": "eligibility tracking", "sourceUrl": "https://www.ease.com/product/platform/benefits-administration/managing-medical/834-files/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Brokers pay for Ease subscriptions in three tiers (Pro, Agency and Enterprise); employers go through their broker, and customer support carries no extra cost.", "sourceUrl": "https://www.ease.com/resources/faq/", "checkedAt": "2026-11-04" },
+    { "text": "The FAQ prices EaseHR at $1 PEPM for brokers to enable and $2 PEPM for employers. It puts payroll integration at typically $0 to $1.50 PEPM and ACA 1095 B and C forms at $6 per employee per form per year.", "sourceUrl": "https://www.ease.com/resources/faq/", "checkedAt": "2026-11-04" },
+    { "text": "For EaseConnect+ carriers, Ease's team reviews, sets up and maintains the connection; for EaseConnect carriers, Ease supports the broker through setup.", "sourceUrl": "https://www.ease.com/product/platform/marketplace/connections/", "checkedAt": "2026-11-04" },
+    { "text": "Ease sends eligibility data for medical, dental, vision and pharmacy benefits to carriers in 834 files, and its published carrier list says it tops 100 carriers.", "sourceUrl": "https://www.ease.com/product/platform/benefits-administration/managing-medical/834-files/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Pro", "priceUsd": null, "billing": "quote", "unit": "per broker", "notes": "Subscription price not published" },
+      { "name": "Agency", "priceUsd": null, "billing": "quote", "unit": "per broker", "notes": "Subscription price not published" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per broker", "notes": "Subscription price not published" }
+    ],
+    "hiddenCosts": [
+      "EaseHR costs $1 PEPM for brokers to enable and $2 PEPM for employers.",
+      "Payroll integrations typically cost $0 to $1.50 PEPM, with partner-specific setup fees where they apply.",
+      "ACA 1095 B and C forms cost $6 per employee per form per year."
+    ],
+    "sourceUrl": "https://www.ease.com/resources/faq/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.ease.com/resources/faq/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

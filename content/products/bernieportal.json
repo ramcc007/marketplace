@@ -1,0 +1,53 @@
+{
+  "name": "BerniePortal",
+  "status": "published",
+  "vendor": { "name": "BerniePortal", "website": "https://www.bernieportal.com" },
+  "primaryCategory": "benefits-administration",
+  "summary": "BerniePortal is an HR platform whose one published edition, Starter, costs $5 per employee per month plus a $25 base fee and includes benefits and COBRA administration. Employers can set different plans, contributions and eligibility rules for each subgroup, and the vendor says its operations team builds plans in about three business days and that elections flow directly to carriers. Add-ons for PTO, time, performance and payroll are priced on request.",
+  "qualifies": [
+    {
+      "category": "benefits-administration",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "benefits enrollment", "sourceUrl": "https://www.bernieportal.com/features/benefits/" },
+        { "capability": "carrier connections or plan setup", "sourceUrl": "https://www.bernieportal.com/features/benefits/" },
+        { "capability": "eligibility tracking", "sourceUrl": "https://www.bernieportal.com/features/benefits/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Starter Edition costs $5 per employee per month plus a $25 base fee and includes recruiting, onboarding, benefits, compliance and COBRA administration.", "sourceUrl": "https://www.bernieportal.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists no minimum employee count; the $25 base fee is the only stated minimum.", "sourceUrl": "https://www.bernieportal.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The vendor says its operations team completes a plan buildout in about 3 business days, and that buyers do not need a broker.", "sourceUrl": "https://www.bernieportal.com/features/benefits/", "checkedAt": "2026-11-04" },
+    { "text": "Employers can set different plans, contributions and eligibility rules for each subgroup, such as class, location or department.", "sourceUrl": "https://www.bernieportal.com/features/benefits/", "checkedAt": "2026-11-04" },
+    { "text": "The compliance feature page mentions ACA only in an FAQ about notices and does not describe ACA measurement or 1095-C reporting.", "sourceUrl": "https://www.bernieportal.com/features/compliance/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter Edition", "priceUsd": 5, "billing": "month", "unit": "per employee", "baseFeeUsd": 25, "notes": "Includes recruiting, onboarding, benefits, compliance and COBRA administration. Brokers can offer custom pricing to their clients" },
+      { "name": "HR Upgrades", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Add-ons for PTO, time, performance and payroll. Prices are given on a demo" }
+    ],
+    "hiddenCosts": [
+      "The $25 monthly base fee is charged on top of the per-employee price.",
+      "HR Upgrades (PTO, time, performance and payroll) are priced per user on request."
+    ],
+    "sourceUrl": "https://www.bernieportal.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.bernieportal.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

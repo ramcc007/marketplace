@@ -1,0 +1,48 @@
+{
+  "name": "Benefitfocus",
+  "status": "published",
+  "vendor": { "name": "Benefitfocus (a Voya Financial business)", "website": "https://www.benefitfocus.com" },
+  "primaryCategory": "benefits-administration",
+  "summary": "Benefitfocus is a benefits administration platform that covers guided enrollment, initial eligibility, annual enrollment and life event changes. Its setup work includes EDI builds, file integration and reconciliation with carriers, and it supports the LIMRA LDEx data standards. Its compliance services cover ACA reporting with eligibility and affordability calculations, and COBRA. It publishes no prices and sells through a demo request.",
+  "qualifies": [
+    {
+      "category": "benefits-administration",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "benefits enrollment", "sourceUrl": "https://www.benefitfocus.com/platform" },
+        { "capability": "carrier connections or plan setup", "sourceUrl": "https://www.benefitfocus.com/platform/integrations" },
+        { "capability": "eligibility tracking", "sourceUrl": "https://www.benefitfocus.com/employer-benefit-solutions/compliance" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The integrations page says Benefitfocus supports, and helped design, LIMRA's LDEx standards for file-based and API-based data exchange with insurers.", "sourceUrl": "https://www.benefitfocus.com/platform/integrations", "checkedAt": "2026-11-04" },
+    { "text": "The platform page says setup includes electronic data interchange (EDI) builds, file integration and reconciliation.", "sourceUrl": "https://www.benefitfocus.com/platform", "checkedAt": "2026-11-04" },
+    { "text": "Its ACA reporting service covers data review, eligibility and affordability calculations, IRS filing and state mandate reporting, and the page says ACA reporting applies to employers with 50 or more full-time and full-time-equivalent employees.", "sourceUrl": "https://www.benefitfocus.com/employer-benefit-solutions/compliance", "checkedAt": "2026-11-04" },
+    { "text": "The security page says SOC 2 Type 2 controls are assessed annually and HITRUST assessments are completed every two years.", "sourceUrl": "https://www.benefitfocus.com/security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices published. The platform page offers a personalized demo" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.benefitfocus.com/platform",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": true,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.benefitfocus.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

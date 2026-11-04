@@ -1,0 +1,55 @@
+{
+  "name": "Employee Navigator",
+  "status": "published",
+  "vendor": { "name": "Employee Navigator", "website": "https://www.employeenavigator.com" },
+  "primaryCategory": "benefits-administration",
+  "summary": "Employee Navigator is a benefits administration platform built around brokers, who bring their employer clients onto it. It covers online enrollment, carrier connections, and ACA tracking and 1094-C and 1095-C forms. It publishes no plan prices, only a table of four plans (Enhanced, Enhanced Plus, Elite and Platinum) with contact-sales buttons, and charges $0.45 per employee per month for 834 EDI feeds on two of them.",
+  "qualifies": [
+    {
+      "category": "benefits-administration",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "benefits enrollment", "sourceUrl": "https://www.employeenavigator.com/benefits-administration/" },
+        { "capability": "carrier connections or plan setup", "sourceUrl": "https://www.employeenavigator.com/modern-integrations/" },
+        { "capability": "eligibility tracking", "sourceUrl": "https://www.employeenavigator.com/aca-reporting/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The vendor says employees can self-enroll and manage their own benefits online, and admins can monitor enrollment status and deadlines.", "sourceUrl": "https://www.employeenavigator.com/benefits-administration/", "checkedAt": "2026-11-04" },
+    { "text": "The vendor says it connects directly to insurance carriers, payroll companies and TPAs, and names ADP, Paylocity and Paychex as payroll partners and UnitedHealthcare, Principal, MetLife and Guardian as carriers.", "sourceUrl": "https://www.employeenavigator.com/modern-integrations/", "checkedAt": "2026-11-04" },
+    { "text": "Its ACA tool uses the look-back measurement method to track hours, lets admins set measurement, stability and administrative periods, and generates 1094-C and 1095-C forms for employees and the IRS.", "sourceUrl": "https://www.employeenavigator.com/aca-reporting/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists 834 EDI feeds as not included on Enhanced, $0.45 PEPM on Enhanced Plus and Elite (with a note that additional fees apply), and free on Platinum.", "sourceUrl": "https://www.employeenavigator.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The security page states annual audits against SOC 2 Type II, HITRUST and GDPR, but also lists SOC 2 as Type III in its certifications section, so ask for the current report.", "sourceUrl": "https://www.employeenavigator.com/security/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Enhanced", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales. 834 EDI feeds are not included" },
+      { "name": "Enhanced Plus", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales. 834 EDI feeds cost $0.45 PEPM, with additional fees noted" },
+      { "name": "Elite", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales. 834 EDI feeds cost $0.45 PEPM, with additional fees noted" },
+      { "name": "Platinum", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales. 834 EDI feeds are free" }
+    ],
+    "hiddenCosts": [
+      "834 EDI feeds are an extra $0.45 per employee per month on Enhanced Plus and Elite, and the page adds that additional fees apply.",
+      "The page does not say whether the fees are charged to brokers or to employers."
+    ],
+    "sourceUrl": "https://www.employeenavigator.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.employeenavigator.com/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["ADP", "Paylocity", "Paychex", "UnitedHealthcare", "Principal", "MetLife", "Guardian"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

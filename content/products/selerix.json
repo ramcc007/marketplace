@@ -1,0 +1,47 @@
+{
+  "name": "Selerix",
+  "status": "published",
+  "vendor": { "name": "Selerix Systems", "website": "https://selerix.com" },
+  "primaryCategory": "benefits-administration",
+  "summary": "Selerix sells BenSelect, a benefits administration platform for enrollment, eligibility and carrier connections. Its integrations page describes a library of established file feeds plus API integrations, and a partner network that it shows with 24 logos. It also tracks variable-hour eligibility for ACA with measurement and stability period logic. No prices are published, and the site points buyers to a demo request.",
+  "qualifies": [
+    {
+      "category": "benefits-administration",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "benefits enrollment", "sourceUrl": "https://selerix.com/solutions/benefits-administration/" },
+        { "capability": "carrier connections or plan setup", "sourceUrl": "https://selerix.com/solutions/integrations-and-partnerships/" },
+        { "capability": "eligibility tracking", "sourceUrl": "https://selerix.com/solutions/aca-software/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The integrations page describes an expansive library of established file feeds to simplify setup, and says its API integrations are an alternative to manual feeds.", "sourceUrl": "https://selerix.com/solutions/integrations-and-partnerships/", "checkedAt": "2026-11-04" },
+    { "text": "The ACA page says Selerix automates variable-hour eligibility tracking using measurement and stability period logic.", "sourceUrl": "https://selerix.com/solutions/aca-software/", "checkedAt": "2026-11-04" },
+    { "text": "The benefits administration page says the platform handles varied contribution structures, multiple populations and unique pay cycles, and that it has completed a SOC 2 audit.", "sourceUrl": "https://selerix.com/solutions/benefits-administration/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices published. The site directs buyers to talk to an expert and request a live demo" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://selerix.com/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://selerix.com/solutions/benefits-administration/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

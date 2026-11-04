@@ -1,0 +1,48 @@
+{
+  "name": "Paychex Benefits Administration",
+  "status": "published",
+  "vendor": { "name": "Paychex", "website": "https://www.paychex.com" },
+  "primaryCategory": "benefits-administration",
+  "summary": "Paychex Benefits Administration lets employees compare plans and enroll themselves, and helps admins track eligibility, enrollment forms and benefit changes. Paychex says it connects to hundreds of national and regional carriers and integrates with Paychex Flex payroll. The page lists no prices, only Get a Quote and Request Pricing buttons, and says Paychex Insurance Agency can provide the platform at no additional cost when it helps an employer find benefits.",
+  "qualifies": [
+    {
+      "category": "benefits-administration",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "benefits enrollment", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration" },
+        { "capability": "carrier connections or plan setup", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration" },
+        { "capability": "eligibility tracking", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Paychex says admins can stay on top of eligibility tracking, enrollment forms and benefit changes, and that employees can compare plans and enroll without a broker or HR.", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration", "checkedAt": "2026-11-04" },
+    { "text": "The page says the software connects with hundreds of national and regional carriers and integrates with Paychex Flex payroll.", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration", "checkedAt": "2026-11-04" },
+    { "text": "The page says Paychex Insurance Agency can help find a benefits provider and offer the benefits administration platform at no additional cost.", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration", "checkedAt": "2026-11-04" },
+    { "text": "The page lists built-in ACA and HIPAA compliance support but names no security certifications.", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices published. The page has Get a Quote and Request Pricing buttons that go to sales" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Paychex Flex"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

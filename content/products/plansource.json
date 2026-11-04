@@ -1,0 +1,48 @@
+{
+  "name": "PlanSource",
+  "status": "published",
+  "vendor": { "name": "PlanSource", "website": "https://www.plansource.com" },
+  "primaryCategory": "benefits-administration",
+  "summary": "PlanSource is a benefits administration platform for open enrollment, eligibility tracking, ACA reporting and COBRA. Its Boost Carrier Integration Program connects carriers through APIs instead of weekly files, and a Plan Configuration API pulls plans, rates and rules from carrier systems; the vendor says it is live with Guardian, MetLife and Mutual of Omaha. PlanSource publishes no prices, and its pricing address redirects to a contact page.",
+  "qualifies": [
+    {
+      "category": "benefits-administration",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "benefits enrollment", "sourceUrl": "https://www.plansource.com/products/benefits-administration/" },
+        { "capability": "carrier connections or plan setup", "sourceUrl": "https://plansource.com/carriers-and-partners/" },
+        { "capability": "eligibility tracking", "sourceUrl": "https://www.plansource.com/products/benefits-administration/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The vendor says its Plan Configuration API pulls plans, rates and rules directly from carrier systems, and that setup and renewals that took weeks can finish in minutes.", "sourceUrl": "https://plansource.com/carriers-and-partners/", "checkedAt": "2026-11-04" },
+    { "text": "The Boost network section shows 18 carrier logos, and the page gives no total carrier count.", "sourceUrl": "https://plansource.com/carriers-and-partners/", "checkedAt": "2026-11-04" },
+    { "text": "The FAQ on the product page lists eligibility tracking, dependent verification, ACA reporting and COBRA administration among the compliance needs it supports.", "sourceUrl": "https://www.plansource.com/products/benefits-administration/", "checkedAt": "2026-11-04" },
+    { "text": "The Trust Center lists SOC 2 Type 2, ISO/IEC 27001:2022 and HIPAA, with reports available on request.", "sourceUrl": "https://trust.plansource.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices published. The pricing address redirects to the contact page, which offers a demo and a sales form" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.plansource.com/contact/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": null,
+    "hipaa": true,
+    "ssoPlan": null,
+    "sourceUrl": "https://trust.plansource.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Guardian", "MetLife", "Mutual of Omaha"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
