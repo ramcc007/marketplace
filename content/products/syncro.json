@@ -1,0 +1,56 @@
+{
+  "name": "Syncro",
+  "status": "published",
+  "vendor": { "name": "Syncro", "website": "https://syncrosecure.com" },
+  "primaryCategory": "rmm",
+  "summary": "Syncro combines RMM with a PSA for managed service providers and prices per technician, not per endpoint. The Core plan costs $129 per user per month on annual billing or $159 monthly, and Team costs $179 or $209. Endpoints are unlimited on both plans, and a 14-day trial needs no credit card.",
+  "qualifies": [
+    {
+      "category": "rmm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "endpoint monitoring agents", "sourceUrl": "https://syncrosecure.com/platform/endpoint-management/" },
+        { "capability": "remote scripting and patching", "sourceUrl": "https://syncrosecure.com/for-msps/rmm/" },
+        { "capability": "alerting", "sourceUrl": "https://syncrosecure.com/for-msps/rmm/" }
+      ]
+    },
+    {
+      "category": "patch-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "os and third-party patching", "sourceUrl": "https://syncrosecure.com/for-msps/rmm/" },
+        { "capability": "patch scheduling", "sourceUrl": "https://syncrosecure.com/for-msps/rmm/" },
+        { "capability": "compliance reports", "sourceUrl": "https://syncrosecure.com/for-msps/rmm/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Pricing is per technician who uses Syncro, not per client or per endpoint.", "sourceUrl": "https://syncrosecure.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The Team plan includes Microsoft 365 management, which the Core plan does not.", "sourceUrl": "https://syncrosecure.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Syncro lists Microsoft 365 Cloud Backup at $1.90 per user per month as an add-on.", "sourceUrl": "https://syncrosecure.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Scripts run in PowerShell and Mac shell, with a library of ready-made scripts from Syncro and its user community.", "sourceUrl": "https://syncrosecure.com/for-msps/rmm/", "checkedAt": "2026-11-04" },
+    { "text": "AI features are free through January 2027, after which they run on usage-based AI credits with a monthly free pool. The page gives no credit price.", "sourceUrl": "https://syncrosecure.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Core (annual)", "priceUsd": 129, "billing": "month", "unit": "per user", "notes": "Annual commitment, paid monthly. Unlimited endpoints" },
+      { "name": "Core (monthly)", "priceUsd": 159, "billing": "month", "unit": "per user", "notes": "Month-to-month. Unlimited endpoints" },
+      { "name": "Team (annual)", "priceUsd": 179, "billing": "month", "unit": "per user", "notes": "Annual commitment, paid monthly. Adds Microsoft 365 management" },
+      { "name": "Team (monthly)", "priceUsd": 209, "billing": "month", "unit": "per user", "notes": "Month-to-month. Adds Microsoft 365 management" }
+    ],
+    "hiddenCosts": [
+      "Microsoft 365 Cloud Backup costs $1.90 per user per month extra.",
+      "AI features move to usage-based credits after January 2027, and the credit price is not published.",
+      "Volume discounts, purchase-order billing and multi-year terms are quoted by sales."
+    ],
+    "sourceUrl": "https://syncrosecure.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

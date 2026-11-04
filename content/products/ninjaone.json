@@ -1,0 +1,69 @@
+{
+  "name": "NinjaOne",
+  "status": "published",
+  "vendor": { "name": "NinjaOne", "website": "https://www.ninjaone.com" },
+  "primaryCategory": "rmm",
+  "summary": "NinjaOne does not publish a full price list. Its pricing page says rates start as low as $1.50 per device per month at 10,000 endpoints and rise to $3.75 at 50 or fewer, varying by region and products. It offers a 14-day trial, no implementation fee, and cancellation on 60 days' notice for partners without a promotional commitment.",
+  "qualifies": [
+    {
+      "category": "rmm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "endpoint monitoring agents", "sourceUrl": "https://www.ninjaone.com/rmm/" },
+        { "capability": "remote scripting and patching", "sourceUrl": "https://www.ninjaone.com/rmm/" },
+        { "capability": "alerting", "sourceUrl": "https://www.ninjaone.com/rmm/" }
+      ]
+    },
+    {
+      "category": "patch-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "os and third-party patching", "sourceUrl": "https://www.ninjaone.com/patch-management/" },
+        { "capability": "patch scheduling", "sourceUrl": "https://www.ninjaone.com/patch-management/" },
+        { "capability": "compliance reports", "sourceUrl": "https://www.ninjaone.com/patch-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The page cites patching of Windows, macOS and Linux operating systems plus over 200 third-party applications.", "sourceUrl": "https://www.ninjaone.com/rmm/", "checkedAt": "2026-11-04" },
+    { "text": "NinjaOne lists FedRAMP Class C certification, SOC 2 Type II attestation, ISO/IEC 27001 certification and GDPR compliance, with a HIPAA BAA available.", "sourceUrl": "https://www.ninjaone.com/rmm/", "checkedAt": "2026-11-04" },
+    { "text": "The quoted rates apply to the commercial, non-FedRAMP instance only.", "sourceUrl": "https://www.ninjaone.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Support is described as free and unlimited, and implementation is not charged.", "sourceUrl": "https://www.ninjaone.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Per-device pricing", "priceUsd": null, "billing": "quote", "unit": "per device", "notes": "Published range is $1.50 per device per month at 10,000 endpoints to $3.75 at 50 or fewer endpoints. Full pricing is by request" }
+    ],
+    "hiddenCosts": [
+      "The page says full pricing is not listed publicly and that rates vary by region and products purchased.",
+      "Month-to-month billing is decided case by case."
+    ],
+    "sourceUrl": "https://www.ninjaone.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.ninjaone.com/rmm/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Partners without a promotional commitment can cancel at any time with 60 days' notice.",
+    "dataExport": null,
+    "sourceUrl": "https://www.ninjaone.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Splashtop", "Microsoft Entra", "SentinelOne", "Slack", "CrowdStrike", "Okta", "ConnectWise", "IT Glue"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ConnectWise RMM",
+  "status": "published",
+  "vendor": { "name": "ConnectWise", "website": "https://www.connectwise.com" },
+  "primaryCategory": "rmm",
+  "summary": "ConnectWise RMM publishes no prices and routes buyers to a pricing request or a sales call. The page offers a free trial. Agents installed on devices send health and performance data to a central dashboard, scripts run in PowerShell, bash and batch, and alerts are prioritized for a 24/7 monitoring view.",
+  "qualifies": [
+    {
+      "category": "rmm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "endpoint monitoring agents", "sourceUrl": "https://www.connectwise.com/platform/unified-management/rmm" },
+        { "capability": "remote scripting and patching", "sourceUrl": "https://www.connectwise.com/platform/unified-management/rmm" },
+        { "capability": "alerting", "sourceUrl": "https://www.connectwise.com/platform/unified-management/rmm" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Endpoint management covers Windows, macOS, Linux, network and cloud devices.", "sourceUrl": "https://www.connectwise.com/platform/unified-management/rmm", "checkedAt": "2026-11-04" },
+    { "text": "The page links to a Trust Center but names no certifications itself.", "sourceUrl": "https://www.connectwise.com/platform/unified-management/rmm", "checkedAt": "2026-11-04" },
+    { "text": "ConnectWise sells a separate product, ConnectWise Automate, whose page says ConnectWise RMM covers more third-party applications for patching.", "sourceUrl": "https://www.connectwise.com/platform/unified-management/automate", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Quote", "priceUsd": null, "billing": "quote", "unit": "per quote", "notes": "No prices published; the page offers Request pricing and Talk to Sales" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.connectwise.com/platform/unified-management/rmm",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

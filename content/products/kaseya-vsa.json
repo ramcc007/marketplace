@@ -1,0 +1,47 @@
+{
+  "name": "Kaseya VSA",
+  "status": "published",
+  "vendor": { "name": "Kaseya", "website": "https://www.kaseya.com" },
+  "primaryCategory": "rmm",
+  "summary": "Kaseya VSA is quote-only: its product page publishes no prices, mentions no free trial and offers a demo request. Agents run on Windows, macOS and Linux, and policies carry more than 500 prebuilt components for scripts and installs. Alert thresholds can trigger tickets, webhooks or automated responses.",
+  "qualifies": [
+    {
+      "category": "rmm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "endpoint monitoring agents", "sourceUrl": "https://www.kaseya.com/products/vsa/" },
+        { "capability": "remote scripting and patching", "sourceUrl": "https://www.kaseya.com/products/vsa/" },
+        { "capability": "alerting", "sourceUrl": "https://www.kaseya.com/products/vsa/" }
+      ]
+    },
+    {
+      "category": "patch-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "os and third-party patching", "sourceUrl": "https://www.kaseya.com/products/vsa/patch-management/" },
+        { "capability": "patch scheduling", "sourceUrl": "https://www.kaseya.com/products/vsa/patch-management/" },
+        { "capability": "compliance reports", "sourceUrl": "https://www.kaseya.com/products/vsa/patch-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Patching is policy based for Windows, with macOS and Linux updates through reusable components and central updates for supported third-party apps.", "sourceUrl": "https://www.kaseya.com/products/vsa/", "checkedAt": "2026-11-04" },
+    { "text": "Jobs can run once or on a schedule against devices, sites, filters or groups.", "sourceUrl": "https://www.kaseya.com/products/vsa/", "checkedAt": "2026-11-04" },
+    { "text": "The page refers to a Kaseya 365 Endpoint subscription without listing its cost.", "sourceUrl": "https://www.kaseya.com/products/vsa/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Quote", "priceUsd": null, "billing": "quote", "unit": "per quote", "notes": "No prices published; the main call to action is Get a demo" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.kaseya.com/products/vsa/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

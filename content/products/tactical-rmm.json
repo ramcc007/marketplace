@@ -1,0 +1,43 @@
+{
+  "name": "Tactical RMM",
+  "status": "published",
+  "vendor": { "name": "AmidaWare LLC", "website": "https://docs.tacticalrmm.com" },
+  "primaryCategory": "rmm",
+  "summary": "Tactical RMM is source-available software you host yourself. Its license grants use free of charge, including for monitoring in-house and customer networks. Offering it as a commercial or SaaS service needs AmidaWare's prior written approval. A Golang agent runs scripts in several languages, patches Windows and sends alerts.",
+  "qualifies": [
+    {
+      "category": "rmm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "endpoint monitoring agents", "sourceUrl": "https://docs.tacticalrmm.com/" },
+        { "capability": "remote scripting and patching", "sourceUrl": "https://docs.tacticalrmm.com/" },
+        { "capability": "alerting", "sourceUrl": "https://docs.tacticalrmm.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Remote execution covers bash, batch, PowerShell, Python, nushell and deno scripts, with a scheduled task runner.", "sourceUrl": "https://docs.tacticalrmm.com/", "checkedAt": "2026-11-04" },
+    { "text": "Automated checks cover CPU, disk, memory, services, scripts and event logs, with email, SMS and webhook alerts.", "sourceUrl": "https://docs.tacticalrmm.com/", "checkedAt": "2026-11-04" },
+    { "text": "Windows, Linux and Mac agents are supported, but the Mac and Linux agents and code-signed Windows agents are listed as sponsorship features.", "sourceUrl": "https://docs.tacticalrmm.com/", "checkedAt": "2026-11-04" },
+    { "text": "The license requires AmidaWare's prior written approval for all commercial or for-profit service use and bars offering it as part of a SaaS product without permission.", "sourceUrl": "https://docs.tacticalrmm.com/license/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "free",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Self-hosted", "priceUsd": 0, "billing": "month", "unit": "per install", "notes": "License grant is free of charge. You pay for your own server, and sponsorship unlocks some agent features" }
+    ],
+    "hiddenCosts": [
+      "You run and secure the server yourself.",
+      "Sponsorship tiers carry the Mac and Linux agents and code-signed Windows agents; the docs give no sponsorship price.",
+      "Commercial service use needs written approval, and the license lists no fee for it."
+    ],
+    "sourceUrl": "https://docs.tacticalrmm.com/license/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["MeshCentral"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Pulseway",
+  "status": "published",
+  "vendor": { "name": "Pulseway", "website": "https://www.pulseway.com" },
+  "primaryCategory": "rmm",
+  "summary": "Pulseway publishes no prices on its pricing page, which lists monitoring and alerting, remote control, patch management and scripting as core products. Security, ticketing and backup are sold as add-ons. Its pages offer a demo rather than a trial, so buyers must ask sales for a quote.",
+  "qualifies": [
+    {
+      "category": "rmm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "endpoint monitoring agents", "sourceUrl": "https://www.pulseway.com/" },
+        { "capability": "remote scripting and patching", "sourceUrl": "https://www.pulseway.com/" },
+        { "capability": "alerting", "sourceUrl": "https://www.pulseway.com/" }
+      ]
+    },
+    {
+      "category": "patch-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "os and third-party patching", "sourceUrl": "https://www.pulseway.com/patch-management" },
+        { "capability": "patch scheduling", "sourceUrl": "https://www.pulseway.com/patch-management" },
+        { "capability": "compliance reports", "sourceUrl": "https://www.pulseway.com/patch-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Monitoring and alerting cover Windows, Mac and Linux, plus network devices and IoT.", "sourceUrl": "https://www.pulseway.com/", "checkedAt": "2026-11-04" },
+    { "text": "Patch management covers operating systems and third-party apps.", "sourceUrl": "https://www.pulseway.com/", "checkedAt": "2026-11-04" },
+    { "text": "Antivirus, ransomware detection, phishing defense, ticketing, IT documentation and backup are listed as add-on products.", "sourceUrl": "https://www.pulseway.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The home page offers a demo and a contact route but mentions no free trial.", "sourceUrl": "https://www.pulseway.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Quote", "priceUsd": null, "billing": "quote", "unit": "per quote", "notes": "No prices are published on the pricing page" }
+    ],
+    "hiddenCosts": [
+      "Security, ticketing, documentation and backup products are separate add-ons with no published price."
+    ],
+    "sourceUrl": "https://www.pulseway.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

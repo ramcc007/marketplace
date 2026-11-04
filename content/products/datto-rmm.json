@@ -1,0 +1,38 @@
+{
+  "name": "Datto RMM",
+  "status": "published",
+  "vendor": { "name": "Datto (a Kaseya company)", "website": "https://www.datto.com" },
+  "primaryCategory": "rmm",
+  "summary": "Datto RMM is built for managed service providers and is sold by quote only. Its product page offers a trial on request and links to a separate pricing request form. A lightweight agent on each managed device reports to the platform, with scripting, policies, webhooks, patch deployment and alerts that can respond automatically.",
+  "qualifies": [
+    {
+      "category": "rmm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "endpoint monitoring agents", "sourceUrl": "https://www.datto.com/products/rmm/" },
+        { "capability": "remote scripting and patching", "sourceUrl": "https://www.datto.com/products/rmm/" },
+        { "capability": "alerting", "sourceUrl": "https://www.datto.com/products/rmm/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Datto says RMM was assessed in its first Building Security In Maturity Model (BSIMM) review; the page does not mention SOC 2 or ISO 27001.", "sourceUrl": "https://www.datto.com/products/rmm/", "checkedAt": "2026-11-04" },
+    { "text": "The platform runs in five regions: two in Ireland, two in the US and one in Sydney, Australia.", "sourceUrl": "https://www.datto.com/products/rmm/", "checkedAt": "2026-11-04" },
+    { "text": "A native Microsoft 365 management module is included, with integrations for Autotask PSA, SIRIS and Cloud Managed WiFi.", "sourceUrl": "https://www.datto.com/products/rmm/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Quote", "priceUsd": null, "billing": "quote", "unit": "per quote", "notes": "No prices published; the page offers Request Pricing and Request A Trial links" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.datto.com/products/rmm/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Autotask PSA", "SIRIS", "Cloud Managed WiFi", "Microsoft 365"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

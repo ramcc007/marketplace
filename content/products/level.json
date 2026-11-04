@@ -1,0 +1,61 @@
+{
+  "name": "Level",
+  "status": "published",
+  "vendor": { "name": "Level", "website": "https://level.io" },
+  "primaryCategory": "rmm",
+  "summary": "Level charges $2 per device per month once an account passes 10 devices, with the first 10 free and every feature included. Billing is month to month on peak device count, with no annual commitment. Scripts run in PowerShell, Bash, Python and other languages, and patching covers Windows, macOS and Linux.",
+  "qualifies": [
+    {
+      "category": "rmm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "endpoint monitoring agents", "sourceUrl": "https://level.io/features/monitoring-and-alerting" },
+        { "capability": "remote scripting and patching", "sourceUrl": "https://level.io/features/scripting" },
+        { "capability": "alerting", "sourceUrl": "https://level.io/features/monitoring-and-alerting" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Scripts can run in PowerShell, Shell, Python, Go, Ansible and osquery against one device, a group or a tag, and output streams back live.", "sourceUrl": "https://level.io/features/scripting", "checkedAt": "2026-11-04" },
+    { "text": "Patching covers Windows, macOS and Linux, with staged rings, an approval step between waves, and a way to block a known-bad update across the fleet.", "sourceUrl": "https://level.io/features/patch-management", "checkedAt": "2026-11-04" },
+    { "text": "Alerts only open after a condition persists for a set time and can auto-resolve; antivirus and event log monitors work on Windows only.", "sourceUrl": "https://level.io/features/monitoring-and-alerting", "checkedAt": "2026-11-04" },
+    { "text": "Level states an audited SOC 2 Type II report available under NDA, with ISO certification in progress.", "sourceUrl": "https://level.io/security", "checkedAt": "2026-11-04" },
+    { "text": "Nonprofit and educational organizations get 10% off by contacting Level.", "sourceUrl": "https://level.io/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free tier", "priceUsd": 0, "billing": "month", "unit": "per device, first 10 devices", "notes": "Every feature included" },
+      { "name": "Paid", "priceUsd": 2, "billing": "month", "unit": "per device", "notes": "Applies to every device once an account passes 10, billed on peak device count in the month. No setup or onboarding fee. Above 2,000 devices, contact Level" }
+    ],
+    "hiddenCosts": [
+      "Above 2,000 devices Level publishes no price and asks buyers to contact it."
+    ],
+    "sourceUrl": "https://level.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": false,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": "Okta, Google and Authentik sign-in",
+    "sourceUrl": "https://level.io/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Month-to-month billing with no annual commitment.",
+    "dataExport": null,
+    "sourceUrl": "https://level.io/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Okta", "Google", "Authentik"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
