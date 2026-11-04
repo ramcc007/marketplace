@@ -13,6 +13,15 @@
         { "capability": "expense policies and approvals", "sourceUrl": "https://www.spendesk.com/expense-management/" },
         { "capability": "reimbursement", "sourceUrl": "https://www.spendesk.com/expense-management/" }
       ]
+    },
+    {
+      "category": "spend-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "company or virtual cards", "sourceUrl": "https://www.spendesk.com/spend-management/" },
+        { "capability": "purchase approvals", "sourceUrl": "https://www.spendesk.com/spend-management/" },
+        { "capability": "spend visibility by team", "sourceUrl": "https://www.spendesk.com/spend-management/" }
+      ]
     }
   ],
   "facts": [

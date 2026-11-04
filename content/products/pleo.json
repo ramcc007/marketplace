@@ -1,0 +1,44 @@
+{
+  "name": "Pleo",
+  "status": "published",
+  "vendor": { "name": "Pleo", "website": "https://www.pleo.io" },
+  "primaryCategory": "spend-management",
+  "summary": "Pleo gives every employee a physical or virtual company card and adds approval workflows on its Build plan. Budgets and spending insights arrive on the Optimise plan. The US page lists Build at $14 and Optimise at $18 per user per month, billed yearly with a three-user minimum. Foreign exchange fees of 1.49% to 1.75% apply to card and invoice payments.",
+  "qualifies": [
+    {
+      "category": "spend-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "company or virtual cards", "sourceUrl": "https://www.pleo.io/us/features" },
+        { "capability": "purchase approvals", "sourceUrl": "https://www.pleo.io/us/pricing" },
+        { "capability": "spend visibility by team", "sourceUrl": "https://www.pleo.io/us/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Pleo's US features page says virtual cards are issued in seconds and that spend limits and multi-step approvals are available.", "sourceUrl": "https://www.pleo.io/us/features", "checkedAt": "2026-11-04" },
+    { "text": "On the US pricing page, Build includes approval workflows and teams management, while budgets appear only on Optimise.", "sourceUrl": "https://www.pleo.io/us/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The US page lists direct reimbursements at 0.90% on both plans and free ATM withdrawals.", "sourceUrl": "https://www.pleo.io/us/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Pleo's US prepaid card is issued by Pathward N.A., Member FDIC.", "sourceUrl": "https://www.pleo.io/us/features", "checkedAt": "2026-11-04" },
+    { "text": "The global pricing page shows a UK price list in pounds with a Start plan at 8 pounds per user per month, so the plans and prices differ by country.", "sourceUrl": "https://www.pleo.io/en/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Build", "priceUsd": 14, "billing": "year", "unit": "per user per month, billed yearly, 3 users minimum", "notes": "Approval workflows, teams management, physical and virtual cards. Foreign exchange fee 1.75% on card and invoice payments. Direct reimbursements 0.90%" },
+      { "name": "Optimise", "priceUsd": 18, "billing": "year", "unit": "per user per month, billed yearly, 3 users minimum", "notes": "Everything in Build plus budgets and spending insights. Foreign exchange fee 1.49% on card and invoice payments. Direct reimbursements 0.90%" }
+    ],
+    "hiddenCosts": [
+      "The US page links to Medium and Enterprise plans without showing prices.",
+      "Foreign exchange fees of 1.75% (Build) and 1.49% (Optimise) apply to card and invoice payments."
+    ],
+    "sourceUrl": "https://www.pleo.io/us/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -13,6 +13,15 @@
         { "capability": "expense policies and approvals", "sourceUrl": "https://payhawk.com/product-expense-management" },
         { "capability": "reimbursement", "sourceUrl": "https://payhawk.com/product-expense-management" }
       ]
+    },
+    {
+      "category": "spend-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "company or virtual cards", "sourceUrl": "https://payhawk.com/product-expense-management" },
+        { "capability": "purchase approvals", "sourceUrl": "https://payhawk.com/product-expense-management" },
+        { "capability": "spend visibility by team", "sourceUrl": "https://payhawk.com/en-us/budgets" }
+      ]
     }
   ],
   "facts": [

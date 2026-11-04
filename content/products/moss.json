@@ -1,0 +1,42 @@
+{
+  "name": "Moss",
+  "status": "published",
+  "vendor": { "name": "Moss", "website": "https://www.getmoss.com" },
+  "primaryCategory": "spend-management",
+  "summary": "Moss issues unlimited virtual cards and routes purchase requests to the right approver before a commitment is made. Team budgets show live spend for department heads and finance. It charges one platform fee set by the modules chosen, plus a variable fee based on monthly transaction volume, with no per-user fee. It publishes no amounts, so a quote is needed.",
+  "qualifies": [
+    {
+      "category": "spend-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "company or virtual cards", "sourceUrl": "https://www.getmoss.com/solutions/spend-management" },
+        { "capability": "purchase approvals", "sourceUrl": "https://www.getmoss.com/solutions/spend-management" },
+        { "capability": "spend visibility by team", "sourceUrl": "https://www.getmoss.com/solutions/spend-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Moss says virtual cards are unlimited with no per-user fee, and that limits, merchant rules and approvals can be set per card, team or project.", "sourceUrl": "https://www.getmoss.com/solutions/spend-management", "checkedAt": "2026-11-04" },
+    { "text": "Moss says a purchase request can be required before a commitment is made, and that budgets are live by team, project or cost centre.", "sourceUrl": "https://www.getmoss.com/solutions/spend-management", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says the platform fee applies regardless of the number of users and that a variable fee depends on expected monthly transaction volume.", "sourceUrl": "https://www.getmoss.com/en/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page offers a free start with Cards or Accounts Payable but does not say what the free option includes.", "sourceUrl": "https://www.getmoss.com/en/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Moss platform", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Single platform fee set by the modules and add-ons chosen, plus a variable fee based on monthly transaction volume. No per-user fee. Modules are Corporate Cards, Employee Reimbursements and Accounts Payable" }
+    ],
+    "hiddenCosts": [
+      "Procurement, Advanced Controlling, ERP and AI-powered accounting are add-ons with no published prices.",
+      "The pricing page shows no currency or amounts, and Moss is based in Europe, so availability and terms outside its core markets need to be confirmed."
+    ],
+    "sourceUrl": "https://www.getmoss.com/en/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

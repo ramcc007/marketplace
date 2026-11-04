@@ -1,0 +1,43 @@
+{
+  "name": "Volopay",
+  "status": "published",
+  "vendor": { "name": "Volopay", "website": "https://www.volopay.com" },
+  "primaryCategory": "spend-management",
+  "summary": "Volopay offers virtual cards for online payments and physical cards for travelers, with pre-approval policies and fund requests that approvers can accept or deny. Policies can be set for specific departments and budgets. Its US pricing page lists a Premium card plan and an accounts payable plan without amounts, so buyers need a quote.",
+  "qualifies": [
+    {
+      "category": "spend-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "company or virtual cards", "sourceUrl": "https://www.volopay.com/expense-management/" },
+        { "capability": "purchase approvals", "sourceUrl": "https://www.volopay.com/expense-management/" },
+        { "capability": "spend visibility by team", "sourceUrl": "https://www.volopay.com/expense-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Volopay says employees can request funds and approvers can approve or deny them with a click, and describes a pre-approval policy so expenses are sanctioned before they are incurred.", "sourceUrl": "https://www.volopay.com/expense-management/", "checkedAt": "2026-11-04" },
+    { "text": "The US pricing page lists a Premium card plan with a physical card per user, virtual cards and multi-level approval.", "sourceUrl": "https://www.volopay.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The US pricing page says payment services for US customers are provided by Airwallex US, LLC.", "sourceUrl": "https://www.volopay.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The accounts payable plan lists a $0 domestic transfer fee and an international transfer fee with no amount.", "sourceUrl": "https://www.volopay.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Premium card", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Physical card per user, virtual cards and multi-level approval. No amount is published and the call to action is Talk to sales" },
+      { "name": "Accounts payable automation", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Multi-level approval, $0 domestic transfer fee and a low international transfer fee with no amount given" }
+    ],
+    "hiddenCosts": [
+      "The international transfer fee on the accounts payable plan has no published amount.",
+      "The pricing page shows no card fees and no free trial."
+    ],
+    "sourceUrl": "https://www.volopay.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
