@@ -1,0 +1,66 @@
+{
+  "name": "updown.io",
+  "status": "published",
+  "vendor": { "name": "Adrien Rey-Jarthon (EI)", "website": "https://updown.io" },
+  "primaryCategory": "uptime-monitoring",
+  "summary": "updown.io charges by the check from prepaid credit packs that start at €5, priced in euros, so a monitor costs more the more often it runs. It checks from 10 locations, confirms downtime from a second location, and gives new accounts 100,000 free credits.",
+  "qualifies": [
+    {
+      "category": "uptime-monitoring",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "http and ping checks from many locations", "sourceUrl": "https://updown.io/about" },
+        { "capability": "alerting", "sourceUrl": "https://updown.io/doc/how-alerting-works" },
+        { "capability": "uptime reports", "sourceUrl": "https://updown.io/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "A failed check is verified two more times, from at least one other location, before an alert goes out.", "sourceUrl": "https://updown.io/doc/how-alerting-works", "checkedAt": "2026-11-03" },
+    { "text": "An SMS alert uses 7,500 credits, about €0.10.", "sourceUrl": "https://updown.io/", "checkedAt": "2026-11-03" },
+    { "text": "Team accounts were listed as in progress on updown.io's public feature board.", "sourceUrl": "https://updown.io/features", "checkedAt": "2026-11-03" },
+    { "text": "On May 7, 2026, updown.io reported that problems at its SMS provider may have caused missed SMS alerts.", "sourceUrl": "https://status.updown.io/issue/ba78df73-aa30-48d7-ab3c-d6eeae8b6929", "checkedAt": "2026-11-03" },
+    { "text": "Data is hosted with OVH in France, Hetzner in Germany and DigitalOcean in the US.", "sourceUrl": "https://updown.io/privacy_policy", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Example: 10 sites every 2 minutes", "priceUsd": null, "listedPrice": { "amount": 5.49, "currency": "EUR" }, "billing": "month", "unit": "per account", "notes": "The vendor's own example with the smallest credit pack; €1.83 a month with the largest" },
+      { "name": "200,000 credits", "priceUsd": null, "listedPrice": { "amount": 5, "currency": "EUR" }, "billing": "one_time", "unit": "credit pack", "notes": "Excluding VAT. 1 credit is 1 check" },
+      { "name": "1,500,000 credits", "priceUsd": null, "listedPrice": { "amount": 25, "currency": "EUR" }, "billing": "one_time", "unit": "credit pack", "notes": "Excluding VAT" },
+      { "name": "10,000,000 credits", "priceUsd": null, "listedPrice": { "amount": 100, "currency": "EUR" }, "billing": "one_time", "unit": "credit pack", "notes": "Excluding VAT" },
+      { "name": "60,000,000 credits", "priceUsd": null, "listedPrice": { "amount": 500, "currency": "EUR" }, "billing": "one_time", "unit": "credit pack", "notes": "Excluding VAT" }
+    ],
+    "hiddenCosts": [
+      "Prices are in euros and exclude VAT. updown.io publishes no USD price.",
+      "SMS alerts are paid from the same credits, at about €0.10 each."
+    ],
+    "sourceUrl": "https://updown.io/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://updown.io/dpa",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": false,
+    "cancellation": "Credits are prepaid and the account is never charged automatically unless the customer allows it. Refunds or free credits can be requested by email.",
+    "dataExport": "Downtimes and metrics through the REST API.",
+    "exportSourceUrl": "https://updown.io/api",
+    "sourceUrl": "https://updown.io/tos",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "Telegram", "Zapier", "Statuspage", "Webhooks", "Opsgenie"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

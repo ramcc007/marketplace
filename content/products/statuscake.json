@@ -1,0 +1,65 @@
+{
+  "name": "StatusCake",
+  "status": "published",
+  "vendor": { "name": "TrafficCake Limited", "website": "https://www.statuscake.com" },
+  "primaryCategory": "uptime-monitoring",
+  "summary": "StatusCake's paid plans cost $244.92 and $799.92 a year for 100 or 300 monitors, with checks every minute or every 30 seconds. Its free plan is for personal use and HTTP checks only, and status pages are sold as a separate product.",
+  "qualifies": [
+    {
+      "category": "uptime-monitoring",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "http and ping checks from many locations", "sourceUrl": "https://www.statuscake.com/locations/" },
+        { "capability": "alerting", "sourceUrl": "https://www.statuscake.com/integrations/" },
+        { "capability": "uptime reports", "sourceUrl": "https://www.statuscake.com/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "StatusCake lists 43 test locations in 30 countries.", "sourceUrl": "https://www.statuscake.com/locations/", "checkedAt": "2026-11-03" },
+    { "text": "Confirmation tests run from other servers in the same monitoring region before a test is marked down, and only paid accounts can assign monitoring regions.", "sourceUrl": "https://www.statuscake.com/kb/knowledge-base/statuscake-uptime-monitoring-regions-and-confirmation-servers-a-complete-guide/", "checkedAt": "2026-11-03" },
+    { "text": "The pricing page we saw listed the free plan at 3 monitors with 15-minute intervals, while the page's underlying code and FAQ still described 10 monitors at 5-minute intervals.", "sourceUrl": "https://www.statuscake.com/pricing/", "checkedAt": "2026-11-03" },
+    { "text": "StatusCake reported that parts of its infrastructure were exposed to two critical PHP vulnerabilities in October 2026 and said it found no evidence of compromise.", "sourceUrl": "https://changelog.statuscake.com/7617", "checkedAt": "2026-11-03" },
+    { "text": "Email alerting was unavailable during precautionary security maintenance that ended on October 22, 2026.", "sourceUrl": "https://status.statuscake.com/incidents/98vvbdqjf6lp", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 7,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Personal use only; HTTP(S) checks" },
+      { "name": "Superior", "priceUsd": 244.92, "billing": "year", "unit": "per account", "notes": "$24.49 on monthly billing. 100 monitors at 1-minute intervals, 75 SMS credits, 2 logins" },
+      { "name": "Business", "priceUsd": 799.92, "billing": "year", "unit": "per account", "notes": "$79.99 on monthly billing. 300 monitors at 30-second intervals, 400 SMS credits, 10 logins" },
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Price on request. Unlimited team members" }
+    ],
+    "hiddenCosts": [
+      "Status pages are a separate product, from $12.46 a month on annual billing for one page.",
+      "Extra SMS credits and extra seats are sold as bolt-ons with no published price."
+    ],
+    "sourceUrl": "https://www.statuscake.com/pricing/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Microsoft or Google sign-in on every plan",
+    "sourceUrl": "https://www.statuscake.com/gdpr-statuscake-data-processing-agreement/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Paid accounts can be cancelled at any time, with no refunds except where the law requires them.",
+    "dataExport": "Uptime check history through the API; CSV export covers test settings only.",
+    "exportSourceUrl": "https://developers.statuscake.com/api/",
+    "sourceUrl": "https://www.statuscake.com/terms-and-conditions/",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "PagerDuty", "Opsgenie", "Webhooks", "Datadog", "Discord", "Telegram", "VictorOps", "Mattermost"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

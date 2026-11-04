@@ -1,0 +1,66 @@
+{
+  "name": "Zoho Billing",
+  "status": "published",
+  "vendor": { "name": "Zoho Corporation Private Limited", "website": "https://www.zoho.com/us/billing/" },
+  "primaryCategory": "subscription-billing",
+  "summary": "Zoho Billing charges a flat fee per organization. Premium, the first plan with subscriptions, dunning and MRR reports, costs $59 a month on annual billing or $69 monthly for up to 10 users, and works with Stripe, PayPal, Braintree and other gateways.",
+  "qualifies": [
+    {
+      "category": "subscription-billing",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "recurring plans and proration", "sourceUrl": "https://www.zoho.com/us/billing/pricing/" },
+        { "capability": "dunning", "sourceUrl": "https://www.zoho.com/us/billing/help/settings/subscriptions/dunning-management.md" },
+        { "capability": "mrr and churn metrics", "sourceUrl": "https://www.zoho.com/us/billing/help/reports/mrr-arr.md" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Subscription billing, proration, dunning and the MRR and churn reports are on Premium and Enterprise, not on Standard.", "sourceUrl": "https://www.zoho.com/us/billing/pricing/", "checkedAt": "2026-11-03" },
+    { "text": "Dunning allows up to 3 payment retries, all within 30 days.", "sourceUrl": "https://www.zoho.com/us/billing/help/settings/subscriptions/dunning-management.md", "checkedAt": "2026-11-03" },
+    { "text": "Zoho Billing stores only the last four digits of a card, and full card details stay with the payment gateway.", "sourceUrl": "https://www.zoho.com/us/billing/help/online-payments/", "checkedAt": "2026-11-03" },
+    { "text": "Standard and Premium allow up to 100,000 invoices a year and $1 million in billed revenue a year.", "sourceUrl": "https://www.zoho.com/us/billing/pricing/", "checkedAt": "2026-11-03" },
+    { "text": "Enterprise costs $5,988 a year and adds a 0.2% fee on revenue above $500,000 a month for US accounts.", "sourceUrl": "https://www.zoho.com/us/billing/enterprise/pricing/index.md", "checkedAt": "2026-11-03" },
+    { "text": "Zoho runs country editions with local prices. The figures here come from the US edition, which a visitor's location does not change.", "sourceUrl": "https://www.zoho.com/us/billing/pricing/", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Standard", "priceUsd": 25, "billing": "month", "unit": "per organization", "notes": "Billed annually; $29 on monthly billing. One-time invoicing for 3 users, without subscription billing" },
+      { "name": "Premium", "priceUsd": 59, "billing": "month", "unit": "per organization", "notes": "Billed annually; $69 on monthly billing. Subscriptions, proration, dunning, usage billing and MRR reports for up to 10 users" },
+      { "name": "Enterprise", "priceUsd": 5988, "billing": "year", "unit": "per organization", "notes": "Billed annually. Plus 0.2% of revenue above $500,000 a month for US accounts", "sourceUrl": "https://www.zoho.com/us/billing/enterprise/pricing/index.md" }
+    ],
+    "hiddenCosts": [
+      "Extra users cost $7.50 a month each on annual billing or $9 monthly.",
+      "Payment gateway fees are charged separately by the gateway.",
+      "Above 100,000 invoices or $1 million in billed revenue a year, Standard and Premium need a custom arrangement."
+    ],
+    "sourceUrl": "https://www.zoho.com/us/billing/pricing/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "SAML for the customer portal on Premium; staff SAML through Zoho Accounts",
+    "sourceUrl": "https://www.zoho.com/compliance.html",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Renewal stops only with notice at least seven days before the renewal date. Refunds are possible in the first month of a monthly plan or the first 45 days of an annual plan.",
+    "dataExport": "Customers, subscriptions and invoices as CSV, XLS or XLSX, up to 25,000 rows per export.",
+    "exportSourceUrl": "https://www.zoho.com/us/billing/help/import-export/export-data.md",
+    "sourceUrl": "https://www.zoho.com/terms.html",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["QuickBooks Online", "Xero", "Zoho Books", "Zoho CRM", "Avalara", "Stripe", "PayPal", "Braintree", "Authorize.net", "Zapier"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

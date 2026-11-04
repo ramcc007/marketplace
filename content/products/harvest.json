@@ -1,0 +1,65 @@
+{
+  "name": "Harvest",
+  "status": "published",
+  "vendor": { "name": "Bending Spoons Operations S.p.A.", "website": "https://www.getharvest.com" },
+  "primaryCategory": "time-tracking",
+  "summary": "Harvest has a free plan for one person and two projects, a Teams plan at $9 per seat a month and Enterprise at $14 on annual billing. On its Flex billing, usage charges for projects, clients, tasks and invoicing come on top of seats. Timesheet approval is on Enterprise only.",
+  "qualifies": [
+    {
+      "category": "time-tracking",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "time entry or clock in and out", "sourceUrl": "https://www.getharvest.com/features/time-tracking" },
+        { "capability": "timesheet approval", "sourceUrl": "https://support.getharvest.com/hc/en-us/articles/360048181832-Submitting-and-approving-timesheets" },
+        { "capability": "export to payroll or invoicing", "sourceUrl": "https://www.getharvest.com/integrations/gusto" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "On Flex billing, Harvest charges per seat plus usage fees for active projects, clients, tasks and invoicing above a free allowance. For new accounts, usage charges start at the second paid renewal.", "sourceUrl": "https://support.getharvest.com/hc/en-us/articles/31447072608397-Information-about-pricing-plans", "checkedAt": "2026-11-03" },
+    { "text": "Harvest's help center gives the example of a bill rising from $44 for seats alone to $404 once usage is added, and offers Unlimited billing at a fixed usage fee as the alternative.", "sourceUrl": "https://support.getharvest.com/hc/en-us/articles/31447072608397-Information-about-pricing-plans", "checkedAt": "2026-11-03" },
+    { "text": "Harvest states that timesheets cannot be rejected. A manager who wants changes messages the person to edit and resubmit.", "sourceUrl": "https://support.getharvest.com/hc/en-us/articles/360048181832-Submitting-and-approving-timesheets", "checkedAt": "2026-11-03" },
+    { "text": "Harvest relies on its hosting provider's SOC 2 audit rather than a report of its own, and stores all data in the United States.", "sourceUrl": "https://support.getharvest.com/hc/en-us/articles/360048685851-Security-FAQ", "checkedAt": "2026-11-03" },
+    { "text": "The Gusto integration syncs approved timesheets and reimbursable expenses for payroll, for US businesses only.", "sourceUrl": "https://www.getharvest.com/integrations/gusto", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "1 seat and 2 projects" },
+      { "name": "Teams", "priceUsd": 9, "billing": "month", "unit": "per seat", "notes": "Billed annually ($108 a year); $11 on monthly billing. Usage charges extra on Flex billing" },
+      { "name": "Enterprise", "priceUsd": 14, "billing": "month", "unit": "per seat", "notes": "Billed annually ($168 a year); $17.50 on monthly billing. Adds timesheet approval and SAML single sign-on" },
+      { "name": "Enterprise Plus", "priceUsd": null, "billing": "quote", "unit": "per seat", "notes": "Custom pricing" }
+    ],
+    "hiddenCosts": [
+      "On Flex billing, active projects, clients, tasks and invoicing above a free allowance are charged on top of seats. The allowance and unit prices are shown in the account, not on the pricing page.",
+      "Unlimited billing replaces usage charges with a fixed fee that is not published on the pricing page."
+    ],
+    "sourceUrl": "https://www.getharvest.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": false,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://support.getharvest.com/hc/en-us/articles/360048685851-Security-FAQ",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "No refund or credit for fees already paid; Harvest gives 30 days' notice of fee changes.",
+    "dataExport": "All time data as one CSV file, detailed reports as Excel, CSV or PDF, and invoices as a zip of PDFs.",
+    "exportSourceUrl": "https://support.getharvest.com/hc/en-us/articles/31625325401229-Exporting-data",
+    "sourceUrl": "https://www.getharvest.com/terms-of-service",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["QuickBooks Online", "Xero", "Gusto", "Stripe", "PayPal", "Asana", "Basecamp", "Slack", "Trello", "Jira"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

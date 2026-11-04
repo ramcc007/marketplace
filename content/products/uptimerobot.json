@@ -1,0 +1,68 @@
+{
+  "name": "UptimeRobot",
+  "status": "published",
+  "vendor": { "name": "UptimeRobot s. r. o.", "website": "https://uptimerobot.com" },
+  "primaryCategory": "uptime-monitoring",
+  "summary": "UptimeRobot's free plan covers 50 monitors checked every 5 minutes and allows commercial use. Paid plans add checks every minute or faster, up to four monitoring regions and SMS credits, at prices that change with the visitor's region.",
+  "qualifies": [
+    {
+      "category": "uptime-monitoring",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "http and ping checks from many locations", "sourceUrl": "https://help.uptimerobot.com/en/articles/11358522-understanding-uptimerobot-locations-and-multi-location-feature" },
+        { "capability": "alerting", "sourceUrl": "https://uptimerobot.com/pricing/" },
+        { "capability": "uptime reports", "sourceUrl": "https://uptimerobot.com/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "UptimeRobot sets prices by the visitor's region. We list the US dollar prices in an archived copy of its pricing page from November 2, 2026; on November 3 the live page showed us Solo at $9 a month on annual billing.", "sourceUrl": "https://web.archive.org/web/20261102165424/https://uptimerobot.com/pricing/", "checkedAt": "2026-11-03" },
+    { "text": "UptimeRobot's terms in December 2024 limited the free plan to personal, non-commercial use.", "sourceUrl": "https://web.archive.org/web/20241201203510/https://uptimerobot.com/terms/", "checkedAt": "2026-11-03" },
+    { "text": "The current terms say UptimeRobot is available for any use, including commercial and business use.", "sourceUrl": "https://uptimerobot.com/terms/", "checkedAt": "2026-11-03" },
+    { "text": "Paid monitors can run from up to four regions: North America, Europe, Asia and Australia. Monitors without a chosen region are checked from North America.", "sourceUrl": "https://help.uptimerobot.com/en/articles/11358522-understanding-uptimerobot-locations-and-multi-location-feature", "checkedAt": "2026-11-03" },
+    { "text": "UptimeRobot confirms a downtime with extra checks from a different data center in the same region before alerting.", "sourceUrl": "https://uptimerobot.com/help/locations/", "checkedAt": "2026-11-03" },
+    { "text": "UptimeRobot reported false downtime alerts from its EU monitoring region on August 1, 2025, and a second incident with the same causes on August 16.", "sourceUrl": "https://uptimerobot.com/blog/false-positives-in-eu-monitoring-region/", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "50 monitors at 5-minute intervals, 1 status page, no login seats" },
+      { "name": "Solo", "priceUsd": 144, "billing": "year", "unit": "per account", "notes": "$13 on monthly billing. 10 monitors at 60-second intervals", "sourceUrl": "https://web.archive.org/web/20261102165424/https://uptimerobot.com/pricing/" },
+      { "name": "Team", "priceUsd": 468, "billing": "year", "unit": "per account", "notes": "$46 on monthly billing. 100 monitors at 30-second intervals and 3 login seats", "sourceUrl": "https://web.archive.org/web/20261102165424/https://uptimerobot.com/pricing/" },
+      { "name": "Scale", "priceUsd": 948, "billing": "year", "unit": "per account", "notes": "$98 on monthly billing. 200 monitors at 15-second intervals", "sourceUrl": "https://web.archive.org/web/20261102165424/https://uptimerobot.com/pricing/" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Price on request. Adds SAML single sign-on" }
+    ],
+    "hiddenCosts": [
+      "SMS and voice credits are one-time packs from $3 for 10 credits to $100 for 1,000, and a voice call uses 2 credits.",
+      "Extra login seats on Team cost $15 a month on annual billing or $19 monthly.",
+      "Visitors in different regions see different prices; the live page showed us lower dollar prices than the archived copy we list."
+    ],
+    "sourceUrl": "https://uptimerobot.com/pricing/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://uptimerobot.com/enterprise/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Turning off auto-renewal ends the plan at the close of the billing cycle, and new subscriptions have a 14-day money-back guarantee.",
+    "dataExport": "Logs as CSV from the dashboard, plus a REST API with uptime ratios and response times.",
+    "exportSourceUrl": "https://uptimerobot.com/api/",
+    "sourceUrl": "https://uptimerobot.com/terms/",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "PagerDuty", "Zapier", "Webhooks", "Telegram", "Discord", "Mattermost", "Splunk On-Call", "Google Chat"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

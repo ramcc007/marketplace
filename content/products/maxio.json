@@ -1,0 +1,63 @@
+{
+  "name": "Maxio",
+  "status": "published",
+  "vendor": { "name": "Maxio LLC", "website": "https://www.maxio.com" },
+  "primaryCategory": "subscription-billing",
+  "summary": "Maxio charges a flat fee by monthly billings, starting at $599 a month on its Grow plan for up to $100,000 a month, with no share of revenue and unlimited users. Agreements are annual by default, and saved cards stay with the customer's payment gateway.",
+  "qualifies": [
+    {
+      "category": "subscription-billing",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "recurring plans and proration", "sourceUrl": "https://docs.maxio.com/billing/subscriptions/management/subscription-actions/upgrade-or-downgrade-a-subscription" },
+        { "capability": "dunning", "sourceUrl": "https://docs.maxio.com/billing/subscriptions/dunning/set-up-schedules/configure-credit-card-dunning" },
+        { "capability": "mrr and churn metrics", "sourceUrl": "https://www.maxio.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Maxio's managed sales tax ends on November 20, 2026, after which Avalara tax needs the customer's own Avalara account.", "sourceUrl": "https://docs.maxio.com/billing/taxes/overview/taxes-faqs", "checkedAt": "2026-11-03" },
+    { "text": "When a customer leaves, saved card data stays with the payment gateway.", "sourceUrl": "https://www.maxio.com/faq", "checkedAt": "2026-11-03" },
+    { "text": "Moving cards between gateways is free when the new gateway handles the import, and otherwise costs $250 an hour.", "sourceUrl": "https://docs.maxio.com/payments/additional-gateways/getting-started-with-gateways/configure-gateways/gateway-change-process", "checkedAt": "2026-11-03" },
+    { "text": "Maxio states SOC 1 Type 2, SOC 2 Type 2 and ISO 27001:2022 audits.", "sourceUrl": "https://www.maxio.com/security", "checkedAt": "2026-11-03" },
+    { "text": "Maxio may change fees at renewal with at least 60 days' notice before the term ends.", "sourceUrl": "https://www.maxio.com/terms-and-conditions-april-4-2025", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Grow", "priceUsd": 599, "billing": "month", "unit": "per account", "notes": "Starting price for up to $100,000 in monthly billings; paid annually by default" },
+      { "name": "Scale", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Over $100,000 in monthly billings; adds EU hosting and advanced revenue management" }
+    ],
+    "hiddenCosts": [
+      "Monthly or quarterly payment is a premium option over the default annual payment.",
+      "Payment gateway fees are paid separately."
+    ],
+    "sourceUrl": "https://www.maxio.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Enabled by Maxio on request (SAML)",
+    "sourceUrl": "https://www.maxio.com/security",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The term is set in each order, and fees are non-refundable.",
+    "dataExport": "Subscriptions, customers and transactions through the API or CSV export.",
+    "exportSourceUrl": "https://www.maxio.com/faq",
+    "sourceUrl": "https://www.maxio.com/terms-and-conditions-april-4-2025",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["QuickBooks", "Xero", "NetSuite", "Salesforce", "HubSpot", "Pipedrive", "Avalara", "Anrok", "TaxJar", "Stripe"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

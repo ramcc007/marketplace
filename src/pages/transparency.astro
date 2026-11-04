@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { getSiteIndex } from '../lib/site-index';
+import { categories } from '../lib/taxonomy';
+import { breadcrumbList } from '../lib/schema';
+import { formatDate } from '../lib/dates';
+
+const index = await getSiteIndex();
+const site = Astro.site ?? new URL(Astro.url.origin);
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Transparency', path: '/transparency' },
+];
+const published = index.products.filter((p) => p.data.status === 'published');
+const paying = published.filter((p) => p.data.paidRelationship);
+const openCategories = [...index.categories.values()].filter((c) => c.gate.indexable).length;
+const rules = [
+  "Payment never changes a product's position in a ranked list.",
+  'Sponsored products, when they exist, sit in a separate labeled row with at most three per page, and the default sort is never by payment.',
+  'Every score links to the inputs and weights behind it.',
+  'Every review shows how the reviewer was verified and whether the vendor invited them.',
+  'Vendors can flag reviews and cannot delete them. Each removal is counted with its reason.',
+  'Every price shows its source and the date it was checked.',
+  'No account is needed to read any page, and contact details go only to vendors the visitor picks.',
+  'Each category page lists which of its products pay us.',
+];
+---
+
+<BaseLayout
+  title="Transparency"
+  description="Who pays us, how many category pages are ready for search, and the rules that keep rankings independent of money."
+  path="/transparency"
+  jsonLd={[breadcrumbList(crumbs, site)]}
+>
+  <div class="mx-auto max-w-3xl px-4 py-8">
+    <Breadcrumbs crumbs={crumbs} />
+    <h1 class="mt-4 text-3xl font-bold tracking-tight">Transparency</h1>
+    <p class="mt-2 text-slate-600">
+      The rules we hold ourselves to, and the current numbers behind them as of {formatDate(index.today)}.
+    </p>
+
+    <dl class="mt-8 grid gap-4 sm:grid-cols-3">
+      <div class="rounded-lg border border-slate-200 p-4">
+        <dt class="text-sm text-slate-500">Vendors paying us</dt>
+        <dd class="mt-1 text-2xl font-semibold">{paying.length}</dd>
+      </div>
+      <div class="rounded-lg border border-slate-200 p-4">
+        <dt class="text-sm text-slate-500">Categories ready for search</dt>
+        <dd class="mt-1 text-2xl font-semibold">{openCategories} of {categories.length}</dd>
+      </div>
+      <div class="rounded-lg border border-slate-200 p-4">
+        <dt class="text-sm text-slate-500">Reviews removed</dt>
+        <dd class="mt-1 text-2xl font-semibold">0</dd>
+      </div>
+    </dl>
+
+    <div class="editorial mt-8">
+      <h2>Who pays us</h2>
+      <p>
+        {
+          paying.length === 0
+            ? 'No vendor pays us anything, and no category has sponsored placements.'
+            : `${paying.length} vendors pay us. Each one is named on every category page where its product appears.`
+        }
+      </p>
+
+      <h2>Pages not yet in search results</h2>
+      <p>
+        A category page is shown to search engines only after it passes the thresholds on the <a href="/methodology#gate"
+          >methodology page</a
+        >. Pages that have not passed yet are still open to visitors and carry a tag that asks search engines to skip
+        them for now.
+      </p>
+
+      <h2>Reviews</h2>
+      <p>Review collection has not opened yet, so no reviews have been published or removed.</p>
+
+      <h2>Our rules</h2>
+      <ul>
+        {rules.map((rule) => <li>{rule}</li>)}
+      </ul>
+    </div>
+  </div>
+</BaseLayout>

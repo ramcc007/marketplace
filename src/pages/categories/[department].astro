@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import GateNote from '../../components/GateNote.astro';
+import { childrenOf, departments, getDepartment } from '../../lib/taxonomy';
+import { getSiteIndex } from '../../lib/site-index';
+import { breadcrumbList } from '../../lib/schema';
+
+export function getStaticPaths() {
+  return departments.map((d) => ({ params: { department: d.slug } }));
+}
+
+const dept = getDepartment(Astro.params.department!)!;
+const index = await getSiteIndex();
+const gate = index.departmentGates.get(dept.slug)!;
+const site = Astro.site ?? new URL(Astro.url.origin);
+const topLevel = dept.categories.filter((c) => c.level === 'L1');
+const openCount = dept.categories.filter((c) => index.categories.get(c.slug)?.gate.indexable).length;
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Categories', path: '/categories' },
+  { name: dept.name, path: `/categories/${dept.slug}` },
+];
+// Subcategories whose parent sits in another department (for example Real estate CRM) are listed on their own.
+const crossDepartment = dept.categories.filter((c) => c.level === 'L2' && !topLevel.some((t) => t.slug === c.parentSlug));
+---
+
+<BaseLayout
+  title={`${dept.name} software`}
+  description={`${dept.categories.length} ${dept.name.toLowerCase()} software categories, each with written inclusion criteria and dated prices.`}
+  path={`/categories/${dept.slug}`}
+  index={gate.indexable}
+  jsonLd={[breadcrumbList(crumbs, site)]}
+>
+  <div class="mx-auto max-w-6xl px-4 py-8">
+    <Breadcrumbs crumbs={crumbs} />
+    <h1 class="mt-4 text-3xl font-bold tracking-tight">{dept.name} software</h1>
+    <p class="mt-2 max-w-3xl text-slate-600">
+      {dept.categories.length} categories. {openCount} of them have enough verified products and reviews to show
+      rankings so far.
+    </p>
+    <div class="mt-6"><GateNote gate={gate} /></div>
+
+    <ul class="mt-4 grid gap-4 md:grid-cols-2">
+      {
+        topLevel.map((c) => {
+          const children = childrenOf(c.slug).filter((child) => child.departmentSlug === dept.slug);
+          return (
+            <li class="rounded-lg border border-slate-200 p-4">
+              <div class="flex flex-wrap items-baseline justify-between gap-2">
+                <a href={`/software/${c.slug}`} class="font-semibold hover:text-teal-700">
+                  {c.name}
+                </a>
+                {c.wave === 1 && <span class="rounded bg-teal-50 px-2 py-0.5 text-xs text-teal-800">Opening first</span>}
+              </div>
+              <p class="mt-1 text-sm text-slate-500">Also searched as {c.aliases.join(', ')}</p>
+              {children.length > 0 && (
+                <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+                  {children.map((child) => (
+                    <li>
+                      <a href={`/software/${child.slug}`} class="text-teal-700 hover:underline">
+                        {child.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          );
+        })
+      }
+      {
+        crossDepartment.map((c) => (
+          <li class="rounded-lg border border-slate-200 p-4">
+            <a href={`/software/${c.slug}`} class="font-semibold hover:text-teal-700">
+              {c.name}
+            </a>
+            <p class="mt-1 text-sm text-slate-500">Also searched as {c.aliases.join(', ')}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</BaseLayout>

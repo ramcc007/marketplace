@@ -1,0 +1,63 @@
+{
+  "name": "Lago",
+  "status": "published",
+  "vendor": { "name": "Get Lago Corp.", "website": "https://getlago.com" },
+  "primaryCategory": "subscription-billing",
+  "summary": "Lago is open-source billing software built around usage-based pricing. The self-hosted version is free under the AGPL-3.0 licence, while Lago Premium, which automatic dunning, single sign-on and most integrations require, is sold by quote as a cloud or self-hosted service.",
+  "qualifies": [
+    {
+      "category": "subscription-billing",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "recurring plans and proration", "sourceUrl": "https://getlago.com/docs/guide/subscriptions/upgrades-downgrades" },
+        { "capability": "dunning", "sourceUrl": "https://getlago.com/docs/guide/dunning/automatic-dunning" },
+        { "capability": "mrr and churn metrics", "sourceUrl": "https://getlago.com/docs/guide/analytics/revenue/mrr" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Automatic dunning is a Premium add-on available on request, and manual dunning needs a Premium licence.", "sourceUrl": "https://getlago.com/docs/guide/dunning/automatic-dunning", "checkedAt": "2026-11-03" },
+    { "text": "Lago does not store raw payment details, so saved cards stay with the payment provider.", "sourceUrl": "https://getlago.com/docs/guide/payments/payment-methods", "checkedAt": "2026-11-03" },
+    { "text": "Lago Cloud runs in a US region and an EU region.", "sourceUrl": "https://getlago.com/docs/guide/lago-cloud", "checkedAt": "2026-11-03" },
+    { "text": "Lago states SOC 2 Type 2 compliance for its hosted version.", "sourceUrl": "https://getlago.com/docs/guide/security/soc", "checkedAt": "2026-11-03" },
+    { "text": "Cloud contracts renew automatically unless cancelled at least 30 days before the next term starts.", "sourceUrl": "https://getlago.com/legal/lago-cloud-terms", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Open source", "priceUsd": 0, "billing": "month", "unit": "per deployment", "notes": "Self-hosted under AGPL-3.0; you run and pay for the infrastructure, and automatic dunning is not included" },
+      { "name": "Premium", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Cloud or self-hosted, by custom quote with a usage-based component" }
+    ],
+    "hiddenCosts": [
+      "Many Premium features, including automatic dunning, tax integrations and single sign-on, are add-ons on request.",
+      "Professional services are priced on demand."
+    ],
+    "sourceUrl": "https://getlago.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Premium add-on (Okta through OIDC, or Google)",
+    "sourceUrl": "https://getlago.com/docs/guide/security/soc",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Cloud terms renew for the same length unless cancelled at least 30 days before renewal, and fees can change at renewal with 30 days' notice.",
+    "dataExport": "Invoices as CSV, customer exports through the command-line tool, and full database access when self-hosted.",
+    "exportSourceUrl": "https://getlago.com/docs/guide/invoicing/export",
+    "sourceUrl": "https://getlago.com/legal/lago-cloud-terms",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Stripe", "Adyen", "GoCardless", "NetSuite", "Xero", "Salesforce", "HubSpot", "Anrok", "Avalara"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "ChargeOver",
+  "status": "published",
+  "vendor": { "name": "RykeLabs LLC", "website": "https://chargeover.com" },
+  "primaryCategory": "subscription-billing",
+  "summary": "ChargeOver charges a flat monthly fee by the number of active customers, from $229 a month for 200 customers, with no share of revenue and no annual contract. It works with the customer's own payment gateway, stores saved cards itself and states PCI DSS Level 1 compliance.",
+  "qualifies": [
+    {
+      "category": "subscription-billing",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "recurring plans and proration", "sourceUrl": "https://help.chargeover.com/docs/add-ons/proration/" },
+        { "capability": "dunning", "sourceUrl": "https://help.chargeover.com/docs/add-ons/dunning-reminders/" },
+        { "capability": "mrr and churn metrics", "sourceUrl": "https://help.chargeover.com/docs/reports/report-center/subscriptions-mrr/monthly-recurring-revenue-mrr-summary-report/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "ChargeOver does not prorate products that use unit, volume or tiered pricing.", "sourceUrl": "https://help.chargeover.com/docs/add-ons/proration/", "checkedAt": "2026-11-03" },
+    { "text": "ChargeOver sends a notice 30 days before a saved card expires.", "sourceUrl": "https://help.chargeover.com/docs/add-ons/dunning-reminders/", "checkedAt": "2026-11-03" },
+    { "text": "ChargeOver encrypts and stores card numbers itself rather than leaving them only with the gateway.", "sourceUrl": "https://help.chargeover.com/docs/data-security/", "checkedAt": "2026-11-03" },
+    { "text": "ChargeOver's comparison page charges $1.15 for each customer beyond 200 on Growth, while its pricing FAQ says accounts move up to the next tier.", "sourceUrl": "https://chargeover.com/compare-chargebee", "checkedAt": "2026-11-03" },
+    { "text": "Data is hosted in a Flexential data center in Minneapolis.", "sourceUrl": "https://help.chargeover.com/docs/data-security/", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Growth", "priceUsd": 229, "billing": "month", "unit": "per account", "notes": "200 customers, then $1.15 each; 5 admin users", "sourceUrl": "https://chargeover.com/compare-chargebee" },
+      { "name": "Enterprise Basic", "priceUsd": 549, "billing": "month", "unit": "per account", "notes": "500 customers, then $1.10 each; 10 admin users; adds Salesforce, Avalara and revenue recognition", "sourceUrl": "https://chargeover.com/compare-chargebee" },
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "For 1,000 or more customers" }
+    ],
+    "hiddenCosts": [
+      "Payment gateway and merchant account fees are separate; ChargeOver puts the typical card fee at 2.9% plus 30 cents."
+    ],
+    "sourceUrl": "https://chargeover.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://help.chargeover.com/docs/data-security/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Plans without a contract can be cancelled at any time in the account, and fees are not refundable.",
+    "dataExport": "Most reports and lists as Excel or CSV.",
+    "exportSourceUrl": "https://help.chargeover.com/docs/reports/features/exporting-reports/",
+    "sourceUrl": "https://chargeover.com/terms-of-service",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["QuickBooks Online", "QuickBooks Desktop", "Xero", "Salesforce", "HubSpot", "Avalara", "Vertex", "DocuSign", "ChartMogul", "Stripe"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Uptrends",
+  "status": "published",
+  "vendor": { "name": "ITRS Group Limited", "website": "https://www.uptrends.com" },
+  "primaryCategory": "uptime-monitoring",
+  "summary": "Uptrends prices monitoring in credits. Core starts at $42 a month on annual billing with 10 users and 2-minute uptime checks from US and EU regions, and Pro starts at $60 with 1-minute checks from more than 200 checkpoints.",
+  "qualifies": [
+    {
+      "category": "uptime-monitoring",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "http and ping checks from many locations", "sourceUrl": "https://www.uptrends.com/checkpoints" },
+        { "capability": "alerting", "sourceUrl": "https://www.uptrends.com/support/kb/alerting/alert-escalation-levels" },
+        { "capability": "uptime reports", "sourceUrl": "https://www.uptrends.com/support/kb/dashboards-and-reporting/dashboards/exporting-dashboard-data" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Only errors confirmed by a second checkpoint location trigger alerts.", "sourceUrl": "https://www.uptrends.com/support/kb/alerting/errors/unconfirmed-and-confirmed-errors", "checkedAt": "2026-11-03" },
+    { "text": "Core limits checkpoints to US and EU regions, while Pro can choose from more than 200 checkpoints.", "sourceUrl": "https://www.uptrends.com/pricing", "checkedAt": "2026-11-03" },
+    { "text": "Alerts can escalate through up to three levels, with on-duty times taken from each operator's schedule.", "sourceUrl": "https://www.uptrends.com/support/kb/alerting/alert-escalation-levels", "checkedAt": "2026-11-03" },
+    { "text": "Uptrends has been part of ITRS Group since November 2020.", "sourceUrl": "https://www.uptrends.com/blog/uptrends-joins-itrs-group", "checkedAt": "2026-11-03" },
+    { "text": "The pricing page lists single sign-on and SCIM on Enterprise only, while the help center says single sign-on is available on Pro and Enterprise.", "sourceUrl": "https://www.uptrends.com/support/kb/single-sign-on/single-sign-on-overview", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Core", "priceUsd": 42, "billing": "month", "unit": "per account", "notes": "Starting price, billed annually; from $46 on monthly billing. 10 users, uptime checks every 2 minutes, 240 SMS credits" },
+      { "name": "Pro", "priceUsd": 60, "billing": "month", "unit": "per account", "notes": "Starting price, billed annually; from $66 on monthly billing. 25 users, 1-minute checks, 600 SMS credits, API and transaction monitors" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing. 30-second checks, single sign-on and SCIM" }
+    ],
+    "hiddenCosts": [
+      "Plans are credit-based and the base number of credits is not stated. More monitors need extra credit bundles, which have no published price."
+    ],
+    "sourceUrl": "https://www.uptrends.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://www.uptrends.com/data-security",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Fees are non-refundable. Non-renewal needs 90 days' notice on annual plans and 30 days on monthly plans, and closing an account takes a support ticket.",
+    "dataExport": "Dashboards as PDF or Excel, plus a MonitorCheck API.",
+    "exportSourceUrl": "https://www.uptrends.com/support/kb/dashboards-and-reporting/dashboards/exporting-dashboard-data",
+    "sourceUrl": "https://www.itrsgroup.com/legal",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "PagerDuty", "Opsgenie", "ServiceNow", "Splunk On-Call", "Zapier", "Statuspage", "StatusHub", "Grafana"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

@@ -1,0 +1,133 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { GATE } from '../lib/quality-gate';
+import { breadcrumbList } from '../lib/schema';
+import { formatDate } from '../lib/dates';
+
+// Bump the version and add a change note whenever the method changes.
+const METHOD = { version: '0.1', date: '2026-11-03' };
+const site = Astro.site ?? new URL(Astro.url.origin);
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'How we rank', path: '/methodology' },
+];
+const g = GATE.category;
+const weights = [
+  {
+    part: 'Satisfaction',
+    weight: '40%',
+    detail:
+      'Average overall rating, pulled toward the category average until a product has enough reviews, with recent reviews counting more than old ones.',
+  },
+  {
+    part: 'Review confidence',
+    weight: '20%',
+    detail: 'Number of reviews, how each reviewer was verified, and the share of reviews the vendor did not request.',
+  },
+  {
+    part: 'Value and price clarity',
+    weight: '15%',
+    detail: 'Value-for-money ratings, whether prices are published, and any costs outside the plan price.',
+  },
+  { part: 'Vendor responsiveness', weight: '10%', detail: 'Share of reviews the vendor answered, and support ratings.' },
+  { part: 'Momentum', weight: '15%', detail: 'Change in rating and in verified review count over the last six months.' },
+];
+---
+
+<BaseLayout
+  title="How we rank and list software"
+  description="The inclusion rules, quality thresholds, score weights, price checks and review verification behind every page on this site."
+  path="/methodology"
+  jsonLd={[breadcrumbList(crumbs, site)]}
+>
+  <div class="mx-auto max-w-3xl px-4 py-8">
+    <Breadcrumbs crumbs={crumbs} />
+    <h1 class="mt-4 text-3xl font-bold tracking-tight">How we rank and list software</h1>
+    <p class="mt-2 text-sm text-slate-500">Method version {METHOD.version}, {formatDate(METHOD.date)}</p>
+
+    <div class="editorial mt-8">
+      <h2 id="inclusion">How a product gets listed</h2>
+      <p>
+        Each category has a short list of capabilities a product must have, written before any product is added. A
+        product appears in the category only after we check each capability against the vendor's own documentation and
+        record the page we used. Vendors can send corrections, and they cannot pay to be listed or to skip a requirement.
+      </p>
+
+      <h2 id="gate">When a category opens</h2>
+      <p>
+        A category page stays out of search results until it holds enough checked data to help someone choose. The
+        current thresholds are listed here, and the page stays visible to visitors in the meantime.
+      </p>
+      <ul>
+        <li>
+          At least {g.minQualifyingProducts} products that meet the inclusion criteria, or {GATE.subcategory.minQualifyingProducts}
+          for a more specific subcategory
+        </li>
+        <li>
+          At least {g.minCompleteProfiles} of those products with screenshots and prices checked in the last
+          {' '}{GATE.completeProfilePricingDays} days
+        </li>
+        <li>
+          At least {g.minReviews} verified reviews across the category, or our own hands-on notes on {g.minHandsOnProducts} products
+        </li>
+        <li>At least {g.minEditorialWords} words of editorial copy, approved and signed off by a named editor</li>
+        <li>Editorial copy that shares less than {g.maxSimilarity * 100}% of its phrasing with any other page on the site</li>
+      </ul>
+
+      <h2 id="scores">How scores will work</h2>
+      <p>
+        Scores appear only after a product has verified reviews. Each score combines five parts with fixed weights, and
+        every score on the site links back to this table.
+      </p>
+    </div>
+
+    <div class="mt-2 overflow-x-auto">
+      <table class="w-full text-left text-sm">
+        <thead class="border-b border-slate-200 text-slate-500">
+          <tr><th class="py-2 pr-4 font-medium">Part</th><th class="py-2 pr-4 font-medium">Weight</th><th class="py-2 font-medium">What it measures</th></tr>
+        </thead>
+        <tbody>
+          {
+            weights.map((w) => (
+              <tr class="border-b border-slate-100 align-top">
+                <td class="py-2 pr-4 font-medium">{w.part}</td>
+                <td class="py-2 pr-4">{w.weight}</td>
+                <td class="py-2 text-slate-600">{w.detail}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <div class="editorial mt-6">
+      <p>
+        Company size and advertising spend are not inputs. A small product with recent, verified reviews can rank above
+        a large one.
+      </p>
+
+      <h2 id="prices">How prices are checked</h2>
+      <p>
+        Each price comes from the vendor's public pricing page or a written quote, and the page shows the date we checked
+        it. Prices are checked again every 90 days. When a price has gone {GATE.stalePricingDays} days without a new check,
+        the page says so next to the price.
+      </p>
+      <p>
+        Costs outside the plan price are listed separately. Common examples are single sign-on offered only on the top
+        plan, setup fees, minimum seat counts and annual-only billing.
+      </p>
+
+      <h2 id="reviews">How reviews are verified</h2>
+      <p>
+        Every reviewer confirms their identity with a work email address or a LinkedIn account before a review is
+        published. Each review shows how the reviewer was verified and whether the vendor invited them. When a reviewer
+        received a gift or payment, the review says so, and the reward never depends on the rating given.
+      </p>
+      <p>
+        Vendors can reply to reviews and can flag a review with a reason. They cannot remove reviews, and every removal
+        is counted on the product page together with its reason.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

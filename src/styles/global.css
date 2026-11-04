@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Editorial copy rendered from markdown in content/categories. */
+.editorial h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-slate-900);
+}
+.editorial h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.editorial p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: var(--color-slate-700);
+}
+.editorial ul {
+  margin-bottom: 1rem;
+  padding-left: 1.25rem;
+  list-style: disc;
+  color: var(--color-slate-700);
+}
+.editorial a {
+  color: var(--color-teal-700);
+  text-decoration: underline;
+}

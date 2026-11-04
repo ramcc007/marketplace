@@ -1,0 +1,65 @@
+{
+  "name": "HetrixTools",
+  "status": "published",
+  "vendor": { "name": "HetrixTools, Inc.", "website": "https://hetrixtools.com" },
+  "primaryCategory": "uptime-monitoring",
+  "summary": "HetrixTools checks every minute on every plan, including a free plan with 15 monitors from 4 of its 12 locations. Paid plans cost $99.95 to $499.95 a year for 30 to 200 monitors, with SMS and phone credits included each month.",
+  "qualifies": [
+    {
+      "category": "uptime-monitoring",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "http and ping checks from many locations", "sourceUrl": "https://hetrixtools.com/feature/website-monitor/" },
+        { "capability": "alerting", "sourceUrl": "https://hetrixtools.com/" },
+        { "capability": "uptime reports", "sourceUrl": "https://hetrixtools.com/pricing/uptime-monitor/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "A monitor is marked down only when a set number of its locations agree, and HetrixTools suggests more than half of them.", "sourceUrl": "https://docs.hetrixtools.com/api-add-website-ping-service-smtp-uptime-monitor/", "checkedAt": "2026-11-03" },
+    { "text": "The free plan stays free as long as the account owner logs in at least once every 90 days.", "sourceUrl": "https://hetrixtools.com/pricing/uptime-monitor/", "checkedAt": "2026-11-03" },
+    { "text": "Uptime report history is kept without a time limit on every plan.", "sourceUrl": "https://hetrixtools.com/pricing/uptime-monitor/", "checkedAt": "2026-11-03" },
+    { "text": "The terms state that HetrixTools has no money-back guarantee or refund policy.", "sourceUrl": "https://hetrixtools.com/terms-of-service/", "checkedAt": "2026-11-03" },
+    { "text": "Phone call alerts were added in March 2025.", "sourceUrl": "https://hetrixtools.com/changelog/", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "15 monitors from 4 locations, checked every minute" },
+      { "name": "Professional", "priceUsd": 99.95, "billing": "year", "unit": "per account", "notes": "$9.95 on monthly billing. 30 monitors from 6 locations, 25 SMS or phone credits a month" },
+      { "name": "Business", "priceUsd": 199.95, "billing": "year", "unit": "per account", "notes": "$19.95 on monthly billing. 60 monitors from 9 locations, 50 credits a month" },
+      { "name": "Enterprise", "priceUsd": 499.95, "billing": "year", "unit": "per account", "notes": "$49.95 on monthly billing. 200 monitors from all 12 locations, 125 credits a month" }
+    ],
+    "hiddenCosts": [
+      "Extra SMS or phone credits cost $0.10 each.",
+      "Extra monitors can be added to any paid plan at that plan's own rate."
+    ],
+    "sourceUrl": "https://hetrixtools.com/pricing/uptime-monitor/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://hetrixtools.com/privacy-policy/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "No money-back guarantee or refund policy, and fees are paid in advance at the start of each billing cycle.",
+    "dataExport": "Full uptime history through the v3 API on every plan.",
+    "exportSourceUrl": "https://hetrixtools.com/changelog/",
+    "sourceUrl": "https://hetrixtools.com/terms-of-service/",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "PagerDuty", "Opsgenie", "Jira", "Discord", "Telegram", "Google Chat", "ilert", "Webhooks"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

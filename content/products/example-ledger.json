@@ -1,0 +1,55 @@
+{
+  "name": "Example Ledger (test fixture)",
+  "status": "draft",
+  "vendor": { "name": "Example Inc. (fictional)", "website": "https://example.com" },
+  "primaryCategory": "accounting",
+  "summary": "A fictional product used to check the product page template in development. Drafts are never included in a production build.",
+  "qualifies": [
+    {
+      "category": "accounting",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "general ledger", "sourceUrl": "https://example.com/features/ledger" },
+        { "capability": "bank feeds and reconciliation", "sourceUrl": "https://example.com/features/bank-feeds" },
+        { "capability": "financial statements", "sourceUrl": "https://example.com/features/reports" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Example Ledger is a fictional product used only to test this template.", "sourceUrl": "https://example.com", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Starter", "priceUsd": 19, "billing": "month", "unit": "per company" },
+      { "name": "Plus", "priceUsd": 480, "billing": "year", "unit": "per company", "notes": "Billed yearly only" }
+    ],
+    "hiddenCosts": ["Payroll is a separate add-on"],
+    "sourceUrl": "https://example.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": false,
+    "ssoPlan": "Plus",
+    "sourceUrl": "https://example.com/security",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Cancel any time from account settings",
+    "dataExport": "CSV export of all ledgers",
+    "sourceUrl": "https://example.com/terms",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Example Bank"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

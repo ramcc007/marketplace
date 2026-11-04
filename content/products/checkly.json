@@ -1,0 +1,66 @@
+{
+  "name": "Checkly",
+  "status": "published",
+  "vendor": { "name": "Checkly Inc.", "website": "https://www.checklyhq.com" },
+  "primaryCategory": "uptime-monitoring",
+  "summary": "Checkly combines uptime monitors with API and Playwright browser checks. Its free Hobby plan has 10 uptime monitors and capped check runs, Starter costs $24 a month on annual billing, and Team at $64 adds every location, phone alerts and 30-second checks.",
+  "qualifies": [
+    {
+      "category": "uptime-monitoring",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "http and ping checks from many locations", "sourceUrl": "https://www.checklyhq.com/docs/concepts/locations/" },
+        { "capability": "alerting", "sourceUrl": "https://www.checklyhq.com/docs/communicate/alerts/channels/" },
+        { "capability": "uptime reports", "sourceUrl": "https://www.checklyhq.com/docs/platform/reporting/overview/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "ICMP ping monitors became available on all Checkly plans on March 2, 2026.", "sourceUrl": "https://www.checklyhq.com/changelog/icmp-monitors/", "checkedAt": "2026-11-03" },
+    { "text": "On Hobby and Starter, a check can run from up to 3 of 6 locations.", "sourceUrl": "https://www.checklyhq.com/docs/concepts/locations/", "checkedAt": "2026-11-03" },
+    { "text": "Checkly says it does not cover domain expiration, UDP or mail protocols.", "sourceUrl": "https://www.checklyhq.com/dynatrace-alternative/", "checkedAt": "2026-11-03" },
+    { "text": "Raw results are kept for 7 days on Hobby and Starter and 30 days on Team, and aggregated results for 30 days and 1 year.", "sourceUrl": "https://www.checklyhq.com/docs/monitoring/how-we-store-data/", "checkedAt": "2026-11-03" },
+    { "text": "Checkly stores data in the EU, in AWS eu-west-1 in Ireland.", "sourceUrl": "https://www.checklyhq.com/security/", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Hobby", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "10 uptime monitors at 2-minute intervals; 10,000 API and 1,000 browser runs a month, hard-capped" },
+      { "name": "Starter", "priceUsd": 24, "billing": "month", "unit": "per account", "notes": "Billed annually; $29 on monthly billing. 50 uptime monitors at 1-minute intervals, 3 seats, 100 SMS alerts" },
+      { "name": "Team", "priceUsd": 64, "billing": "month", "unit": "per account", "notes": "Billed annually; $80 on monthly billing. 75 uptime monitors at 30-second intervals, 10 seats, 200 SMS and 200 phone alerts" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Price on request. Adds SAML single sign-on" }
+    ],
+    "hiddenCosts": [
+      "Status pages with a custom domain need the Communicate add-on, $9 a month on Starter or $30 on Team with annual billing.",
+      "Extra uptime monitors cost $8 per 25 a month on annual billing.",
+      "Browser check overages cost $6.50 per 1,000 runs on Starter and $6.25 on Team."
+    ],
+    "sourceUrl": "https://www.checklyhq.com/pricing/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://www.checklyhq.com/security/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Fees are non-refundable and paid in advance, and downgrades take effect at the end of the billing cycle.",
+    "dataExport": "Report tables as CSV, plus a Reporting API.",
+    "exportSourceUrl": "https://www.checklyhq.com/docs/platform/reporting/overview/",
+    "sourceUrl": "https://www.checklyhq.com/terms/",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "PagerDuty", "Opsgenie", "incident.io", "Rootly", "Webhooks", "Terraform", "Pulumi", "Prometheus"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

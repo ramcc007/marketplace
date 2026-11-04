@@ -1,0 +1,63 @@
+{
+  "name": "Everhour",
+  "status": "published",
+  "vendor": { "name": "Software by Demand, Inc.", "website": "https://everhour.com" },
+  "primaryCategory": "time-tracking",
+  "summary": "Everhour is free for up to 5 seats with limited features. Its Team plan costs $8.50 per seat a month on annual billing or $10 monthly, with a 5-seat minimum, and includes timesheet approval, invoicing and single sign-on.",
+  "qualifies": [
+    {
+      "category": "time-tracking",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "time entry or clock in and out", "sourceUrl": "https://support.everhour.com/article/128-time-tracking" },
+        { "capability": "timesheet approval", "sourceUrl": "https://support.everhour.com/article/473-time-approval-admin" },
+        { "capability": "export to payroll or invoicing", "sourceUrl": "https://support.everhour.com/article/431-clients-invoices-to-quickbooks-online-xero-freshbooks" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "A team of 2 or 3 people on the Team plan is still charged for 5 seats.", "sourceUrl": "https://everhour.com/pricing", "checkedAt": "2026-11-03" },
+    { "text": "Everhour relies on its hosting provider's SOC 2 audit and hosts data on AWS in Oregon and Frankfurt.", "sourceUrl": "https://everhour.com/security", "checkedAt": "2026-11-03" },
+    { "text": "Admins can export approved time entries to Deel for payroll.", "sourceUrl": "https://everhour.com/blog/everhour-integrates-with-deel-for-smoother-payroll", "checkedAt": "2026-11-03" },
+    { "text": "Screenshots are a Team plan feature that an admin turns on for selected members, with an option to blur them.", "sourceUrl": "https://support.everhour.com/article/551-screenshots", "checkedAt": "2026-11-03" },
+    { "text": "The mobile app needs an internet connection to start and stop timers or add time entries.", "sourceUrl": "https://everhour.com/mobile-app", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Up to 5 seats; no integrations or financial reports" },
+      { "name": "Team", "priceUsd": 8.5, "billing": "month", "unit": "per seat", "notes": "Billed annually; $10 on monthly billing. Minimum 5 seats" },
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per seat", "notes": "Price on request. Minimum 50 seats" }
+    ],
+    "hiddenCosts": [
+      "The Team plan bills at least 5 seats, so the smallest annual Team plan costs $510 a year."
+    ],
+    "sourceUrl": "https://everhour.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": false,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Team",
+    "sourceUrl": "https://everhour.com/security",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": 5,
+    "autoRenew": true,
+    "cancellation": "No refunds or credits for partial periods, and the account can be cancelled only inside the app, not by email or phone.",
+    "dataExport": "Reports as CSV, XLSX or PDF, and a full archive of time logs in JSON.",
+    "exportSourceUrl": "https://support.everhour.com/article/525-exporting-data",
+    "sourceUrl": "https://everhour.com/terms",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Asana", "ClickUp", "Jira", "Trello", "Basecamp", "monday.com", "Notion", "QuickBooks Online", "Xero", "Deel"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

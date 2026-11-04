@@ -1,0 +1,62 @@
+{
+  "name": "FastSpring",
+  "status": "published",
+  "vendor": { "name": "FastSpring", "website": "https://fastspring.com" },
+  "primaryCategory": "subscription-billing",
+  "summary": "FastSpring is a merchant of record that takes a share of each transaction at rates it quotes through sales, with no published price and no minimum volume. It retries failed renewals 1, 3 and 5 days after a decline and holds new accounts' payouts for 45 days.",
+  "qualifies": [
+    {
+      "category": "subscription-billing",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "recurring plans and proration", "sourceUrl": "https://developer.fastspring.com/docs/manage-active-subscriptions" },
+        { "capability": "dunning", "sourceUrl": "https://fastspring.com/subscription-management/dunning-management/" },
+        { "capability": "mrr and churn metrics", "sourceUrl": "https://developer.fastspring.com/docs/subscription-dashboard-metrics" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Card statements show FS* followed by the seller's company name.", "sourceUrl": "https://fastspring.com/merchant-of-record/", "checkedAt": "2026-11-03" },
+    { "text": "FastSpring applies a 2.5% currency conversion fee when the store currency and payout currency differ.", "sourceUrl": "https://developer.fastspring.com/docs/receive-payouts", "checkedAt": "2026-11-03" },
+    { "text": "New accounts get a 45-day monitoring hold, and every transaction has a 14-day settlement delay.", "sourceUrl": "https://developer.fastspring.com/docs/receive-payouts", "checkedAt": "2026-11-03" },
+    { "text": "The seller terms promise the seller's data in a standard form within 30 days of termination.", "sourceUrl": "https://fastspring.com/terms-use/seller-terms-service/", "checkedAt": "2026-11-03" },
+    { "text": "A 2022 FastSpring post says moving subscriptions to a new vendor usually takes 10 weeks and covers card tokens but not PayPal agreements.", "sourceUrl": "https://fastspring.com/blog/subscription-export-process/", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Revenue share", "priceUsd": null, "billing": "quote", "unit": "per transaction", "notes": "Rates quoted by sales; lower rates for ACH and wire transfers" }
+    ],
+    "hiddenCosts": [
+      "A 2.5% currency conversion fee applies when payout and store currencies differ.",
+      "Manual refunds cost $10 by check and $30 by wire."
+    ],
+    "sourceUrl": "https://fastspring.com/pricing/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Okta (OIDC) or Google sign-in",
+    "sourceUrl": "https://trust.fastspring.com/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Either side can end the agreement with 30 days' written notice, and FastSpring may hold part of the balance for up to 180 days after termination.",
+    "dataExport": "CSV reports for orders, subscriptions and returns.",
+    "exportSourceUrl": "https://developer.fastspring.com/docs/data-exports",
+    "sourceUrl": "https://fastspring.com/terms-use/seller-terms-service/",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Zapier", "Google Analytics", "Google Tag Manager", "Mailchimp", "Keygen", "LicenseSpring", "Nalpeiron", "Impact", "Drip", "Constant Contact"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

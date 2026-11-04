@@ -1,0 +1,65 @@
+{
+  "name": "Kimai",
+  "status": "published",
+  "vendor": { "name": "Kevin Papst", "website": "https://www.kimai.org" },
+  "primaryCategory": "time-tracking",
+  "summary": "Kimai is open-source time tracking that a business can host for free, or rent as Kimai Cloud at €2.99 or €3.99 per user a month on annual billing, excluding tax. Both cloud plans include invoicing, Cloud Professional adds monthly timesheet approval, and the cloud is hosted in Germany.",
+  "qualifies": [
+    {
+      "category": "time-tracking",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "time entry or clock in and out", "sourceUrl": "https://www.kimai.org/documentation/timesheet.html" },
+        { "capability": "timesheet approval", "sourceUrl": "https://www.kimai.org/documentation/contract.html" },
+        { "capability": "export to payroll or invoicing", "sourceUrl": "https://www.kimai.org/en/features.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Kimai's code is open source under the AGPL-3.0 licence, and the self-hosted version is free.", "sourceUrl": "https://github.com/kimai/kimai", "checkedAt": "2026-11-03" },
+    { "text": "Kimai Cloud is hosted with Hetzner in Falkenstein, Germany.", "sourceUrl": "https://www.kimai.org/en/privacy-policy.html", "checkedAt": "2026-11-03" },
+    { "text": "On self-hosted Kimai, a free third-party plugin adds a weekly approval step in which a team lead or admin approves or denies each week.", "sourceUrl": "https://www.kimai.org/en/store/katjaglass-approval-bundle.html", "checkedAt": "2026-11-03" },
+    { "text": "Kimai's post-mortem says Kimai Cloud users were served an expired SSL certificate on May 11, 2026.", "sourceUrl": "https://www.kimai.org/en/blog/2026/post-mortem-certificate-expired", "checkedAt": "2026-11-03" },
+    { "text": "Kimai says it has raised its cloud price once since 2019 and kept existing customers on their old price.", "sourceUrl": "https://www.kimai.org/en/blog/2026/fair-pricing", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Self-hosted", "priceUsd": 0, "billing": "month", "unit": "per server", "notes": "Open source; you run the server, and first-party plugins are priced separately" },
+      { "name": "Cloud Standard", "priceUsd": null, "listedPrice": { "amount": 2.99, "currency": "EUR" }, "billing": "month", "unit": "per user", "notes": "Billed annually, excluding tax; €3.99 on monthly billing. No USD price is published" },
+      { "name": "Cloud Professional", "priceUsd": null, "listedPrice": { "amount": 3.99, "currency": "EUR" }, "billing": "month", "unit": "per user", "notes": "Billed annually, excluding tax; €4.99 on monthly billing. Adds monthly timesheet approval; single sign-on and kiosk need annual billing" }
+    ],
+    "hiddenCosts": [
+      "Cloud prices are in euros and exclude tax. Kimai publishes no USD price.",
+      "On self-hosted Kimai, the first-party Working hours plugin for monthly approval costs €299 a year excluding VAT.",
+      "Single sign-on and kiosk mode on Kimai Cloud need Professional on annual billing."
+    ],
+    "sourceUrl": "https://www.kimai.org/en/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Cloud Professional on annual billing",
+    "sourceUrl": "https://www.kimai.org/en/pricing",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Cancel up to one day before the end of the subscription period. Fees paid in advance are not refunded, and the cloud service is sold to business customers only.",
+    "dataExport": "Timesheets as PDF, XLSX, CSV or HTML, plus a JSON API on both cloud plans.",
+    "exportSourceUrl": "https://www.kimai.org/documentation/export.html",
+    "sourceUrl": "https://www.kimai.org/en/terms-cloud.html",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Kimai Mobile", "Jira", "Lexoffice", "Bexio", "Microsoft Teams", "Visual Studio Code"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Bitwarden",
+  "status": "published",
+  "vendor": { "name": "Bitwarden Inc.", "website": "https://bitwarden.com" },
+  "primaryCategory": "password-manager",
+  "summary": "Bitwarden has a free organization for two users, a Teams plan at $4 per user a month and an Enterprise plan at $6, both billed annually. Its code is public on GitHub, and Enterprise customers can run the server on their own infrastructure.",
+  "qualifies": [
+    {
+      "category": "password-manager",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "encrypted vault", "sourceUrl": "https://bitwarden.com/help/what-encryption-is-used/" },
+        { "capability": "team sharing", "sourceUrl": "https://bitwarden.com/help/about-organizations/" },
+        { "capability": "admin policies and reporting", "sourceUrl": "https://bitwarden.com/help/password-manager-plans/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Bitwarden publishes its full codebase on GitHub under the AGPL v3.0 or the Bitwarden License.", "sourceUrl": "https://bitwarden.com/help/is-bitwarden-audited/", "checkedAt": "2026-11-03" },
+    { "text": "Bitwarden lists yearly third-party audits by firms including Cure53, Fracture Labs and Mandiant, plus a 2025 review by the Applied Cryptography Group at ETH Zurich.", "sourceUrl": "https://bitwarden.com/help/is-bitwarden-audited/", "checkedAt": "2026-11-03" },
+    { "text": "Organizations on the Enterprise plan can host the Bitwarden server themselves.", "sourceUrl": "https://bitwarden.com/help/password-manager-plans/", "checkedAt": "2026-11-03" },
+    { "text": "Bitwarden reported that a malicious version of its command-line tool, @bitwarden/cli 2026.4.0, was available on npm for a short window on April 22, 2026, and said it had found no evidence that vault data was accessed.", "sourceUrl": "https://community.bitwarden.com/t/bitwarden-statement-on-checkmarx-supply-chain-incident/96127", "checkedAt": "2026-11-03" },
+    { "text": "Bitwarden states it is working toward FedRAMP authorization and is not yet authorized.", "sourceUrl": "https://bitwarden.com/compliance/", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free organization", "priceUsd": 0, "billing": "month", "unit": "per organization", "notes": "Up to 2 users and 2 collections, without policies or event logs" },
+      { "name": "Teams", "priceUsd": 4, "billing": "month", "unit": "per user", "notes": "Billed annually" },
+      { "name": "Enterprise", "priceUsd": 6, "billing": "month", "unit": "per user", "notes": "Billed annually" }
+    ],
+    "hiddenCosts": [
+      "Login with single sign-on, enterprise policies and self-hosting are on the Enterprise plan only.",
+      "Secrets Manager is priced separately at $6 per user a month with Teams and $12 with Enterprise."
+    ],
+    "sourceUrl": "https://bitwarden.com/pricing/business/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://bitwarden.com/compliance/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Refunds are available only for subscriptions less than 30 days old; after cancellation the organization stays active until the next charge date.",
+    "dataExport": "Plain JSON, plain CSV or encrypted JSON, by admins and owners.",
+    "exportSourceUrl": "https://bitwarden.com/help/export-your-data/",
+    "sourceUrl": "https://bitwarden.com/help/organization-renewal/",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Okta", "Microsoft Entra ID", "Google Workspace", "OneLogin", "JumpCloud", "Duo", "Ping Identity", "Keycloak", "SCIM provisioning", "Directory Connector"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

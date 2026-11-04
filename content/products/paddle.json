@@ -1,0 +1,66 @@
+{
+  "name": "Paddle",
+  "status": "published",
+  "vendor": { "name": "Paddle.com Market Limited", "website": "https://www.paddle.com" },
+  "primaryCategory": "subscription-billing",
+  "summary": "Paddle acts as merchant of record, so it sells to the buyer, collects and remits sales tax and VAT, and handles refunds and chargebacks. It charges 5% plus 50 cents per checkout transaction with no monthly fee, and pays sellers once a month.",
+  "qualifies": [
+    {
+      "category": "subscription-billing",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "recurring plans and proration", "sourceUrl": "https://developer.paddle.com/concepts/subscriptions/proration" },
+        { "capability": "dunning", "sourceUrl": "https://developer.paddle.com/changelog/2025/default-dunning-payment-recovery" },
+        { "capability": "mrr and churn metrics", "sourceUrl": "https://www.paddle.com/profitwell-metrics" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "In June 2025 Paddle agreed to pay $5 million to settle FTC allegations of unfair payment processing for tech-support telemarketers, and it is banned from processing payments for them.", "sourceUrl": "https://www.ftc.gov/news-events/news/press-releases/2025/06/paddle-will-pay-5-million-settle-ftc-allegations-unfair-payment-processing-practices-facilitation", "checkedAt": "2026-11-03" },
+    { "text": "Paddle's FAQ on the FTC settlement says it does not admit the allegations beyond the formalities needed for jurisdiction.", "sourceUrl": "https://www.paddle.com/ftc-agreement-faq", "checkedAt": "2026-11-03" },
+    { "text": "Buyers' card statements show PADDLE.NET followed by the seller's name, and PayPal statements show PAYPAL *PADDLE.NET.", "sourceUrl": "https://www.paddle.com/help/manage/your-customers/what-will-customers-see-on-their-statement", "checkedAt": "2026-11-03" },
+    { "text": "Failed renewal payments are retried up to seven times over 30 days by default.", "sourceUrl": "https://developer.paddle.com/changelog/2025/default-dunning-payment-recovery", "checkedAt": "2026-11-03" },
+    { "text": "Paddle says that when a seller leaves, it moves customers' saved payment details to the new provider's PCI-compliant vault within 2 weeks.", "sourceUrl": "https://paddle.com/seller-guides/subscription-migration", "checkedAt": "2026-11-03" },
+    { "text": "Payouts are sent once a month, by the 15th, with a $100 minimum.", "sourceUrl": "https://www.paddle.com/help/manage/get-paid/when-and-how-do-i-get-paid", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Pay as you go", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 5, "fixedUsd": 0.5, "basis": "per checkout transaction" }, "notes": "No monthly fee. Includes payment processing, tax compliance, fraud protection and chargeback handling. Invoices paid by bank transfer cost 3.5% of the sale price" },
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "For high-volume businesses" }
+    ],
+    "hiddenCosts": [
+      "Chargebacks cost $20 each (40 CAD or AUD), and the fee is kept even if Paddle wins the dispute.",
+      "Converting a buyer's currency carries a 2% margin for USD, EUR and GBP and up to 3% for other currencies.",
+      "Each international bank transfer payout costs $15, and paying out in a different currency adds a margin of up to 1.5%.",
+      "Checkout Recovery takes 10% of each recovered checkout."
+    ],
+    "sourceUrl": "https://www.paddle.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://trust.paddle.com/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Either side can end the agreement with 30 days' written notice. Paddle can suspend an account and hold fees in listed cases, such as excessive chargebacks, and releases held funds after termination at the later of six months or the end of the last subscription.",
+    "dataExport": "Subscriber data from the dashboard, and saved payment details moved to a new provider's PCI-compliant vault within 2 weeks.",
+    "exportSourceUrl": "https://paddle.com/seller-guides/subscription-migration",
+    "sourceUrl": "https://www.paddle.com/legal/terms",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["RevenueCat", "HubSpot", "Intercom", "Databox", "ProfitWell Metrics"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "QuickBooks Time",
+  "status": "published",
+  "vendor": { "name": "Intuit Inc.", "website": "https://quickbooks.intuit.com/time-tracking/" },
+  "primaryCategory": "time-tracking",
+  "summary": "QuickBooks Time charges a monthly base fee plus a fee per user: $20 plus $10 per user on Time Premium and $40 plus $12 on Time Elite. It requires a QuickBooks Online subscription, bills monthly, and includes timesheet approval on both plans.",
+  "qualifies": [
+    {
+      "category": "time-tracking",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "time entry or clock in and out", "sourceUrl": "https://quickbooks.intuit.com/time-tracking/" },
+        { "capability": "timesheet approval", "sourceUrl": "https://quickbooks.intuit.com/learn-support/en-us/help-article/feature-preferences/install-uninstall-add-ons-quickbooks-time/L02dPwZmp_US_en_US" },
+        { "capability": "export to payroll or invoicing", "sourceUrl": "https://quickbooks.intuit.com/learn-support/en-us/help-article/manage-integrations/integrate-quickbooks-time-xero-us-countries/L3bPIjKvI_US_en_US" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Intuit raised the per-user price of Time Premium and Time Elite by $2 a month from July 1, 2026, and left the base fee unchanged.", "sourceUrl": "https://www.firmofthefuture.com/product-update/quickbooks-payroll-price-changes/", "checkedAt": "2026-11-03" },
+    { "text": "A QuickBooks Online account is required to use QuickBooks Time.", "sourceUrl": "https://quickbooks.intuit.com/time-tracking/pricing/", "checkedAt": "2026-11-03" },
+    { "text": "Geofencing is available on Time Elite only, not on Time Premium.", "sourceUrl": "https://quickbooks.intuit.com/time-tracking/geofencing/", "checkedAt": "2026-11-03" },
+    { "text": "Admins can require location tracking while people are on the clock, and Intuit states that admins cannot see location data when workers are off the clock.", "sourceUrl": "https://quickbooks.intuit.com/resources/gps-tracking-faq", "checkedAt": "2026-11-03" },
+    { "text": "The Workforce plans, which add payroll, can be used only in the United States.", "sourceUrl": "https://www.intuit.com/legal/terms/en-us/quickbooks/online/", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Time Premium", "priceUsd": 10, "billing": "month", "unit": "per user", "baseFeeUsd": 20, "notes": "Plus a $20 monthly base fee that includes 1 admin, discounted to $10 for the first 3 months" },
+      { "name": "Time Elite", "priceUsd": 12, "billing": "month", "unit": "per user", "baseFeeUsd": 40, "notes": "Plus a $40 monthly base fee that includes 1 admin, discounted to $20 for the first 3 months. Adds geofencing" },
+      { "name": "Workforce Premium", "priceUsd": 13, "billing": "month", "unit": "per employee", "baseFeeUsd": 88, "notes": "Plus an $88 monthly base fee, discounted to $44 for the first 3 months. Adds payroll, US only" },
+      { "name": "Workforce Elite", "priceUsd": 17, "billing": "month", "unit": "per employee", "baseFeeUsd": 134, "notes": "Plus a $134 monthly base fee, discounted to $67 for the first 3 months. Adds HR and benefits, US only" }
+    ],
+    "hiddenCosts": [
+      "A QuickBooks Online subscription is required and priced separately.",
+      "Every plan has a monthly base fee on top of the per-user price.",
+      "The 30-day trial and the introductory discount apply to the base fee only, not to per-user fees."
+    ],
+    "sourceUrl": "https://quickbooks.intuit.com/time-tracking/pricing/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.intuit.com/legal/terms/en-us/quickbooks/time-payroll-data-processing/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Cancellation takes effect the day after the current monthly period ends, with no refunds or credits for partial periods.",
+    "dataExport": "Timesheets as CSV and reports as PDF, with API access as an add-on.",
+    "exportSourceUrl": "https://quickbooks.intuit.com/learn-support/en-us/help-article/time-tracking/export-import-time-data-quickbooks-time/L1f77o0jJ_US_en_US",
+    "sourceUrl": "https://www.intuit.com/legal/terms/en-us/quickbooks/online/",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["QuickBooks Online", "QuickBooks Online Payroll", "QuickBooks Desktop", "ADP RUN", "Gusto", "Xero", "Namely"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Passbolt",
+  "status": "published",
+  "vendor": { "name": "Passbolt SA", "website": "https://www.passbolt.com" },
+  "primaryCategory": "password-manager",
+  "summary": "Passbolt is an open-source password manager built for teams, which can run it on their own servers or use Passbolt's cloud hosted in Europe. The self-hosted Community Edition is free for any number of users, and paid plans start at $4.90 per user a month with a 10-user minimum.",
+  "qualifies": [
+    {
+      "category": "password-manager",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "encrypted vault", "sourceUrl": "https://www.passbolt.com/security" },
+        { "capability": "team sharing", "sourceUrl": "https://www.passbolt.com/pricing/pro" },
+        { "capability": "admin policies and reporting", "sourceUrl": "https://www.passbolt.com/pricing/pro" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Passbolt's code, including the paid Pro edition, is open source under the AGPLv3 license.", "sourceUrl": "https://www.passbolt.com/security", "checkedAt": "2026-11-03" },
+    { "text": "Encryption is based on OpenPGP, and each user's secret key is never sent to the server in cleartext.", "sourceUrl": "https://www.passbolt.com/security", "checkedAt": "2026-11-03" },
+    { "text": "Passbolt publishes third-party audit reports, including Cure53 audits from 2021 to 2026 and a Quarkslab evaluation of Pro version 5.4.", "sourceUrl": "https://www.passbolt.com/security", "checkedAt": "2026-11-03" },
+    { "text": "Passbolt's SOC 2 Type II audit was carried out by Johanson Group, and customers can request the report under a non-disclosure agreement.", "sourceUrl": "https://www.passbolt.com/blog/security-and-compliance-roundup", "checkedAt": "2026-11-03" },
+    { "text": "On October 29, 2026, Passbolt released fixes in Pro version 5.17 for a high-severity server-side request forgery issue and a weakness in its limit on repeated MFA attempts, and advised all administrators to update.", "sourceUrl": "https://www.passbolt.com/incidents/5-17-security-bulletin", "checkedAt": "2026-11-03" },
+    { "text": "Passbolt keeps a public list of past vulnerabilities and outages going back to 2017.", "sourceUrl": "https://www.passbolt.com/incidents", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Community Edition", "priceUsd": 0, "billing": "month", "unit": "unlimited users", "notes": "Self-hosted. No single sign-on, LDAP, activity log or password policies." },
+      { "name": "Pro Edition", "priceUsd": 4.9, "billing": "month", "unit": "per user", "notes": "Self-hosted. Billed annually. Minimum 10 users." },
+      { "name": "Cloud Business", "priceUsd": 4.9, "billing": "month", "unit": "per user", "notes": "Hosted by Passbolt in Belgium and Germany. Billed annually; $5.40 billed monthly. Minimum 10 users.", "sourceUrl": "https://www.passbolt.com/pricing/cloud" },
+      { "name": "Cloud Sovereign", "priceUsd": 8, "billing": "month", "unit": "per user", "notes": "Hosted in a private data center in Luxembourg. Billed annually. Minimum 10 users.", "sourceUrl": "https://www.passbolt.com/pricing/cloud" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "Self-hosted or cloud, with a 4-hour support response time" }
+    ],
+    "hiddenCosts": [
+      "Pro, Cloud Business and Cloud Sovereign require at least 10 users.",
+      "LDAP and Active Directory provisioning are not part of Cloud Business.",
+      "Cloud annual plans are bought in user tiers; going over the paid count is invoiced at the next tier straight away, and the count does not shrink by itself.",
+      "Self-hosted editions run on servers you provide and maintain."
+    ],
+    "sourceUrl": "https://www.passbolt.com/pricing/pro",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Pro Edition (self-hosted) or Cloud Business",
+    "sourceUrl": "https://www.passbolt.com/security",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": 10,
+    "autoRenew": null,
+    "cancellation": "Cloud customers can end the service with notice; prepaid fees are not refunded for a termination of convenience.",
+    "dataExport": "An encrypted KeePass (KDBX) file. Plain CSV export has been off by default since version 5.10 and an administrator can turn it on in the server settings.",
+    "exportSourceUrl": "https://www.passbolt.com/docs/admin/resource-policies/export-policies/",
+    "sourceUrl": "https://www.passbolt.com/terms/cloud/customer",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Microsoft Entra ID", "Google", "Okta", "AD FS", "Keycloak", "PingOne", "OpenID Connect", "LDAP and Active Directory", "SCIM provisioning"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

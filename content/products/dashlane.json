@@ -1,0 +1,62 @@
+{
+  "name": "Dashlane",
+  "status": "published",
+  "vendor": { "name": "Dashlane Inc.", "website": "https://www.dashlane.com" },
+  "primaryCategory": "password-manager",
+  "summary": "Dashlane sells its business password manager as Omnix Password Management at $8 per user a month, billed annually, with single sign-on and SCIM included. Larger organizations buy Omnix Enterprise at a quoted price, which adds Dashlane's credential risk detection.",
+  "qualifies": [
+    {
+      "category": "password-manager",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "encrypted vault", "sourceUrl": "https://support.dashlane.com/hc/en-us/articles/360015352180-Dashlane-Omnix-Password-Management" },
+        { "capability": "team sharing", "sourceUrl": "https://support.dashlane.com/hc/en-us/articles/360015352180-Dashlane-Omnix-Password-Management" },
+        { "capability": "admin policies and reporting", "sourceUrl": "https://www.dashlane.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Dashlane's iOS, Android and web extension code is published on GitHub for review.", "sourceUrl": "https://support.dashlane.com/hc/en-us/articles/32877605633042-9-Compliance-certifications", "checkedAt": "2026-11-03" },
+    { "text": "Dashlane reported that a brute-force attack on its device registration flow, starting May 31, 2026, let attackers download the encrypted vaults of fewer than 20 personal plan users, and that it found no evidence its internal systems were affected.", "sourceUrl": "https://support.dashlane.com/hc/en-us/articles/36038764990866-Security-advisory-Brute-force-attack-on-Dashlane-user-accounts", "checkedAt": "2026-11-03" },
+    { "text": "Dashlane reported that in August 2025 attackers reached its Salesforce CRM through a compromised third-party app and exposed basic business details for some business customers, without access to vault data.", "sourceUrl": "https://support.dashlane.com/hc/en-us/articles/29059120844306-Security-advisory-Incident-impacting-business-customer-data-in-third-party-CRM-system", "checkedAt": "2026-11-03" },
+    { "text": "Dashlane no longer sells its Starter, Team and Standard plans, and existing customers can keep renewing them.", "sourceUrl": "https://support.dashlane.com/hc/en-us/articles/209420945-Compare-Dashlane-professional-plans", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Omnix Password Management", "priceUsd": 8, "billing": "month", "unit": "per user", "notes": "Billed annually" },
+      { "name": "Omnix Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "For 50 or more employees; adds Credential Protection" }
+    ],
+    "hiddenCosts": [
+      "Plans renew at the full seat count, including empty seats, unless an admin asks Dashlane to remove seats at least 30 days before renewal.",
+      "Phishing and credential risk detection is a separate product, Omnix Credential Protection, at $4 per user a month."
+    ],
+    "sourceUrl": "https://www.dashlane.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Omnix Password Management",
+    "sourceUrl": "https://support.dashlane.com/hc/en-us/articles/32877605633042-9-Compliance-certifications",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Renews for one-year periods unless written notice of non-renewal is given at least 30 days before the term ends.",
+    "dataExport": "CSV files in a ZIP, without Secure Note attachments or passkeys, or an encrypted DASH file. On business plans, members can export only after an admin turns on the Allow Export policy.",
+    "exportSourceUrl": "https://support.dashlane.com/hc/en-us/articles/32905278138002-Export-your-Dashlane-data-to-a-CSV",
+    "sourceUrl": "https://www.dashlane.com/terms/business",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Microsoft Entra ID", "Okta", "JumpCloud", "PingID", "Google Workspace", "Duo", "SCIM provisioning", "Splunk"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

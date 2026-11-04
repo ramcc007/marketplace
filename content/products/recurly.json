@@ -1,0 +1,64 @@
+{
+  "name": "Recurly",
+  "status": "published",
+  "vendor": { "name": "Recurly, Inc.", "website": "https://recurly.com" },
+  "primaryCategory": "subscription-billing",
+  "summary": "Recurly's Starter plan costs $249 a month plus 0.9% of billing volume above the first $40,000 each month, with a 90-day free trial. All-Access, which adds the MRR dashboard, intelligent retries and single sign-on, needs at least $1 million in billing volume.",
+  "qualifies": [
+    {
+      "category": "subscription-billing",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "recurring plans and proration", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/change-subscription" },
+        { "capability": "dunning", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/dunning-management" },
+        { "capability": "mrr and churn metrics", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/monthly-recurring-revenue" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The MRR dashboard is not included in Starter, while the churn benchmarks dashboard is on every plan.", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/monthly-recurring-revenue", "checkedAt": "2026-11-03" },
+    { "text": "Account Updater is not included in Starter and costs extra.", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/account-updater", "checkedAt": "2026-11-03" },
+    { "text": "When a merchant leaves, Recurly provides one free export of card data in tokenized form to a PCI-compliant system.", "sourceUrl": "https://support.recurly.com/hc/en-us/articles/360026949031", "checkedAt": "2026-11-03" },
+    { "text": "Built-in sales tax calculation, powered by Avalara, is available on all plans.", "sourceUrl": "https://docs.recurly.com/recurly-subscriptions/docs/tax", "checkedAt": "2026-11-03" },
+    { "text": "The Starter terms renew for one-year terms unless either side gives notice at least 30 days before renewal.", "sourceUrl": "https://recurly.com/legal/terms/", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 90,
+    "plans": [
+      { "name": "Starter", "priceUsd": 249, "billing": "month", "unit": "per account", "notes": "Plus 0.9% of billing volume above the first $40,000 each month; 1 dunning campaign" },
+      { "name": "All-Access", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Billed annually; $1 million billing volume minimum, quoted as under 1% of volume" }
+    ],
+    "hiddenCosts": [
+      "Account Updater costs extra.",
+      "Engage starts at $1,600 a month and RevRec at $850 a month, billed annually.",
+      "Payment gateway fees are paid separately."
+    ],
+    "sourceUrl": "https://recurly.com/pricing/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": "Not included in Starter",
+    "sourceUrl": "https://recurly.com/product/security-compliance/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Renews for one-year terms unless notice is given 30 days before renewal; fees are non-refundable.",
+    "dataExport": "Billing data exports from Analytics, and one free tokenized card export when leaving.",
+    "exportSourceUrl": "https://support.recurly.com/hc/en-us/articles/360026949031",
+    "sourceUrl": "https://recurly.com/legal/terms/",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["QuickBooks Online", "Xero", "NetSuite", "Salesforce", "Avalara", "Vertex", "Braze", "ChartMogul", "Snowflake", "Zendesk"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

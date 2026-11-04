@@ -1,0 +1,65 @@
+{
+  "name": "Chargebee",
+  "status": "published",
+  "vendor": { "name": "Chargebee, Inc.", "website": "https://www.chargebee.com" },
+  "primaryCategory": "subscription-billing",
+  "summary": "Chargebee's Flow plan costs 0.8% of monthly invoicing volume with no platform fee, or $99 a month plus 0.65%, and works with more than 40 payment gateways. Eligible venture-backed startups pay nothing until they bill their first $1 million.",
+  "qualifies": [
+    {
+      "category": "subscription-billing",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "recurring plans and proration", "sourceUrl": "https://www.chargebee.com/docs/billing/2.0/subscriptions/proration" },
+        { "capability": "dunning", "sourceUrl": "https://www.chargebee.com/docs/payments/2.0/dunning/dunning-v2" },
+        { "capability": "mrr and churn metrics", "sourceUrl": "https://www.chargebee.com/docs/billing/2.0/reports-and-analytics/chargebee-analytics" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The startup offer is free until a company bills its first $1 million, for new customers that raised less than $5 million and belong to a partner program.", "sourceUrl": "https://www.chargebee.com/startups/", "checkedAt": "2026-11-03" },
+    { "text": "Smart dunning makes up to 12 retries, and custom schedules allow up to 5.", "sourceUrl": "https://www.chargebee.com/docs/payments/2.0/dunning/dunning-v2", "checkedAt": "2026-11-03" },
+    { "text": "Card copying to another gateway through the API does not work for cards held at Stripe or Braintree.", "sourceUrl": "https://apidocs.chargebee.com/docs/api/payment_sources/export-payment-source", "checkedAt": "2026-11-03" },
+    { "text": "Chargebee hosts accounts in the US, the EU (Frankfurt) or Australia.", "sourceUrl": "https://www.chargebee.com/docs/billing/2.0/getting-started/data-centers", "checkedAt": "2026-11-03" },
+    { "text": "A merchant of record option through Reach is in private beta.", "sourceUrl": "https://www.chargebee.com/docs/payments/2.0/others/reach", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Flow, pay as you go", "priceUsd": null, "billing": "month", "unit": "per account", "volumeFee": { "percent": 0.8, "basis": "of billing volume" }, "notes": "No platform fee" },
+      { "name": "Flow, committed", "priceUsd": 99, "billing": "month", "unit": "per account", "notes": "Plus 0.65% of billing volume; cheaper above about $66,000 a month" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Adds SAML single sign-on, multi-entity and contract terms" }
+    ],
+    "hiddenCosts": [
+      "Payment gateway fees are paid separately to the gateway.",
+      "HubSpot and Salesforce subscription sync are paid extras.",
+      "The terms allow a reasonable fee for help exporting data."
+    ],
+    "sourceUrl": "https://www.chargebee.com/pricing/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://www.chargebee.com/security/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Flow runs month to month and ends at the close of the billing cycle after a cancellation request; fees are non-refundable.",
+    "dataExport": "Customers, subscriptions and invoices as CSV; data kept for 120 days after termination.",
+    "exportSourceUrl": "https://apidocs.chargebee.com/docs/api/exports/export-subscriptions",
+    "sourceUrl": "https://www.chargebee.com/company/terms/",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["QuickBooks Online", "Xero", "Sage Intacct", "NetSuite", "Salesforce", "HubSpot", "Pipedrive", "Avalara", "Stripe", "Adyen"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

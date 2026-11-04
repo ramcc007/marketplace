@@ -1,0 +1,65 @@
+{
+  "name": "Uptime.com",
+  "status": "published",
+  "vendor": { "name": "Uptime.com LLC", "website": "https://uptime.com" },
+  "primaryCategory": "uptime-monitoring",
+  "summary": "Uptime.com sells one Website Monitoring plan in quantity tiers, from $84 a year for 10 basic checks, 1 advanced check and 25 SMS alerts. Every tier checks once a minute and includes unlimited users, and status pages are an add-on.",
+  "qualifies": [
+    {
+      "category": "uptime-monitoring",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "http and ping checks from many locations", "sourceUrl": "https://uptime.com/probe-server-locations" },
+        { "capability": "alerting", "sourceUrl": "https://uptime.com/alerting" },
+        { "capability": "uptime reports", "sourceUrl": "https://support.uptime.com/hc/en-us/articles/360017118860" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "An alert fires when the number of probe servers reporting a check as down reaches the sensitivity the user sets.", "sourceUrl": "https://support.uptime.com/hc/en-us/articles/4405117991826", "checkedAt": "2026-11-03" },
+    { "text": "Uptime.com's status page reported an IPv6 connectivity problem across several probe locations from September 29, 2026 that may cause false down alerts, with IPv4 checks unaffected.", "sourceUrl": "https://status.uptime.com/", "checkedAt": "2026-11-03" },
+    { "text": "In 2025 Uptime.com replaced its Starter, Essential and Premium tiers with the current tiered plan.", "sourceUrl": "https://support.uptime.com/hc/en-us/articles/20337242655772", "checkedAt": "2026-11-03" },
+    { "text": "Uptime.com hosts its main application on AWS in the United States.", "sourceUrl": "https://trust.uptime.com/faq", "checkedAt": "2026-11-03" },
+    { "text": "The pricing FAQ offers a 30-day money-back guarantee to new users, while the terms say paid fees are non-refundable.", "sourceUrl": "https://uptime.com/pricing", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "10 basic checks", "priceUsd": 84, "billing": "year", "unit": "per account", "notes": "$9 on monthly billing. 1 advanced check and 25 SMS alerts" },
+      { "name": "50 basic checks", "priceUsd": 360, "billing": "year", "unit": "per account", "notes": "$38 on monthly billing. 5 advanced checks and 75 SMS alerts" },
+      { "name": "100 basic checks", "priceUsd": 720, "billing": "year", "unit": "per account", "notes": "$75 on monthly billing. 10 advanced checks and 100 SMS alerts" },
+      { "name": "1,000 basic checks", "priceUsd": 7200, "billing": "year", "unit": "per account", "notes": "$750 on monthly billing. 100 advanced checks and 1,500 SMS alerts" }
+    ],
+    "hiddenCosts": [
+      "Status pages are an add-on; the pricing page's calculator data lists one page at $13 a month or $120 a year.",
+      "Each SMS and phone call counts against the tier's monthly allowance, and more requires the next tier."
+    ],
+    "sourceUrl": "https://uptime.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Depends on the subscription (SAML 2.0)",
+    "sourceUrl": "https://trust.uptime.com/faq",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The terms say paid fees are non-refundable and that orders are renewed by paying renewal fees.",
+    "dataExport": "SLA reports as PDF or XLS, and uptime statistics through the API.",
+    "exportSourceUrl": "https://support.uptime.com/hc/en-us/articles/360017118860",
+    "sourceUrl": "https://uptime.com/terms-and-conditions",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["PagerDuty", "Slack", "Microsoft Teams", "Opsgenie", "Webhooks", "Datadog", "Splunk On-Call", "Statuspage", "Terraform", "REST API"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

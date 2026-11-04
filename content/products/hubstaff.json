@@ -1,0 +1,66 @@
+{
+  "name": "Hubstaff",
+  "status": "published",
+  "vendor": { "name": "Netsoft Holdings, LLC", "website": "https://hubstaff.com" },
+  "primaryCategory": "time-tracking",
+  "summary": "Hubstaff costs $4.99 to $10 per seat a month on annual billing with a 2-seat minimum, and Enterprise costs $25. Activity levels and screenshots come with every plan and can be turned off. Timesheet approvals and payroll start on Team.",
+  "qualifies": [
+    {
+      "category": "time-tracking",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "time entry or clock in and out", "sourceUrl": "https://support.hubstaff.com/time-tracker-apps-overview/" },
+        { "capability": "timesheet approval", "sourceUrl": "https://support.hubstaff.com/team-members-guide-to-timesheet-approvals/" },
+        { "capability": "export to payroll or invoicing", "sourceUrl": "https://support.hubstaff.com/payroll-overview/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Screenshots can be turned off for the whole organization, and recording of apps and URLs can be turned off in organization settings.", "sourceUrl": "https://support.hubstaff.com/how-to-disable-screenshots-hubstaff/", "checkedAt": "2026-11-03" },
+    { "text": "The payroll feature on Team and above pays people through Wise, PayPal, Payoneer and Bitwage and connects to Deel, Gusto and Remote.", "sourceUrl": "https://support.hubstaff.com/payroll-overview/", "checkedAt": "2026-11-03" },
+    { "text": "GPS location tracking is an add-on at $3.33 per seat a month on Team, included on Enterprise and not offered on Starter or Grow.", "sourceUrl": "https://support.hubstaff.com/new-pricing-and-plans/", "checkedAt": "2026-11-03" },
+    { "text": "Hubstaff's Trust Center lists SOC 2 Type II, HIPAA, GDPR and CCPA, with hosting on AWS in the US.", "sourceUrl": "https://trust.hubstaff.com/", "checkedAt": "2026-11-03" },
+    { "text": "Hubstaff's help center describes a free plan for the organization owner only, while the pricing page offers a 14-day trial instead.", "sourceUrl": "https://support.hubstaff.com/new-pricing-and-plans/", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Starter", "priceUsd": 4.99, "billing": "month", "unit": "per seat", "notes": "Billed annually; $7 on monthly billing. 2-seat minimum" },
+      { "name": "Grow", "priceUsd": 7.5, "billing": "month", "unit": "per seat", "notes": "Billed annually; $9 on monthly billing. 2-seat minimum" },
+      { "name": "Team", "priceUsd": 10, "billing": "month", "unit": "per seat", "notes": "Billed annually; $12 on monthly billing. 2-seat minimum. Adds timesheet approvals and payroll" },
+      { "name": "Enterprise", "priceUsd": 25, "billing": "month", "unit": "per seat", "notes": "Billed annually. Adds single sign-on, SCIM and GPS" }
+    ],
+    "hiddenCosts": [
+      "Add-ons are priced per seat a month: Insights $2.50 on Starter and Grow, the silent app $2.50, GPS $3.33 on Team, longer data retention $1.67 and more screenshots $2.50.",
+      "Billing counts at least 2 seats on Starter, Grow and Team.",
+      "Hubstaff gives no prorated refunds or credits for removed users."
+    ],
+    "sourceUrl": "https://hubstaff.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://trust.hubstaff.com/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": 2,
+    "autoRenew": true,
+    "cancellation": "The terms allow cancellation at any time from the organization page and give refunds only where support deems it necessary. The pricing page separately offers a 30-day money-back guarantee.",
+    "dataExport": "Reports as CSV, PDF or QuickBooks format; the public API is limited to Team and Enterprise.",
+    "exportSourceUrl": "https://support.hubstaff.com/export-or-download-reports/",
+    "sourceUrl": "https://hubstaff.com/terms",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["QuickBooks Online", "FreshBooks", "PayPal", "Wise", "Gusto", "Deel", "Asana", "Jira", "Trello", "Slack"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

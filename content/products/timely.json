@@ -1,0 +1,65 @@
+{
+  "name": "Timely",
+  "status": "published",
+  "vendor": { "name": "Timely AS", "website": "https://www.timely.com" },
+  "primaryCategory": "time-tracking",
+  "summary": "Timely records the apps and sites a person uses and turns them into draft time entries that only that person sees. Plans cost $9 to $22 per user a month on annual billing, Starter stops at 5 users and Premium at 50, and approval states start on Premium.",
+  "qualifies": [
+    {
+      "category": "time-tracking",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "time entry or clock in and out", "sourceUrl": "https://www.timely.com/help/handbook/classic/creating-time-entries/" },
+        { "capability": "timesheet approval", "sourceUrl": "https://www.timely.com/help/handbook/people-team-management/time-entry-states/" },
+        { "capability": "export to payroll or invoicing", "sourceUrl": "https://www.timely.com/help/handbook/integrations/quickbooks-online/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Timely states that its Memory tracker never records keystrokes, screenshots or audio.", "sourceUrl": "https://www.timely.com/help/handbook/privacy/what-is-captured-by-memory/", "checkedAt": "2026-11-03" },
+    { "text": "Timely says employers cannot see the activity its Memory tracker captures.", "sourceUrl": "https://www.timely.com/help/handbook/privacy/can-my-boss-see-my-data/", "checkedAt": "2026-11-03" },
+    { "text": "Approval works through custom time entry states, such as Submitted for approval and Approved, on Premium and Unlimited.", "sourceUrl": "https://www.timely.com/help/handbook/people-team-management/time-entry-states/", "checkedAt": "2026-11-03" },
+    { "text": "Invoices made in Timely arrive in QuickBooks Online as drafts.", "sourceUrl": "https://www.timely.com/help/handbook/integrations/quickbooks-online/", "checkedAt": "2026-11-03" },
+    { "text": "Timely hosts all data in EU-based AWS data centres, holds ISO 27001:2022 certification and states that it is not SOC 2 certified or HIPAA compliant.", "sourceUrl": "https://www.timely.com/security/", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Starter", "priceUsd": 9, "billing": "month", "unit": "per user", "notes": "Billed annually; $11 on monthly billing. Up to 5 users and 20 projects" },
+      { "name": "Premium", "priceUsd": 16, "billing": "month", "unit": "per user", "notes": "Billed annually; $20 on monthly billing. Up to 50 users. Adds time entry states and QuickBooks Online" },
+      { "name": "Unlimited", "priceUsd": 22, "billing": "month", "unit": "per user", "notes": "Billed annually; $28 on monthly billing. No user cap. Adds locked time" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Contact sales. Adds SAML single sign-on" }
+    ],
+    "hiddenCosts": [
+      "Starter stops at 5 users and Premium at 50, so a growing team has to move up a plan.",
+      "The Tasks add-on starts at $5 per person."
+    ],
+    "sourceUrl": "https://www.timely.com/pricing/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": false,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": false,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://www.timely.com/security/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Payments are non-refundable, and a cancelled subscription runs to the end of the current period.",
+    "dataExport": "Reports as PDF, CSV or XLS on every plan.",
+    "exportSourceUrl": "https://www.timely.com/help/handbook/reporting/exporting-reports/",
+    "sourceUrl": "https://www.timely.com/terms/",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["QuickBooks Online", "Jira", "Asana", "Trello", "ClickUp", "monday.com", "Linear", "Google Calendar", "Outlook Calendar", "Microsoft Teams"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

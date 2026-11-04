@@ -1,0 +1,64 @@
+{
+  "name": "Zoho Vault",
+  "status": "published",
+  "vendor": { "name": "Zoho Corporation", "website": "https://www.zoho.com/vault/" },
+  "primaryCategory": "password-manager",
+  "summary": "Zoho Vault starts at $0.90 per user a month on annual billing, and monthly billing is offered on every paid plan. Single sign-on through SAML, directory sync and SIEM integrations are on the Enterprise plan at $7.20 per user a month.",
+  "qualifies": [
+    {
+      "category": "password-manager",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "encrypted vault", "sourceUrl": "https://www.zoho.com/vault/security.html" },
+        { "capability": "team sharing", "sourceUrl": "https://www.zoho.com/vault/pricing.html" },
+        { "capability": "admin policies and reporting", "sourceUrl": "https://www.zoho.com/vault/pricing.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Encryption and decryption happen in the browser with AES-256, and Zoho Vault never stores the master password.", "sourceUrl": "https://www.zoho.com/vault/security.html", "checkedAt": "2026-11-03" },
+    { "text": "Zoho Vault is listed in the scope of Zoho's SOC 2 plus HIPAA Type 2 report, and Zoho acts as a Business Associate for covered products.", "sourceUrl": "https://www.zoho.com/compliance.html", "checkedAt": "2026-11-03" },
+    { "text": "The free plan does not allow password sharing or inviting users, so teams need a paid plan.", "sourceUrl": "https://www.zoho.com/vault/pricing.html", "checkedAt": "2026-11-03" },
+    { "text": "The 15-day trial covers the Enterprise plan for up to five users, and an account that does not upgrade moves to the free plan with its data kept.", "sourceUrl": "https://www.zoho.com/vault/pricing.html", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 15,
+    "plans": [
+      { "name": "Standard", "priceUsd": 0.9, "billing": "month", "unit": "per user", "notes": "Billed annually; $1 billed monthly" },
+      { "name": "Professional", "priceUsd": 4.5, "billing": "month", "unit": "per user", "notes": "Billed annually; $5 billed monthly. Minimum 5 users." },
+      { "name": "Enterprise", "priceUsd": 7.2, "billing": "month", "unit": "per user", "notes": "Billed annually; $8 billed monthly. Minimum 5 users." },
+      { "name": "Flex", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "Volume pricing through sales" }
+    ],
+    "hiddenCosts": [
+      "SAML single sign-on, Active Directory and Entra ID login, Okta and OneLogin integration, and SIEM integration are on the Enterprise plan only.",
+      "Professional and Enterprise require at least 5 users."
+    ],
+    "sourceUrl": "https://www.zoho.com/vault/pricing.html",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://www.zoho.com/compliance.html",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "To stop a renewal, notify Zoho at least seven days before the renewal date.",
+    "dataExport": "Plain-text export of passwords, or an encrypted HTML copy that opens only with the master password.",
+    "exportSourceUrl": "https://help.zoho.com/portal/en/kb/vault/user-guide/offline-access-and-backup/articles/vault-secure-password-access-offline",
+    "sourceUrl": "https://www.zoho.com/terms.html",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Microsoft Entra ID", "Active Directory", "Okta", "OneLogin", "Google Workspace", "Microsoft 365", "Splunk", "Microsoft Sentinel", "ServiceNow", "Jira"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

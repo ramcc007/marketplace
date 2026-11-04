@@ -1,0 +1,66 @@
+{
+  "name": "Toggl",
+  "status": "published",
+  "vendor": { "name": "Toggl OÜ", "website": "https://toggl.com" },
+  "primaryCategory": "time-tracking",
+  "summary": "Toggl is free for up to 3 users, and its Starter and Premium plans cost $9 and $16 per user a month on annual billing. New customers get Toggl 2.0, which replaced Toggl Track for sign-ups. Timesheet approvals and single sign-on start on Premium.",
+  "qualifies": [
+    {
+      "category": "time-tracking",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "time entry or clock in and out", "sourceUrl": "https://toggl.com/pricing" },
+        { "capability": "timesheet approval", "sourceUrl": "https://docs.toggl.com/timesheet-approvals-in-toggl-2.0" },
+        { "capability": "export to payroll or invoicing", "sourceUrl": "https://toggl.com/use-cases/time-billing-software" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Toggl 2.0 is the product sold to new customers. Toggl says Toggl Track stays available and supported for existing users, with no announced end date.", "sourceUrl": "https://docs.toggl.com/toggl-faq-for-toggl-track-users", "checkedAt": "2026-11-03" },
+    { "text": "Toggl 2.0 lists no built-in invoicing. Hours leave as CSV, XLSX or PDF exports or through the API, and Toggl's QuickBooks Online and Xero integrations are marked as legacy Toggl Track integrations.", "sourceUrl": "https://toggl.com/integrations/xero", "checkedAt": "2026-11-03" },
+    { "text": "Toggl states that it does not take screenshots or record keystrokes, browsing history or location.", "sourceUrl": "https://toggl.com/pricing", "checkedAt": "2026-11-03" },
+    { "text": "EU data hosting is available for Toggl 2.0 and not for Toggl Track.", "sourceUrl": "https://toggl.com/eu-hosting", "checkedAt": "2026-11-03" },
+    { "text": "Toggl's help center lists Toggl Track Premium at $18 per user a month on annual billing, while the current pricing page lists Premium at $16.", "sourceUrl": "https://support.toggl.com/what-are-the-differences-between-starter-and-premium", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per workspace", "notes": "Up to 3 users, with personal reports only" },
+      { "name": "Starter", "priceUsd": 9, "billing": "month", "unit": "per user", "notes": "Billed annually; $12 on monthly billing. Adds billable rates and team reports" },
+      { "name": "Premium", "priceUsd": 16, "billing": "month", "unit": "per user", "notes": "Billed annually; $24 on monthly billing. Adds timesheet approvals and single sign-on" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Price on request" }
+    ],
+    "hiddenCosts": [
+      "Time Off Management is an add-on at $2 per user a month.",
+      "Capacity Management is an add-on at $5 per user a month on annual billing or $6 monthly.",
+      "Premium on monthly billing costs $24 per user, 50% more than the annual price."
+    ],
+    "sourceUrl": "https://toggl.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Premium",
+    "sourceUrl": "https://toggl.com/security-and-reliability",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Fees are non-refundable under the terms, and Toggl may change fees with a month's notice.",
+    "dataExport": "PDF reports on every plan, CSV and XLSX reports on Starter and above, and the API on every plan.",
+    "exportSourceUrl": "https://toggl.com/pricing",
+    "sourceUrl": "https://toggl.com/legal/terms/",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Google Calendar", "Outlook Calendar", "Jira", "Asana", "HubSpot", "Slack"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

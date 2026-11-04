@@ -1,0 +1,67 @@
+{
+  "name": "Stripe Billing",
+  "status": "published",
+  "vendor": { "name": "Stripe, LLC", "website": "https://stripe.com/billing" },
+  "primaryCategory": "subscription-billing",
+  "summary": "Stripe Billing charges 0.7% of billing volume on pay-as-you-go, or a monthly fee on a one-year contract from $620 for up to $100,000 of monthly volume. Card processing is charged separately at 2.9% plus 30 cents in the US, and the business stays the seller of record.",
+  "qualifies": [
+    {
+      "category": "subscription-billing",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "recurring plans and proration", "sourceUrl": "https://docs.stripe.com/billing/subscriptions/prorations" },
+        { "capability": "dunning", "sourceUrl": "https://docs.stripe.com/billing/revenue-recovery/smart-retries" },
+        { "capability": "mrr and churn metrics", "sourceUrl": "https://docs.stripe.com/billing/subscriptions/analytics" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Smart Retries recommends 8 tries within 2 weeks by default, and Stripe emails the customer after each failed payment.", "sourceUrl": "https://docs.stripe.com/billing/revenue-recovery/smart-retries", "checkedAt": "2026-11-03" },
+    { "text": "Stripe exports saved card data only to another PCI DSS Level 1 processor, and it does not export subscriptions or payment history.", "sourceUrl": "https://docs.stripe.com/get-started/data-migrations/pan-export", "checkedAt": "2026-11-03" },
+    { "text": "Stripe Tax is a separate paid product, at 0.5% per transaction where the business is registered on its no-code option.", "sourceUrl": "https://stripe.com/tax/pricing", "checkedAt": "2026-11-03" },
+    { "text": "Stripe Managed Payments, a separate product in which Stripe is merchant of record, adds 3.5% per transaction to payment fees.", "sourceUrl": "https://stripe.com/pricing", "checkedAt": "2026-11-03" },
+    { "text": "Stripe completed its acquisition of Metronome, now its main usage-based billing platform, in January 2026.", "sourceUrl": "https://stripe.com/newsroom/news/stripe-completes-metronome-acquisition", "checkedAt": "2026-11-03" },
+    { "text": "Monthly-fee plans cannot be downgraded during the contract term, and fees are not refunded on early cancellation.", "sourceUrl": "https://stripe.com/legal/subscription-policy", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Pay as you go", "priceUsd": null, "billing": "month", "unit": "per account", "volumeFee": { "percent": 0.7, "basis": "of billing volume" }, "notes": "No recurring fee. Covers billing on and off Stripe, excluding one-off invoices" },
+      { "name": "Up to $100,000 a month", "priceUsd": 620, "billing": "month", "unit": "per account", "notes": "1-year contract; 0.67% on volume above the tier" },
+      { "name": "Up to $250,000 a month", "priceUsd": 1500, "billing": "month", "unit": "per account", "notes": "1-year contract; 0.67% on volume above the tier" },
+      { "name": "Up to $1,000,000 a month", "priceUsd": 5750, "billing": "month", "unit": "per account", "notes": "1-year contract; custom pricing above $1 million" }
+    ],
+    "hiddenCosts": [
+      "Card processing is extra: 2.9% plus 30 cents per US card charge, 1.5% more for international cards and 1% for currency conversion.",
+      "Stripe Tax is priced separately.",
+      "A custom domain for the customer portal costs $10 a month."
+    ],
+    "sourceUrl": "https://stripe.com/billing/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Every account (SAML 2.0)",
+    "sourceUrl": "https://docs.stripe.com/security",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Monthly-fee plans renew automatically, cancellation takes effect at the end of the term, and fees are not refunded.",
+    "dataExport": "Data through the API or Dashboard; saved cards only to another PCI DSS Level 1 processor.",
+    "exportSourceUrl": "https://docs.stripe.com/get-started/data-migrations/pan-export",
+    "sourceUrl": "https://stripe.com/legal/subscription-policy",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["NetSuite", "Salesforce", "SAP", "Shopify", "QuickBooks", "Xero", "HubSpot", "Avalara", "Anrok"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

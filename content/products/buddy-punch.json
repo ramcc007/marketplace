@@ -1,0 +1,66 @@
+{
+  "name": "Buddy Punch",
+  "status": "published",
+  "vendor": { "name": "Buddy Punch Inc", "website": "https://buddypunch.com" },
+  "primaryCategory": "time-tracking",
+  "summary": "Buddy Punch is a punch clock for hourly staff at $4.99 to $12.99 per user a month on annual billing, plus a $19 monthly base fee. Time card approval and payroll integrations are on every plan, and administrators are free users.",
+  "qualifies": [
+    {
+      "category": "time-tracking",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "time entry or clock in and out", "sourceUrl": "https://buddypunch.com/pricing/" },
+        { "capability": "timesheet approval", "sourceUrl": "https://docs.buddypunch.com/en/articles/4831293-how-to-approve-reject-or-reset-time-cards-administrator-web" },
+        { "capability": "export to payroll or invoicing", "sourceUrl": "https://docs.buddypunch.com/en/articles/3658393-payroll-integrations" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Approving a time card locks it against edits by the employee and by managers, and rejecting it sends it back to the employee to change.", "sourceUrl": "https://docs.buddypunch.com/en/articles/4831293-how-to-approve-reject-or-reset-time-cards-administrator-web", "checkedAt": "2026-11-03" },
+    { "text": "Buddy Punch lists integrations with 21 payroll providers, including ADP, Gusto, Paychex Flex, Paylocity and QuickBooks.", "sourceUrl": "https://docs.buddypunch.com/en/articles/3658393-payroll-integrations", "checkedAt": "2026-11-03" },
+    { "text": "Basic GPS records an employee's location at the moment they punch in, punch out or switch jobs, and can be set to off, optional or required for each employee.", "sourceUrl": "https://docs.buddypunch.com/en/articles/919294-how-to-set-up-and-view-basic-gps", "checkedAt": "2026-11-03" },
+    { "text": "Offline mode in the mobile app is on Pro and Advanced only.", "sourceUrl": "https://docs.buddypunch.com/en/articles/16202890-how-to-enable-offline-mode-administrator-web", "checkedAt": "2026-11-03" },
+    { "text": "Buddy Punch's security page describes encryption at rest and in transit and names no SOC 2 or ISO 27001 certification.", "sourceUrl": "https://buddypunch.com/security/", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Starter", "priceUsd": 4.99, "billing": "month", "unit": "per user", "baseFeeUsd": 19, "notes": "Billed annually; $5.99 on monthly billing. Plus a $19 monthly base fee" },
+      { "name": "Pro", "priceUsd": 6.99, "billing": "month", "unit": "per user", "baseFeeUsd": 19, "notes": "Billed annually; $7.99 on monthly billing. Plus the $19 base fee. Adds kiosk punching, scheduling and offline mode" },
+      { "name": "Advanced", "priceUsd": 12.99, "billing": "month", "unit": "per user", "baseFeeUsd": 19, "notes": "Billed annually; $13.99 on monthly billing. Plus the $19 base fee. Adds single sign-on and real-time GPS" }
+    ],
+    "hiddenCosts": [
+      "Every plan has a $19 monthly base fee on top of the per-user price.",
+      "Real-time GPS tracking is an add-on at $2 per user a month below Advanced.",
+      "Built-in payroll is an add-on at $8 per user a month plus a $49 monthly base fee.",
+      "Keeping records for 6 years is an add-on at $24 per user a year."
+    ],
+    "sourceUrl": "https://buddypunch.com/pricing/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Advanced",
+    "sourceUrl": "https://buddypunch.com/security/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "No contract, and plans can be cancelled at any time. The pricing page offers a full refund within 72 hours of a monthly sign-up or 30 days of an annual one.",
+    "dataExport": "Hours as CSV, Excel or PDF on every plan, payroll exports in provider formats, and API access on Pro and Advanced.",
+    "exportSourceUrl": "https://docs.buddypunch.com/en/articles/1064177-payroll-export-report",
+    "sourceUrl": "https://buddypunch.com/pricing/",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["QuickBooks Online", "QuickBooks Desktop", "ADP Workforce Now", "ADP RUN", "Gusto", "Paychex Flex", "Paylocity", "Paycor", "Rippling", "Zapier"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

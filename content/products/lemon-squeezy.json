@@ -1,0 +1,67 @@
+{
+  "name": "Lemon Squeezy",
+  "status": "published",
+  "vendor": { "name": "Link, LLC (formerly Lemon Squeezy LLC)", "website": "https://www.lemonsqueezy.com" },
+  "primaryCategory": "subscription-billing",
+  "summary": "Lemon Squeezy is a merchant of record owned by Stripe that charges 5% plus 50 cents per transaction, with surcharges for international cards, PayPal and subscription payments. Its January 2026 update said it aims to move users to Stripe Managed Payments.",
+  "qualifies": [
+    {
+      "category": "subscription-billing",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "recurring plans and proration", "sourceUrl": "https://docs.lemonsqueezy.com/help/products/subscriptions" },
+        { "capability": "dunning", "sourceUrl": "https://docs.lemonsqueezy.com/help/online-store/recovery-dunning" },
+        { "capability": "mrr and churn metrics", "sourceUrl": "https://docs.lemonsqueezy.com/guides/developer-guide/testing-going-live" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Stripe acquired Lemon Squeezy in July 2024, and Lemon Squeezy had processed its payments on Stripe since it began.", "sourceUrl": "https://www.lemonsqueezy.com/blog/stripe-acquires-lemon-squeezy", "checkedAt": "2026-11-03" },
+    { "text": "Lemon Squeezy's January 2026 update said its goal is an easy migration to Stripe Managed Payments and acknowledged slower support responses and less frequent product updates.", "sourceUrl": "https://www.lemonsqueezy.com/blog/2026-update", "checkedAt": "2026-11-03" },
+    { "text": "Card statements show LEMSQZY* followed by the store name, because Lemon Squeezy is the merchant of record.", "sourceUrl": "https://docs.lemonsqueezy.com/help/getting-started/statement-descriptor", "checkedAt": "2026-11-03" },
+    { "text": "Failed subscription payments are retried four times over two weeks, and renewal reminders go out seven days ahead.", "sourceUrl": "https://docs.lemonsqueezy.com/help/online-store/recovery-dunning", "checkedAt": "2026-11-03" },
+    { "text": "Net sales are held for 13 days and paid out on the 1st and 15th of each month, with a $50 minimum.", "sourceUrl": "https://docs.lemonsqueezy.com/help/getting-started/getting-paid", "checkedAt": "2026-11-03" },
+    { "text": "The terms make sellers responsible for copying their data before termination. We found no documented way to move saved cards out to another provider.", "sourceUrl": "https://www.lemonsqueezy.com/terms", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Standard", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 5, "fixedUsd": 0.5, "basis": "per transaction" }, "notes": "No monthly fee" },
+      { "name": "Volume pricing", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "On request" }
+    ],
+    "hiddenCosts": [
+      "Transactions outside the US add 1.5%, and PayPal transactions add 1.5%.",
+      "Subscription payments add 0.5%.",
+      "Payments recovered through abandoned cart emails add 5%.",
+      "Disputes cost $15 each, and the platform fee is kept when an order is refunded.",
+      "Bank payouts outside the US cost 1% per payout."
+    ],
+    "sourceUrl": "https://www.lemonsqueezy.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.lemonsqueezy.com/dpa",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Lemon Squeezy can delay payouts, suspend accounts and refund payouts without warning if there is evidence of fraud.",
+    "dataExport": "Subscriptions and subscription invoices as CSV.",
+    "exportSourceUrl": "https://www.lemonsqueezy.com/blog/subscriptions-just-got-a-refresh",
+    "sourceUrl": "https://www.lemonsqueezy.com/terms",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["ConvertKit", "Mailchimp", "Zapier", "Framer", "ParityDeals", "Fernand"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

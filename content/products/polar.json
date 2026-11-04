@@ -1,0 +1,66 @@
+{
+  "name": "Polar",
+  "status": "published",
+  "vendor": { "name": "Polar Software, Inc.", "website": "https://polar.sh" },
+  "primaryCategory": "subscription-billing",
+  "summary": "Polar is an open-source merchant of record. Its Starter plan has no monthly fee and charges 5% plus 50 cents per transaction. Paid plans from $20 a month lower that to as little as 3.4% plus 30 cents, with 1.5% more on cards issued outside the US.",
+  "qualifies": [
+    {
+      "category": "subscription-billing",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "recurring plans and proration", "sourceUrl": "https://polar.sh/docs/features/subscriptions/proration" },
+        { "capability": "dunning", "sourceUrl": "https://polar.sh/docs/features/subscriptions/failed-payments" },
+        { "capability": "mrr and churn metrics", "sourceUrl": "https://polar.sh/docs/features/analytics" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Polar says it moves customers and their saved payment methods to another provider at no charge, and it pauses payouts for 120 days during offboarding.", "sourceUrl": "https://polar.sh/docs/migrate-away", "checkedAt": "2026-11-03" },
+    { "text": "Polar's code is published on GitHub under the Apache-2.0 licence.", "sourceUrl": "https://github.com/polarsource/polar", "checkedAt": "2026-11-03" },
+    { "text": "Organizations created before May 27, 2026 keep an Early Member rate of 4% plus 40 cents, with 0.5% more on subscriptions.", "sourceUrl": "https://polar.sh/docs/merchant-of-record/fees", "checkedAt": "2026-11-03" },
+    { "text": "Failed payments are retried 2, 7, 14 and 21 days after the first failure.", "sourceUrl": "https://polar.sh/docs/features/subscriptions/failed-payments", "checkedAt": "2026-11-03" },
+    { "text": "Payouts are started by the seller, with a 7-day settlement delay for organizations created from May 12, 2026.", "sourceUrl": "https://polar.sh/docs/features/finance/payouts", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 5, "fixedUsd": 0.5, "basis": "per transaction" }, "notes": "No monthly fee" },
+      { "name": "Pro", "priceUsd": 20, "billing": "month", "unit": "per account", "notes": "Plus 3.8% + $0.40 per transaction" },
+      { "name": "Growth", "priceUsd": 100, "billing": "month", "unit": "per account", "notes": "Plus 3.6% + $0.35 per transaction" },
+      { "name": "Scale", "priceUsd": 400, "billing": "month", "unit": "per account", "notes": "Plus 3.4% + $0.30 per transaction. Adds single sign-on" }
+    ],
+    "hiddenCosts": [
+      "Cards issued outside the US add 1.5%.",
+      "Disputes cost $15 each whatever the outcome, and transaction fees are not returned on refunds.",
+      "Stripe's payout fees are passed through: $2 a month for active payouts plus 0.25% and $0.25 per payout."
+    ],
+    "sourceUrl": "https://polar.sh/resources/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Scale (OpenID Connect)",
+    "sourceUrl": "https://polar.sh/legal/privacy",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Either side can end the agreement with 30 days' written notice. Polar can end it at once if it suspects fraud, and it may hold reserves with delays of up to 120 days.",
+    "dataExport": "Customers and saved payment methods moved to another provider at no charge.",
+    "exportSourceUrl": "https://polar.sh/docs/migrate-away",
+    "sourceUrl": "https://polar.sh/legal/terms",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Next.js", "Nuxt", "Laravel", "TanStack Start", "Better Auth"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

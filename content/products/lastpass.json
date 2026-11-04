@@ -1,0 +1,64 @@
+{
+  "name": "LastPass",
+  "status": "published",
+  "vendor": { "name": "LastPass US LP", "website": "https://www.lastpass.com" },
+  "primaryCategory": "password-manager",
+  "summary": "LastPass sells Teams for up to 50 users, Business at $7 per user a month and Business Max at $11, all billed annually. Business allows single sign-on to three apps, and unlimited apps need Business Max.",
+  "qualifies": [
+    {
+      "category": "password-manager",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "encrypted vault", "sourceUrl": "https://www.lastpass.com/security" },
+        { "capability": "team sharing", "sourceUrl": "https://www.lastpass.com/pricing" },
+        { "capability": "admin policies and reporting", "sourceUrl": "https://www.lastpass.com/products/business" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "LastPass disclosed in 2022 that an attacker copied a backup of customer vault data from cloud storage, and it updated the notice through December 22, 2022.", "sourceUrl": "https://blog.lastpass.com/posts/notice-of-recent-security-incident", "checkedAt": "2026-11-03" },
+    { "text": "LastPass states that it encrypts vaults with AES-256 and PBKDF2 SHA-256 under a zero-knowledge model, and it runs a bug bounty program.", "sourceUrl": "https://www.lastpass.com/security", "checkedAt": "2026-11-03" },
+    { "text": "LastPass lists HIPAA among the regulations it says it complies with.", "sourceUrl": "https://www.lastpass.com/roles/it-teams", "checkedAt": "2026-11-03" },
+    { "text": "Monitoring of AI tools, SaaS apps and web traffic is included only with Business Max.", "sourceUrl": "https://blog.lastpass.com/posts/now-in-business-max-ai-visibility-governance-web-controls", "checkedAt": "2026-11-03" },
+    { "text": "LastPass can store passkeys in the vault, and the vault still opens with the master password.", "sourceUrl": "https://www.lastpass.com/features/passkeys", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Teams", "priceUsd": 4.25, "billing": "month", "unit": "per user", "notes": "Billed annually at $51 per user. Up to 50 users." },
+      { "name": "Business", "priceUsd": 7, "billing": "month", "unit": "per user", "notes": "Billed annually at $84 per user" },
+      { "name": "Business Max", "priceUsd": 11, "billing": "month", "unit": "per user", "notes": "Billed annually at $132 per user" }
+    ],
+    "hiddenCosts": [
+      "Business includes single sign-on for three apps only; unlimited apps need Business Max.",
+      "Teams has no single sign-on or directory integration and stops at 50 users.",
+      "The business terms allow extra fees when the number of users goes above the purchased quantity."
+    ],
+    "sourceUrl": "https://www.lastpass.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": "Business",
+    "sourceUrl": "https://www.lastpass.com/products/business",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Renews for 12 months unless notice is given at least 30 days before the term ends; payments are non-refundable except in limited cases the terms list.",
+    "dataExport": "After termination, customers get limited access for up to 30 days to retrieve or delete their data.",
+    "sourceUrl": "https://www.lastpass.com/legal-center/terms-of-service/business",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Microsoft Active Directory", "Microsoft Entra ID", "Microsoft ADFS", "Okta", "Google Workspace", "OneLogin", "PingOne", "PingFederate", "SCIM provisioning"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

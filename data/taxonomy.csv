@@ -1,0 +1,558 @@
+department_slug,department,level,slug,name,parent_slug,aliases,must_have,wave
+sales,Sales,L1,crm,CRM,,customer relationship management|sales crm|contact management software,contact and account records;deal pipeline tracking;activity and email logging,3
+sales,Sales,L1,sales-engagement,Sales engagement,,sales cadence software|sales sequencing,multi-step outreach sequences;email and call tasks;reply and meeting tracking,3
+sales,Sales,L1,sales-intelligence,Sales intelligence,,b2b contact data|prospecting database,company and contact database;verified contact details;prospect search filters,3
+sales,Sales,L1,cpq,CPQ,,configure price quote|quoting software,product configuration rules;pricing and discount rules;quote document generation,3
+sales,Sales,L1,proposal-management,Proposal management,,proposal software|sales proposal software,proposal templates;reusable content library;acceptance or e-signature tracking,3
+sales,Sales,L1,rfp-response,RFP response,,rfp software|security questionnaire software,answer library;questionnaire import;assignment and review workflow,3
+sales,Sales,L1,sales-enablement,Sales enablement,,sales content management,sales content repository;content usage analytics;playbooks or content recommendations,3
+sales,Sales,L1,sales-commission,Sales commission,,commission tracking|incentive compensation management,commission plan rules;automated payout calculation;rep earnings statements,3
+sales,Sales,L1,territory-management,Territory management,,sales territory planning,territory design;account assignment rules;territory performance reports,3
+sales,Sales,L1,lead-management,Lead management,,lead routing|lead distribution,lead capture;routing rules;lead status tracking,3
+sales,Sales,L1,conversation-intelligence,Conversation intelligence,,call recording software|sales call analytics,call recording;transcription;conversation analytics,3
+sales,Sales,L1,sales-forecasting,Sales forecasting,,revenue forecasting,forecast roll-ups;pipeline inspection;forecast accuracy tracking,3
+sales,Sales,L1,sales-analytics,Sales analytics,,sales reporting|sales dashboards,sales dashboards;pipeline and quota reports;crm data connectors,3
+sales,Sales,L1,sales-gamification,Sales gamification,,sales leaderboards,leaderboards;contests and challenges;activity metrics from crm,3
+sales,Sales,L1,sales-coaching,Sales coaching and training,,sales training software|sales readiness,coaching workflows;skill assessments or certifications;feedback on calls or tasks,3
+sales,Sales,L1,email-tracking,Email tracking,,email open tracking,open and click tracking;email client integration;real-time notifications,3
+sales,Sales,L1,sales-dialer,Sales dialers,,power dialer|auto dialer,click-to-call or auto dialing;call logging to crm;call routing or local presence,3
+sales,Sales,L1,lead-enrichment,Lead enrichment,,data enrichment|contact enrichment,firmographic data append;email and phone verification;crm sync,3
+sales,Sales,L1,partner-relationship-management,Partner relationship management,,prm|channel management|partner portal,partner portal;deal registration;partner onboarding and tiers,3
+sales,Sales,L1,field-sales,Field sales,,outside sales software|sales route planning,visit and route planning;mobile check-ins;visit notes synced to crm,3
+sales,Sales,L1,buyer-intent-data,Buyer intent data,,intent data providers,topic or account intent signals;account identification;crm or ad platform integration,3
+sales,Sales,L1,demo-automation,Demo automation,,interactive demo software|product demo software,interactive product demos;shareable demo links;viewer analytics,3
+sales,Sales,L1,digital-sales-room,Digital sales rooms,,deal rooms|buyer portal,shared deal workspace;content and next steps for buyers;buyer engagement tracking,3
+sales,Sales,L1,price-optimization,Price optimization,,b2b pricing software,price analysis;price recommendations;price change simulation,3
+sales,Sales,L1,social-selling,Social selling,,social prospecting,social profile prospecting;outreach tracking;crm sync,3
+sales,Sales,L1,email-finder,Email finder,,email lookup|email verification for sales,business email discovery;email verification;bulk lookup,3
+sales,Sales,L1,website-visitor-identification,Website visitor identification,,b2b visitor tracking|reverse ip lookup,company identification of site visitors;visit history by account;alerts or crm sync,3
+sales,Sales,L1,sales-planning,Sales planning,,quota planning|sales capacity planning,quota setting;headcount and capacity models;plan scenarios,3
+sales,Sales,L1,video-prospecting,Video prospecting,,personalized video for sales,personalized video recording;video landing pages;view tracking,3
+sales,Sales,L1,lead-scoring,Lead scoring,,predictive lead scoring,scoring rules or models;fit and behavior signals;crm sync of scores,3
+marketing,Marketing,L1,email-marketing,Email marketing,,email newsletter software|bulk email software,subscriber list management;email campaign builder;send and engagement reports,3
+marketing,Marketing,L1,marketing-automation,Marketing automation,,lead nurturing software,multi-step workflows;lead nurturing;behavior-based triggers,3
+marketing,Marketing,L1,seo-tools,SEO tools,,seo software,keyword research or rank tracking;site audit;backlink or competitor data,3
+marketing,Marketing,L2,rank-tracking,Rank tracking,seo-tools,serp tracker|keyword rank checker,keyword positions on a schedule;location and device tracking;ranking history,3
+marketing,Marketing,L2,local-seo,Local SEO,seo-tools,local listings management,business listing sync;local rank tracking;review or citation monitoring,3
+marketing,Marketing,L2,content-optimization,SEO content optimization,seo-tools,seo writing tools,content scoring against search results;keyword and topic suggestions;editor integration,3
+marketing,Marketing,L1,social-media-management,Social media management,,social media scheduling,post scheduling across networks;engagement inbox;performance analytics,3
+marketing,Marketing,L1,social-listening,Social listening,,social media monitoring,brand mention monitoring;sentiment analysis;alerts and reports,3
+marketing,Marketing,L1,landing-page-builder,Landing page builders,,landing page software,drag-and-drop page editor;forms and conversion tracking;publishing on custom domains,3
+marketing,Marketing,L1,account-based-marketing,Account-based marketing,,abm,target account lists;account-level engagement tracking;account-targeted campaigns or ads,3
+marketing,Marketing,L1,influencer-marketing,Influencer marketing,,creator marketing platform,creator search or database;campaign management;performance tracking,3
+marketing,Marketing,L1,affiliate-management,Affiliate marketing,,affiliate tracking|partner marketing software,affiliate tracking links;commission rules;affiliate payouts,3
+marketing,Marketing,L1,webinar,Webinar platforms,,webinar software,live webinar hosting;registration pages;attendee analytics,3
+marketing,Marketing,L1,event-management,Event management,,event planning software|event registration,event registration and ticketing;attendee management;agenda or check-in,3
+marketing,Marketing,L2,virtual-events,Virtual event platforms,event-management,online event platform,virtual stages and sessions;attendee networking;sponsor booths or analytics,3
+marketing,Marketing,L1,sms-marketing,SMS marketing,,text message marketing,bulk sms campaigns;opt-in and opt-out compliance;two-way messaging,3
+marketing,Marketing,L1,push-notifications,Push notifications,,web push|mobile push,web or mobile push sending;audience segmentation;delivery and click analytics,3
+marketing,Marketing,L1,ab-testing,A/B testing,,experimentation platform|split testing,experiment setup;traffic splitting;statistical results,3
+marketing,Marketing,L1,customer-data-platform,Customer data platform,,cdp,unified customer profiles;data collection from many sources;audience sync to other tools,3
+marketing,Marketing,L1,digital-asset-management,Digital asset management,,dam,central media library;metadata and search;sharing and permissions,3
+marketing,Marketing,L1,content-marketing,Content marketing platforms,,editorial calendar software,content calendar;editorial workflow;content performance tracking,3
+marketing,Marketing,L1,ppc-management,PPC management,,paid search management|ad management,multi-account ad management;bid and budget rules;cross-channel reporting,3
+marketing,Marketing,L1,review-management,Review management,,online reputation management,review monitoring across sites;review responses;review request campaigns,3
+marketing,Marketing,L1,marketing-analytics,Marketing analytics,,marketing attribution,multi-channel data;attribution models;campaign return reports,3
+marketing,Marketing,L1,survey,Survey software,,online survey tools|questionnaire software,survey builder with logic;distribution links;response analysis,3
+marketing,Marketing,L1,form-builder,Form builders,,online form builder,drag-and-drop form editor;conditional logic;submission management and integrations,3
+marketing,Marketing,L1,popup-builder,Pop-up builders,,lead capture popups|exit intent popups,popup and banner designer;targeting and triggers;conversion tracking,3
+marketing,Marketing,L1,link-building,Link building and outreach,,blogger outreach|backlink outreach,prospect discovery;outreach email sequences;link tracking,3
+marketing,Marketing,L1,video-marketing,Video marketing platforms,,video hosting for business,video hosting and player;lead capture in video;viewer analytics,3
+marketing,Marketing,L1,interactive-content,Interactive content,,quiz builder|calculator builder,quizzes or calculators;lead capture;results analytics,3
+marketing,Marketing,L1,brand-management,Brand management,,brand portal|brand guidelines software,brand guidelines hub;approved asset library;template controls,3
+marketing,Marketing,L1,marketing-resource-management,Marketing resource management,,mrm|marketing planning software,marketing plans and budgets;campaign workflows and approvals;resource allocation,3
+marketing,Marketing,L1,website-personalization,Website personalization,,personalization engine,audience segments;personalized content rules;performance measurement,3
+marketing,Marketing,L1,referral-marketing,Referral marketing,,referral program software,referral links;reward rules;referral tracking and payouts,3
+marketing,Marketing,L1,direct-mail,Direct mail automation,,print mail automation,print and mail campaigns;address verification;trigger-based sends,3
+marketing,Marketing,L1,demand-side-platform,Demand-side platforms,,dsp|programmatic advertising,programmatic ad buying;audience targeting;campaign reporting,3
+marketing,Marketing,L1,pr-software,PR and media monitoring,,media database|press release distribution,journalist database or media monitoring;pitch management;coverage reports,3
+marketing,Marketing,L1,ai-writing-assistant,AI writing assistants,,ai copywriting tools,text generation from prompts;marketing copy templates;editing and tone controls,3
+marketing,Marketing,L1,heatmaps,Heatmaps and session recording,,session replay|website heatmaps,click and scroll heatmaps;session recordings;page-level filters,3
+marketing,Marketing,L2,email-deliverability,Email deliverability,email-marketing,inbox placement|email warmup,inbox placement tests;spf dkim and dmarc checks;blocklist monitoring,3
+marketing,Marketing,L1,customer-advocacy,Customer advocacy,,advocate marketing,advocate hub;challenges and rewards;reference and review requests,3
+marketing,Marketing,L1,call-tracking,Call tracking,,phone call attribution,dynamic number insertion;call recording or logging;marketing source attribution,3
+marketing,Marketing,L1,conversational-marketing,Conversational marketing,,marketing chatbots,website chat for lead capture;meeting booking from chat;routing to sales,3
+marketing,Marketing,L1,employee-advocacy,Employee advocacy,,social employee advocacy,content sharing hub for employees;social sharing tracking;leaderboards or rewards,3
+marketing,Marketing,L1,competitive-intelligence,Competitive intelligence,,competitor tracking,competitor monitoring;battlecards or alerts;change tracking,3
+customer-service,Customer Service and Success,L1,help-desk,Help desk,,ticketing system|support ticket software|customer service software,ticket queue or shared inbox;ticket assignment and status;customer history,3
+customer-service,Customer Service and Success,L2,shared-inbox,Shared inbox,help-desk,team inbox,shared email inbox;assignment and collision detection;internal notes,3
+customer-service,Customer Service and Success,L1,live-chat,Live chat,,website chat software,website chat widget;agent routing;chat history,3
+customer-service,Customer Service and Success,L1,knowledge-base,Knowledge base,,help center software|self-service portal,article editor;search;public or internal help center,3
+customer-service,Customer Service and Success,L1,call-center,Call center,,contact center software|ccaas,inbound call routing;call queues;agent dashboards,3
+customer-service,Customer Service and Success,L2,speech-analytics,Speech analytics,call-center,call analytics,call transcription;keyword and sentiment detection;compliance flags,3
+customer-service,Customer Service and Success,L2,ivr,IVR,call-center,interactive voice response|phone tree,menu-based call routing;speech or keypad input;handoff to agent queues,3
+customer-service,Customer Service and Success,L1,customer-success,Customer success,,customer success platform,customer health scores;account playbooks;renewal and churn tracking,3
+customer-service,Customer Service and Success,L1,chatbots,Chatbots,,support chatbot,automated answers;handoff to human agents;bot analytics,3
+customer-service,Customer Service and Success,L2,ai-support-agents,AI support agents,chatbots,ai customer service agent,resolves customer questions without a human;trained on help content;escalation to human agents,3
+customer-service,Customer Service and Success,L1,customer-feedback,Customer feedback,,voice of customer|nps software,nps or csat surveys;feedback from many channels;trend analysis,3
+customer-service,Customer Service and Success,L1,online-community,Online community platforms,,community software|customer community,discussion forums or groups;member profiles;moderation tools,3
+customer-service,Customer Service and Success,L1,support-quality-assurance,Support quality assurance,,contact center qa|ticket quality review,conversation scoring;review workflows;agent feedback reports,3
+customer-service,Customer Service and Success,L1,contact-center-workforce-management,Contact center workforce management,,contact center wfm,contact volume forecasting;agent scheduling;adherence tracking,3
+customer-service,Customer Service and Success,L1,customer-onboarding,Customer onboarding,,client onboarding software,onboarding plans and checklists;customer-facing tasks or portal;progress tracking,3
+customer-service,Customer Service and Success,L1,digital-adoption-platform,Digital adoption platforms,,dap|in-app guidance|product tours,in-app walkthroughs;tooltips and checklists;usage analytics,3
+customer-service,Customer Service and Success,L1,cobrowsing,Co-browsing and visual support,,screen sharing for support,co-browse or screen share with customers;annotation;session controls,3
+customer-service,Customer Service and Success,L1,case-management,Case management,,complaint management,case intake and tracking;workflows and escalations;audit trail,3
+customer-service,Customer Service and Success,L1,customer-education,Customer education,,customer training platform|customer academy,course builder for customers;certifications;usage analytics,3
+customer-service,Customer Service and Success,L1,support-analytics,Support analytics,,help desk reporting,ticket volume and sla reports;agent performance metrics;help desk data connectors,3
+hr,HR and People,L1,hris,HRIS,,hr software|hrms|human resources software,employee records;time-off tracking;hr reports,1
+hr,HR and People,L1,payroll,Payroll,,payroll software|payroll services,pay runs and payslips;tax withholding and filings;direct deposit,1
+hr,HR and People,L2,global-payroll,Global payroll,payroll,international payroll,payroll in multiple countries;local compliance;consolidated reporting,2
+hr,HR and People,L1,applicant-tracking,Applicant tracking,,ats|recruiting software,job postings;candidate pipeline;interview scheduling and feedback,1
+hr,HR and People,L2,recruiting-crm,Recruiting CRM,applicant-tracking,recruitment marketing|talent crm,talent pool management;candidate nurture campaigns;sourcing integrations,2
+hr,HR and People,L1,employee-onboarding,Employee onboarding,,new hire onboarding,onboarding checklists;document collection and e-signature;new hire portal,1
+hr,HR and People,L1,performance-management,Performance management,,performance review software,review cycles;goals or okrs;continuous feedback,1
+hr,HR and People,L1,employee-engagement,Employee engagement,,pulse survey software,engagement surveys;anonymous feedback;results by team,1
+hr,HR and People,L1,time-tracking,Time tracking,,timesheet software|time clock software,time entry or clock in and out;timesheet approval;export to payroll or invoicing,1
+hr,HR and People,L1,employee-scheduling,Employee scheduling,,shift scheduling|rota software,shift schedule builder;availability and shift swaps;mobile access,1
+hr,HR and People,L1,benefits-administration,Benefits administration,,benefits enrollment software,benefits enrollment;carrier connections or plan setup;eligibility tracking,1
+hr,HR and People,L1,learning-management-system,Corporate LMS,,lms|employee training software,course delivery;assignments and tracking;completion reports,1
+hr,HR and People,L1,compensation-management,Compensation management,,salary planning software,salary bands;merit and bonus cycles;pay equity analysis,2
+hr,HR and People,L1,employer-of-record,Employer of record,,eor|global employment platform,employment in countries without an entity;local contracts and benefits;payroll and tax compliance,1
+hr,HR and People,L1,peo,PEO,,professional employer organization,co-employment;benefits access;payroll and hr compliance,1
+hr,HR and People,L1,background-check,Background check,,employment screening,criminal and employment checks;candidate consent flow;ats integration,1
+hr,HR and People,L1,contractor-management,Contractor management,,freelancer management|contractor payments,contractor onboarding and contracts;invoices and payments;compliance documents,2
+hr,HR and People,L1,hr-help-desk,HR help desk,,hr case management|employee service portal,employee case intake;hr knowledge base;case tracking,2
+hr,HR and People,L1,org-chart,Org chart,,organizational chart software,org chart from hr data;employee directory;scenario planning or export,2
+hr,HR and People,L1,workforce-planning,Workforce planning,,headcount planning,headcount plans;position management;budget scenarios,2
+hr,HR and People,L1,employee-recognition,Employee recognition,,rewards and recognition,peer recognition;rewards catalog or points;recognition analytics,2
+hr,HR and People,L1,pre-employment-testing,Pre-employment testing,,skills assessment|candidate assessment,skill or aptitude tests;anti-cheating controls;candidate scoring,2
+hr,HR and People,L1,video-interviewing,Video interviewing,,one-way video interview,one-way or live video interviews;interview scheduling;reviewer scoring,2
+hr,HR and People,L1,job-distribution,Job distribution,,job multiposting|job board posting,posting to many job boards;posting budget management;applicant source tracking,2
+hr,HR and People,L1,leave-management,Leave management,,pto tracking|absence management,leave requests and approvals;accrual policies;team calendar,1
+hr,HR and People,L1,employee-wellness,Employee wellness,,corporate wellness,wellness challenges;health programs or content;participation reports,2
+hr,HR and People,L1,succession-planning,Succession planning,,talent pipeline planning,successor pools;readiness assessments;talent reviews,2
+hr,HR and People,L1,talent-management,Talent management suites,,talent management suite,recruiting performance and learning in one system;talent profiles;career or succession paths,2
+hr,HR and People,L1,360-degree-feedback,360-degree feedback,,multi-rater feedback,feedback from several raters;anonymous responses;individual reports,2
+hr,HR and People,L1,workforce-management,Workforce management,,wfm for hourly staff,scheduling with time and attendance;labor forecasting;labor cost reports,2
+hr,HR and People,L1,employee-monitoring,Employee monitoring,,employee productivity tracking,activity or app usage tracking;productivity reports;privacy controls,2
+hr,HR and People,L1,people-analytics,People analytics,,hr analytics,workforce dashboards;attrition and headcount analysis;hris data connectors,2
+hr,HR and People,L1,reference-check,Reference checking,,automated reference checks,automated reference requests;structured questionnaires;fraud signals,2
+hr,HR and People,L1,employee-referral,Employee referral,,referral hiring software,referral portal;referral tracking;referral rewards,2
+hr,HR and People,L1,internal-mobility,Internal mobility,,career pathing|talent marketplace,internal jobs and projects marketplace;skills profiles;career path suggestions,2
+finance,Finance and Accounting,L1,accounting,Accounting,,bookkeeping software|small business accounting,general ledger;bank feeds and reconciliation;financial statements,1
+finance,Finance and Accounting,L1,ap-automation,AP automation,,accounts payable software|bill pay software,invoice capture;approval workflows;vendor payments,1
+finance,Finance and Accounting,L1,ar-automation,AR automation,,accounts receivable software|collections software,invoice delivery and reminders;payment matching;aging reports,1
+finance,Finance and Accounting,L1,expense-management,Expense management,,expense report software|receipt tracking,receipt capture;expense policies and approvals;reimbursement,1
+finance,Finance and Accounting,L2,mileage-tracking,Mileage tracking,expense-management,mileage log app,gps or manual trip logging;mileage rate calculation;reimbursement reports,2
+finance,Finance and Accounting,L1,invoicing,Invoicing,,invoice software|billing software for small business,invoice creation;online payment links;payment status tracking,1
+finance,Finance and Accounting,L2,e-invoicing,E-invoicing,invoicing,electronic invoicing compliance,government-compliant e-invoice formats;network delivery such as peppol;invoice archiving,2
+finance,Finance and Accounting,L1,subscription-billing,Subscription billing,,recurring billing|subscription management,recurring plans and proration;dunning;mrr and churn metrics,1
+finance,Finance and Accounting,L2,usage-based-billing,Usage-based billing,subscription-billing,metered billing,usage metering;rating and pricing tiers;invoices from usage,2
+finance,Finance and Accounting,L2,dunning-management,Dunning management,subscription-billing,failed payment recovery,automatic payment retries;card updater;customer payment reminders,2
+finance,Finance and Accounting,L1,budgeting-forecasting,Budgeting and forecasting,,fp&a software|financial planning software,budget models;forecasts and scenarios;variance reports,1
+finance,Finance and Accounting,L2,cash-flow-management,Cash flow management,budgeting-forecasting,cash flow forecasting,cash flow projections;bank data sync;scenario planning,2
+finance,Finance and Accounting,L1,sales-tax,Sales tax and VAT,,tax compliance software|vat software,tax rate calculation;filing and remittance;registration or nexus tracking,1
+finance,Finance and Accounting,L1,payment-processing,Payment processing,,payment gateway|merchant services,card and wallet payments;payouts;fraud screening,1
+finance,Finance and Accounting,L1,spend-management,Spend management,,business spend platform,company or virtual cards;purchase approvals;spend visibility by team,1
+finance,Finance and Accounting,L1,procurement,Procurement,,purchasing software|purchase order software,purchase requests and purchase orders;supplier catalog or onboarding;approval workflows,1
+finance,Finance and Accounting,L1,revenue-recognition,Revenue recognition,,asc 606 software,revenue schedules;contract modifications;audit-ready reports,2
+finance,Finance and Accounting,L1,corporate-cards,Corporate cards,,business card platform,physical and virtual cards;spend limits;accounting sync,1
+finance,Finance and Accounting,L1,fixed-asset-accounting,Fixed asset accounting,,depreciation software,depreciation schedules;asset register;disposal tracking,2
+finance,Finance and Accounting,L1,financial-close,Financial close,,month-end close|account reconciliation software,close checklists;balance sheet reconciliation;journal entry workflows,2
+finance,Finance and Accounting,L1,financial-consolidation,Financial consolidation,,multi-entity consolidation,multi-entity consolidation;intercompany eliminations;currency translation,2
+finance,Finance and Accounting,L1,treasury-management,Treasury management,,cash management software,cash positions across banks;cash forecasting;payments or bank connectivity,2
+finance,Finance and Accounting,L1,tax-preparation,Tax preparation,,tax software for accountants,return preparation;e-filing;client document collection,2
+finance,Finance and Accounting,L1,audit-management,Audit management,,internal audit software,audit planning;workpapers and evidence;findings tracking,2
+finance,Finance and Accounting,L1,business-banking,Business banking,,business bank accounts|business checking,business accounts;payments and transfers;accounting integrations,2
+finance,Finance and Accounting,L1,equity-management,Equity management,,cap table management,cap table;option grants and vesting;valuation or scenario modeling,2
+finance,Finance and Accounting,L1,travel-management,Travel management,,corporate travel booking,travel booking;travel policies;expense integration,2
+finance,Finance and Accounting,L1,supplier-management,Supplier management,,vendor management software|supplier risk,supplier onboarding;supplier performance;risk and compliance documents,2
+finance,Finance and Accounting,L1,mass-payouts,Mass payouts,,global payouts|payout automation,bulk payments to many recipients;tax form collection;multi-currency payouts,2
+finance,Finance and Accounting,L1,lease-accounting,Lease accounting,,asc 842 software|ifrs 16 software,lease schedules;asc 842 or ifrs 16 calculations;disclosure reports,2
+finance,Finance and Accounting,L1,fraud-prevention,Fraud prevention,,payment fraud detection|chargeback management,transaction risk scoring;rules and review queues;chargeback handling,2
+finance,Finance and Accounting,L1,financial-reporting,Financial reporting,,management reporting|board reporting,report builder on accounting data;multi-entity reports;scheduled report packs,2
+finance,Finance and Accounting,L1,b2b-payments,B2B payments,,net terms|b2b buy now pay later,net terms or invoice financing;credit decisions;receivables sync,2
+finance,Finance and Accounting,L1,international-payments,International payments,,fx payments|cross-border payments,multi-currency accounts or transfers;disclosed fx rates;bank or accounting integration,2
+finance,Finance and Accounting,L1,payment-reconciliation,Payment reconciliation,,transaction matching,payout to transaction matching;multi-source data import;exception handling,2
+it-management,IT Management,L1,itsm,IT service management,,it help desk|service desk,incident and request tickets;it service catalog;sla tracking,1
+it-management,IT Management,L2,cmdb,Configuration management database,itsm,configuration item database,configuration item records;relationship mapping;change impact view,2
+it-management,IT Management,L2,enterprise-service-management,Enterprise service management,itsm,esm,service desks for hr facilities and finance;shared service catalog;workflow automation,2
+it-management,IT Management,L1,rmm,Remote monitoring and management,,rmm software,endpoint monitoring agents;remote scripting and patching;alerting,1
+it-management,IT Management,L1,mdm,Mobile device management,,enterprise mobility management|emm,device enrollment;policy enforcement;remote lock and wipe,1
+it-management,IT Management,L1,endpoint-management,Endpoint management,,unified endpoint management|uem|client management,windows and mac management;software deployment;inventory and configuration policies,2
+it-management,IT Management,L1,network-monitoring,Network monitoring,,network monitoring tools,device and traffic monitoring;alerts;network maps,2
+it-management,IT Management,L1,it-asset-management,IT asset management,,itam|hardware inventory,asset discovery;asset lifecycle tracking;license or contract tracking,1
+it-management,IT Management,L2,software-license-management,Software license management,it-asset-management,slm,license entitlements;usage versus owned reports;audit preparation,2
+it-management,IT Management,L1,backup,Backup,,data backup|cloud backup,scheduled backups;point-in-time restore;encryption,1
+it-management,IT Management,L2,disaster-recovery,Disaster recovery,backup,draas,replication;failover and failback;recovery testing,2
+it-management,IT Management,L2,saas-backup,SaaS backup,backup,cloud app backup,backup of cloud app data;granular restore;retention policies,2
+it-management,IT Management,L1,remote-desktop,Remote desktop,,remote access software|remote support software,remote control of computers;unattended access;session security and logging,1
+it-management,IT Management,L1,patch-management,Patch management,,patching software,os and third-party patching;patch scheduling;compliance reports,1
+it-management,IT Management,L1,saas-management,SaaS management,,saas spend management|shadow it discovery,app discovery;license usage tracking;renewal management,1
+it-management,IT Management,L1,cloud-cost-management,Cloud cost management,,finops|cloud spend management,cloud spend by team;cost allocation and tagging;savings recommendations,2
+it-management,IT Management,L1,server-monitoring,Server monitoring,,infrastructure monitoring,cpu memory and disk metrics;alert rules;dashboards,2
+it-management,IT Management,L1,it-documentation,IT documentation,,msp documentation,structured system documentation;credential vault or links;asset relationships,2
+it-management,IT Management,L1,print-management,Print management,,print tracking software,print queues and quotas;secure release printing;usage reports,2
+it-management,IT Management,L1,workload-automation,Workload automation,,job scheduling|batch scheduling,job scheduling across systems;dependencies and triggers;monitoring and retries,2
+it-management,IT Management,L1,ipam,IP address management,,dns and dhcp management,ip address inventory;subnet planning;dns and dhcp integration,2
+it-management,IT Management,L1,virtualization,Virtualization,,hypervisor|server virtualization,virtual machine management;resource allocation;snapshots or live migration,2
+it-management,IT Management,L1,vdi,Virtual desktop infrastructure,,desktop as a service|daas,hosted virtual desktops;user session management;access from any device,2
+it-management,IT Management,L1,cloud-management,Cloud management platforms,,multi-cloud management,multi-cloud inventory;provisioning policies;cost and usage views,2
+it-management,IT Management,L1,managed-file-transfer,Managed file transfer,,mft|sftp server,secure file transfer protocols;automation and scheduling;audit logs,2
+it-management,IT Management,L1,digital-signage,Digital signage,,signage software,content scheduling to screens;remote screen management;templates,2
+it-management,IT Management,L1,aiops,AIOps,,it operations analytics,event correlation across monitoring tools;anomaly detection;alert noise reduction,2
+it-management,IT Management,L1,dcim,Data center infrastructure management,,data center management,rack and power capacity;environmental monitoring;asset placement,2
+it-management,IT Management,L1,sd-wan,SD-WAN,,software-defined wan,multi-link routing;central policy management;application-aware traffic steering,2
+it-management,IT Management,L1,storage-management,Storage management,,storage resource management,storage provisioning;capacity monitoring;tiering or replication,2
+it-management,IT Management,L1,email-hosting,Business email hosting,,custom domain email,custom domain email;shared calendars and contacts;spam filtering,2
+it-management,IT Management,L1,dns-management,DNS management,,managed dns,dns record management;dnssec;traffic routing or failover,2
+it-management,IT Management,L1,business-continuity,Business continuity,,bcp software,business impact analysis;continuity plans;plan testing and notifications,2
+it-management,IT Management,L1,mass-notification,Mass notification,,emergency notification,sms voice and email alerts;recipient groups;delivery confirmation,2
+it-management,IT Management,L1,network-automation,Network automation,,network configuration management,configuration backups and changes;automated device provisioning;compliance checks against templates,2
+security,Security,L1,endpoint-protection,Endpoint protection,,business antivirus|edr,malware detection;threat response on endpoints;central management console,1
+security,Security,L1,managed-detection-response,Managed detection and response,,mdr,24/7 monitoring by analysts;threat investigation;incident response actions,2
+security,Security,L1,siem,SIEM,,security information and event management,log collection from many sources;correlation rules;alerts and investigation,2
+security,Security,L1,vulnerability-management,Vulnerability management,,vulnerability scanner,asset and vulnerability scanning;risk prioritization;remediation tracking,1
+security,Security,L1,email-security,Email security,,anti-phishing|email filtering,phishing and malware filtering;impersonation protection;quarantine management,1
+security,Security,L2,dmarc,DMARC management,email-security,email authentication|dmarc monitoring,dmarc report parsing;spf and dkim management;spoofing alerts,2
+security,Security,L1,business-vpn,Business VPN,,vpn for teams|corporate vpn,encrypted remote access;central user management;dedicated or static ip addresses,1
+security,Security,L1,zero-trust-network-access,Zero trust network access,,ztna|zero trust,identity-based app access;device posture checks;per-app policies,2
+security,Security,L1,identity-access-management,Identity and access management,,iam|single sign-on|sso,single sign-on;user provisioning and deprovisioning;access policies,1
+security,Security,L1,multi-factor-authentication,Multi-factor authentication,,mfa|2fa|two-factor authentication,second-factor methods such as app push or hardware keys;risk-based rules;admin enrollment controls,1
+security,Security,L1,password-manager,Password manager,,business password manager,encrypted vault;team sharing;admin policies and reporting,1
+security,Security,L1,privileged-access-management,Privileged access management,,pam,admin credential vaulting;session recording;just-in-time access,2
+security,Security,L1,casb,Cloud access security broker,,cloud app security,saas app visibility;data policies for cloud apps;threat detection in cloud apps,2
+security,Security,L1,data-loss-prevention,Data loss prevention,,dlp,sensitive data discovery;policies for endpoints email or cloud;incident alerts,2
+security,Security,L1,grc,GRC,,governance risk and compliance,risk register;control library mapped to frameworks;audit evidence collection,2
+security,Security,L1,compliance-automation,Compliance automation,,soc 2 compliance software|iso 27001 software,framework templates such as soc 2 and iso 27001;automated evidence collection;auditor access,1
+security,Security,L1,security-awareness-training,Security awareness training,,phishing simulation,training modules;phishing simulations;completion reports,1
+security,Security,L1,soar,SOAR,,security orchestration automation and response,playbook automation;case management;security tool integrations,2
+security,Security,L1,secrets-management,Secrets management,,secrets vault,encrypted secret storage;access policies;rotation and audit logs,2
+security,Security,L1,threat-intelligence,Threat intelligence,,threat intel feeds,threat feeds;indicator enrichment;siem or firewall integration,2
+security,Security,L1,firewall,Firewall,,next-generation firewall|ngfw,traffic filtering and inspection;application control;central policy management,2
+security,Security,L1,web-application-firewall,Web application firewall,,waf|bot protection,owasp attack protection;bot and rate limiting;managed rule sets,2
+security,Security,L1,ddos-protection,DDoS protection,,ddos mitigation,volumetric attack mitigation;always-on or on-demand protection;attack reports,2
+security,Security,L1,penetration-testing,Penetration testing,,pentest tools|pentest as a service,automated or manual testing;findings with evidence;retest workflow,2
+security,Security,L1,application-security-testing,Application security testing,,sast|dast|code scanning,code or app scanning;findings in the developer workflow;fix guidance,2
+security,Security,L2,software-composition-analysis,Software composition analysis,application-security-testing,sca|dependency scanning,dependency inventory;known vulnerability matching;license checks,2
+security,Security,L1,cloud-security-posture-management,Cloud security posture management,,cspm|cnapp,cloud misconfiguration detection;compliance benchmarks;risk prioritization,2
+security,Security,L1,container-security,Container security,,kubernetes security,image scanning;runtime protection;kubernetes policy enforcement,2
+security,Security,L1,encryption,Encryption,,file encryption|disk encryption,encryption at rest;key management;access controls,2
+security,Security,L1,attack-surface-management,Attack surface management,,easm|external attack surface management,internet-facing asset discovery;exposure scoring;change alerts,2
+security,Security,L1,third-party-risk-management,Third-party risk management,,vendor risk management|tprm,vendor questionnaires;risk scoring;continuous monitoring,2
+security,Security,L1,identity-verification,Identity verification,,kyc software|id verification,document and selfie checks;liveness detection;watchlist screening,2
+security,Security,L1,web-filtering,Web filtering,,dns filtering|secure web gateway,url and category blocking;malicious domain blocking;per-user reports,2
+security,Security,L1,digital-forensics,Digital forensics,,forensic analysis software,evidence acquisition;disk memory or mobile analysis;chain-of-custody reports,2
+security,Security,L1,insider-risk,Insider risk management,,ueba|user behavior analytics,user activity baselines;risky behavior alerts;investigation timeline,2
+development,Development and DevOps,L1,ide,IDE,,code editor|integrated development environment,code editing with language support;debugging;extensions,2
+development,Development and DevOps,L1,version-control,Version control hosting,,git hosting|source code management,git repository hosting;pull or merge requests;access controls,2
+development,Development and DevOps,L1,ci-cd,CI/CD,,continuous integration|continuous delivery,automated builds and tests;deployment pipelines;pipeline logs,1
+development,Development and DevOps,L1,apm,Application performance monitoring,,observability platform,request tracing;performance metrics;alerting,1
+development,Development and DevOps,L2,real-user-monitoring,Real user monitoring,apm,rum,page load and interaction metrics from real users;core web vitals;session filters,2
+development,Development and DevOps,L1,log-management,Log management,,log analysis,log collection and search;retention policies;log-based alerts,1
+development,Development and DevOps,L1,issue-tracking,Bug and issue tracking,,bug tracker|issue tracker,issue states and workflow;assignment and priorities;version control integration,1
+development,Development and DevOps,L1,api-management,API management,,api gateway,gateway or proxy;authentication and rate limiting;developer portal or analytics,2
+development,Development and DevOps,L1,feature-flags,Feature flags,,feature management|feature toggles,flag targeting rules;gradual rollouts;sdks for major languages,2
+development,Development and DevOps,L1,low-code,Low-code development,,low-code platform,visual app builder;data models and logic;deployment and user access,2
+development,Development and DevOps,L2,no-code-app-builder,No-code app builders,low-code,no-code platform,app building without code;templates;database or spreadsheet backing,2
+development,Development and DevOps,L2,internal-tool-builder,Internal tool builders,low-code,admin panel builder,ui components connected to databases and apis;permissions;audit logs,2
+development,Development and DevOps,L1,headless-cms,Headless CMS,,api-first cms,content modeling;content api;editorial workflow,2
+development,Development and DevOps,L1,test-automation,Test automation,,automated testing,automated ui or api tests;test runs in ci;failure reports,2
+development,Development and DevOps,L1,container-management,Container management,,kubernetes management,cluster management;container deployment;scaling and monitoring,2
+development,Development and DevOps,L1,infrastructure-as-code,Infrastructure as code,,iac,declarative infrastructure definitions;plan and apply workflow;state management,2
+development,Development and DevOps,L1,error-tracking,Error tracking,,crash reporting,exception capture with stack traces;grouping and alerts;release tracking,1
+development,Development and DevOps,L1,incident-management,Incident management and on-call,,on-call scheduling|incident response software|paging,on-call schedules and escalation;alert routing;incident timeline and postmortems,1
+development,Development and DevOps,L1,status-page,Status pages,,incident communication,public status page;incident updates and subscriptions;uptime history,2
+development,Development and DevOps,L1,uptime-monitoring,Uptime monitoring,,website monitoring|synthetic monitoring,http and ping checks from many locations;alerting;uptime reports,1
+development,Development and DevOps,L1,transactional-email,Transactional email,,email api|smtp relay,sending api or smtp;delivery logs;bounce and complaint handling,2
+development,Development and DevOps,L1,database-management-tools,Database management tools,,sql client|database ide,query editor;schema browsing and changes;connections to many databases,2
+development,Development and DevOps,L1,managed-databases,Managed databases,,database as a service|dbaas,managed provisioning and backups;scaling;monitoring,2
+development,Development and DevOps,L1,cloud-platforms,Cloud platforms,,paas|iaas|cloud hosting,app or server deployment;scaling;managed networking and storage,2
+development,Development and DevOps,L2,serverless-functions,Serverless functions,cloud-platforms,faas,functions run on events;automatic scaling;per-invocation billing,2
+development,Development and DevOps,L1,website-hosting,Website hosting,,web hosting|managed hosting,website hosting with ssl;backups and staging;domain or dns support,2
+development,Development and DevOps,L1,cdn,CDN,,content delivery network,global edge caching;cache purge controls;tls at the edge,2
+development,Development and DevOps,L1,code-review,Code review and quality,,static code analysis|code quality,automated code analysis;pull request comments;quality gates,2
+development,Development and DevOps,L1,ai-coding-assistants,AI coding assistants,,ai code completion|ai pair programmer,code completion in the editor;chat or agent for code changes;repository context,2
+development,Development and DevOps,L1,product-management,Product management,,roadmap software,roadmaps;idea and feedback capture;prioritization frameworks,2
+development,Development and DevOps,L2,product-feedback,Product feedback,product-management,feature request management|idea management,feedback portal;voting;status updates to users,2
+development,Development and DevOps,L1,api-testing,API testing,,api client,request builder;collections and environments;automated api test runs,2
+development,Development and DevOps,L1,load-testing,Load testing,,performance testing,concurrent user simulation;ramp profiles;latency and error reports,2
+development,Development and DevOps,L1,cross-browser-testing,Browser and device testing,,real device cloud|mobile app testing,real or virtual browsers and devices;parallel test runs;screenshots and video,2
+development,Development and DevOps,L1,backend-as-a-service,Backend as a service,,baas,managed database and auth;file storage;server functions,2
+development,Development and DevOps,L1,search-as-a-service,Search as a service,,search api|site search,hosted search index;typo tolerance and relevance tuning;search analytics,2
+development,Development and DevOps,L1,developer-documentation,Developer documentation,,api documentation|docs as code,docs editor or docs-as-code;versioning;search,2
+development,Development and DevOps,L1,event-streaming,Event streaming and message queues,,message queue|pub sub,managed topics or queues;delivery guarantees;consumer scaling,2
+development,Development and DevOps,L1,artifact-repository,Artifact repositories,,package registry,package hosting for many formats;access control;proxy for public registries,2
+development,Development and DevOps,L1,cloud-development-environments,Cloud development environments,,cde|remote dev environments,remote or browser workspaces;environments from config files;access controls,2
+data-analytics-ai,Data Analytics and AI,L1,business-intelligence,Business intelligence,,bi tools|dashboard software,dashboards;data connectors;self-service report building,3
+data-analytics-ai,Data Analytics and AI,L2,data-visualization,Data visualization,business-intelligence,charting software,chart builder;interactive visuals;embedding or sharing,3
+data-analytics-ai,Data Analytics and AI,L2,embedded-analytics,Embedded analytics,business-intelligence,customer-facing analytics,dashboards embedded in your product;multi-tenant data security;white-labeling,3
+data-analytics-ai,Data Analytics and AI,L1,data-warehouse,Data warehouses,,cloud data warehouse,columnar storage with sql;separate compute scaling;access controls,3
+data-analytics-ai,Data Analytics and AI,L1,etl,ETL and ELT,,data pipelines|data integration tools,source connectors;scheduled syncs;loading to warehouses,3
+data-analytics-ai,Data Analytics and AI,L1,data-transformation,Data transformation,,analytics engineering,sql or code transformations;version control and tests;scheduling,3
+data-analytics-ai,Data Analytics and AI,L1,reverse-etl,Reverse ETL,,data activation,warehouse to business tool syncs;field mapping;sync monitoring,3
+data-analytics-ai,Data Analytics and AI,L1,data-catalog,Data catalogs,,metadata management,metadata inventory;search and lineage;ownership and documentation,3
+data-analytics-ai,Data Analytics and AI,L1,data-quality,Data quality and observability,,data observability,data tests or monitors;anomaly alerts;lineage for impact analysis,3
+data-analytics-ai,Data Analytics and AI,L1,data-governance,Data governance,,data stewardship software,policies and ownership;access governance;compliance reporting,3
+data-analytics-ai,Data Analytics and AI,L1,master-data-management,Master data management,,golden record management,record matching and merging;stewardship workflows;distribution to other systems,3
+data-analytics-ai,Data Analytics and AI,L1,product-analytics,Product analytics,,in-app analytics,event tracking;funnels and retention;user segmentation,3
+data-analytics-ai,Data Analytics and AI,L1,web-analytics,Web analytics,,website analytics,traffic sources;page and conversion reports;consent or cookieless options,3
+data-analytics-ai,Data Analytics and AI,L1,subscription-analytics,Subscription analytics,,saas metrics|mrr dashboard,mrr arr and churn metrics;billing system connectors;cohort analysis,3
+data-analytics-ai,Data Analytics and AI,L1,mlops,MLOps,,machine learning platform,experiment tracking;model registry;deployment and monitoring,3
+data-analytics-ai,Data Analytics and AI,L1,data-science-platforms,Data science and notebooks,,notebook platform,collaborative notebooks;compute environments;result sharing,3
+data-analytics-ai,Data Analytics and AI,L1,statistical-analysis,Statistical analysis,,statistics software,statistical tests and models;data import;charts and output tables,3
+data-analytics-ai,Data Analytics and AI,L1,predictive-analytics,Predictive analytics,,automl,forecasting or prediction models;no-code or automated modeling;model output to apps,3
+data-analytics-ai,Data Analytics and AI,L1,data-labeling,Data labeling,,annotation tools,labeling for text image or audio;review workflows;export to ml formats,3
+data-analytics-ai,Data Analytics and AI,L1,vector-database,Vector databases,,vector search,vector similarity search;metadata filtering;index scaling,3
+data-analytics-ai,Data Analytics and AI,L1,llm-api,Large language model APIs,,foundation model api|ai model provider,text generation api;usage-based pricing;data retention terms,3
+data-analytics-ai,Data Analytics and AI,L1,llm-observability,LLM observability,,ai observability|llm monitoring,prompt and response tracing;cost and latency metrics;output evaluation,3
+data-analytics-ai,Data Analytics and AI,L1,ai-agent-platforms,AI agent platforms,,agent builder,agents that use tools;connections to business systems;monitoring and guardrails,3
+data-analytics-ai,Data Analytics and AI,L1,ai-voice-agents,AI voice agents,,ai phone agents|voice ai,ai-handled inbound or outbound calls;call scripts or goals;call transcripts and outcomes,3
+data-analytics-ai,Data Analytics and AI,L1,ai-governance,AI governance,,responsible ai software,ai system and use-case inventory;risk assessments;policy controls and audit trail,3
+data-analytics-ai,Data Analytics and AI,L1,ai-meeting-assistants,AI meeting assistants,,ai notetaker,meeting recording;transcripts and summaries;action items sent to other tools,3
+data-analytics-ai,Data Analytics and AI,L1,enterprise-search,Enterprise search,,workplace search|ai knowledge search,search across company apps;permission-aware results;answers with sources,3
+data-analytics-ai,Data Analytics and AI,L1,ipaas,Integration platforms (iPaaS),,enterprise integration platform,prebuilt connectors;integration workflow builder;error handling and logs,3
+data-analytics-ai,Data Analytics and AI,L1,workflow-automation,Workflow automation,,no-code automation|app automation,trigger-action automations;app integrations;run history,3
+data-analytics-ai,Data Analytics and AI,L1,rpa,Robotic process automation,,software robots,ui-based bots;process recording;bot orchestration,3
+data-analytics-ai,Data Analytics and AI,L1,intelligent-document-processing,Intelligent document processing,,idp|ocr software,data extraction from documents;validation workflows;export to business systems,3
+data-analytics-ai,Data Analytics and AI,L1,transcription,Transcription,,speech to text|speech recognition api,audio to text;speaker labels;export formats,3
+data-analytics-ai,Data Analytics and AI,L1,text-analytics,Text analytics,,nlp software,sentiment and entity extraction;topic classification;api or batch processing,3
+data-analytics-ai,Data Analytics and AI,L1,gis,GIS,,mapping software|geographic information system,map layers and spatial data;geocoding;spatial analysis,3
+data-analytics-ai,Data Analytics and AI,L1,web-scraping,Web scraping,,data extraction tools|web data extraction,crawling and extraction;scheduling;export or api,3
+collaboration,Collaboration and Productivity,L1,project-management,Project management,,project tracking software,task lists and boards;timelines;team collaboration on tasks,3
+collaboration,Collaboration and Productivity,L2,gantt-chart,Gantt chart software,project-management,gantt tools,gantt timeline;task dependencies;baselines or critical path,3
+collaboration,Collaboration and Productivity,L2,kanban,Kanban,project-management,kanban board software,kanban boards;work-in-progress limits;cycle time reports,3
+collaboration,Collaboration and Productivity,L1,task-management,Task management,,team to-do list,task assignment;due dates and reminders;lists or boards,3
+collaboration,Collaboration and Productivity,L1,work-management,Work management platforms,,work os,configurable boards and databases;automations;cross-team dashboards,3
+collaboration,Collaboration and Productivity,L1,project-portfolio-management,Project portfolio management,,ppm,portfolio views across projects;prioritization and scoring;financial and resource rollups,3
+collaboration,Collaboration and Productivity,L1,resource-management,Resource management,,resource planning|capacity planning,team capacity view;allocation to projects;utilization reports,3
+collaboration,Collaboration and Productivity,L1,okr,OKR software,,goal management|okrs,objectives and key results;progress check-ins;alignment views,3
+collaboration,Collaboration and Productivity,L1,team-chat,Team chat,,business messaging|team messaging,channels and direct messages;file sharing;message search,3
+collaboration,Collaboration and Productivity,L1,video-conferencing,Video conferencing,,online meeting software,video meetings;screen sharing;recording,3
+collaboration,Collaboration and Productivity,L1,business-phone,Business phone systems,,voip|cloud phone system,business phone numbers;call routing;mobile and desktop apps,3
+collaboration,Collaboration and Productivity,L1,online-fax,Online fax,,internet fax,send and receive fax online;fax numbers;audit trail,3
+collaboration,Collaboration and Productivity,L1,online-whiteboard,Online whiteboards,,collaborative whiteboard,large shared canvas;real-time collaboration;templates,3
+collaboration,Collaboration and Productivity,L1,mind-mapping,Mind mapping,,mind map software,mind map editor;collaboration;export,3
+collaboration,Collaboration and Productivity,L1,note-taking,Note-taking,,notes app for teams,rich text notes;folders or tags;sync across devices,3
+collaboration,Collaboration and Productivity,L1,knowledge-management,Knowledge management,,internal wiki|team wiki,wiki pages;search;page ownership and review dates,3
+collaboration,Collaboration and Productivity,L1,sop-software,SOP software,,process documentation|standard operating procedures,step-by-step procedure editor;version history;assignment and acknowledgment,3
+collaboration,Collaboration and Productivity,L1,intranet,Intranet,,employee portal,company news and pages;employee directory;permissions,3
+collaboration,Collaboration and Productivity,L1,employee-communications,Employee communications,,internal communications,targeted announcements;email mobile and intranet delivery;read analytics,3
+collaboration,Collaboration and Productivity,L1,document-management,Document management,,dms,version control;access permissions;search and metadata,3
+collaboration,Collaboration and Productivity,L1,file-sharing,File sharing and storage,,cloud storage for business,file sync;sharing links with permissions;admin controls,3
+collaboration,Collaboration and Productivity,L1,office-suites,Office suites,,productivity suite,documents spreadsheets and presentations;real-time co-editing;admin console,3
+collaboration,Collaboration and Productivity,L1,pdf-editor,PDF editors,,pdf software,pdf editing and annotation;conversion to and from other formats;forms and signatures,3
+collaboration,Collaboration and Productivity,L1,email-client,Email clients,,email app for teams,unified inbox;scheduling and snooze;team sharing features,3
+collaboration,Collaboration and Productivity,L1,scheduling,Meeting scheduling,,scheduling links|appointment booking software,booking pages;calendar sync;reminders,3
+collaboration,Collaboration and Productivity,L1,meeting-management,Meeting management,,meeting agenda software,shared agendas;notes and decisions;action item tracking,3
+collaboration,Collaboration and Productivity,L1,video-messaging,Async video messaging,,async video|screen and camera recording,screen and camera recording;shareable links;viewer comments and analytics,3
+collaboration,Collaboration and Productivity,L1,translation-management,Translation management,,localization software|localization platform,translation memory;translator workflow;code or cms integrations,3
+collaboration,Collaboration and Productivity,L1,client-portal,Client portals,,customer portal for service firms,secure file exchange with clients;client logins and branding;messages or requests,3
+collaboration,Collaboration and Productivity,L1,virtual-office,Virtual office platforms,,remote team office,persistent virtual rooms;presence status;drop-in audio or video,3
+design-creative,Design and Content Creation,L1,graphic-design,Graphic design,,design software,layout and image editing;templates;export for print and web,3
+design-creative,Design and Content Creation,L1,ui-ux-design,UI and UX design,,prototyping tools|wireframing tools,interface design canvas;interactive prototypes;developer handoff,3
+design-creative,Design and Content Creation,L1,diagramming,Diagramming,,flowchart software,shapes and connectors;templates for flowcharts and network diagrams;collaboration,3
+design-creative,Design and Content Creation,L1,presentation,Presentation software,,slide software,slide editor;templates;presenting and sharing,3
+design-creative,Design and Content Creation,L1,video-editing,Video editing,,video editor,timeline editing;titles and effects;export presets,3
+design-creative,Design and Content Creation,L1,ai-video-generation,AI video generation,,ai avatar video,video from text or script;avatars or stock scenes;commercial use terms,3
+design-creative,Design and Content Creation,L1,animation,Animation,,motion graphics,timeline animation;motion presets;video export,3
+design-creative,Design and Content Creation,L1,photo-editing,Photo editing,,image editing software,layers and adjustments;retouching tools;batch export,3
+design-creative,Design and Content Creation,L1,ai-image-generation,AI image generation,,ai art generator for business,images from prompts;commercial use terms;brand or style controls,3
+design-creative,Design and Content Creation,L1,illustration,Illustration,,vector illustration|digital drawing,vector or brush tools;layers;export formats,3
+design-creative,Design and Content Creation,L1,desktop-publishing,Desktop publishing,,layout software,multi-page layouts;typography controls;print-ready export,3
+design-creative,Design and Content Creation,L1,online-proofing,Online proofing,,creative approval,comments on files and videos;approval workflows;version comparison,3
+design-creative,Design and Content Creation,L1,screen-capture,Screen capture,,screenshot tool,screenshot and region capture;annotation;sharing links,3
+design-creative,Design and Content Creation,L1,audio-editing,Audio editing,,podcast editing,multitrack editing;noise reduction;export formats,3
+design-creative,Design and Content Creation,L1,stock-media,Stock media,,stock photos|stock footage,licensed images video or audio;commercial license terms;search and collections,3
+design-creative,Design and Content Creation,L1,3d-modeling,3D modeling,,3d design software,3d modeling tools;rendering;standard file export,3
+design-creative,Design and Content Creation,L2,3d-rendering,3D rendering,3d-modeling,architectural visualization,photorealistic rendering;materials and lighting;render queue or cloud rendering,3
+design-creative,Design and Content Creation,L1,cad,CAD,,computer-aided design,2d drafting or 3d modeling;precise dimensions;industry file formats such as dwg and step,3
+design-creative,Design and Content Creation,L1,interior-design,Interior design,,space planning software,floor plans;furniture and material libraries;3d views,3
+design-creative,Design and Content Creation,L1,website-builder,Website builders,,no-code website builder,drag-and-drop page editing;templates;hosting and custom domains,3
+ecommerce-retail,E-commerce and Retail,L1,ecommerce-platform,E-commerce platforms,,online store builder|shopping cart software,product catalog and checkout;payment integrations;order management basics,3
+ecommerce-retail,E-commerce and Retail,L2,b2b-ecommerce,B2B e-commerce,ecommerce-platform,wholesale ecommerce,customer-specific pricing;bulk and repeat ordering;quotes or net terms,3
+ecommerce-retail,E-commerce and Retail,L2,headless-commerce,Headless commerce,ecommerce-platform,commerce api,commerce apis;separate frontend support;multi-storefront,3
+ecommerce-retail,E-commerce and Retail,L1,pos,Point of sale,,pos system,in-person sales and payments;inventory sync;sales reports,3
+ecommerce-retail,E-commerce and Retail,L1,inventory-management,Inventory management,,stock management software,stock levels by location;reorder alerts;purchase orders,3
+ecommerce-retail,E-commerce and Retail,L1,order-management,Order management,,oms,orders from many channels;fulfillment routing;returns,3
+ecommerce-retail,E-commerce and Retail,L1,shipping,Shipping software,,shipping label software|multi-carrier shipping,carrier rate comparison;label printing;tracking notifications,3
+ecommerce-retail,E-commerce and Retail,L1,marketplace-management,Marketplace management,,multichannel listing,listings on many marketplaces;inventory sync;order import,3
+ecommerce-retail,E-commerce and Retail,L1,product-information-management,Product information management,,pim,central product data;enrichment workflows;channel feeds,3
+ecommerce-retail,E-commerce and Retail,L1,product-feed-management,Product feed management,,shopping feed software,feeds for ad and shopping channels;rules and optimization;error monitoring,3
+ecommerce-retail,E-commerce and Retail,L1,loyalty-programs,Loyalty programs,,rewards program software,points or tiers;reward redemption;member analytics,3
+ecommerce-retail,E-commerce and Retail,L1,gift-cards,Gift card software,,digital gift cards,digital and physical gift cards;balance tracking;pos and online redemption,3
+ecommerce-retail,E-commerce and Retail,L1,returns-management,Returns management,,returns portal,return portal;return rules and labels;refund or exchange processing,3
+ecommerce-retail,E-commerce and Retail,L1,product-recommendations,Product recommendations,,ecommerce personalization,recommendation widgets;behavior-based models;merchandising rules,3
+ecommerce-retail,E-commerce and Retail,L1,ecommerce-search,E-commerce search,,product search,typo-tolerant product search;filters and facets;merchandising and synonyms,3
+ecommerce-retail,E-commerce and Retail,L1,subscription-ecommerce,Subscription e-commerce,,subscribe and save,recurring product orders;customer subscription portal;payment retries,3
+ecommerce-retail,E-commerce and Retail,L1,dropshipping,Dropshipping,,dropship automation,supplier catalog import;automatic order forwarding;inventory sync,3
+ecommerce-retail,E-commerce and Retail,L1,print-on-demand,Print on demand,,pod fulfillment,product mockups;fulfillment by print partner;store integrations,3
+ecommerce-retail,E-commerce and Retail,L1,retail-management,Retail management,,retail operations software,multi-store operations;staff and sales management;store reports,3
+ecommerce-retail,E-commerce and Retail,L1,planogram,Planogram software,,retail space planning,planogram design;shelf space analytics;store-specific layouts,3
+ecommerce-retail,E-commerce and Retail,L1,ecommerce-analytics,E-commerce analytics,,store analytics,revenue and margin dashboards;marketing attribution for stores;cohort and lifetime value analysis,3
+ecommerce-retail,E-commerce and Retail,L1,product-reviews-ugc,Product reviews and UGC,,customer review widgets,review request emails;on-site review display;photo and video reviews,3
+ecommerce-retail,E-commerce and Retail,L1,repricing,Repricing,,dynamic repricing,automatic price changes against competitors;min and max rules;marketplace integration,3
+ecommerce-retail,E-commerce and Retail,L1,video-commerce,Video commerce,,live shopping|shoppable video,shoppable video or live streams;product tagging;sales attribution,3
+ecommerce-retail,E-commerce and Retail,L1,cross-border-ecommerce,Cross-border e-commerce,,international ecommerce,local currency pricing;duties and taxes at checkout;international shipping,3
+operations,Operations and Supply Chain,L1,erp,ERP,,enterprise resource planning,financials plus operations modules;inventory and order management;multi-entity or multi-site support,3
+operations,Operations and Supply Chain,L2,distribution-erp,Distribution ERP,erp,wholesale distribution software,purchasing and replenishment;warehouse and order management;customer pricing and rebates,3
+operations,Operations and Supply Chain,L1,mrp,MRP,,manufacturing resource planning|manufacturing erp,bill of materials;production planning;material requirements calculation,3
+operations,Operations and Supply Chain,L2,production-scheduling,Production scheduling,mrp,aps|advanced planning and scheduling,finite capacity scheduling;drag-and-drop schedule changes;machine and labor constraints,3
+operations,Operations and Supply Chain,L2,job-shop,Job shop software,mrp,machine shop software,job quoting;job costing;job routing and tracking,3
+operations,Operations and Supply Chain,L1,mes,Manufacturing execution system,,shop floor control,production order tracking;machine and labor data;traceability,3
+operations,Operations and Supply Chain,L1,plm,Product lifecycle management,,product data management,product data and bom management;engineering change control;supplier collaboration,3
+operations,Operations and Supply Chain,L1,quality-management,Quality management,,qms,nonconformance and capa;document control;audits,3
+operations,Operations and Supply Chain,L1,cmms,Maintenance management (CMMS),,maintenance software|work order software,work orders;preventive maintenance schedules;asset history,3
+operations,Operations and Supply Chain,L1,ehs,EHS,,environment health and safety,incident reporting;inspections and audits;corrective actions,3
+operations,Operations and Supply Chain,L1,inspection-software,Inspection and checklists,,mobile inspection forms,mobile inspection checklists;photos and signatures;issue follow-up,3
+operations,Operations and Supply Chain,L1,field-service-management,Field service management,,fsm|technician dispatch,job scheduling and dispatch;technician mobile app;job completion and invoicing,3
+operations,Operations and Supply Chain,L1,warehouse-management,Warehouse management,,wms,bin locations;pick pack and ship;receiving and cycle counts,3
+operations,Operations and Supply Chain,L2,yard-management,Yard management,warehouse-management,dock scheduling,dock appointment scheduling;trailer tracking;gate check-in,3
+operations,Operations and Supply Chain,L1,transportation-management,Transportation management,,tms,load planning and carrier selection;shipment tracking;freight audit,3
+operations,Operations and Supply Chain,L1,fleet-management,Fleet management,,vehicle tracking,gps vehicle tracking;maintenance schedules;fuel and driver reports,3
+operations,Operations and Supply Chain,L1,route-planning,Route planning,,route optimization,multi-stop route optimization;driver app;proof of delivery,3
+operations,Operations and Supply Chain,L1,supply-chain-planning,Supply chain planning,,demand planning,demand forecasting;supply and inventory planning;scenario analysis,3
+operations,Operations and Supply Chain,L1,supply-chain-visibility,Supply chain visibility,,shipment visibility,shipment tracking across carriers;eta predictions;exception alerts,3
+operations,Operations and Supply Chain,L1,freight-forwarding,Freight forwarding,,forwarder software,quotes and bookings;shipment documents;customs or tracking,3
+operations,Operations and Supply Chain,L1,strategic-sourcing,Strategic sourcing,,e-sourcing|rfq software,rfq and auction events;bid comparison;supplier scoring,3
+operations,Operations and Supply Chain,L1,asset-tracking,Asset tracking,,equipment tracking,barcode qr or rfid tracking;check-in and check-out;location history,3
+operations,Operations and Supply Chain,L1,barcode-labeling,Barcode and label printing,,label design software,label design;barcode and rfid encoding;printer integration,3
+operations,Operations and Supply Chain,L1,industrial-iot,Industrial IoT,,iiot platform,machine data collection;dashboards and alerts;device management,3
+operations,Operations and Supply Chain,L1,workplace-management,Workplace management,,desk booking|room booking|facility management,desk and room reservations;floor maps;occupancy analytics,3
+operations,Operations and Supply Chain,L1,visitor-management,Visitor management,,visitor sign-in system,visitor sign-in;host notifications;badges and visitor logs,3
+operations,Operations and Supply Chain,L1,energy-management,Energy management,,utility management,energy usage monitoring;utility bill tracking;savings reports,3
+operations,Operations and Supply Chain,L1,esg-reporting,ESG and carbon accounting,,carbon accounting|sustainability software,scope 1 2 and 3 emissions calculation;operational data collection;framework reports,3
+operations,Operations and Supply Chain,L1,food-safety,Food safety,,haccp software,haccp plans;temperature and check logs;supplier and audit records,3
+operations,Operations and Supply Chain,L1,equipment-rental,Equipment rental,,rental management,availability calendar;rental contracts and returns;billing and damage tracking,3
+legal-compliance,Legal and Compliance,L1,contract-management,Contract management,,clm|contract lifecycle management,contract repository;approval and redlining workflows;renewal alerts,3
+legal-compliance,Legal and Compliance,L1,e-signature,E-signature,,electronic signature|digital signature,legally binding e-signatures;signing workflows;audit trail,3
+legal-compliance,Legal and Compliance,L1,legal-practice-management,Legal practice management,,law firm software,matter management;time and billing;client intake or documents,3
+legal-compliance,Legal and Compliance,L1,matter-management,Matter management,,legal operations software|in-house legal software,legal request intake;matter tracking;outside counsel spend,3
+legal-compliance,Legal and Compliance,L1,ediscovery,eDiscovery,,electronic discovery,data collection and processing;review and tagging;production exports,3
+legal-compliance,Legal and Compliance,L1,legal-research,Legal research,,case law search,case law and statute search;citation checking;alerts,3
+legal-compliance,Legal and Compliance,L1,compliance-management,Compliance management,,regulatory compliance software,obligations and controls tracking;policy attestations;compliance reports,3
+legal-compliance,Legal and Compliance,L1,policy-management,Policy management,,policy software,policy authoring and versions;employee attestations;review reminders,3
+legal-compliance,Legal and Compliance,L1,privacy-management,Privacy management,,dsar software|data privacy software,data mapping;data subject requests;privacy assessments,3
+legal-compliance,Legal and Compliance,L1,consent-management,Consent management,,cookie consent|cmp,cookie banner;consent logging;region-based rules,3
+legal-compliance,Legal and Compliance,L1,whistleblowing,Whistleblowing,,ethics hotline|speak up software,anonymous reporting channels;case management;eu directive compliance,3
+legal-compliance,Legal and Compliance,L1,board-management,Board management,,board portal,board book creation;secure document access;voting and minutes,3
+legal-compliance,Legal and Compliance,L1,entity-management,Entity management,,corporate secretary software,entity records and org charts;compliance calendars;officer and director registers,3
+legal-compliance,Legal and Compliance,L1,virtual-data-room,Virtual data rooms,,vdr|data room,secure document sharing;permissions and watermarks;activity tracking,3
+legal-compliance,Legal and Compliance,L1,ip-management,IP management,,trademark management|patent management,ip portfolio records;deadline docketing;renewals and costs,3
+healthcare,Healthcare,L1,ehr,EHR,,emr|electronic health records,patient charts;clinical documentation;e-prescribing,3
+healthcare,Healthcare,L1,medical-practice-management,Medical practice management,,medical office software,patient scheduling;insurance eligibility and claims;practice reports,3
+healthcare,Healthcare,L2,medical-scheduling,Medical scheduling,medical-practice-management,patient scheduling software,provider calendars;online booking;waitlist and reminders,3
+healthcare,Healthcare,L1,medical-billing,Medical billing,,rcm|revenue cycle management,claims submission;denial management;patient statements,3
+healthcare,Healthcare,L1,provider-credentialing,Provider credentialing,,credentialing software,provider data and documents;payer enrollment tracking;expiration alerts,3
+healthcare,Healthcare,L1,telehealth,Telehealth,,telemedicine,hipaa-ready video visits;scheduling and intake;visit documentation,3
+healthcare,Healthcare,L1,ai-medical-scribe,AI medical scribes,,ambient clinical documentation,visit recording;draft clinical notes;ehr integration,3
+healthcare,Healthcare,L1,patient-engagement,Patient engagement,,patient communication software,appointment reminders;two-way patient messaging;online forms or reviews,3
+healthcare,Healthcare,L2,healthcare-crm,Healthcare CRM,crm,patient crm,patient relationship records;campaigns and referrals;hipaa compliance,3
+healthcare,Healthcare,L1,dental,Dental practice management,,dental software,dental charting;scheduling;dental insurance claims,3
+healthcare,Healthcare,L1,mental-health,Mental health practice management,,therapy practice software,therapy notes;scheduling and client portal;billing,3
+healthcare,Healthcare,L1,chiropractic,Chiropractic software,,chiropractic ehr,soap notes;scheduling;billing,3
+healthcare,Healthcare,L1,physical-therapy,Physical therapy software,,pt emr,therapy documentation;scheduling;billing and outcomes,3
+healthcare,Healthcare,L1,optometry,Optometry software,,eye care practice software,eye exam records;optical inventory;insurance billing,3
+healthcare,Healthcare,L1,pharmacy,Pharmacy management,,pharmacy software,prescription processing;inventory;insurance adjudication,3
+healthcare,Healthcare,L1,veterinary,Veterinary practice management,,vet software,animal patient records;appointments and reminders;invoicing and inventory,3
+healthcare,Healthcare,L1,home-health,Home health and hospice,,home care software,caregiver scheduling and evv;visit notes;billing,3
+healthcare,Healthcare,L1,senior-living,Senior living,,assisted living software,resident records;care plans;billing,3
+healthcare,Healthcare,L1,lab-information-system,Laboratory information systems,,lis|lims,sample tracking;test results;instrument integration,3
+healthcare,Healthcare,L1,clinical-trial-management,Clinical trial management,,ctms,study and site management;participant tracking;regulatory documents,3
+real-estate-construction,Real Estate and Construction,L1,property-management,Property management,,rental property software,tenant and lease records;rent collection;maintenance requests,3
+real-estate-construction,Real Estate and Construction,L2,real-estate-crm,Real estate CRM,crm,crm for realtors,lead capture from listings;transaction pipelines;agent follow-up automation,3
+real-estate-construction,Real Estate and Construction,L1,real-estate-transaction,Real estate transaction management,,transaction coordination software,transaction checklists;documents and e-signature;compliance review,3
+real-estate-construction,Real Estate and Construction,L1,real-estate-websites,Real estate websites,,idx websites,idx listing search;agent websites;lead capture,3
+real-estate-construction,Real Estate and Construction,L1,commercial-real-estate,Commercial real estate,,cre software|lease administration,lease abstraction;portfolio reporting;tenant and space management,3
+real-estate-construction,Real Estate and Construction,L1,real-estate-investment,Real estate investment management,,investor portal|syndication software,investor portal;distributions and waterfalls;deal reporting,3
+real-estate-construction,Real Estate and Construction,L1,tenant-screening,Tenant screening,,rental application software,credit and background checks;rental applications;applicant consent,3
+real-estate-construction,Real Estate and Construction,L1,hoa-management,HOA management,,community association management,owner records and dues;violations and requests;board communication,3
+real-estate-construction,Real Estate and Construction,L1,coworking-management,Coworking management,,flexible workspace software,member and desk management;room booking;billing,3
+real-estate-construction,Real Estate and Construction,L1,self-storage,Self storage management,,storage facility software,unit rentals and gate access;online rentals and payments;lien and auction tracking,3
+real-estate-construction,Real Estate and Construction,L1,appraisal-software,Appraisal software,,real estate appraisal,appraisal forms;comparable sales data;report delivery,3
+real-estate-construction,Real Estate and Construction,L1,construction-management,Construction management,,construction project management,project schedules;rfis and submittals;daily logs,3
+real-estate-construction,Real Estate and Construction,L2,construction-scheduling,Construction scheduling,construction-management,cpm scheduling,cpm or gantt schedules;trade coordination;field schedule updates,3
+real-estate-construction,Real Estate and Construction,L2,punch-list,Punch list,construction-management,punch list app,punch items with photos;assignment to trades;close-out tracking,3
+real-estate-construction,Real Estate and Construction,L1,construction-estimating,Construction estimating,,estimating software,cost databases;estimate templates;bid proposals,3
+real-estate-construction,Real Estate and Construction,L1,construction-takeoff,Construction takeoff,,quantity takeoff,measurement from digital plans;quantity calculations;export to estimates,3
+real-estate-construction,Real Estate and Construction,L1,bid-management,Bid management,,subcontractor bidding,bid invitations;bid leveling;subcontractor database,3
+real-estate-construction,Real Estate and Construction,L1,bim,BIM,,building information modeling,3d building models;clash detection;model collaboration,3
+real-estate-construction,Real Estate and Construction,L2,construction-accounting,Construction accounting,accounting,contractor accounting,job costing;progress billing;retainage tracking,3
+real-estate-construction,Real Estate and Construction,L1,home-builder,Home builder software,,residential construction software,selections and change orders;homeowner portal;job scheduling,3
+hospitality-travel,Hospitality and Travel,L1,hotel-management,Hotel property management,,hotel pms,reservations and room inventory;front desk check-in;housekeeping,3
+hospitality-travel,Hospitality and Travel,L1,channel-manager,Channel managers,,hotel channel manager,rate and availability sync to booking sites;booking import;rate rules,3
+hospitality-travel,Hospitality and Travel,L1,hotel-booking-engine,Hotel booking engines,,direct booking engine,direct booking on hotel website;room and rate display;payment collection,3
+hospitality-travel,Hospitality and Travel,L1,hotel-revenue-management,Hotel revenue management,,hotel rms,rate recommendations;demand forecasting;competitor rate data,3
+hospitality-travel,Hospitality and Travel,L1,guest-messaging,Guest messaging,,hotel guest communication,pre-arrival and in-stay messaging;upsells;guest requests,3
+hospitality-travel,Hospitality and Travel,L1,vacation-rental,Vacation rental management,,short-term rental software,multi-listing calendar;guest messaging;cleaning and owner statements,3
+hospitality-travel,Hospitality and Travel,L2,restaurant-pos,Restaurant POS,pos,restaurant point of sale,table and order management;kitchen routing;tips and split checks,3
+hospitality-travel,Hospitality and Travel,L1,kitchen-display-system,Kitchen display systems,,kds,digital order tickets;routing by station;ticket timing reports,3
+hospitality-travel,Hospitality and Travel,L1,restaurant-reservations,Restaurant reservations,,table booking software,table booking;waitlist;guest profiles,3
+hospitality-travel,Hospitality and Travel,L1,restaurant-online-ordering,Restaurant online ordering,,commission-free ordering,ordering pages;menu management;pos integration,3
+hospitality-travel,Hospitality and Travel,L1,restaurant-inventory,Restaurant inventory and food costing,,recipe costing,recipe costing;inventory counts;supplier orders,3
+hospitality-travel,Hospitality and Travel,L1,catering,Catering management,,catering software,event orders and menus;quotes and invoices;production and delivery sheets,3
+hospitality-travel,Hospitality and Travel,L1,venue-management,Venue management,,event venue booking,space booking calendar;proposals and contracts;event orders,3
+hospitality-travel,Hospitality and Travel,L1,tour-booking,Tour and activity booking,,tour operator software,online booking and availability;waivers or check-in;reseller channels,3
+hospitality-travel,Hospitality and Travel,L1,travel-agency,Travel agency software,,travel agent software,bookings and itineraries;supplier management;commission tracking,3
+education,Education,L1,school-management,School management,,school administration software,admissions and enrollment;attendance;fees and parent communication,3
+education,Education,L1,student-information-system,Student information systems,,sis,student records;grades and transcripts;class scheduling,3
+education,Education,L2,k12-lms,K-12 LMS,learning-management-system,school lms,classes and assignments;grading;parent access,3
+education,Education,L1,online-course-platform,Online course platforms,,course creation software,course builder;payments and enrollment;student progress,3
+education,Education,L1,virtual-classroom,Virtual classroom,,live online class software,live online classes;whiteboard and breakout rooms;attendance and recordings,3
+education,Education,L1,online-assessment,Online assessment,,online exam software,question banks;test delivery;scoring and analytics,3
+education,Education,L1,exam-proctoring,Exam proctoring,,online proctoring,identity verification;exam monitoring;integrity reports,3
+education,Education,L1,plagiarism-checker,Plagiarism checkers,,similarity checker,similarity checks against sources;match reports;lms integration,3
+education,Education,L1,classroom-management,Classroom management,,classroom monitoring,student device monitoring;screen sharing to students;content filtering,3
+education,Education,L1,academic-scheduling,Academic scheduling,,timetabling software,timetable generation;room and teacher constraints;conflict detection,3
+education,Education,L2,higher-ed-crm,Higher education CRM,crm,student recruitment crm,prospective student pipelines;application tracking;communication campaigns,3
+education,Education,L1,tutoring,Tutoring management,,tutoring business software,session scheduling;tutor and student records;invoicing,3
+education,Education,L1,childcare,Childcare management,,daycare software,check-in and attendance;parent communication;billing,3
+education,Education,L1,library-management,Library management,,ils|integrated library system,catalog and circulation;patron accounts;online catalog,3
+education,Education,L1,language-learning,Corporate language learning,,business language training,lessons for employees;progress tracking;admin reports,3
+nonprofit-public-sector,Nonprofit and Public Sector,L1,donor-management,Donor management,,nonprofit crm|fundraising crm,donor records;donation tracking and receipts;segmentation,3
+nonprofit-public-sector,Nonprofit and Public Sector,L1,fundraising,Online fundraising,,donation software|peer-to-peer fundraising,donation pages;recurring gifts;campaign tracking,3
+nonprofit-public-sector,Nonprofit and Public Sector,L1,charity-auction,Charity auctions,,silent auction software,online and mobile bidding;item catalog;checkout and receipts,3
+nonprofit-public-sector,Nonprofit and Public Sector,L1,volunteer-management,Volunteer management,,volunteer scheduling,volunteer sign-ups;shift scheduling;hours tracking,3
+nonprofit-public-sector,Nonprofit and Public Sector,L1,grant-management,Grant management,,grantmaking software,application intake;review and scoring;award and reporting tracking,3
+nonprofit-public-sector,Nonprofit and Public Sector,L2,fund-accounting,Fund accounting,accounting,nonprofit accounting,fund and grant tracking;restricted funds;nonprofit financial statements,3
+nonprofit-public-sector,Nonprofit and Public Sector,L1,association-management,Association management,,ams|membership management,member database and renewals;event registration;dues and payments,3
+nonprofit-public-sector,Nonprofit and Public Sector,L1,church-management,Church management,,church software,member records;giving and contributions;groups and events,3
+nonprofit-public-sector,Nonprofit and Public Sector,L1,permitting-software,Permitting and licensing,,government permitting,online applications;review workflows;inspections and fees,3
+nonprofit-public-sector,Nonprofit and Public Sector,L1,citizen-request-management,Citizen request management,,311 software,citizen request intake;routing to departments;status updates to residents,3
+nonprofit-public-sector,Nonprofit and Public Sector,L1,utility-billing,Utility billing,,municipal utility billing,meter reads and billing;customer accounts;payments,3
+nonprofit-public-sector,Nonprofit and Public Sector,L1,public-safety,Public safety software,,police records management|computer-aided dispatch,incident records;dispatch or reporting;state reporting compliance,3
+professional-services,Professional Services,L1,psa,Professional services automation,,msp psa,projects and time tracking;resource planning;billing,3
+professional-services,Professional Services,L1,project-accounting,Project accounting,,project-based accounting,project budgets and actuals;revenue by project;time and expense to invoice,3
+professional-services,Professional Services,L1,agency-management,Agency management,,creative agency software,client projects and retainers;time and budgets;invoicing,3
+professional-services,Professional Services,L1,client-reporting,Client reporting,,agency reporting dashboards,multi-client dashboards;white-label reports;scheduled delivery,3
+professional-services,Professional Services,L1,accounting-practice-management,Accounting practice management,,accounting firm software,client work and deadlines;client portal and document requests;billing,3
+professional-services,Professional Services,L2,engagement-letters,Engagement letters,accounting-practice-management,accountant proposal software,proposal and engagement letter templates;e-signature;automatic billing setup,3
+professional-services,Professional Services,L1,document-collection,Client document collection,,client document requests,document request lists;secure upload portal;automatic reminders,3
+professional-services,Professional Services,L2,legal-billing,Legal billing,legal-practice-management,law firm billing,time capture;trust accounting or ledes invoices;invoicing,3
+professional-services,Professional Services,L2,legal-intake,Legal intake,legal-practice-management,law firm crm,lead intake forms;conflict checks;matter conversion,3
+professional-services,Professional Services,L1,architecture-practice,Architecture practice management,,architecture firm software,project fees and phases;time tracking;project financial reports,3
+professional-services,Professional Services,L1,recruitment-agency,Recruitment agency software,,staffing software,candidate and client database;job orders and placements;timesheets or placement billing,3
+professional-services,Professional Services,L1,vendor-management-system,Vendor management systems,,vms|contingent workforce management,contingent worker requisitions;supplier distribution;timesheets and invoicing,3
+professional-services,Professional Services,L1,coaching-platform,Coaching platforms,,coaching software,client sessions and scheduling;notes and goals;payments,3
+professional-services,Professional Services,L1,event-planner,Event planner software,,wedding planner software,client events and timelines;vendor management;budgets and payments,3
+professional-services,Professional Services,L1,photography-studio,Photography studio management,,photography business software,client booking and contracts;galleries or proofing;invoicing,3
+other-industries,Other Industries,L1,gym-management,Gym and fitness management,,fitness studio software,memberships and billing;class booking;member check-in,3
+other-industries,Other Industries,L1,studio-management,Studio management,,dance studio software|yoga studio software,class schedules and registration;memberships and billing;attendance,3
+other-industries,Other Industries,L1,salon-spa,Salon and spa software,,salon booking software,appointment booking;staff schedules and commissions;pos and retail,3
+other-industries,Other Industries,L1,pet-care,Pet care business software,,pet boarding software|grooming software,appointments and kennel booking;pet records and vaccinations;pos,3
+other-industries,Other Industries,L1,auto-repair,Auto repair shop software,,auto shop management,repair orders and estimates;parts and labor;vehicle history,3
+other-industries,Other Industries,L1,car-dealership,Car dealership software,,dealer management system,vehicle inventory;deal desking and f&i;service department,3
+other-industries,Other Industries,L1,towing,Towing software,,tow dispatch,tow call dispatch;impound tracking;motor club integrations,3
+other-industries,Other Industries,L2,hvac,HVAC and plumbing software,field-service-management,plumbing software|trades software,job dispatch;quotes and invoices;service agreements,3
+other-industries,Other Industries,L2,electrical-contractor,Electrical contractor software,field-service-management,electrician software,estimates with material pricing;job scheduling;progress invoicing,3
+other-industries,Other Industries,L2,pest-control,Pest control software,field-service-management,pest control scheduling,recurring service routes;chemical usage records;customer contracts,3
+other-industries,Other Industries,L2,cleaning-business,Cleaning business software,field-service-management,janitorial software,recurring job scheduling;team checklists;billing,3
+other-industries,Other Industries,L2,landscaping,Landscaping software,field-service-management,lawn care software,recurring maintenance routes;estimates;crew scheduling,3
+other-industries,Other Industries,L1,moving-company,Moving company software,,mover software,move estimates;crew and truck scheduling;inventory lists and invoices,3
+other-industries,Other Industries,L1,security-guard,Security guard management,,guard tour software,guard scheduling;patrol and incident reports;client portal,3
+other-industries,Other Industries,L1,dry-cleaning,Dry cleaning and laundry,,laundry pos,garment tickets and tags;pickup and delivery;pos,3
+other-industries,Other Industries,L1,print-shop,Print shop management,,print mis,job estimating;production tracking;job costing,3
+other-industries,Other Industries,L1,trucking,Trucking management,,carrier tms|trucking dispatch,load dispatch;driver settlements;ifta and compliance,3
+other-industries,Other Industries,L2,3pl,3PL warehouse software,warehouse-management,third-party logistics software,multi-client warehousing;client billing;client portal,3
+other-industries,Other Industries,L1,farm-management,Farm management,,agriculture software,field and crop records;input and labor tracking;yield reports,3
+other-industries,Other Industries,L1,brewery-winery,Brewery and winery management,,craft beverage software,batch production;inventory and excise tax;distributor sales,3
+other-industries,Other Industries,L1,cannabis,Cannabis dispensary software,,dispensary pos,state compliance reporting;pos;inventory,3
+other-industries,Other Industries,L1,funeral-home,Funeral home software,,mortuary software,case management for services;pre-need contracts;obituaries and memorial pages,3
+other-industries,Other Industries,L1,oil-and-gas,Oil and gas software,,upstream operations software,well or field data;production reporting;land or lease management,3
+other-industries,Other Industries,L1,telecom-billing,Telecom and ISP billing,,isp billing,service plans and usage;customer billing;network provisioning hooks,3
+other-industries,Other Industries,L1,insurance-agency,Insurance agency management,,insurance crm,policy and client records;renewals and commissions;carrier downloads,3
+other-industries,Other Industries,L1,insurance-policy-administration,Insurance policy administration,,insurance core systems,policy issuance and endorsements;billing;claims integration,3
+other-industries,Other Industries,L1,claims-management,Insurance claims management,,claims software,first notice of loss;claims workflows;payments and reserves,3
+other-industries,Other Industries,L1,loan-origination,Loan origination,,los|mortgage software,loan applications;underwriting workflow;document and compliance checks,3
+other-industries,Other Industries,L1,core-banking,Core banking,,core banking platform,deposit and loan accounts;transaction processing;regulatory reporting,3
+other-industries,Other Industries,L1,wealth-management,Wealth management,,financial advisor software|portfolio management software,client portfolios;performance reports;financial planning or crm,3

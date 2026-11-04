@@ -1,0 +1,67 @@
+{
+  "name": "Clockify",
+  "status": "published",
+  "vendor": { "name": "CAKE.com Inc.", "website": "https://clockify.me" },
+  "primaryCategory": "time-tracking",
+  "summary": "Clockify is free for up to 5 users, and its paid plans run from $3.99 to $11.99 per seat a month on annual billing. Timesheet approval starts on Standard at $5.49. Screenshots, app tracking and GPS are optional features on Pro.",
+  "qualifies": [
+    {
+      "category": "time-tracking",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "time entry or clock in and out", "sourceUrl": "https://clockify.me/help/track-time-and-expenses/track-time-on-kiosk" },
+        { "capability": "timesheet approval", "sourceUrl": "https://clockify.me/help/track-time-and-expenses/approval" },
+        { "capability": "export to payroll or invoicing", "sourceUrl": "https://clockify.me/help/integrations-and-add-ons/quickbooks-integration" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The QuickBooks Online integration does not work with QuickBooks accounts that have payroll turned on.", "sourceUrl": "https://clockify.me/help/integrations-and-add-ons/quickbooks-integration", "checkedAt": "2026-11-03" },
+    { "text": "Syncing hours to QuickBooks Payroll needs a separate add-on at $6.99 a month for the whole workspace.", "sourceUrl": "https://clockify.me/help/integrations-and-add-ons/quickbooks-payroll-add-on", "checkedAt": "2026-11-03" },
+    { "text": "Activity monitoring on Pro records visited websites and apps, keyboard and mouse activity and screenshots, and screenshot capture is optional.", "sourceUrl": "https://clockify.me/features/activity-monitoring", "checkedAt": "2026-11-03" },
+    { "text": "Pro and Enterprise workspaces can store data in the USA, the EU (Germany), the UK or Australia.", "sourceUrl": "https://clockify.me/help/getting-started/data-regions", "checkedAt": "2026-11-03" },
+    { "text": "The free plan limits reports to one month at a time, and CSV and Excel exports are on paid plans only.", "sourceUrl": "https://clockify.me/help/administration/updates-to-clockify-free-plan", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 7,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per workspace", "notes": "Up to 5 users; PDF exports only" },
+      { "name": "Basic", "priceUsd": 3.99, "billing": "month", "unit": "per seat", "notes": "Billed annually; $4.99 on monthly billing" },
+      { "name": "Standard", "priceUsd": 5.49, "billing": "month", "unit": "per seat", "notes": "Billed annually; $6.99 on monthly billing. Adds timesheet approval and invoicing" },
+      { "name": "Pro", "priceUsd": 7.99, "billing": "month", "unit": "per seat", "notes": "Billed annually; $9.99 on monthly billing. Adds GPS, activity monitoring and data regions" },
+      { "name": "Enterprise", "priceUsd": 11.99, "billing": "month", "unit": "per seat", "notes": "Billed annually; $14.99 on monthly billing. Adds single sign-on and SCIM" }
+    ],
+    "hiddenCosts": [
+      "People who only clock in at a shared kiosk need limited seats, from $0.79 a month on Basic with annual billing.",
+      "The QuickBooks Payroll add-on costs $6.99 a month per workspace, and the Xero add-on costs $4.99 a month.",
+      "Every active or invited user on the Team page takes a paid seat."
+    ],
+    "sourceUrl": "https://clockify.me/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://cake.com/security",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Cancel any time in account settings. Payments are non-refundable, and a cancelled workspace drops to the free plan.",
+    "dataExport": "Reports as PDF on the free plan and as CSV or Excel on Basic and above, plus an API on every plan.",
+    "exportSourceUrl": "https://clockify.me/help/reports/exporting-reports",
+    "sourceUrl": "https://cake.com/terms",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["QuickBooks Online", "Xero", "Jira", "Google Calendar", "Outlook", "Zapier", "Asana", "Trello", "ClickUp", "Salesforce"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

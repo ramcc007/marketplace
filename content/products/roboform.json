@@ -1,0 +1,63 @@
+{
+  "name": "RoboForm",
+  "status": "published",
+  "vendor": { "name": "Siber Systems, Inc.", "website": "https://www.roboform.com" },
+  "primaryCategory": "password-manager",
+  "summary": "RoboForm has one Business plan at $39.95 per user a year, and that plan includes single sign-on and SCIM provisioning. Self-hosting is offered only on the quoted Enterprise plan for environments of 1,000 or more users.",
+  "qualifies": [
+    {
+      "category": "password-manager",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "encrypted vault", "sourceUrl": "https://www.roboform.com/security" },
+        { "capability": "team sharing", "sourceUrl": "https://www.roboform.com/pricing-business" },
+        { "capability": "admin policies and reporting", "sourceUrl": "https://www.roboform.com/pricing-business" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Vault data is encrypted with AES-256 using a key derived from the master password with PBKDF2 SHA-256, and decryption happens on the user's device.", "sourceUrl": "https://www.roboform.com/security", "checkedAt": "2026-11-03" },
+    { "text": "Secfault Security audited and penetration-tested RoboForm in 2023 and 2025, and RoboForm publishes executive summaries of both reviews.", "sourceUrl": "https://help.roboform.com/hc/en-us/articles/15888502834061-Has-RoboForm-undergone-a-third-party-security-audit", "checkedAt": "2026-11-03" },
+    { "text": "SCIM provisioning with Okta, Microsoft Entra ID and OneLogin is part of the Business license at no extra charge.", "sourceUrl": "https://help.roboform.com/hc/en-us/articles/19716034698125-SCIM-provisioning-FAQs", "checkedAt": "2026-11-03" },
+    { "text": "In a 2018 statement, Siber Systems said RoboForm fully complies with GDPR.", "sourceUrl": "https://blog.roboform.com/2018/06/05/roboform-gdpr-compliance-statement/", "checkedAt": "2026-11-03" },
+    { "text": "New business accounts get a 14-day trial for up to 30 users, with one 5-day extension after it ends.", "sourceUrl": "https://help.roboform.com/hc/en-us/articles/230297048-RoboForm-for-Business-Company-Account-Creation", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Business", "priceUsd": 39.95, "billing": "year", "unit": "per user", "notes": "Shown as $3.33 a month" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "Volume pricing; adds self-hosting for 1,000 or more users" }
+    ],
+    "hiddenCosts": [
+      "Business licenses are not refundable.",
+      "Card and PayPal renewals are charged 14 days before the license expires."
+    ],
+    "sourceUrl": "https://www.roboform.com/pricing-business",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Business",
+    "sourceUrl": "https://www.roboform.com/security",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Automatic renewal can be turned off; business licenses are not refundable.",
+    "dataExport": "RoboForm's extended CSV format, covering logins, notes, form fields, TOTP keys and passkeys.",
+    "exportSourceUrl": "https://help.roboform.com/hc/en-us/articles/49807281668877-What-data-and-fields-can-I-export-from-RoboForm",
+    "sourceUrl": "https://www.roboform.com/license",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Microsoft Entra ID", "Okta", "Google Workspace", "Ping Identity", "OneLogin", "SCIM provisioning", "Active Directory"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

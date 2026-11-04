@@ -1,0 +1,64 @@
+{
+  "name": "Better Stack",
+  "status": "published",
+  "vendor": { "name": "Better Stack, Inc.", "website": "https://betterstack.com" },
+  "primaryCategory": "uptime-monitoring",
+  "summary": "Better Stack's free plan covers 10 monitors and 10 heartbeats checked every 3 minutes, plus a status page. Paid use costs $29 per responder a month on annual billing with unlimited SMS and phone alerts and on-call scheduling, and extra monitors come in packs of 50.",
+  "qualifies": [
+    {
+      "category": "uptime-monitoring",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "http and ping checks from many locations", "sourceUrl": "https://betterstack.com/docs/uptime/locations-and-regions/" },
+        { "capability": "alerting", "sourceUrl": "https://betterstack.com/pricing" },
+        { "capability": "uptime reports", "sourceUrl": "https://betterstack.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Every monitor is checked from at least 4 locations by default, and an incident opens only after a check fails from at least 3 of them.", "sourceUrl": "https://betterstack.com/docs/uptime/locations-and-regions/", "checkedAt": "2026-11-03" },
+    { "text": "On October 21, 2026, Better Stack sent incorrect downtime notifications for single-region monitors during an internet backbone problem and advised customers to monitor from more than one region.", "sourceUrl": "https://status.betterstack.com/incident/1097882", "checkedAt": "2026-11-03" },
+    { "text": "Data is stored in EU regions by default, with custom locations for enterprise accounts.", "sourceUrl": "https://betterstack.com/security", "checkedAt": "2026-11-03" },
+    { "text": "Sign-in with Google is included, sign-in through Azure or Okta costs $5 per user a month, and generic SAML is an enterprise feature.", "sourceUrl": "https://betterstack.com/pricing", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "10 monitors and 10 heartbeats at 3-minute checks, 1 status page, Slack and email alerts" },
+      { "name": "Responder license", "priceUsd": 29, "billing": "month", "unit": "per responder", "notes": "Billed annually; $34 on monthly billing. 10 monitors at 30-second checks, unlimited SMS and phone alerts, on-call scheduling" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Price on request. Adds generic SAML single sign-on and custom data locations" }
+    ],
+    "hiddenCosts": [
+      "Each block of 50 extra monitors costs $21 a month on annual billing or $25 monthly.",
+      "Extra status pages cost $12 each a month on annual billing, and each extra 1,000 status page subscribers costs $40.",
+      "Historical SLA reports and CSV export need the Reporting add-on at $4 per member a month on annual billing."
+    ],
+    "sourceUrl": "https://betterstack.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": false,
+    "ssoPlan": "Enterprise for SAML; Google sign-in on every plan",
+    "sourceUrl": "https://betterstack.com/security",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The terms rule out refunds of amounts already paid, while the pricing page offers a 60-day money-back guarantee.",
+    "dataExport": "Availability summaries through the API, and CSV export with the Reporting add-on.",
+    "exportSourceUrl": "https://betterstack.com/docs/uptime/api/get-a-monitors-availability-summary/",
+    "sourceUrl": "https://betterstack.com/terms",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "PagerDuty", "Zapier", "Webhooks", "Datadog", "Grafana", "Jira", "Splunk On-Call", "Amazon CloudWatch"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

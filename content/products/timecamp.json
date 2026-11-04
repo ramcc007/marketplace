@@ -1,0 +1,66 @@
+{
+  "name": "TimeCamp",
+  "status": "published",
+  "vendor": { "name": "TimeCamp SA", "website": "https://www.timecamp.com" },
+  "primaryCategory": "time-tracking",
+  "summary": "TimeCamp has a free plan for unlimited users, and its paid plans cost $3.99 to $9.99 per user a month on annual billing at its default prices, which change with the visitor's location. Timesheet approvals, screenshots and single sign-on are on Ultimate.",
+  "qualifies": [
+    {
+      "category": "time-tracking",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "time entry or clock in and out", "sourceUrl": "https://www.timecamp.com/pricing/" },
+        { "capability": "timesheet approval", "sourceUrl": "https://help.timecamp.com/help/approvals-basics" },
+        { "capability": "export to payroll or invoicing", "sourceUrl": "https://help.timecamp.com/help/quickbooks" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "TimeCamp's pricing page adjusts prices to the visitor's location. We list the default prices published in the page.", "sourceUrl": "https://www.timecamp.com/pricing/", "checkedAt": "2026-11-03" },
+    { "text": "Invoices made in TimeCamp can be exported to QuickBooks Online and Xero on Premium and above, and time entries can go to QuickBooks reports.", "sourceUrl": "https://help.timecamp.com/help/quickbooks", "checkedAt": "2026-11-03" },
+    { "text": "When the screenshots module is on, a screenshot is taken every 10 minutes, and an admin can turn the module off.", "sourceUrl": "https://help.timecamp.com/help/screenshots", "checkedAt": "2026-11-03" },
+    { "text": "TimeCamp markets HIPAA-compliant time tracking. We found no mention of a business associate agreement.", "sourceUrl": "https://www.timecamp.com/hipaa-compliant-time-tracking/", "checkedAt": "2026-11-03" },
+    { "text": "The terms allow a refund requested within 3 days of a monthly billing period or within 30 days of payment for longer plans, while the pricing page FAQ says no refunds are granted.", "sourceUrl": "https://www.timecamp.com/terms-conditions/", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Unlimited users and projects; no invoicing or approvals" },
+      { "name": "Starter", "priceUsd": 3.99, "billing": "month", "unit": "per user", "notes": "Billed annually; $5.49 on monthly billing. Adds invoicing and attendance" },
+      { "name": "Premium", "priceUsd": 6.99, "billing": "month", "unit": "per user", "notes": "Billed annually; $9.99 on monthly billing. Adds invoice export to QuickBooks and Xero and activity tracking" },
+      { "name": "Ultimate", "priceUsd": 9.99, "billing": "month", "unit": "per user", "notes": "Billed annually; $13.99 on monthly billing. Adds timesheet approvals, screenshots and single sign-on" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Price on request. Adds the time clock kiosk, geofencing and self-hosting" }
+    ],
+    "hiddenCosts": [
+      "The AI time tracker is billed by token usage, which TimeCamp estimates at about $6 per user a month.",
+      "Visitors in some countries see different prices from the ones listed here."
+    ],
+    "sourceUrl": "https://www.timecamp.com/pricing/",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Ultimate",
+    "sourceUrl": "https://www.timecamp.com/security/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Cancellation takes effect at the end of the billing period. The terms allow refunds within 3 days for monthly plans and within 30 days for longer plans.",
+    "dataExport": "Reports as Excel, PDF or CSV, or to Google Sheets, with PDF only on the free plan, plus an API on every plan.",
+    "exportSourceUrl": "https://help.timecamp.com/help/reports-basics",
+    "sourceUrl": "https://www.timecamp.com/terms-conditions/",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["QuickBooks Online", "Xero", "Asana", "Jira", "Trello", "ClickUp", "monday.com", "Slack", "Microsoft Teams", "Zapier"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

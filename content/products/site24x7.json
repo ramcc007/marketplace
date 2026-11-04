@@ -1,0 +1,65 @@
+{
+  "name": "Site24x7",
+  "status": "published",
+  "vendor": { "name": "Zoho Corporation Pvt. Ltd.", "website": "https://www.site24x7.com" },
+  "primaryCategory": "uptime-monitoring",
+  "summary": "Site24x7's website plans start at $9 a month on annual billing for 25 websites checked from one location with email alerts. Web Perf, at $36, checks from 8 locations and adds browser and transaction monitors, and a free plan covers 50 websites every 5 minutes.",
+  "qualifies": [
+    {
+      "category": "uptime-monitoring",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "http and ping checks from many locations", "sourceUrl": "https://www.site24x7.com/site24x7-pricing.html" },
+        { "capability": "alerting", "sourceUrl": "https://www.site24x7.com/help/admin/configuration-profiles/notification-profile.html" },
+        { "capability": "uptime reports", "sourceUrl": "https://www.site24x7.com/help/reports/monitor-groups-report/availability-summary-report.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "When the primary location detects downtime, Site24x7 polls again from a secondary location before alerting.", "sourceUrl": "https://www.site24x7.com/site24x7-pricing.html", "checkedAt": "2026-11-03" },
+    { "text": "The plan comparison table lists Web Uptime with one monitoring location and email alerts only.", "sourceUrl": "https://www.site24x7.com/site24x7-pricing.html", "checkedAt": "2026-11-03" },
+    { "text": "Monitoring data is kept for 2 years on Web Uptime, 3 years on Web Perf and 5 years on Enterprise Plus Web.", "sourceUrl": "https://www.site24x7.com/site24x7-pricing.html", "checkedAt": "2026-11-03" },
+    { "text": "Site24x7 gives full refunds within 45 days on annual plans and 30 days on monthly plans, and prorated refunds after that.", "sourceUrl": "https://www.site24x7.com/help/subscription/refund-policy.html", "checkedAt": "2026-11-03" },
+    { "text": "Site24x7 runs separate data centers for the US, the EU, Australia, India and China.", "sourceUrl": "https://www.site24x7.com/security.html", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "50 websites at 5-minute intervals from one location, email alerts" },
+      { "name": "Web Uptime", "priceUsd": 9, "billing": "month", "unit": "per account", "notes": "Billed annually; $10 on monthly billing. 25 websites, 1 location, email alerts only" },
+      { "name": "Web Perf", "priceUsd": 36, "billing": "month", "unit": "per account", "notes": "Billed annually; $39 on monthly billing. 40 websites and 8 transaction monitors from 8 locations" },
+      { "name": "Enterprise Plus Web", "priceUsd": 899, "billing": "month", "unit": "per account", "notes": "Billed annually; $999 on monthly billing. 2,500 websites and 100 transaction monitors from 16 locations" }
+    ],
+    "hiddenCosts": [
+      "Extra monitors are add-ons, such as 50 uptime monitors for $18 a month on Web Uptime.",
+      "SMS and voice alerts use alert credits, and a voice alert outside the US and Canada uses 2 credits."
+    ],
+    "sourceUrl": "https://www.site24x7.com/site24x7-pricing.html",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Every website plan (SAML)",
+    "sourceUrl": "https://trust.site24x7.com/",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Card subscriptions renew automatically. Refunds are full within 45 days for annual and 30 days for monthly plans, then prorated.",
+    "dataExport": "Reports as CSV or PDF, with API access on Web Perf and above.",
+    "exportSourceUrl": "https://www.site24x7.com/help/reports/monitor-groups-report/availability-summary-report.html",
+    "sourceUrl": "https://www.site24x7.com/terms.html",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "PagerDuty", "Opsgenie", "ServiceNow", "Jira", "Zapier", "Webhooks", "Splunk On-Call", "Zendesk"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

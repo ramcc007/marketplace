@@ -1,0 +1,66 @@
+{
+  "name": "Keeper",
+  "status": "published",
+  "vendor": { "name": "Keeper Security, Inc.", "website": "https://www.keepersecurity.com" },
+  "primaryCategory": "password-manager",
+  "summary": "Keeper's business plans run from $2 to $6 per user a month, billed annually, and single sign-on, SCIM and directory sync come only with Enterprise. Reporting for security tools, dark web monitoring and compliance reports are paid add-ons on every plan.",
+  "qualifies": [
+    {
+      "category": "password-manager",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "encrypted vault", "sourceUrl": "https://www.keepersecurity.com/security.html" },
+        { "capability": "team sharing", "sourceUrl": "https://www.keepersecurity.com/pricing/business-and-enterprise.html" },
+        { "capability": "admin policies and reporting", "sourceUrl": "https://www.keepersecurity.com/pricing/business-and-enterprise.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Keeper states that its government platform holds FedRAMP High and GovRAMP High authorization and runs in AWS GovCloud (US).", "sourceUrl": "https://www.keepersecurity.com/security.html", "checkedAt": "2026-11-03" },
+    { "text": "Keeper's cryptographic module is FIPS 140-3 validated under NIST certificate 4743.", "sourceUrl": "https://www.keepersecurity.com/security.html", "checkedAt": "2026-11-03" },
+    { "text": "Keeper describes itself as HIPAA compliant and says it does not sign business associate agreements because it is not a Business Associate.", "sourceUrl": "https://www.keepersecurity.com/security.html", "checkedAt": "2026-11-03" },
+    { "text": "Keeper published an advisory for a clickjacking issue shown at DEF CON 33, rated it low severity, and fixed it in browser extension version 17.1.2.", "sourceUrl": "https://docs.keeper.io/release-notes/keeper-security/security-advisories/def-con-2025", "checkedAt": "2026-11-03" },
+    { "text": "The Business and Enterprise plans include a free Keeper Family Plan for every user.", "sourceUrl": "https://www.keepersecurity.com/pricing/business-and-enterprise.html", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Business Starter", "priceUsd": 2, "billing": "month", "unit": "per user", "notes": "Billed annually. For 5 to 10 users." },
+      { "name": "Business", "priceUsd": 4, "billing": "month", "unit": "per user", "notes": "Billed annually" },
+      { "name": "Enterprise", "priceUsd": 6, "billing": "month", "unit": "per user", "notes": "Billed annually. Bought through a quote request." }
+    ],
+    "hiddenCosts": [
+      "Single sign-on (SAML 2.0), SCIM provisioning and Active Directory sync are on the Enterprise plan only.",
+      "Sending events to a SIEM needs the Advanced Reporting and Alerts add-on at $12 per user a year.",
+      "BreachWatch dark web monitoring is $24 per user a year and Compliance Reports are $12 per user a year.",
+      "Business Starter stops at 10 users; larger teams move to Business."
+    ],
+    "sourceUrl": "https://www.keepersecurity.com/pricing/business-and-enterprise.html",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://www.keepersecurity.com/security.html",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Either party can decline renewal with written notice at least 30 days before the renewal date; fees are nonrefundable.",
+    "dataExport": "CSV, JSON, PDF or an encrypted KeePass file; only the KeePass file includes attachments.",
+    "exportSourceUrl": "https://docs.keeper.io/user-guides/web-vault",
+    "sourceUrl": "https://www.keepersecurity.com/termsofuse.html",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Microsoft Entra ID", "Okta", "Google Workspace", "Ping Identity", "OneLogin", "JumpCloud", "Duo", "SCIM provisioning", "Active Directory and LDAP", "Slack", "ServiceNow"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Time Doctor",
+  "status": "published",
+  "vendor": { "name": "Mystaff.com, LLC", "website": "https://www.timedoctor.com" },
+  "primaryCategory": "time-tracking",
+  "summary": "Time Doctor costs $6.67 to $16.70 per user a month on annual billing, with no free plan and a 14-day trial of Premium. Screenshots and activity levels are core features on every plan, and approval of manual time entries starts on Standard.",
+  "qualifies": [
+    {
+      "category": "time-tracking",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "time entry or clock in and out", "sourceUrl": "https://support.timedoctor.com/knowledge/differences-between-the-mobile-app-and-the-desktop-app" },
+        { "capability": "timesheet approval", "sourceUrl": "https://support.timedoctor.com/knowledge/how-to-approve-or-disapprove-manual-time" },
+        { "capability": "export to payroll or invoicing", "sourceUrl": "https://support.timedoctor.com/knowledge/faqs-with-payroll-in-time-doctor" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Approval in Time Doctor covers manual time entries rather than whole timesheets, and disapproved entries drop out of reports.", "sourceUrl": "https://support.timedoctor.com/knowledge/how-to-approve-or-disapprove-manual-time", "checkedAt": "2026-11-03" },
+    { "text": "Time Doctor records keyboard and mouse activity levels and states that the actual keys pressed are not recorded.", "sourceUrl": "https://support.timedoctor.com/knowledge/what-does-time-doctor-monitor-on-my-computer", "checkedAt": "2026-11-03" },
+    { "text": "Screenshots are switched on per user, with an option to blur them.", "sourceUrl": "https://support.timedoctor.com/knowledge/the-screencasts-screenshots-feature", "checkedAt": "2026-11-03" },
+    { "text": "The payroll feature on Standard and Premium exports CSV files for PayPal, Wise, Gusto, Payoneer and ADP.", "sourceUrl": "https://support.timedoctor.com/knowledge/faqs-with-payroll-in-time-doctor", "checkedAt": "2026-11-03" },
+    { "text": "Tracking history is kept for 3 months on Basic, 6 months on Standard and 2 years on Premium.", "sourceUrl": "https://www.timedoctor.com/pricing", "checkedAt": "2026-11-03" },
+    { "text": "The terms renew subscriptions automatically and ask for written notice of non-renewal at least 30 days before the term ends.", "sourceUrl": "https://www.timedoctor.com/terms-of-service", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Basic", "priceUsd": 6.67, "billing": "month", "unit": "per user", "notes": "Billed annually; $8 on monthly billing" },
+      { "name": "Standard", "priceUsd": 11.67, "billing": "month", "unit": "per user", "notes": "Billed annually; $14 on monthly billing. Adds manual time approval, payroll and app and website reports" },
+      { "name": "Premium", "priceUsd": 16.7, "billing": "month", "unit": "per user", "notes": "Billed annually; $20 on monthly billing. Adds single sign-on, video screen recording and API access" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Custom pricing and contract terms" }
+    ],
+    "hiddenCosts": [
+      "Single sign-on on Basic or Standard is an add-on at $200 per account a month.",
+      "Native HRIS and payroll integrations are add-ons at $200 per integration a month.",
+      "Several reporting features are add-ons at $2 or $3 per user a month on Basic and Standard.",
+      "Prices exclude VAT and sales tax."
+    ],
+    "sourceUrl": "https://www.timedoctor.com/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Premium",
+    "sourceUrl": "https://www.timedoctor.com/soc2",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Fees are non-refundable, and the terms ask for written notice of non-renewal at least 30 days before the term ends.",
+    "dataExport": "Custom exports as CSV, XLS or PDF on every plan; API access on Premium and Enterprise.",
+    "exportSourceUrl": "https://support.timedoctor.com/knowledge/how-to-use-time-doctors-custom-export-feature",
+    "sourceUrl": "https://www.timedoctor.com/terms-of-service",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Jira", "Asana", "Trello", "ClickUp", "monday.com", "GitHub", "HubSpot", "Gusto", "ADP", "Deel"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

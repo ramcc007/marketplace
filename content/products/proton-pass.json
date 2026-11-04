@@ -1,0 +1,65 @@
+{
+  "name": "Proton Pass",
+  "status": "published",
+  "vendor": { "name": "Proton AG", "website": "https://proton.me/business/pass" },
+  "primaryCategory": "password-manager",
+  "summary": "Proton Pass for business has an Essentials plan at $1.99 per user a month for teams of 3 to 30 people and a Professional plan at $4.99, both on yearly billing. Single sign-on, SCIM, activity logs and SIEM export come with Professional.",
+  "qualifies": [
+    {
+      "category": "password-manager",
+      "checkedAt": "2026-11-03",
+      "evidence": [
+        { "capability": "encrypted vault", "sourceUrl": "https://proton.me/business/pass/security" },
+        { "capability": "team sharing", "sourceUrl": "https://proton.me/business/pass/pricing" },
+        { "capability": "admin policies and reporting", "sourceUrl": "https://proton.me/business/pass/governance" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Proton Pass client apps are open source and published on GitHub.", "sourceUrl": "https://proton.me/business/pass/security", "checkedAt": "2026-11-03" },
+    { "text": "Items are encrypted on the device with 256-bit AES-GCM, and Proton stores data on servers in Germany, Switzerland and Norway.", "sourceUrl": "https://proton.me/business/pass/security", "checkedAt": "2026-11-03" },
+    { "text": "Recurity Labs audited the Proton Pass apps, browser extensions and command-line tool between January and April 2026 and reported no remote exploits or encryption bypasses.", "sourceUrl": "https://proton.me/business/pass/security", "checkedAt": "2026-11-03" },
+    { "text": "Proton holds a SOC 2 Type II attestation from Schellman, dated July 2025, and ISO 27001 certification.", "sourceUrl": "https://proton.me/business/pass/governance", "checkedAt": "2026-11-03" },
+    { "text": "Proton says any customer can request a HIPAA business associate agreement by email; the page does not say whether it covers Proton Pass.", "sourceUrl": "https://proton.me/business/healthcare", "checkedAt": "2026-11-03" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Pass Essentials", "priceUsd": 23.88, "billing": "year", "unit": "per user", "notes": "Shown as $1.99 a month with a 60% discount label. $4.99 on monthly billing. 3 to 30 users." },
+      { "name": "Pass Professional", "priceUsd": 59.88, "billing": "year", "unit": "per user", "notes": "Shown as $4.99 a month with a 29% discount label. $6.99 on monthly billing. Minimum 3 users." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "All Proton services, through sales" }
+    ],
+    "hiddenCosts": [
+      "Yearly prices carry discount labels, and the page does not say whether renewals cost more.",
+      "Single sign-on, SCIM, activity logs, enterprise policies and SIEM export are not part of Pass Essentials.",
+      "Every plan needs at least 3 users."
+    ],
+    "sourceUrl": "https://proton.me/business/pass/pricing",
+    "verifiedAt": "2026-11-03"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": "Pass Professional",
+    "sourceUrl": "https://proton.me/business/pass/security",
+    "checkedAt": "2026-11-03"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": 3,
+    "autoRenew": true,
+    "cancellation": "Renews for the same length unless cancelled before the renewal date; a full refund is available within 30 days of the first purchase.",
+    "dataExport": "PGP-encrypted JSON in a ZIP, an unencrypted ZIP or CSV, from the browser extension, web app or Windows app; the mobile apps cannot export.",
+    "exportSourceUrl": "https://proton.me/support/pass-export",
+    "sourceUrl": "https://proton.me/legal/terms",
+    "checkedAt": "2026-11-03"
+  },
+  "integrations": ["Okta", "Microsoft Entra ID", "Google Workspace", "OneLogin", "SCIM provisioning", "SIEM export"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-03"
+}

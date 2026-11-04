@@ -1,0 +1,77 @@
+---
+import '../styles/global.css';
+import Seo from '../components/Seo.astro';
+import type { SeoProps } from '../lib/seo';
+import { SITE } from '../config/site';
+
+type Props = SeoProps;
+const props = Astro.props;
+const nav = [
+  { href: '/categories', label: 'Categories' },
+  { href: '/methodology', label: 'How we rank' },
+  { href: '/transparency', label: 'Transparency' },
+];
+const current = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <Seo {...props} />
+  </head>
+  <body class="flex min-h-screen flex-col bg-white text-slate-900 antialiased">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:rounded focus:bg-white focus:px-3 focus:py-2 focus:shadow"
+      >Skip to content</a
+    >
+    <header class="border-b border-slate-200">
+      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-4">
+        <a href="/" class="text-lg font-semibold tracking-tight text-slate-900">{SITE.name}</a>
+        <nav aria-label="Main">
+          <ul class="flex flex-wrap gap-x-5 gap-y-1 text-sm">
+            {
+              nav.map((item) => (
+                <li>
+                  <a
+                    href={item.href}
+                    class:list={[
+                      'hover:text-teal-700',
+                      current.startsWith(item.href) ? 'font-semibold text-teal-700' : 'text-slate-600',
+                    ]}
+                    aria-current={current.startsWith(item.href) ? 'page' : undefined}
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="flex-1">
+      <slot />
+    </main>
+
+    <footer class="mt-16 border-t border-slate-200 bg-slate-50">
+      <div class="mx-auto grid max-w-6xl gap-6 px-4 py-8 text-sm text-slate-600 sm:grid-cols-2">
+        <div>
+          <p class="font-semibold text-slate-900">{SITE.name}</p>
+          <p class="mt-2 max-w-md">
+            Rankings are never for sale. Any paid placement is labeled and kept apart from the ranked list.
+          </p>
+        </div>
+        <ul class="flex flex-wrap gap-x-5 gap-y-2 sm:justify-end">
+          <li><a class="hover:text-teal-700" href="/categories">All categories</a></li>
+          <li><a class="hover:text-teal-700" href="/methodology">How we rank</a></li>
+          <li><a class="hover:text-teal-700" href="/transparency">Transparency</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

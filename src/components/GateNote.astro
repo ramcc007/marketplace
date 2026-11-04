@@ -1,0 +1,27 @@
+---
+import type { GateResult } from '../lib/quality-gate';
+
+// Shown only in `astro dev`, so editors can see why a page is not indexed yet.
+interface Props {
+  gate: GateResult;
+}
+const { gate } = Astro.props;
+const show = import.meta.env.DEV;
+---
+
+{
+  show && (
+    <aside class="mb-6 rounded border border-dashed border-amber-400 bg-amber-50 p-4 text-sm text-amber-900">
+      <p class="font-semibold">
+        Editor view (dev only): {gate.indexable ? 'indexed' : 'noindex, follow'}
+      </p>
+      {gate.reasons.length > 0 && (
+        <ul class="mt-2 list-disc pl-5">
+          {gate.reasons.map((r) => (
+            <li>{r}</li>
+          ))}
+        </ul>
+      )}
+    </aside>
+  )
+}
