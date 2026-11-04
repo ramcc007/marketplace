@@ -1,0 +1,65 @@
+{
+  "name": "Postmark",
+  "status": "published",
+  "vendor": { "name": "Postmark", "website": "https://postmarkapp.com" },
+  "primaryCategory": "transactional-email",
+  "summary": "Postmark is a transactional email service that sends through an HTTP API. Paid plans start at $15 a month for 10,000 emails, and the free plan covers 100 emails a month. Message history is kept 45 days by default, and the Pro and Platform plans can extend it to 365 days.",
+  "qualifies": [
+    {
+      "category": "transactional-email",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "sending api or smtp", "sourceUrl": "https://postmarkapp.com/developer/api/email-api" },
+        { "capability": "delivery logs", "sourceUrl": "https://postmarkapp.com/developer/api/messages-api" },
+        { "capability": "bounce and complaint handling", "sourceUrl": "https://postmarkapp.com/developer/api/bounce-api" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The outbound message search returns up to 10,000 messages per search, and each message record lists events such as delivered, bounced, opened and link clicked.", "sourceUrl": "https://postmarkapp.com/developer/api/messages-api", "checkedAt": "2026-11-04" },
+    { "text": "Message retention defaults to 45 days and can be set between 7 and 365 days.", "sourceUrl": "https://postmarkapp.com/developer/api/messages-api", "checkedAt": "2026-11-04" },
+    { "text": "The bounce API documents 23 bounce types, including HardBounce, SoftBounce and SpamComplaint, and each bounce record shows whether Postmark deactivated the address.", "sourceUrl": "https://postmarkapp.com/developer/api/bounce-api", "checkedAt": "2026-11-04" },
+    { "text": "Postmark's pricing page lists no plan between the free 100 emails a month and the 10,000 email paid tier.", "sourceUrl": "https://postmarkapp.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "100 emails a month, no overages allowed" },
+      { "name": "Basic", "priceUsd": 15, "billing": "month", "unit": "from 10,000 emails", "notes": "Extra emails cost $1.80 per 1,000. 45 days of message history" },
+      { "name": "Pro", "priceUsd": 16.5, "billing": "month", "unit": "from 10,000 emails", "notes": "Extra emails cost $1.30 per 1,000. History can be extended up to 365 days" },
+      { "name": "Platform", "priceUsd": 18, "billing": "month", "unit": "from 10,000 emails", "notes": "Extra emails cost $1.20 per 1,000. History can be extended up to 365 days" }
+    ],
+    "hiddenCosts": [
+      "Dedicated IPs start at $50 a month per IP, need Pro or higher, and are offered to senders at 300,000 or more emails a month.",
+      "Custom activity retention starts at $5 a month.",
+      "DMARC monitoring starts at $14 a month per domain.",
+      "Unused emails do not roll over to the next month."
+    ],
+    "sourceUrl": "https://postmarkapp.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://postmarkapp.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Cancellation is made in the service and takes effect at the end of the current billing period. Plans renew until the user cancels.",
+    "dataExport": "The terms say all data related to the account is lost on cancellation.",
+    "sourceUrl": "https://postmarkapp.com/terms-of-service",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

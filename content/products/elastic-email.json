@@ -1,0 +1,63 @@
+{
+  "name": "Elastic Email",
+  "status": "published",
+  "vendor": { "name": "Elastic Email", "website": "https://elasticemail.com" },
+  "primaryCategory": "transactional-email",
+  "summary": "Elastic Email offers a REST API for transactional and bulk sending, with plans from a free 3,000 emails a month. Starter costs $19 a month and Pro $49 a month, each starting at 50,000 emails, and the price rises with the volume chosen on a slider. Pro keeps logs 7 days.",
+  "qualifies": [
+    {
+      "category": "transactional-email",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "sending api or smtp", "sourceUrl": "https://elasticemail.com/developers/api-documentation/rest-api" },
+        { "capability": "delivery logs", "sourceUrl": "https://help.elasticemail.com/en/articles/2300646-email-delivery-statuses" },
+        { "capability": "bounce and complaint handling", "sourceUrl": "https://help.elasticemail.com/en/articles/2300650-what-are-the-bounce-error-categories-and-filters" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The REST API sends transactional mail with POST /emails/transactional and bulk mail with POST /emails.", "sourceUrl": "https://elasticemail.com/developers/api-documentation/rest-api", "checkedAt": "2026-11-04" },
+    { "text": "Delivery statuses are Ready To Send, Waiting To Retry, Sent, Opened, Clicked, Unsubscribed, Complained, Bounced and Suppressed, and each email in the log shows its event history.", "sourceUrl": "https://help.elasticemail.com/en/articles/2300646-email-delivery-statuses", "checkedAt": "2026-11-04" },
+    { "text": "Temporary 4xx failures are retried for up to 48 hours, permanent 5xx failures are not retried, and bounces are grouped into categories such as NoMailbox, Spam, BlackListed and Throttled.", "sourceUrl": "https://help.elasticemail.com/en/articles/2300650-what-are-the-bounce-error-categories-and-filters", "checkedAt": "2026-11-04" },
+    { "text": "The API's suppression endpoints list bounces and complaints and can add them, both synchronously and asynchronously.", "sourceUrl": "https://elasticemail.com/developers/api-documentation/rest-api", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "3,000 emails", "notes": "Up to 1,000 contacts, 3 days of email logs" },
+      { "name": "Starter", "priceUsd": 19, "billing": "month", "unit": "from 50,000 emails", "notes": "Volume can be selected up to 10,000,000 emails a month. 3 days of email logs" },
+      { "name": "Pro", "priceUsd": 49, "billing": "month", "unit": "from 50,000 emails", "notes": "Volume can be selected up to 10,000,000 emails a month. 7 days of email logs" }
+    ],
+    "hiddenCosts": [
+      "The page lists $40 and $50 a month for private IPs without labeling the plans they belong to, so confirm the price before buying.",
+      "Prices for volumes above the starting tier are not shown on the page text we read.",
+      "The page states no pay as you go rate per 1,000 emails."
+    ],
+    "sourceUrl": "https://elasticemail.com/email-api-pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://elasticemail.com/resources/usage-policies/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "A customer cancels by emailing support or through My Account. Elastic Email may cancel an account with or without cause and with or without notice. Refunds are not automatic.",
+    "dataExport": "Unsubscribe lists are available on request within 60 days, and user content may be erased if the account stays cancelled for more than 30 days.",
+    "sourceUrl": "https://elasticemail.com/resources/usage-policies/terms-of-use",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

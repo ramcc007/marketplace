@@ -1,0 +1,64 @@
+{
+  "name": "Mailgun",
+  "status": "published",
+  "vendor": { "name": "Mailgun (Sinch)", "website": "https://www.mailgun.com" },
+  "primaryCategory": "transactional-email",
+  "summary": "Mailgun sends email through a REST API or SMTP. Paid plans start at $15 a month for 10,000 emails, and the free plan allows 100 emails a day. Log retention grows from 1 day on Free and Basic to 30 days on Scale, the only plan with SAML single sign-on.",
+  "qualifies": [
+    {
+      "category": "transactional-email",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "sending api or smtp", "sourceUrl": "https://documentation.mailgun.com/docs/mailgun/api-reference/send/mailgun/messages" },
+        { "capability": "delivery logs", "sourceUrl": "https://documentation.mailgun.com/docs/mailgun/user-manual/events/events" },
+        { "capability": "bounce and complaint handling", "sourceUrl": "https://documentation.mailgun.com/docs/mailgun/user-manual/tracking-messages/tracking-failures" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The events page says Mailgun retains event data for 30 days and that access varies by plan, while the pricing page lists log retention of 1 day on Free and Basic, 5 days on Foundation and 30 days on Scale.", "sourceUrl": "https://documentation.mailgun.com/docs/mailgun/user-manual/events/events", "checkedAt": "2026-11-04" },
+    { "text": "Events cover delivered, failed and complained messages. A complaint is recorded when the recipient marks the email as spam and a feedback loop reports it.", "sourceUrl": "https://documentation.mailgun.com/docs/mailgun/user-manual/events/events", "checkedAt": "2026-11-04" },
+    { "text": "Bounced addresses appear on the Suppressions tab, and Mailgun stops sending to addresses on its Do Not Send lists.", "sourceUrl": "https://documentation.mailgun.com/docs/mailgun/user-manual/tracking-messages/tracking-failures", "checkedAt": "2026-11-04" },
+    { "text": "Mailgun states that it is SOC 2 Type II and ISO/IEC 27001 certified and GDPR compliant.", "sourceUrl": "https://www.mailgun.com/security/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "100 emails a day", "notes": "1 custom domain, 2 API keys, 1 user, 1 day of logs" },
+      { "name": "Basic", "priceUsd": 15, "billing": "month", "unit": "from 10,000 emails", "notes": "Extra emails from $1.80 per 1,000. 1 day of logs" },
+      { "name": "Foundation", "priceUsd": 35, "billing": "month", "unit": "50,000 emails", "notes": "First month free. Extra emails from $1.30 per 1,000. 5 days of logs" },
+      { "name": "Scale", "priceUsd": 90, "billing": "month", "unit": "100,000 emails", "notes": "First month free. Extra emails from $1.10 per 1,000. 30 days of logs and SAML single sign-on" }
+    ],
+    "hiddenCosts": [
+      "A dedicated IP is listed as a $59 a month add-on per IP. The page is inconsistent about whether Foundation includes one, so ask before buying.",
+      "Email validation overages start at $1.20 per 100 validations on Basic and Foundation and $0.80 on Scale.",
+      "Dedicated IP pools, send time optimization and scheduled reports are limited to Scale."
+    ],
+    "sourceUrl": "https://www.mailgun.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Scale (SAML)",
+    "sourceUrl": "https://www.mailgun.com/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "The terms require a non-renewal notice at least 30 days before the current term ends. Either side can end the agreement for breach after a 45-day cure period.",
+    "dataExport": "The terms call customer data the customer's exclusive property and do not describe return or deletion after termination.",
+    "sourceUrl": "https://www.mailgun.com/legal/terms/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

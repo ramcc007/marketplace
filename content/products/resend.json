@@ -1,0 +1,65 @@
+{
+  "name": "Resend",
+  "status": "published",
+  "vendor": { "name": "Resend", "website": "https://resend.com" },
+  "primaryCategory": "transactional-email",
+  "summary": "Resend is an email API for developers. The free plan covers 3,000 emails a month with a 100 a day cap. Pro starts at $20 a month for 50,000 emails, and Scale starts at $90 for 100,000. Dedicated IPs and single sign-on are paid add-ons on Scale only.",
+  "qualifies": [
+    {
+      "category": "transactional-email",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "sending api or smtp", "sourceUrl": "https://resend.com/docs/api-reference/emails/send-email" },
+        { "capability": "delivery logs", "sourceUrl": "https://resend.com/docs/dashboard/emails/manage-emails" },
+        { "capability": "bounce and complaint handling", "sourceUrl": "https://resend.com/docs/dashboard/emails/email-bounces" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Resend sends mail through a POST request to api.resend.com/emails, and the page we read does not mention SMTP.", "sourceUrl": "https://resend.com/docs/api-reference/emails/send-email", "checkedAt": "2026-11-04" },
+    { "text": "Webhook event types include email.delivered, email.bounced, email.complained and email.suppressed.", "sourceUrl": "https://resend.com/docs/dashboard/webhooks/event-types", "checkedAt": "2026-11-04" },
+    { "text": "Bounces are classed as permanent, transient or undetermined, and the dashboard shows the subtype with suggested next steps and lets you remove an address from the suppression list.", "sourceUrl": "https://resend.com/docs/dashboard/emails/email-bounces", "checkedAt": "2026-11-04" },
+    { "text": "Resend says it is SOC 2 Type II compliant and GDPR compliant, holds no ISO 27001 certificate, is not HIPAA compliant and cannot sign a Business Associate Agreement.", "sourceUrl": "https://resend.com/security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "3,000 emails", "notes": "100 emails a day, 3 domains, 30 days of data" },
+      { "name": "Pro", "priceUsd": 20, "billing": "month", "unit": "50,000 emails", "notes": "No daily limit, 10 domains, extra emails $0.90 per 1,000. A 100,000 email tier costs $35" },
+      { "name": "Scale", "priceUsd": 90, "billing": "month", "unit": "100,000 emails", "notes": "1,000 domains. Tiers run to $1,150 for 2,500,000 emails, with extra emails from $0.90 down to $0.46 per 1,000" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom volume, flexible retention, single sign-on included" }
+    ],
+    "hiddenCosts": [
+      "A dedicated IP costs $30 a month on Scale and is meant for senders above 3,000 emails a day.",
+      "Single sign-on costs $150 a month as a Scale add-on.",
+      "Each block of 100 extra domains costs $20 a month.",
+      "Plans are billed monthly with no annual discount."
+    ],
+    "sourceUrl": "https://resend.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": false,
+    "gdpr": true,
+    "hipaa": false,
+    "ssoPlan": "Scale add-on ($150 a month) or Enterprise",
+    "sourceUrl": "https://resend.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Renewal can be cancelled from the account page or through support. Resend may suspend or end accounts without prior notice.",
+    "dataExport": null,
+    "sourceUrl": "https://resend.com/legal/terms-of-service",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Twilio SendGrid",
+  "status": "published",
+  "vendor": { "name": "Twilio Inc.", "website": "https://sendgrid.com" },
+  "primaryCategory": "transactional-email",
+  "summary": "Twilio SendGrid sends through an SMTP relay and a web API. It offers a 60-day free trial at 100 emails a day, then Essentials from $19.95 a month and Pro from $89.95. Pro adds a dedicated IP and single sign-on, and SendGrid does not sign a HIPAA Business Associate Agreement.",
+  "qualifies": [
+    {
+      "category": "transactional-email",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "sending api or smtp", "sourceUrl": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/integrating-with-the-smtp-api" },
+        { "capability": "delivery logs", "sourceUrl": "https://www.twilio.com/docs/sendgrid/ui/analytics-and-reporting/email-activity-feed" },
+        { "capability": "bounce and complaint handling", "sourceUrl": "https://www.twilio.com/docs/sendgrid/ui/sending-email/index-suppressions" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The SMTP relay host is smtp.sendgrid.net, on ports 25, 2525 and 587 for unencrypted or TLS connections and port 465 for SSL.", "sourceUrl": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/integrating-with-the-smtp-api", "checkedAt": "2026-11-04" },
+    { "text": "The Email Activity Feed lists events such as Delivered, Bounced, Blocked, Opened and Spam Report, and keeps up to 30 days of history with a paid add-on.", "sourceUrl": "https://www.twilio.com/docs/sendgrid/ui/analytics-and-reporting/email-activity-feed", "checkedAt": "2026-11-04" },
+    { "text": "An address that bounces is added to the bounce suppression list, and a second send attempt to it is blocked until the entry is deleted.", "sourceUrl": "https://www.twilio.com/docs/sendgrid/ui/sending-email/bounces", "checkedAt": "2026-11-04" },
+    { "text": "Twilio says SendGrid is not HIPAA compliant and will not sign a Business Associate Agreement for it.", "sourceUrl": "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/hipaa-compliant", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 60,
+    "plans": [
+      { "name": "Free Trial", "priceUsd": 0, "billing": "month", "unit": "100 emails a day for 60 days", "notes": "No credit card required. 3 days of activity history" },
+      { "name": "Essentials", "priceUsd": 19.95, "billing": "month", "unit": "starting price", "notes": "Price rises with monthly volume, and the page states no per-plan send limit. 3 days of activity history" },
+      { "name": "Pro", "priceUsd": 89.95, "billing": "month", "unit": "starting price", "notes": "Price rises with monthly volume. Includes a dedicated IP, single sign-on and 7 days of activity history" },
+      { "name": "Premier", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing for high volume" }
+    ],
+    "hiddenCosts": [
+      "Additional dedicated IPs and longer email activity history are sold as add-ons with no price on the page.",
+      "The page notes that overage charges may apply past plan limits.",
+      "The pricing page redirects between twilio.com and sendgrid.com, and the volume selector sets the final price."
+    ],
+    "sourceUrl": "https://www.twilio.com/en-us/products/email-api/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": false,
+    "ssoPlan": "Pro",
+    "sourceUrl": "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/hipaa-compliant",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Twilio's terms let either party end the agreement for convenience with 30 days' written notice, though order forms already in effect run until they expire. Ending the terms closes all of the customer's accounts.",
+    "dataExport": null,
+    "sourceUrl": "https://www.twilio.com/en-us/legal/tos",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

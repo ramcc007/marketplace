@@ -1,0 +1,65 @@
+{
+  "name": "Amazon SES",
+  "status": "published",
+  "vendor": { "name": "Amazon Web Services, Inc.", "website": "https://aws.amazon.com/ses/" },
+  "primaryCategory": "transactional-email",
+  "summary": "Amazon Simple Email Service sends through an API or an SMTP interface and charges $0.10 per 1,000 outbound emails pay as you go. Bounce and complaint data arrives through notifications or event publishing, and you build your own log views from that data.",
+  "qualifies": [
+    {
+      "category": "transactional-email",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "sending api or smtp", "sourceUrl": "https://docs.aws.amazon.com/ses/latest/dg/send-email.html" },
+        { "capability": "delivery logs", "sourceUrl": "https://docs.aws.amazon.com/ses/latest/dg/monitor-sending-activity.html" },
+        { "capability": "bounce and complaint handling", "sourceUrl": "https://docs.aws.amazon.com/ses/latest/dg/sending-email-suppression-list.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "SES documents three ways to send: the console for tests, the SMTP interface, and the API.", "sourceUrl": "https://docs.aws.amazon.com/ses/latest/dg/send-email.html", "checkedAt": "2026-11-04" },
+    { "text": "Event publishing reports sends, deliveries, opens, clicks, bounces, complaints and rejects with details on each event, through CloudWatch, Amazon Data Firehose or SNS, and extra charges apply.", "sourceUrl": "https://docs.aws.amazon.com/ses/latest/dg/monitor-sending-activity.html", "checkedAt": "2026-11-04" },
+    { "text": "Accounts started after November 25, 2019 use the account-level suppression list for bounces and complaints by default, and only hard bounces are added to it.", "sourceUrl": "https://docs.aws.amazon.com/ses/latest/dg/sending-email-suppression-list.html", "checkedAt": "2026-11-04" },
+    { "text": "Gmail does not provide complaint data to SES, so a recipient who uses the Gmail Spam button is not added to the suppression list.", "sourceUrl": "https://docs.aws.amazon.com/ses/latest/dg/sending-email-suppression-list.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Pay as you go", "priceUsd": 0.1, "billing": "month", "unit": "per 1,000 outbound emails", "notes": "Attachments cost $0.12 per GB sent" },
+      { "name": "Essentials", "priceUsd": 0.16, "billing": "month", "unit": "per 1,000 emails, first 10 million a month", "notes": "No fixed fee listed. Falls to $0.14 above 10 million and $0.11 above 100 million" },
+      { "name": "Pro", "priceUsd": 0.22, "billing": "month", "unit": "per 1,000 emails, first 10 million a month", "baseFeeUsd": 105, "notes": "Fixed fee per account per region per month" },
+      { "name": "Enterprise", "priceUsd": 0.23, "billing": "month", "unit": "per 1,000 emails, first 10 million a month", "baseFeeUsd": 500, "notes": "Fixed fee per account per region per month" }
+    ],
+    "hiddenCosts": [
+      "Standard dedicated IPs cost $24.95 a month per IP.",
+      "Inbound email costs $0.10 per 1,000 emails.",
+      "New AWS customers get up to $200 in credits. The free plan lasts 6 months, and credits must be used within 12 months of account creation.",
+      "Event publishing to CloudWatch carries separate charges."
+    ],
+    "sourceUrl": "https://aws.amazon.com/ses/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": true,
+    "ssoPlan": null,
+    "sourceUrl": "https://docs.aws.amazon.com/ses/latest/dg/compliance-validation.html",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The customer may end the agreement for any reason by notifying AWS and closing the account. Either side can end it for a material breach left uncured 30 days after notice. No minimum term is stated.",
+    "dataExport": "For 30 days after termination AWS does not remove customer content because of the termination, and it can be retrieved only if all amounts due are paid.",
+    "sourceUrl": "https://aws.amazon.com/agreement/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
