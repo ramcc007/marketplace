@@ -1,0 +1,51 @@
+{
+  "name": "Holm Security",
+  "status": "published",
+  "vendor": { "name": "Holm Security", "website": "https://www.holmsecurity.com" },
+  "primaryCategory": "vulnerability-management",
+  "summary": "Holm Security scans networks, web apps, cloud resources and APIs from one platform. Its remediation module creates tickets by hand or by rule and syncs with Jira, ServiceNow and TOPdesk. Prices come only by quote, with contracts of one to three years.",
+  "qualifies": [
+    {
+      "category": "vulnerability-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "asset and vulnerability scanning", "sourceUrl": "https://www.holmsecurity.com/products/system-network-security" },
+        { "capability": "risk prioritization", "sourceUrl": "https://www.holmsecurity.com/products/system-network-security" },
+        { "capability": "remediation tracking", "sourceUrl": "https://support.holmsecurity.com/knowledge/how-do-i-create-a-remediation-ticket-for-a-vulnerability-in-vm" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Holm says it discovers assets automatically and supports authenticated and unauthenticated scans of internal and internet-facing systems, network devices, OT, IoT, Kubernetes and cloud.", "sourceUrl": "https://www.holmsecurity.com/products/system-network-security", "checkedAt": "2026-11-04" },
+    { "text": "Holm says AI-driven threat intelligence guides prioritization and highlights vulnerabilities exploited in ransomware attacks.", "sourceUrl": "https://www.holmsecurity.com/products/system-network-security", "checkedAt": "2026-11-04" },
+    { "text": "Tickets can be created for a vulnerability from the Vulnerability Manager and then appear under Remediation.", "sourceUrl": "https://support.holmsecurity.com/knowledge/how-do-i-create-a-remediation-ticket-for-a-vulnerability-in-vm", "checkedAt": "2026-11-04" },
+    { "text": "Licensing is per asset type, such as active IP addresses for system and network security. Contracts usually run 1 to 3 years and prices are quoted on request.", "sourceUrl": "https://www.holmsecurity.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "System and network security", "priceUsd": null, "billing": "quote", "unit": "per active IP address", "notes": "Quote on request. No prices on the pricing page" }
+    ],
+    "hiddenCosts": [
+      "No public price. Each product, such as web app or cloud security, is licensed and quoted separately.",
+      "A free trial is offered, but its length is not stated."
+    ],
+    "sourceUrl": "https://www.holmsecurity.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Contracts are usually signed for 1 to 3 years.",
+    "dataExport": null,
+    "sourceUrl": "https://www.holmsecurity.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Jira", "ServiceNow", "TOPdesk"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

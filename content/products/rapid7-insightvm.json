@@ -1,0 +1,42 @@
+{
+  "name": "Rapid7 InsightVM",
+  "status": "published",
+  "vendor": { "name": "Rapid7, Inc.", "website": "https://www.rapid7.com" },
+  "primaryCategory": "vulnerability-management",
+  "summary": "InsightVM scans sites of assets, scores each asset with a risk score and tracks fixes in remediation projects that can sync with Jira and ServiceNow. Rapid7 now sells it inside Exposure Command and publishes no prices.",
+  "qualifies": [
+    {
+      "category": "vulnerability-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "asset and vulnerability scanning", "sourceUrl": "https://docs.rapid7.com/insightvm/insightvm-quick-start-guide/" },
+        { "capability": "risk prioritization", "sourceUrl": "https://docs.rapid7.com/insightvm/insightvm-quick-start-guide/" },
+        { "capability": "remediation tracking", "sourceUrl": "https://docs.rapid7.com/insightvm/remediation-workflow/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "InsightVM is now part of Rapid7's Exposure Command. Essentials combines InsightVM with attack surface management, and Ultimate adds cloud and application security.", "sourceUrl": "https://www.rapid7.com/products/insightvm/", "checkedAt": "2026-11-04" },
+    { "text": "Rapid7's documentation says each asset's detail view shows a calculated risk score, and tags can raise the score of critical assets.", "sourceUrl": "https://docs.rapid7.com/insightvm/insightvm-quick-start-guide/", "checkedAt": "2026-11-04" },
+    { "text": "Remediation projects track solutions through the statuses Open, Awaiting Verification, Will Not Fix, Closed and Reopen, and project metrics update as vulnerabilities stop appearing in scans.", "sourceUrl": "https://docs.rapid7.com/insightvm/remediation-workflow/", "checkedAt": "2026-11-04" },
+    { "text": "Remediation projects can integrate with Jira and ServiceNow, and solution statuses update from the ticketing system.", "sourceUrl": "https://docs.rapid7.com/insightvm/ticketing-integration-for-remediation-workflow-projects/", "checkedAt": "2026-11-04" },
+    { "text": "Rapid7's Exposure Command pricing page lists no prices and sends buyers to a demo request. It says billable asset usage is tracked against the customer's entitlement.", "sourceUrl": "https://www.rapid7.com/products/command/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Exposure Command Essentials (includes InsightVM)", "priceUsd": null, "billing": "quote", "unit": "per asset, by quote", "notes": "No prices on the pricing page. Request a demo" }
+    ],
+    "hiddenCosts": [
+      "No public price. The pricing page mentions volume discounts above 1,000 assets without giving the terms."
+    ],
+    "sourceUrl": "https://www.rapid7.com/products/command/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Jira", "ServiceNow"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

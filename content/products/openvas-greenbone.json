@@ -1,0 +1,45 @@
+{
+  "name": "Greenbone OPENVAS SCAN",
+  "status": "published",
+  "vendor": { "name": "Greenbone AG", "website": "https://www.greenbone.net" },
+  "primaryCategory": "vulnerability-management",
+  "summary": "OPENVAS SCAN is Greenbone's appliance for scanning desktops, servers and network gear. Its Enterprise Feed adds EPSS-based prioritization, and its ticket system assigns and verifies fixes. A free Community Edition exists, while appliance prices are quoted on request.",
+  "qualifies": [
+    {
+      "category": "vulnerability-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "asset and vulnerability scanning", "sourceUrl": "https://www.greenbone.net/en/products/" },
+        { "capability": "risk prioritization", "sourceUrl": "https://www.greenbone.net/en/feed-comparison/" },
+        { "capability": "remediation tracking", "sourceUrl": "https://docs.greenbone.net/GSM-Manual/gos-24.10/en/reports.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Greenbone says OPENVAS SCAN offers more than 200,000 vulnerability tests and covers desktops, servers, routers and VoIP devices.", "sourceUrl": "https://www.greenbone.net/en/products/", "checkedAt": "2026-11-04" },
+    { "text": "The Enterprise Feed includes every Community Feed test and adds EPSS-based prioritization, CIS Benchmark compliance checks and coverage of products such as Cisco, Microsoft Exchange and Palo Alto Networks.", "sourceUrl": "https://www.greenbone.net/en/feed-comparison/", "checkedAt": "2026-11-04" },
+    { "text": "Greenbone's manual describes remediation tickets that can be assigned to users, with the statuses Open, Fixed, Fixed verified and Closed. A repeat scan sets Fixed verified automatically.", "sourceUrl": "https://docs.greenbone.net/GSM-Manual/gos-24.10/en/reports.html", "checkedAt": "2026-11-04" },
+    { "text": "OPENVAS BASIC is available for a free 14-day trial, and the products page lists no prices.", "sourceUrl": "https://www.greenbone.net/en/products/", "checkedAt": "2026-11-04" },
+    { "text": "The Community Feed is free and included in OPENVAS FREE.", "sourceUrl": "https://www.greenbone.net/en/feed-comparison/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "OPENVAS FREE (Community Feed)", "priceUsd": 0, "billing": "month", "unit": "per installation", "notes": "Free feed without EPSS prioritization, CIS compliance checks or Enterprise Support" },
+      { "name": "OPENVAS BASIC", "priceUsd": null, "billing": "quote", "unit": "per installation", "notes": "For small companies and individual users. 14-day free trial. No price listed" },
+      { "name": "OPENVAS SCAN", "priceUsd": null, "billing": "quote", "unit": "per appliance", "notes": "Hardware or virtual appliances. Quote through the product request form" }
+    ],
+    "hiddenCosts": [
+      "EPSS prioritization is limited to the Enterprise Feed and is not in the free Community Feed.",
+      "Appliance prices are not published."
+    ],
+    "sourceUrl": "https://www.greenbone.net/en/products/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

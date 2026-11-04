@@ -1,0 +1,56 @@
+{
+  "name": "Intruder",
+  "status": "published",
+  "vendor": { "name": "Intruder Systems Ltd", "website": "https://www.intruder.io" },
+  "primaryCategory": "vulnerability-management",
+  "summary": "Intruder scans internet-facing and internal systems, cloud accounts and web apps, ranks findings with CVSS, CISA KEV and EPSS data, and pushes issues to Jira, GitHub, GitLab or ServiceNow. It has a free plan and a 14-day trial. Paid prices are not shown as numbers on the pricing page.",
+  "qualifies": [
+    {
+      "category": "vulnerability-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "asset and vulnerability scanning", "sourceUrl": "https://www.intruder.io/platform/vulnerability-management" },
+        { "capability": "risk prioritization", "sourceUrl": "https://www.intruder.io/platform/vulnerability-management" },
+        { "capability": "remediation tracking", "sourceUrl": "https://www.intruder.io/platform/vulnerability-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Intruder says it finds new cloud services, subdomains and APIs and adds them to the platform automatically, and it can connect to AWS, Azure and Google Cloud accounts.", "sourceUrl": "https://www.intruder.io/platform/vulnerability-management", "checkedAt": "2026-11-04" },
+    { "text": "Findings are ranked using CVSS, CISA KEV and EPSS data.", "sourceUrl": "https://www.intruder.io/platform/vulnerability-management", "checkedAt": "2026-11-04" },
+    { "text": "Findings can be pushed to Jira, GitHub, GitLab or ServiceNow so a person can be assigned the fix, and Azure DevOps is listed in the FAQ.", "sourceUrl": "https://www.intruder.io/platform/vulnerability-management", "checkedAt": "2026-11-04" },
+    { "text": "The Free plan includes 5 infrastructure licenses and weekly external scans, but not web app or API scanning.", "sourceUrl": "https://www.intruder.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "A license is used each time a target is scanned and stays used for 30 days. The 14-day trial includes Cloud features and 5 free licenses.", "sourceUrl": "https://www.intruder.io/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "5 infrastructure licenses, 3 users, weekly external scans" },
+      { "name": "Cloud", "priceUsd": null, "billing": "quote", "unit": "base fee plus per target", "notes": "The pricing page shows no amount. The FAQ describes a base fee plus a small per-target fee" },
+      { "name": "Pro", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Sales contact. The page shows no amount" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom quote" }
+    ],
+    "hiddenCosts": [
+      "Annual billing is shown as saving 20% against monthly billing, so the monthly rate costs more.",
+      "Prices exclude VAT. Invoice payment is offered only from 250 licenses.",
+      "AI pentests are a separate add-on starting from $3,500 per test."
+    ],
+    "sourceUrl": "https://www.intruder.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "Monthly contracts are rolling and can be cancelled at any time. Annual contracts carry an annual commitment.",
+    "dataExport": null,
+    "sourceUrl": "https://www.intruder.io/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "Jira", "GitHub", "GitLab", "ServiceNow", "Azure DevOps", "AWS", "Google Cloud", "Azure"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Qualys VMDR",
+  "status": "published",
+  "vendor": { "name": "Qualys, Inc.", "website": "https://www.qualys.com" },
+  "primaryCategory": "vulnerability-management",
+  "summary": "Qualys VMDR combines asset inventory, scanning with agents, sensors and scanners, TruRisk-based prioritization and built-in patching and ticketing. Qualys publishes no prices and offers a 30-day free trial, so budgets start with a sales call.",
+  "qualifies": [
+    {
+      "category": "vulnerability-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "asset and vulnerability scanning", "sourceUrl": "https://www.qualys.com/apps/vulnerability-management-detection-response/" },
+        { "capability": "risk prioritization", "sourceUrl": "https://www.qualys.com/apps/vulnerability-management-detection-response/" },
+        { "capability": "remediation tracking", "sourceUrl": "https://www.qualys.com/apps/vulnerability-management-detection-response/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Qualys says VMDR finds known and unknown assets on premises, in the cloud and facing the internet, and lists unlimited virtual scanners, cloud agents, passive sensors and container sensors.", "sourceUrl": "https://www.qualys.com/apps/vulnerability-management-detection-response/", "checkedAt": "2026-11-04" },
+    { "text": "Qualys's TruRisk scoring uses threat intelligence from more than 25 sources. The product page does not name CISA KEV.", "sourceUrl": "https://www.qualys.com/apps/vulnerability-management-detection-response/", "checkedAt": "2026-11-04" },
+    { "text": "VMDR can generate ITSM tickets automatically and assign them using Qualys tags, and it names ServiceNow and Jira integrations.", "sourceUrl": "https://www.qualys.com/apps/vulnerability-management-detection-response/", "checkedAt": "2026-11-04" },
+    { "text": "Qualys offers VMDR free for 30 days and directs pricing questions to sales.", "sourceUrl": "https://www.qualys.com/subscriptions/vmdr/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "VMDR", "priceUsd": null, "billing": "quote", "unit": "per quote", "notes": "No prices on the VMDR page. Contact sales" }
+    ],
+    "hiddenCosts": [
+      "No public price, so budgets cannot be estimated before a sales conversation."
+    ],
+    "sourceUrl": "https://www.qualys.com/subscriptions/vmdr/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["ServiceNow", "Jira"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

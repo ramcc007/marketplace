@@ -1,0 +1,48 @@
+{
+  "name": "Aikido Security",
+  "status": "published",
+  "vendor": { "name": "Aikido Security", "website": "https://www.aikido.dev" },
+  "primaryCategory": "vulnerability-management",
+  "summary": "Aikido scans code dependencies, cloud accounts, containers and virtual machines in one place. It filters unreachable findings, syncs issues to trackers such as Jira and Linear on paid plans, and has a free plan for two users.",
+  "qualifies": [
+    {
+      "category": "vulnerability-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "asset and vulnerability scanning", "sourceUrl": "https://www.aikido.dev/" },
+        { "capability": "risk prioritization", "sourceUrl": "https://www.aikido.dev/" },
+        { "capability": "remediation tracking", "sourceUrl": "https://www.aikido.dev/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Aikido lists dependency, code, secrets, cloud misconfiguration, container image and virtual machine scanning among what it covers.", "sourceUrl": "https://www.aikido.dev/", "checkedAt": "2026-11-04" },
+    { "text": "Aikido says it filters unreachable findings automatically and uses a rule engine to adjust criticality. Its homepage does not mention EPSS or CISA KEV.", "sourceUrl": "https://www.aikido.dev/", "checkedAt": "2026-11-04" },
+    { "text": "Issue sync to Jira, Linear and other trackers appears from the Basic plan upward, and unlimited AutoFix comes with Basic, Pro and Advanced.", "sourceUrl": "https://www.aikido.dev/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The free Developer plan allows 2 users, 10 repos, 2 container images, 1 domain, 1 cloud account and 10 AutoFixes a month, with rescans every 3 days.", "sourceUrl": "https://www.aikido.dev/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Aikido lists a 10% discount for annual billing and up to 30% for startups with under $1.5 million in funding and fewer than 10 team members.", "sourceUrl": "https://www.aikido.dev/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Developer", "priceUsd": 0, "billing": "month", "unit": "2 users", "notes": "Free forever, no credit card" },
+      { "name": "Basic", "priceUsd": 300, "billing": "month", "unit": "10 users included", "notes": "More users cost extra" },
+      { "name": "Pro", "priceUsd": 600, "billing": "month", "unit": "10 users included", "notes": "Marked most popular" },
+      { "name": "Advanced", "priceUsd": 600, "billing": "month", "unit": "10 users included", "notes": "The page lists the same figure as Pro" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "Custom pricing" }
+    ],
+    "hiddenCosts": [
+      "The page does not say whether the monthly figures assume monthly or annual billing, and it does not name a currency.",
+      "Prices exclude VAT and other local taxes.",
+      "Penetration tests are sold separately, with a standard test at $4,000."
+    ],
+    "sourceUrl": "https://www.aikido.dev/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Jira", "Linear", "Drata", "Vanta"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
