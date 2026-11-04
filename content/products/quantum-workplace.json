@@ -1,0 +1,84 @@
+{
+  "name": "Quantum Workplace",
+  "status": "published",
+  "vendor": {
+    "name": "Quantum Workplace",
+    "website": "https://www.quantumworkplace.com"
+  },
+  "primaryCategory": "employee-engagement",
+  "summary": "Quantum Workplace sells engagement, pulse and lifecycle surveys with team and individual reports for managers. Pricing is by quote and depends on employee count and the products bought. The pricing page states a minimum annual contract of $15,000, which rules out very small companies.",
+  "qualifies": [
+    {
+      "category": "employee-engagement",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "engagement surveys",
+          "sourceUrl": "https://www.quantumworkplace.com/product/employee-engagement-software-lightbox"
+        },
+        {
+          "capability": "anonymous feedback",
+          "sourceUrl": "https://www.quantumworkplace.com/product/employee-engagement-software-lightbox"
+        },
+        {
+          "capability": "results by team",
+          "sourceUrl": "https://www.quantumworkplace.com/product/employee-engagement-software-lightbox"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "text": "Quantum Workplace says pulse surveys can collect attributed, confidential or anonymous feedback.",
+      "sourceUrl": "https://www.quantumworkplace.com/product/employee-engagement-software-lightbox",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Its help library recommends the Confidential option, under which nobody at the organization gets raw results tied to individual respondents. Confidential and Mixed surveys withhold results until a minimum response count is met, and the article does not state the number.",
+      "sourceUrl": "https://help.quantumworkplace.com/confidentiality-options-engagement-survey",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "The Mixed option lets admins export survey data that optionally contains participant information.",
+      "sourceUrl": "https://help.quantumworkplace.com/confidentiality-options-engagement-survey",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "The pricing page says there is no implementation fee and describes three service tiers: Signature, Signature Plus and Premium.",
+      "sourceUrl": "https://www.quantumworkplace.com/pricing",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      {
+        "name": "Custom quote",
+        "priceUsd": null,
+        "billing": "quote",
+        "unit": "per account",
+        "notes": "Base pricing depends on total employee count and products bought. Minimum annual contract is $15,000"
+      }
+    ],
+    "hiddenCosts": [
+      "Premium adds a dedicated Insights Analyst and live manager training, and Signature Plus adds annual engagement survey implementation and analysis, so service tier raises the quote."
+    ],
+    "sourceUrl": "https://www.quantumworkplace.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.quantumworkplace.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,97 @@
+{
+  "name": "CultureMonkey",
+  "status": "published",
+  "vendor": {
+    "name": "CultureMonkey",
+    "website": "https://www.culturemonkey.io"
+  },
+  "primaryCategory": "employee-engagement",
+  "summary": "CultureMonkey combines engagement surveys, eNPS, anonymous feedback and action planning, and lets managers see only their own teams. It publishes no prices. Quotes depend on how many employees are surveyed and the support level, and implementation, HRMS integration and single sign-on cost nothing extra at any tier.",
+  "qualifies": [
+    {
+      "category": "employee-engagement",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "engagement surveys",
+          "sourceUrl": "https://www.culturemonkey.io/"
+        },
+        {
+          "capability": "anonymous feedback",
+          "sourceUrl": "https://www.culturemonkey.io/"
+        },
+        {
+          "capability": "results by team",
+          "sourceUrl": "https://www.culturemonkey.io/"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "text": "CultureMonkey says results stay anonymous in reporting while they are sliced by team, location, business unit or manager, and that a configurable minimum-response threshold hides groups too small to protect identity.",
+      "sourceUrl": "https://www.culturemonkey.io/",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Its pricing page says managers receive role-based dashboards that show only their teams' data.",
+      "sourceUrl": "https://www.culturemonkey.io/pricing",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "The pricing page says implementation, HRMS integration, single sign-on and all survey templates are included at every tier, and names People Science Plus as the only paid add-on.",
+      "sourceUrl": "https://www.culturemonkey.io/pricing",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      {
+        "name": "Custom quote",
+        "priceUsd": null,
+        "billing": "quote",
+        "unit": "per account",
+        "notes": "Quote is based on how many employees you survey and the level of support. No price published"
+      }
+    ],
+    "hiddenCosts": [
+      "People Science Plus is a paid add-on quoted separately.",
+      "Support tiers split by headcount: under 200, 200 to 999, and 1,000 or more employees."
+    ],
+    "sourceUrl": "https://www.culturemonkey.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Included at every tier",
+    "sourceUrl": "https://www.culturemonkey.io/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.culturemonkey.io/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [
+    "Slack",
+    "Microsoft Teams",
+    "Workday",
+    "SAP SuccessFactors",
+    "UKG",
+    "ADP",
+    "Paycom"
+  ],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

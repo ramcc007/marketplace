@@ -1,7 +1,10 @@
 {
   "name": "Lattice",
   "status": "published",
-  "vendor": { "name": "Lattice, Inc.", "website": "https://lattice.com" },
+  "vendor": {
+    "name": "Lattice, Inc.",
+    "website": "https://lattice.com"
+  },
   "primaryCategory": "performance-management",
   "summary": "Lattice sells performance reviews, goals and OKRs, and feedback as separate per-seat products. Performance costs $10 per seat per month and Goals & OKRs costs $8, billed annually in USD with a $4,000 minimum annual agreement. Compensation and Grow are priced as add-ons.",
   "qualifies": [
@@ -9,25 +12,97 @@
       "category": "performance-management",
       "checkedAt": "2026-11-04",
       "evidence": [
-        { "capability": "review cycles", "sourceUrl": "https://lattice.com/platform/performance/reviews" },
-        { "capability": "goals or okrs", "sourceUrl": "https://lattice.com/goals" },
-        { "capability": "continuous feedback", "sourceUrl": "https://lattice.com/feedback" }
+        {
+          "capability": "review cycles",
+          "sourceUrl": "https://lattice.com/platform/performance/reviews"
+        },
+        {
+          "capability": "goals or okrs",
+          "sourceUrl": "https://lattice.com/goals"
+        },
+        {
+          "capability": "continuous feedback",
+          "sourceUrl": "https://lattice.com/feedback"
+        }
+      ]
+    },
+    {
+      "category": "employee-engagement",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "engagement surveys",
+          "sourceUrl": "https://www.lattice.com/engagement"
+        },
+        {
+          "capability": "anonymous feedback",
+          "sourceUrl": "https://help.lattice.com/hc/en-us/articles/360061207493-Anonymity-in-Engagement-Surveys-and-Pulse"
+        },
+        {
+          "capability": "results by team",
+          "sourceUrl": "https://www.lattice.com/engagement"
+        }
       ]
     }
   ],
   "facts": [
-    { "text": "Lattice says it supports annual, quarterly, project-based and automated review cycles.", "sourceUrl": "https://lattice.com/platform/performance/reviews", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page structured data describes Performance and Goals & OKRs as available separately for $8 a month, while the visible page shows Performance at $10 per seat, so confirm the unbundled price with sales.", "sourceUrl": "https://lattice.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "Lattice's trust center lists SOC 2 and GDPR under compliance and offers a SOC 2 report as a featured document.", "sourceUrl": "https://trustcenter.lattice.com/", "checkedAt": "2026-11-04" }
+    {
+      "text": "Lattice says it supports annual, quarterly, project-based and automated review cycles.",
+      "sourceUrl": "https://lattice.com/platform/performance/reviews",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "The pricing page structured data describes Performance and Goals & OKRs as available separately for $8 a month, while the visible page shows Performance at $10 per seat, so confirm the unbundled price with sales.",
+      "sourceUrl": "https://lattice.com/pricing",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Lattice's trust center lists SOC 2 and GDPR under compliance and offers a SOC 2 report as a featured document.",
+      "sourceUrl": "https://trustcenter.lattice.com/",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Lattice Engagement is listed at $4 per seat per month. Lattice bills all contracts annually, and the minimum annual agreement is $4,000.",
+      "sourceUrl": "https://www.lattice.com/pricing",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "For anonymous engagement and pulse surveys Lattice shows only aggregate results. A question needs at least three respondents before results appear, and admins can raise that number but not lower it.",
+      "sourceUrl": "https://help.lattice.com/hc/en-us/articles/360061207493-Anonymity-in-Engagement-Surveys-and-Pulse",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Engagement results can be filtered by demographics, departments or custom fields.",
+      "sourceUrl": "https://www.lattice.com/engagement",
+      "checkedAt": "2026-11-04"
+    }
   ],
   "pricing": {
     "model": "paid",
     "freePlan": false,
     "freeTrialDays": null,
     "plans": [
-      { "name": "Performance", "priceUsd": 10, "billing": "month", "unit": "per seat", "notes": "Includes performance reviews, 1:1s and feedback. Billed annually" },
-      { "name": "Goals & OKRs", "priceUsd": 8, "billing": "month", "unit": "per seat", "notes": "Cascading goals, plus 1:1s and feedback. Billed annually" },
-      { "name": "Engagement", "priceUsd": 4, "billing": "month", "unit": "per seat", "notes": "Billed annually" }
+      {
+        "name": "Performance",
+        "priceUsd": 10,
+        "billing": "month",
+        "unit": "per seat",
+        "notes": "Includes performance reviews, 1:1s and feedback. Billed annually"
+      },
+      {
+        "name": "Goals & OKRs",
+        "priceUsd": 8,
+        "billing": "month",
+        "unit": "per seat",
+        "notes": "Cascading goals, plus 1:1s and feedback. Billed annually"
+      },
+      {
+        "name": "Engagement",
+        "priceUsd": 4,
+        "billing": "month",
+        "unit": "per seat",
+        "notes": "Billed annually"
+      }
     ],
     "hiddenCosts": [
       "The minimum annual agreement is $4,000.",
@@ -54,7 +129,13 @@
     "sourceUrl": "https://lattice.com/pricing",
     "checkedAt": "2026-11-04"
   },
-  "integrations": ["ADP", "BambooHR", "Gusto", "HiBob", "Humaans"],
+  "integrations": [
+    "ADP",
+    "BambooHR",
+    "Gusto",
+    "HiBob",
+    "Humaans"
+  ],
   "screenshots": [],
   "paidRelationship": null,
   "updatedAt": "2026-11-04"

@@ -1,7 +1,10 @@
 {
   "name": "15Five",
   "status": "published",
-  "vendor": { "name": "15Five, Inc.", "website": "https://www.15five.com" },
+  "vendor": {
+    "name": "15Five, Inc.",
+    "website": "https://www.15five.com"
+  },
   "primaryCategory": "performance-management",
   "summary": "15Five bundles reviews, OKRs and weekly check-ins in its Perform plan at $11 per user per month, billed annually. Total Platform costs $16 and Engage costs $4. AI coaching, note-taking and compensation tools are priced as separate add-ons.",
   "qualifies": [
@@ -9,25 +12,97 @@
       "category": "performance-management",
       "checkedAt": "2026-11-04",
       "evidence": [
-        { "capability": "review cycles", "sourceUrl": "https://www.15five.com/products/perform" },
-        { "capability": "goals or okrs", "sourceUrl": "https://www.15five.com/products/perform" },
-        { "capability": "continuous feedback", "sourceUrl": "https://success.15five.com/hc/en-us/articles/360002698971-Check-ins-Feature-Overview" }
+        {
+          "capability": "review cycles",
+          "sourceUrl": "https://www.15five.com/products/perform"
+        },
+        {
+          "capability": "goals or okrs",
+          "sourceUrl": "https://www.15five.com/products/perform"
+        },
+        {
+          "capability": "continuous feedback",
+          "sourceUrl": "https://success.15five.com/hc/en-us/articles/360002698971-Check-ins-Feature-Overview"
+        }
+      ]
+    },
+    {
+      "category": "employee-engagement",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "engagement surveys",
+          "sourceUrl": "https://www.15five.com/products/engage/"
+        },
+        {
+          "capability": "anonymous feedback",
+          "sourceUrl": "https://success.15five.com/hc/en-us/articles/8359259684507-Confidentiality-for-engagement-surveys"
+        },
+        {
+          "capability": "results by team",
+          "sourceUrl": "https://www.15five.com/products/engage/"
+        }
       ]
     }
   ],
   "facts": [
-    { "text": "The Perform product page says a review cycle can be built and launched in less than 15 minutes, with different cycles for different departments or roles.", "sourceUrl": "https://www.15five.com/products/perform", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists weekly check-ins, 1-on-1s and feedback requests under Perform.", "sourceUrl": "https://www.15five.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "15Five's security page says it was audited against the SOC 2 framework and that SAML single sign-on works with providers such as Okta and Azure, included on some plans and sold as an add-on on others.", "sourceUrl": "https://www.15five.com/security", "checkedAt": "2026-11-04" }
+    {
+      "text": "The Perform product page says a review cycle can be built and launched in less than 15 minutes, with different cycles for different departments or roles.",
+      "sourceUrl": "https://www.15five.com/products/perform",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "The pricing page lists weekly check-ins, 1-on-1s and feedback requests under Perform.",
+      "sourceUrl": "https://www.15five.com/pricing",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "15Five's security page says it was audited against the SOC 2 framework and that SAML single sign-on works with providers such as Okta and Azure, included on some plans and sold as an add-on on others.",
+      "sourceUrl": "https://www.15five.com/security",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "15Five Engage is listed at $4 per user per month, billed annually. The Perform plan costs $11 and the Total Platform plan $16.",
+      "sourceUrl": "https://www.15five.com/pricing",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "15Five states that engagement survey responses are confidential, not anonymous. Responses are linked to employee accounts internally, and results appear only as aggregated groups of at least 5 respondents by default.",
+      "sourceUrl": "https://success.15five.com/hc/en-us/articles/8359259684507-Confidentiality-for-engagement-surveys",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Admins can lower the 15Five reporting threshold to 3 or 4, which makes respondents in small groups easier to identify.",
+      "sourceUrl": "https://success.15five.com/hc/en-us/articles/8359259684507-Confidentiality-for-engagement-surveys",
+      "checkedAt": "2026-11-04"
+    }
   ],
   "pricing": {
     "model": "paid",
     "freePlan": false,
     "freeTrialDays": null,
     "plans": [
-      { "name": "Engage", "priceUsd": 4, "billing": "month", "unit": "per user", "notes": "Billed annually" },
-      { "name": "Perform", "priceUsd": 11, "billing": "month", "unit": "per user", "notes": "Reviews, OKRs, check-ins, 1-on-1s and feedback requests. Billed annually" },
-      { "name": "Total Platform", "priceUsd": 16, "billing": "month", "unit": "per user", "notes": "Everything in Perform. Billed annually" }
+      {
+        "name": "Engage",
+        "priceUsd": 4,
+        "billing": "month",
+        "unit": "per user",
+        "notes": "Billed annually"
+      },
+      {
+        "name": "Perform",
+        "priceUsd": 11,
+        "billing": "month",
+        "unit": "per user",
+        "notes": "Reviews, OKRs, check-ins, 1-on-1s and feedback requests. Billed annually"
+      },
+      {
+        "name": "Total Platform",
+        "priceUsd": 16,
+        "billing": "month",
+        "unit": "per user",
+        "notes": "Everything in Perform. Billed annually"
+      }
     ],
     "hiddenCosts": [
       "Manager Products Content costs $49 per manager per month and Kona Coach costs $19 per manager per month.",
@@ -56,7 +131,12 @@
     "sourceUrl": "https://www.15five.com/pricing",
     "checkedAt": "2026-11-04"
   },
-  "integrations": ["ADP", "Asana", "BambooHR", "Ceridian"],
+  "integrations": [
+    "ADP",
+    "Asana",
+    "BambooHR",
+    "Ceridian"
+  ],
   "screenshots": [],
   "paidRelationship": null,
   "updatedAt": "2026-11-04"

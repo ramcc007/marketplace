@@ -1,7 +1,10 @@
 {
   "name": "Engagedly",
   "status": "published",
-  "vendor": { "name": "Engagedly", "website": "https://www.engagedly.com" },
+  "vendor": {
+    "name": "Engagedly",
+    "website": "https://www.engagedly.com"
+  },
   "primaryCategory": "performance-management",
   "summary": "Engagedly sells talent suites per user per month, billed annually. The Performance Suite is listed as a $5 to $8 range with reviews, goals and real-time feedback, and the page states a minimum of $7,500 a year. The full platform is quoted.",
   "qualifies": [
@@ -9,24 +12,92 @@
       "category": "performance-management",
       "checkedAt": "2026-11-04",
       "evidence": [
-        { "capability": "review cycles", "sourceUrl": "https://www.engagedly.com/pricing/" },
-        { "capability": "goals or okrs", "sourceUrl": "https://www.engagedly.com/pricing/" },
-        { "capability": "continuous feedback", "sourceUrl": "https://www.engagedly.com/pricing/" }
+        {
+          "capability": "review cycles",
+          "sourceUrl": "https://www.engagedly.com/pricing/"
+        },
+        {
+          "capability": "goals or okrs",
+          "sourceUrl": "https://www.engagedly.com/pricing/"
+        },
+        {
+          "capability": "continuous feedback",
+          "sourceUrl": "https://www.engagedly.com/pricing/"
+        }
+      ]
+    },
+    {
+      "category": "employee-engagement",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "engagement surveys",
+          "sourceUrl": "https://help.engagedly.com/view-and-export-responses"
+        },
+        {
+          "capability": "anonymous feedback",
+          "sourceUrl": "https://help.engagedly.com/view-and-export-responses"
+        },
+        {
+          "capability": "results by team",
+          "sourceUrl": "https://help.engagedly.com/view-and-export-responses"
+        }
       ]
     }
   ],
   "facts": [
-    { "text": "The pricing page lists review templates, 30-60-90 day reviews, 9-box assessment and calibration under the Performance Suite.", "sourceUrl": "https://www.engagedly.com/pricing/", "checkedAt": "2026-11-04" },
-    { "text": "The page does not say which price in the $5 to $8 range applies to which bundle, and says pricing varies with employee count and bundling.", "sourceUrl": "https://www.engagedly.com/pricing/", "checkedAt": "2026-11-04" }
+    {
+      "text": "The pricing page lists review templates, 30-60-90 day reviews, 9-box assessment and calibration under the Performance Suite.",
+      "sourceUrl": "https://www.engagedly.com/pricing/",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "The page does not say which price in the $5 to $8 range applies to which bundle, and says pricing varies with employee count and bundling.",
+      "sourceUrl": "https://www.engagedly.com/pricing/",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Engagement surveys sit in the Engage & Listen Suite, listed at $2 per user per month, paid annually, with a stated minimum of $7,500 a year.",
+      "sourceUrl": "https://www.engagedly.com/pricing/",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Engagedly requires at least four responses before analytics appear. Admins can raise that threshold but not lower it, and respondent names are hidden in aggregated reports.",
+      "sourceUrl": "https://help.engagedly.com/view-and-export-responses",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Managers can filter responses by team only when the admin allows it.",
+      "sourceUrl": "https://help.engagedly.com/view-and-export-responses",
+      "checkedAt": "2026-11-04"
+    }
   ],
   "pricing": {
     "model": "paid",
     "freePlan": false,
     "freeTrialDays": null,
     "plans": [
-      { "name": "Performance Suite", "priceUsd": null, "billing": "month", "unit": "per user", "notes": "Listed as a range of $5 to $8, billed annually" },
-      { "name": "Manage Compensation", "priceUsd": 10, "billing": "month", "unit": "per user", "notes": "Add-on, billed annually" },
-      { "name": "Full Platform", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom quote" }
+      {
+        "name": "Performance Suite",
+        "priceUsd": null,
+        "billing": "month",
+        "unit": "per user",
+        "notes": "Listed as a range of $5 to $8, billed annually"
+      },
+      {
+        "name": "Manage Compensation",
+        "priceUsd": 10,
+        "billing": "month",
+        "unit": "per user",
+        "notes": "Add-on, billed annually"
+      },
+      {
+        "name": "Full Platform",
+        "priceUsd": null,
+        "billing": "quote",
+        "unit": "per account",
+        "notes": "Custom quote"
+      }
     ],
     "hiddenCosts": [
       "The page states a minimum price of $7,500 a year."

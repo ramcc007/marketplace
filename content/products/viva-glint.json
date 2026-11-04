@@ -1,0 +1,101 @@
+{
+  "name": "Microsoft Viva Glint",
+  "status": "published",
+  "vendor": {
+    "name": "Microsoft",
+    "website": "https://www.microsoft.com"
+  },
+  "primaryCategory": "employee-engagement",
+  "summary": "Viva Glint runs engagement, onboarding and exit surveys for large organizations and reports results by team and organization with heat maps. Microsoft lists it at $2.00 per user per month, billed yearly, with a 50-seat minimum and an annual subscription that renews automatically.",
+  "qualifies": [
+    {
+      "category": "employee-engagement",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        {
+          "capability": "engagement surveys",
+          "sourceUrl": "https://www.microsoft.com/en-us/microsoft-viva/glint"
+        },
+        {
+          "capability": "anonymous feedback",
+          "sourceUrl": "https://learn.microsoft.com/en-us/viva/glint/setup/viva-glint-survey-privacy"
+        },
+        {
+          "capability": "results by team",
+          "sourceUrl": "https://www.microsoft.com/en-us/microsoft-viva/glint"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "text": "Glint offers confidential and identifiable surveys. For a survey to be confidential, the minimum number of responses is three, and the default confidentiality statement mentions groups of five or more respondents.",
+      "sourceUrl": "https://learn.microsoft.com/en-us/viva/glint/setup/viva-glint-survey-privacy",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Write-in comments are reported verbatim only if at least 10 people respond to a question, under the default statement.",
+      "sourceUrl": "https://learn.microsoft.com/en-us/viva/glint/setup/viva-glint-survey-privacy",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Microsoft states a 50-seat license minimum to use Viva Glint.",
+      "sourceUrl": "https://www.microsoft.com/en-us/microsoft-viva/glint",
+      "checkedAt": "2026-11-04"
+    },
+    {
+      "text": "Viva Glint results are broken down by team and organization, with trends and heat maps available when a survey closes.",
+      "sourceUrl": "https://www.microsoft.com/en-us/microsoft-viva/glint",
+      "checkedAt": "2026-11-04"
+    }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      {
+        "name": "Viva Glint",
+        "priceUsd": 2,
+        "billing": "month",
+        "unit": "per user",
+        "notes": "Paid yearly on an annual commitment. 50-seat minimum"
+      },
+      {
+        "name": "Viva Workplace Analytics and Employee Feedback",
+        "priceUsd": 6,
+        "billing": "month",
+        "unit": "per user",
+        "notes": "Paid yearly"
+      },
+      {
+        "name": "Viva Suite",
+        "priceUsd": 12,
+        "billing": "month",
+        "unit": "per user",
+        "notes": "Paid yearly"
+      }
+    ],
+    "hiddenCosts": [
+      "The Viva Insights integration needs a Viva Insights license, and Copilot adoption surveys need a Microsoft 365 Copilot license."
+    ],
+    "sourceUrl": "https://www.microsoft.com/en-us/microsoft-viva/glint",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": 50,
+    "autoRenew": true,
+    "cancellation": "Microsoft says the annual subscription auto renews and can be cancelled at any time in the Microsoft 365 admin center, though some subscriptions may carry a cancellation fee.",
+    "dataExport": null,
+    "sourceUrl": "https://www.microsoft.com/en-us/microsoft-viva/glint",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [
+    "Microsoft Teams",
+    "Viva Insights"
+  ],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
