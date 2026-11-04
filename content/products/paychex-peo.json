@@ -1,0 +1,56 @@
+{
+  "name": "Paychex PEO",
+  "status": "published",
+  "vendor": { "name": "Paychex, Inc.", "website": "https://www.paychex.com" },
+  "primaryCategory": "peo",
+  "summary": "Paychex PEO is a co-employment service in which Paychex shares employer responsibilities for payroll, benefits, workers' compensation and compliance. The business keeps supervision, work assignments and daily operations. Paychex publishes no PEO price and asks buyers to request pricing.",
+  "qualifies": [
+    {
+      "category": "peo",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "co-employment", "sourceUrl": "https://www.paychex.com/peo" },
+        { "capability": "benefits access", "sourceUrl": "https://www.paychex.com/peo" },
+        { "capability": "payroll and hr compliance", "sourceUrl": "https://www.paychex.com/peo" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Under the PEO model, Paychex files payroll taxes under its own EIN.", "sourceUrl": "https://www.paychex.com/peo", "checkedAt": "2026-11-04" },
+    { "text": "The page names Paychex Business Solutions, LLC (Florida employee leasing license GL7) and Oasis Outsourcing, LLC (license GL42) as service entities. It does not mention IRS CPEO certification.", "sourceUrl": "https://www.paychex.com/peo", "checkedAt": "2026-11-04" },
+    { "text": "Paychex says PEO costs depend on company size, industry, services selected and employee count, and it lists no prices.", "sourceUrl": "https://www.paychex.com/peo", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "PEO", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "Priced by company size, industry, services selected and employee count. The page offers a Request Pricing form and shows no rate" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.paychex.com/peo",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.paychex.com/peo",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.paychex.com/peo",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

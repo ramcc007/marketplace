@@ -1,0 +1,56 @@
+{
+  "name": "CoAdvantage",
+  "status": "published",
+  "vendor": { "name": "CoAdvantage (CoAd)", "website": "https://www.coad.com" },
+  "primaryCategory": "peo",
+  "summary": "CoAdvantage, which now trades as CoAd, sells a full-service PEO plan that lists a co-employer relationship, medical, dental, vision and 401(k) benefits, and risk and compliance management. It also sells two lower plans that are not PEOs. The PEO plan has no listed price and runs through a sales conversation.",
+  "qualifies": [
+    {
+      "category": "peo",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "co-employment", "sourceUrl": "https://www.coad.com/" },
+        { "capability": "benefits access", "sourceUrl": "https://www.coad.com/" },
+        { "capability": "payroll and hr compliance", "sourceUrl": "https://www.coad.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The coadvantage.com address redirects to coad.com, where the full-service PEO plan lists a co-employer relationship as a feature.", "sourceUrl": "https://www.coad.com/", "checkedAt": "2026-11-04" },
+    { "text": "CoAd's two lower plans, Base (DIY) at $55 a month plus $5 per employee and Pro (Expert Assist) at $85 a month plus $6 per employee, are listed on the same page and are not PEO plans.", "sourceUrl": "https://www.coad.com/", "checkedAt": "2026-11-04" },
+    { "text": "The page does not mention IRS CPEO certification.", "sourceUrl": "https://www.coad.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "PEO (Full Service)", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "No price on the page; the contact option says CoAd typically responds within 1 business day" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.coad.com/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.coad.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.coad.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "G&A Partners",
+  "status": "published",
+  "vendor": { "name": "G&A Partners", "website": "https://www.gnapartners.com" },
+  "primaryCategory": "peo",
+  "summary": "G&A Partners is an IRS-certified PEO that enters a co-employment relationship with its clients. It gives them access to medical, dental, vision and retirement plans and handles payroll and payroll taxes. It publishes a typical range of $65 to $150 per employee per month for core HR functions, with employer-paid benefits billed separately.",
+  "qualifies": [
+    {
+      "category": "peo",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "co-employment", "sourceUrl": "https://www.gnapartners.com/peo" },
+        { "capability": "benefits access", "sourceUrl": "https://www.gnapartners.com/peo" },
+        { "capability": "payroll and hr compliance", "sourceUrl": "https://www.gnapartners.com/peo" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "G&A says an IRS-certified PEO (CPEO) takes on greater liability and is solely responsible for handling payroll taxes.", "sourceUrl": "https://www.gnapartners.com/peo", "checkedAt": "2026-11-04" },
+    { "text": "G&A says compliance responsibility is shared between the PEO and the business, and the business remains responsible for complying with employment laws.", "sourceUrl": "https://www.gnapartners.com/peo", "checkedAt": "2026-11-04" },
+    { "text": "G&A organizes its services for companies with 0 to 10, 11 to 99 and 100 or more employees and states no minimum headcount.", "sourceUrl": "https://www.gnapartners.com/peo", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "PEO core HR functions", "priceUsd": null, "billing": "month", "unit": "per employee", "notes": "G&A states a typical range of $65 to $150 per month per employee for core HR functions. This is a range, not a list price, and a quote sets the actual fee" }
+    ],
+    "hiddenCosts": [
+      "Employer-paid benefits are often billed separately from the PEO fee.",
+      "A one-time implementation fee may apply."
+    ],
+    "sourceUrl": "https://www.gnapartners.com/peo",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.gnapartners.com/peo",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.gnapartners.com/peo",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

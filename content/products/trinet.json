@@ -1,0 +1,61 @@
+{
+  "name": "TriNet",
+  "status": "published",
+  "vendor": { "name": "TriNet Group, Inc.", "website": "https://www.trinet.com" },
+  "primaryCategory": "peo",
+  "summary": "TriNet is a PEO that takes on certain employer duties under a service agreement while the client runs daily operations. It offers medical, dental and vision plans and a TriNet-sponsored 401(k), and it handles payroll and payroll tax compliance. It charges a flat monthly fee per worksite employee, set through a quote.",
+  "qualifies": [
+    {
+      "category": "peo",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "co-employment", "sourceUrl": "https://www.trinet.com/peo" },
+        { "capability": "benefits access", "sourceUrl": "https://www.trinet.com/peo" },
+        { "capability": "payroll and hr compliance", "sourceUrl": "https://www.trinet.com/peo" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "TriNet states that a TriNet subsidiary is classified as a Certified Professional Employer Organization by the IRS, and lists ESAC accreditation since 1995.", "sourceUrl": "https://www.trinet.com/peo", "checkedAt": "2026-11-04" },
+    { "text": "TriNet charges a flat monthly fee for each active worksite employee, and its fee example uses 20 employees at a $150 PEPM rate for $3,000 a month. The example illustrates the math and is not a list price.", "sourceUrl": "https://www.trinet.com/peo/pricing", "checkedAt": "2026-11-04" },
+    { "text": "TriNet says its pricing plans are for new clients only and vary by region, industry, company size and scope of services.", "sourceUrl": "https://www.trinet.com/peo/pricing", "checkedAt": "2026-11-04" },
+    { "text": "TriNet requires a minimum worksite employee count but does not publish it; the number is given through the quote process.", "sourceUrl": "https://www.trinet.com/peo/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "TriNet PEO", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "A flat monthly fee per active worksite employee, customized by company size, industry, location and services. The page does not publish the rate" }
+    ],
+    "hiddenCosts": [
+      "Benefit premiums for medical, dental and vision are separate from the per-employee fee.",
+      "Add-ons such as background checks, drug screening and premium learning courses can cost extra.",
+      "Many PEOs, TriNet's FAQ says, also charge a one-time onboarding or implementation fee."
+    ],
+    "sourceUrl": "https://www.trinet.com/peo/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.trinet.com/peo",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.trinet.com/peo/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "ADP TotalSource",
+  "status": "published",
+  "vendor": { "name": "ADP, Inc.", "website": "https://www.adp.com" },
+  "primaryCategory": "peo",
+  "summary": "ADP TotalSource is ADP's PEO for small and midsize businesses. ADP becomes a co-employer, runs payroll and tax filings, and offers benefits such as medical, dental, vision and 401(k). Pricing is quoted, not listed, and depends on workforce size, workers' compensation risk and work locations.",
+  "qualifies": [
+    {
+      "category": "peo",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "co-employment", "sourceUrl": "https://www.adp.com/what-we-offer/products/totalsource-peo.aspx" },
+        { "capability": "benefits access", "sourceUrl": "https://www.adp.com/what-we-offer/products/totalsource-peo.aspx" },
+        { "capability": "payroll and hr compliance", "sourceUrl": "https://www.adp.com/what-we-offer/products/totalsource-peo.aspx" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "ADP states that co-employment is the legal foundation of TotalSource, with the client keeping control over hiring, firing and pay decisions.", "sourceUrl": "https://www.adp.com/what-we-offer/products/totalsource-peo.aspx", "checkedAt": "2026-11-04" },
+    { "text": "ADP says it has been an IRS-certified PEO (CPEO) since 2017 and ESAC-accredited since 1995.", "sourceUrl": "https://www.adp.com/what-we-offer/products/totalsource-peo.aspx", "checkedAt": "2026-11-04" },
+    { "text": "The page says ADP TotalSource pricing is quoted rather than listed, and the only dollar figure on it describes a tax-payment bond of up to $1 million a year.", "sourceUrl": "https://www.adp.com/what-we-offer/products/totalsource-peo.aspx", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "TotalSource PEO", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "ADP says the quote depends on workforce size and demographics, workers' compensation risk and where employees work. The page states no minimum headcount" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.adp.com/what-we-offer/products/totalsource-peo.aspx",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.adp.com/what-we-offer/products/totalsource-peo.aspx",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.adp.com/what-we-offer/products/totalsource-peo.aspx",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

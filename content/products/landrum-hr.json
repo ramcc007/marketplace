@@ -1,0 +1,56 @@
+{
+  "name": "Landrum HR",
+  "status": "published",
+  "vendor": { "name": "Landrum HR Solutions", "website": "https://landrumhr.com" },
+  "primaryCategory": "peo",
+  "summary": "Landrum HR is a Pensacola, Florida PEO that partners with clients as a co-employer for payroll, benefits and risk management. Its guide lists 401(k), health, dental and life coverage and payroll tasks such as direct deposit and tax filings. The site publishes no price and sends buyers to sales.",
+  "qualifies": [
+    {
+      "category": "peo",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "co-employment", "sourceUrl": "https://landrumhr.com/blogs/what-is-a-peo/" },
+        { "capability": "benefits access", "sourceUrl": "https://landrumhr.com/blogs/what-is-a-peo/" },
+        { "capability": "payroll and hr compliance", "sourceUrl": "https://landrumhr.com/blogs/what-is-a-peo/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Landrum's guide estimates that a PEO costs about $750 to $1,500 per employee per year depending on the package, which is $11,250 to $22,500 a year for 15 full-time employees. It is a general estimate, not a Landrum rate card.", "sourceUrl": "https://landrumhr.com/blogs/what-is-a-peo/", "checkedAt": "2026-11-04" },
+    { "text": "The home page shows an ESAC logo under a membership heading and does not mention IRS CPEO certification.", "sourceUrl": "https://landrumhr.com/", "checkedAt": "2026-11-04" },
+    { "text": "The guide notes that not every PEO offers every payroll service, so a buyer should confirm the list in the contract.", "sourceUrl": "https://landrumhr.com/blogs/what-is-a-peo/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "PEO", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "The home page publishes no price and directs buyers to contact sales" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://landrumhr.com/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://landrumhr.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://landrumhr.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

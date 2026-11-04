@@ -1,0 +1,56 @@
+{
+  "name": "Rippling PEO",
+  "status": "published",
+  "vendor": { "name": "Rippling", "website": "https://www.rippling.com" },
+  "primaryCategory": "peo",
+  "summary": "Rippling PEO enters a co-employment relationship with the client and pairs it with Rippling's HR software. The page lists medical, dental, vision, 401(k), HSA, FSA and commuter plans, and says Rippling runs payroll and tracks federal, state and local rules. The PEO page shows no price.",
+  "qualifies": [
+    {
+      "category": "peo",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "co-employment", "sourceUrl": "https://www.rippling.com/peo" },
+        { "capability": "benefits access", "sourceUrl": "https://www.rippling.com/peo" },
+        { "capability": "payroll and hr compliance", "sourceUrl": "https://www.rippling.com/peo" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Rippling's FAQ says co-employment lets small businesses get benefit rates by pooling employees across Rippling's client base, while the business keeps control of hiring, pay and daily management.", "sourceUrl": "https://www.rippling.com/peo", "checkedAt": "2026-11-04" },
+    { "text": "The page lists a Florida license (Rippling PEO 1, Inc., GL250) and does not mention IRS CPEO certification.", "sourceUrl": "https://www.rippling.com/peo", "checkedAt": "2026-11-04" },
+    { "text": "The PEO page has a pricing heading but gives no dollar figures, only a link to a separate pricing page.", "sourceUrl": "https://www.rippling.com/peo", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "PEO", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "The PEO page describes rates as affordable and predictable but states no amount, so we list it as quote only" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.rippling.com/peo",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.rippling.com/peo",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.rippling.com/peo",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

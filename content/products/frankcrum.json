@@ -1,0 +1,56 @@
+{
+  "name": "FrankCrum",
+  "status": "published",
+  "vendor": { "name": "FrankCrum", "website": "https://www.frankcrum.com" },
+  "primaryCategory": "peo",
+  "summary": "FrankCrum is a PEO, founded in 1981, that lists payroll and tax, HR management, workers' compensation, employee benefits and retirement plans. Its own guide describes co-employment, benefit pooling and payroll administration. The site shows no price and offers an intro call.",
+  "qualifies": [
+    {
+      "category": "peo",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "co-employment", "sourceUrl": "https://www.frankcrum.com/blog/what-is-a-peo" },
+        { "capability": "benefits access", "sourceUrl": "https://www.frankcrum.com/blog/what-is-a-peo" },
+        { "capability": "payroll and hr compliance", "sourceUrl": "https://www.frankcrum.com/blog/what-is-a-peo" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "FrankCrum's guide says the PEO becomes the employer for tax and administrative purposes while the client keeps directing daily work.", "sourceUrl": "https://www.frankcrum.com/blog/what-is-a-peo", "checkedAt": "2026-11-04" },
+    { "text": "The same guide gives a general industry range of roughly $40 to $160 per employee per month for administrative services, or 2% to 12% of payroll. It is not FrankCrum's own rate.", "sourceUrl": "https://www.frankcrum.com/blog/what-is-a-peo", "checkedAt": "2026-11-04" },
+    { "text": "The home page does not mention IRS CPEO certification or ESAC accreditation and states no minimum headcount.", "sourceUrl": "https://www.frankcrum.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "PEO", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "The home page lists no price and offers a Request An Intro Call button" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.frankcrum.com/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.frankcrum.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.frankcrum.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "VensureHR",
+  "status": "published",
+  "vendor": { "name": "Vensure", "website": "https://vensure.com" },
+  "primaryCategory": "peo",
+  "summary": "VensureHR runs its PEO as a co-employment arrangement in which the PEO becomes the employer of record. The client still assigns work, schedules and oversees daily tasks. Vensure lists payroll with tax filing, group health, dental, vision and 401(k) benefits, and compliance tracking, and it publishes no price.",
+  "qualifies": [
+    {
+      "category": "peo",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "co-employment", "sourceUrl": "https://vensure.com/peo-services/" },
+        { "capability": "benefits access", "sourceUrl": "https://vensure.com/peo-services/" },
+        { "capability": "payroll and hr compliance", "sourceUrl": "https://vensure.com/peo-services/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Vensure's PEO page covers paycheck and direct deposit processing, payroll tax preparation, filing and settlement, and W-2 issuance.", "sourceUrl": "https://vensure.com/peo-services/", "checkedAt": "2026-11-04" },
+    { "text": "The PEO page does not mention IRS CPEO certification or ESAC accreditation.", "sourceUrl": "https://vensure.com/peo-services/", "checkedAt": "2026-11-04" },
+    { "text": "The page directs buyers to schedule a PEO consultation, request a call or request a benefits overview and lists no prices.", "sourceUrl": "https://vensure.com/peo-services/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "PEO", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "No price is published; buyers book a consultation" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://vensure.com/peo-services/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://vensure.com/peo-services/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://vensure.com/peo-services/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
