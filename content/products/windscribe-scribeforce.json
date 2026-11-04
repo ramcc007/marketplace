@@ -1,0 +1,41 @@
+{
+  "name": "Windscribe ScribeForce",
+  "status": "published",
+  "vendor": { "name": "Windscribe", "website": "https://windscribe.com" },
+  "primaryCategory": "business-vpn",
+  "summary": "Windscribe's team offering costs $5 per seat a month with a five-seat minimum. One account page adds and removes users, and revoking access takes effect at once. Shared static IPs are sold as add-ons at $2 to $8 a month, and the page gives no separate price for dedicated ones.",
+  "qualifies": [
+    {
+      "category": "business-vpn",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "encrypted remote access", "sourceUrl": "https://windscribe.com/business-vpn" },
+        { "capability": "central user management", "sourceUrl": "https://windscribe.com/business-vpn" },
+        { "capability": "dedicated or static ip addresses", "sourceUrl": "https://windscribe.com/business-vpn" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Windscribe says it uses AES-256 encryption with OpenVPN, WireGuard and IKEv2.", "sourceUrl": "https://windscribe.com/business-vpn", "checkedAt": "2026-11-04" },
+    { "text": "Shared static IPs cost $2 to $8 a month and are needed only when internal tools require IP allowlisting.", "sourceUrl": "https://windscribe.com/business-vpn", "checkedAt": "2026-11-04" },
+    { "text": "Accounts need at least five seats and support up to 500 users.", "sourceUrl": "https://windscribe.com/business-vpn", "checkedAt": "2026-11-04" },
+    { "text": "Admins add or remove users from one dashboard, the team is billed on one invoice, and a revoked seat can go to someone else.", "sourceUrl": "https://windscribe.com/business-vpn", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "ScribeForce", "priceUsd": 5, "billing": "month", "unit": "per seat", "notes": "Minimum 5 seats. The page does not say whether this rate depends on the billing term." }
+    ],
+    "hiddenCosts": [
+      "Shared static IPs cost $2 to $8 a month on top of the seat price."
+    ],
+    "sourceUrl": "https://windscribe.com/business-vpn",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Cloudflare One",
+  "status": "published",
+  "vendor": { "name": "Cloudflare, Inc.", "website": "https://www.cloudflare.com" },
+  "primaryCategory": "business-vpn",
+  "summary": "Cloudflare One is a zero trust platform whose device client encrypts traffic and connects people to private networks. Dedicated egress IPs, which no other customer shares, are an add-on only for Zero Trust Enterprise plans. Cloudflare lists no prices on its plans page and sells Cloudflare One packaging through sales.",
+  "qualifies": [
+    {
+      "category": "business-vpn",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "encrypted remote access", "sourceUrl": "https://developers.cloudflare.com/cloudflare-one/team-and-resources/devices/cloudflare-one-client/" },
+        { "capability": "central user management", "sourceUrl": "https://developers.cloudflare.com/cloudflare-one/team-and-resources/users/" },
+        { "capability": "dedicated or static ip addresses", "sourceUrl": "https://developers.cloudflare.com/cloudflare-one/traffic-controls/egress-policies/dedicated-egress-ips/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Cloudflare One Client encrypts and routes a device's internet and private network traffic through Cloudflare, using WireGuard or MASQUE.", "sourceUrl": "https://developers.cloudflare.com/cloudflare-one/team-and-resources/devices/cloudflare-one-client/", "checkedAt": "2026-11-04" },
+    { "text": "Dedicated egress IPs are static addresses assigned exclusively to one account and are only available as an add-on to Zero Trust Enterprise plans.", "sourceUrl": "https://developers.cloudflare.com/cloudflare-one/traffic-controls/egress-policies/dedicated-egress-ips/", "checkedAt": "2026-11-04" },
+    { "text": "User management in Zero Trust covers seat management, SCIM provisioning, a viewer for SCIM users and groups, user logs and risk score.", "sourceUrl": "https://developers.cloudflare.com/cloudflare-one/team-and-resources/users/", "checkedAt": "2026-11-04" },
+    { "text": "Cloudflare's plans page lists no prices for its SASE offering and says Cloudflare One packaging is handled through sales.", "sourceUrl": "https://www.cloudflare.com/plans/zero-trust-services/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Cloudflare One", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices are published on the plans page. Dedicated egress IPs need a Zero Trust Enterprise plan." }
+    ],
+    "hiddenCosts": [
+      "Dedicated egress IPs are an add-on to Zero Trust Enterprise plans."
+    ],
+    "sourceUrl": "https://www.cloudflare.com/plans/zero-trust-services/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

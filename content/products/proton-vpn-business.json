@@ -1,0 +1,45 @@
+{
+  "name": "Proton VPN for Business",
+  "status": "published",
+  "vendor": { "name": "Proton", "website": "https://proton.me" },
+  "primaryCategory": "business-vpn",
+  "summary": "Proton VPN for Business starts at $6.99 per user a month on annual billing for two users. Admins run it from one control panel with SSO and SCIM provisioning through Okta or Microsoft Entra ID. Fixed IP addresses are offered in 20+ countries, but the page shows the text +$XX.YY instead of a price for them.",
+  "qualifies": [
+    {
+      "category": "business-vpn",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "encrypted remote access", "sourceUrl": "https://protonvpn.com/features/strong-encryption" },
+        { "capability": "central user management", "sourceUrl": "https://proton.me/business/vpn" },
+        { "capability": "dedicated or static ip addresses", "sourceUrl": "https://proton.me/business/vpn" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Proton says OpenVPN and IKEv2 connections use AES-256 and WireGuard connections use ChaCha20.", "sourceUrl": "https://protonvpn.com/features/strong-encryption", "checkedAt": "2026-11-04" },
+    { "text": "The business page describes fixed IPs in 20+ countries and 30+ locations with dedicated IPs for private gateways.", "sourceUrl": "https://proton.me/business/vpn", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page does not publish a dedicated IP price and shows the text +$XX.YY/month per IP instead.", "sourceUrl": "https://proton.me/business/vpn/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Single sign-on works with Okta, Google Workspace, Microsoft Entra ID or any SAML 2.0 provider, and provisioning runs through Okta or Entra ID.", "sourceUrl": "https://proton.me/business/vpn", "checkedAt": "2026-11-04" },
+    { "text": "On the pricing page, the billed total shown for VPN Professional ($719.64 for 2 users) does not equal 12 months at its listed per-user price.", "sourceUrl": "https://proton.me/business/vpn/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "VPN Essentials", "priceUsd": 6.99, "billing": "month", "unit": "per user", "notes": "Shown with annual billing, minimum 2 users, $167.76 billed for 2 users." },
+      { "name": "VPN Professional", "priceUsd": 9.99, "billing": "month", "unit": "per user", "notes": "Shown with annual billing, minimum 2 users. This plan shows the dedicated IP add-on text +$XX.YY. Check the billed total at checkout, because it did not match the per-user price." },
+      { "name": "VPN and Pass Professional", "priceUsd": 10.99, "billing": "month", "unit": "per user", "notes": "Shown with annual billing, minimum 3 users." }
+    ],
+    "hiddenCosts": [
+      "Dedicated IPs are charged per IP each month, and the price is not published on the pricing page.",
+      "The page does not list monthly-billing rates."
+    ],
+    "sourceUrl": "https://proton.me/business/vpn/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Okta", "Microsoft Entra ID", "Google Workspace"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
