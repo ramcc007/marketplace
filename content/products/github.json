@@ -1,0 +1,55 @@
+{
+  "name": "GitHub",
+  "status": "published",
+  "vendor": { "name": "GitHub, Inc.", "website": "https://github.com" },
+  "primaryCategory": "version-control",
+  "summary": "GitHub hosts Git repositories with pull requests, issues and built-in CI/CD. The Free plan is $0 and includes unlimited public and private repositories. Team costs $4 per user a month and Enterprise costs $21 per user a month. On the Free plan, code owners and repository rules apply only to public repositories.",
+  "qualifies": [
+    {
+      "category": "version-control",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "git repository hosting", "sourceUrl": "https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories" },
+        { "capability": "pull or merge requests", "sourceUrl": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" },
+        { "capability": "access controls", "sourceUrl": "https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "A repository can be public, private or internal. Internal visibility is available only to repositories in GitHub Enterprise Cloud organizations owned by an enterprise account.", "sourceUrl": "https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories", "checkedAt": "2026-11-05" },
+    { "text": "The built-in organization repository roles are Read, Triage, Write, Maintain and Admin. The docs say custom repository roles need GitHub Enterprise Cloud.", "sourceUrl": "https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization", "checkedAt": "2026-11-05" },
+    { "text": "Rulesets can control who can push to chosen branches and tags, and can restrict commit messages, file paths and file sizes. The rulesets page says they are for GitHub Team and Enterprise plans and does not mention the Free plan.", "sourceUrl": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets", "checkedAt": "2026-11-05" },
+    { "text": "On the Free plan, code owners and repository rules are listed for public repositories only. Team adds required reviewers, multiple pull request reviewers and draft pull requests.", "sourceUrl": "https://github.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "On the Enterprise plan, the pricing page lists SAML single sign-on, SCIM user provisioning, the audit log API and SOC1 and SOC2 reports, and it offers a 30-day free trial.", "sourceUrl": "https://github.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "not stated", "notes": "Unlimited public and private repositories, 2,000 CI/CD minutes a month, 500 MB of Packages storage." },
+      { "name": "Team", "priceUsd": 4, "billing": "month", "unit": "per user", "notes": "Shown as $4 per user a month. The page does not say whether annual billing is offered. 3,000 CI/CD minutes a month and 2 GB of Packages storage." },
+      { "name": "Enterprise", "priceUsd": 21, "billing": "month", "unit": "per user", "notes": "Shown as $21 per user a month. The page does not say whether annual billing is offered. 50,000 CI/CD minutes a month, 50 GB of Packages storage, SAML SSO and SCIM. 30-day free trial." }
+    ],
+    "hiddenCosts": [
+      "On the Free plan, code owners and repository rules apply to public repositories only.",
+      "SAML single sign-on is listed on the Enterprise plan only.",
+      "The pricing page does not say whether annual billing is available for any plan."
+    ],
+    "sourceUrl": "https://github.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://github.com/pricing",
+    "checkedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

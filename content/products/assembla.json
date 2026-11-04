@@ -1,0 +1,55 @@
+{
+  "name": "Assembla",
+  "status": "published",
+  "vendor": { "name": "Assembla", "website": "https://get.assembla.com" },
+  "primaryCategory": "version-control",
+  "summary": "Assembla hosts managed Git and Subversion repositories with merge requests and code review. Starter costs $12.50 per user a month and Growth $19.00 per user a month, both shown with a yearly total. SAML 2.0 single sign-on and role-based access control are stated for all plans. IP allowlisting is listed only for some environments, so it is not claimed here.",
+  "qualifies": [
+    {
+      "category": "version-control",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "git repository hosting", "sourceUrl": "https://get.assembla.com/" },
+        { "capability": "pull or merge requests", "sourceUrl": "https://get.assembla.com/" },
+        { "capability": "access controls", "sourceUrl": "https://get.assembla.com/security/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Assembla describes its offer as managed Subversion and Git hosting, with merge requests, rich diffs and branch locking.", "sourceUrl": "https://get.assembla.com/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says Starter, Growth and Custom Cloud support Subversion alongside Git and Git LFS. Its comparison table includes code review, merge requests and multi-reviewer approvals under source code management, without per-plan detail in the text.", "sourceUrl": "https://get.assembla.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says Starter focuses on source code hosting only, and that Growth and Custom Cloud include full project management.", "sourceUrl": "https://get.assembla.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Assembla states that SAML 2.0 single sign-on is supported across all plans, and that it holds a SOC 2 Type II certification.", "sourceUrl": "https://get.assembla.com/security/", "checkedAt": "2026-11-05" },
+    { "text": "Starter includes 10 GB of storage per user and Growth includes 50 GB per user.", "sourceUrl": "https://get.assembla.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The security page says customer data in EU deployments stays in Frankfurt, Germany, and that EU data residency is available.", "sourceUrl": "https://get.assembla.com/security/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 12.5, "billing": "month", "unit": "per user", "notes": "Shown as $12.50 per user a month, with a $900.00 per year figure. The page's Annually -10% option does not say how the yearly figure is calculated" },
+      { "name": "Growth", "priceUsd": 19, "billing": "month", "unit": "per user", "notes": "Shown as $19.00 per user a month, with a $1,368.00 per year figure. The same Annually -10% option applies and the yearly figure is not explained" },
+      { "name": "Custom Cloud", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales. 12-month term" }
+    ],
+    "hiddenCosts": [
+      "Extra storage is an add-on. The pricing page states its price in two different ways, so confirm it with sales.",
+      "The pricing page does not name its currency. The figures use the dollar sign and are recorded here as USD."
+    ],
+    "sourceUrl": "https://get.assembla.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "All plans (SAML 2.0, stated on the security page)",
+    "sourceUrl": "https://get.assembla.com/security/",
+    "checkedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

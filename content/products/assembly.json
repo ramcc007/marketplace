@@ -1,0 +1,40 @@
+{
+  "name": "Assembly",
+  "status": "published",
+  "vendor": { "name": "Assembly", "website": "https://www.joinassembly.com" },
+  "primaryCategory": "employee-recognition",
+  "summary": "Assembly's Empower plan costs $3 per user per month, billed yearly. The pricing page lists peer recognition, a global reward catalog, points with budget controls and people analytics for that plan. The Enterprise plan has no published price, and the page directs buyers to a demo.",
+  "qualifies": [
+    {
+      "category": "employee-recognition",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "peer recognition", "sourceUrl": "https://www.joinassembly.com/pricing" },
+        { "capability": "rewards catalog or points", "sourceUrl": "https://www.joinassembly.com/pricing" },
+        { "capability": "recognition analytics", "sourceUrl": "https://www.joinassembly.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Empower plan lists peer-to-peer recognition, a global reward catalog, points and budget controls, and advanced people analytics.", "sourceUrl": "https://www.joinassembly.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The Enterprise plan has no published price. The page offers a demo instead.", "sourceUrl": "https://www.joinassembly.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Empower", "priceUsd": 3, "billing": "month", "unit": "per user", "notes": "Billed yearly. The page shows a $ sign with no currency code, so the amount is recorded as USD. No minimum is published" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "No price published. Demo offered instead" }
+    ],
+    "hiddenCosts": [
+      "The pricing page does not state a minimum contract size or a free trial."
+    ],
+    "sourceUrl": "https://www.joinassembly.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

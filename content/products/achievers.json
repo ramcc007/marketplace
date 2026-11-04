@@ -1,0 +1,42 @@
+{
+  "name": "Achievers",
+  "status": "published",
+  "vendor": { "name": "Achievers", "website": "https://www.achievers.com" },
+  "primaryCategory": "employee-recognition",
+  "summary": "Achievers does not publish prices. It quotes its recognition and reward platform and its years of service product on request. The pricing page says there are no hidden fees, no shipping charges and no surprise markups, and that no annual points commitment is required.",
+  "qualifies": [
+    {
+      "category": "employee-recognition",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "peer recognition", "sourceUrl": "https://www.achievers.com/platform/recognize/" },
+        { "capability": "rewards catalog or points", "sourceUrl": "https://www.achievers.com/platform/recognize/" },
+        { "capability": "recognition analytics", "sourceUrl": "https://www.achievers.com/platform/recognize/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Colleagues nominate teammates, and managers track and approve nominations on a single dashboard.", "sourceUrl": "https://www.achievers.com/platform/recognize/", "checkedAt": "2026-11-05" },
+    { "text": "Points can be bought by credit card, and a Boost action in the newsfeed lets employees add reward points to a recognition.", "sourceUrl": "https://www.achievers.com/platform/recognize/", "checkedAt": "2026-11-05" },
+    { "text": "The Recognize page cites more than 3 million reward choices with no markups and free shipping, pre-configured visual reports, and more than 40 templated reports in the admin suite.", "sourceUrl": "https://www.achievers.com/platform/recognize/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says quotes are custom and that no annual points commitment is required. It does not state a currency or minimum.", "sourceUrl": "https://www.achievers.com/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Recognition and reward platform", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price published. Custom quote on request" },
+      { "name": "Years of service", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price published. Custom quote on request" }
+    ],
+    "hiddenCosts": [
+      "The pricing page says there are no hidden fees, shipping charges or surprise markups. It does not state contract length or minimums."
+    ],
+    "sourceUrl": "https://www.achievers.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

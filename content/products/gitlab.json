@@ -1,0 +1,44 @@
+{
+  "name": "GitLab",
+  "status": "published",
+  "vendor": { "name": "GitLab Inc.", "website": "https://about.gitlab.com" },
+  "primaryCategory": "version-control",
+  "summary": "GitLab combines Git repositories, merge requests and CI/CD in one application. Premium costs $29 per user a month billed annually, and Ultimate is sold by custom quote. The Free plan on GitLab.com is limited to 5 users in a private top-level group.",
+  "qualifies": [
+    {
+      "category": "version-control",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "git repository hosting", "sourceUrl": "https://docs.gitlab.com/user/project/repository/" },
+        { "capability": "merge requests with approvals", "sourceUrl": "https://docs.gitlab.com/user/project/merge_requests/approvals/" },
+        { "capability": "access controls", "sourceUrl": "https://docs.gitlab.com/user/permissions/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The repository docs say each GitLab repository is part of a project and cannot exist without one. The project provides the configuration options for the repository.", "sourceUrl": "https://docs.gitlab.com/user/project/repository/", "checkedAt": "2026-11-05" },
+    { "text": "The default roles are Minimal Access, Guest, Planner, Reporter, Security Manager, Developer, Maintainer and Owner. Users keep the permissions of their highest role.", "sourceUrl": "https://docs.gitlab.com/user/permissions/", "checkedAt": "2026-11-05" },
+    { "text": "Merge request approvals are available on Free, Premium and Ultimate, but on Free they are optional and do not prevent merging. Required approvals that block a merge need Premium or Ultimate.", "sourceUrl": "https://docs.gitlab.com/user/project/merge_requests/approvals/", "checkedAt": "2026-11-05" },
+    { "text": "The 5-user limit on the Free plan applies to private top-level groups on GitLab.com. It does not apply to public groups or paid tiers.", "sourceUrl": "https://about.gitlab.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Premium and Ultimate include GitLab Credits of $12 and $24 per user a month for AI features. The pricing page describes this as a limited-time promotional offer.", "sourceUrl": "https://about.gitlab.com/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free (GitLab.com)", "priceUsd": 0, "billing": "month", "unit": "per user, up to 5 users per top-level group", "notes": "400 compute minutes a month and 10 GiB storage. No credit card required." },
+      { "name": "Premium", "priceUsd": 29, "billing": "month", "unit": "per user per month, billed annually", "notes": "GitLab.com includes 10,000 compute minutes a month and 500 GiB storage." },
+      { "name": "Ultimate", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Custom pricing on request. GitLab.com includes 50,000 compute minutes a month and 500 GiB storage." }
+    ],
+    "hiddenCosts": [
+      "The pricing page does not name its currency. The figures use the dollar sign, and the page's structured data specifies USD."
+    ],
+    "sourceUrl": "https://about.gitlab.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

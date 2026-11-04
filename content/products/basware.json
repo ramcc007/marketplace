@@ -1,0 +1,39 @@
+{
+  "name": "Basware e-Invoicing Network",
+  "status": "published",
+  "vendor": { "name": "Basware", "website": "https://www.basware.com" },
+  "primaryCategory": "e-invoicing",
+  "summary": "Basware says its e-Invoicing Network covers tax compliance regulations in over 50 countries and that it is an official Peppol Access Point. Pricing is not published and is quoted by sales. The archive is named on the page but not described.",
+  "qualifies": [
+    {
+      "category": "e-invoicing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "tax compliance rules built into invoices", "sourceUrl": "https://www.basware.com/en-us/solutions/e-invoicing" },
+        { "capability": "network delivery such as peppol", "sourceUrl": "https://www.basware.com/en/resources/peppol-connectivity-with-basware-e-invoicing-network" },
+        { "capability": "e-invoicing archive named on the page", "sourceUrl": "https://www.basware.com/en-us/solutions/e-invoicing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Basware says fiscal and commercial requirements are built into every invoice and updated as mandates evolve.", "sourceUrl": "https://www.basware.com/en-us/solutions/e-invoicing", "checkedAt": "2026-11-05" },
+    { "text": "Basware describes the e-Invoicing Network as an official Peppol Access Point.", "sourceUrl": "https://www.basware.com/en/resources/peppol-connectivity-with-basware-e-invoicing-network", "checkedAt": "2026-11-05" },
+    { "text": "The page says Basware covers tax compliance regulations in over 50 countries.", "sourceUrl": "https://www.basware.com/en-us/solutions/e-invoicing", "checkedAt": "2026-11-05" },
+    { "text": "The e-invoicing page lists an e-Invoicing Archive (Vault) without describing it.", "sourceUrl": "https://www.basware.com/en-us/solutions/e-invoicing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Subscription", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Not published. The page directs buyers to sales and says a higher commitment lowers unit costs" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.basware.com/en-us/solutions/e-invoicing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

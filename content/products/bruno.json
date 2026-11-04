@@ -1,0 +1,41 @@
+{
+  "name": "Bruno",
+  "status": "published",
+  "vendor": { "name": "Bruno Software Inc.", "website": "https://www.usebruno.com" },
+  "primaryCategory": "api-testing",
+  "summary": "Bruno is an open source API client that stores collections as plain text files, so they can be versioned in Git. The Open Source plan is free. Pro costs $6 and Ultimate $11 per user a month, billed annually. The pricing page shows dollar figures without naming a currency.",
+  "qualifies": [
+    {
+      "category": "api-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "request builder", "sourceUrl": "https://docs.usebruno.com/api-client/overview.md" },
+        { "capability": "collections and environments", "sourceUrl": "https://docs.usebruno.com/variables/environment-variables.md" },
+        { "capability": "automated api test runs", "sourceUrl": "https://docs.usebruno.com/bru-cli/overview.md" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Bruno stores collections as plain text files on the filesystem, so they can be versioned with Git and reviewed like code.", "sourceUrl": "https://docs.usebruno.com/api-client/overview.md", "checkedAt": "2026-11-05" },
+    { "text": "The bru run command runs a single request, a folder or a collection. Its test reports can be written in formats including JSON, JUnit and HTML.", "sourceUrl": "https://docs.usebruno.com/bru-cli/overview.md", "checkedAt": "2026-11-05" },
+    { "text": "An environment can inherit from one parent environment of the same scope. The child's own values override the parent's.", "sourceUrl": "https://docs.usebruno.com/variables/environment-variables.md", "checkedAt": "2026-11-05" },
+    { "text": "The Open Source plan allows public Git providers only, 2 workspaces and 5 OpenAPI syncs a month.", "sourceUrl": "https://www.usebruno.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Open Source", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Public Git providers only, 2 workspaces, 5 OpenAPI syncs a month, community support" },
+      { "name": "Pro", "priceUsd": 6, "billing": "month", "unit": "per user", "notes": "Billed annually. Private Git providers, unlimited workspaces and unlimited OpenAPI syncs. Credit card payment only. The page does not name a currency" },
+      { "name": "Ultimate", "priceUsd": 11, "billing": "month", "unit": "per user", "notes": "Billed annually. Adds PO and invoice payment and a 24-hour support SLA. 14-day free trial without a card. The page does not name a currency" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.usebruno.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

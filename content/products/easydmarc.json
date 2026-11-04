@@ -1,0 +1,47 @@
+{
+  "name": "EasyDMARC",
+  "status": "published",
+  "vendor": { "name": "EasyDMARC", "website": "https://easydmarc.com" },
+  "primaryCategory": "dmarc",
+  "summary": "EasyDMARC turns DMARC XML reports into dashboards and sells managed SPF (EasySPF) and managed DKIM. The DMARC Plus and DMARC Premium plans are listed at $35.99 and $71.99 a month billed annually. The page does not name its currency, so no USD figure is recorded. Larger plans are quoted.",
+  "qualifies": [
+    {
+      "category": "dmarc",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "dmarc report parsing", "sourceUrl": "https://easydmarc.com/platform/dmarc/dmarc-reporting-monitoring" },
+        { "capability": "managed spf", "sourceUrl": "https://easydmarc.com/platform/dmarc/easyspf" },
+        { "capability": "managed dkim", "sourceUrl": "https://easydmarc.com/platform/dmarc/managed-dkim" },
+        { "capability": "dns record change and blocklist alerts", "sourceUrl": "https://easydmarc.com/platform/alerting" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The reporting page says EasyDMARC turns complex DMARC XML files into structured, easy-to-understand dashboards.", "sourceUrl": "https://easydmarc.com/platform/dmarc/dmarc-reporting-monitoring", "checkedAt": "2026-11-05" },
+    { "text": "EasySPF publishes one TXT record that resolves SPF include dependencies into IP ranges and refreshes those ranges when the providers update their SPF data. The EasySPF page says it is available on the Premium and Enterprise plans.", "sourceUrl": "https://easydmarc.com/platform/dmarc/easyspf", "checkedAt": "2026-11-05" },
+    { "text": "Managed DKIM publishes the DKIM public records from EasyDMARC through a one-time NS delegation. The sending system keeps the private signing key.", "sourceUrl": "https://easydmarc.com/platform/dmarc/managed-dkim", "checkedAt": "2026-11-05" },
+    { "text": "The alerting page lists alerts for DNS record changes, unexpected sending volume and blocklist listings. It does not list spoofing alerts or unauthorized sender alerts.", "sourceUrl": "https://easydmarc.com/platform/alerting", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists proactive DMARC alerts under DMARC Premium and offers a free trial with no credit card on DMARC Plus and Premium. It does not state the trial length.", "sourceUrl": "https://easydmarc.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "DMARC Plus", "priceUsd": null, "billing": "month", "unit": "2 domains, from 100,000 emails a month", "notes": "Shown as $35.99 a month billed annually, with $44.99 struck through beside it. No currency is named, so no USD figure is recorded. 3 months of history." },
+      { "name": "DMARC Premium", "priceUsd": null, "billing": "month", "unit": "4 domains, from 100,000 emails a month", "notes": "Shown as $71.99 a month billed annually, with $89.99 struck through beside it. No currency is named, so no USD figure is recorded. 1 year of history, EasySPF and proactive alerts." },
+      { "name": "Deliverability", "priceUsd": null, "billing": "quote", "unit": "unlimited domains", "notes": "Custom pricing. Contact sales. No free trial shown. Up to 3 years of history." },
+      { "name": "Enterprise Email Trust", "priceUsd": null, "billing": "quote", "unit": "unlimited domains", "notes": "Custom pricing. Contact sales. Adds SSO, API access and audit logs. Up to 3 years of history." }
+    ],
+    "hiddenCosts": [
+      "The pricing page shows a struck-through figure above each annual price: $44.99 for Plus and $89.99 for Premium. The page does not say what those figures represent.",
+      "The pricing page does not show which plans include aggregate and failure reports or Managed DKIM."
+    ],
+    "sourceUrl": "https://easydmarc.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

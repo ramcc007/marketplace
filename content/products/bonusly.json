@@ -1,0 +1,54 @@
+{
+  "name": "Bonusly",
+  "status": "published",
+  "vendor": { "name": "Bonusly", "website": "https://bonusly.com" },
+  "primaryCategory": "employee-recognition",
+  "summary": "Bonusly lists Team at $3 per user a month, or $5 with the Bizy assistant. The Organization plan has no published price. Rewards are paid at face value when employees redeem them. Company-wide analytics and SAML SSO are on the Organization plan only.",
+  "qualifies": [
+    {
+      "category": "employee-recognition",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "peer recognition", "sourceUrl": "https://bonusly.com/pricing" },
+        { "capability": "rewards catalog or points", "sourceUrl": "https://bonusly.com/pricing" },
+        { "capability": "recognition analytics", "sourceUrl": "https://bonusly.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page says employees redeem rewards from the Bonusly catalog, and the employer pays face value when a reward is redeemed.", "sourceUrl": "https://bonusly.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Company-wide analytics, recognition quality reporting and SAML SSO are listed under the Organization plan, which has no published price.", "sourceUrl": "https://bonusly.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page offers a monthly billing toggle, while an FAQ on the same page says all plans are billed annually. The page does not resolve the conflict.", "sourceUrl": "https://bonusly.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The Bizy add-on costs $2 per user a month. The page also says Bizy is included in the Team and Organization plans, so the terms are unclear.", "sourceUrl": "https://bonusly.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Team + Bizy", "priceUsd": 5, "billing": "month", "unit": "per user", "notes": "Monthly toggle price. The page lists $50 per user a year on annual billing. The page does not name a currency" },
+      { "name": "Team", "priceUsd": 3, "billing": "month", "unit": "per user", "notes": "Monthly toggle price. The page lists $30 per user a year on annual billing" },
+      { "name": "Organization + Bizy", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Custom pricing on request through a demo" }
+    ],
+    "hiddenCosts": [
+      "The page contradicts itself on billing, offering a monthly toggle while an FAQ says all plans are billed annually. Confirm terms with the vendor.",
+      "Reward redemptions are paid at face value on top of the subscription.",
+      "Analytics, nominations, spot bonuses and SAML SSO require the Organization plan."
+    ],
+    "sourceUrl": "https://bonusly.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "SAML SSO on Organization",
+    "sourceUrl": "https://bonusly.com/pricing",
+    "checkedAt": "2026-11-05"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "HRIS integrations"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Atlassian Statuspage",
+  "status": "published",
+  "vendor": { "name": "Atlassian", "website": "https://www.atlassian.com" },
+  "primaryCategory": "status-page",
+  "summary": "Statuspage hosts public, private and audience-specific status pages. The free public plan covers 100 subscribers and 25 components. Paid public plans run from $29 to $1,499 a month and raise the subscriber, team member and notification limits.",
+  "qualifies": [
+    {
+      "category": "status-page",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "public status page", "sourceUrl": "https://www.atlassian.com/software/statuspage" },
+        { "capability": "incident updates and subscriptions", "sourceUrl": "https://www.atlassian.com/software/statuspage" },
+        { "capability": "uptime history", "sourceUrl": "https://www.atlassian.com/software/statuspage" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Incident updates move through the states from investigating to resolved, and subscribers can be notified by email, text message and other channels the page lists.", "sourceUrl": "https://www.atlassian.com/software/statuspage", "checkedAt": "2026-11-05" },
+    { "text": "The Uptime Showcase feature displays historical uptime to current and prospective customers.", "sourceUrl": "https://www.atlassian.com/software/statuspage", "checkedAt": "2026-11-05" },
+    { "text": "SMS and webhook notifications start on the Startup plan. Slack and Microsoft Teams notifications are available on every public plan, including Free.", "sourceUrl": "https://www.atlassian.com/software/statuspage/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Component subscriptions and role-based access control start on the Business plan.", "sourceUrl": "https://www.atlassian.com/software/statuspage/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Private pages are priced separately by employee count, from $79 a month for 50 employees. Audience-specific pages start at $300 a month.", "sourceUrl": "https://www.atlassian.com/software/statuspage/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per public page", "notes": "100 subscribers, 25 components, 2 team members, 2 metrics. Email, Slack and Microsoft Teams notifications" },
+      { "name": "Hobby", "priceUsd": 29, "billing": "month", "unit": "per public page", "notes": "250 subscribers, 5 team members, 5 metrics, custom domain. No SMS or webhook notifications" },
+      { "name": "Startup", "priceUsd": 99, "billing": "month", "unit": "per public page", "notes": "1,000 subscribers, 10 team members, 10 metrics. SMS and webhook notifications. Team member SSO with Atlassian Guard" },
+      { "name": "Business", "priceUsd": 399, "billing": "month", "unit": "per public page", "notes": "5,000 subscribers, 25 team members, 25 metrics. Component subscriptions and role-based access control" },
+      { "name": "Enterprise", "priceUsd": 1499, "billing": "month", "unit": "per public page", "notes": "25,000 subscribers, 50 team members, 50 metrics" }
+    ],
+    "hiddenCosts": [
+      "Prices are listed per month. The FAQ says yearly billing is set up manually and needs a signed order form.",
+      "The page shows a dollar sign without naming the currency.",
+      "Private pages start at $79 a month, and audience-specific pages start at $300 a month. Both are priced separately from the public plans."
+    ],
+    "sourceUrl": "https://www.atlassian.com/software/statuspage/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["Slack", "Microsoft Teams"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

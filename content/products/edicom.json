@@ -1,0 +1,37 @@
+{
+  "name": "EDICOM",
+  "status": "published",
+  "vendor": { "name": "EDICOM", "website": "https://edicomgroup.com" },
+  "primaryCategory": "e-invoicing",
+  "summary": "EDICOM provides electronic invoicing and tax reporting under models such as CTC, post-audit, clearance, real-time reporting and Peppol. It states that it is a certified Peppol Access Point and offers long-term storage with qualified electronic signatures and time stamps. The site publishes no prices and asks visitors to request a demo.",
+  "qualifies": [
+    {
+      "category": "e-invoicing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "government-compliant e-invoice formats", "sourceUrl": "https://edicomgroup.com/electronic-invoicing" },
+        { "capability": "network delivery such as peppol", "sourceUrl": "https://edicomgroup.com/electronic-invoicing" },
+        { "capability": "invoice archiving", "sourceUrl": "https://edicomgroup.com/electronic-invoicing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "EDICOM says its platform adapts to regulatory models such as CTC, post-audit, clearance, real-time reporting and Peppol.", "sourceUrl": "https://edicomgroup.com/electronic-invoicing", "checkedAt": "2026-11-05" },
+    { "text": "EDICOM states that it is a certified Peppol Access Point.", "sourceUrl": "https://edicomgroup.com/electronic-invoicing", "checkedAt": "2026-11-05" },
+    { "text": "EDICOM offers long-term electronic storage with qualified electronic signatures and time stamps. The page does not name the countries whose archiving rules it covers.", "sourceUrl": "https://edicomgroup.com/electronic-invoicing", "checkedAt": "2026-11-05" },
+    { "text": "The page names Mexico, Chile, Brazil and Turkey as countries where clearance applies, and Spain and France as examples of real-time reporting.", "sourceUrl": "https://edicomgroup.com/electronic-invoicing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [],
+    "sourceUrl": "https://edicomgroup.com/electronic-invoicing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

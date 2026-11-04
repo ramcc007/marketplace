@@ -1,0 +1,43 @@
+{
+  "name": "Codeberg",
+  "status": "published",
+  "vendor": { "name": "Codeberg e.V.", "website": "https://codeberg.org" },
+  "primaryCategory": "version-control",
+  "summary": "Codeberg is a non-profit Git forge run by Codeberg e.V., a registered association in Berlin, on the Forgejo software. It is free as long as its terms of use are followed. Codeberg does not host commercial private projects, and private content for free software contributors is limited to about 100 MB.",
+  "qualifies": [
+    {
+      "category": "version-control",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "git repository hosting", "sourceUrl": "https://docs.codeberg.org/" },
+        { "capability": "pull or merge requests", "sourceUrl": "https://docs.codeberg.org/collaborating/pull-requests-and-git-flow/" },
+        { "capability": "access controls", "sourceUrl": "https://docs.codeberg.org/collaborating/create-organization/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Codeberg e.V. is a registered non-profit association based in Berlin. The imprint says it is funded through donations and membership fees.", "sourceUrl": "https://codeberg.org/Codeberg/org/src/branch/main/Imprint.md", "checkedAt": "2026-11-05" },
+    { "text": "The Forgejo FAQ says the Forgejo domains are in the custody of Codeberg e.V., and that Forgejo's source code lives at codeberg.org.", "sourceUrl": "https://forgejo.org/faq/", "checkedAt": "2026-11-05" },
+    { "text": "For contributors to free and libre software projects, Codeberg allows up to 100 MB of private content. Codeberg says it does not offer private hosting services and suggests self-hosting Forgejo for private commercial work.", "sourceUrl": "https://docs.codeberg.org/getting-started/faq/", "checkedAt": "2026-11-05" },
+    { "text": "Codeberg asks users to request resources before passing about 750 MiB of Git storage or 1.5 GiB of packages, LFS and attachments, or before large CI usage.", "sourceUrl": "https://docs.codeberg.org/getting-started/faq/", "checkedAt": "2026-11-05" },
+    { "text": "An organization can have several teams, each with its own access rights. Rights can be read or write access to sections such as code, issues and the wiki, or full administrator access.", "sourceUrl": "https://docs.codeberg.org/collaborating/create-organization/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "free",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Codeberg", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Free as long as the terms of use are followed. Membership in the association is optional. Donations are welcome, but the FAQ says no specific service requires payment" }
+    ],
+    "hiddenCosts": [
+      "Commercial private projects are not hosted.",
+      "Private content above about 100 MB, or storage above the published thresholds, needs a request that Codeberg evaluates."
+    ],
+    "sourceUrl": "https://docs.codeberg.org/getting-started/faq/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

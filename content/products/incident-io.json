@@ -3,53 +3,61 @@
   "status": "published",
   "vendor": { "name": "incident.io", "website": "https://incident.io" },
   "primaryCategory": "incident-management",
-  "summary": "incident.io has a free Basic plan with one on-call schedule and one status page. Team costs $15 per user a month on annual billing or $19 monthly, Pro costs $25, and on-call is a separate add-on at $10 on Team or $20 on Pro.",
+  "summary": "incident.io has a free Basic plan with single-team on-call and a public status page. Team costs $15 per user a month on annual billing or $19 monthly, Pro costs $25, and on-call is a separate add-on at $10 per user on Team or $20 on Pro.",
   "qualifies": [
     {
       "category": "incident-management",
-      "checkedAt": "2026-11-04",
+      "checkedAt": "2026-11-05",
       "evidence": [
-        { "capability": "on-call schedules and escalation", "sourceUrl": "https://docs.incident.io/alerts/escalations-from-alerts" },
-        { "capability": "alert routing", "sourceUrl": "https://docs.incident.io/alerts/escalations-from-alerts" },
-        { "capability": "incident timeline and postmortems", "sourceUrl": "https://incident.io/pricing" }
+        { "capability": "alert routing to escalation paths and users", "sourceUrl": "https://docs.incident.io/alerts/escalations-from-alerts" },
+        { "capability": "postmortem documents on Pro and Enterprise", "sourceUrl": "https://incident.io/pricing" }
+      ]
+    },
+    {
+      "category": "status-page",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "public status page", "sourceUrl": "https://incident.io/status-pages" },
+        { "capability": "incident updates and subscriptions", "sourceUrl": "https://incident.io/status-pages" }
       ]
     }
   ],
   "facts": [
-    { "text": "Alert routes can send an alert to escalation paths, to users, or to both, and an expression can pick the path from the alert's team or service.", "sourceUrl": "https://docs.incident.io/alerts/escalations-from-alerts", "checkedAt": "2026-11-04" },
-    { "text": "Multiple postmortem documents and a custom post-incident flow start on the Pro plan.", "sourceUrl": "https://incident.io/pricing", "checkedAt": "2026-11-04" },
-    { "text": "A standalone on-call product costs $20 per user a month, and the pricing page does not say whether that is billed monthly or annually.", "sourceUrl": "https://incident.io/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The page states SOC 2 Type I and II and GDPR compliance, and does not mention ISO 27001 or HIPAA.", "sourceUrl": "https://incident.io/security", "checkedAt": "2026-11-04" }
+    { "text": "Alerts can be escalated to escalation paths, to users, or to a combination of both, and a query-based expression can pick the escalation path from the impacted service or team.", "sourceUrl": "https://docs.incident.io/alerts/escalations-from-alerts", "checkedAt": "2026-11-05" },
+    { "text": "Multiple postmortem documents are included on the Pro and Enterprise plans, and not on Basic or Team.", "sourceUrl": "https://incident.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "A standalone on-call plan costs $20 per user a month, and the pricing page does not state its billing period.", "sourceUrl": "https://incident.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The security page says incident.io is SOC 2 Type I and Type II and GDPR compliant. It does not mention ISO 27001 or HIPAA.", "sourceUrl": "https://incident.io/security", "checkedAt": "2026-11-05" },
+    { "text": "Status page subscribers can receive updates by email, Slack and RSS.", "sourceUrl": "https://incident.io/status-pages", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "freemium",
     "freePlan": true,
     "freeTrialDays": null,
     "plans": [
-      { "name": "Basic", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Single-team on-call, 1 schedule, 1 workflow, 2 integrations, 1 public status page" },
-      { "name": "Team", "priceUsd": 15, "billing": "month", "unit": "per user", "notes": "Billed annually; $19 on monthly billing. On-call adds $10 per user a month" },
-      { "name": "Pro", "priceUsd": 25, "billing": "month", "unit": "per user", "notes": "The page does not state the billing period. On-call adds $20 per user a month. Includes SAML" },
+      { "name": "Basic", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Single-team on-call, one public status page, and essential incident automation" },
+      { "name": "Team", "priceUsd": 15, "billing": "month", "unit": "per user", "notes": "Billed annually; $19 on monthly billing. On-call is an add-on at $10 per user a month" },
+      { "name": "Pro", "priceUsd": 25, "billing": "month", "unit": "per user", "notes": "The page does not state the billing period. On-call is an add-on at $20 per user a month. Includes SSO and SAML" },
       { "name": "On-call only", "priceUsd": 20, "billing": "month", "unit": "per user", "notes": "Standalone on-call product; billing period not stated" },
-      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing. Adds SCIM" }
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing. Includes SSO, SAML and SCIM" }
     ],
     "hiddenCosts": [
       "On-call is an add-on on Team and Pro, so a Pro responder with on-call costs $45 per user a month before discounts.",
       "The pricing page does not state the billing period for Pro."
     ],
     "sourceUrl": "https://incident.io/pricing",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   "security": {
     "soc2": true,
     "iso27001": null,
     "gdpr": true,
     "hipaa": null,
-    "ssoPlan": "Team (SSO); Pro adds SAML",
+    "ssoPlan": "Pro (SSO and SAML), per the pricing page",
     "sourceUrl": "https://incident.io/security",
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-05"
   },
-  "integrations": ["Asana", "ClickUp", "GitHub", "GitLab", "Jira", "Linear", "Shortcut", "Zendesk"],
+  "integrations": [],
   "screenshots": [],
   "paidRelationship": null,
-  "updatedAt": "2026-11-04"
+  "updatedAt": "2026-11-05"
 }

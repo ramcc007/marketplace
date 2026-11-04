@@ -1,0 +1,40 @@
+{
+  "name": "Comarch e-Invoicing",
+  "status": "published",
+  "vendor": { "name": "Comarch", "website": "https://www.comarch.com" },
+  "primaryCategory": "e-invoicing",
+  "summary": "Comarch connects to national platforms such as Poland's KSeF, Italy's SdI, France's PDP and Romania's e-Factura. It describes itself as a certified Peppol Access Point, and its e-archive stores sent and received invoices for the legally required period. It publishes no prices.",
+  "qualifies": [
+    {
+      "category": "e-invoicing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "government-compliant e-invoice formats", "sourceUrl": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/" },
+        { "capability": "network delivery such as peppol", "sourceUrl": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/" },
+        { "capability": "invoice archiving", "sourceUrl": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Comarch lists supported formats including XML, ZUGFeRD, UBL BIS 3.0, IDOC and EDIFACT. It says it connects to government platforms including SDI, PDP, KSeF and RO e-Factura.", "sourceUrl": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/", "checkedAt": "2026-11-05" },
+    { "text": "The page calls Comarch a certified PEPPOL Access Point and says it is a member of OpenPEPPOL.", "sourceUrl": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/", "checkedAt": "2026-11-05" },
+    { "text": "The e-archive section says it stores and manages all sent and received invoices for the legally required period.", "sourceUrl": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/", "checkedAt": "2026-11-05" },
+    { "text": "The page says Comarch is trusted in more than 60 countries.", "sourceUrl": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/", "checkedAt": "2026-11-05" },
+    { "text": "The page gives no prices. It says the final cost depends on document volume, the number of countries and integration complexity.", "sourceUrl": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per project", "notes": "No prices published. Final cost depends on document volume, number of countries and integration complexity" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

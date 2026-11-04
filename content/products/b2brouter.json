@@ -1,0 +1,43 @@
+{
+  "name": "B2Brouter",
+  "status": "published",
+  "vendor": { "name": "B2Brouter", "website": "https://www.b2brouter.net" },
+  "primaryCategory": "e-invoicing",
+  "summary": "B2Brouter says it is certified as a Peppol Access Point Service Provider. Its free Basic plan is limited to 24 transactions a year. The Business plan costs 300 euros a year plus taxes and adds the legal invoice archive.",
+  "qualifies": [
+    {
+      "category": "e-invoicing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "e-invoice formats such as Peppol BIS and UBL", "sourceUrl": "https://www.b2brouter.net/global/" },
+        { "capability": "network delivery such as peppol", "sourceUrl": "https://www.b2brouter.net/global/" },
+        { "capability": "invoice archiving", "sourceUrl": "https://www.b2brouter.net/global/prices/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "B2Brouter says it is certified as a Peppol Access Point Service Provider and is a member of EESPA.", "sourceUrl": "https://www.b2brouter.net/global/", "checkedAt": "2026-11-05" },
+    { "text": "The page says documents are converted to the format the recipient requires, such as Peppol BIS or UBL.", "sourceUrl": "https://www.b2brouter.net/global/", "checkedAt": "2026-11-05" },
+    { "text": "The Basic plan is listed as Peppol ready. The Professional and Business plans list Peppol network features.", "sourceUrl": "https://www.b2brouter.net/global/prices/", "checkedAt": "2026-11-05" },
+    { "text": "Only the Business plan lists legal invoice archiving. Paid plans are billed annually.", "sourceUrl": "https://www.b2brouter.net/global/prices/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Basic", "priceUsd": null, "listedPrice": { "amount": 0, "currency": "EUR" }, "billing": "year", "unit": "per account", "notes": "Free forever. Limited to 10 contacts, 24 transactions a year and one user" },
+      { "name": "Professional", "priceUsd": null, "listedPrice": { "amount": 110, "currency": "EUR" }, "billing": "year", "unit": "per account", "notes": "Plus taxes. Unlimited contacts and transactions, up to two users" },
+      { "name": "Business", "priceUsd": null, "listedPrice": { "amount": 300, "currency": "EUR" }, "billing": "year", "unit": "per account", "notes": "Plus taxes. Unlimited contacts and transactions, up to 10 users, and legal invoice archiving" }
+    ],
+    "hiddenCosts": [
+      "Prices are listed in euros plus taxes. The page offers a Malaysian ringgit option but shows no ringgit prices."
+    ],
+    "sourceUrl": "https://www.b2brouter.net/global/prices/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

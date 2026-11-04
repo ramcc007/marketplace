@@ -1,0 +1,47 @@
+{
+  "name": "DMARC Report",
+  "status": "published",
+  "vendor": { "name": "DuoCircle LLC", "website": "https://www.dmarcreport.com" },
+  "primaryCategory": "dmarc",
+  "summary": "DMARC Report is a DMARC monitoring service from DuoCircle. The Core plan is free and covers 1 domain and 10,000 messages a month. Paid self-serve plans run from $25 to $200 a month, with a 30-day trial. The Ultimate plan is listed at $3,900 one-time and is booked through a demo.",
+  "qualifies": [
+    {
+      "category": "dmarc",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "dmarc report parsing", "sourceUrl": "https://www.dmarcreport.com/" },
+        { "capability": "spf and dkim monitoring", "sourceUrl": "https://dmarcreport.com/use-dmarcreports-to-monitor-your-domains/" },
+        { "capability": "unauthorized sender alerts", "sourceUrl": "https://dmarcreport.com/use-dmarcreports-to-monitor-your-domains/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The home page says DMARC Report turns aggregate (RUA) and forensic (RUF) reports into dashboards.", "sourceUrl": "https://www.dmarcreport.com/", "checkedAt": "2026-11-05" },
+    { "text": "The home page names DuoCircle's sister product AutoSPF for dedicated SPF management.", "sourceUrl": "https://www.dmarcreport.com/", "checkedAt": "2026-11-05" },
+    { "text": "The monitoring page describes authentication failure alerts when a DMARC pass rate drops, with a default threshold of 90%, and immediate notice when a previously unseen IP sends email as the domain.", "sourceUrl": "https://dmarcreport.com/use-dmarcreports-to-monitor-your-domains/", "checkedAt": "2026-11-05" },
+    { "text": "For SPF, the monitoring page describes DNS lookup tracking, warnings as a record nears the 10-lookup limit, and flattening recommendations. For DKIM, it describes key age tracking and rotation reminders, with a default key age threshold of 90 days.", "sourceUrl": "https://dmarcreport.com/use-dmarcreports-to-monitor-your-domains/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists its prices in USD. Annual billing is about 17% below monthly on Shield and Defender, but only about 8% below on Guard.", "sourceUrl": "https://www.dmarcreport.com/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Core", "priceUsd": 0, "billing": "month", "unit": "1 domain, 10,000 messages a month", "notes": "30 days of history. Aggregate reports. The pricing page lists no alerts, API access or support for this plan." },
+      { "name": "Guard", "priceUsd": 25, "billing": "month", "unit": "5 domains, 250,000 messages a month", "notes": "$275 a year if paid annually. 6 months of history. Aggregate and failure reports. No alerts or API access listed." },
+      { "name": "Shield", "priceUsd": 75, "billing": "month", "unit": "10 domains, 1,000,000 messages a month", "notes": "$750 a year if paid annually. 1 year of history. MTA-STS and TLS-RPT, API access, email support and alerts." },
+      { "name": "Defender", "priceUsd": 200, "billing": "month", "unit": "25 domains, 3,000,000 messages a month", "notes": "$2,000 a year if paid annually. Advanced failure reports, advanced API access and advanced support." },
+      { "name": "Ultimate", "priceUsd": 3900, "billing": "one_time", "unit": "unlimited domains", "notes": "Listed as a one-time price with no annual option. 3 years of history. A dedicated DMARC engineer. Booked through a demo." }
+    ],
+    "hiddenCosts": [
+      "The FAQ says all paid plans support unlimited domains, but the plan cards cap domains at 5, 10 and 25.",
+      "Alerts are listed from the Shield plan up. The pricing page does not list them for Core or Guard."
+    ],
+    "sourceUrl": "https://www.dmarcreport.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

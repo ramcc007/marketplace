@@ -1,0 +1,48 @@
+{
+  "name": "dmarcian",
+  "status": "published",
+  "vendor": { "name": "dmarcian", "website": "https://dmarcian.com" },
+  "primaryCategory": "dmarc",
+  "summary": "dmarcian turns DMARC XML reports into readable results and adds SPF and DKIM inspection tools. The free Personal plan is for non-business use only. Business plans run from $24 to $600 a month billed monthly, or from $19.99 to $499 a month billed yearly, with a 30-day trial.",
+  "qualifies": [
+    {
+      "category": "dmarc",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "dmarc report parsing", "sourceUrl": "https://dmarcian.com/dmarc-xml/" },
+        { "capability": "spf and dkim inspection", "sourceUrl": "https://dmarcian.com/spf-survey/" },
+        { "capability": "spf and dkim inspection", "sourceUrl": "https://dmarcian.com/dkim-inspector/" },
+        { "capability": "alerts on broken records and possible domain abuse", "sourceUrl": "https://dmarcian.com/alert-central-overview/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The DMARC XML page says the converter turns aggregate reports into clear, actionable results.", "sourceUrl": "https://dmarcian.com/dmarc-xml/", "checkedAt": "2026-11-05" },
+    { "text": "For Basic, Plus and Enterprise accounts, Alert Central turns on SPF Invalid, SPF Disappeared and DMARC All Changes by default. SPF Warnings is off by default.", "sourceUrl": "https://dmarcian.com/alert-central-overview/", "checkedAt": "2026-11-05" },
+    { "text": "The Alert Central page says its alerts cover broken records and possible domain abuse, and the alert types it lists are DNS record changes and sending volume changes. It does not say it sends spoofing alerts.", "sourceUrl": "https://dmarcian.com/alert-central-overview/", "checkedAt": "2026-11-05" },
+    { "text": "SPF Surveyor tests an SPF record, flags records that exceed 10 DNS lookups and identifies third-party senders. The page argues against SPF flattening and hosted SPF.", "sourceUrl": "https://dmarcian.com/spf-survey/", "checkedAt": "2026-11-05" },
+    { "text": "The DKIM Inspector checks that a published DKIM public key is correctly published in DNS. The page describes no key generation or rotation.", "sourceUrl": "https://dmarcian.com/dkim-inspector/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Personal", "priceUsd": 0, "billing": "month", "unit": "2 domains, 1,250 messages a month", "notes": "For personal, non-business use only. 1 month of history. 1 user." },
+      { "name": "Basic", "priceUsd": 24, "billing": "month", "unit": "2 domains, 100,000 messages a month", "notes": "$19.99 a month billed yearly ($239.88 a year). 3 months of history. 1 user." },
+      { "name": "Plus", "priceUsd": 240, "billing": "month", "unit": "8 domains, 1,000,000 messages a month", "notes": "$199 a month billed yearly ($2,388 a year). 1 year of history. 3 users." },
+      { "name": "Enterprise", "priceUsd": 600, "billing": "month", "unit": "15 domains, 5,000,000 messages a month", "notes": "$499 a month billed yearly ($5,988 a year). Unlimited history and users." },
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "not stated", "notes": "Tailored pricing for needs outside the standard plans. Contact sales." }
+    ],
+    "hiddenCosts": [
+      "Monthly billing on paid plans costs more than yearly billing, for example $240 a month on Plus against $199 billed yearly.",
+      "Prices exclude taxes. The pricing page says prices are in USD, with parity for CAD and EUR."
+    ],
+    "sourceUrl": "https://dmarcian.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

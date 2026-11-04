@@ -1,0 +1,46 @@
+{
+  "name": "Dmarcly",
+  "status": "published",
+  "vendor": { "name": "Dmarcly", "website": "https://dmarcly.com" },
+  "primaryCategory": "dmarc",
+  "summary": "Dmarcly turns DMARC reports into charts, offers Safe SPF for the 10-lookup limit and sends alerts when DMARC, SPF or DKIM DNS records change. Plans run from $17.99 to $199 a month with a 14-day trial and no free plan.",
+  "qualifies": [
+    {
+      "category": "dmarc",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "dmarc report parsing", "sourceUrl": "https://dmarcly.com/features" },
+        { "capability": "spf and dkim record tools", "sourceUrl": "https://dmarcly.com/features" },
+        { "capability": "dns record change alerts", "sourceUrl": "https://dmarcly.com/features" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The features page says you can set up email alerts for any DMARC, SPF or DKIM change in DNS. It does not describe alerts for unauthorized senders or failing mail.", "sourceUrl": "https://dmarcly.com/features", "checkedAt": "2026-11-05" },
+    { "text": "The features page says SPF allows up to 10 DNS queries and warns that some domains hit the limit. It lists a DKIM record generator and a DKIM record checker.", "sourceUrl": "https://dmarcly.com/features", "checkedAt": "2026-11-05" },
+    { "text": "Safe SPF starts on the Growth plan. Growth includes 1 Safe SPF domain, Business includes 2 and Enterprise includes 4.", "sourceUrl": "https://dmarcly.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "If monthly volume exceeds a plan's quota, the account is temporarily moved to the next plan that covers it, and it returns to its original plan when volume drops.", "sourceUrl": "https://dmarcly.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Professional", "priceUsd": 17.99, "billing": "month", "unit": "2 domains, 100,000 DMARC messages", "notes": "2 months of history, 1 user, email support. No Safe SPF." },
+      { "name": "Growth", "priceUsd": 39.99, "billing": "month", "unit": "8 domains, 250,000 DMARC messages", "notes": "4 months of history, 3 users, 1 Safe SPF domain, live chat support." },
+      { "name": "Business", "priceUsd": 69, "billing": "month", "unit": "15 domains, 1,000,000 DMARC messages", "notes": "6 months of history, 5 users, 2 Safe SPF domains, blacklist monitoring, live chat support." },
+      { "name": "Enterprise", "priceUsd": 199, "billing": "month", "unit": "200 domains, 5,000,000 DMARC messages", "notes": "1 year of history, unlimited users, API access, SAML single sign-on, 4 Safe SPF domains." }
+    ],
+    "hiddenCosts": [
+      "Above 5 million messages the page charges $10 per extra million.",
+      "Extra DMARC domains cost $1 each and extra Safe SPF domains cost $10 each beyond the plan quota.",
+      "The pricing page lists monthly prices only and mentions no annual billing."
+    ],
+    "sourceUrl": "https://dmarcly.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

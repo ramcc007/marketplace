@@ -1,0 +1,54 @@
+{
+  "name": "Gitea",
+  "status": "published",
+  "vendor": { "name": "Gitea", "website": "https://about.gitea.com" },
+  "primaryCategory": "version-control",
+  "summary": "Gitea is open source Git hosting with pull requests, protected branches, issues and Gitea Actions. The Open Source edition is listed as free. Enterprise adds SAML SSO and audit logs at a per-user monthly price with a one-year commitment for online payment. The pricing page shows two figures side by side for that price, so no single price is recorded.",
+  "qualifies": [
+    {
+      "category": "version-control",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "git repository hosting", "sourceUrl": "https://about.gitea.com/pricing" },
+        { "capability": "pull or merge requests", "sourceUrl": "https://docs.gitea.com/usage/pull-request" },
+        { "capability": "access controls", "sourceUrl": "https://docs.gitea.com/usage/access-control/protected-branches" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page lists code hosting, issue tracking, pull requests, project management, Gitea Actions and packages on the Open Source edition.", "sourceUrl": "https://about.gitea.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Protected branches enforce push and merge policies on selected branches and can require a set number of approvals before a merge. Only repository owners and administrators can manage the rules.", "sourceUrl": "https://docs.gitea.com/usage/access-control/protected-branches", "checkedAt": "2026-11-05" },
+    { "text": "Maintainers can comment on, request changes to and approve pull requests. A WIP: or [WIP] title prefix stops a pull request from being merged by accident, and the prefixes can be changed in app.ini.", "sourceUrl": "https://docs.gitea.com/usage/pull-request", "checkedAt": "2026-11-05" },
+    { "text": "The Enterprise plan lists SAML SSO, audit logs, Kubernetes autoscaling runners and priority support with an SLA.", "sourceUrl": "https://about.gitea.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The Enterprise plan offers a 30-day free trial.", "sourceUrl": "https://about.gitea.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Open Source", "priceUsd": 0, "billing": "month", "unit": "not stated", "notes": "Listed as Free." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "month", "unit": "per user", "notes": "Per user per month. The page shows two figures side by side, $9.5 and $19, and does not make clear which one is charged. A one-year commitment is required with online payment. No currency is named." },
+      { "name": "Cloud Managed", "priceUsd": null, "billing": "quote", "unit": "not stated", "notes": "Appears as a toggle with no price or feature list." }
+    ],
+    "hiddenCosts": [
+      "Enterprise needs a one-year commitment when paid online.",
+      "The Enterprise price is unclear from the page, so confirm the amount actually charged before buying."
+    ],
+    "sourceUrl": "https://about.gitea.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Enterprise (SAML)",
+    "sourceUrl": "https://about.gitea.com/pricing",
+    "checkedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

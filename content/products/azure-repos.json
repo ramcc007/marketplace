@@ -1,0 +1,45 @@
+{
+  "name": "Azure Repos",
+  "status": "published",
+  "vendor": { "name": "Microsoft", "website": "https://azure.microsoft.com" },
+  "primaryCategory": "version-control",
+  "summary": "Azure Repos is the source control service in Azure DevOps. It supports Git, with pull requests and branch policies, and Team Foundation Version Control. The first 5 Basic users are free, and each extra Basic user costs $6 a month.",
+  "qualifies": [
+    {
+      "category": "version-control",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "git repository hosting", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/repos/get-started/what-is-repos" },
+        { "capability": "pull or merge requests", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/repos/get-started/what-is-repos" },
+        { "capability": "access controls", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-permissions" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Azure Repos supports two kinds of version control: Git, which is distributed, and Team Foundation Version Control, which is centralized.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/repos/get-started/what-is-repos", "checkedAt": "2026-11-05" },
+    { "text": "Branch policies can require a minimum number of reviewers, comment resolution, linked work items, build validation and status checks on pull requests.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-policies-overview", "checkedAt": "2026-11-05" },
+    { "text": "Branch permissions can be set for individual users and groups. They include Contribute, Force push, Edit policies, Manage permissions, and Bypass policies when completing pull requests.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-permissions", "checkedAt": "2026-11-05" },
+    { "text": "Stakeholder access is free. Stakeholders can use work items, boards, Pipelines and Artifacts, but they do not get Azure Repos.", "sourceUrl": "https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Basic (first 5 users)", "priceUsd": 0, "billing": "month", "unit": "per organization", "notes": "Includes unlimited private Git repositories" },
+      { "name": "Basic (additional users)", "priceUsd": 6, "billing": "month", "unit": "per user", "notes": "Shown as /mo. Charged daily on assigned users and pro-rated" },
+      { "name": "Stakeholder", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Free. Does not include Azure Repos" }
+    ],
+    "hiddenCosts": [
+      "Azure Artifacts storage beyond 2 GiB free per organization starts at $2 per GiB.",
+      "Microsoft-hosted pipelines include 1 free parallel job with 1,800 minutes a month. Pipelines are billed separately from Repos.",
+      "Prices are calculated in US dollars and converted to other currencies at London closing spot rates, so local prices vary."
+    ],
+    "sourceUrl": "https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

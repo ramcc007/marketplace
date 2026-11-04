@@ -1,0 +1,45 @@
+{
+  "name": "Bitbucket",
+  "status": "published",
+  "vendor": { "name": "Atlassian", "website": "https://bitbucket.org" },
+  "primaryCategory": "version-control",
+  "summary": "Bitbucket Cloud hosts Git repositories with pull requests and branch permissions. The Free plan covers up to 5 users. Standard costs $3.65 per user a month and Premium $8. Merge checks only block a merge on Premium.",
+  "qualifies": [
+    {
+      "category": "version-control",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "git repository hosting", "sourceUrl": "https://support.atlassian.com/bitbucket-cloud/docs/create-a-git-repository/" },
+        { "capability": "pull or merge requests", "sourceUrl": "https://support.atlassian.com/bitbucket-cloud/docs/create-a-pull-request-to-merge-your-change/" },
+        { "capability": "access controls", "sourceUrl": "https://support.atlassian.com/bitbucket-cloud/docs/use-branch-permissions/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Branch permissions control which users or groups can write to or merge into a branch, by branch name pattern or branch type.", "sourceUrl": "https://support.atlassian.com/bitbucket-cloud/docs/use-branch-permissions/", "checkedAt": "2026-11-05" },
+    { "text": "Merge checks for minimum approvals, successful builds and unresolved tasks are available on every plan. Without Premium they only warn, and the pull request can still be merged.", "sourceUrl": "https://support.atlassian.com/bitbucket-cloud/docs/suggest-or-require-checks-before-a-merge/", "checkedAt": "2026-11-05" },
+    { "text": "Premium adds enforced merge checks, IP allowlisting, deployment permissions and required two-step verification.", "sourceUrl": "https://www.atlassian.com/software/bitbucket/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The Free plan is for up to 5 users and includes unlimited public and private repositories, 1 GB of LFS storage and 50 build minutes.", "sourceUrl": "https://www.atlassian.com/software/bitbucket/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "up to 5 users", "notes": "Unlimited public and private repositories, 1 GB LFS storage, 50 build minutes" },
+      { "name": "Standard", "priceUsd": 3.65, "billing": "month", "unit": "per user", "notes": "Per user per month. Admins can switch between Standard and Premium at any time" },
+      { "name": "Premium", "priceUsd": 8, "billing": "month", "unit": "per user", "notes": "Per user per month. Adds enforced merge checks, IP allowlisting, deployment permissions and required two-step verification" }
+    ],
+    "hiddenCosts": [
+      "Blocking a merge until checks pass needs Premium.",
+      "1,000 extra build minutes or 100 GB of LFS storage cost $10 a month.",
+      "The pricing page shows dollar figures without naming a currency."
+    ],
+    "sourceUrl": "https://www.atlassian.com/software/bitbucket/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

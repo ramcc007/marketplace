@@ -1,0 +1,48 @@
+{
+  "name": "Devolutions PAM",
+  "status": "published",
+  "vendor": { "name": "Devolutions Inc.", "website": "https://devolutions.net" },
+  "primaryCategory": "privileged-access-management",
+  "summary": "Devolutions PAM is the top tier on the vendor's pricing page at $650 per user a year, billed annually. The lower tiers are Workforce password management at $48, Remote access management at $265 and Remote desktop management and IT operations at $400. The vendor says checkouts can be tied to a ticket number and that access is revoked automatically after it is granted.",
+  "qualifies": [
+    {
+      "category": "privileged-access-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "secures and rotates privileged accounts", "sourceUrl": "https://devolutions.net/privileged-access-management/" },
+        { "capability": "session recording", "sourceUrl": "https://devolutions.net/privileged-access-management/" },
+        { "capability": "just-in-time access", "sourceUrl": "https://devolutions.net/privileged-access-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Devolutions lists four tiers on its pricing page, all per user per year and billed annually: Workforce password management at $48, Remote access management at $265, Remote desktop management and IT operations at $400, and Privileged access management at $650.", "sourceUrl": "https://devolutions.net/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says all packages come with a 14-day free trial.", "sourceUrl": "https://devolutions.net/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The vendor says admins can watch privileged sessions as they happen or review the recording afterward, and can tie each checkout to a ticket number.", "sourceUrl": "https://devolutions.net/privileged-access-management/", "checkedAt": "2026-11-05" },
+    { "text": "The vendor says access is granted only for the moment it is needed and is revoked automatically after it is granted.", "sourceUrl": "https://devolutions.net/privileged-access-management/", "checkedAt": "2026-11-05" },
+    { "text": "The 2026.1 release notes list temporary, time-boxed access to PAM accounts.", "sourceUrl": "https://devolutions.net/privileged-access-management/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page offers half price for teams of 5. The visible text gives no dollar figure for that offer.", "sourceUrl": "https://devolutions.net/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Workforce password management", "priceUsd": 48, "billing": "year", "unit": "per user", "notes": "Billed annually." },
+      { "name": "Remote access management", "priceUsd": 265, "billing": "year", "unit": "per user", "notes": "Billed annually." },
+      { "name": "Remote desktop management and IT operations", "priceUsd": 400, "billing": "year", "unit": "per user", "notes": "Billed annually." },
+      { "name": "Privileged access management", "priceUsd": 650, "billing": "year", "unit": "per user", "notes": "Billed annually. The $650 figure appears on the pricing page and in its structured data." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Listed as from 100 users. Pricing is by request." }
+    ],
+    "hiddenCosts": [
+      "Teams of 100 or more users are quoted individually.",
+      "The pricing page prices are in USD, shown in its structured data."
+    ],
+    "sourceUrl": "https://devolutions.net/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}
