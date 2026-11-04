@@ -1,0 +1,64 @@
+{
+  "name": "ServiceDesk Plus",
+  "status": "published",
+  "vendor": { "name": "ManageEngine (Zoho Corporation)", "website": "https://www.manageengine.com" },
+  "primaryCategory": "itsm",
+  "summary": "ServiceDesk Plus from ManageEngine sells three editions, in the cloud or on your own servers. The Standard edition is free for up to five technicians and starts at $13 per technician a month otherwise. Professional starts at $27 and Enterprise at $67. Incident management and SLAs come in Standard, but the service catalog is an add-on there and included in Enterprise. A 30-day trial is offered.",
+  "qualifies": [
+    {
+      "category": "itsm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "incident and request tickets", "sourceUrl": "https://www.manageengine.com/products/service-desk/" },
+        { "capability": "it service catalog", "sourceUrl": "https://www.manageengine.com/products/service-desk/itsm/it-service-catalog-software.html" },
+        { "capability": "sla tracking", "sourceUrl": "https://www.manageengine.com/products/service-desk/automation/sla-management.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The free Standard edition covers up to five technicians and only one service desk instance can use that allowance.", "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html", "checkedAt": "2026-11-04" },
+    { "text": "End users are not charged, and each service desk instance is billed separately.", "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists the service catalog as a $1,195 a year add-on on Standard and Professional, and as included in Enterprise.", "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html", "checkedAt": "2026-11-04" },
+    { "text": "The page says prices are current as of September 2026 and subject to change.", "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Standard (free)", "priceUsd": 0, "billing": "year", "unit": "up to 5 technicians", "notes": "One service desk instance only" },
+      { "name": "Standard (cloud)", "priceUsd": 1545, "billing": "year", "unit": "10 technicians", "notes": "Listed as the starting cloud price. The page also lists Standard from US$13 per technician a month" },
+      { "name": "Professional (cloud)", "priceUsd": 645, "billing": "year", "unit": "2 technicians and 250 assets", "notes": "Listed as the starting cloud price. The page also lists Professional from US$27 per technician a month" },
+      { "name": "Enterprise (cloud)", "priceUsd": 1595, "billing": "year", "unit": "2 technicians and 250 assets", "notes": "Listed as the starting cloud price. The page also lists Enterprise from US$67 per technician a month" }
+    ],
+    "hiddenCosts": [
+      "On Standard and Professional, the service catalog and problem management are each a $1,195 a year add-on.",
+      "Change and release management is a $2,395 a year add-on on Standard and Professional.",
+      "Professional and Enterprise prices also depend on the number of IT assets."
+    ],
+    "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.manageengine.com/products/service-desk/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The pricing FAQ says users can upgrade, downgrade or cancel at any time.",
+    "dataExport": null,
+    "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["ChatGPT", "Microsoft Copilot", "ManageEngine product suite"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

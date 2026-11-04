@@ -1,0 +1,62 @@
+{
+  "name": "InvGate Service Management",
+  "status": "published",
+  "vendor": { "name": "InvGate", "website": "https://www.invgate.com" },
+  "primaryCategory": "itsm",
+  "summary": "InvGate Service Management has a Starter plan at $1,499 a year for 5 agents, a Pro plan at $500 per agent a year with a $2,500 yearly minimum, and an Enterprise plan from $12,000 a year. All are billed annually. Starter and Pro offer a free trial of unstated length. InvGate says it holds ISO 27001:2022 certification and SOC 2 Type II audits.",
+  "qualifies": [
+    {
+      "category": "itsm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "incident and request tickets", "sourceUrl": "https://invgate.com/itsm/incident-management" },
+        { "capability": "it service catalog", "sourceUrl": "https://invgate.com/itsm/service-request-management/service-catalog" },
+        { "capability": "sla tracking", "sourceUrl": "https://invgate.com/itsm/service-level-management/service-level-agreement" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "InvGate states it is certified under ISO 27001:2022 and refers to SOC 2 Type II audits.", "sourceUrl": "https://www.invgate.com/security", "checkedAt": "2026-11-04" },
+    { "text": "The security page does not say where InvGate hosts its services and points to a separate trust center.", "sourceUrl": "https://www.invgate.com/security", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says prices are base list prices that exclude taxes and fees and may change without notice.", "sourceUrl": "https://www.invgate.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The Starter plan has no workflow builder, which starts on Pro.", "sourceUrl": "https://www.invgate.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 1499, "billing": "year", "unit": "5 agents", "notes": "Fixed price. Unlimited end users and approvers, SSO and AI Hub, no workflow builder" },
+      { "name": "Pro", "priceUsd": 500, "billing": "year", "unit": "per agent", "notes": "From $2,500 a year for 5 to 100 agents. Adds a workflow builder, Microsoft Teams and WhatsApp" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom quote, starting at $12,000 a year. On-premise hosting and multiple SAML configurations" }
+    ],
+    "hiddenCosts": [
+      "Listed prices exclude taxes and additional fees.",
+      "Enterprise has no free trial; the entry point is a quote request."
+    ],
+    "sourceUrl": "https://www.invgate.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Starter and above (SSO integration listed on Starter)",
+    "sourceUrl": "https://www.invgate.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.invgate.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft Teams", "WhatsApp"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Exceptionless",
+  "status": "published",
+  "vendor": { "name": "Exceptionless", "website": "https://exceptionless.com" },
+  "primaryCategory": "error-tracking",
+  "summary": "Exceptionless is an open-source error and event tracker that can be hosted free on your own server. The hosted service runs from a free plan with 3,000 events a month to $15 for 15,000 events, $99 for 250,000 and $499 for 3 million, with prices listed monthly only.",
+  "qualifies": [
+    {
+      "category": "error-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "exception capture with stack traces", "sourceUrl": "https://exceptionless.com/" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://exceptionless.com/docs/managing-stacks/" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://exceptionless.com/docs/notifications/" },
+        { "capability": "release tracking", "sourceUrl": "https://exceptionless.com/docs/versioning/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Exceptionless groups matching events into stacks automatically, and stacks can also be built by hand.", "sourceUrl": "https://exceptionless.com/docs/managing-stacks/", "checkedAt": "2026-11-04" },
+    { "text": "A stack marked fixed is flagged as regressed when a newer matching event arrives, or one that reports a higher version than the recorded fix.", "sourceUrl": "https://exceptionless.com/docs/versioning/", "checkedAt": "2026-11-04" },
+    { "text": "On the free plan, error notifications arrive only as daily summaries, and searching, webhooks, Slack and Zapier need a paid plan.", "sourceUrl": "https://exceptionless.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Passing the event limit triggers a notice, and continued overages can require an upgrade or lead to account closure.", "sourceUrl": "https://exceptionless.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "3,000 events a month, 1 project, 1 user, 3-day retention" },
+      { "name": "Small", "priceUsd": 15, "billing": "month", "unit": "per account", "notes": "15,000 events a month, 5 projects, 10 users, 30-day retention" },
+      { "name": "Medium", "priceUsd": 49, "billing": "month", "unit": "per account", "notes": "75,000 events a month, 15 projects, 25 users, 90-day retention" },
+      { "name": "Large", "priceUsd": 99, "billing": "month", "unit": "per account", "notes": "250,000 events a month, unlimited projects and users, 180-day retention" },
+      { "name": "Extra Large", "priceUsd": 199, "billing": "month", "unit": "per account", "notes": "1,000,000 events a month, 180-day retention" },
+      { "name": "Enterprise", "priceUsd": 499, "billing": "month", "unit": "per account", "notes": "3,000,000 events a month, 180-day retention" }
+    ],
+    "hiddenCosts": [
+      "Self-hosting is free but you run the servers, upgrades and storage yourself.",
+      "The pricing page does not state where hosted data is stored."
+    ],
+    "sourceUrl": "https://exceptionless.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Email", "Slack", "Zapier", "Webhooks"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

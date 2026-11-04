@@ -1,0 +1,44 @@
+{
+  "name": "Datadog Error Tracking",
+  "status": "published",
+  "vendor": { "name": "Datadog, Inc.", "website": "https://www.datadoghq.com" },
+  "primaryCategory": "error-tracking",
+  "summary": "Datadog Error Tracking groups errors from browser, mobile, backend and log sources into issues. Standalone errors cost $25 a month on annual billing for the first 50,000, then $0.25 per 1,000 up to 100,000. Errors that come with APM traces or RUM events cost nothing extra.",
+  "qualifies": [
+    {
+      "category": "error-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "exception capture with stack traces", "sourceUrl": "https://docs.datadoghq.com/error_tracking/explorer/" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://docs.datadoghq.com/error_tracking/explorer/" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://docs.datadoghq.com/error_tracking/" },
+        { "capability": "release tracking", "sourceUrl": "https://docs.datadoghq.com/error_tracking/issue_states/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Datadog computes a fingerprint from attributes such as error type, message or stack trace, and errors with the same fingerprint share one issue.", "sourceUrl": "https://docs.datadoghq.com/error_tracking/explorer/", "checkedAt": "2026-11-04" },
+    { "text": "Monitors can alert on high error volume or on new issues.", "sourceUrl": "https://docs.datadoghq.com/error_tracking/", "checkedAt": "2026-11-04" },
+    { "text": "An issue resolves itself after 14 days without new errors, or sooner when a newer version no longer reports it and version tags are set.", "sourceUrl": "https://docs.datadoghq.com/error_tracking/issue_states/", "checkedAt": "2026-11-04" },
+    { "text": "Errors collected as part of APM traces and RUM events are included at no extra cost, while standalone errors are billed.", "sourceUrl": "https://www.datadoghq.com/pricing/?product=error-tracking", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Error Tracking, first 50,000 errors", "priceUsd": 25, "billing": "month", "unit": "per account", "notes": "Billed annually; $30 on month-to-month billing and $36 on demand" },
+      { "name": "Error Tracking, 50,000 to 100,000 errors", "priceUsd": 0.25, "billing": "month", "unit": "per 1,000 errors", "notes": "Annual rate; $0.30 month-to-month and $0.38 on demand. Rates fall to $0.10 per 1,000 above 20 million errors" }
+    ],
+    "hiddenCosts": [
+      "Error Tracking is priced separately from APM, RUM and Logs, which most teams also need for the traces behind an error.",
+      "On-demand billing is about 44% higher than the annual rate for the first 50,000 errors."
+    ],
+    "sourceUrl": "https://www.datadoghq.com/pricing/list/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "AvidXchange",
+  "status": "published",
+  "vendor": { "name": "AvidXchange", "website": "https://www.avidxchange.com" },
+  "primaryCategory": "ap-automation",
+  "summary": "AvidXchange sells invoice and payment automation to mid-sized businesses, with no published prices and a demo request instead. Its invoice page describes capture at header and line-item level, approval routing with an AI approval agent, and 2-way or 3-way matching. Suppliers are paid by virtual credit card, AvidPay Direct or mailed check.",
+  "qualifies": [
+    {
+      "category": "ap-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice capture", "sourceUrl": "https://www.avidxchange.com/solutions/invoice-automation-software/" },
+        { "capability": "approval workflows", "sourceUrl": "https://www.avidxchange.com/solutions/invoice-automation-software/" },
+        { "capability": "vendor payments", "sourceUrl": "https://www.avidxchange.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "AvidXchange says its AI extracts invoice data at header and line-item level with 99%+ accuracy.", "sourceUrl": "https://www.avidxchange.com/solutions/invoice-automation-software/", "checkedAt": "2026-11-04" },
+    { "text": "AvidXchange says its AI Approval Agent recommends approvals from historical approval data, and that approvers keep the final decision.", "sourceUrl": "https://www.avidxchange.com/solutions/invoice-automation-software/", "checkedAt": "2026-11-04" },
+    { "text": "The home page names virtual credit card, AvidPay Direct and mailed checks as supplier payment options.", "sourceUrl": "https://www.avidxchange.com/", "checkedAt": "2026-11-04" },
+    { "text": "AvidXchange describes itself as a licensed money transmitter for B2B payments in the United States.", "sourceUrl": "https://www.avidxchange.com/solutions/payment-automation-software/", "checkedAt": "2026-11-04" },
+    { "text": "The security page shows a PCI DSS compliant logo and says AvidXchange is guided by COSO, PCI DSS and NIST.", "sourceUrl": "https://www.avidxchange.com/security/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom quote", "priceUsd": null, "billing": "quote", "unit": "custom" }
+    ],
+    "hiddenCosts": [
+      "No fees for invoices, payments or supplier payment methods are published."
+    ],
+    "sourceUrl": "https://www.avidxchange.com/request-a-demo/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Intuit QuickBooks", "Microsoft", "Oracle NetSuite", "Sage", "Acumatica", "Blackbaud", "MIP Fund Accounting", "MRI", "Rent Manager", "Yardi"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

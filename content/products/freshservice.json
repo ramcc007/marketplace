@@ -1,0 +1,65 @@
+{
+  "name": "Freshservice",
+  "status": "published",
+  "vendor": { "name": "Freshworks Inc.", "website": "https://www.freshworks.com" },
+  "primaryCategory": "itsm",
+  "summary": "Freshservice has no free plan. Starter costs $19, Growth $49 and Pro $99 per agent a month on annual billing, with a 14-day trial. Incident management comes in every plan, while the service catalog and SLA management start on Growth. Enterprise is priced by quote. The terms make payments non-cancelable and non-refundable during a term.",
+  "qualifies": [
+    {
+      "category": "itsm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "incident and request tickets", "sourceUrl": "https://www.freshworks.com/freshservice/features/incident-management/" },
+        { "capability": "it service catalog", "sourceUrl": "https://www.freshworks.com/freshservice/it-service-desk/it-service-catalog-management/" },
+        { "capability": "sla tracking", "sourceUrl": "https://www.freshworks.com/freshservice/it-service-desk/sla-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Freshservice lists incident management on Starter, and the service catalog and SLA management on Growth and above.", "sourceUrl": "https://www.freshworks.com/freshservice/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The 14-day trial gives access to all features, and new accounts get 3 free Day Passes for occasional agents.", "sourceUrl": "https://www.freshworks.com/freshservice/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "After an account closes, customer data is available for export for 14 days, and Freshworks may keep it for up to three months before deletion.", "sourceUrl": "https://www.freshworks.com/terms/", "checkedAt": "2026-11-04" },
+    { "text": "Plans renew automatically unless a party gives written notice at least 30 days before the term ends.", "sourceUrl": "https://www.freshworks.com/terms/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Starter", "priceUsd": 19, "billing": "month", "unit": "per agent", "notes": "Billed annually. Incident management, knowledge management, task management and a support portal" },
+      { "name": "Growth", "priceUsd": 49, "billing": "month", "unit": "per agent", "notes": "Billed annually. Adds the service catalog, SLA management and on-call management" },
+      { "name": "Pro", "priceUsd": 99, "billing": "month", "unit": "per agent", "notes": "Billed annually. Adds problem, change, major incident and release management" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per agent", "notes": "Contact sales. Adds a sandbox and audit logs" }
+    ],
+    "hiddenCosts": [
+      "The Freddy AI Copilot add-on costs $29 per agent a month and is sold for Pro and Enterprise only.",
+      "Day Passes for occasional agents beyond the 3 free ones start at $3.",
+      "IT asset management is licensed in Asset Units sold in packs of 500."
+    ],
+    "sourceUrl": "https://www.freshworks.com/freshservice/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.freshworks.com/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Payment obligations are non-cancelable and non-refundable except as the agreement allows, and users cannot be reduced or the plan downgraded during a term.",
+    "dataExport": "Data can be exported for 14 days after closure, if payments are current.",
+    "exportSourceUrl": "https://www.freshworks.com/terms/",
+    "sourceUrl": "https://www.freshworks.com/terms/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "Zoom", "Okta", "GitHub", "Google Workspace", "Amazon Web Services", "Microsoft Azure"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

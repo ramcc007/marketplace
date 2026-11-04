@@ -1,0 +1,64 @@
+{
+  "name": "Brex Bill Pay",
+  "status": "published",
+  "vendor": { "name": "Brex", "website": "https://www.brex.com" },
+  "primaryCategory": "ap-automation",
+  "summary": "Brex includes bill pay in its spend platform. The Essentials plan costs $0 per user a month and Premium costs $12, with Enterprise by quote. Brex's comparison table lists automatic invoice entry, multi-level approval flows and payment from a Brex account or an external bank account on all three plans. Payment fees sit on a separate rates page.",
+  "qualifies": [
+    {
+      "category": "ap-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice capture", "sourceUrl": "https://www.brex.com/support/bill-pay-overview" },
+        { "capability": "approval workflows", "sourceUrl": "https://www.brex.com/support/bill-pay-overview" },
+        { "capability": "vendor payments", "sourceUrl": "https://www.brex.com/support/bill-pay-overview" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Brex's help center says invoices can be uploaded directly or forwarded to Brex automatically.", "sourceUrl": "https://www.brex.com/support/bill-pay-overview", "checkedAt": "2026-11-04" },
+    { "text": "Approval chains can route bills by amount and vendor and include a payment releaser, and a fully approved bill is paid on the chosen payment date.", "sourceUrl": "https://www.brex.com/support/bill-pay-overview", "checkedAt": "2026-11-04" },
+    { "text": "Brex estimates domestic wires at 0 to 1 business days, ACH from an external bank account at 2 to 5 banking days, and checks at 7 to 10 business days.", "sourceUrl": "https://www.brex.com/support/bill-pay-overview", "checkedAt": "2026-11-04" },
+    { "text": "Brex states SOC 1 Type II, SOC 2 Type II and PCI-DSS, and offers single sign-on through OIDC or SAML with Okta, Microsoft and Google Workspace.", "sourceUrl": "https://www.brex.com/security", "checkedAt": "2026-11-04" },
+    { "text": "The Brex platform agreement has no automatic renewal clause, and Brex may end it with 30 days notice.", "sourceUrl": "https://www.brex.com/legal/platform-agreement", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Essentials", "priceUsd": 0, "billing": "month", "unit": "per user" },
+      { "name": "Premium", "priceUsd": 12, "billing": "month", "unit": "per user" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom" }
+    ],
+    "hiddenCosts": [
+      "ACH, wire and check fees are published on a separate rates and fees page and are not part of the plan prices.",
+      "The pricing page does not say whether the per-user prices are billed monthly or annually."
+    ],
+    "sourceUrl": "https://www.brex.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Offered on Brex; plan not stated",
+    "sourceUrl": "https://www.brex.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": false,
+    "cancellation": "The agreement runs until either side ends it. Brex may end it with 30 days notice, and a customer ends it by stopping use, clearing amounts owed and giving notice.",
+    "dataExport": null,
+    "sourceUrl": "https://www.brex.com/legal/platform-agreement",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
+

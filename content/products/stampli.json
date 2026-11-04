@@ -1,0 +1,43 @@
+{
+  "name": "Stampli",
+  "status": "published",
+  "vendor": { "name": "Stampli", "website": "https://www.stampli.com" },
+  "primaryCategory": "ap-automation",
+  "summary": "Stampli is an AP platform that keeps invoice questions, comments and approvals attached to each invoice. Its pricing page shows no dollar amounts and offers a quote request. Invoices arrive by email, upload or vendor portal, and payments go out by ACH, check, virtual card or supported international methods, depending on configuration.",
+  "qualifies": [
+    {
+      "category": "ap-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice capture", "sourceUrl": "https://www.stampli.com/ap-automation-platform/" },
+        { "capability": "approval workflows", "sourceUrl": "https://www.stampli.com/ap-automation-platform/" },
+        { "capability": "vendor payments", "sourceUrl": "https://www.stampli.com/payments/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Stampli's FAQ says invoices can enter by email, upload or the vendor portal, and that its Billy assistant can extract invoice data and suggest coding.", "sourceUrl": "https://www.stampli.com/ap-automation-platform/", "checkedAt": "2026-11-04" },
+    { "text": "Stampli says invoices can be routed by entity, amount, department, vendor or custom rules.", "sourceUrl": "https://www.stampli.com/ap-automation-platform/", "checkedAt": "2026-11-04" },
+    { "text": "The payments page lists ACH, paper check, virtual card and supported international payment methods, subject to product availability and configuration.", "sourceUrl": "https://www.stampli.com/payments/", "checkedAt": "2026-11-04" },
+    { "text": "Stampli names QuickBooks, NetSuite, Sage Intacct, Microsoft Dynamics, Oracle Fusion, SAP and Acumatica among its ERP integrations.", "sourceUrl": "https://www.stampli.com/", "checkedAt": "2026-11-04" },
+    { "text": "The payments page states no fees for any payment method.", "sourceUrl": "https://www.stampli.com/payments/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom quote", "priceUsd": null, "billing": "quote", "unit": "custom" }
+    ],
+    "hiddenCosts": [
+      "Payment fees are not published and are set through sales."
+    ],
+    "sourceUrl": "https://www.stampli.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft Dynamics 365 Business Central", "Microsoft Dynamics 365 Finance", "Oracle Fusion", "Oracle NetSuite", "Sage 100", "Sage Intacct", "SAP ECC", "SAP S/4HANA", "Acumatica", "QuickBooks Desktop", "QuickBooks Online"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
+

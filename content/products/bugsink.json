@@ -1,0 +1,48 @@
+{
+  "name": "Bugsink",
+  "status": "published",
+  "vendor": { "name": "Bugsink B.V.", "website": "https://www.bugsink.com" },
+  "primaryCategory": "error-tracking",
+  "summary": "Bugsink is a small error tracker that accepts Sentry SDKs. Managed plans start at 16 euros a month for 75,000 events with unlimited users and EU hosting, and the self-hosted version is free. Prices are listed in euros only.",
+  "qualifies": [
+    {
+      "category": "error-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "exception capture with stack traces", "sourceUrl": "https://www.bugsink.com/error-tracking/" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://www.bugsink.com/docs/grouping/" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://www.bugsink.com/docs/alerts/" },
+        { "capability": "release tracking", "sourceUrl": "https://www.bugsink.com/docs/releases/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Bugsink normalizes variable parts of a message, such as IP addresses, numbers and durations, before grouping, and custom fingerprints are supported.", "sourceUrl": "https://www.bugsink.com/docs/grouping/", "checkedAt": "2026-11-04" },
+    { "text": "By default it alerts on new issues, regressions and issues that come out of a mute, not on every event added to an open issue.", "sourceUrl": "https://www.bugsink.com/docs/alerts/", "checkedAt": "2026-11-04" },
+    { "text": "Releases are inferred from events that carry a release identifier, since setting them up in the interface or command line is not yet available.", "sourceUrl": "https://www.bugsink.com/docs/releases/", "checkedAt": "2026-11-04" },
+    { "text": "Managed data is stored and processed in the EU, and the data processing agreement sets a 60-day retention for raw event data.", "sourceUrl": "https://www.bugsink.com/managed/", "checkedAt": "2026-11-04" },
+    { "text": "Existing Sentry SDKs work by changing the DSN.", "sourceUrl": "https://www.bugsink.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 28,
+    "plans": [
+      { "name": "15K evaluation", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "15,000 events a month, 5,000 events kept, 1 user and 1 team" },
+      { "name": "75K", "priceUsd": null, "listedPrice": { "amount": 16, "currency": "EUR" }, "billing": "month", "unit": "per account", "notes": "75,000 events a month, unlimited users and teams. Listed in euros" },
+      { "name": "600K", "priceUsd": null, "listedPrice": { "amount": 50, "currency": "EUR" }, "billing": "month", "unit": "per account", "notes": "600,000 events a month. Listed in euros" },
+      { "name": "3M", "priceUsd": null, "listedPrice": { "amount": 158, "currency": "EUR" }, "billing": "month", "unit": "per account", "notes": "3 million events a month. Listed in euros" },
+      { "name": "Self-hosted", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "All features and unlimited users; event volume depends on your hardware" }
+    ],
+    "hiddenCosts": [
+      "Premium support for self-hosting costs 15 euros per user a month.",
+      "Higher managed volumes cost 568 euros a month for 15 million events and 1,288 euros for 50 million."
+    ],
+    "sourceUrl": "https://www.bugsink.com/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Slack", "Mattermost", "Discord", "Microsoft Teams", "Telegram", "Webhooks", "Email"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

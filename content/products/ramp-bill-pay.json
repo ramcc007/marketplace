@@ -1,0 +1,56 @@
+{
+  "name": "Ramp Bill Pay",
+  "status": "published",
+  "vendor": { "name": "Ramp", "website": "https://ramp.com" },
+  "primaryCategory": "ap-automation",
+  "summary": "Ramp sells accounts payable as part of its spend platform. The Free plan lists invoice extraction, approval workflows and payments by ACH, card, check and wire at $0 per user. Plus costs $15 per user a month plus a platform fee based on team size, and the fee amount is not published. Enterprise is by quote.",
+  "qualifies": [
+    {
+      "category": "ap-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice capture", "sourceUrl": "https://ramp.com/accounts-payable" },
+        { "capability": "approval workflows", "sourceUrl": "https://ramp.com/accounts-payable" },
+        { "capability": "vendor payments", "sourceUrl": "https://ramp.com/accounts-payable" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Ramp says its optical character recognition captures each detail and line item with 99% accuracy and pulls bank details from an invoice to create a vendor record.", "sourceUrl": "https://ramp.com/accounts-payable", "checkedAt": "2026-11-04" },
+    { "text": "Ramp says it routes every bill to the right approver, and that an agent recommends approvals and flags items that need review.", "sourceUrl": "https://ramp.com/accounts-payable", "checkedAt": "2026-11-04" },
+    { "text": "Ramp says vendors can be paid by card, ACH or wire, with same-day ACH, checks and wires in foreign currencies also supported.", "sourceUrl": "https://ramp.com/accounts-payable", "checkedAt": "2026-11-04" },
+    { "text": "Ramp states annual SOC 2 Type II audits and adherence to PCI standards, and supports single sign-on through Okta, Google and Microsoft Azure.", "sourceUrl": "https://ramp.com/security", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says Ramp Bill payments are subject to their own terms and conditions, and lists 1099 filing at $0.65 per IRS filing with free state filing.", "sourceUrl": "https://ramp.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Includes invoice extraction, approval workflows and bill payment by ACH, card, check and wire" },
+      { "name": "Plus", "priceUsd": 15, "billing": "month", "unit": "per user", "notes": "Plus a platform fee based on team size, amount not published. 20% off with annual billing. Adds auto-coded line items, AI approval recommendations and batch payments" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "Billed annually" }
+    ],
+    "hiddenCosts": [
+      "The Plus platform fee depends on team size and no amount is published.",
+      "Procurement, including three-way match with Ramp purchase orders, is a separate add-on for Plus or Enterprise.",
+      "1099 filing costs $0.65 per IRS filing, and Ramp Bill payments are subject to separate payment terms."
+    ],
+    "sourceUrl": "https://ramp.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Supported through Okta, Google and Microsoft Azure; plan not stated",
+    "sourceUrl": "https://ramp.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["NetSuite", "QuickBooks", "Sage Intacct", "Xero"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
+

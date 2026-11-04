@@ -1,0 +1,57 @@
+{
+  "name": "Sentry",
+  "status": "published",
+  "vendor": { "name": "Functional Software, Inc. (Sentry)", "website": "https://sentry.io" },
+  "primaryCategory": "error-tracking",
+  "summary": "Sentry groups errors into issues, links them to releases and alerts on changes. The Developer plan is free for one user with 5,000 errors a month. Team costs $26 a month on annual billing for 50,000 errors, and Business at $80 adds SAML single sign-on.",
+  "qualifies": [
+    {
+      "category": "error-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "exception capture with stack traces", "sourceUrl": "https://docs.sentry.io/product/issues/" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://docs.sentry.io/product/issues/" },
+        { "capability": "release tracking", "sourceUrl": "https://docs.sentry.io/product/releases/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Sentry groups similar events into one issue based on a fingerprint, and a release marks an issue as a regression when newer events arrive after it was resolved.", "sourceUrl": "https://docs.sentry.io/product/releases/", "checkedAt": "2026-11-04" },
+    { "text": "An organization is created in either the US (Iowa) or the EU (Frankfurt), and the storage location cannot be changed afterwards.", "sourceUrl": "https://docs.sentry.io/organization/data-storage-location/", "checkedAt": "2026-11-04" },
+    { "text": "Spike protection drops events when volume crosses a threshold based on past consumption, and events dropped this way are not charged.", "sourceUrl": "https://docs.sentry.io/pricing/quotas/", "checkedAt": "2026-11-04" },
+    { "text": "Server-side scrubbing is on by default and removes card-like numbers and values whose keys contain words such as password, token or secret.", "sourceUrl": "https://docs.sentry.io/security-legal-pii/scrubbing/server-side-scrubbing/", "checkedAt": "2026-11-04" },
+    { "text": "In the JavaScript SDK the error sample rate defaults to 1, which sends every error.", "sourceUrl": "https://docs.sentry.io/platforms/javascript/configuration/sampling/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Developer", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "1 user, 5,000 errors a month, 30-day lookback" },
+      { "name": "Team", "priceUsd": 26, "billing": "month", "unit": "per account", "notes": "Billed annually; $29 on monthly billing. 50,000 errors a month, unlimited users, up to 90-day lookback" },
+      { "name": "Business", "priceUsd": 80, "billing": "month", "unit": "per account", "notes": "Billed annually; $89 on monthly billing. 50,000 errors a month, SAML2 and SCIM, 14-day trial without a card" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Price on request" }
+    ],
+    "hiddenCosts": [
+      "Events over the reserved quota are not accepted unless pay-as-you-go is set up, so a spike can leave a gap in data.",
+      "Logs and application metrics cost $0.50 per GB over the included 5 GB.",
+      "Uptime alerts cost $1.00 each and cron monitors $0.78 each beyond the plan allowance.",
+      "The Seer AI debugging agent is an extra cost on Team and above."
+    ],
+    "sourceUrl": "https://sentry.io/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Business for SAML2 and SCIM; Team has Google and GitHub sign-in",
+    "sourceUrl": "https://sentry.io/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

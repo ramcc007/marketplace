@@ -1,0 +1,54 @@
+{
+  "name": "Tipalti",
+  "status": "published",
+  "vendor": { "name": "Tipalti", "website": "https://tipalti.com" },
+  "primaryCategory": "ap-automation",
+  "summary": "Tipalti is an AP platform built for companies that pay suppliers abroad. Its pricing page shows Accounts Payable plans starting at $99 a month with unlimited users, then adds per-invoice and per-payment fees by quote. It lists payments in 200+ countries and territories and ERP connections including NetSuite, Sage Intacct and SAP.",
+  "qualifies": [
+    {
+      "category": "ap-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice capture", "sourceUrl": "https://tipalti.com/ap-automation/" },
+        { "capability": "approval workflows", "sourceUrl": "https://tipalti.com/ap-automation/" },
+        { "capability": "vendor payments", "sourceUrl": "https://tipalti.com/ap-automation/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Tipalti says its Invoice Capture Agent extracts invoice data at header and line-item level, including foreign-currency amounts and VAT.", "sourceUrl": "https://tipalti.com/ap-automation/", "checkedAt": "2026-11-04" },
+    { "text": "Tipalti says approval rules can be set at header or line-item level, and approvers can sign off from email without logging in.", "sourceUrl": "https://tipalti.com/ap-automation/", "checkedAt": "2026-11-04" },
+    { "text": "Tipalti advertises payments in 200+ countries and territories, 120 local currencies and 50+ payment methods.", "sourceUrl": "https://tipalti.com/ap-automation/", "checkedAt": "2026-11-04" },
+    { "text": "Tipalti's data processing addendum says it undergoes a SOC 2 Type II audit every year.", "sourceUrl": "https://tipalti.com/legal/customer-dpa/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing FAQ says pricing is a subscription plus transaction-based fees, depending on payment volume, number of entities and enabled modules.", "sourceUrl": "https://tipalti.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Accounts Payable", "priceUsd": 99, "billing": "month", "unit": "per account", "notes": "Starting price with unlimited users; the page does not label the currency. Transaction fees per invoice and payment are extra, and a custom quote is required" },
+      { "name": "Mass Payments", "priceUsd": 249, "billing": "month", "unit": "per account", "notes": "Starting price with unlimited users and a payee portal. Transaction fees per payment are extra" }
+    ],
+    "hiddenCosts": [
+      "Per-invoice and per-payment transaction fees are charged on top of the subscription, and the amounts are not published.",
+      "Procurement, Expenses and Treasury are separate modules, and complex setups may need paid professional services."
+    ],
+    "sourceUrl": "https://tipalti.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://tipalti.com/legal/customer-dpa/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["NetSuite", "Sage Intacct", "QuickBooks", "Microsoft Dynamics", "SAP", "Acumatica (US only)"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
+

@@ -1,0 +1,53 @@
+{
+  "name": "AppSignal",
+  "status": "published",
+  "vendor": { "name": "AppSignal B.V.", "website": "https://www.appsignal.com" },
+  "primaryCategory": "error-tracking",
+  "summary": "AppSignal bundles error tracking with performance monitoring and logging. The free plan covers 30,000 requests a month with 5-day retention, and the paid plan costs $279 a year, shown as $23.25 a month, for 250,000 requests with unlimited users and no overage charges.",
+  "qualifies": [
+    {
+      "category": "error-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "exception capture with stack traces", "sourceUrl": "https://docs.appsignal.com/errors" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://docs.appsignal.com/errors" },
+        { "capability": "release tracking", "sourceUrl": "https://docs.appsignal.com/guides/deploy-markers" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "AppSignal groups an exception into an issue with other occurrences of the same error type on the same action and namespace.", "sourceUrl": "https://docs.appsignal.com/errors", "checkedAt": "2026-11-04" },
+    { "text": "Until deploy markers are added, AppSignal counts everything since the app was created as one deploy, so the new errors filter shows nothing useful.", "sourceUrl": "https://docs.appsignal.com/errors", "checkedAt": "2026-11-04" },
+    { "text": "Quotas count requests rather than errors, and the pricing page says there are no overage charges.", "sourceUrl": "https://www.appsignal.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "AppSignal states ISO 27001 certification and describes itself as EU-based.", "sourceUrl": "https://www.appsignal.com/security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "30,000 requests a month, 1 GB logging, 5-day retention, unlimited users" },
+      { "name": "Paid", "priceUsd": 23.25, "billing": "month", "unit": "per account", "notes": "Billed yearly at $279; the page showed no monthly-billing price. 250,000 requests a month, 1 GB logging a month, unlimited users" }
+    ],
+    "hiddenCosts": [
+      "Long-term log storage and the HIPAA add-on each cost $89 a month.",
+      "Logging beyond 1 GB a month is a paid add-on.",
+      "SAML single sign-on is sold only through the Customer Success team, with no listed price."
+    ],
+    "sourceUrl": "https://www.appsignal.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": "Enterprise SAML on request; GitHub login is free",
+    "sourceUrl": "https://www.appsignal.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Email", "Slack"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

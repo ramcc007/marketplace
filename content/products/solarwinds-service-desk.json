@@ -1,0 +1,62 @@
+{
+  "name": "SolarWinds Service Desk",
+  "status": "published",
+  "vendor": { "name": "SolarWinds", "website": "https://www.solarwinds.com" },
+  "primaryCategory": "itsm",
+  "summary": "SolarWinds Service Desk costs from $39 (Essentials), $99 (Advanced) or $124 (Premier) per technician a month, billed once a year. Essentials already includes incident management, a service catalog, SLA tracking and a CMDB, and end users are unlimited. The 30-day trial opens Premier features. The service says it is ISO 27001 certified and lets customers pick a US, EU or Australia data center.",
+  "qualifies": [
+    {
+      "category": "itsm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "incident and request tickets", "sourceUrl": "https://www.solarwinds.com/service-desk/use-cases/incident-management-software" },
+        { "capability": "it service catalog", "sourceUrl": "https://www.solarwinds.com/service-desk/use-cases/it-service-catalog" },
+        { "capability": "sla tracking", "sourceUrl": "https://www.solarwinds.com/service-desk/use-cases/service-level-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "SolarWinds says Service Desk is ISO 27001 certified and is GDPR compliant.", "sourceUrl": "https://www.solarwinds.com/service-desk/data-security-certifications-accreditations", "checkedAt": "2026-11-04" },
+    { "text": "Servers are hosted by AWS in the United States, the European Union and Australia, and the customer chooses the region.", "sourceUrl": "https://www.solarwinds.com/service-desk/data-security-certifications-accreditations", "checkedAt": "2026-11-04" },
+    { "text": "The vendor says it signs HIPAA Business Associate Agreements.", "sourceUrl": "https://www.solarwinds.com/service-desk/data-security-certifications-accreditations", "checkedAt": "2026-11-04" },
+    { "text": "The 30-day trial gives full access to Premier features, and the trial account is disabled if the customer does not subscribe.", "sourceUrl": "https://www.solarwinds.com/service-desk/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Essentials", "priceUsd": 39, "billing": "month", "unit": "per technician", "notes": "Starting price, billed annually. Incident management, knowledge base, service catalog, change management, CMDB, asset management and SLA tracking" },
+      { "name": "Advanced", "priceUsd": 99, "billing": "month", "unit": "per technician", "notes": "Starting price, billed annually. Adds custom forms, advanced automations, a virtual agent and API access" },
+      { "name": "Premier", "priceUsd": 124, "billing": "month", "unit": "per technician", "notes": "Starting price, billed annually. Adds AI incident summaries, a visual CMDB and a sandbox" }
+    ],
+    "hiddenCosts": [
+      "Asset pricing for Essentials is available on request.",
+      "The page does not name its pricing currency; the figures are shown with a dollar sign."
+    ],
+    "sourceUrl": "https://www.solarwinds.com/service-desk/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.solarwinds.com/service-desk/data-security-certifications-accreditations",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.solarwinds.com/service-desk/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Jira", "Slack", "Microsoft Teams", "Zapier", "Okta", "Azure Active Directory", "Google SSO", "Amazon Web Services", "Microsoft Azure", "VMware vCenter", "REST API"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

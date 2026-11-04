@@ -1,0 +1,47 @@
+{
+  "name": "TrackJS",
+  "status": "published",
+  "vendor": { "name": "TrackJS LLC", "website": "https://trackjs.com" },
+  "primaryCategory": "error-tracking",
+  "summary": "TrackJS tracks JavaScript errors in the browser. Plans are priced by page views and apps, not by error count: Starter is $49 a month for 100,000 page views and one app, Professional $99, and Business $199. Limits are soft, and seats are unlimited.",
+  "qualifies": [
+    {
+      "category": "error-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "exception capture with stack traces", "sourceUrl": "https://docs.trackjs.com/data-management/minified-sources/" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://docs.trackjs.com/data-management/grouping/" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://docs.trackjs.com/notifications/" },
+        { "capability": "release tracking", "sourceUrl": "https://docs.trackjs.com/browser-agent/tips-and-tricks/page-version/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "TrackJS applies a source map to a minified stack trace when the script carries a sourceMappingUrl, and formats minified files when no map exists.", "sourceUrl": "https://docs.trackjs.com/data-management/minified-sources/", "checkedAt": "2026-11-04" },
+    { "text": "Errors are grouped by rules written in a dashboard group builder or by an onError callback in the agent that edits the report before it is sent.", "sourceUrl": "https://docs.trackjs.com/data-management/grouping/", "checkedAt": "2026-11-04" },
+    { "text": "Notification channels are email, Slack and Microsoft Teams, and daily summaries go by email only.", "sourceUrl": "https://docs.trackjs.com/notifications/", "checkedAt": "2026-11-04" },
+    { "text": "The page version comes from a meta tag set at build time, such as a Git revision, and is attached to each reported error.", "sourceUrl": "https://docs.trackjs.com/browser-agent/tips-and-tricks/page-version/", "checkedAt": "2026-11-04" },
+    { "text": "Plan limits are soft: going over prompts an upgrade, and the pricing page says the service keeps working.", "sourceUrl": "https://trackjs.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 49, "billing": "month", "unit": "per account", "notes": "100,000 page views, 1 app, 10-day retention, 20 errors a minute. Yearly billing shows $45 a month" },
+      { "name": "Professional", "priceUsd": 99, "billing": "month", "unit": "per account", "notes": "1 million page views, 5 apps, 15-day retention, 60 errors a minute. Yearly billing shows $91 a month" },
+      { "name": "Business", "priceUsd": 199, "billing": "month", "unit": "per account", "notes": "5 million page views and up, 10 apps, 30-day retention, 90 errors a minute. Yearly billing shows $183 a month" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Price on request" }
+    ],
+    "hiddenCosts": [
+      "Each plan allows a fixed number of apps, and the error rate limit per minute rises only with the plan.",
+      "The page shows a free trial on each paid plan without stating how long it lasts."
+    ],
+    "sourceUrl": "https://trackjs.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Email", "Slack", "Microsoft Teams"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

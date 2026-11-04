@@ -1,0 +1,43 @@
+{
+  "name": "Medius",
+  "status": "published",
+  "vendor": { "name": "Medius", "website": "https://www.medius.com" },
+  "primaryCategory": "ap-automation",
+  "summary": "Medius sells AP automation for mid-sized and larger finance teams in two packages, AP Essentials and AP 360, both by quote with no published price. Payment is part of the invoice-to-pay flow, with ACH, electronic checks and virtual card in the US and SEPA, BACS, CHAPS and wires in Europe.",
+  "qualifies": [
+    {
+      "category": "ap-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice capture", "sourceUrl": "https://www.medius.com/solutions/medius-accounts-payable-automation/" },
+        { "capability": "approval workflows", "sourceUrl": "https://www.medius.com/solutions/medius-accounts-payable-automation/" },
+        { "capability": "vendor payments", "sourceUrl": "https://www.medius.com/solutions/medius-payments/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Medius says its Capture module uses AI to extract invoice data automatically and archives invoices for later audit.", "sourceUrl": "https://www.medius.com/solutions/medius-accounts-payable-automation/", "checkedAt": "2026-11-04" },
+    { "text": "Medius says AI suggests coding and approvers and routes invoices dynamically.", "sourceUrl": "https://www.medius.com/solutions/medius-accounts-payable-automation/", "checkedAt": "2026-11-04" },
+    { "text": "The payments page lists ACH, electronic print checks and virtual card in the US, and SEPA, BACS, CHAPS, BankGiro and wire in Europe.", "sourceUrl": "https://www.medius.com/solutions/medius-payments/", "checkedAt": "2026-11-04" },
+    { "text": "Medius says it returns a monthly vested share of virtual card spend to the customer.", "sourceUrl": "https://www.medius.com/solutions/medius-payments/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page shows two packages, AP Essentials and AP 360, and sends buyers to sales for a quote.", "sourceUrl": "https://www.medius.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "AP Essentials", "priceUsd": null, "billing": "quote", "unit": "custom" },
+      { "name": "AP 360", "priceUsd": null, "billing": "quote", "unit": "custom" }
+    ],
+    "hiddenCosts": [
+      "Additional Medius solutions can be added to either package at extra cost, with no amounts published."
+    ],
+    "sourceUrl": "https://www.medius.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

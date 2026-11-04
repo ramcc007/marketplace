@@ -1,0 +1,63 @@
+{
+  "name": "Alloy Navigator",
+  "status": "published",
+  "vendor": { "name": "Alloy Software", "website": "https://www.alloysoftware.com" },
+  "primaryCategory": "itsm",
+  "summary": "Alloy Navigator costs $19 (Explorer, up to 3 technicians), $49 (Express) or $89 (Enterprise) per technician a month on annual billing. Requesters are unlimited. Its page lists the service catalog under Enterprise only. Cloud hosting carries extra fees, and the vendor reports a SOC 2 Type II audit finished in November 2025. A trial with all features is offered.",
+  "qualifies": [
+    {
+      "category": "itsm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "incident and request tickets", "sourceUrl": "https://www.alloysoftware.com/it-service-management-software/incident-management/" },
+        { "capability": "it service catalog", "sourceUrl": "https://www.alloysoftware.com/it-service-management-software/service-catalog/" },
+        { "capability": "sla tracking", "sourceUrl": "https://www.alloysoftware.com/it-service-management-software/sla-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page lists the service catalog, ITIL processes, a CMDB and project management under Enterprise only.", "sourceUrl": "https://www.alloysoftware.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The page states that cloud hosting is subject to additional fees not included in the base price, and training costs extra.", "sourceUrl": "https://www.alloysoftware.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Alloy says its SOC 2 Type II audit finished in early November 2025, after a Type I report in April 2025.", "sourceUrl": "https://www.alloysoftware.com/blog/alloy-software-completes-soc-2-type-2/", "checkedAt": "2026-11-04" },
+    { "text": "The software can run on premises or in the cloud.", "sourceUrl": "https://www.alloysoftware.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Explorer", "priceUsd": 19, "billing": "month", "unit": "per technician", "notes": "Billed annually, up to 3 technicians. Help desk, asset management, knowledge base and self-service portal" },
+      { "name": "Express", "priceUsd": 49, "billing": "month", "unit": "per technician", "notes": "Billed annually, 4 or more technicians. Adds change management and approvals" },
+      { "name": "Enterprise", "priceUsd": 89, "billing": "month", "unit": "per technician", "notes": "Billed annually, 4 or more technicians. Adds ITIL processes, CMDB, project management, service catalog" }
+    ],
+    "hiddenCosts": [
+      "Cloud hosting carries additional fees, and the FAQ mentions a cloud setup fee.",
+      "Audit licenses for auto-discovered computers are priced separately; the calculator did not load for us.",
+      "Training is not included."
+    ],
+    "sourceUrl": "https://www.alloysoftware.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.alloysoftware.com/blog/alloy-software-completes-soc-2-type-2/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.alloysoftware.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

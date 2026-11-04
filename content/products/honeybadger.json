@@ -1,0 +1,54 @@
+{
+  "name": "Honeybadger",
+  "status": "published",
+  "vendor": { "name": "Honeybadger Industries LLC", "website": "https://www.honeybadger.io" },
+  "primaryCategory": "error-tracking",
+  "summary": "Honeybadger tracks errors with uptime checks and logs in one plan. The free Developer plan has 5,000 errors for one user. Team is $26 a month for 50,000 errors and unlimited users, and Business at $80 keeps error data 180 days.",
+  "qualifies": [
+    {
+      "category": "error-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "exception capture with stack traces", "sourceUrl": "https://docs.honeybadger.io/guides/errors/" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://docs.honeybadger.io/guides/errors/" },
+        { "capability": "release tracking", "sourceUrl": "https://docs.honeybadger.io/guides/errors/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "By default Honeybadger resolves all errors in a project when a deployment is reported, so recurring errors raise new alerts.", "sourceUrl": "https://docs.honeybadger.io/guides/errors/", "checkedAt": "2026-11-04" },
+    { "text": "Errors are grouped by file name, method name, line number, class name and component, and a custom fingerprint can override the grouping.", "sourceUrl": "https://docs.honeybadger.io/guides/errors/", "checkedAt": "2026-11-04" },
+    { "text": "Customers choose to store data in the United States or the European Union.", "sourceUrl": "https://www.honeybadger.io/security/", "checkedAt": "2026-11-04" },
+    { "text": "Error processing continues up to 125% of the monthly quota and then stops until the month ends.", "sourceUrl": "https://www.honeybadger.io/plans/", "checkedAt": "2026-11-04" },
+    { "text": "A before_notify callback can drop a notice that contains sensitive data, and request.filter_keys defaults to password and password_confirmation.", "sourceUrl": "https://docs.honeybadger.io/lib/ruby/gem-reference/configuration/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Developer", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "1 user, 5,000 errors a month, 15-day error retention" },
+      { "name": "Team", "priceUsd": 26, "billing": "month", "unit": "per account", "notes": "50,000 errors a month, unlimited users, 90-day error retention. The page also shows $286 a year" },
+      { "name": "Business", "priceUsd": 80, "billing": "month", "unit": "per account", "notes": "50,000 errors a month, unlimited teams, 180-day error retention. The page also shows $880 a year" }
+    ],
+    "hiddenCosts": [
+      "Optional overage billing charges $0.0003 per notification on Team and $0.0006 on Business above the quota.",
+      "Logging and performance tiers raise the price and set how long Insights data is kept."
+    ],
+    "sourceUrl": "https://www.honeybadger.io/plans/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": "Not confirmed; the page lists SAML and custom sign-in without a plan",
+    "sourceUrl": "https://www.honeybadger.io/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "PagerDuty", "Opsgenie", "GitHub", "GitLab", "Bitbucket", "Jira", "Linear", "Datadog", "Discord", "Webhook"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

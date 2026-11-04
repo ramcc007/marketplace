@@ -1,0 +1,56 @@
+{
+  "name": "GlitchTip",
+  "status": "published",
+  "vendor": { "name": "GlitchTip", "website": "https://glitchtip.com" },
+  "primaryCategory": "error-tracking",
+  "summary": "GlitchTip is an open-source error tracker that accepts Sentry client SDKs and also runs on your own server. Hosted plans are $15 a month for 100,000 events, $50 for 500,000 and $250 for 3 million, with a free plan of 1,000 events and a choice of US or EU hosting.",
+  "qualifies": [
+    {
+      "category": "error-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "exception capture with stack traces", "sourceUrl": "https://glitchtip.com/documentation/error-tracking" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://glitchtip.com/blog/2023-07-15-glitchtip-3-3" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://glitchtip.com/documentation/error-tracking" },
+        { "capability": "release tracking", "sourceUrl": "https://glitchtip.com/documentation/cli/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The hosted US instance runs on DigitalOcean in New York and the EU instance on DigitalOcean in Frankfurt, with no replication between them.", "sourceUrl": "https://glitchtip.com/documentation/hosted-architecture", "checkedAt": "2026-11-04" },
+    { "text": "GlitchTip says its controls follow SOC 2 and ISO 27001 but that it has not been audited or certified against either.", "sourceUrl": "https://glitchtip.com/documentation/hosted-architecture", "checkedAt": "2026-11-04" },
+    { "text": "Event data is purged after 90 days by default, and a Business Associate Agreement is available on the Large plan on request.", "sourceUrl": "https://glitchtip.com/documentation/hosted-architecture", "checkedAt": "2026-11-04" },
+    { "text": "The command line tool creates and finalizes releases, records deploys, and uploads source maps for readable JavaScript stack traces.", "sourceUrl": "https://glitchtip.com/documentation/cli/", "checkedAt": "2026-11-04" },
+    { "text": "Events beyond the plan limit can be billed on demand at $0.17 per 1,000 for the first million over.", "sourceUrl": "https://glitchtip.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Hobby and trial", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Up to 1,000 events a month, 30-day retention" },
+      { "name": "Small", "priceUsd": 15, "billing": "month", "unit": "per account", "notes": "Up to 100,000 events a month, 90-day retention, unlimited team members and projects" },
+      { "name": "Medium", "priceUsd": 50, "billing": "month", "unit": "per account", "notes": "Up to 500,000 events a month, priority email and live chat support" },
+      { "name": "Large", "priceUsd": 250, "billing": "month", "unit": "per account", "notes": "Up to 3,000,000 events a month, BAA available on request" }
+    ],
+    "hiddenCosts": [
+      "Annual prices are discounted but not published, so annual billing is arranged through support.",
+      "HIPAA-compliant US hosting is an add-on for Large plans."
+    ],
+    "sourceUrl": "https://glitchtip.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": false,
+    "iso27001": false,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://glitchtip.com/documentation/hosted-architecture",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Webhooks", "Email"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

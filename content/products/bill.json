@@ -1,0 +1,66 @@
+{
+  "name": "BILL",
+  "status": "published",
+  "vendor": { "name": "BILL", "website": "https://www.bill.com" },
+  "primaryCategory": "ap-automation",
+  "summary": "BILL is a bill pay and AP platform sold per user. The AP and AR plans cost $49, $65 and $89 per user a month for Essentials, Team and Corporate, with Enterprise by quote. Each payment also carries a fee, such as $0.59 for ACH or $1.99 for a mailed check. Two-way sync with QuickBooks Online and Xero starts on Team.",
+  "qualifies": [
+    {
+      "category": "ap-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice capture", "sourceUrl": "https://www.bill.com/product/accounts-payable" },
+        { "capability": "approval workflows", "sourceUrl": "https://www.bill.com/product/accounts-payable" },
+        { "capability": "vendor payments", "sourceUrl": "https://www.bill.com/product/accounts-payable" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "BILL says vendors can email invoices to a dedicated AP address, and that optical character recognition then reads and extracts the invoice data.", "sourceUrl": "https://www.bill.com/product/accounts-payable", "checkedAt": "2026-11-04" },
+    { "text": "Payment methods named on the AP page are ACH, virtual card, international wire and paper check.", "sourceUrl": "https://www.bill.com/product/accounts-payable", "checkedAt": "2026-11-04" },
+    { "text": "BILL says it undergoes an annual SOC 1 and SOC 2 Type II audit, and it uses a PCI certified partner for credit card payments.", "sourceUrl": "https://www.bill.com/security", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists custom approval policies from the Corporate plan, and ERP syncs, 2-way and 3-way matching, single sign-on and API access on Enterprise.", "sourceUrl": "https://www.bill.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "A subscription renews automatically each billing cycle, and cancellation takes effect on the last day of the current cycle with no prorated refund.", "sourceUrl": "https://www.bill.com/legal/terms-of-service", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Essentials", "priceUsd": 49, "billing": "month", "unit": "per user", "notes": "Accounting sync by CSV only" },
+      { "name": "Team", "priceUsd": 65, "billing": "month", "unit": "per user", "notes": "Adds 2-way sync with QuickBooks Online and Xero, and AI multi-line bill coding" },
+      { "name": "Corporate", "priceUsd": 89, "billing": "month", "unit": "per user", "notes": "Adds custom approval policies and procurement" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "Adds ERP syncs, 2-way and 3-way matching, single sign-on and API access" }
+    ],
+    "hiddenCosts": [
+      "Payor fees: $0.59 per ACH payment, $1.99 per mailed check, $19.99 per international USD wire, 2.9% to pay by card, and 1.0% for instant payment (minimum $9.99, maximum $100). Virtual card payments are free.",
+      "The pricing page does not say whether the per-user prices assume monthly or annual billing, and it shows more than one version of its plan tables.",
+      "A free trial is available in most cases according to the pricing page FAQ, with no length stated."
+    ],
+    "sourceUrl": "https://www.bill.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://www.bill.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": "Cancel at any time through the account or support portal. It takes effect on the last day of the current billing cycle, later if payments are pending, with no prorated refund.",
+    "dataExport": null,
+    "sourceUrl": "https://www.bill.com/legal/terms-of-service",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["QuickBooks", "Sage Intacct", "Oracle NetSuite", "Microsoft Dynamics", "Xero"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
+

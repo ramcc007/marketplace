@@ -1,0 +1,59 @@
+{
+  "name": "SysAid",
+  "status": "published",
+  "vendor": { "name": "SysAid", "website": "https://www.sysaid.com" },
+  "primaryCategory": "itsm",
+  "summary": "SysAid ITSM Professional costs $59 per agent a month on annual billing, and the page's example prices 70 agents at $49,560 a year. Enterprise starts at 20 agents and is priced by quote. A free trial is offered with no stated length for ITSM. The help desk covers incident, problem, change, request and SLA management, and the self-service page mentions a catalog.",
+  "qualifies": [
+    {
+      "category": "itsm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "incident and request tickets", "sourceUrl": "https://www.sysaid.com/it-service-management" },
+        { "capability": "it service catalog", "sourceUrl": "https://www.sysaid.com/service-management/self-service-experience" },
+        { "capability": "sla tracking", "sourceUrl": "https://www.sysaid.com/it-service-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The ITSM Professional plan lists request, incident, change and problem management, asset management and SLA management.", "sourceUrl": "https://www.sysaid.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "SysAid also sells an AI product called Dex at $89 or $189 per technician a month, priced separately from ITSM.", "sourceUrl": "https://www.sysaid.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The product page lists PinkVERIFY certification and PeopleCert accreditation as an ITIL 4 tool vendor, and does not mention SOC 2 or ISO 27001.", "sourceUrl": "https://www.sysaid.com/it-service-management", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "ITSM Professional", "priceUsd": 59, "billing": "month", "unit": "per agent", "notes": "Billed annually" },
+      { "name": "ITSM Enterprise", "priceUsd": null, "billing": "quote", "unit": "per agent", "notes": "Custom pricing starting at 20 agents. Adds a sandbox and advanced BI" }
+    ],
+    "hiddenCosts": [
+      "Dex, the AI add-on product, is priced separately from ITSM."
+    ],
+    "sourceUrl": "https://www.sysaid.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.sysaid.com/it-service-management",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.sysaid.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft Teams", "Splashtop", "Lansweeper"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

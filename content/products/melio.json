@@ -1,0 +1,58 @@
+{
+  "name": "Melio",
+  "status": "published",
+  "vendor": { "name": "Melio", "website": "https://melio.com" },
+  "primaryCategory": "ap-automation",
+  "summary": "Melio is a bill payment tool for small businesses. The Go plan is free for one user, and paid plans run from $25 to $80 a month on monthly billing, or $20 to $64 on annual billing. Each payment has its own fee: a $0.50 ACH payment after the plan's monthly free allowance, $1.50 for a check, and 2.9% for a card.",
+  "qualifies": [
+    {
+      "category": "ap-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "invoice capture", "sourceUrl": "https://melio.com/" },
+        { "capability": "approval workflows", "sourceUrl": "https://melio.com/approval-workflow/" },
+        { "capability": "vendor payments", "sourceUrl": "https://melio.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Melio says bills can be added by camera upload, email sync or manual entry, and that it extracts the key details.", "sourceUrl": "https://melio.com/", "checkedAt": "2026-11-04" },
+    { "text": "Melio's approval workflow page says multi-level workflows can be set up, and that only the owner, admins and accountants can create them.", "sourceUrl": "https://melio.com/approval-workflow/", "checkedAt": "2026-11-04" },
+    { "text": "Melio says it undergoes an annual SOC 2 Type II audit and lists ISO/IEC 27001:2022, and that its card processor is certified PCI Level 1.", "sourceUrl": "https://melio.com/security/", "checkedAt": "2026-11-04" },
+    { "text": "Free ACH payments per month are 5 on Go, 20 on Core, 50 on Boost and unlimited on Unlimited.", "sourceUrl": "https://melio.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Core, Boost and Unlimited show $0 for the first 90 days before the paid price starts.", "sourceUrl": "https://melio.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 90,
+    "plans": [
+      { "name": "Go", "priceUsd": 0, "billing": "month", "unit": "one user", "notes": "Free forever, limited to one user, with 5 free ACH payments a month" },
+      { "name": "Core", "priceUsd": 25, "billing": "month", "unit": "per account", "notes": "$20 a month on annual billing. Extra users $10 a month ($8 annual). 20 free ACH payments a month" },
+      { "name": "Boost", "priceUsd": 55, "billing": "month", "unit": "per account", "notes": "$44 a month on annual billing. Extra users $10 a month ($8 annual). 50 free ACH payments a month" },
+      { "name": "Unlimited", "priceUsd": 80, "billing": "month", "unit": "per account", "notes": "$64 a month on annual billing. Unlimited users and unlimited free ACH payments" },
+      { "name": "Platinum", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "Custom pricing for high-volume businesses" }
+    ],
+    "hiddenCosts": [
+      "ACH payments beyond the monthly free allowance cost $0.50 each, and a standard check costs $1.50.",
+      "Paying by credit or debit card costs 2.9%; fast check is $20, overnight check is $50, and same-day ACH is 1% (maximum $75).",
+      "Global ACH payments in USD carry a $20 flat fee."
+    ],
+    "sourceUrl": "https://melio.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://melio.com/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["QuickBooks Online", "QuickBooks Desktop", "Xero", "NetSuite"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
+

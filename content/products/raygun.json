@@ -1,0 +1,55 @@
+{
+  "name": "Raygun",
+  "status": "published",
+  "vendor": { "name": "Raygun", "website": "https://raygun.com" },
+  "primaryCategory": "error-tracking",
+  "summary": "Raygun Crash Reporting sells error volume in blocks. Basic is $40 a month on annual billing for 100,000 errors, Team is $80 for 200,000, and Business at $400 covers 1 million errors and includes SAML single sign-on. Every plan has unlimited members.",
+  "qualifies": [
+    {
+      "category": "error-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "exception capture with stack traces", "sourceUrl": "https://raygun.com/platform/crash-reporting" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://raygun.com/documentation/product-guides/crash-reporting/error-grouping/" },
+        { "capability": "grouping and alerts", "sourceUrl": "https://raygun.com/documentation/product-guides/crash-reporting/overview/" },
+        { "capability": "release tracking", "sourceUrl": "https://raygun.com/platform/deployment-tracking" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Raygun groups errors by stack trace by default, can group by message alone for client-side JavaScript, and accepts a custom grouping key.", "sourceUrl": "https://raygun.com/documentation/product-guides/crash-reporting/error-grouping/", "checkedAt": "2026-11-04" },
+    { "text": "Deployment tracking flags releases that add new errors and can confirm whether a fix worked.", "sourceUrl": "https://raygun.com/platform/deployment-tracking", "checkedAt": "2026-11-04" },
+    { "text": "Error data is kept for 180 days on Basic, Team and Business.", "sourceUrl": "https://raygun.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Errors above the reserved volume are billed on demand at $0.001 each on both annual and monthly billing.", "sourceUrl": "https://raygun.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Basic", "priceUsd": 40, "billing": "month", "unit": "per 100,000 errors", "notes": "Billed annually; $60 on monthly billing. SAML single sign-on is an add-on" },
+      { "name": "Team", "priceUsd": 80, "billing": "month", "unit": "per 200,000 errors", "notes": "Billed annually; $120 on monthly billing" },
+      { "name": "Business", "priceUsd": 400, "billing": "month", "unit": "per 1,000,000 errors", "notes": "Billed annually; $600 on monthly billing. SAML single sign-on included" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Price on request" }
+    ],
+    "hiddenCosts": [
+      "SAML single sign-on on Basic is a paid add-on, and the pricing page did not list it for Team.",
+      "Real user monitoring and application performance are priced separately from Crash Reporting."
+    ],
+    "sourceUrl": "https://raygun.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": "Business and Enterprise; add-on on Basic",
+    "sourceUrl": "https://raygun.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["GitHub", "Bitbucket", "GitLab", "Heroku", "Octopus Deploy"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
