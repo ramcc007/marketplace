@@ -1,0 +1,36 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { breadcrumbList } from '../lib/schema';
+import { LEGAL, legalReady } from '../config/legal';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+}
+const { title, description, path } = Astro.props;
+const site = Astro.site ?? new URL(Astro.url.origin);
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: title, path },
+];
+---
+
+<BaseLayout title={title} description={description} path={path} index={legalReady} jsonLd={[breadcrumbList(crumbs, site)]}>
+  <div class="mx-auto max-w-3xl px-4 py-8">
+    <Breadcrumbs crumbs={crumbs} />
+    <h1 class="mt-4 text-3xl font-bold tracking-tight">{title}</h1>
+    <p class="mt-2 text-sm text-slate-500">Last updated {LEGAL.updated}</p>
+    {
+      !LEGAL.reviewedByLawyer && (
+        <p class="mt-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">
+          Draft pending legal review. This text has not been checked by a lawyer yet.
+        </p>
+      )
+    }
+    <div class="editorial mt-6">
+      <slot />
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,41 @@
+---
+import LegalPage from '../layouts/LegalPage.astro';
+import Fill from '../components/Fill.astro';
+import { OWNER } from '../config/legal';
+---
+
+<LegalPage
+  title="Contact and corrections"
+  description="How to reach B2BRated, report a mistake, or ask about your personal data."
+  path="/contact"
+>
+  <h2>Email</h2>
+  <p>
+    Write to <Fill value={OWNER.email} label="contact email" />. There is no contact form, no phone line and no chat. We
+    read every message, and we have not set a reply time yet.
+  </p>
+
+  <h2>Report a mistake or send a correction</h2>
+  <p>This applies to vendors and to readers. Include three things:</p>
+  <ul>
+    <li>the address of the page on this site,</li>
+    <li>what is wrong,</li>
+    <li>a link to a public page that shows the correct fact, such as a pricing page, documentation or a terms page.</li>
+  </ul>
+  <p>
+    We open the link. If it supports the correction we change the page. If we disagree, we tell you why. We do not change
+    a fact only because a vendor asks, and payment has no effect on a correction.
+  </p>
+
+  <h2>Questions about your personal data</h2>
+  <p>
+    Send them to the same address and put "privacy" in the subject. The <a href="/privacy">privacy notice</a> lists
+    your rights.
+  </p>
+
+  <h2>Press, partnerships and vendors</h2>
+  <p>
+    Use the same address. We do not sell placement in rankings, and a message from a vendor does not change where a
+    product appears. See the <a href="/advertising-disclosure">advertising and sponsorship page</a>.
+  </p>
+</LegalPage>

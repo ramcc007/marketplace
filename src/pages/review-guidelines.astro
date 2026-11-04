@@ -1,0 +1,69 @@
+---
+import LegalPage from '../layouts/LegalPage.astro';
+import Fill from '../components/Fill.astro';
+import { OWNER } from '../config/legal';
+---
+
+<LegalPage
+  title="Review guidelines"
+  description="The rules reviews on B2BRated will follow: who can review, what is not accepted, and how reviews are checked and removed."
+  path="/review-guidelines"
+>
+  <p>
+    Review collection has not opened, so the site has no reviews. These are the rules that will apply when it does. We
+    are publishing them first so they bind us from the first review.
+  </p>
+
+  <h2>Who can review</h2>
+  <p>
+    Anyone who has used the product for work. We will check this and show next to each review how it was checked: by a
+    work email address, by a LinkedIn account, or by proof of use. We will list here only the checks that are actually
+    in place.
+  </p>
+
+  <h2>What a review must be</h2>
+  <p>
+    Your own honest experience. Say what you used the product for, how long you used it, and what worked and did not
+    work.
+  </p>
+
+  <h2>What we do not accept</h2>
+  <ul>
+    <li>Reviews you did not write from your own experience.</li>
+    <li>Reviews written by the vendor, its staff or its agencies, unless the review says so clearly.</li>
+    <li>Reviews you were paid or rewarded to write with a required rating.</li>
+    <li>Reviews copied from other sites.</li>
+    <li>Reviews written by software or AI tools and presented as a person's own experience.</li>
+    <li>Personal attacks, threats, hate speech and other people's private data.</li>
+  </ul>
+
+  <h2>Rewards and invitations</h2>
+  <p>
+    A vendor may invite its customers to review. Those reviews will be marked "Invited by vendor". If a reviewer received
+    a reward, the review will say what it was. A reward never depends on the rating, and we never pay for a particular
+    rating.
+  </p>
+
+  <h2>Removing reviews</h2>
+  <p>
+    We remove a review only if it breaks these rules. We will record the reason and show the number of removals and the
+    reasons on each product page. We do not remove a review because it is negative, and a vendor cannot remove one.
+  </p>
+
+  <h2>Vendor replies</h2>
+  <p>
+    A vendor will be able to reply to a review in public and flag a review for us to check. We decide. A vendor cannot
+    edit or delete what a reviewer wrote.
+  </p>
+
+  <h2>Reporting a review</h2>
+  <p>
+    Until a report button exists, write to <Fill value={OWNER.email} label="contact email" /> with the page address and
+    your reason.
+  </p>
+
+  <h2>If you disagree with a decision</h2>
+  <p>
+    Reply to our message with your reasons. A different person from the one who made the first decision will look at it.
+  </p>
+</LegalPage>

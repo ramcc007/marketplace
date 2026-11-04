@@ -1,0 +1,51 @@
+---
+import LegalPage from '../layouts/LegalPage.astro';
+import Fill from '../components/Fill.astro';
+import { OWNER } from '../config/legal';
+---
+
+<LegalPage
+  title="Privacy notice"
+  description="What B2BRated collects when you visit, who sees it and how to use your rights."
+  path="/privacy"
+>
+  <h2>Who we are</h2>
+  <p>
+    This site, b2brated.com, is run by <Fill value={OWNER.legalName} label="legal name" />, based in
+    <Fill value={OWNER.country} label="country" />. Contact: <Fill value={OWNER.email} label="contact email" />.
+  </p>
+
+  <h2>What we collect</h2>
+  <p>
+    Nothing from you directly. The site has no accounts, no forms, no comments, no analytics, no advertising and no
+    cookies that we set.
+  </p>
+
+  <h2>What our host logs</h2>
+  <p>
+    Pages are served by Vercel. When you load a page, Vercel receives your IP address, your browser type and the page
+    you asked for, and keeps logs to deliver the site and keep it secure. We do not use these logs to identify you. We
+    have not set a retention period of our own. Vercel decides how long the logs are kept, and its data may be handled
+    outside your country.
+  </p>
+
+  <h2>Why this is allowed</h2>
+  <p>
+    For visitors in the UK and EU, the basis is our legitimate interest in running a secure website. We have not found
+    a way to do that without a host that logs requests.
+  </p>
+
+  <h2>Your rights</h2>
+  <p>
+    If you are in the UK or EU you can ask what we hold about you, ask us to correct or delete it, and object to how we
+    use it. Email <Fill value={OWNER.email} label="contact email" />. You can also complain to your data protection
+    authority. In the UK that is the Information Commissioner's Office.
+  </p>
+
+  <h2>When this changes</h2>
+  <p>
+    We plan to add reviews, vendor accounts, lead requests and analytics. Each one collects personal data, so each needs
+    a fuller notice and, for analytics that use cookies, your consent first. We will publish the new notice before the
+    feature starts and change the date at the top of this page.
+  </p>
+</LegalPage>

@@ -4,6 +4,7 @@ import Seo from '../components/Seo.astro';
 import type { SeoProps } from '../lib/seo';
 import { SITE } from '../config/site';
 import { departments } from '../lib/taxonomy';
+import { LEGAL_PAGES, legalReady } from '../config/legal';
 
 type Props = SeoProps;
 const props = Astro.props;
@@ -79,6 +80,12 @@ const isCurrent = (href: string) => current === href || current.startsWith(`${hr
             <li><a class="inline-block py-1.5 hover:text-white hover:underline" href="/categories">All categories</a></li>
             <li><a class="inline-block py-1.5 hover:text-white hover:underline" href="/methodology">How we rank</a></li>
             <li><a class="inline-block py-1.5 hover:text-white hover:underline" href="/transparency">Transparency</a></li>
+            {
+              legalReady &&
+                LEGAL_PAGES.map((page) => (
+                  <li><a class="inline-block py-1.5 hover:text-white hover:underline" href={page.href}>{page.label}</a></li>
+                ))
+            }
           </ul>
         </div>
         <div>

@@ -1,0 +1,52 @@
+---
+import LegalPage from '../layouts/LegalPage.astro';
+import Fill from '../components/Fill.astro';
+import { OWNER } from '../config/legal';
+---
+
+<LegalPage
+  title="About us"
+  description="Who runs B2BRated, how the site is paid for and who signs off the pages."
+  path="/about"
+>
+  <h2>Who runs this site</h2>
+  <p>
+    B2BRated is run by <Fill value={OWNER.legalName} label="legal name" />, based in
+    <Fill value={OWNER.country} label="country" />. Postal address for legal notices:
+    <Fill value={OWNER.address} label="address" />. You can reach us at <Fill value={OWNER.email} label="contact email" />.
+  </p>
+
+  <h2>What the site is for</h2>
+  <p>
+    We compare business software by category. For each product we publish the plan prices, what each plan includes,
+    security and contract terms where the vendor states them, and a link to the vendor page each figure came from. The
+    <a href="/methodology">methodology page</a> explains how a product earns a place in a category.
+  </p>
+
+  <h2>Who writes and checks the pages</h2>
+  <p>
+    Category pages are drafted with AI assistance, checked against the vendors' own pages, and signed off by
+    <Fill value={OWNER.editor} label="editor name" />. A sign-off means the editor approved the inclusion criteria and the
+    copy. It does not mean the editor has used every product.
+  </p>
+
+  <h2>How the site is paid for</h2>
+  <p>
+    Today the owner pays for it and it earns nothing. No vendor pays us, and there are no affiliate links or ads. We
+    expect to charge vendors for tools such as claimed profiles, lead requests and clearly labelled sponsored
+    placements. We will describe each paid product on the <a href="/advertising-disclosure">advertising and
+    sponsorship page</a> before the first payment, and the rules on that page will apply from the start.
+  </p>
+
+  <h2>Reviews</h2>
+  <p>
+    Review collection has not opened. There are no reviews on the site and no scores. When reviews open, the
+    <a href="/review-guidelines">review guidelines</a> apply.
+  </p>
+
+  <h2>Mistakes</h2>
+  <p>
+    If something on a page is wrong, tell us on the <a href="/contact">contact page</a> and include a link to a public
+    page that shows the correct fact.
+  </p>
+</LegalPage>

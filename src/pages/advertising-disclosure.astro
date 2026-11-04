@@ -1,0 +1,56 @@
+---
+import LegalPage from '../layouts/LegalPage.astro';
+import Fill from '../components/Fill.astro';
+import { OWNER } from '../config/legal';
+---
+
+<LegalPage
+  title="Advertising and sponsorship"
+  description="Who pays B2BRated today, and the rules that will apply to every paid placement, lead and badge."
+  path="/advertising-disclosure"
+>
+  <h2>Today</h2>
+  <p>
+    No vendor pays us. The site has no affiliate links, no sponsored placements, no ads and no paid listings. Every
+    product appears because it meets the written criteria for its category.
+  </p>
+
+  <h2>How we expect to earn money</h2>
+  <p>
+    We plan to charge vendors for tools and services: claimed and maintained profiles, lead requests that a buyer sends
+    to a vendor, labelled sponsored placements, ad slots and licences to display badges a product has earned. We may
+    also earn affiliate commissions. Nothing on this list has started.
+  </p>
+
+  <h2>Rules that apply from the first payment</h2>
+  <ul>
+    <li>Payment never changes a product's score, its position in the ranked list or whether it is listed.</li>
+    <li>
+      Sponsored products sit in a separate block marked "Sponsored", with a short explanation of what that means. They
+      are never mixed into the ranked list.
+    </li>
+    <li>Ads are marked "Ad" next to the ad itself, not only at the bottom of the page.</li>
+    <li>
+      A link that earns us a commission carries the words "Affiliate link: we earn a commission if you buy" next to it,
+      before you click.
+    </li>
+    <li>
+      Each category page names every vendor on the page that pays us, and what it pays for. The count on the
+      <a href="/transparency">transparency page</a> comes from the same data.
+    </li>
+    <li>
+      Badges and awards come from published criteria that anyone can check. A vendor can pay to display a badge it
+      earned. It cannot pay to earn one.
+    </li>
+    <li>
+      Lead requests are sent only to the vendor you choose, after you agree to that on the form. We do not pass your
+      details to anyone you did not pick.
+    </li>
+    <li>We do not accept payment for reviews, or for a particular rating.</li>
+  </ul>
+
+  <h2>If a rule here is broken</h2>
+  <p>
+    Tell us at <Fill value={OWNER.email} label="contact email" />. We will fix the page and say what changed.
+  </p>
+</LegalPage>

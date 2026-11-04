@@ -1,0 +1,10 @@
+---
+// Prints an owner fact, or a visible marker when the owner has not supplied it yet.
+interface Props {
+  value: string | null;
+  label: string;
+}
+const { value, label } = Astro.props;
+---
+
+{value ? value : <mark class="rounded bg-amber-100 px-1 text-amber-950">[{label}: owner to supply]</mark>}

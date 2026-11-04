@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getSiteIndex } from '../lib/site-index';
+import { LEGAL_PAGES, legalReady } from '../config/legal';
 import { SITEMAP_TYPES, urlset, xmlHeaders, type SitemapEntry } from '../lib/sitemap';
 
 // Only pages that pass the quality gate are listed.
@@ -15,7 +16,9 @@ export const GET: APIRoute = async ({ params, site }) => {
 
   switch (params.type) {
     case 'pages':
-      entries = ['/', '/categories', '/methodology', '/transparency'].map((p) => ({ loc: url(p) }));
+      entries = ['/', '/categories', '/methodology', '/transparency', ...(legalReady ? LEGAL_PAGES.map((p) => p.href) : [])].map(
+        (p) => ({ loc: url(p) }),
+      );
       break;
     case 'departments':
       entries = [...index.departmentGates]
