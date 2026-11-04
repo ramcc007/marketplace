@@ -22,7 +22,7 @@
     { "text": "Companies under 30 employees get Gem All-in-One free for six months, then 50% off on a paid plan.", "sourceUrl": "https://www.gem.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
-    "model": "quote_only",
+    "model": "paid",
     "freePlan": false,
     "freeTrialDays": null,
     "plans": [

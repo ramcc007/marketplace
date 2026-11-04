@@ -33,7 +33,7 @@
     { "text": "The pricing page says contract terms run from month to month up to 3 years, and that managed services are priced by complexity, modules and services required after a diagnostic.", "sourceUrl": "https://namely.com/lp/pricing/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
-    "model": "quote_only",
+    "model": "paid",
     "freePlan": false,
     "freeTrialDays": null,
     "plans": [

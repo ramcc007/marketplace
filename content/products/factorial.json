@@ -30,7 +30,7 @@
     { "text": "The pricing page shows the $8 figure with a dollar sign only and gives no currency code, so the figure may differ by country.", "sourceUrl": "https://factorial.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
-    "model": "quote_only",
+    "model": "paid",
     "freePlan": false,
     "freeTrialDays": null,
     "plans": [
