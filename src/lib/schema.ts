@@ -38,6 +38,7 @@ export function softwareApplication(input: {
   description: string;
   vendor: string;
   lowestMonthlyUsd: number | null;
+  freePlan?: boolean;
 }): Record<string, unknown> {
   const data: Record<string, unknown> = {
     '@context': 'https://schema.org',
@@ -48,9 +49,14 @@ export function softwareApplication(input: {
     applicationCategory: 'BusinessApplication',
     publisher: { '@type': 'Organization', name: input.vendor },
   };
+  // A free plan is a real offer at 0, so the cheapest paid plan is never presented as the only price.
+  const offers: Record<string, unknown>[] = [];
+  if (input.freePlan) offers.push({ '@type': 'Offer', name: 'Free plan', price: '0', priceCurrency: 'USD' });
   if (input.lowestMonthlyUsd !== null) {
-    data.offers = { '@type': 'Offer', price: input.lowestMonthlyUsd.toFixed(2), priceCurrency: 'USD' };
+    offers.push({ '@type': 'Offer', price: input.lowestMonthlyUsd.toFixed(2), priceCurrency: 'USD' });
   }
+  if (offers.length === 1) data.offers = offers[0];
+  else if (offers.length > 1) data.offers = offers;
   // aggregateRating is added once verified reviews exist; never before.
   return data;
 }
