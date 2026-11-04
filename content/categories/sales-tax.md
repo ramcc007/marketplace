@@ -61,7 +61,7 @@ Security evidence is thin on some sites. Avalara says AvaTax has SOC 2 Type 2 co
 
 Most sellers choose around the systems they already use. Stripe Tax is built into Stripe Payments, Billing, Checkout and Connect and can also calculate tax for other processors through its API. TaxCloud lists Shopify, BigCommerce, WooCommerce, QuickBooks, Stripe and Chargebee. Numeral lists Shopify, Stripe, NetSuite, QuickBooks, Xero and Salesforce, among others. Zamp lists more than 30 integrations, and Quaderno lists Shopify, WooCommerce, Amazon FBA, Stripe, PayPal and GoCardless.
 
-Software companies that already use a billing tool should read the [subscription billing comparison](/categories/subscription-billing) alongside this page. A merchant of record such as Paddle collects and remits tax on the seller's behalf, so a seller using one may not need a separate sales tax tool for those sales. A seller on a billing layer such as Stripe Billing or Chargebee keeps the registrations and filings, and this category is where that work gets done.
+Software companies that already use a billing tool should read the [subscription billing comparison](/software/subscription-billing) alongside this page. A merchant of record such as Paddle collects and remits tax on the seller's behalf, so a seller using one may not need a separate sales tax tool for those sales. A seller on a billing layer such as Stripe Billing or Chargebee keeps the registrations and filings, and this category is where that work gets done.
 
 ## What to test during a trial
 

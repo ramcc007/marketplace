@@ -23,7 +23,7 @@ The other five mention aging inside dashboards or reporting rather than as a nam
 
 A finance team of two with 300 open invoices can chase late payers from a spreadsheet and a calendar. The software starts to pay for itself when the invoice count, the number of customers or the number of payment channels outgrows that. Several vendors set their plan limits in exactly those terms. Upflow's lowest paid tier covers up to 40,000 new invoices a year and $10M of annual invoiced revenue, and Kolleno's cheapest listed plan is capped at fewer than 100 invoices.
 
-The buyer is usually a controller, a collections manager or a finance lead at a company that sells on credit terms to other businesses. Companies that charge cards at checkout have little receivables work, and subscription companies that bill by card often need dunning more than collections. For those, [subscription billing software](/categories/subscription-billing) is the closer fit.
+The buyer is usually a controller, a collections manager or a finance lead at a company that sells on credit terms to other businesses. Companies that charge cards at checkout have little receivables work, and subscription companies that bill by card often need dunning more than collections. For those, [subscription billing software](/software/subscription-billing) is the closer fit.
 
 The size of the B2B payments market explains why vendors compete here. Nacha reports that the ACH Network carried 8.08 billion business-to-business payments worth $63.11 trillion in 2025, and calls B2B the network's most significant growth segment. Many of those payments arrive with little information about which invoices they pay, which is the matching problem every product on this page claims to solve.
 

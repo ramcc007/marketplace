@@ -65,7 +65,7 @@ export function startingBaseFeeUsd(product: Product): number | null {
 
 /** Lowest share-of-revenue fee, for products priced only that way. */
 export function startingVolumeFee(product: Product): NonNullable<Plan['volumeFee']> | null {
-  const fees = product.data.pricing.plans.filter((p) => p.priceUsd === null && p.volumeFee).map((p) => p.volumeFee!);
+  const fees = product.data.pricing.plans.filter((p) => (p.priceUsd === null || p.priceUsd === 0) && p.volumeFee).map((p) => p.volumeFee!);
   return fees.length ? fees.reduce((a, b) => (b.percent < a.percent ? b : a)) : null;
 }
 

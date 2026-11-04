@@ -5,7 +5,9 @@ import { SITE } from '../config/site';
 const { title, description, path, index = true, jsonLd = [] } = Astro.props as SeoProps;
 const site = Astro.site ?? new URL(Astro.url.origin);
 const canonical = new URL(path, site).toString();
-const fullTitle = title === SITE.name ? title : `${title} | ${SITE.name}`;
+// PLAN.md 5.2: titles stay within 60 characters, so the site name is dropped when it would not fit.
+const withSuffix = `${title} | ${SITE.name}`;
+const fullTitle = title === SITE.name || withSuffix.length > 60 ? title : withSuffix;
 // "<" is escaped so JSON-LD can never close the script tag early.
 const serialize = (data: Record<string, unknown>) => JSON.stringify(data).replace(/</g, '\\u003c');
 ---

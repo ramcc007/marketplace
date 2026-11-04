@@ -10,7 +10,7 @@
       "checkedAt": "2026-11-04",
       "evidence": [
         { "capability": "shift schedule builder", "sourceUrl": "https://www.findmyshift.com/" },
-        { "capability": "availability (managers see time off and can set recurring unavailability) and shift swaps", "sourceUrl": "https://www.findmyshift.com/tour/time-off-management" },
+        { "capability": "availability and shift swaps", "sourceUrl": "https://www.findmyshift.com/tour/time-off-management" },
         { "capability": "mobile access", "sourceUrl": "https://www.findmyshift.com/tour/employee-scheduling" }
       ]
     }

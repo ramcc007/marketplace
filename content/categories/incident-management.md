@@ -13,7 +13,7 @@ Incident management software decides who gets paged when something breaks, escal
 
 ## Where this category sits next to uptime monitoring
 
-An uptime monitor notices that a site or API stopped answering. An incident tool takes over from that point and gets a human to look at the problem. The two jobs meet at the alert. Many vendors in our [uptime monitoring](/categories/uptime-monitoring) category also sell paging, and [Better Stack](/products/better-stack) appears in both.
+An uptime monitor notices that a site or API stopped answering. An incident tool takes over from that point and gets a human to look at the problem. The two jobs meet at the alert. Many vendors in our [uptime monitoring](/software/uptime-monitoring) category also sell paging, and [Better Stack](/products/better-stack) appears in both.
 
 The split matters when you buy. A monitoring tool with a paging add-on can be enough for a team of three that wants a phone call at night. A team with several services, several rotations and a formal review process needs scheduling, routing rules and postmortems that a monitor does not provide.
 
