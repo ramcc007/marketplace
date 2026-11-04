@@ -1,0 +1,66 @@
+{
+  "name": "ScreenConnect",
+  "status": "published",
+  "vendor": { "name": "ConnectWise", "website": "https://www.screenconnect.com" },
+  "primaryCategory": "remote-desktop",
+  "summary": "ScreenConnect is a remote support and access tool for IT teams and service providers, licensed per concurrent technician. The Standard plan costs $47 a month billed annually, or $62 billed monthly, and includes unlimited unattended access and session recording. It can run in ConnectWise's cloud or on the buyer's own server. Self-hosted servers need prompt patching, as the February 2024 authentication bypass showed.",
+  "qualifies": [
+    {
+      "category": "remote-desktop",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "remote control of computers", "sourceUrl": "https://www.screenconnect.com/" },
+        { "capability": "unattended access", "sourceUrl": "https://www.screenconnect.com/pricing" },
+        { "capability": "session security and logging", "sourceUrl": "https://www.screenconnect.com/features" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "On February 19, 2024 ConnectWise disclosed CVE-2024-1709, an authentication bypass with a CVSS score of 10, in self-hosted ScreenConnect 23.9.7 and earlier, and CISA added it to its Known Exploited Vulnerabilities catalog on February 22, 2024.", "sourceUrl": "https://www.connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8", "checkedAt": "2026-11-04" },
+    { "text": "ConnectWise said it remediated cloud instances itself, while self-hosted customers had to upgrade to version 23.9.8 or later.", "sourceUrl": "https://www.connectwise.com/company/trust/security-bulletins/connectwise-screenconnect-23.9.8", "checkedAt": "2026-11-04" },
+    { "text": "The Standard and Premium plans list unlimited unattended access and session recording, and video auditing is listed for Premium only.", "sourceUrl": "https://www.screenconnect.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "ScreenConnect's features page says it supports SAML for single sign-on and lets administrators filter audit logs by session name.", "sourceUrl": "https://www.screenconnect.com/features", "checkedAt": "2026-11-04" },
+    { "text": "CISA's January 2023 advisory names ScreenConnect and AnyDesk as tools that criminals ran as portable executables in refund scams. The advisory recommends allowlisting approved remote tools.", "sourceUrl": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-025a", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "One", "priceUsd": 30, "billing": "month", "unit": "per license", "notes": "Annual billing only. Listed with a single license restriction." },
+      { "name": "Standard (annual)", "priceUsd": 47, "billing": "month", "unit": "per concurrent technician", "notes": "Billed annually. Unlimited unattended access and session recording." },
+      { "name": "Premium (annual)", "priceUsd": 57, "billing": "month", "unit": "per concurrent technician", "notes": "Billed annually. Adds video auditing." },
+      { "name": "Standard (monthly)", "priceUsd": 62, "billing": "month", "unit": "per concurrent technician", "notes": "Billed monthly." },
+      { "name": "Premium (monthly)", "priceUsd": 72, "billing": "month", "unit": "per concurrent technician", "notes": "Billed monthly." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "For complex IT environments, with privileged access management and multi-year contracts." }
+    ],
+    "hiddenCosts": [
+      "The monthly-billed Standard plan costs $15 a month more than the annual one, and the monthly-billed Premium plan $15 more.",
+      "The pricing page does not state the length of the free trial."
+    ],
+    "sourceUrl": "https://www.screenconnect.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.screenconnect.com/features",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.screenconnect.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

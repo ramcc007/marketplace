@@ -1,0 +1,65 @@
+{
+  "name": "Splashtop",
+  "status": "published",
+  "vendor": { "name": "Splashtop", "website": "https://www.splashtop.com" },
+  "primaryCategory": "remote-desktop",
+  "summary": "Splashtop sells remote access to a person's own computers and a separate remote support product for technicians. Business Access starts at $99 per user per year for the Pro plan, which adds session recording and role-based access. The Enterprise plan is quoted and adds single sign-on and SIEM logging. Splashtop states ISO/IEC 27001, SOC 2 and GDPR compliance on its security page.",
+  "qualifies": [
+    {
+      "category": "remote-desktop",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "remote control of computers", "sourceUrl": "https://www.splashtop.com/products/business-access" },
+        { "capability": "unattended access", "sourceUrl": "https://www.splashtop.com/products/business-access" },
+        { "capability": "session security and logging", "sourceUrl": "https://www.splashtop.com/security" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Splashtop's Pro plan and above include session recording, and the Enterprise plan adds SIEM logging and cloud recording.", "sourceUrl": "https://www.splashtop.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Single sign-on is listed on the Enterprise plan, which is priced by quote.", "sourceUrl": "https://www.splashtop.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Splashtop says remote sessions use TLS and 256-bit AES encryption, and that two-factor authentication on endpoint devices is optional.", "sourceUrl": "https://www.splashtop.com/security", "checkedAt": "2026-11-04" },
+    { "text": "Splashtop says it is compliant with ISO/IEC 27001, SOC 2, GDPR and CCPA, and that it supports HIPAA, PCI and FERPA needs.", "sourceUrl": "https://www.splashtop.com/security", "checkedAt": "2026-11-04" },
+    { "text": "The Remote Support SOS product is licensed per concurrent technician rather than per user.", "sourceUrl": "https://www.splashtop.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Solo", "priceUsd": 72, "billing": "year", "unit": "per individual user", "notes": "Listed as $6 a month, billed annually at $72." },
+      { "name": "Pro", "priceUsd": 99, "billing": "year", "unit": "per user", "notes": "Listed as $8.25 a month per user, billed annually. Adds session recording and user role and access management." },
+      { "name": "Performance", "priceUsd": 149, "billing": "year", "unit": "per user", "notes": "Listed as $13 a month per user, billed annually. Adds higher video quality and USB passthrough." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Adds single sign-on, SIEM logging and cloud recording." },
+      { "name": "Remote Support SOS", "priceUsd": 259, "billing": "year", "unit": "per concurrent technician", "notes": "Listed as starting at $22 a month per concurrent technician, billed annually at $259 or $399. The page does not say which amount applies to which option." }
+    ],
+    "hiddenCosts": [
+      "Single sign-on, SIEM logging and cloud recording are only on the quoted Enterprise plan.",
+      "A free trial is offered on every plan, but the pricing page does not state its length."
+    ],
+    "sourceUrl": "https://www.splashtop.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Enterprise",
+    "sourceUrl": "https://www.splashtop.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.splashtop.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

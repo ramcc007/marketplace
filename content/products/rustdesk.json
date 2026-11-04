@@ -1,0 +1,66 @@
+{
+  "name": "RustDesk",
+  "status": "published",
+  "vendor": { "name": "RustDesk", "website": "https://rustdesk.com" },
+  "primaryCategory": "remote-desktop",
+  "summary": "RustDesk is open-source remote desktop software that a business runs on its own server. The free tier is community supported. The paid Server Pro plans add an audit log, two-factor authentication, a web console and, from the Basic plan, OIDC single sign-on. Paid plans start at $11.88 a month billed annually for 1 login user and 20 managed devices. The vendor states that it does not auto-renew licenses.",
+  "qualifies": [
+    {
+      "category": "remote-desktop",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "remote control of computers", "sourceUrl": "https://rustdesk.com/docs/en/client/" },
+        { "capability": "unattended access", "sourceUrl": "https://rustdesk.com/docs/en/client/" },
+        { "capability": "session security and logging", "sourceUrl": "https://rustdesk.com/docs/en/self-host/rustdesk-server-pro/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The paid plans are self-hosted rather than a SaaS subscription, so the buyer runs the server.", "sourceUrl": "https://rustdesk.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "RustDesk's client documentation says a permanent password can be set from the command line with the --password option.", "sourceUrl": "https://rustdesk.com/docs/en/client/", "checkedAt": "2026-11-04" },
+    { "text": "Server Pro documentation lists log management for connections, file transfers and alarms as a Pro feature.", "sourceUrl": "https://rustdesk.com/docs/en/self-host/rustdesk-server-pro/", "checkedAt": "2026-11-04" },
+    { "text": "RustDesk offers annual plans only, does not auto-renew, and sends a renewal reminder 14 days before a license expires.", "sourceUrl": "https://rustdesk.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "RustDesk charges an extra bank processing fee for bank transfers and sends the license key after the payment arrives, which takes 3 to 5 working days.", "sourceUrl": "https://rustdesk.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Open source with community support. Online status only." },
+      { "name": "Individual", "priceUsd": 11.88, "billing": "month", "unit": "1 login user and 20 managed devices", "notes": "Billed annually. Includes two-factor authentication, web console, audit log and access control." },
+      { "name": "Basic", "priceUsd": 23.88, "billing": "month", "unit": "10 login users and 100 managed devices", "notes": "Billed annually. Adds OIDC single sign-on, LDAP integration and a custom client generator." },
+      { "name": "Customized", "priceUsd": 23.88, "billing": "month", "unit": "base fee", "notes": "Billed annually. Extra users cost $1.20 each and extra devices $0.12 each." },
+      { "name": "Customized V2", "priceUsd": 23.88, "billing": "month", "unit": "base fee", "notes": "Billed annually. Limits concurrent connections. Extra users cost $1.20, extra devices $0.12 and extra concurrent connections $24 each." }
+    ],
+    "hiddenCosts": [
+      "Every paid plan needs the buyer's own server to host the RustDesk service.",
+      "Bank transfers carry an extra bank processing fee.",
+      "RustDesk says it has no non-profit or education discount."
+    ],
+    "sourceUrl": "https://rustdesk.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Basic",
+    "sourceUrl": "https://rustdesk.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": false,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://rustdesk.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["OIDC", "LDAP"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
