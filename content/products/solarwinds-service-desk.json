@@ -6,6 +6,15 @@
   "summary": "SolarWinds Service Desk costs from $39 (Essentials), $99 (Advanced) or $124 (Premier) per technician a month, billed once a year. Essentials already includes incident management, a service catalog, SLA tracking and a CMDB, and end users are unlimited. The 30-day trial opens Premier features. The service says it is ISO 27001 certified and lets customers pick a US, EU or Australia data center.",
   "qualifies": [
     {
+      "category": "it-asset-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "asset discovery", "sourceUrl": "https://www.solarwinds.com/service-desk/use-cases/itam-software" },
+        { "capability": "asset lifecycle tracking", "sourceUrl": "https://www.solarwinds.com/service-desk/use-cases/it-asset-lifecycle-management" },
+        { "capability": "license or contract tracking", "sourceUrl": "https://www.solarwinds.com/service-desk/use-cases/software-license-management" }
+      ]
+    },
+    {
       "category": "itsm",
       "checkedAt": "2026-11-04",
       "evidence": [

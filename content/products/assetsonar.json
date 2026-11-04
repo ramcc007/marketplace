@@ -1,0 +1,61 @@
+{
+  "name": "AssetSonar",
+  "status": "published",
+  "vendor": { "name": "EZO", "website": "https://ezo.io" },
+  "primaryCategory": "it-asset-management",
+  "summary": "AssetSonar by EZO prices IT asset management per asset. ITAM costs $0.75 per asset a month and $1.08 with the service desk included, both billed annually, with volume discounts. Advanced software asset management is a $0.42 add-on per asset a month. Packages start at 100 assets.",
+  "qualifies": [
+    {
+      "category": "it-asset-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "asset discovery", "sourceUrl": "https://ezo.io/assetsonar/features/hardware-asset-discovery/" },
+        { "capability": "asset lifecycle tracking", "sourceUrl": "https://ezo.io/assetsonar/hardware-asset-management-software/" },
+        { "capability": "license or contract tracking", "sourceUrl": "https://ezo.io/assetsonar/software-asset-management-tool/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "AssetSonar finds assets through an agent for Windows, macOS and Linux, agentless network scans and MDM integrations.", "sourceUrl": "https://ezo.io/assetsonar/features/hardware-asset-discovery/", "checkedAt": "2026-11-04" },
+    { "text": "EZO says it maintains SOC 2 Type 2 compliance, ISO/IEC 27001 certification and CSA STAR Level 1 registration.", "sourceUrl": "https://ezo.io/assetsonar/features/hardware-asset-discovery/", "checkedAt": "2026-11-04" },
+    { "text": "The software page lists renewal alerts and a central renewal page for license dates, and the hardware page lists alerts for warranty expirations.", "sourceUrl": "https://ezo.io/assetsonar/software-asset-management-tool/", "checkedAt": "2026-11-04" },
+    { "text": "Upgrades made before the annual term ends are prorated, and EU hosting is arranged during purchase.", "sourceUrl": "https://www.ezo.io/assetsonar/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "ITAM", "priceUsd": 0.75, "billing": "month", "unit": "per asset", "notes": "Billed annually. Volume discounts. Packages start at 100 assets" },
+      { "name": "ITAM with ServiceDesk", "priceUsd": 1.08, "billing": "month", "unit": "per asset", "notes": "Billed annually. Marked as recommended. Volume discounts" },
+      { "name": "Advanced SAM add-on", "priceUsd": 0.42, "billing": "month", "unit": "per asset", "notes": "Billed annually. Add-on to ITAM or ITSM" }
+    ],
+    "hiddenCosts": [
+      "The page shows no monthly-billing prices, and its FAQ lists the Advanced SAM add-on as $5 per asset a year."
+    ],
+    "sourceUrl": "https://www.ezo.io/assetsonar/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://ezo.io/assetsonar/features/hardware-asset-discovery/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.ezo.io/assetsonar/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft Intune", "Jamf Pro", "Cisco Meraki", "AWS", "Microsoft 365", "Dell", "Lenovo", "HP", "Apple"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

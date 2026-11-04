@@ -1,0 +1,61 @@
+{
+  "name": "Reftab",
+  "status": "published",
+  "vendor": { "name": "Reftab", "website": "https://www.reftab.com" },
+  "primaryCategory": "it-asset-management",
+  "summary": "Reftab has a free plan for up to 50 assets with no time limit. Hardware asset management costs $125 a month with unlimited users, and software asset management costs $9 per tracked software user a year. A combined plan is priced by quote, and paid plans have a 14-day trial.",
+  "qualifies": [
+    {
+      "category": "it-asset-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "asset discovery", "sourceUrl": "https://www.reftab.com/product/hardware-asset-management" },
+        { "capability": "asset lifecycle tracking", "sourceUrl": "https://www.reftab.com/product/hardware-asset-management" },
+        { "capability": "license or contract tracking", "sourceUrl": "https://www.reftab.com/product/software-asset-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Reftab says it syncs devices automatically from Intune, Jamf, Kandji and other IT systems. The page does not describe agent or network-scan discovery.", "sourceUrl": "https://www.reftab.com/product/hardware-asset-management", "checkedAt": "2026-11-04" },
+    { "text": "The software page says Reftab tracks licenses, seats and users and detects new installations automatically.", "sourceUrl": "https://www.reftab.com/product/software-asset-management", "checkedAt": "2026-11-04" },
+    { "text": "Archived assets that cannot be checked out do not count toward the active asset quota, and payment is by credit card or ACH.", "sourceUrl": "https://www.reftab.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "up to 50 assets", "notes": "Accessories and licenses are unlimited" },
+      { "name": "Hardware Asset Management", "priceUsd": 125, "billing": "month", "unit": "per account", "notes": "Unlimited users included" },
+      { "name": "Software Asset Management", "priceUsd": 9, "billing": "year", "unit": "per tracked software user", "notes": "" },
+      { "name": "Complete ITAM", "priceUsd": null, "billing": "quote", "unit": "per asset and software user", "notes": "Hardware plus software, custom pricing" }
+    ],
+    "hiddenCosts": [
+      "The pricing page does not say whether the paid trials need a credit card."
+    ],
+    "sourceUrl": "https://www.reftab.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.reftab.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The pricing page lists cancel anytime next to each paid plan's 14-day trial.",
+    "dataExport": null,
+    "sourceUrl": "https://www.reftab.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft Intune", "Jamf", "Kandji", "Mosyle", "Cisco Meraki", "Lansweeper", "Microsoft Azure", "Okta", "Google"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "InvGate Asset Management",
+  "status": "published",
+  "vendor": { "name": "InvGate", "website": "https://invgate.com" },
+  "primaryCategory": "it-asset-management",
+  "summary": "InvGate Asset Management starts at $1,499 a year for up to 500 IP devices. Pro costs $5 per IP device a year with a $2,500 annual minimum, and Enterprise starts at $12,000 a year. Licensing contract management is included on Pro and Enterprise only.",
+  "qualifies": [
+    {
+      "category": "it-asset-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "asset discovery", "sourceUrl": "https://invgate.com/asset-management" },
+        { "capability": "asset lifecycle tracking", "sourceUrl": "https://invgate.com/asset-management" },
+        { "capability": "license or contract tracking", "sourceUrl": "https://invgate.com/pricing?p=assetManagement" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "InvGate describes tracking assets from request to retirement, with warranty tracking, maintenance alerts and renewals.", "sourceUrl": "https://invgate.com/asset-management", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page includes contracts and warranties on Starter, and adds licensing contract management for tracking licenses, renewal dates and compliance on Pro and Enterprise.", "sourceUrl": "https://invgate.com/pricing?p=assetManagement", "checkedAt": "2026-11-04" },
+    { "text": "Listed prices are the base subscription list price, exclude taxes and additional fees, and may change without notice.", "sourceUrl": "https://invgate.com/pricing?p=assetManagement", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 1499, "billing": "year", "unit": "flat, up to 500 IP devices", "notes": "Contracts and warranties included, licensing contract management not included" },
+      { "name": "Pro", "priceUsd": 5, "billing": "year", "unit": "per IP device", "notes": "From $2,500 a year, for 500 to 5,000 IP devices. Adds licensing contract management" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "Starting at $12,000 a year, up to 1,000,000 IP devices" }
+    ],
+    "hiddenCosts": [
+      "The pricing page states no trial length for Starter and Pro, which offer a free trial link."
+    ],
+    "sourceUrl": "https://invgate.com/pricing?p=assetManagement",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://invgate.com/asset-management",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://invgate.com/pricing?p=assetManagement",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft Intune", "Microsoft 365", "Google Workspace", "Jamf", "Jira Service Management", "Amazon Web Services", "Azure", "Okta", "VMware", "SAP"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

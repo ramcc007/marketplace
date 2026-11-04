@@ -6,6 +6,15 @@
   "summary": "Freshservice has no free plan. Starter costs $19, Growth $49 and Pro $99 per agent a month on annual billing, with a 14-day trial. Incident management comes in every plan, while the service catalog and SLA management start on Growth. Enterprise is priced by quote. The terms make payments non-cancelable and non-refundable during a term.",
   "qualifies": [
     {
+      "category": "it-asset-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "asset discovery", "sourceUrl": "https://www.freshworks.com/freshservice/it-asset-management/" },
+        { "capability": "asset lifecycle tracking", "sourceUrl": "https://www.freshworks.com/freshservice/it-asset-management/" },
+        { "capability": "license or contract tracking", "sourceUrl": "https://www.freshworks.com/freshservice/it-asset-management/" }
+      ]
+    },
+    {
       "category": "itsm",
       "checkedAt": "2026-11-04",
       "evidence": [

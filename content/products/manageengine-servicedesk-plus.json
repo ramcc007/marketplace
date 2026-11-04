@@ -6,6 +6,15 @@
   "summary": "ServiceDesk Plus from ManageEngine sells three editions, in the cloud or on your own servers. The Standard edition is free for up to five technicians and starts at $13 per technician a month otherwise. Professional starts at $27 and Enterprise at $67. Incident management and SLAs come in Standard, but the service catalog is an add-on there and included in Enterprise. A 30-day trial is offered.",
   "qualifies": [
     {
+      "category": "it-asset-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "asset discovery", "sourceUrl": "https://www.manageengine.com/products/service-desk/it-asset-management/" },
+        { "capability": "asset lifecycle tracking", "sourceUrl": "https://www.manageengine.com/products/service-desk/it-asset-management/" },
+        { "capability": "license or contract tracking", "sourceUrl": "https://www.manageengine.com/products/service-desk/it-asset-management/" }
+      ]
+    },
+    {
       "category": "itsm",
       "checkedAt": "2026-11-04",
       "evidence": [
