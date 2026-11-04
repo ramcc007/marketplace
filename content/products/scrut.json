@@ -1,0 +1,42 @@
+{
+  "name": "Scrut",
+  "status": "published",
+  "vendor": { "name": "Scrut Automation", "website": "https://www.scrut.io" },
+  "primaryCategory": "compliance-automation",
+  "summary": "Scrut says it supports more than 70 frameworks, including SOC 2 and ISO 27001, and maps common controls between the two so one control can serve both audits. Auditors join a specific audit with read-only, scoped access. Pricing is a custom quote with no user or usage limits.",
+  "qualifies": [
+    {
+      "category": "compliance-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "framework templates such as soc 2 and iso 27001", "sourceUrl": "https://www.scrut.io/faqs/general" },
+        { "capability": "automated evidence collection", "sourceUrl": "https://www.scrut.io/faqs/general" },
+        { "capability": "auditor access", "sourceUrl": "https://www.scrut.io/faqs/general" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Scrut's FAQ says auditors are never granted unrestricted access. They join a specific audit's team and get read-only, scoped access to what they need.", "sourceUrl": "https://www.scrut.io/faqs/general", "checkedAt": "2026-11-04" },
+    { "text": "The FAQ says Scrut integrates with over 80 tools to collect audit-ready evidence automatically, while the home page cites more than 150 integrations.", "sourceUrl": "https://www.scrut.io/faqs/general", "checkedAt": "2026-11-04" },
+    { "text": "Scrut maintains a unified control library that automatically maps common controls between SOC 2 and ISO 27001.", "sourceUrl": "https://www.scrut.io/faqs/general", "checkedAt": "2026-11-04" },
+    { "text": "The FAQ says plans carry no limits or hidden charges based on users or usage, and that audit charges may influence the final quote.", "sourceUrl": "https://www.scrut.io/faqs/general", "checkedAt": "2026-11-04" },
+    { "text": "The home page says the Evidence Collector pulls evidence from AWS, GitHub and Okta, and the dedicated pricing URL returned an error on the day of checking.", "sourceUrl": "https://www.scrut.io/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom quote", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No user or usage limits. Request through the demo page" }
+    ],
+    "hiddenCosts": [
+      "Additional services such as audit charges may influence the final quote."
+    ],
+    "sourceUrl": "https://www.scrut.io/faqs/general",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["AWS", "GitHub", "Okta"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

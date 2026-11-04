@@ -1,0 +1,45 @@
+{
+  "name": "Vanta",
+  "status": "published",
+  "vendor": { "name": "Vanta", "website": "https://www.vanta.com" },
+  "primaryCategory": "compliance-automation",
+  "summary": "Vanta covers SOC 2, ISO 27001, GDPR, HIPAA, HITRUST and AI frameworks such as ISO 42001 and the NIST AI Risk Management Framework. It collects evidence automatically and offers an auditor API and an auditor network. Prices are not published, so buyers request a quote after a free demo.",
+  "qualifies": [
+    {
+      "category": "compliance-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "framework templates such as soc 2 and iso 27001", "sourceUrl": "https://www.vanta.com/pricing" },
+        { "capability": "automated evidence collection", "sourceUrl": "https://www.vanta.com/pricing" },
+        { "capability": "auditor access", "sourceUrl": "https://www.vanta.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page names five plans: Essentials, Plus, Professional, Pro in the comparison table, and Enterprise, with Professional marked as most popular.", "sourceUrl": "https://www.vanta.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The Essentials plan lists automated evidence collection for audit readiness and an Auditor API.", "sourceUrl": "https://www.vanta.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The comparison table has rows for access to Vanta's auditor network and for bringing your own auditor, but the page text does not show which plans include them.", "sourceUrl": "https://www.vanta.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Frameworks named on the pricing page include SOC 2, ISO 27001, GDPR, HIPAA, HITRUST, ISO 42001 and custom frameworks.", "sourceUrl": "https://www.vanta.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The page offers a free demo for personalized pricing and does not mention a free trial.", "sourceUrl": "https://www.vanta.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Essentials", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price shown. Request personalized pricing" },
+      { "name": "Plus", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price shown" },
+      { "name": "Professional", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Marked most popular. No price shown" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Described as a fully customizable package with advanced GRC needs" }
+    ],
+    "hiddenCosts": [
+      "Auditor network access and bringing your own auditor appear in the comparison table, but the page text does not say which plans include them."
+    ],
+    "sourceUrl": "https://www.vanta.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

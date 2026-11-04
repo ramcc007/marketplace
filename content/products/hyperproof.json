@@ -1,0 +1,39 @@
+{
+  "name": "Hyperproof",
+  "status": "published",
+  "vendor": { "name": "Hyperproof", "website": "https://hyperproof.io" },
+  "primaryCategory": "compliance-automation",
+  "summary": "Hyperproof advertises 160 or more pre-built frameworks, including SOC 2 and ISO 27001, and a dedicated audit space where auditors work alongside your team. Its Foldersyncs and Hypersyncs pull evidence on a schedule you choose. The site publishes no prices and routes buyers to a demo or a proposal request.",
+  "qualifies": [
+    {
+      "category": "compliance-automation",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "framework templates such as soc 2 and iso 27001", "sourceUrl": "https://www.hyperproof.io/" },
+        { "capability": "automated evidence collection", "sourceUrl": "https://hyperproof.io/product/audit-management/" },
+        { "capability": "auditor access", "sourceUrl": "https://hyperproof.io/product/audit-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The home page advertises 160 or more pre-built frameworks and lists SOC 2 and ISO 27001 among them.", "sourceUrl": "https://www.hyperproof.io/", "checkedAt": "2026-11-04" },
+    { "text": "Hyperproof says you can invite your auditor to work alongside your team in its dedicated audit space, where auditors see only what they need.", "sourceUrl": "https://hyperproof.io/product/audit-management/", "checkedAt": "2026-11-04" },
+    { "text": "Foldersyncs and Hypersyncs extract compliance evidence on a schedule you choose or as soon as new proof is available.", "sourceUrl": "https://hyperproof.io/product/audit-management/", "checkedAt": "2026-11-04" },
+    { "text": "The home page shows no prices. It offers Get a Demo and a Request Proposal link.", "sourceUrl": "https://www.hyperproof.io/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Proposal on request", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No plans or prices on the pages we could load. The dedicated pricing URL returned an error on the day of checking" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.hyperproof.io/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
