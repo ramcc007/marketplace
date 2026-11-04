@@ -1,0 +1,41 @@
+{
+  "name": "Azure Boards",
+  "status": "published",
+  "vendor": { "name": "Microsoft", "website": "https://azure.microsoft.com" },
+  "primaryCategory": "issue-tracking",
+  "summary": "Azure Boards is the work tracking part of Azure DevOps, with work item states, an Assigned To field, a Priority field and links to commits, pull requests and GitHub objects. The first 5 users are free, then it costs $6 per user per month.",
+  "qualifies": [
+    {
+      "category": "issue-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "issue states and workflow", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/boards/work-items/guidance/agile-process-workflow?view=azure-devops" },
+        { "capability": "assignment and priorities", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/boards/work-items/guidance/agile-process-workflow?view=azure-devops" },
+        { "capability": "version control integration", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/add-link?view=azure-devops" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "In the Agile process a user story moves from New to Active, Resolved and Closed, and most work item types allow transitions both forward and backward.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/boards/work-items/guidance/agile-process-workflow?view=azure-devops", "checkedAt": "2026-11-04" },
+    { "text": "The Assigned To field names the person responsible, and the Priority field rates a story from 1 to 3 by how essential it is to shipping.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/boards/work-items/guidance/agile-process-workflow?view=azure-devops", "checkedAt": "2026-11-04" },
+    { "text": "Adding a work item ID such as #35 to a commit message creates a Commit link when the commit is pushed.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/add-link?view=azure-devops", "checkedAt": "2026-11-04" },
+    { "text": "Once Azure Boards is connected to a GitHub repository, work items can link to a GitHub branch, commit, issue or pull request.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/add-link?view=azure-devops", "checkedAt": "2026-11-04" },
+    { "text": "The Basic plan with Test Plans costs $52 per user per month, with the first 5 users free.", "sourceUrl": "https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Basic", "priceUsd": 6, "billing": "month", "unit": "per user per month after the first 5 users", "notes": "First 5 users free. Includes work item tracking and Kanban boards" },
+      { "name": "Basic + Test Plans", "priceUsd": 52, "billing": "month", "unit": "per user per month", "notes": "First 5 users free" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["GitHub", "Azure Repos", "Azure Pipelines"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

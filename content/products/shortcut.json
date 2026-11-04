@@ -1,0 +1,44 @@
+{
+  "name": "Shortcut",
+  "status": "published",
+  "vendor": { "name": "Shortcut Software Company", "website": "https://www.shortcut.com" },
+  "primaryCategory": "issue-tracking",
+  "summary": "Shortcut tracks work as stories that move through customizable workflow states, with owners, a built-in Priority field and GitHub branch and pull request links. The Free plan allows 10 users, and the Team plan costs $8.50 per user per month on yearly billing.",
+  "qualifies": [
+    {
+      "category": "issue-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "issue states and workflow", "sourceUrl": "https://www.shortcut.com/help/fields-and-features/workflows" },
+        { "capability": "assignment and priorities", "sourceUrl": "https://www.shortcut.com/help/fields-and-features/custom-fields" },
+        { "capability": "version control integration", "sourceUrl": "https://www.shortcut.com/help/integrations/github" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "A new workspace starts with one workflow of four state types, Backlog, Unstarted, Started and Done, and states can be added, reordered and deleted.", "sourceUrl": "https://www.shortcut.com/help/fields-and-features/workflows", "checkedAt": "2026-11-04" },
+    { "text": "Only the Free plan is limited to one workflow. Team and Business plans support several.", "sourceUrl": "https://www.shortcut.com/help/fields-and-features/workflows", "checkedAt": "2026-11-04" },
+    { "text": "Priority is a predefined custom field with the default values P1 to P4, available on the Free, Team and Business plans.", "sourceUrl": "https://www.shortcut.com/help/fields-and-features/custom-fields", "checkedAt": "2026-11-04" },
+    { "text": "People can be assigned as Owners on a story, and followers can be added to be notified of progress.", "sourceUrl": "https://www.shortcut.com/help/stories/stories-overview", "checkedAt": "2026-11-04" },
+    { "text": "Event handlers in the GitHub integration move linked stories to a chosen workflow state on a branch, commit, pull request opening, approval or merge.", "sourceUrl": "https://www.shortcut.com/help/integrations/github", "checkedAt": "2026-11-04" },
+    { "text": "Team and Business plans use metered billing, which charges per user each month during the yearly billing cycle.", "sourceUrl": "https://www.shortcut.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Up to 10 users, 1 team, 1 workflow, 5GB storage" },
+      { "name": "Team", "priceUsd": 8.5, "billing": "year", "unit": "per user per month, yearly plan", "notes": "No monthly rate is listed" },
+      { "name": "Business", "priceUsd": 12, "billing": "year", "unit": "per user per month, yearly plan", "notes": "No monthly rate is listed" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.shortcut.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["GitHub", "GitLab", "Bitbucket"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "GitLab Issues",
+  "status": "published",
+  "vendor": { "name": "GitLab Inc.", "website": "https://about.gitlab.com" },
+  "primaryCategory": "issue-tracking",
+  "summary": "GitLab Issues sits in the same application as the code, so commits and merge requests can close issues. Statuses beyond open and closed need the Premium plan at $29 per user per month, billed annually. The Free plan allows 5 users in a private top-level group.",
+  "qualifies": [
+    {
+      "category": "issue-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "issue states and workflow", "sourceUrl": "https://docs.gitlab.com/user/project/issues/managing_issues/" },
+        { "capability": "assignment and priorities", "sourceUrl": "https://docs.gitlab.com/user/project/labels/" },
+        { "capability": "version control integration", "sourceUrl": "https://docs.gitlab.com/user/project/issues/managing_issues/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Statuses such as In progress, Done or Won't do give finer tracking than open and closed, and the documentation lists statuses as a Premium and Ultimate feature.", "sourceUrl": "https://docs.gitlab.com/user/project/issues/managing_issues/", "checkedAt": "2026-11-04" },
+    { "text": "Issues have no dedicated priority field in the documentation we read. Labels can carry relative priorities, and issue lists sort by an issue's highest-priority label.", "sourceUrl": "https://docs.gitlab.com/user/project/labels/", "checkedAt": "2026-11-04" },
+    { "text": "A keyword such as Closes or Fixes before an issue reference in a commit message or merge request description closes the issue when it reaches the default branch.", "sourceUrl": "https://docs.gitlab.com/user/project/issues/managing_issues/", "checkedAt": "2026-11-04" },
+    { "text": "Health status, which tracks delivery risk on each issue, is listed for the Ultimate plan.", "sourceUrl": "https://docs.gitlab.com/user/project/issues/managing_issues/", "checkedAt": "2026-11-04" },
+    { "text": "The 5-user limit on the Free plan applies to private top-level groups on GitLab.com. It does not apply to public groups or paid tiers.", "sourceUrl": "https://about.gitlab.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "GitLab.com, 5 users per private top-level group, 400 compute minutes a month" },
+      { "name": "Premium", "priceUsd": 29, "billing": "year", "unit": "per user per month, billed annually", "notes": "No monthly rate is listed" },
+      { "name": "Ultimate", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://about.gitlab.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["GitLab merge requests", "GitLab CI/CD"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

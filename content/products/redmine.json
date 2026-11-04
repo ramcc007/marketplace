@@ -1,0 +1,43 @@
+{
+  "name": "Redmine",
+  "status": "published",
+  "vendor": { "name": "Redmine project", "website": "https://www.redmine.org" },
+  "primaryCategory": "issue-tracking",
+  "summary": "Redmine is open-source issue tracking software released under the GPL v2 that you host yourself. Administrators define statuses, priorities and per-role workflow transitions, and repository settings link commits to issues. The project site lists no price, so the cost is your own hosting and upkeep.",
+  "qualifies": [
+    {
+      "category": "issue-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "issue states and workflow", "sourceUrl": "https://www.redmine.org/projects/redmine/wiki/RedmineIssueTrackingSetup" },
+        { "capability": "assignment and priorities", "sourceUrl": "https://www.redmine.org/projects/redmine/wiki/RedmineEnumerations" },
+        { "capability": "version control integration", "sourceUrl": "https://www.redmine.org/projects/redmine/wiki/RedmineSettings" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The workflow defines which status transitions project members can make, based on their role and the issue's tracker. Statuses can be added freely and each can be marked as closed.", "sourceUrl": "https://www.redmine.org/projects/redmine/wiki/RedmineIssueTrackingSetup", "checkedAt": "2026-11-04" },
+    { "text": "Issue priorities are a global list that administrators can add to, change and delete freely, with an optional default.", "sourceUrl": "https://www.redmine.org/projects/redmine/wiki/RedmineEnumerations", "checkedAt": "2026-11-04" },
+    { "text": "A role has an option for whether issues can be assigned to members with that role.", "sourceUrl": "https://www.redmine.org/projects/redmine/wiki/RedmineRoles", "checkedAt": "2026-11-04" },
+    { "text": "Referencing keywords such as refs link a commit to an issue, and fixing keywords such as fixes or closes also set a status you choose, though no status is set by default.", "sourceUrl": "https://www.redmine.org/projects/redmine/wiki/RedmineSettings", "checkedAt": "2026-11-04" },
+    { "text": "Supported source control systems are Subversion, CVS, Mercurial, Bazaar and Git, and the binaries must be installed on the same host as Redmine.", "sourceUrl": "https://www.redmine.org/projects/redmine/wiki/RedmineRepositories", "checkedAt": "2026-11-04" },
+    { "text": "Git repositories do not update automatically. A cron job or post-receive hook must fetch new changes.", "sourceUrl": "https://www.redmine.org/projects/redmine/wiki/RedmineRepositories", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "free",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Self-hosted open source", "priceUsd": 0, "billing": "one_time", "unit": "per installation", "notes": "Released under the GNU General Public License v2. The project site lists no price or hosted plan" }
+    ],
+    "hiddenCosts": [
+      "You run the server, upgrades, backups and security patches yourself."
+    ],
+    "sourceUrl": "https://www.redmine.org/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Subversion", "CVS", "Mercurial", "Bazaar", "Git"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "GitHub Issues",
+  "status": "published",
+  "vendor": { "name": "GitHub, Inc.", "website": "https://github.com" },
+  "primaryCategory": "issue-tracking",
+  "summary": "GitHub Issues tracks work inside the repository, with assignees, labels, milestones and pull requests that close issues when merged. Issues and Projects are included on the Free plan, and the Team plan costs $4 per user per month.",
+  "qualifies": [
+    {
+      "category": "issue-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "issue states and workflow", "sourceUrl": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/understanding-fields/about-single-select-fields" },
+        { "capability": "assignment and priorities", "sourceUrl": "https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues" },
+        { "capability": "version control integration", "sourceUrl": "https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Single select fields in GitHub Projects let a team define options such as Status or Priority, with up to 50 options per field and a default value for new items.", "sourceUrl": "https://docs.github.com/en/issues/planning-and-tracking-with-projects/understanding-fields/about-single-select-fields", "checkedAt": "2026-11-04" },
+    { "text": "You can assign yourself and teammates to an issue, and labels, issue types and milestones organize issues.", "sourceUrl": "https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues", "checkedAt": "2026-11-04" },
+    { "text": "Using a keyword such as fixes in a pull request closes the linked issue automatically when the pull request is merged.", "sourceUrl": "https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues", "checkedAt": "2026-11-04" },
+    { "text": "SAML single sign-on is listed on the Enterprise plan only, which also lists SOC 1 and SOC 2 Type 2 reports each year.", "sourceUrl": "https://github.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Issues and Projects, unlimited public and private repositories, 2,000 CI/CD minutes a month" },
+      { "name": "Team", "priceUsd": 4, "billing": "month", "unit": "per user per month" },
+      { "name": "Enterprise", "priceUsd": 21, "billing": "month", "unit": "per user per month", "notes": "Adds SAML single sign-on" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://github.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Enterprise (SAML)",
+    "sourceUrl": "https://github.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["GitHub pull requests", "GitHub Projects"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

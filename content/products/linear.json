@@ -1,0 +1,53 @@
+{
+  "name": "Linear",
+  "status": "published",
+  "vendor": { "name": "Linear", "website": "https://linear.app" },
+  "primaryCategory": "issue-tracking",
+  "summary": "Linear is a hosted issue tracker with customizable statuses, one assignee per issue, a triage inbox and links to GitHub and GitLab pull requests. The free plan allows unlimited members but only 250 issues and 2 teams. Paid plans cost $10 or $16 per user per month on yearly billing.",
+  "qualifies": [
+    {
+      "category": "issue-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "issue states and workflow", "sourceUrl": "https://linear.app/docs/triage.md" },
+        { "capability": "assignment and priorities", "sourceUrl": "https://linear.app/docs/assigning-issues" },
+        { "capability": "version control integration", "sourceUrl": "https://linear.app/docs/github-integration" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "New issues from integrations, from people outside the team, or created in the Triage view start in a Triage status. Accepting one moves it to the team's default status, and declining it sets a Canceled status type.", "sourceUrl": "https://linear.app/docs/triage.md", "checkedAt": "2026-11-04" },
+    { "text": "A team can require priority to be set before an issue leaves Triage, and triage rules can change an issue's status and priority automatically.", "sourceUrl": "https://linear.app/docs/triage.md", "checkedAt": "2026-11-04" },
+    { "text": "Each issue has one assignee at a time. Assignment can be automated, for example by auto-assigning the issue to you when you copy its Git branch name.", "sourceUrl": "https://linear.app/docs/assigning-issues", "checkedAt": "2026-11-04" },
+    { "text": "With the GitHub integration, an issue ID in a branch name, pull request title or commit message links the work, and linked issues move to In Progress when a pull request opens and to Done when it merges by default.", "sourceUrl": "https://linear.app/docs/github-integration", "checkedAt": "2026-11-04" },
+    { "text": "The GitLab integration links merge requests to issues and supports hosted and publicly accessible self-managed GitLab version 15.6 or later, but it does not import or sync GitLab issues.", "sourceUrl": "https://linear.app/docs/gitlab.md", "checkedAt": "2026-11-04" },
+    { "text": "SAML single sign-on and SCIM provisioning are listed on the Enterprise plan only. Google sign-in is available on every plan.", "sourceUrl": "https://linear.app/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Unlimited members, 2 teams, 250 issues and 10MB file uploads" },
+      { "name": "Basic", "priceUsd": 10, "billing": "year", "unit": "per user per month, billed yearly", "notes": "Unlimited issues and 5 teams. No monthly price is listed" },
+      { "name": "Business", "priceUsd": 16, "billing": "year", "unit": "per user per month, billed yearly", "notes": "Unlimited issues and teams. No monthly price is listed" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Annual billing only. Adds SAML and SCIM" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://linear.app/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Enterprise (SAML)",
+    "sourceUrl": "https://linear.app/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["GitHub", "GitLab", "Zendesk", "Intercom"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "OpenProject",
+  "status": "published",
+  "vendor": { "name": "OpenProject GmbH", "website": "https://www.openproject.org" },
+  "primaryCategory": "issue-tracking",
+  "summary": "OpenProject is open-source project management software whose work packages carry a status, an assignee and a priority, with a GitHub tab on each work package. The Community edition is free. Paid cloud plans are priced in euros, from 5.95 per user per month with a 25-user minimum.",
+  "qualifies": [
+    {
+      "category": "issue-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "issue states and workflow", "sourceUrl": "https://www.openproject.org/docs/system-admin-guide/manage-work-packages/work-package-status/" },
+        { "capability": "assignment and priorities", "sourceUrl": "https://www.openproject.org/docs/user-guide/work-packages/" },
+        { "capability": "version control integration", "sourceUrl": "https://www.openproject.org/docs/system-admin-guide/integrations/github-integration/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Administrators add, rename and reorder statuses, and a new status has no effect until it is activated in the work package workflows.", "sourceUrl": "https://www.openproject.org/docs/system-admin-guide/manage-work-packages/work-package-status/", "checkedAt": "2026-11-04" },
+    { "text": "Work packages can have attributes such as status, assignee, priority and due date, and can be assigned to project members.", "sourceUrl": "https://www.openproject.org/docs/user-guide/work-packages/", "checkedAt": "2026-11-04" },
+    { "text": "A work package can link to several pull requests, and a pull request to several work packages, by including a reference such as OP#87 in its description or a comment.", "sourceUrl": "https://www.openproject.org/docs/system-admin-guide/integrations/github-integration/", "checkedAt": "2026-11-04" },
+    { "text": "The Cloud Basic plan has a 1-month subscription option that adds 1.00 euro per user. Longer periods of 1 to 5 years are offered, and their rates are not listed.", "sourceUrl": "https://www.openproject.org/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "A 14-day free trial is offered for the Enterprise cloud and for on-premises installations of the Community edition.", "sourceUrl": "https://www.openproject.org/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Community", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Free, self-hosted" },
+      { "name": "Basic", "priceUsd": null, "listedPrice": { "amount": 5.95, "currency": "EUR" }, "billing": "month", "unit": "per user per month", "notes": "Minimum 25 users. Listed in euros; the page shows a US/$ toggle whose amounts we could not read" },
+      { "name": "Professional", "priceUsd": null, "listedPrice": { "amount": 10.95, "currency": "EUR" }, "billing": "month", "unit": "per user per month", "notes": "Minimum 25 users. Listed in euros" },
+      { "name": "Premium", "priceUsd": null, "listedPrice": { "amount": 15.95, "currency": "EUR" }, "billing": "month", "unit": "per user per month", "notes": "Minimum 100 users. Listed in euros" },
+      { "name": "Corporate", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "On request, 250-user minimum" }
+    ],
+    "hiddenCosts": [
+      "Prices are listed in euros and the paid plans have 25 to 250 user minimums."
+    ],
+    "sourceUrl": "https://www.openproject.org/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["GitHub"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

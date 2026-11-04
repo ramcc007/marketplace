@@ -1,0 +1,54 @@
+{
+  "name": "Plane",
+  "status": "published",
+  "vendor": { "name": "Plane", "website": "https://plane.so" },
+  "primaryCategory": "issue-tracking",
+  "summary": "Plane is an open-core project and issue tracker with states, five priority levels, bulk assignment and a GitHub integration that moves work items when pull requests change. The Free plan allows up to 12 users, and Pro costs $8 per user per month or $6 on annual billing.",
+  "qualifies": [
+    {
+      "category": "issue-tracking",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "issue states and workflow", "sourceUrl": "https://docs.plane.so/core-concepts/issues/properties" },
+        { "capability": "assignment and priorities", "sourceUrl": "https://docs.plane.so/core-concepts/issues/properties" },
+        { "capability": "version control integration", "sourceUrl": "https://docs.plane.so/integrations/github" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Priority has five options, Urgent, High, Medium, Low and None, and new work items start at None.", "sourceUrl": "https://docs.plane.so/core-concepts/issues/properties", "checkedAt": "2026-11-04" },
+    { "text": "New work items start in the project's default state, and Plane records a completed date when an item moves into a Completed state.", "sourceUrl": "https://docs.plane.so/core-concepts/issues/properties", "checkedAt": "2026-11-04" },
+    { "text": "Referencing a work item ID in brackets, such as [WEB-344], in a pull request title or description links it and enables automatic state changes.", "sourceUrl": "https://docs.plane.so/integrations/github", "checkedAt": "2026-11-04" },
+    { "text": "GitHub issues and Plane work items can sync title, description, state, assignees, labels and comments, in one direction or both.", "sourceUrl": "https://docs.plane.so/integrations/github", "checkedAt": "2026-11-04" },
+    { "text": "SSO with SAML or OIDC is listed for the Business plan on cloud and self-hosted, and for Pro on self-hosted only. The Free plan has no integrations listed.", "sourceUrl": "https://plane.so/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Up to 12 users, no AI credits, no integrations" },
+      { "name": "Pro (monthly)", "priceUsd": 8, "billing": "month", "unit": "per user per month" },
+      { "name": "Pro (annual)", "priceUsd": 6, "billing": "year", "unit": "per user per month, billed annually" },
+      { "name": "Business (monthly)", "priceUsd": 15, "billing": "month", "unit": "per user per month" },
+      { "name": "Business (annual)", "priceUsd": 13, "billing": "year", "unit": "per user per month, billed annually" },
+      { "name": "Enterprise Grid", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Listed as custom pricing" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://plane.so/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Business (cloud); Pro (self-hosted only)",
+    "sourceUrl": "https://plane.so/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["GitHub", "GitLab", "Bitbucket", "Slack", "Microsoft Teams", "Sentry"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
