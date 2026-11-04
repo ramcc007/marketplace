@@ -1,0 +1,45 @@
+{
+  "name": "Kintsugi",
+  "status": "published",
+  "vendor": { "name": "Kintsugi", "website": "https://www.trykintsugi.com" },
+  "primaryCategory": "sales-tax",
+  "summary": "Kintsugi offers free nexus monitoring and exposure auditing, then charges $75 per action in the US and Canada for registrations, filings, amended returns and deregistrations. Real-time rate calculation on invoices appears only on its custom-priced Scale and Premium plans.",
+  "qualifies": [
+    {
+      "category": "sales-tax",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "tax rate calculation", "sourceUrl": "https://www.trykintsugi.com/" },
+        { "capability": "filing and remittance", "sourceUrl": "https://www.trykintsugi.com/pricing" },
+        { "capability": "registration or nexus tracking", "sourceUrl": "https://www.trykintsugi.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Kintsugi tracks economic thresholds across every US state and more than 100 countries, according to its homepage.", "sourceUrl": "https://www.trykintsugi.com/", "checkedAt": "2026-11-04" },
+    { "text": "Kintsugi says it holds a SOC 2 Type II report, available through its Trust Center.", "sourceUrl": "https://www.trykintsugi.com/", "checkedAt": "2026-11-04" },
+    { "text": "The Starter plan includes back filings for past periods owed, a virtual mailbox for jurisdiction notices and 24/7 live chat support.", "sourceUrl": "https://www.trykintsugi.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "On the pricing page, real-time tax calculation on invoices is listed for Scale and Premium and not for Free or Starter.", "sourceUrl": "https://www.trykintsugi.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Scale registration covers the EU, the UK and more than 100 countries, per the pricing page.", "sourceUrl": "https://www.trykintsugi.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Nexus monitoring, liability auditing and threshold alerts" },
+      { "name": "Starter", "priceUsd": 75, "billing": "one_time", "unit": "per action", "notes": "US and Canada. Actions include registrations, filings, amended returns and deregistrations" },
+      { "name": "Scale", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom flat monthly price" },
+      { "name": "Premium", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom flat monthly price" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.trykintsugi.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": true, "iso27001": null, "gdpr": null, "hipaa": null, "ssoPlan": null, "sourceUrl": "https://www.trykintsugi.com/", "checkedAt": "2026-11-04" },
+  "contract": { "annualOnly": null, "minSeats": null, "autoRenew": null, "cancellation": null, "dataExport": null, "sourceUrl": "https://www.trykintsugi.com/pricing", "checkedAt": "2026-11-04" },
+  "integrations": ["Shopify", "Amazon", "Walmart", "Stripe", "Chargebee", "BigCommerce", "QuickBooks"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

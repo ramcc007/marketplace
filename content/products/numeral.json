@@ -1,0 +1,46 @@
+{
+  "name": "Numeral",
+  "status": "published",
+  "vendor": { "name": "Numeral", "website": "https://www.numeral.com" },
+  "primaryCategory": "sales-tax",
+  "summary": "Numeral monitors nexus for free and sells registration and filing by the action. Its Professional plan costs $75 per filing and $150 per registration in all US states, and it promises to pay penalties and interest if a return is filed late. Rate calculation through an API sits on a custom Enterprise plan.",
+  "qualifies": [
+    {
+      "category": "sales-tax",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "tax rate calculation", "sourceUrl": "https://www.numeral.com/" },
+        { "capability": "filing and remittance", "sourceUrl": "https://www.numeral.com/pricing" },
+        { "capability": "registration or nexus tracking", "sourceUrl": "https://www.numeral.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Numeral guarantees that sales tax is filed on time or it pays the penalties and interest.", "sourceUrl": "https://www.numeral.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The free Monitoring plan includes a nexus study after a seller connects stores or billing platforms, plus alerts when the seller crosses nexus in a new jurisdiction.", "sourceUrl": "https://www.numeral.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Standard accounts are month-to-month with no required contract and can be canceled at any time without penalty.", "sourceUrl": "https://www.numeral.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing section says per filing and per registration, while the FAQ describes a one-time $150 registration fee per state, so the exact billing is worth confirming with Numeral.", "sourceUrl": "https://www.numeral.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Numeral says it covers 90 or more countries, with the global tax engine and API on the Enterprise plan.", "sourceUrl": "https://www.numeral.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Monitoring", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Nexus study, monitoring and alerts" },
+      { "name": "Professional", "priceUsd": 75, "billing": "one_time", "unit": "per filing", "notes": "Also $150 per registration. Includes autofile, autoregister, a virtual mailbox and exemption certificate management" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Adds global coverage, the tax engine and API, and advanced reporting" }
+    ],
+    "hiddenCosts": [
+      "The first 50 exemption certificates are free, and the page does not state the price after that."
+    ],
+    "sourceUrl": "https://www.numeral.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": null, "iso27001": null, "gdpr": null, "hipaa": null, "ssoPlan": null, "sourceUrl": "https://www.numeral.com/", "checkedAt": "2026-11-04" },
+  "contract": { "annualOnly": false, "minSeats": null, "autoRenew": null, "cancellation": "Standard month-to-month plans can be canceled at any time without penalty.", "dataExport": null, "sourceUrl": "https://www.numeral.com/pricing", "checkedAt": "2026-11-04" },
+  "integrations": ["Shopify", "Stripe", "NetSuite", "QuickBooks", "Xero", "BigCommerce", "WooCommerce", "Sage Intacct", "Salesforce", "Microsoft Business Central", "Acumatica"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "TaxJar",
+  "status": "published",
+  "vendor": { "name": "TaxJar", "website": "https://www.taxjar.com" },
+  "primaryCategory": "sales-tax",
+  "summary": "TaxJar covers US sales tax with real-time calculation through an API, an economic nexus tracker, state registration services and AutoFile for returns. Starter costs $39 a month and Professional costs $99 a month, both for 200 orders a month, with filing sold as yearly credits.",
+  "qualifies": [
+    {
+      "category": "sales-tax",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "tax rate calculation", "sourceUrl": "https://www.taxjar.com/" },
+        { "capability": "filing and remittance", "sourceUrl": "https://www.taxjar.com/pricing" },
+        { "capability": "registration or nexus tracking", "sourceUrl": "https://www.taxjar.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Starter includes 2 AutoFile credits a year and Professional includes 4, with extra credits costing $50 and $55.", "sourceUrl": "https://www.taxjar.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "API access is not available on Starter. Professional lists 10,000 API calls a minute and a developer sandbox.", "sourceUrl": "https://www.taxjar.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Annual billing saves 10% or more, and flex fees let an account move temporarily to a higher order tier for busy months.", "sourceUrl": "https://www.taxjar.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "TaxJar's pricing page recommends Stripe Tax to Stripe customers, and Stripe lists TaxJar as a filing partner for Tax Complete.", "sourceUrl": "https://docs.stripe.com/tax/filing", "checkedAt": "2026-11-04" },
+    { "text": "TaxJar states a 100% on-time filing rate for AutoFile in 2025.", "sourceUrl": "https://www.taxjar.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 39, "billing": "month", "unit": "per account, up to 200 orders a month", "notes": "2 AutoFile credits a year, up to 3 data import integrations, no API" },
+      { "name": "Professional", "priceUsd": 99, "billing": "month", "unit": "per account, up to 200 orders a month", "notes": "4 AutoFile credits a year, 10 team users, API access" }
+    ],
+    "hiddenCosts": [
+      "Extra AutoFile credits cost $50 on Starter and $55 on Professional.",
+      "Flex fees apply when an account temporarily moves to a higher order tier."
+    ],
+    "sourceUrl": "https://www.taxjar.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": null, "iso27001": null, "gdpr": null, "hipaa": null, "ssoPlan": null, "sourceUrl": "https://www.taxjar.com/", "checkedAt": "2026-11-04" },
+  "contract": { "annualOnly": false, "minSeats": null, "autoRenew": null, "cancellation": null, "dataExport": null, "sourceUrl": "https://www.taxjar.com/pricing", "checkedAt": "2026-11-04" },
+  "integrations": ["Amazon", "Shopify", "WooCommerce"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

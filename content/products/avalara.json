@@ -1,0 +1,46 @@
+{
+  "name": "Avalara",
+  "status": "published",
+  "vendor": { "name": "Avalara, Inc.", "website": "https://www.avalara.com" },
+  "primaryCategory": "sales-tax",
+  "summary": "Avalara sells rooftop-accurate tax calculation, economic nexus tracking and automated filing in one Core Compliance plan at $79 per state per month, with a three-state minimum. A second plan at $69 per state per month adds Streamlined Sales Tax services, including a single SST registration ID and state-funded calculation and filing in up to 25 states for qualifying sellers.",
+  "qualifies": [
+    {
+      "category": "sales-tax",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "tax rate calculation", "sourceUrl": "https://www.avalara.com/us/en/products/sales-and-use-tax/pricing.html" },
+        { "capability": "filing and remittance", "sourceUrl": "https://www.avalara.com/us/en/products/sales-and-use-tax/pricing.html" },
+        { "capability": "registration or nexus tracking", "sourceUrl": "https://www.avalara.com/us/en/products/sales-and-use-tax.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Core Compliance does not include registration in states outside the Streamlined Sales Tax program, which Avalara treats as a separate service.", "sourceUrl": "https://www.avalara.com/us/en/products/sales-and-use-tax/pricing.html", "checkedAt": "2026-11-04" },
+    { "text": "Avalara says AvaTax has achieved SOC 2 Type 2 compliance.", "sourceUrl": "https://www.avalara.com/us/en/products/sales-and-use-tax.html", "checkedAt": "2026-11-04" },
+    { "text": "Avalara cites more than 1,400 signed partner integrations plus an API.", "sourceUrl": "https://www.avalara.com/us/en/products/sales-and-use-tax.html", "checkedAt": "2026-11-04" },
+    { "text": "The SST plan page says the program covers 24 member and associate states plus Pennsylvania, and non-SST states cost $69 per state per month.", "sourceUrl": "https://www.avalara.com/us/en/products/sales-and-use-tax/pricing.html", "checkedAt": "2026-11-04" },
+    { "text": "Businesses with $50 million or more in annual revenue are sent to a custom plan with no published price.", "sourceUrl": "https://www.avalara.com/us/en/products/sales-and-use-tax/pricing.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Core Compliance", "priceUsd": 79, "billing": "month", "unit": "per state", "notes": "Or $799 per state per year. Minimum of 3 states" },
+      { "name": "Core Compliance + SST Services", "priceUsd": 69, "billing": "month", "unit": "per state", "notes": "Or $699 per state per year. No state minimum" },
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "For businesses with $50 million or more in annual revenue" }
+    ],
+    "hiddenCosts": [
+      "Registration in states outside the SST program is a separate service, priced separately."
+    ],
+    "sourceUrl": "https://www.avalara.com/us/en/products/sales-and-use-tax/pricing.html",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": true, "iso27001": null, "gdpr": null, "hipaa": null, "ssoPlan": null, "sourceUrl": "https://www.avalara.com/us/en/products/sales-and-use-tax.html", "checkedAt": "2026-11-04" },
+  "contract": { "annualOnly": false, "minSeats": null, "autoRenew": null, "cancellation": null, "dataExport": null, "sourceUrl": "https://www.avalara.com/us/en/products/sales-and-use-tax/pricing.html", "checkedAt": "2026-11-04" },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Sphere",
+  "status": "published",
+  "vendor": { "name": "Sphere", "website": "https://www.getsphere.com" },
+  "primaryCategory": "sales-tax",
+  "summary": "Sphere handles monitoring, registration, calculation, filing and remittance for sales tax, VAT and GST across more than 130 jurisdictions. Its self-serve Starter plan costs $100 per region per month for fewer than 10 regions and includes up to 50,000 calculated transactions, while larger footprints are quoted.",
+  "qualifies": [
+    {
+      "category": "sales-tax",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "tax rate calculation", "sourceUrl": "https://www.getsphere.com/pricing" },
+        { "capability": "filing and remittance", "sourceUrl": "https://www.getsphere.com/pricing" },
+        { "capability": "registration or nexus tracking", "sourceUrl": "https://www.getsphere.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Sphere says it charges a flat rate per region per month with no implementation fees or one-off costs.", "sourceUrl": "https://www.getsphere.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The Growth plan, for 10 or more regions, adds a dedicated account manager, an on-demand tax team, 24/7 Slack support and back tax calculations.", "sourceUrl": "https://www.getsphere.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Input tax and e-invoicing are add-ons available on request, with no price listed.", "sourceUrl": "https://www.getsphere.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Sphere's homepage does not mention SOC 2 or ISO certification.", "sourceUrl": "https://www.getsphere.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 100, "billing": "month", "unit": "per region", "notes": "For fewer than 10 regions, self-serve. Calculation up to 50,000 transactions" },
+      { "name": "Growth", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "For 10 or more regions" }
+    ],
+    "hiddenCosts": [
+      "Input tax and e-invoicing add-ons are priced on request."
+    ],
+    "sourceUrl": "https://www.getsphere.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": null, "iso27001": null, "gdpr": null, "hipaa": null, "ssoPlan": null, "sourceUrl": "https://www.getsphere.com/", "checkedAt": "2026-11-04" },
+  "contract": { "annualOnly": null, "minSeats": null, "autoRenew": null, "cancellation": null, "dataExport": null, "sourceUrl": "https://www.getsphere.com/pricing", "checkedAt": "2026-11-04" },
+  "integrations": ["Stripe", "Xero", "NetSuite", "QuickBooks"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

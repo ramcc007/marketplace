@@ -1,0 +1,44 @@
+{
+  "name": "Zamp",
+  "status": "published",
+  "vendor": { "name": "Zamp", "website": "https://www.zamp.com" },
+  "primaryCategory": "sales-tax",
+  "summary": "Zamp is a managed sales tax service that combines address-level rate calculation, nexus monitoring, state registration and filing, with a dedicated team for notices. It says it prices each business as one figure with no per-transaction fees, and publishes no dollar amounts. A free plan covers a one-time nexus analysis.",
+  "qualifies": [
+    {
+      "category": "sales-tax",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "tax rate calculation", "sourceUrl": "https://www.zamp.com/pricing" },
+        { "capability": "filing and remittance", "sourceUrl": "https://www.zamp.com/pricing" },
+        { "capability": "registration or nexus tracking", "sourceUrl": "https://www.zamp.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Zamp says it covers penalties and interest if a Zamp-managed calculation or filing causes them.", "sourceUrl": "https://www.zamp.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The US plan includes 80% early-warning alerts for nexus, automated state registrations and direct ACH remittance to states.", "sourceUrl": "https://www.zamp.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The US plus Canada plan adds GST, HST, PST and QST calculation, threshold monitoring, registration and return filing.", "sourceUrl": "https://www.zamp.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The free plan includes a 30-day rate-limited API sandbox, a one-time nexus analysis and a 30-minute expert consultation.", "sourceUrl": "https://www.zamp.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Zamp lists more than 30 integrations, including Shopify, NetSuite, QuickBooks Online, Xero, Stripe and Chargebee.", "sourceUrl": "https://www.zamp.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "One-time nexus analysis, taxability review and expert consultation" },
+      { "name": "U.S.", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales" },
+      { "name": "U.S. + Canada", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.zamp.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": true, "iso27001": null, "gdpr": null, "hipaa": null, "ssoPlan": null, "sourceUrl": "https://www.zamp.com/", "checkedAt": "2026-11-04" },
+  "contract": { "annualOnly": null, "minSeats": null, "autoRenew": null, "cancellation": null, "dataExport": null, "sourceUrl": "https://www.zamp.com/", "checkedAt": "2026-11-04" },
+  "integrations": ["Shopify", "Adobe Commerce", "BigCommerce", "WooCommerce", "NetSuite", "Microsoft Business Central", "QuickBooks Online", "Xero", "Stripe", "Chargebee", "Amazon", "Walmart"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

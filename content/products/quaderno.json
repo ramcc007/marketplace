@@ -1,0 +1,46 @@
+{
+  "name": "Quaderno",
+  "status": "published",
+  "vendor": { "name": "Quaderno", "website": "https://quaderno.io" },
+  "primaryCategory": "sales-tax",
+  "summary": "Quaderno calculates sales tax, VAT and GST in milliseconds, sends alerts when a seller crosses a threshold in a new place, and issues invoices, including e-invoices. It says it can file returns directly with authorities in more than 40 jurisdictions. Plans are priced by monthly transaction volume, from 25 transactions upward.",
+  "qualifies": [
+    {
+      "category": "sales-tax",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "tax rate calculation", "sourceUrl": "https://quaderno.io/pricing/" },
+        { "capability": "filing and remittance", "sourceUrl": "https://quaderno.io/" },
+        { "capability": "registration or nexus tracking", "sourceUrl": "https://quaderno.io/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "All Quaderno plans come with a 7-day free trial and no credit card is required.", "sourceUrl": "https://quaderno.io/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "A transaction is any sale, refund or purchase recorded in the app, and exceeding the limit moves an account to the next tier instead of adding overage fees.", "sourceUrl": "https://quaderno.io/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Filing and registration are not itemized in the plan grid, and Quaderno asks sellers to book a call for details.", "sourceUrl": "https://quaderno.io/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Quaderno states GDPR compliance, a 99.99% uptime SLA and Visma Security Program Gold, and lists no SOC 2 or ISO 27001 certificate on its homepage.", "sourceUrl": "https://quaderno.io/", "checkedAt": "2026-11-04" },
+    { "text": "API calls are capped at 10 times the plan's included transactions.", "sourceUrl": "https://quaderno.io/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 7,
+    "plans": [
+      { "name": "Hobby", "priceUsd": null, "billing": "month", "unit": "25 transactions a month, 1 user", "notes": "Listed as 24 per month. The pricing page text does not state the currency or whether the figure assumes yearly billing" },
+      { "name": "Startup", "priceUsd": null, "billing": "month", "unit": "250 transactions a month", "notes": "Listed as 41 per month, currency not stated" },
+      { "name": "Business", "priceUsd": null, "billing": "month", "unit": "1,000 transactions a month", "notes": "Listed as 83 per month, currency not stated" },
+      { "name": "Growth", "priceUsd": null, "billing": "month", "unit": "2,500 transactions a month", "notes": "Listed as 124 per month, currency not stated" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "over 2,500 transactions a month", "notes": "Contact sales" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://quaderno.io/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": null, "iso27001": null, "gdpr": true, "hipaa": null, "ssoPlan": null, "sourceUrl": "https://quaderno.io/", "checkedAt": "2026-11-04" },
+  "contract": { "annualOnly": null, "minSeats": null, "autoRenew": null, "cancellation": null, "dataExport": null, "sourceUrl": "https://quaderno.io/pricing/", "checkedAt": "2026-11-04" },
+  "integrations": ["Shopify", "WooCommerce", "Amazon FBA", "Stripe", "PayPal", "GoCardless", "Zapier"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

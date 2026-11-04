@@ -1,0 +1,49 @@
+{
+  "name": "TaxCloud",
+  "status": "published",
+  "vendor": { "name": "TaxCloud", "website": "https://www.taxcloud.com" },
+  "primaryCategory": "sales-tax",
+  "summary": "TaxCloud sells US sales tax reporting and filing for online sellers, with filing subscriptions starting at $39 a month or plans as low as $20 per filing. Starter plans cover reports and nexus monitoring, while real-time rate calculation and API access sit on Premium. Filing is free for sellers in Streamlined Sales Tax states where they have no physical presence.",
+  "qualifies": [
+    {
+      "category": "sales-tax",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "tax rate calculation", "sourceUrl": "https://www.taxcloud.com/pricing/" },
+        { "capability": "filing and remittance", "sourceUrl": "https://www.taxcloud.com/pricing/" },
+        { "capability": "registration or nexus tracking", "sourceUrl": "https://www.taxcloud.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "TaxCloud lists a 30-day free trial of Premium features with no credit card required.", "sourceUrl": "https://www.taxcloud.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Paying by credit card adds a 7% convenience fee.", "sourceUrl": "https://www.taxcloud.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Filings above a plan's allotment are billed at the plan's per-filing rate, plus surcharges for Colorado, Louisiana and Washington B&O taxes.", "sourceUrl": "https://www.taxcloud.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "State registration is offered as an extra service with no price listed, and audit support starts at $99 a month.", "sourceUrl": "https://www.taxcloud.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "TaxCloud says that through Streamlined Sales Tax, filing and registration are free in 24 states.", "sourceUrl": "https://www.taxcloud.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Filing and remittance", "priceUsd": 39, "billing": "month", "unit": "starting price, rises with returns filed", "notes": "Plans as low as $20 per filing. Applies to Starter and Premium" },
+      { "name": "Audit support", "priceUsd": 99, "billing": "month", "unit": "starting price", "notes": "Optional service" },
+      { "name": "Starter", "priceUsd": null, "billing": "month", "unit": "order tier", "notes": "For Shopify or Stripe businesses. Dollar prices for each order tier were not shown in the page text we could read" },
+      { "name": "Premium", "priceUsd": null, "billing": "month", "unit": "order tier", "notes": "Adds real-time tax calculation, ERP integrations and API access. Dollar prices for each order tier were not shown in the page text we could read" }
+    ],
+    "hiddenCosts": [
+      "A 7% convenience fee applies to credit card payments.",
+      "Returns above the filing allotment are billed per filing, with extra surcharges in Colorado, Louisiana and Washington.",
+      "State registration, a virtual mailbox and guided onboarding are extra services with no price listed."
+    ],
+    "sourceUrl": "https://www.taxcloud.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": null, "iso27001": null, "gdpr": null, "hipaa": null, "ssoPlan": null, "sourceUrl": "https://www.taxcloud.com/", "checkedAt": "2026-11-04" },
+  "contract": { "annualOnly": false, "minSeats": null, "autoRenew": null, "cancellation": null, "dataExport": null, "sourceUrl": "https://www.taxcloud.com/pricing/", "checkedAt": "2026-11-04" },
+  "integrations": ["Shopify", "Stripe", "WooCommerce", "BigCommerce", "QuickBooks", "Chargebee", "Magento", "Adobe Commerce", "Odoo"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

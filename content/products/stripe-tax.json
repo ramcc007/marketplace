@@ -1,0 +1,47 @@
+{
+  "name": "Stripe Tax",
+  "status": "published",
+  "vendor": { "name": "Stripe, Inc.", "website": "https://stripe.com" },
+  "primaryCategory": "sales-tax",
+  "summary": "Stripe Tax calculates sales tax, VAT and GST on Stripe payments and on other processors through its API, watches Stripe-processed sales against local registration thresholds, and can file returns in the US and selected places abroad. It charges 0.5% per transaction on the no-code route or $0.50 on the API route, only where the seller is registered to collect tax.",
+  "qualifies": [
+    {
+      "category": "sales-tax",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "tax rate calculation", "sourceUrl": "https://stripe.com/tax" },
+        { "capability": "filing and remittance", "sourceUrl": "https://docs.stripe.com/tax/filing" },
+        { "capability": "registration or nexus tracking", "sourceUrl": "https://docs.stripe.com/tax/monitoring" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Stripe says Stripe Tax supports over 100 countries and all US states, with some countries available to remote sellers only.", "sourceUrl": "https://stripe.com/tax", "checkedAt": "2026-11-04" },
+    { "text": "Threshold monitoring covers mainly payments processed by Stripe. The only outside payments it includes are invoices processed outside Stripe and transactions created through the Stripe Tax APIs.", "sourceUrl": "https://docs.stripe.com/tax/monitoring", "checkedAt": "2026-11-04" },
+    { "text": "Stripe sends threshold alerts only once a business has had $10,000 in revenue in the previous year, and the tool highlights possible obligations while leaving the decision to register to the seller.", "sourceUrl": "https://docs.stripe.com/tax/monitoring", "checkedAt": "2026-11-04" },
+    { "text": "Registration and filing are separate services. The Register for me option in Tax Complete registers a business but does not prepare returns or remit tax.", "sourceUrl": "https://docs.stripe.com/tax/filing", "checkedAt": "2026-11-04" },
+    { "text": "Stripe offers automated filing in the US and for selected registrations in Ireland and Canada. Other places go through partners such as Taxually and TaxJar, whose filing credits come with the Tax Complete plan.", "sourceUrl": "https://docs.stripe.com/tax/filing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "No-code or low-code", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 0.5, "basis": "per transaction where registered to collect taxes" }, "notes": "Dashboard or one line of code" },
+      { "name": "API integration", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 0, "fixedUsd": 0.5, "basis": "per transaction where registered to collect taxes" }, "notes": "Includes 10 calculation API calls per transaction, then 5 cents per extra call" },
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "For large payment volume, high transaction volume or unusual business models" }
+    ],
+    "hiddenCosts": [
+      "Registration and filing prices through Tax Complete and partners are not shown on the pricing page.",
+      "Filing partners such as Marosa and Hands-off Sales Tax have separate pricing."
+    ],
+    "sourceUrl": "https://stripe.com/tax/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": { "soc2": null, "iso27001": null, "gdpr": null, "hipaa": null, "ssoPlan": null, "sourceUrl": "https://stripe.com/tax", "checkedAt": "2026-11-04" },
+  "contract": { "annualOnly": null, "minSeats": null, "autoRenew": null, "cancellation": null, "dataExport": "Downloadable reports for each filing location let a seller file returns without Stripe.", "exportSourceUrl": "https://docs.stripe.com/tax/filing", "sourceUrl": "https://stripe.com/tax/pricing", "checkedAt": "2026-11-04" },
+  "integrations": ["Stripe Payments", "Stripe Billing", "Stripe Checkout", "Stripe Connect", "Taxually", "TaxJar", "Marosa", "Hands-off Sales Tax"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
