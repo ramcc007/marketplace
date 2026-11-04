@@ -1,0 +1,53 @@
+{
+  "name": "KnowBe4",
+  "status": "published",
+  "vendor": { "name": "KnowBe4, Inc.", "website": "https://www.knowbe4.com" },
+  "primaryCategory": "security-awareness-training",
+  "summary": "KnowBe4 sells security awareness training with simulated phishing, priced per seat per month on a 3-year term. Foundation starts at $2.40 per seat for 25 to 50 seats and Advanced at $3.75, and both fall with volume to $1.63 and $2.79 at 501 to 1,000 seats. Above 1,000 seats the price is a quote.",
+  "qualifies": [
+    {
+      "category": "security-awareness-training",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "training modules", "sourceUrl": "https://www.knowbe4.com/products/security-awareness-training" },
+        { "capability": "phishing simulations", "sourceUrl": "https://www.knowbe4.com/products/security-awareness-training" },
+        { "capability": "completion reports", "sourceUrl": "https://www.knowbe4.com/products/security-awareness-training" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "KnowBe4 lists unlimited phishing security tests on both Foundation and Advanced, and says Foundation has 200+ pieces of content while Advanced has 1000+.", "sourceUrl": "https://www.knowbe4.com/products/security-awareness-training/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The product page names training completion and phishing simulation pass rates over time as tracked metrics, and cites 60+ built-in reports and executive dashboards.", "sourceUrl": "https://www.knowbe4.com/products/security-awareness-training", "checkedAt": "2026-11-04" },
+    { "text": "Foundation includes a limited number of Smart Groups, while Advanced includes unlimited Smart Groups.", "sourceUrl": "https://www.knowbe4.com/products/security-awareness-training/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says list prices may change at any time, may vary by region and exclude taxes. The USD figures here come from its default United States selection.", "sourceUrl": "https://www.knowbe4.com/products/security-awareness-training/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "SAT Foundation", "priceUsd": 2.4, "billing": "month", "unit": "per seat, 25 to 50 seats", "notes": "3-year term. Per seat per month: $2.13 for 51 to 100 seats, $1.97 for 101 to 250, $1.80 for 251 to 500, $1.63 for 501 to 1,000. Quote above 1,000 seats" },
+      { "name": "SAT Advanced", "priceUsd": 3.75, "billing": "month", "unit": "per seat, 25 to 50 seats", "notes": "3-year term. Per seat per month: $3.40 for 51 to 100 seats, $3.19 for 101 to 250, $2.96 for 251 to 500, $2.79 for 501 to 1,000. Quote above 1,000 seats" }
+    ],
+    "hiddenCosts": [
+      "Prices are shown for a 3-year term only, and the page lists no other term.",
+      "Add-ons cost extra, such as Third-Party Integrations at $1.20 per seat per month for 101 to 500 seats.",
+      "The lowest published band starts at 25 seats."
+    ],
+    "sourceUrl": "https://www.knowbe4.com/products/security-awareness-training/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": 25,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.knowbe4.com/products/security-awareness-training/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

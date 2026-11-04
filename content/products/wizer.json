@@ -1,0 +1,53 @@
+{
+  "name": "Wizer",
+  "status": "published",
+  "vendor": { "name": "Wizer", "website": "https://www.wizer-training.com" },
+  "primaryCategory": "security-awareness-training",
+  "summary": "Wizer teaches security awareness with short animated videos and has a free plan with basic annual training and limited reporting. The paid Boost plan adds adaptive phishing simulations and the full library at $25 per user per year for 25 or more users, falling to $8 at 3,001 or more. Boost is sold on a 3-year term billed annually.",
+  "qualifies": [
+    {
+      "category": "security-awareness-training",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "training modules", "sourceUrl": "https://www.wizer-training.com/" },
+        { "capability": "phishing simulations", "sourceUrl": "https://www.wizer-training.com/pricing" },
+        { "capability": "completion reports", "sourceUrl": "https://learn.wizer-training.com/knowledge/how-to-read-the-dashboard" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Wizer describes its training as 1-minute animated videos based on real-world scams, and says its AI Studio can turn documents or policies into training videos.", "sourceUrl": "https://www.wizer-training.com/", "checkedAt": "2026-11-04" },
+    { "text": "The dashboard Progress Report can be exported as a CSV file and shows statistics per user per training with the completion date of each assigned course.", "sourceUrl": "https://learn.wizer-training.com/knowledge/how-to-read-the-dashboard", "checkedAt": "2026-11-04" },
+    { "text": "The free plan does not include phishing simulations, SSO, departments and groups, or the full training library.", "sourceUrl": "https://www.wizer-training.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Online purchase needs at least 25 users. A 1-year term and discounts for education, nonprofit and government buyers go through sales.", "sourceUrl": "https://www.wizer-training.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "year", "unit": "per user", "notes": "Basic annual training videos, Learner Console, limited reporting, automatic learner reminders. No phishing simulations" },
+      { "name": "Boost", "priceUsd": 25, "billing": "year", "unit": "per user, 25+ users", "notes": "3-year term billed annually. Per user per year: $20 at 51+ users, $17 at 101+, $14 at 501+, $12 at 1,001+, $8 at 3,001+. Contact sales above 5,000" }
+    ],
+    "hiddenCosts": [
+      "Boost is sold on a 3-year term billed annually. A 1-year term needs a sales conversation.",
+      "Phishing simulations, advanced reporting and the full library are not on the free plan."
+    ],
+    "sourceUrl": "https://www.wizer-training.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": 25,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": "The Progress Report can be exported as CSV.",
+    "exportSourceUrl": "https://learn.wizer-training.com/knowledge/how-to-read-the-dashboard",
+    "sourceUrl": "https://www.wizer-training.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

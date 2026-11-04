@@ -1,0 +1,41 @@
+{
+  "name": "SafeTitan",
+  "status": "published",
+  "vendor": { "name": "TitanHQ", "website": "https://www.titanhq.com" },
+  "primaryCategory": "security-awareness-training",
+  "summary": "SafeTitan from TitanHQ pairs story-based lessons of about 8 to 10 minutes with automated phishing simulations that give each user unique lures. Its Report Manager has a User Completion Summary showing modules assigned and finished. TitanHQ publishes no price and says pricing depends on the number of users or modules.",
+  "qualifies": [
+    {
+      "category": "security-awareness-training",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "training modules", "sourceUrl": "https://www.titanhq.com/security-awareness-training/" },
+        { "capability": "phishing simulations", "sourceUrl": "https://www.titanhq.com/security-awareness-training/" },
+        { "capability": "completion reports", "sourceUrl": "https://helpcenter.titanhq.com/support/solutions/articles/4000220834-customer-admin-reports" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "TitanHQ describes story-based lessons that run about 8 to 10 minutes and a Reactive Training feature that targets users who show insecure behavior.", "sourceUrl": "https://www.titanhq.com/security-awareness-training/", "checkedAt": "2026-11-04" },
+    { "text": "Each user receives unique lures, and Auto Campaigns run continuously at no additional cost.", "sourceUrl": "https://www.titanhq.com/security-awareness-training/", "checkedAt": "2026-11-04" },
+    { "text": "The User Completion Summary report shows how many campaigns each user was in, how many modules were assigned, how many were finished on time and the completion percentage.", "sourceUrl": "https://helpcenter.titanhq.com/support/solutions/articles/4000220834-customer-admin-reports", "checkedAt": "2026-11-04" },
+    { "text": "TitanHQ says pricing is based on the number of users or modules required, with flexible subscription options.", "sourceUrl": "https://www.titanhq.com/safetitan/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Quote", "priceUsd": null, "billing": "quote", "unit": "per user or per module", "notes": "Based on the number of users or modules required. No price is published" }
+    ],
+    "hiddenCosts": [
+      "No price, minimum or term is published, so budget comparison needs a quote."
+    ],
+    "sourceUrl": "https://www.titanhq.com/safetitan/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

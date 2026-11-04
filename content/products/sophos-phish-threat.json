@@ -1,0 +1,50 @@
+{
+  "name": "Sophos Phish Threat",
+  "status": "published",
+  "vendor": { "name": "Sophos", "website": "https://www.sophos.com" },
+  "primaryCategory": "security-awareness-training",
+  "summary": "Sophos Phish Threat runs simulated phishing campaigns and offers more than 30 security awareness training modules, with training and phishing templates in nine languages. Its Training report lists users who are enrolled and those with incomplete courses. Sophos publishes no dollar price: it prices per user in bands from 5 users, on one, two or three year subscriptions.",
+  "qualifies": [
+    {
+      "category": "security-awareness-training",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "training modules", "sourceUrl": "https://www.sophos.com/en-us/products/phish-threat" },
+        { "capability": "phishing simulations", "sourceUrl": "https://www.sophos.com/en-us/products/phish-threat" },
+        { "capability": "completion reports", "sourceUrl": "https://docs.sophos.com/central/customer/help/en-us/ManageYourProducts/PhishThreat/Reports/PTTrainingReport/index.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Sophos says Phish Threat includes more than 30 security awareness training modules, available in nine languages, with phishing simulations translated into the same nine.", "sourceUrl": "https://www.sophos.com/en-us/products/phish-threat", "checkedAt": "2026-11-04" },
+    { "text": "The User Training report shows training enrollment and compliance status, with an Incomplete Trainings filter for users who have not finished one or more courses.", "sourceUrl": "https://docs.sophos.com/central/customer/help/en-us/ManageYourProducts/PhishThreat/Reports/PTTrainingReport/index.html", "checkedAt": "2026-11-04" },
+    { "text": "Sophos says the reports a customer can see depend on the license and products in use.", "sourceUrl": "https://docs.sophos.com/central/customer/help/en-us/ManageYourProducts/PhishThreat/Reports/index.html", "checkedAt": "2026-11-04" },
+    { "text": "Sophos says monthly pricing is available through its MSP FlexConnect program.", "sourceUrl": "https://www.sophos.com/en-us/products/phish-threat/how-to-buy", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Quote", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Priced per user in bands from 5 to 5,000-plus. Subscriptions run one, two or three years. No dollar price is published" }
+    ],
+    "hiddenCosts": [
+      "No dollar price is published, so budget comparison needs a quote."
+    ],
+    "sourceUrl": "https://www.sophos.com/en-us/products/phish-threat/how-to-buy",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": 5,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.sophos.com/en-us/products/phish-threat/how-to-buy",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

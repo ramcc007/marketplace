@@ -1,0 +1,40 @@
+{
+  "name": "Mimecast Awareness Training",
+  "status": "published",
+  "vendor": { "name": "Mimecast", "website": "https://www.mimecast.com" },
+  "primaryCategory": "security-awareness-training",
+  "summary": "Mimecast Awareness Training offers 200+ modules in 27 languages and phishing templates built with an AI generator by attack type, industry and difficulty. Individual scorecards show each employee's risk level and completed training. No price is published: Mimecast sells tailored plans by quote based on the maturity of the human risk program.",
+  "qualifies": [
+    {
+      "category": "security-awareness-training",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "training modules", "sourceUrl": "https://www.mimecast.com/products/awareness-training/" },
+        { "capability": "phishing simulations", "sourceUrl": "https://www.mimecast.com/products/awareness-training/" },
+        { "capability": "completion reports", "sourceUrl": "https://www.mimecast.com/products/awareness-training/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Mimecast lists 200+ modules on topics such as AI threats, phishing and malware, available in 27 languages.", "sourceUrl": "https://www.mimecast.com/products/awareness-training/", "checkedAt": "2026-11-04" },
+    { "text": "Completion data appears in individualized employee scorecards that show risk levels and completed training. The page does not describe a separate admin report.", "sourceUrl": "https://www.mimecast.com/products/awareness-training/", "checkedAt": "2026-11-04" },
+    { "text": "The page says human risk data can be reached through a SIEM, SOAR or custom dashboards.", "sourceUrl": "https://www.mimecast.com/products/awareness-training/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Quote", "priceUsd": null, "billing": "quote", "unit": "per plan", "notes": "Mimecast says it offers multiple tailored plans based on human risk program maturity. No price is published" }
+    ],
+    "hiddenCosts": [
+      "No price, minimum or term is published, so budget comparison needs a quote."
+    ],
+    "sourceUrl": "https://www.mimecast.com/products/awareness-training/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["SIEM", "SOAR"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

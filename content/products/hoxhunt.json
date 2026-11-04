@@ -1,0 +1,41 @@
+{
+  "name": "Hoxhunt",
+  "status": "published",
+  "vendor": { "name": "Hoxhunt", "website": "https://hoxhunt.com" },
+  "primaryCategory": "security-awareness-training",
+  "summary": "Hoxhunt sends employees short lessons and personalized phishing simulations that adapt as they improve. It lists 300+ training modules in video and text. No price is published: Hoxhunt prices per employee, and a quote follows a 30-minute scoping call that covers headcount, integrations and the capabilities needed.",
+  "qualifies": [
+    {
+      "category": "security-awareness-training",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "training modules", "sourceUrl": "https://hoxhunt.com/product/security-awareness-training" },
+        { "capability": "phishing simulations", "sourceUrl": "https://hoxhunt.com/product/security-awareness-training" },
+        { "capability": "completion reports", "sourceUrl": "https://hoxhunt.com/product/security-awareness-training" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The product page lists 300+ ready training modules in video and text, plus interactive modules and several quiz formats.", "sourceUrl": "https://hoxhunt.com/product/security-awareness-training", "checkedAt": "2026-11-04" },
+    { "text": "Simulations are personalized by factors such as skill level, role and location, and the page says automation covers enrollment, reminders, completion tracking and manager escalations.", "sourceUrl": "https://hoxhunt.com/product/security-awareness-training", "checkedAt": "2026-11-04" },
+    { "text": "The page lists compliance training tracks for PCI DSS, HIPAA, DORA and GDPR.", "sourceUrl": "https://hoxhunt.com/product/security-awareness-training", "checkedAt": "2026-11-04" },
+    { "text": "The scoping call covers challenges, employee count and integrations, a live view of the employee experience, and a tour of the administrator dashboard and reports.", "sourceUrl": "https://hoxhunt.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Quote", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "Depends on employee count and the capabilities needed. No price is published" }
+    ],
+    "hiddenCosts": [
+      "No price, minimum or term is published, so budget comparison needs a sales call."
+    ],
+    "sourceUrl": "https://hoxhunt.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
