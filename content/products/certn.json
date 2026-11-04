@@ -1,0 +1,45 @@
+{
+  "name": "Certn",
+  "status": "published",
+  "vendor": { "name": "Certn", "website": "https://certn.co" },
+  "primaryCategory": "background-check",
+  "summary": "Certn lists self-serve per-check prices in Canadian dollars, such as 24.99 for a basic Canadian criminal record check and 29.99 for employment verification. It covers Canada, the US, the UK and international records, and it connects to Greenhouse, Lever, Workday and other ATS tools. Pass-through fees may apply.",
+  "qualifies": [
+    {
+      "category": "background-check",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "criminal and employment checks", "sourceUrl": "https://certn.co/criminal-record-checks/" },
+        { "capability": "candidate consent flow", "sourceUrl": "https://certn.co/criminal-record-checks/" },
+        { "capability": "ats integration", "sourceUrl": "https://certn.co/ats-integrations/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The criminal checks page lists Canadian CPIC, Quebec SOQUIJ, US multi-jurisdictional, federal and county records, UK checks and international databases in 200+ countries and territories.", "sourceUrl": "https://certn.co/criminal-record-checks/", "checkedAt": "2026-11-04" },
+    { "text": "To send a check, an employer needs only the candidate's name and email, and the candidate gets a secure link by SMS or email to complete it.", "sourceUrl": "https://certn.co/criminal-record-checks/", "checkedAt": "2026-11-04" },
+    { "text": "The same page mentions built-in consent forms as a compliance tool but does not describe their wording or when they appear.", "sourceUrl": "https://certn.co/criminal-record-checks/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page states prices are in Canadian dollars, and it lists the Public Records Check as Canada only and not available for US candidates.", "sourceUrl": "https://certn.co/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The ATS page names Greenhouse, Lever and Workday and says status updates sync into the ATS.", "sourceUrl": "https://certn.co/ats-integrations/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Basic Canadian Criminal Record Check", "priceUsd": null, "listedPrice": { "amount": 24.99, "currency": "CAD" }, "billing": "one_time", "unit": "per check", "notes": "Requires successful ID verification first. Priced in Canadian dollars" },
+      { "name": "Enhanced Canadian Criminal Record Check", "priceUsd": null, "listedPrice": { "amount": 29.99, "currency": "CAD" }, "billing": "one_time", "unit": "per check", "notes": "Adds CPIC and Police Information Portal searches" },
+      { "name": "Employment Verification", "priceUsd": null, "listedPrice": { "amount": 29.99, "currency": "CAD" }, "billing": "one_time", "unit": "per check", "notes": "Pass-through access fees may apply" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing for larger implementations" }
+    ],
+    "hiddenCosts": [
+      "Pass-through access fees may apply to employment and education verification."
+    ],
+    "sourceUrl": "https://certn.co/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Greenhouse", "Lever", "Workday"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

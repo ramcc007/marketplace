@@ -1,0 +1,43 @@
+{
+  "name": "ClearStar",
+  "status": "published",
+  "vendor": { "name": "ClearStar", "website": "https://www.clearstar.net" },
+  "primaryCategory": "background-check",
+  "summary": "ClearStar lists three screening plans (Basic, Standard and Professional) but shows no prices and asks buyers to request them. Its Smart Screen offer runs instant criminal screening powered by Equifax, a customer testimonial credits it with easy applicant authorizations by text or email, and its homepage names seven HR technology partners.",
+  "qualifies": [
+    {
+      "category": "background-check",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "criminal and employment checks", "sourceUrl": "https://www.clearstar.net/pricing/" },
+        { "capability": "candidate consent flow", "sourceUrl": "https://www.clearstar.net/testimonials/alex-thompson/" },
+        { "capability": "ats integration", "sourceUrl": "https://www.clearstar.net/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Basic plan includes a national criminal database search and the first three county court criminal checks, with pass-through fees.", "sourceUrl": "https://www.clearstar.net/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The Standard plan adds one education verification and two employment verifications, and Professional adds two professional reference verifications.", "sourceUrl": "https://www.clearstar.net/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The homepage lists seven integration partners: SAP, Paycor, Workday, eightfold.ai, Dayforce, SmartRecruiters and Employ.", "sourceUrl": "https://www.clearstar.net/", "checkedAt": "2026-11-04" },
+    { "text": "A customer testimonial credits ClearStar with the ease of applicant authorizations by text or email, and the vendor pages we read did not describe the consent flow itself.", "sourceUrl": "https://www.clearstar.net/testimonials/alex-thompson/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Basic", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "National criminal database search and the first 3 county criminal checks. Pass-through fees apply" },
+      { "name": "Standard", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Adds 1 education verification and 2 employment verifications" },
+      { "name": "Professional", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Adds 2 professional reference verifications" }
+    ],
+    "hiddenCosts": [
+      "County court checks beyond the first three, and pass-through fees, are not priced on the page."
+    ],
+    "sourceUrl": "https://www.clearstar.net/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["SAP", "Paycor", "Workday", "eightfold.ai", "Dayforce", "SmartRecruiters", "Employ"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

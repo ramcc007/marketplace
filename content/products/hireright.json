@@ -1,0 +1,37 @@
+{
+  "name": "HireRight",
+  "status": "published",
+  "vendor": { "name": "HireRight", "website": "https://www.hireright.com" },
+  "primaryCategory": "background-check",
+  "summary": "HireRight sells quoted background screening. Its Connect API page describes linking with applicant tracking platforms, gathering candidates' permission and running criminal record screenings, and the only call to action is a pricing request. We could confirm little more from its public pages.",
+  "qualifies": [
+    {
+      "category": "background-check",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "criminal and employment checks", "sourceUrl": "https://www.hireright.com/services/hireright-connect-api" },
+        { "capability": "candidate consent flow", "sourceUrl": "https://www.hireright.com/services/hireright-connect-api" },
+        { "capability": "ats integration", "sourceUrl": "https://www.hireright.com/services/hireright-connect-api" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The HireRight Connect API page describes three capabilities: linking with applicant tracking platforms, gathering candidates' permission, and running background screenings for criminal records.", "sourceUrl": "https://www.hireright.com/services/hireright-connect-api", "checkedAt": "2026-11-04" },
+    { "text": "The Connect API page publishes no price and offers only a request for pricing.", "sourceUrl": "https://www.hireright.com/services/hireright-connect-api", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices are published. Buyers request pricing" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.hireright.com/services/hireright-connect-api",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

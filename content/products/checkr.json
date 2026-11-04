@@ -1,0 +1,46 @@
+{
+  "name": "Checkr",
+  "status": "published",
+  "vendor": { "name": "Checkr, Inc.", "website": "https://checkr.com" },
+  "primaryCategory": "background-check",
+  "summary": "Checkr sells employment background checks at published per-report prices: $29.99 for Basic, $59.99 for Essential and $94.99 for Complete, before pass-through court and agency fees. Employers invite candidates by email to enter their details and consent, and larger accounts get quoted pricing with 200+ ATS integrations.",
+  "qualifies": [
+    {
+      "category": "background-check",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "criminal and employment checks", "sourceUrl": "https://checkr.com/background-check/criminal-background-check" },
+        { "capability": "candidate consent flow", "sourceUrl": "https://docs.checkr.com/" },
+        { "capability": "ats integration", "sourceUrl": "https://checkr.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Checkr's criminal search page describes national, state, county, federal and sex offender searches, and says its national search queries over 900 million public records.", "sourceUrl": "https://checkr.com/background-check/criminal-background-check", "checkedAt": "2026-11-04" },
+    { "text": "Checkr's API documentation says it emails the candidate to invite them to provide their information and consent, and that it cannot provide a report unless the employer certifies it obtained proper authorization.", "sourceUrl": "https://docs.checkr.com/", "checkedAt": "2026-11-04" },
+    { "text": "A county criminal search costs $25 per check as an add-on, and a motor vehicle record costs $9.50 per check, both before pass-through fees.", "sourceUrl": "https://checkr.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Employment verification as an add-on costs $12.50 for the current employer and $50 for ten years of history.", "sourceUrl": "https://checkr.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists the Enterprise tier as custom-quoted with 200+ ATS integrations and automated adjudication.", "sourceUrl": "https://checkr.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Basic", "priceUsd": 29.99, "billing": "one_time", "unit": "per report", "notes": "SSN trace, sex offender registry, global watchlist and national criminal search" },
+      { "name": "Essential", "priceUsd": 59.99, "billing": "one_time", "unit": "per report", "notes": "Adds identity verification and unlimited county criminal search" },
+      { "name": "Complete", "priceUsd": 94.99, "billing": "one_time", "unit": "per report", "notes": "Adds unlimited state criminal search and federal criminal search" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Automated adjudication, 200+ ATS integrations and customized workflows" }
+    ],
+    "hiddenCosts": [
+      "Pass-through fees charged by courts and agencies are not included in the per-report prices.",
+      "Add-ons such as a county criminal search ($25) and a motor vehicle record ($9.50) are billed on top of the package."
+    ],
+    "sourceUrl": "https://checkr.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

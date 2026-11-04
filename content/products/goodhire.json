@@ -1,0 +1,43 @@
+{
+  "name": "GoodHire",
+  "status": "published",
+  "vendor": { "name": "GoodHire", "website": "https://www.goodhire.com" },
+  "primaryCategory": "background-check",
+  "summary": "GoodHire, which calls itself a Checkr company, lists three per-check packages from $29.99 to $94.99 with third-party fees extra. It offers three consent routes (e-consent by email, its own form, or the employer's form) and connects to applicant tracking systems such as Greenhouse, Lever and Workday.",
+  "qualifies": [
+    {
+      "category": "background-check",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "criminal and employment checks", "sourceUrl": "https://www.goodhire.com/pricing/" },
+        { "capability": "candidate consent flow", "sourceUrl": "https://www.goodhire.com/blog/3-steps-to-easy-background-check-consent/" },
+        { "capability": "ats integration", "sourceUrl": "https://www.goodhire.com/background-checks/hr-tech-integrations/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "GoodHire's pricing page describes the company as a Checkr company and lists the same three package prices as Checkr's workforce plans.", "sourceUrl": "https://www.goodhire.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "GoodHire offers three FCRA consent options: e-consent signed by the candidate on a phone or computer, a GoodHire consent form for onsite candidates, and a custom employer form that GoodHire reviews.", "sourceUrl": "https://www.goodhire.com/blog/3-steps-to-easy-background-check-consent/", "checkedAt": "2026-11-04" },
+    { "text": "The integrations page says GoodHire comes pre-integrated with leading ATS and HRIS platforms and can be added to others through its API.", "sourceUrl": "https://www.goodhire.com/background-checks/hr-tech-integrations/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says additional third-party fees may apply and does not state the amounts.", "sourceUrl": "https://www.goodhire.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Basic", "priceUsd": 29.99, "billing": "one_time", "unit": "per check", "notes": "Starting from. SSN trace, sex offender registry, global watchlist and national criminal search" },
+      { "name": "Essential", "priceUsd": 59.99, "billing": "one_time", "unit": "per check", "notes": "Starting from. Adds identity verification and unlimited county criminal search" },
+      { "name": "Complete", "priceUsd": 94.99, "billing": "one_time", "unit": "per check", "notes": "Starting from. Adds unlimited state criminal search and federal criminal search" }
+    ],
+    "hiddenCosts": [
+      "The pricing page says additional third-party fees may apply and links to a separate page about them."
+    ],
+    "sourceUrl": "https://www.goodhire.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Greenhouse", "Lever", "Workday", "iCIMS", "Jobvite", "BambooHR", "Rippling", "SmartRecruiters"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Verified First",
+  "status": "published",
+  "vendor": { "name": "Verified First", "website": "https://verifiedfirst.com" },
+  "primaryCategory": "background-check",
+  "summary": "Verified First publishes three packages at $29.99, $54.99 and $79.99 and says it has no long-term contracts, annual commitments or minimum screening requirements. Candidates get a text invitation to sign digital disclosure and authorization forms, and the vendor lists 49 applicant tracking systems.",
+  "qualifies": [
+    {
+      "category": "background-check",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "criminal and employment checks", "sourceUrl": "https://verifiedfirst.com/pricing/" },
+        { "capability": "candidate consent flow", "sourceUrl": "https://verifiedfirst.com/background-screening/" },
+        { "capability": "ats integration", "sourceUrl": "https://verifiedfirst.com/ats-integrations/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Premium package adds employment verification and education verification to the criminal searches in the lower packages.", "sourceUrl": "https://verifiedfirst.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Candidates receive a text invitation and complete digital disclosure and authorization forms on a mobile device, with automatic reminders.", "sourceUrl": "https://verifiedfirst.com/background-screening/", "checkedAt": "2026-11-04" },
+    { "text": "Built-in pre-adverse action tools handle the notice process when a report needs further review.", "sourceUrl": "https://verifiedfirst.com/background-screening/", "checkedAt": "2026-11-04" },
+    { "text": "The ATS integrations page lists 49 entries tagged as applicant tracking systems, including Greenhouse, Lever, Workable and JazzHR.", "sourceUrl": "https://verifiedfirst.com/ats-integrations/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page does not say whether the listed prices are per check, and it lists no add-on or pass-through fees.", "sourceUrl": "https://verifiedfirst.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Basic", "priceUsd": 29.99, "billing": "one_time", "unit": "per screening", "notes": "Nationwide criminal search, national sex offender registry, Social Security address trace and global watch list. The page does not state the unit" },
+      { "name": "Essential", "priceUsd": 54.99, "billing": "one_time", "unit": "per screening", "notes": "Adds unlimited county criminal search. The page does not state the unit" },
+      { "name": "Premium", "priceUsd": 79.99, "billing": "one_time", "unit": "per screening", "notes": "Adds employment and education verification. The page does not state the unit" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom screening packages and discounted volume pricing" }
+    ],
+    "hiddenCosts": [
+      "The pricing page lists no fees, taxes or add-on prices, so court and agency pass-through fees should be confirmed with sales."
+    ],
+    "sourceUrl": "https://verifiedfirst.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://verifiedfirst.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Greenhouse", "Lever", "Workable", "JazzHR", "BambooHR", "Jobvite", "SmartRecruiters", "Hireology"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "First Advantage",
+  "status": "published",
+  "vendor": { "name": "First Advantage", "website": "https://fadv.com" },
+  "primaryCategory": "background-check",
+  "summary": "First Advantage is a large screening provider that now also serves former Sterling customers. It publishes no prices, so buyers request a quote. It covers county, federal and international criminal searches, says it has more than 100 ATS and HCM integrations, and documents the FCRA disclosure and authorization steps for clients.",
+  "qualifies": [
+    {
+      "category": "background-check",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "criminal and employment checks", "sourceUrl": "https://fadv.com/solutions/criminal-background-checks/" },
+        { "capability": "candidate consent flow", "sourceUrl": "https://fadv.com/customers/fcra/" },
+        { "capability": "ats integration", "sourceUrl": "https://fadv.com/integrations/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "First Advantage says county court record searches are available in over 3,100 US counties.", "sourceUrl": "https://fadv.com/solutions/criminal-background-checks/", "checkedAt": "2026-11-04" },
+    { "text": "The Sterling website now says Sterling is part of First Advantage and sends new customers to First Advantage sales.", "sourceUrl": "https://www.sterlingcheck.com/", "checkedAt": "2026-11-04" },
+    { "text": "The integrations page cites 100+ integration options including Workday, iCIMS and Bullhorn, and names 18 partners in all.", "sourceUrl": "https://fadv.com/integrations/", "checkedAt": "2026-11-04" },
+    { "text": "First Advantage's FCRA page says the disclosure must be in a separate document and that the employer must obtain written authorization from the applicant.", "sourceUrl": "https://fadv.com/customers/fcra/", "checkedAt": "2026-11-04" },
+    { "text": "Candidates enter their information in a portal called Profile Advantage, and the same page does not describe consent wording.", "sourceUrl": "https://fadv.com/solutions/criminal-background-checks/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices are published. Buyers contact sales" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://fadv.com/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Workday", "iCIMS", "Bullhorn", "Greenhouse", "Lever", "Jobvite", "Oracle", "UKG", "SAP SuccessFactors"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

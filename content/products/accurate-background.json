@@ -1,0 +1,39 @@
+{
+  "name": "Accurate Background",
+  "status": "published",
+  "vendor": { "name": "Accurate Background", "website": "https://accurate.com" },
+  "primaryCategory": "background-check",
+  "summary": "Accurate Background sells quoted employment screening with county, state, federal and international criminal searches plus a tool called AccurateReach that looks beyond the candidate's address history. Its candidate portal shows required disclosures before a candidate proceeds, and its ATS integrations page lists dozens of partners. No prices are published.",
+  "qualifies": [
+    {
+      "category": "background-check",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "criminal and employment checks", "sourceUrl": "https://www.accurate.com/employment-screening/criminal-background-checks/" },
+        { "capability": "candidate consent flow", "sourceUrl": "https://www.accurate.com/solutions/candidate-portal/" },
+        { "capability": "ats integration", "sourceUrl": "https://www.accurate.com/solutions/ats-integrations/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The criminal search page lists county, state, federal, civil, sex offender registry and international searches, plus AccurateReach for locations outside the candidate's address history.", "sourceUrl": "https://www.accurate.com/employment-screening/criminal-background-checks/", "checkedAt": "2026-11-04" },
+    { "text": "The candidate portal page says automated pop-ups make sure candidates see required disclosures and notices before they proceed, and it lists e-signature submission.", "sourceUrl": "https://www.accurate.com/solutions/candidate-portal/", "checkedAt": "2026-11-04" },
+    { "text": "The first page of the ATS integrations listing names 37 partners, including Workday, ADP, Bullhorn, Greenhouse, Jobvite and SmartRecruiters, and the list continues on a second page.", "sourceUrl": "https://www.accurate.com/solutions/ats-integrations/", "checkedAt": "2026-11-04" },
+    { "text": "The homepage lists no prices and routes buyers to a sales contact page.", "sourceUrl": "https://accurate.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices are published. Buyers contact sales" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://accurate.com/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Workday", "ADP", "Bullhorn", "Greenhouse", "Jobvite", "SmartRecruiters", "Oracle Taleo", "UKG", "Hireology"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
