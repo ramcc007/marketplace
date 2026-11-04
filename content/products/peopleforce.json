@@ -1,0 +1,43 @@
+{
+  "name": "PeopleForce",
+  "status": "published",
+  "vendor": { "name": "PeopleForce", "website": "https://www.peopleforce.io" },
+  "primaryCategory": "leave-management",
+  "summary": "PeopleForce is an HR platform whose pricing page lists time-off tracking, leave requests and approvals, and custom leave policies in its plan table. Standard is listed at $2.5 and Professional at $3 per employee a month, with billing starting from 50 employees. The page does not name its currency.",
+  "qualifies": [
+    {
+      "category": "leave-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "time-off tracking", "sourceUrl": "https://www.peopleforce.io/pricing" },
+        { "capability": "leave requests and approvals", "sourceUrl": "https://www.peopleforce.io/pricing" },
+        { "capability": "custom leave policies", "sourceUrl": "https://www.peopleforce.io/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page lists Standard at $2.5 per employee a month and Professional at $3 per employee a month. It says billing starts from 50 employees.", "sourceUrl": "https://www.peopleforce.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page shows a dollar sign but does not name a currency, so the amounts are shown as listed and are not confirmed as US dollars.", "sourceUrl": "https://www.peopleforce.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The plan comparison lists time-off tracking, leave timeline, leave requests and approvals, and custom leave policies. Standard and Professional both include them.", "sourceUrl": "https://www.peopleforce.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page does not explicitly mention leave types, accrual rules or leave balances.", "sourceUrl": "https://www.peopleforce.io/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Standard", "priceUsd": null, "billing": "month", "unit": "per employee per month, billing from 50 employees", "notes": "Listed as $2.5 per employee a month. The page does not name the currency. Includes time-off tracking and leave requests and approvals." },
+      { "name": "Professional", "priceUsd": null, "billing": "month", "unit": "per employee per month, billing from 50 employees", "notes": "Listed as $3 per employee a month. The page does not name the currency. Includes everything in Standard." }
+    ],
+    "hiddenCosts": [
+      "Billing starts from 50 employees, so the listed per-employee price does not cover smaller teams.",
+      "The page does not say whether a free plan or free trial exists, so freePlan is set to false only because no free plan is listed."
+    ],
+    "sourceUrl": "https://www.peopleforce.io/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

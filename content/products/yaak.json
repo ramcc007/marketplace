@@ -1,0 +1,46 @@
+{
+  "name": "Yaak",
+  "status": "published",
+  "vendor": { "name": "Yaak", "website": "https://yaak.app" },
+  "primaryCategory": "api-testing",
+  "summary": "Yaak is a local-first API client for HTTP, GraphQL, gRPC, WebSocket and Server-Sent Events. Its pricing page lists a Business plan at $149 per user a year and an Individual plan at $79 a year. The client is free for personal use, and commercial use needs a license after a 30-day trial.",
+  "qualifies": [
+    {
+      "category": "api-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "send and save HTTP, GraphQL and gRPC requests", "sourceUrl": "https://yaak.app/" },
+        { "capability": "import of existing collections", "sourceUrl": "https://yaak.app/" },
+        { "capability": "chaining requests", "sourceUrl": "https://yaak.app/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Yaak describes itself as a local-first API client for HTTP, GraphQL, gRPC, WebSocket and Server-Sent Events (SSE).", "sourceUrl": "https://yaak.app/", "checkedAt": "2026-11-05" },
+    { "text": "Yaak imports Postman collections and environments, Insomnia exports, Bruno collections, OpenAPI and Swagger specs, and curl commands.", "sourceUrl": "https://yaak.app/", "checkedAt": "2026-11-05" },
+    { "text": "Yaak says it is free for personal use. Using it at work requires a commercial license after a 30-day trial.", "sourceUrl": "https://yaak.app/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page offers licenses billed yearly only. It says there is no monthly billing option.", "sourceUrl": "https://yaak.app/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Personal use", "priceUsd": 0, "billing": "month", "unit": "per person, personal use only", "notes": "Free for personal use according to the Yaak FAQ. Commercial use needs a license after a 30-day trial." },
+      { "name": "Individual (annual)", "priceUsd": 79, "billing": "year", "unit": "per person per year", "notes": "For one person using Yaak professionally. Billed yearly." },
+      { "name": "Individual (lifetime)", "priceUsd": 349, "billing": "one_time", "unit": "one payment", "notes": "Single payment for one person." },
+      { "name": "Business", "priceUsd": 149, "billing": "year", "unit": "per user per year, billed yearly", "notes": "For teams and organizations. Bulk and enterprise pricing is handled by sales at sales@yaak.app." }
+    ],
+    "hiddenCosts": [
+      "The pricing page uses dollar signs and does not name a currency.",
+      "The page shows no Business lifetime price and no monthly billing option.",
+      "The 50% discount for eligible residents is shown only as a coupon, with no resulting price."
+    ],
+    "sourceUrl": "https://yaak.app/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

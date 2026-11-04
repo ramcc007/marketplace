@@ -1,0 +1,46 @@
+{
+  "name": "Red Sift OnDMARC",
+  "status": "published",
+  "vendor": { "name": "Red Sift", "website": "https://redsift.com" },
+  "primaryCategory": "dmarc",
+  "summary": "Red Sift OnDMARC monitors DMARC reports and manages SPF and DKIM records from one dashboard. The Express plan is listed from $9 a month billed annually, covering up to 4 domains and 1 million monthly emails. The Essentials, Enterprise and Premier plans are sold on request.",
+  "qualifies": [
+    {
+      "category": "dmarc",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "dmarc report monitoring", "sourceUrl": "https://redsift.com/products/ondmarc" },
+        { "capability": "spf and dkim management", "sourceUrl": "https://redsift.com/products/ondmarc" },
+        { "capability": "spoofing and unauthorised sender blocking", "sourceUrl": "https://redsift.com/products/ondmarc" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The product page says OnDMARC protects and reports on every domain and subdomain, and translates aggregate reports into a sender dashboard.", "sourceUrl": "https://redsift.com/products/ondmarc", "checkedAt": "2026-11-05" },
+    { "text": "The product page says the platform configures SPF, DKIM, DMARC, BIMI and MTA-STS in one place. It describes a Dynamic SPF feature that consolidates records to avoid SPF lookup limits.", "sourceUrl": "https://redsift.com/products/ondmarc", "checkedAt": "2026-11-05" },
+    { "text": "The product page says OnDMARC can block unauthorised senders and prevent exact-domain spoofing.", "sourceUrl": "https://redsift.com/products/ondmarc", "checkedAt": "2026-11-05" },
+    { "text": "The Express plan lists up to 4 domains, up to 1 million monthly emails and 30 days of data history. Essentials, Enterprise and Premier list 25, 25 and 50 active sender domains, with unlimited email volume and one year of data history.", "sourceUrl": "https://redsift.com/products/ondmarc/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Express", "priceUsd": 9, "billing": "month", "unit": "from, per month, up to 4 domains", "notes": "Listed as starting at $9, per month billed annually. Up to 1 million monthly emails and 30 days of data history." },
+      { "name": "Essentials", "priceUsd": null, "billing": "quote", "unit": "per account, 25 active sender domains", "notes": "No price shown. The page says contact us. Unlimited email volume, 1 year of data history." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "No price shown. The page says custom plans. 25 active sender domains, upgradable." },
+      { "name": "Premier", "priceUsd": null, "billing": "quote", "unit": "per account, 50 active sender domains", "notes": "No price shown. The page says contact us. Unlimited email volume, 1 year of data history." }
+    ],
+    "hiddenCosts": [
+      "The pricing page uses dollar signs and does not name a currency.",
+      "The page has a monthly and annual billing toggle, but only the Express price is labelled with a billing period.",
+      "The page shows no price for Essentials, Enterprise or Premier."
+    ],
+    "sourceUrl": "https://redsift.com/products/ondmarc/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

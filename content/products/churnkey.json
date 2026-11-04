@@ -1,0 +1,46 @@
+{
+  "name": "Churnkey",
+  "status": "published",
+  "vendor": { "name": "Churnkey", "website": "https://churnkey.co" },
+  "primaryCategory": "dunning-management",
+  "summary": "Churnkey's Payment Recovery feature runs smart retries, dunning campaigns and in-app card updates after a failed payment. Its pricing page lists Starter at $250 a month billed yearly or $300 billed monthly, and Core from $500 a month billed yearly. Intelligence starts at $625 a month billed yearly, and Enterprise is quoted.",
+  "qualifies": [
+    {
+      "category": "dunning-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "smart retries after a failed payment", "sourceUrl": "https://churnkey.co/" },
+        { "capability": "dunning campaigns", "sourceUrl": "https://churnkey.co/" },
+        { "capability": "customer emails and SMS about failed payments", "sourceUrl": "https://churnkey.co/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The home page says Payment Recovery gets customers paid with smart retries, dunning campaigns and in-app card updates.", "sourceUrl": "https://churnkey.co/", "checkedAt": "2026-11-05" },
+    { "text": "The home page says Payment Recovery can recover failed payments without customer intervention, and that it reaches customers by SMS, email or in the app when hard declines happen.", "sourceUrl": "https://churnkey.co/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page's plan table lists Payment Recovery, unlimited dunning campaigns and self-improving retry logic. Core and Intelligence add A/B testing of Payment Recovery.", "sourceUrl": "https://churnkey.co/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says Intelligence is tailored by Churnkey's Retention Specialists, and Enterprise is a custom quote.", "sourceUrl": "https://churnkey.co/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 300, "billing": "month", "unit": "per month, for teams under $5k monthly churn", "notes": "Listed as $250 a month billed yearly, or $300 a month billed monthly." },
+      { "name": "Core", "priceUsd": 600, "billing": "month", "unit": "per month, up to $10k monthly churn volume", "notes": "Listed as from $500 a month billed yearly. Monthly billing starts at $600 a month for up to $10k churn volume. Higher churn tiers are priced by the page's stated ranges, with gaps shown." },
+      { "name": "Intelligence", "priceUsd": 625, "billing": "month", "unit": "per month, billed yearly, tailored by Churnkey", "notes": "Listed as from $625 a month billed yearly. Quarterly billing starts at $750 a month for up to $10k churn volume. No monthly option." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "No price shown. The page says to contact the Churnkey team for a custom Enterprise quote." }
+    ],
+    "hiddenCosts": [
+      "The pricing page uses dollar signs and does not name a currency.",
+      "The page does not price dunning separately. It appears only as a feature inside each plan.",
+      "The page shows no price for churn volume between $50k and $60k, between $60k and $90k, or above $100k."
+    ],
+    "sourceUrl": "https://churnkey.co/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}
