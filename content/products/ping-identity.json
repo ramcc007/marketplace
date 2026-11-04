@@ -1,0 +1,48 @@
+{
+  "name": "Ping Identity",
+  "status": "published",
+  "vendor": { "name": "Ping Identity Corporation", "website": "https://www.pingidentity.com" },
+  "primaryCategory": "multi-factor-authentication",
+  "summary": "Ping Identity sells PingOne MFA by quote only. Pricing depends on identity count and type, deployment model and the services chosen, and the pricing page lists no dollar figures.",
+  "qualifies": [
+    {
+      "category": "multi-factor-authentication",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "second-factor methods such as app push or hardware keys", "sourceUrl": "https://www.pingidentity.com/en/product/pingone-mfa.html" },
+        { "capability": "risk-based rules", "sourceUrl": "https://www.pingidentity.com/en/product/pingone-mfa.html" },
+        { "capability": "admin enrollment controls", "sourceUrl": "https://docs.pingidentity.com/pingone/strong_authentication_mfa/p1_creating_an_mfa_policy_for_strong_auth.html" }
+      ]
+    },
+    {
+      "category": "identity-access-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "single sign-on", "sourceUrl": "https://www.pingidentity.com/en/platform/pingone-for-workforce.html" },
+        { "capability": "user provisioning and deprovisioning", "sourceUrl": "https://docs.pingidentity.com/pingone/integrations/p1_create_scim_connection.html" },
+        { "capability": "access policies", "sourceUrl": "https://docs.pingidentity.com/pingone/authentication/p1_add_an_auth_policy.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Ping's MFA product page lists mobile push, email and SMS codes, TOTP apps and QR codes, plus FIDO2 biometrics or security keys.", "sourceUrl": "https://www.pingidentity.com/en/product/pingone-mfa.html", "checkedAt": "2026-11-04" },
+    { "text": "Adaptive policies use Ping's cloud risk service, with signals such as time since last sign-in, IP reputation and geo-velocity anomaly detection.", "sourceUrl": "https://www.pingidentity.com/en/product/pingone-mfa.html", "checkedAt": "2026-11-04" },
+    { "text": "Each authentication method in an MFA policy has an Allow Pairing checkbox, and admins can set how long a pairing key stays valid.", "sourceUrl": "https://docs.pingidentity.com/pingone/strong_authentication_mfa/p1_creating_an_mfa_policy_for_strong_auth.html", "checkedAt": "2026-11-04" },
+    { "text": "Ping's pricing page says to contact its sales team for a quote.", "sourceUrl": "https://www.pingidentity.com/en/platform/pricing.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "PingOne MFA", "priceUsd": null, "billing": "quote", "unit": "per identity", "notes": "Pricing depends on identity count and type (customer, B2B, workforce), deployment model and selected services" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.pingidentity.com/en/platform/pricing.html",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["PingOne", "PingID", "FIDO2 security keys"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

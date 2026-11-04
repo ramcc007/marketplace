@@ -1,0 +1,72 @@
+{
+  "name": "JumpCloud",
+  "status": "published",
+  "vendor": { "name": "JumpCloud Inc.", "website": "https://jumpcloud.com" },
+  "primaryCategory": "multi-factor-authentication",
+  "summary": "JumpCloud sells MFA as a standalone product at $3 per user per month billed annually, or $4 billed monthly. Conditional Access is a separate $3 line item, so risk-style rules add to the MFA price.",
+  "qualifies": [
+    {
+      "category": "multi-factor-authentication",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "second-factor methods such as app push or hardware keys", "sourceUrl": "https://jumpcloud.com/support/mfa-for-admins" },
+        { "capability": "risk-based rules", "sourceUrl": "https://jumpcloud.com/platform/conditional-access" },
+        { "capability": "admin enrollment controls", "sourceUrl": "https://jumpcloud.com/support/multi-factor-authentication-mfa-enrollment-settings-for-organizations" }
+      ]
+    },
+    {
+      "category": "identity-access-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "single sign-on", "sourceUrl": "https://jumpcloud.com/platform/single-sign-on" },
+        { "capability": "user provisioning and deprovisioning", "sourceUrl": "https://jumpcloud.com/support/provision-and-manage-users-and-groups-in-apps-using-custom-scim-identity-management-integration" },
+        { "capability": "access policies", "sourceUrl": "https://jumpcloud.com/platform/conditional-access" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "JumpCloud supports push MFA through JumpCloud Protect, TOTP codes, and WebAuthn security keys such as YubiKey and Titan.", "sourceUrl": "https://jumpcloud.com/support/mfa-for-admins", "checkedAt": "2026-11-04" },
+    { "text": "JumpCloud describes conditional access covering network, device and risk, and gives the example of restricting access when users are off a trusted network or a device falls out of compliance.", "sourceUrl": "https://jumpcloud.com/platform/conditional-access", "checkedAt": "2026-11-04" },
+    { "text": "Admins set a global enrollment grace period and can require enrollment of one primary MFA factor, after which enrollment is mandatory before access is granted.", "sourceUrl": "https://jumpcloud.com/support/multi-factor-authentication-mfa-enrollment-settings-for-organizations", "checkedAt": "2026-11-04" },
+    { "text": "Suspended users remain billable at the normal rate.", "sourceUrl": "https://jumpcloud.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Multi-Factor Authentication", "priceUsd": 3, "billing": "month", "unit": "per user, billed annually", "notes": "$4 per user per month when billed monthly" },
+      { "name": "Conditional Access / Zero Trust", "priceUsd": 3, "billing": "month", "unit": "per user, billed annually", "notes": "$4 per user per month when billed monthly" },
+      { "name": "SSO package", "priceUsd": 11, "billing": "month", "unit": "per user, billed annually", "notes": "Includes SSO and MFA access to resources. $13 when billed monthly" },
+      { "name": "Passwordless Authentication (JumpCloud Go)", "priceUsd": 5, "billing": "month", "unit": "per user, billed annually", "notes": "$6 when billed monthly" }
+    ],
+    "hiddenCosts": [
+      "Conditional Access is priced separately from MFA at $3 per user per month billed annually.",
+      "Suspended users still count as billable users."
+    ],
+    "sourceUrl": "https://jumpcloud.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://jumpcloud.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://jumpcloud.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["JumpCloud Protect", "Duo Security", "YubiKey", "Google Authenticator"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Rublon MFA",
+  "status": "published",
+  "vendor": { "name": "Rublon", "website": "https://rublon.com" },
+  "primaryCategory": "multi-factor-authentication",
+  "summary": "Rublon MFA charges $2 per user per month on its Business plan with a 15-license minimum, and $4 on Enterprise with a 300-license minimum. The Free plan protects one user and leaves out the network, device and location policies.",
+  "qualifies": [
+    {
+      "category": "multi-factor-authentication",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "second-factor methods such as app push or hardware keys", "sourceUrl": "https://rublon.com/pricing/" },
+        { "capability": "risk-based rules", "sourceUrl": "https://rublon.com/pricing/" },
+        { "capability": "admin enrollment controls", "sourceUrl": "https://rublon.com/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Every plan lists Mobile Push, FIDO, QR Code, Email Link, Passcode and SMS Passcode methods.", "sourceUrl": "https://rublon.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Authorized Networks, Remembered Devices and Geolocation policies are included in Business and Enterprise but not in Free.", "sourceUrl": "https://rublon.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "All three plans let admins choose Automatic, Manual or Approval enrollment, and users can also self-enroll.", "sourceUrl": "https://rublon.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Phone credits for SMS Passcode, SMS Link and Phone Call cost extra on every plan.", "sourceUrl": "https://rublon.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Rublon reports an ISO/IEC 27001:2023 certified management system and states that its practices adhere to the EU GDPR.", "sourceUrl": "https://rublon.com/security/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Protects 1 user. Community support only. The trial converts to Free when it expires" },
+      { "name": "Business", "priceUsd": 2, "billing": "month", "unit": "per user", "notes": "Minimum 15 licenses. Multi-year discounts" },
+      { "name": "Enterprise", "priceUsd": 4, "billing": "month", "unit": "per user", "notes": "Minimum 300 licenses, custom contract" }
+    ],
+    "hiddenCosts": [
+      "SMS and phone call credits are charged on top of the license price on all plans.",
+      "Phone support is an optional extra on Business and Enterprise."
+    ],
+    "sourceUrl": "https://rublon.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://rublon.com/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": 15,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://rublon.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["SSO Portal", "Mobile Push", "FIDO security keys"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

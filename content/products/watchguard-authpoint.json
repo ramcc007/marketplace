@@ -1,0 +1,43 @@
+{
+  "name": "WatchGuard AuthPoint",
+  "status": "published",
+  "vendor": { "name": "WatchGuard Technologies, Inc.", "website": "https://www.watchguard.com" },
+  "primaryCategory": "multi-factor-authentication",
+  "summary": "WatchGuard AuthPoint is a cloud MFA service sold in two tiers, AuthPoint MFA and Total Identity Security. The product page shows no prices, and buying goes through sales or resellers.",
+  "qualifies": [
+    {
+      "category": "multi-factor-authentication",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "second-factor methods such as app push or hardware keys", "sourceUrl": "https://www.watchguard.com/wgrd-products/authpoint" },
+        { "capability": "risk-based rules", "sourceUrl": "https://www.watchguard.com/wgrd-blog/new-authpoint-geokinetics-policy-watchguard-cloud" },
+        { "capability": "admin enrollment controls", "sourceUrl": "http://www.watchguard.com/help/docs/help-center/en-US/content/en-us/authpoint/user_management.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Both tiers list push, QR and OTP authentication, FIDO2 passkeys and hardware tokens.", "sourceUrl": "https://www.watchguard.com/wgrd-products/authpoint", "checkedAt": "2026-11-04" },
+    { "text": "A Geokinetics policy compares a user's device location on consecutive logins and can block attempts that do not fit the distance and time limits an operator sets.", "sourceUrl": "https://www.watchguard.com/wgrd-blog/new-authpoint-geokinetics-policy-watchguard-cloud", "checkedAt": "2026-11-04" },
+    { "text": "Geofence conditions let admins enforce different MFA requirements for different locations.", "sourceUrl": "https://www.watchguard.com/help/docs/help-center/en-US/Content/en-US/WG-Cloud/Zero-Trust/conditions_geofence.html", "checkedAt": "2026-11-04" },
+    { "text": "The Users page lets admins add and edit user accounts and resend the activation email.", "sourceUrl": "http://www.watchguard.com/help/docs/help-center/en-US/content/en-us/authpoint/user_management.html", "checkedAt": "2026-11-04" },
+    { "text": "External MFA for Microsoft Entra ID is listed, and it requires Entra ID P1 or higher.", "sourceUrl": "https://www.watchguard.com/wgrd-products/authpoint", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "AuthPoint MFA", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "No price on the product page" },
+      { "name": "Total Identity Security", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Adds Dark Web Credential Monitoring. No price on the product page" }
+    ],
+    "hiddenCosts": [
+      "Hardware tokens are presented as a separate product from the two tiers."
+    ],
+    "sourceUrl": "https://www.watchguard.com/wgrd-products/authpoint",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft Entra ID", "WatchGuard Cloud", "FIDO2 passkeys"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Duo",
+  "status": "published",
+  "vendor": { "name": "Cisco Systems, Inc. (Duo Security)", "website": "https://duo.com" },
+  "primaryCategory": "multi-factor-authentication",
+  "summary": "Duo is Cisco's multi-factor authentication service, sold in four editions from a free tier for 10 users to $9 per user per month. Risk-based authentication sits in the $6 Advantage edition and above, so the $3 Essentials edition does not include it.",
+  "qualifies": [
+    {
+      "category": "multi-factor-authentication",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "second-factor methods such as app push or hardware keys", "sourceUrl": "https://duo.com/product/multi-factor-authentication-mfa/authentication-methods" },
+        { "capability": "risk-based rules", "sourceUrl": "https://duo.com/docs/risk-based-auth" },
+        { "capability": "admin enrollment controls", "sourceUrl": "https://duo.com/docs/enrolling-users" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Duo's authentication methods page describes approving a login with a tap in the Duo Mobile app and lists FIDO2 security keys.", "sourceUrl": "https://duo.com/product/multi-factor-authentication-mfa/authentication-methods", "checkedAt": "2026-11-04" },
+    { "text": "Duo's documentation says Risk-Based Authentication is deployed through policies for Duo Advantage and Duo Premier customers and steps up to the most secure factors when it sees a known attack pattern or anomaly, such as unrealistic travel.", "sourceUrl": "https://duo.com/docs/risk-based-auth", "checkedAt": "2026-11-04" },
+    { "text": "Administrators can add users manually, run bulk enrollment from a list of usernames and emails, send enrollment emails, and generate one-time enrollment codes that expire after 24 hours by default.", "sourceUrl": "https://duo.com/docs/enrolling-users", "checkedAt": "2026-11-04" },
+    { "text": "Admins can define separate enrollment and account management policies that control what users see during enrollment.", "sourceUrl": "https://duo.com/docs/enrolling-users", "checkedAt": "2026-11-04" },
+    { "text": "Paid editions are bought in increments of 10 licenses below 100 users and 25 above 100 users.", "sourceUrl": "https://duo.com/editions-and-pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Duo Free", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "For up to 10 users" },
+      { "name": "Duo Essentials", "priceUsd": 3, "billing": "month", "unit": "per user", "notes": "Adds phishing-resistant MFA, passwordless authentication, single sign-on and Trusted Endpoints" },
+      { "name": "Duo Advantage", "priceUsd": 6, "billing": "month", "unit": "per user", "notes": "Adds Risk-Based Authentication, session theft protection and Duo Passport" },
+      { "name": "Duo Premier", "priceUsd": 9, "billing": "month", "unit": "per user", "notes": "Adds VPN-less remote access and device trust with an endpoint protection check" }
+    ],
+    "hiddenCosts": [
+      "Risk-Based Authentication is listed under Advantage and above, so Essentials buyers pay $3 more per user to get it.",
+      "Licenses come in blocks of 10 below 100 users and blocks of 25 above, so seat counts round up."
+    ],
+    "sourceUrl": "https://duo.com/editions-and-pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://duo.com/editions-and-pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Duo Mobile", "FIDO2 security keys", "Cisco Identity Intelligence"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

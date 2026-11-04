@@ -1,0 +1,63 @@
+{
+  "name": "Microsoft Entra ID",
+  "status": "published",
+  "vendor": { "name": "Microsoft Corporation", "website": "https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id" },
+  "primaryCategory": "multi-factor-authentication",
+  "summary": "Microsoft Entra ID includes MFA in its free tier, which needs an Azure subscription. Plan P1 costs $7 per user per month and P2 costs $10, both billed yearly. Risk-based Conditional Access is a P2 feature.",
+  "qualifies": [
+    {
+      "category": "multi-factor-authentication",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "second-factor methods such as app push or hardware keys", "sourceUrl": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-methods-manage" },
+        { "capability": "risk-based rules", "sourceUrl": "https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-risk-policies" },
+        { "capability": "admin enrollment controls", "sourceUrl": "https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-mfa-registration-campaign" }
+      ]
+    },
+    {
+      "category": "identity-access-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "single sign-on", "sourceUrl": "https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on" },
+        { "capability": "user provisioning and deprovisioning", "sourceUrl": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/how-provisioning-works" },
+        { "capability": "access policies", "sourceUrl": "https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Administrators enable authentication methods for all users or specific groups in the Authentication methods policy, and FIDO2 and Microsoft Authenticator are among the methods it manages.", "sourceUrl": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-methods-manage", "checkedAt": "2026-11-04" },
+    { "text": "Microsoft recommends a Conditional Access sign-in risk policy that requires MFA when sign-in risk is Medium or High.", "sourceUrl": "https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-risk-policies", "checkedAt": "2026-11-04" },
+    { "text": "Full access to Entra ID Protection features requires a Microsoft Entra ID P2 or Microsoft Entra Suite license.", "sourceUrl": "https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-risk-policies", "checkedAt": "2026-11-04" },
+    { "text": "A registration campaign lets admins nudge targeted users to set up a passkey or Microsoft Authenticator, with a snooze period of 0 to 14 days and a limit on snoozes.", "sourceUrl": "https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-mfa-registration-campaign", "checkedAt": "2026-11-04" },
+    { "text": "Microsoft's documentation says the legacy risk policies configured inside ID Protection retire on October 1, 2026, and recommends moving them to Conditional Access.", "sourceUrl": "https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-risk-policies", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Microsoft Entra ID Free", "priceUsd": 0, "billing": "month", "unit": "per tenant", "notes": "Requires a Microsoft Azure subscription. MFA listed as included" },
+      { "name": "Microsoft Entra ID P1", "priceUsd": 7, "billing": "month", "unit": "per user, billed yearly", "notes": "Adds Conditional Access and basic risk detection" },
+      { "name": "Microsoft Entra ID P2", "priceUsd": 10, "billing": "month", "unit": "per user, billed yearly", "notes": "Adds Entra ID Protection with risk-based Conditional Access" }
+    ],
+    "hiddenCosts": [
+      "P1 and P2 are annual subscriptions that renew automatically.",
+      "Risk-based Conditional Access needs P2, which costs $3 more per user per month than P1."
+    ],
+    "sourceUrl": "https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": true,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft Authenticator", "FIDO2 security keys", "Conditional Access", "Windows Hello for Business"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

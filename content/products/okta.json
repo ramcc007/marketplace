@@ -1,0 +1,72 @@
+{
+  "name": "Okta Workforce Identity",
+  "status": "published",
+  "vendor": { "name": "Okta, Inc.", "website": "https://www.okta.com" },
+  "primaryCategory": "multi-factor-authentication",
+  "summary": "Okta Workforce Identity bundles single sign-on and MFA from $6 per user per month, billed annually with a $1,500 annual minimum. Adaptive MFA is a paid add-on on the Starter suite and is included from Core Essentials upward.",
+  "qualifies": [
+    {
+      "category": "multi-factor-authentication",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "second-factor methods such as app push or hardware keys", "sourceUrl": "https://help.okta.com/en-us/content/topics/security/mfa/mfa-factors.htm" },
+        { "capability": "risk-based rules", "sourceUrl": "https://www.okta.com/products/adaptive-multi-factor-authentication/" },
+        { "capability": "admin enrollment controls", "sourceUrl": "https://help.okta.com/oie/en-us/content/topics/identity-engine/policies/create-mfa-policy.htm" }
+      ]
+    },
+    {
+      "category": "identity-access-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "single sign-on", "sourceUrl": "https://www.okta.com/products/single-sign-on/" },
+        { "capability": "user provisioning and deprovisioning", "sourceUrl": "https://www.okta.com/products/lifecycle-management/" },
+        { "capability": "access policies", "sourceUrl": "https://help.okta.com/en-us/content/topics/security/policies/policies-home.htm" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Okta's supported factor list includes Okta Verify, WebAuthn, YubiKey, Duo Security, SMS, voice call and email.", "sourceUrl": "https://help.okta.com/en-us/content/topics/security/mfa/mfa-factors.htm", "checkedAt": "2026-11-04" },
+    { "text": "Okta describes contextual access policies that assess devices, networks, locations, user behavior and IP addresses.", "sourceUrl": "https://www.okta.com/products/adaptive-multi-factor-authentication/", "checkedAt": "2026-11-04" },
+    { "text": "Authenticator enrollment policies apply to user groups and mark each authenticator as optional, required or disabled, with grace periods available for required authenticators.", "sourceUrl": "https://help.okta.com/oie/en-us/content/topics/identity-engine/policies/create-mfa-policy.htm", "checkedAt": "2026-11-04" },
+    { "text": "MFA for RDP does not support Duo Security or FIDO2 (WebAuthn) factors.", "sourceUrl": "https://help.okta.com/en-us/content/topics/security/mfa/mfa-factors.htm", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 6, "billing": "month", "unit": "per user, billed annually", "notes": "Includes SSO and MFA. Adaptive MFA is an add-on with no published price" },
+      { "name": "Core Essentials", "priceUsd": 14, "billing": "month", "unit": "per user, billed annually", "notes": "Adaptive MFA shown as included in the comparison table" },
+      { "name": "Essentials", "priceUsd": 17, "billing": "month", "unit": "per user, billed annually", "notes": "Adds Adaptive MFA, Privileged Access and Lifecycle Management" },
+      { "name": "Professional and Enterprise", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Pricing on inquiry" }
+    ],
+    "hiddenCosts": [
+      "Workforce Identity has a $1,500 annual contract minimum.",
+      "Adaptive MFA is an add-on on Starter, and the page lists no price for it."
+    ],
+    "sourceUrl": "https://www.okta.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": true,
+    "ssoPlan": "Starter",
+    "sourceUrl": "https://security.okta.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.okta.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Duo Security", "Google Authenticator", "YubiKey", "RSA", "Symantec VIP"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

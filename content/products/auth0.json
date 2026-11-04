@@ -1,0 +1,53 @@
+{
+  "name": "Auth0",
+  "status": "published",
+  "vendor": { "name": "Okta, Inc. (Auth0)", "website": "https://auth0.com" },
+  "primaryCategory": "multi-factor-authentication",
+  "summary": "Auth0 adds MFA to customer-facing apps and is priced by monthly active users, from a free plan to $35 a month for 500 users. Adaptive MFA needs an Enterprise plan with a paid add-on.",
+  "qualifies": [
+    {
+      "category": "multi-factor-authentication",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "second-factor methods such as app push or hardware keys", "sourceUrl": "https://auth0.com/docs/secure/multi-factor-authentication/multi-factor-authentication-factors" },
+        { "capability": "risk-based rules", "sourceUrl": "https://auth0.com/docs/secure/multi-factor-authentication/adaptive-mfa" },
+        { "capability": "admin enrollment controls", "sourceUrl": "https://auth0.com/docs/secure/multi-factor-authentication/customize-mfa/customize-mfa-enrollments-universal-login" }
+      ]
+    },
+    {
+      "category": "identity-access-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "single sign-on", "sourceUrl": "https://auth0.com/docs/authenticate/enterprise-connections" },
+        { "capability": "user provisioning and deprovisioning", "sourceUrl": "https://auth0.com/docs/authenticate/protocols/scim/configure-inbound-scim" },
+        { "capability": "access policies", "sourceUrl": "https://auth0.com/docs/manage-users/access-control/rbac" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Auth0 supports push notifications through its Guardian app and WebAuthn security keys such as YubiKey and Google Titan, and says available factors depend on the subscription plan.", "sourceUrl": "https://auth0.com/docs/secure/multi-factor-authentication/multi-factor-authentication-factors", "checkedAt": "2026-11-04" },
+    { "text": "Adaptive MFA checks each login and asks for extra verification only when it looks risky, and it requires an Enterprise plan with the Adaptive MFA add-on.", "sourceUrl": "https://auth0.com/docs/secure/multi-factor-authentication/adaptive-mfa", "checkedAt": "2026-11-04" },
+    { "text": "Enrollment is controlled through post-login Actions, where the enrollWith and enrollWithAny commands choose which factors users are prompted to enroll in.", "sourceUrl": "https://auth0.com/docs/secure/multi-factor-authentication/customize-mfa/customize-mfa-enrollments-universal-login", "checkedAt": "2026-11-04" },
+    { "text": "A single user flow can run only four of the enroll and challenge commands.", "sourceUrl": "https://auth0.com/docs/secure/multi-factor-authentication/customize-mfa/customize-mfa-enrollments-universal-login", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "up to 25,000 monthly active users", "notes": "No credit card required" },
+      { "name": "B2C Essentials", "priceUsd": 35, "billing": "month", "unit": "per 500 monthly active users", "notes": "$70 at 1,000 users. Yearly billing is 11 times the monthly price" },
+      { "name": "B2C Professional", "priceUsd": 240, "billing": "month", "unit": "per 500 monthly active users", "notes": "$240 at 1,000 users. Yearly billing is 11 times the monthly price" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "Adaptive MFA is an add-on" }
+    ],
+    "hiddenCosts": [
+      "Adaptive MFA needs an Enterprise plan plus its add-on, and neither has a published price."
+    ],
+    "sourceUrl": "https://auth0.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Auth0 Guardian", "WebAuthn security keys", "Cisco Duo"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
