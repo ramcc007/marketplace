@@ -1,0 +1,52 @@
+{
+  "name": "Grafana Cloud Logs",
+  "status": "published",
+  "vendor": { "name": "Grafana Labs", "website": "https://grafana.com" },
+  "primaryCategory": "log-management",
+  "summary": "Grafana Cloud Logs is a hosted service built on Grafana Loki, which indexes labels rather than the full text of each line. The free plan includes 50 GB of logs a month with 14-day retention. Pro adds a $19 monthly platform fee and 30-day retention, with usage billed per GB.",
+  "qualifies": [
+    {
+      "category": "log-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "log collection and search", "sourceUrl": "https://grafana.com/docs/loki/latest/get-started/overview/" },
+        { "capability": "retention policies", "sourceUrl": "https://grafana.com/docs/loki/latest/operations/storage/retention/" },
+        { "capability": "log-based alerts", "sourceUrl": "https://grafana.com/docs/loki/latest/alert/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "An agent such as Grafana Alloy scrapes logs, attaches labels to group them into streams, and pushes them to Loki over an HTTP API. Logs are queried with LogQL.", "sourceUrl": "https://grafana.com/docs/loki/latest/get-started/overview/", "checkedAt": "2026-11-04" },
+    { "text": "In Loki, retention is off by default and logs are kept indefinitely until the compactor is configured. Retention can be set globally, per stream by label selector, or per tenant.", "sourceUrl": "https://grafana.com/docs/loki/latest/operations/storage/retention/", "checkedAt": "2026-11-04" },
+    { "text": "Loki alerting rules use the same format as Prometheus alerting rules, with LogQL as the expression language.", "sourceUrl": "https://grafana.com/docs/loki/latest/alert/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page does not state alerting or single sign-on limits for the Free and Pro logs plans.", "sourceUrl": "https://grafana.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "50 GB of logs a month, 14-day retention, community support" },
+      { "name": "Pro", "priceUsd": 19, "billing": "month", "unit": "per account", "notes": "Platform fee. 50 GB of logs included, then pay as you go with 30-day retention and 8x5 email support" }
+    ],
+    "hiddenCosts": [
+      "Beyond the included 50 GB, Pro logs start at $0.05 per GB for processing, $0.40 per GB for writing and $0.10 per GB for retaining. Volume discounts apply as usage grows.",
+      "Enterprise offers custom retention, and the pricing page does not list a price."
+    ],
+    "sourceUrl": "https://grafana.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://grafana.com/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Grafana Alloy", "Prometheus", "OpenTelemetry"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Axiom",
+  "status": "published",
+  "vendor": { "name": "Axiom, Inc.", "website": "https://axiom.co" },
+  "primaryCategory": "log-management",
+  "summary": "Axiom stores logs, traces and events in datasets with a retention period set per dataset. The Personal plan is $0 with 500 GB of monthly loading, 25 GB of storage and 30-day retention. Axiom Cloud costs $25 a month plus usage, with 1 TB of loading and 100 GB of storage included.",
+  "qualifies": [
+    {
+      "category": "log-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "log collection and search", "sourceUrl": "https://axiom.co/docs/reference/datasets" },
+        { "capability": "retention policies", "sourceUrl": "https://axiom.co/docs/reference/datasets" },
+        { "capability": "log-based alerts", "sourceUrl": "https://axiom.co/docs/monitor-data/monitors" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Retention is set per dataset, and shortening it permanently deletes older data. On Axiom Cloud a dataset can keep data longer than the organization default or forever.", "sourceUrl": "https://axiom.co/docs/reference/datasets", "checkedAt": "2026-11-04" },
+    { "text": "Monitors come in three types: threshold, match and anomaly. Notifiers include email, Slack, Microsoft Teams, PagerDuty, Opsgenie, Discord and custom webhooks.", "sourceUrl": "https://axiom.co/docs/monitor-data/monitors", "checkedAt": "2026-11-04" },
+    { "text": "SAML single sign-on is a $100 a month add-on on Axiom Cloud and is not available on the Personal plan.", "sourceUrl": "https://axiom.co/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The Personal plan has no overage option, so usage is capped at the included amounts.", "sourceUrl": "https://axiom.co/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Personal", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "500 GB of data loading and 10 GB-hours of query compute a month, 25 GB storage, 30-day retention, alerting included, community support" },
+      { "name": "Axiom Cloud", "priceUsd": 25, "billing": "month", "unit": "per account", "notes": "Platform fee plus usage. Includes 1 TB of loading, 100 GB-hours of query compute and 100 GB storage a month, configurable retention" }
+    ],
+    "hiddenCosts": [
+      "Loading above the allowance costs $0.12 per GB in the first tier, query compute $0.20 per GB-hour and frequently accessed storage $0.03 per GB a month.",
+      "SAML single sign-on costs $100 a month, Directory Sync $100, RBAC $50 and Extended Audit Logs $50.",
+      "Support beyond email, including an SLA, is sold as an add-on."
+    ],
+    "sourceUrl": "https://axiom.co/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "SAML as a $100 a month add-on on Axiom Cloud",
+    "sourceUrl": "https://axiom.co/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Slack", "Microsoft Teams", "PagerDuty", "Opsgenie", "Discord", "Cloudflare Logpush", "Vercel", "Netlify"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Buildkite",
+  "status": "published",
+  "vendor": { "name": "Buildkite Pty Ltd", "website": "https://buildkite.com" },
+  "primaryCategory": "ci-cd",
+  "summary": "Buildkite runs pipelines on agents that a team can host itself or rent from Buildkite. Free includes up to 2,000 Linux vCPU minutes a month, and Pro costs $30 per active user a month with 4,000 minutes. Hosted Linux minutes cost $0.004 per vCPU on Pro.",
+  "qualifies": [
+    {
+      "category": "ci-cd",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "automated builds and tests", "sourceUrl": "https://buildkite.com/docs/pipelines/getting-started" },
+        { "capability": "deployment pipelines", "sourceUrl": "https://buildkite.com/docs/pipelines/configure/step-types/block-step" },
+        { "capability": "pipeline logs", "sourceUrl": "https://buildkite.com/docs/pipelines/configure/managing-log-output" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Pro is priced per active user, defined as a unique user who accesses the system in a given month.", "sourceUrl": "https://buildkite.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Hosted agent rates on Pro are $0.004 per vCPU minute on Linux, $0.008 on Windows and $0.02 on Mac.", "sourceUrl": "https://buildkite.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "A 30-day trial gives full access to the platform and needs no credit card.", "sourceUrl": "https://buildkite.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "A block step pauses a build until a team member unblocks it in the web UI or API, and allowed_teams restricts who may approve.", "sourceUrl": "https://buildkite.com/docs/pipelines/configure/step-types/block-step", "checkedAt": "2026-11-04" },
+    { "text": "Job log archives can be stored in the customer's own S3 bucket on the Enterprise plan.", "sourceUrl": "https://buildkite.com/docs/pipelines/configure/managing-log-output", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Up to 2,000 Linux vCPU minutes a month" },
+      { "name": "Pro", "priceUsd": 30, "billing": "month", "unit": "per active user", "notes": "4,000 Linux AMD64 vCPU minutes a month. Hosted Linux $0.004, Windows $0.008 and Mac $0.02 per vCPU minute" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom, with volume discounts" }
+    ],
+    "hiddenCosts": [
+      "The pricing page gives hosted per-minute rates for Pro only, not for Free or Enterprise.",
+      "Self-hosted agents mean the team pays for its own compute."
+    ],
+    "sourceUrl": "https://buildkite.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

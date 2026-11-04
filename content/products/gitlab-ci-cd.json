@@ -1,0 +1,53 @@
+{
+  "name": "GitLab CI/CD",
+  "status": "published",
+  "vendor": { "name": "GitLab Inc.", "website": "https://about.gitlab.com" },
+  "primaryCategory": "ci-cd",
+  "summary": "GitLab CI/CD is built into the GitLab platform and driven by a .gitlab-ci.yml file. Free includes 400 compute minutes a month, Premium costs $29 per user a month billed annually with 10,000 minutes, and extra minutes cost $10 per 1,000. The top tier is quote only.",
+  "qualifies": [
+    {
+      "category": "ci-cd",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "automated builds and tests", "sourceUrl": "https://docs.gitlab.com/ci/" },
+        { "capability": "deployment pipelines", "sourceUrl": "https://docs.gitlab.com/ci/environments/" },
+        { "capability": "pipeline logs", "sourceUrl": "https://docs.gitlab.com/ci/jobs/job_logs/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Compute minutes per month are 400 on Free, 10,000 on Premium and 50,000 on Ultimate.", "sourceUrl": "https://about.gitlab.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Extra compute minutes cost $10 per 1,000, as a one-time payment, on any plan.", "sourceUrl": "https://about.gitlab.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Deployments appear in an environment only after a deployment job in the pipeline has created them.", "sourceUrl": "https://docs.gitlab.com/ci/environments/", "checkedAt": "2026-11-04" },
+    { "text": "The job log page shows a Show complete raw option. It says timestamps add about 10% to log storage.", "sourceUrl": "https://docs.gitlab.com/ci/jobs/job_logs/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "400 compute minutes a month, no credit card required" },
+      { "name": "Premium", "priceUsd": 29, "billing": "month", "unit": "per user", "notes": "Billed annually. 10,000 compute minutes a month" },
+      { "name": "Ultimate", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "50,000 compute minutes a month. Custom pricing" }
+    ],
+    "hiddenCosts": [
+      "Extra compute minutes are sold at $10 per 1,000 as a one-time payment.",
+      "The Premium price is for annual billing."
+    ],
+    "sourceUrl": "https://about.gitlab.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://trust.gitlab.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

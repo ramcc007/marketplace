@@ -1,0 +1,42 @@
+{
+  "name": "Jenkins",
+  "status": "published",
+  "vendor": { "name": "Jenkins project", "website": "https://www.jenkins.io" },
+  "primaryCategory": "ci-cd",
+  "summary": "Jenkins is an open source automation server released under the MIT License, so the software costs nothing. A team runs it on its own servers, which means paying for the machines and the admin time. The project lists more than 2,300 community plugins.",
+  "qualifies": [
+    {
+      "category": "ci-cd",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "automated builds and tests", "sourceUrl": "https://www.jenkins.io/doc/book/pipeline/" },
+        { "capability": "deployment pipelines", "sourceUrl": "https://www.jenkins.io/doc/book/pipeline/" },
+        { "capability": "pipeline logs", "sourceUrl": "https://www.jenkins.io/doc/book/pipeline/getting-started/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The license is MIT, held by the Jenkins project contributors, and grants use free of charge.", "sourceUrl": "https://www.jenkins.io/license/", "checkedAt": "2026-11-04" },
+    { "text": "The project home page lists more than 2,300 community-contributed plugins.", "sourceUrl": "https://www.jenkins.io/", "checkedAt": "2026-11-04" },
+    { "text": "The Pipeline chapter says a Pipeline's code defines the entire build process, with example stages for build, test and deploy.", "sourceUrl": "https://www.jenkins.io/doc/book/pipeline/", "checkedAt": "2026-11-04" },
+    { "text": "The Console Output page link shows the full output from a Pipeline run.", "sourceUrl": "https://www.jenkins.io/doc/book/pipeline/getting-started/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "free",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Open source", "priceUsd": 0, "billing": "month", "unit": "per installation", "notes": "MIT License. Self-hosted only" }
+    ],
+    "hiddenCosts": [
+      "The team hosts and maintains Jenkins itself, so servers, build agents, upgrades and plugin security work are its own cost.",
+      "The jenkins.io pages checked list no commercial support price."
+    ],
+    "sourceUrl": "https://www.jenkins.io/license/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

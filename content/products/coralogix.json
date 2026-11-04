@@ -1,0 +1,43 @@
+{
+  "name": "Coralogix",
+  "status": "published",
+  "vendor": { "name": "Coralogix", "website": "https://coralogix.com" },
+  "primaryCategory": "log-management",
+  "summary": "Coralogix writes all parsed logs to the customer's own Amazon S3 bucket and prices logs at $0.42 per GB. Logs held in the indexed Frequent Search tier cost more, with an example rate of $1.15 per GB. A 14-day trial needs no credit card.",
+  "qualifies": [
+    {
+      "category": "log-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "log collection and search", "sourceUrl": "https://coralogix.com/platform/log-analytics/" },
+        { "capability": "retention policies", "sourceUrl": "https://coralogix.com/pricing/" },
+        { "capability": "log-based alerts", "sourceUrl": "https://coralogix.com/docs/user-guides/alerting/introduction-to-alerts/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Retention is configurable only for the Frequent Search tier, and the pricing page advises against keeping that data longer than 7 days. All data stays in the customer's S3 bucket.", "sourceUrl": "https://coralogix.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The documentation lists eight log alert types, including threshold, anomaly detection, immediate, ratio, unique count and new value.", "sourceUrl": "https://coralogix.com/docs/user-guides/alerting/introduction-to-alerts/", "checkedAt": "2026-11-04" },
+    { "text": "Log alerts can notify Slack, PagerDuty, email or custom webhooks.", "sourceUrl": "https://coralogix.com/docs/user-guides/alerting/introduction-to-alerts/", "checkedAt": "2026-11-04" },
+    { "text": "Billing uses daily units worth $1.50 each, and unused units expire at the end of the term.", "sourceUrl": "https://coralogix.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Logs", "priceUsd": 0.42, "billing": "month", "unit": "per GB of logs", "notes": "Stored in the customer's S3 bucket. Billed through daily units of $1.50. The 14-day trial has full features and a quota of 8 units" }
+    ],
+    "hiddenCosts": [
+      "Logs in Frequent Search cost $1.15 per GB in the page's own example, and logs in the monitoring pipeline $0.50 per GB.",
+      "Pay-as-you-go lets usage reach twice the daily plan quota, and extra usage after the plan is used up is billed at the pay-as-you-go rate.",
+      "Unused units expire and have no monetary value."
+    ],
+    "sourceUrl": "https://coralogix.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Amazon S3", "Slack", "PagerDuty", "Webhooks"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

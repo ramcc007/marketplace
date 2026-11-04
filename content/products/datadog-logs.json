@@ -1,0 +1,54 @@
+{
+  "name": "Datadog Log Management",
+  "status": "published",
+  "vendor": { "name": "Datadog, Inc.", "website": "https://www.datadoghq.com" },
+  "primaryCategory": "log-management",
+  "summary": "Datadog Log Management prices ingestion and indexing separately. Ingestion costs $0.10 per GB, and indexed logs cost $1.06 to $2.50 per million events on annual billing, depending on 3 to 30 days of retention. Flex Logs storage covers 6, 12 or 15 months.",
+  "qualifies": [
+    {
+      "category": "log-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "log collection and search", "sourceUrl": "https://docs.datadoghq.com/logs/explorer/search_syntax/" },
+        { "capability": "retention policies", "sourceUrl": "https://docs.datadoghq.com/logs/log_configuration/indexes/" },
+        { "capability": "log-based alerts", "sourceUrl": "https://docs.datadoghq.com/monitors/types/log/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Each index has its own retention period, and Datadog recommends several indexes when different logs need different retention. Exclusion filters can drop or sample logs before they are indexed.", "sourceUrl": "https://docs.datadoghq.com/logs/log_configuration/indexes/", "checkedAt": "2026-11-04" },
+    { "text": "Excluded logs are not indexed, but they still appear in Live Tail and can feed log-based metrics and archives.", "sourceUrl": "https://docs.datadoghq.com/logs/log_configuration/indexes/", "checkedAt": "2026-11-04" },
+    { "text": "A log monitor evaluates only indexed, Standard Tier logs, and its longest rolling time window is 2 days.", "sourceUrl": "https://docs.datadoghq.com/monitors/types/log/", "checkedAt": "2026-11-04" },
+    { "text": "Forwarding logs to a custom destination costs $0.25 per GB, per destination, in every billing mode.", "sourceUrl": "https://www.datadoghq.com/pricing/list/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Log ingestion", "priceUsd": 0.1, "billing": "month", "unit": "per GB ingested", "notes": "Same $0.10 on annual, month-to-month and on-demand billing" },
+      { "name": "Indexed logs, 15-day retention", "priceUsd": 1.7, "billing": "month", "unit": "per million indexed logs", "notes": "Annual billing; $2.04 month-to-month and $2.55 on-demand. 3-day retention is $1.06, 7-day $1.27 and 30-day $2.50 on annual billing" },
+      { "name": "Flex Logs Starter", "priceUsd": 0.6, "billing": "month", "unit": "per million events stored", "notes": "Annual billing; $0.72 month-to-month and $0.90 on-demand. Retention of 6, 12 or 15 months" }
+    ],
+    "hiddenCosts": [
+      "Ingestion and indexing are billed separately, so a log that is both ingested and indexed pays both charges.",
+      "Flex Logs Storage costs a further $0.05 per million events stored on annual billing.",
+      "Sensitive Data Scanner costs $0.30 per scanned GB on annual billing, and Audit Trail adds 2% of spend."
+    ],
+    "sourceUrl": "https://www.datadoghq.com/pricing/list/",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.datadoghq.com/pricing/list/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

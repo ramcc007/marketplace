@@ -1,0 +1,45 @@
+{
+  "name": "Bitbucket Pipelines",
+  "status": "published",
+  "vendor": { "name": "Atlassian", "website": "https://www.atlassian.com" },
+  "primaryCategory": "ci-cd",
+  "summary": "Bitbucket Pipelines is the CI/CD service inside Atlassian's Bitbucket Cloud. Plans are priced per user: Free for up to 5 users with 50 build minutes, Standard at $3.65 and Premium at $8 a month. Another 1,000 minutes cost $10 a month.",
+  "qualifies": [
+    {
+      "category": "ci-cd",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "automated builds and tests", "sourceUrl": "https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines/" },
+        { "capability": "deployment pipelines", "sourceUrl": "https://support.atlassian.com/bitbucket-cloud/docs/set-up-and-monitor-deployments/" },
+        { "capability": "pipeline logs", "sourceUrl": "https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Free plan is free forever for up to 5 users and includes 50 build minutes shared across the workspace.", "sourceUrl": "https://www.atlassian.com/software/bitbucket/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Another 1,000 build minutes, or 100 GB of Git LFS storage, cost $10 a month.", "sourceUrl": "https://www.atlassian.com/software/bitbucket/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page does not state a build minute allowance for Standard or Premium.", "sourceUrl": "https://www.atlassian.com/software/bitbucket/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Pipelines starts with default Test, Staging and Production environments, and a Deployments dashboard shows history, statuses and logs.", "sourceUrl": "https://support.atlassian.com/bitbucket-cloud/docs/set-up-and-monitor-deployments/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Up to 5 users, 50 build minutes" },
+      { "name": "Standard", "priceUsd": 3.65, "billing": "month", "unit": "per user" },
+      { "name": "Premium", "priceUsd": 8, "billing": "month", "unit": "per user" },
+      { "name": "Extra build minutes", "priceUsd": 10, "billing": "month", "unit": "per 1,000 minutes", "notes": "Sold as a bundle with 100 GB of Git LFS storage" }
+    ],
+    "hiddenCosts": [
+      "Standard and Premium show no stated build minute allowance, so a busy team may buy extra minutes at $10 per 1,000.",
+      "The Free plan caps the workspace at 5 users."
+    ],
+    "sourceUrl": "https://www.atlassian.com/software/bitbucket/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

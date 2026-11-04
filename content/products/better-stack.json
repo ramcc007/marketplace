@@ -15,6 +15,15 @@
       ]
     },
     {
+      "category": "log-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "log collection and search", "sourceUrl": "https://betterstack.com/logs" },
+        { "capability": "retention policies", "sourceUrl": "https://betterstack.com/logs" },
+        { "capability": "log-based alerts", "sourceUrl": "https://betterstack.com/docs/logs/dashboards/alerts/" }
+      ]
+    },
+    {
       "category": "incident-management",
       "checkedAt": "2026-11-04",
       "evidence": [

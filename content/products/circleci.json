@@ -1,0 +1,55 @@
+{
+  "name": "CircleCI",
+  "status": "published",
+  "vendor": { "name": "Circle Internet Services, Inc.", "website": "https://circleci.com" },
+  "primaryCategory": "ci-cd",
+  "summary": "CircleCI is a hosted CI/CD service that bills in credits. Free and Performance both include 30,000 credits a month and 5 active users. Performance starts at $15 a month and sells extra credits at $15 per 25,000. Scale is quote only and billed annually.",
+  "qualifies": [
+    {
+      "category": "ci-cd",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "automated builds and tests", "sourceUrl": "https://circleci.com/docs/guides/orchestrate/pipelines/" },
+        { "capability": "deployment pipelines", "sourceUrl": "https://circleci.com/docs/guides/deploy/deployment-overview/" },
+        { "capability": "pipeline logs", "sourceUrl": "https://circleci.com/docs/guides/execute/ssh-access-jobs/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Free and Performance each include 30,000 credits a month, which expire monthly and do not roll over.", "sourceUrl": "https://circleci.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Self-hosted runners are not charged per build minute. Network overage costs 420 credits per GB.", "sourceUrl": "https://circleci.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists extra Performance users at $15 a month in one place and 25,000 credits per month in the plan table, and does not reconcile the two.", "sourceUrl": "https://circleci.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "On January 4, 2023 CircleCI disclosed that an attacker had taken customer environment variables, tokens and keys, and told customers to rotate every secret stored in it.", "sourceUrl": "https://circleci.com/blog/jan-4-2023-incident-report/", "checkedAt": "2026-11-04" },
+    { "text": "The Rerun job with SSH option lets an engineer inspect log files, running processes and directories on a failed job.", "sourceUrl": "https://circleci.com/docs/guides/execute/ssh-access-jobs/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "30,000 credits a month, 5 active users, 5 self-hosted concurrent tasks. No credit card required" },
+      { "name": "Performance", "priceUsd": 15, "billing": "month", "unit": "per account", "notes": "Starting at $15 a month. 30,000 credits a month, 5 active users, 20 self-hosted concurrent tasks. Extra credits $15 per 25,000" },
+      { "name": "Scale", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing, billed annually" }
+    ],
+    "hiddenCosts": [
+      "Credits expire monthly, so unused free credits are lost.",
+      "Prepaid credits are sold in blocks, 1 million for $600, and stay valid for up to 12 months.",
+      "Prices do not include applicable taxes."
+    ],
+    "sourceUrl": "https://circleci.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://circleci.com/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "New Relic",
+  "status": "published",
+  "vendor": { "name": "New Relic, Inc.", "website": "https://newrelic.com" },
+  "primaryCategory": "log-management",
+  "summary": "New Relic prices by data volume and by user type. The free tier includes 100 GB of ingest a month and one full platform user. Data beyond that costs $0.40 per GB, or $0.60 per GB with Data Plus, and full platform users cost $99 each on Standard or $349 on Pro with an annual commitment.",
+  "qualifies": [
+    {
+      "category": "log-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "log collection and search", "sourceUrl": "https://docs.newrelic.com/docs/logs/get-started/get-started-log-management/" },
+        { "capability": "retention policies", "sourceUrl": "https://docs.newrelic.com/docs/data-apis/manage-data/manage-data-retention/" },
+        { "capability": "log-based alerts", "sourceUrl": "https://docs.newrelic.com/docs/logs/ui-data/use-logs-ui/" }
+      ]
+    },
+    {
+      "category": "apm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "request tracing", "sourceUrl": "https://newrelic.com/platform/application-monitoring" },
+        { "capability": "performance metrics", "sourceUrl": "https://newrelic.com/platform/application-monitoring" },
+        { "capability": "alerting", "sourceUrl": "https://newrelic.com/platform/application-monitoring" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "New Relic application monitoring offers distributed tracing to visualize the path of a service request, and defines response time, throughput and error rate as its core performance measures.", "sourceUrl": "https://newrelic.com/platform/application-monitoring", "checkedAt": "2026-11-04" },
+    { "text": "Logs can be forwarded by APM agents, the infrastructure agent, Fluentd, Fluent Bit, Logstash, Kubernetes integrations, the Log API, a TCP endpoint or an OpenTelemetry Collector.", "sourceUrl": "https://docs.newrelic.com/docs/logs/get-started/get-started-log-management/", "checkedAt": "2026-11-04" },
+    { "text": "Log data is retained for 30 days under the Original Data option and 120 days under Data Plus. Extra retention is available at about $0.05 per GB ingested for each additional 30 days.", "sourceUrl": "https://docs.newrelic.com/docs/data-apis/manage-data/manage-data-retention/", "checkedAt": "2026-11-04" },
+    { "text": "An alert condition can be created from a log search by choosing Create alert, which builds an NRQL query for the condition.", "sourceUrl": "https://docs.newrelic.com/docs/logs/ui-data/use-logs-ui/", "checkedAt": "2026-11-04" },
+    { "text": "Storing data in the EU data center adds $0.05 per GB a month.", "sourceUrl": "https://newrelic.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "100 GB of ingest a month, 1 full platform user and unlimited basic users, retention of at least 8 days" },
+      { "name": "Standard", "priceUsd": 99, "billing": "month", "unit": "per full platform user", "notes": "First full user $10, up to 5 full users. Core users $49. Data beyond 100 GB at $0.40 per GB, or $0.60 with Data Plus" },
+      { "name": "Pro", "priceUsd": 349, "billing": "month", "unit": "per full platform user", "notes": "Annual commitment; $418.80 on monthly pay-as-you-go. Unlimited full users, core users $49, same per-GB rates as Standard" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Sold through sales" }
+    ],
+    "hiddenCosts": [
+      "On the free tier, ingest stops past 100 GB until the next month or an upgrade.",
+      "Core users cost $49 each on every paid edition.",
+      "Data Plus raises the per-GB rate from $0.40 to $0.60 and includes up to 90 extra days of retention."
+    ],
+    "sourceUrl": "https://newrelic.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://trust.newrelic.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Fluentd", "Fluent Bit", "Logstash", "Kubernetes", "OpenTelemetry"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "GitHub Actions",
+  "status": "published",
+  "vendor": { "name": "GitHub, Inc.", "website": "https://github.com" },
+  "primaryCategory": "ci-cd",
+  "summary": "GitHub Actions runs workflows from a repository on GitHub. Every plan includes a monthly dollar allowance for hosted runners, from $12 on Free to $300 on Enterprise Cloud, and a Linux 2-core runner costs $0.006 a minute after that. Self-hosted runners and public repositories cost nothing today.",
+  "qualifies": [
+    {
+      "category": "ci-cd",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "automated builds and tests", "sourceUrl": "https://docs.github.com/en/actions/get-started/understand-github-actions" },
+        { "capability": "deployment pipelines", "sourceUrl": "https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/control-deployments" },
+        { "capability": "pipeline logs", "sourceUrl": "https://docs.github.com/en/actions/how-tos/monitor-workflows/use-workflow-run-logs" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The included allowance is a dollar amount, not a number of minutes: $12 on Free, $18 on Pro and Team, and $300 on Enterprise Cloud each month.", "sourceUrl": "https://docs.github.com/en/billing/managing-billing-for-your-products/about-billing-for-github-actions", "checkedAt": "2026-11-04" },
+    { "text": "Standard GitHub-hosted runners are free in public repositories, while larger runners are billed even there.", "sourceUrl": "https://docs.github.com/en/billing/managing-billing-for-your-products/about-billing-for-github-actions", "checkedAt": "2026-11-04" },
+    { "text": "Deployment environments can require reviewers to approve a job before it runs.", "sourceUrl": "https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/control-deployments", "checkedAt": "2026-11-04" },
+    { "text": "In December 2025 GitHub announced a $0.002 per minute platform charge for self-hosted runners from March 1, 2026, then postponed it to re-evaluate. No new date was given.", "sourceUrl": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/", "checkedAt": "2026-11-04" },
+    { "text": "Workflow run logs can be viewed, searched, downloaded or deleted from the Actions tab, with GitHub CLI or through the API.", "sourceUrl": "https://docs.github.com/en/actions/how-tos/monitor-workflows/use-workflow-run-logs", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "GitHub Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "$12 of hosted runner usage each month, 500 MB artifact storage" },
+      { "name": "GitHub Pro", "priceUsd": null, "billing": "month", "unit": "per user", "notes": "$18 of hosted runner usage each month, 1 GB artifact storage. The plan price is not on the Actions billing page" },
+      { "name": "GitHub Team", "priceUsd": null, "billing": "month", "unit": "per user", "notes": "$18 of hosted runner usage each month, 2 GB artifact storage. The plan price is not on the Actions billing page" },
+      { "name": "GitHub Enterprise Cloud", "priceUsd": null, "billing": "month", "unit": "per user", "notes": "$300 of hosted runner usage each month, 50 GB artifact storage, about 50,000 Linux minutes. The plan price is not on the Actions billing page" },
+      { "name": "Linux 2-core runner overage", "priceUsd": 0.006, "billing": "month", "unit": "per minute", "notes": "Billed after the included allowance is used" }
+    ],
+    "hiddenCosts": [
+      "Larger runners are billed even in public repositories.",
+      "The allowance is in dollars, so minutes on macOS, Windows or larger runners use it up faster than Linux minutes.",
+      "Self-hosted runners are free today, but GitHub announced and then postponed a $0.002 per minute charge for them."
+    ],
+    "sourceUrl": "https://docs.github.com/en/billing/managing-billing-for-your-products/about-billing-for-github-actions",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "SigNoz",
+  "status": "published",
+  "vendor": { "name": "SigNoz Inc.", "website": "https://signoz.io" },
+  "primaryCategory": "apm",
+  "summary": "SigNoz is open source and also sold as a cloud service. Cloud usage costs $0.30 per GB of traces and $0.10 per million metric samples, and the Teams plan starts at $49 a month with $49 of usage included. Enterprise starts at $4,000 a month.",
+  "qualifies": [
+    {
+      "category": "apm",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "request tracing", "sourceUrl": "https://signoz.io/application-performance-monitoring/" },
+        { "capability": "performance metrics", "sourceUrl": "https://signoz.io/application-performance-monitoring/" },
+        { "capability": "alerting", "sourceUrl": "https://signoz.io/docs/alerts/" }
+      ]
+    },
+    {
+      "category": "log-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "log collection and search", "sourceUrl": "https://signoz.io/docs/logs-management/overview/" },
+        { "capability": "retention policies", "sourceUrl": "https://signoz.io/docs/userguide/retention-period/" },
+        { "capability": "log-based alerts", "sourceUrl": "https://signoz.io/docs/alerts-management/log-based-alerts/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "For each service the APM view lists p99, p90 and p50 latency, request rate, error rate and an Apdex score.", "sourceUrl": "https://signoz.io/application-performance-monitoring/", "checkedAt": "2026-11-04" },
+    { "text": "Alerts can fire on span conditions such as high p99 latency or elevated error counts, and on metric queries that cross a threshold.", "sourceUrl": "https://signoz.io/docs/alerts/", "checkedAt": "2026-11-04" },
+    { "text": "Single sign-on is included in the Community Edition and Teams plan, while SAML is limited to Teams and Enterprise.", "sourceUrl": "https://signoz.io/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Eligible startups pay $19 a month for the first 12 months, including $19 of usage.", "sourceUrl": "https://signoz.io/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Community Edition (self-hosted)", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Open source, you run and pay for the infrastructure" },
+      { "name": "Teams", "priceUsd": 49, "billing": "month", "unit": "per account", "notes": "Includes $49 of usage. Traces at $0.30 per GB with 15-day retention, metrics at $0.10 per million samples with 1-month retention" },
+      { "name": "Enterprise", "priceUsd": 4000, "billing": "month", "unit": "per account", "notes": "Starting price. Includes dedicated cloud, bring your own cloud and self-hosted with support" }
+    ],
+    "hiddenCosts": [
+      "Logs are also billed at $0.30 per GB ingested, so a team that sends logs and traces pays for both.",
+      "The pricing page shows a free sign-up button but does not state a trial length.",
+      "Self-hosting is free to license, though the team pays for servers and upkeep."
+    ],
+    "sourceUrl": "https://signoz.io/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["OpenTelemetry"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

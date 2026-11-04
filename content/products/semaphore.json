@@ -1,0 +1,46 @@
+{
+  "name": "Semaphore",
+  "status": "published",
+  "vendor": { "name": "Rendered Text", "website": "https://semaphore.io" },
+  "primaryCategory": "ci-cd",
+  "summary": "Semaphore bills by the minute for the machine a job uses, with $15 of free credit each month. An Ubuntu x64 2-vCPU minute costs $0.0075, an ARM 2-vCPU minute $0.003 and a self-hosted minute $0.0025. Support and success plans are optional add-ons.",
+  "qualifies": [
+    {
+      "category": "ci-cd",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "automated builds and tests", "sourceUrl": "https://docs.semaphore.io/using-semaphore/pipelines" },
+        { "capability": "deployment pipelines", "sourceUrl": "https://docs.semaphore.io/using-semaphore/promotions" },
+        { "capability": "pipeline logs", "sourceUrl": "https://docs.semaphore.io/using-semaphore/jobs" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The $15 monthly credit is about 2,000 Ubuntu x64 2-vCPU minutes and can be used across services.", "sourceUrl": "https://semaphore.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Artifacts include 100 GB of storage and 20 GB of egress a month, then cost $0.07 per GB stored and $0.35 per GB of egress.", "sourceUrl": "https://semaphore.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Promotions chain pipelines for continuous delivery, and can be manual, automatic or parameterized, with deployment targets for access control.", "sourceUrl": "https://docs.semaphore.io/using-semaphore/promotions", "checkedAt": "2026-11-04" },
+    { "text": "The jobs page covers debugging with SSH sessions, attaching to a running job and port forwarding.", "sourceUrl": "https://docs.semaphore.io/using-semaphore/jobs", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Ubuntu ARM 2 vCPU", "priceUsd": 0.003, "billing": "month", "unit": "per minute", "notes": "4 vCPU is $0.006 and 8 vCPU is $0.012 per minute" },
+      { "name": "Ubuntu x64 2 vCPU", "priceUsd": 0.0075, "billing": "month", "unit": "per minute", "notes": "4 vCPU is $0.015 per minute" },
+      { "name": "macOS 4 vCPU", "priceUsd": 0.09, "billing": "month", "unit": "per minute" },
+      { "name": "Self-hosted agent", "priceUsd": 0.0025, "billing": "month", "unit": "per minute", "notes": "Any machine size" }
+    ],
+    "hiddenCosts": [
+      "A dedicated cache server and a private Docker registry each cost $400 a month.",
+      "Support plans run from $50 to $750 a month, and success plans from $125 to $2,000 a month.",
+      "Engineering access is sold in one-time packages from $900 for 3 hours."
+    ],
+    "sourceUrl": "https://semaphore.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

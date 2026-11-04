@@ -1,0 +1,44 @@
+{
+  "name": "Harness",
+  "status": "published",
+  "vendor": { "name": "Harness Inc.", "website": "https://www.harness.io" },
+  "primaryCategory": "ci-cd",
+  "summary": "The Harness platform sells CI and CD on one platform with a Free plan priced at $0. Essentials and Enterprise are quote only, and the pricing page publishes no per-developer price. Essentials caps users at 500 and keeps 6 months of pipeline execution history.",
+  "qualifies": [
+    {
+      "category": "ci-cd",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "automated builds and tests", "sourceUrl": "https://developer.harness.io/docs/continuous-integration/get-started/overview" },
+        { "capability": "deployment pipelines", "sourceUrl": "https://developer.harness.io/docs/continuous-delivery/" },
+        { "capability": "pipeline logs", "sourceUrl": "https://developer.harness.io/docs/platform/pipelines/executions-and-logs/download-logs" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Essentials allows up to 500 users, 60 concurrent CI executions and 60 concurrent CD executions. Enterprise allows unlimited CI executions and up to 500 concurrent CD executions.", "sourceUrl": "https://www.harness.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Pipeline execution history is kept for 6 months on Essentials, and 25 months on Enterprise as an add-on.", "sourceUrl": "https://www.harness.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists no build minute limits and no limits for the Free plan.", "sourceUrl": "https://www.harness.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Execution logs can be downloaded from the UI or through the Log Service API as a logs.zip of NDJSON files.", "sourceUrl": "https://developer.harness.io/docs/platform/pipelines/executions-and-logs/download-logs", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Community support. Limits are not listed on the pricing page" },
+      { "name": "Essentials", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Priced by quotation. Up to 500 users" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Priced by quotation. Unlimited users" }
+    ],
+    "hiddenCosts": [
+      "No paid price is published, so a buyer has to ask sales for a quote.",
+      "A 25-month execution history on Enterprise is an add-on."
+    ],
+    "sourceUrl": "https://www.harness.io/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Logz.io",
+  "status": "published",
+  "vendor": { "name": "Logshero Ltd. (Logz.io)", "website": "https://logz.io" },
+  "primaryCategory": "log-management",
+  "summary": "Logz.io lists Log Management at $0.92 per ingested GB per day with 7-day retention, quoted for the AWS US East region. Extra retention is priced per day by tier. A 14-day trial is free, and subscription plans are sold by quote.",
+  "qualifies": [
+    {
+      "category": "log-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "log collection and search", "sourceUrl": "https://logz.io/platform/log-management/" },
+        { "capability": "retention policies", "sourceUrl": "https://logz.io/pricing/" },
+        { "capability": "log-based alerts", "sourceUrl": "https://logz.io/platform/log-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Additional retention is priced per extra day at $0.03 for the hot tier, $0.015 for warm and $0.001 for cold.", "sourceUrl": "https://logz.io/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The page describes alerts that can combine several queries and trigger conditions, with a setting for how often they fire.", "sourceUrl": "https://logz.io/platform/log-management/", "checkedAt": "2026-11-04" },
+    { "text": "Monthly billing costs 1.2 times the annual rate, and overage is billed at 1.4 times the subscription rate.", "sourceUrl": "https://logz.io/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Log Management (consumption)", "priceUsd": 0.92, "billing": "month", "unit": "per ingested GB per day", "notes": "7-day retention, AWS US East pricing. Listed by the vendor as per ingested GB, per day, with no monthly figure" },
+      { "name": "Enterprise subscription", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No fixed subscription prices are published" }
+    ],
+    "hiddenCosts": [
+      "Longer retention is charged per extra day on top of the base rate.",
+      "Monthly billing is 1.2 times the annual cost.",
+      "Overage is billed at 1.4 times the subscription rate."
+    ],
+    "sourceUrl": "https://logz.io/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Azure Pipelines",
+  "status": "published",
+  "vendor": { "name": "Microsoft Corporation", "website": "https://azure.microsoft.com" },
+  "primaryCategory": "ci-cd",
+  "summary": "Azure Pipelines is the CI/CD part of Azure DevOps. Each organization with billing set up gets one free Microsoft-hosted parallel job with 1,800 minutes a month and one free self-hosted job. Extra parallel jobs cost $40 for Microsoft-hosted and $15 for self-hosted.",
+  "qualifies": [
+    {
+      "category": "ci-cd",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "automated builds and tests", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines" },
+        { "capability": "deployment pipelines", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/pipelines/process/stages" },
+        { "capability": "pipeline logs", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/pipelines/troubleshooting/review-logs" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The free tier for private projects is one parallel job of up to 60 minutes per run, 1,800 minutes a month, and it applies only after billing is set up with a valid Azure subscription.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines", "checkedAt": "2026-11-04" },
+    { "text": "Paid parallel jobs can run up to 360 minutes and have no monthly time limit.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines", "checkedAt": "2026-11-04" },
+    { "text": "Public projects are retired. New ones cannot be created, and existing ones keep their free grants until they convert to private in 2027.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines", "checkedAt": "2026-11-04" },
+    { "text": "A pipeline stage can require a manual approval check on an environment, or use trigger: manual so a production stage waits for a person.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/pipelines/process/stages", "checkedAt": "2026-11-04" },
+    { "text": "Logs for each step can be viewed in the run results, and all logs for a run can be downloaded.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/devops/pipelines/troubleshooting/review-logs", "checkedAt": "2026-11-04" },
+    { "text": "Microsoft says the prices are estimates, may vary with the type of agreement, and are calculated in US dollars.", "sourceUrl": "https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free parallel jobs", "priceUsd": 0, "billing": "month", "unit": "per organization", "notes": "1 Microsoft-hosted job with 1,800 minutes and 1 self-hosted job with unlimited minutes" },
+      { "name": "Extra Microsoft-hosted parallel job", "priceUsd": 40, "billing": "month", "unit": "per parallel job", "notes": "Unlimited minutes" },
+      { "name": "Extra self-hosted parallel job", "priceUsd": 15, "billing": "month", "unit": "per parallel job", "notes": "Unlimited minutes" },
+      { "name": "Basic plan", "priceUsd": 6, "billing": "month", "unit": "per user", "notes": "First 5 users free" }
+    ],
+    "hiddenCosts": [
+      "The free grant needs billing set up with a valid Azure subscription.",
+      "Basic plan users beyond the first 5 cost $6 each a month."
+    ],
+    "sourceUrl": "https://azure.microsoft.com/en-us/pricing/details/devops/azure-devops-services/",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
