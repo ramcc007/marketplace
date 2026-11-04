@@ -1,0 +1,64 @@
+{
+  "name": "TeamOhana",
+  "status": "published",
+  "vendor": { "name": "TeamOhana", "website": "https://www.teamohana.com" },
+  "primaryCategory": "workforce-planning",
+  "summary": "TeamOhana is a headcount planning tool for People and Finance teams that tracks approvals, budget impact per hire and hiring scenarios. It publishes prices: a free tier, Professional from $15,000 a year, Growth from $45,000 and Enterprise from $95,000, plus one-time setup fees. Position management is a $3 per employee monthly add-on on Growth and Enterprise.",
+  "qualifies": [
+    {
+      "category": "workforce-planning",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "headcount plans", "sourceUrl": "https://www.teamohana.com" },
+        { "capability": "position management", "sourceUrl": "https://www.teamohana.com/pricing" },
+        { "capability": "budget scenarios", "sourceUrl": "https://www.teamohana.com" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The homepage describes one place to plan, approve and track every hire, and says teams can model headcount scenarios to measure budget impact.", "sourceUrl": "https://www.teamohana.com", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists scenario planning from Professional upward and sells Position Management as an add-on for Growth and Enterprise at $3 per employee per month.", "sourceUrl": "https://www.teamohana.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page contradicts itself on employee bands and contract terms. The cards show the free tier up to 100 employees while the table and FAQ say 150, and Growth is annual or multi-year on the cards but a two-year minimum in the table.", "sourceUrl": "https://www.teamohana.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The homepage names Greenhouse, Lever, Ashby, Deel, BambooHR, Workday, UKG, SAP SuccessFactors, HiBob and Slack among its integrations.", "sourceUrl": "https://www.teamohana.com", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "year", "unit": "per account", "notes": "Up to 100 employees on the pricing card and up to 150 in the table. $5,000 one-time fee. Headcount tracking and live HRIS and ATS sync, without scenario planning" },
+      { "name": "Professional", "priceUsd": 15000, "billing": "year", "unit": "per account", "notes": "From, for 101 to 500 employees on the card. $5,000 one-time fee. Adds approval workflows, budget impact per hire and scenario planning" },
+      { "name": "Growth", "priceUsd": 45000, "billing": "year", "unit": "per account", "notes": "From, for 501 to 1,500 employees. $15,000 one-time fee. Adds hiring-scenario modeling and budget envelopes" },
+      { "name": "Enterprise", "priceUsd": 95000, "billing": "year", "unit": "per account", "notes": "From, for 1,501 to 10,000 employees. One-time fee scoped during evaluation. Adds real-time budget authorization, SLAs and a dedicated customer success manager" }
+    ],
+    "hiddenCosts": [
+      "A one-time fee applies on every plan, including the free one: $5,000 on Free and Professional and $15,000 on Growth.",
+      "Position Management costs $3 per employee per month on top of Growth or Enterprise.",
+      "Compensation Planning costs $3 per employee per month, and the TeamOhana Computer AI analyst costs $150 per seat per month."
+    ],
+    "sourceUrl": "https://www.teamohana.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Free tier and up (SSO and SCIM); SAML 2.0 listed for Enterprise",
+    "sourceUrl": "https://www.teamohana.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.teamohana.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Greenhouse", "Lever", "Ashby", "Deel", "BambooHR", "Workday", "UKG", "SAP SuccessFactors", "HiBob", "Slack"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

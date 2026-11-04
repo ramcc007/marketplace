@@ -6,6 +6,15 @@
   "summary": "Cube puts annual budgeting, rolling forecasts, scenario planning and variance analysis on top of Excel and Google Sheets. It publishes no prices: Bronze, Silver and Gold are quoted by entity count, with 1, up to 10 and up to 50 legal entities, and all plans include unlimited users.",
   "qualifies": [
     {
+      "category": "workforce-planning",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "headcount plans", "sourceUrl": "https://www.cubesoftware.com/headcount-planning" },
+        { "capability": "position management", "sourceUrl": "https://www.cubesoftware.com/headcount-planning" },
+        { "capability": "budget scenarios", "sourceUrl": "https://www.cubesoftware.com/headcount-planning" }
+      ]
+    },
+    {
       "category": "budgeting-forecasting",
       "checkedAt": "2026-11-04",
       "evidence": [

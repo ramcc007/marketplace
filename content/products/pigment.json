@@ -6,6 +6,15 @@
   "summary": "Pigment is a planning platform where finance teams build integrated plans, re-forecast as assumptions change, try one-click scenarios and run variance analysis in the same tool as the budget. Its homepage shows no prices and offers a free trial sign-up and a demo.",
   "qualifies": [
     {
+      "category": "workforce-planning",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "headcount plans", "sourceUrl": "https://www.pigment.com/use-case/headcount-planning" },
+        { "capability": "position management", "sourceUrl": "https://www.pigment.com/use-case/headcount-planning" },
+        { "capability": "budget scenarios", "sourceUrl": "https://www.pigment.com/use-case/headcount-planning" }
+      ]
+    },
+    {
       "category": "budgeting-forecasting",
       "checkedAt": "2026-11-04",
       "evidence": [

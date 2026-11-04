@@ -1,0 +1,63 @@
+{
+  "name": "headcount365",
+  "status": "published",
+  "vendor": { "name": "headcount365", "website": "https://www.headcount365.com" },
+  "primaryCategory": "workforce-planning",
+  "summary": "headcount365 keeps one record of every approved, open and filled position, synced from your HRIS and applicant tracking system. It publishes prices by company size: Lite from $12,000 a year, Core from $30,000 and Enterprise from $65,000, all billed annually with a one-time implementation fee. Scenario plans and position management sit on Core and above.",
+  "qualifies": [
+    {
+      "category": "workforce-planning",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "headcount plans", "sourceUrl": "https://www.headcount365.com/position-management" },
+        { "capability": "position management", "sourceUrl": "https://www.headcount365.com/position-management" },
+        { "capability": "budget scenarios", "sourceUrl": "https://www.headcount365.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The position management page defines the practice as tracking and controlling every job in a company, whether approved, open or filled.", "sourceUrl": "https://www.headcount365.com/position-management", "checkedAt": "2026-11-04" },
+    { "text": "The page says hiring teams can scenario plan and request changes without changing position data.", "sourceUrl": "https://www.headcount365.com/position-management", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists scenario plans, budget tools and position management under Core, and the Lite column of its comparison table leaves out scenario plans. Its FAQ says scenario planning is on all paid plans, so confirm with the vendor.", "sourceUrl": "https://www.headcount365.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page says SAML 2.0 single sign-on is listed for Enterprise, while its FAQ calls SAML a paid add-on outside Enterprise.", "sourceUrl": "https://www.headcount365.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The homepage states that headcount365 is GDPR and SOC 2 Type 2 compliant.", "sourceUrl": "https://www.headcount365.com", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Lite", "priceUsd": 12000, "billing": "year", "unit": "per account", "notes": "For 0 to 500 employees. Starting price, $3,000 one-time implementation fee, 1-year minimum" },
+      { "name": "Core", "priceUsd": 30000, "billing": "year", "unit": "per account", "notes": "For 501 to 2,000 employees. Starting price, $5,000 one-time implementation fee, 18-month minimum. Adds scenario plans, budget tools and position management" },
+      { "name": "Enterprise", "priceUsd": 65000, "billing": "year", "unit": "per account", "notes": "For 2,001 or more employees. Starting price, custom implementation fee, 2-year minimum" }
+    ],
+    "hiddenCosts": [
+      "A one-time implementation fee applies on every plan: $3,000 on Lite and $5,000 on Core, with a custom amount on Enterprise.",
+      "The page says renewal pricing reflects current headcount and hiring activity."
+    ],
+    "sourceUrl": "https://www.headcount365.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": "Core (SCIM and OIDC), Enterprise (SAML 2.0)",
+    "sourceUrl": "https://www.headcount365.com",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": true,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.headcount365.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Greenhouse", "Teamtailor", "Ashby", "Lever", "BambooHR", "ADP", "UKG", "Personio", "Pigment", "Abacum", "Adaptive"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

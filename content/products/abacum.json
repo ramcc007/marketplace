@@ -1,0 +1,57 @@
+{
+  "name": "Abacum",
+  "status": "published",
+  "vendor": { "name": "Abacum", "website": "https://www.abacum.ai" },
+  "primaryCategory": "workforce-planning",
+  "summary": "Abacum is a finance planning platform whose headcount planning use case keeps planned roles, salary bands and approvals in the same model as the budget. Department heads adjust their own headcount within limits that finance sets, and hiring assumptions feed the forecast. It publishes no prices and sells through a demo request.",
+  "qualifies": [
+    {
+      "category": "workforce-planning",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "headcount plans", "sourceUrl": "https://www.abacum.ai/use-cases/headcount-planning" },
+        { "capability": "position management", "sourceUrl": "https://www.abacum.ai/use-cases/headcount-planning" },
+        { "capability": "budget scenarios", "sourceUrl": "https://www.abacum.ai/use-cases/headcount-planning" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The page says open roles, personnel costs, budgets and approvals sit alongside the forecast, and that teams can reconcile planned roles against actual workforce data.", "sourceUrl": "https://www.abacum.ai/use-cases/headcount-planning", "checkedAt": "2026-11-04" },
+    { "text": "The page says changing hiring assumptions shows how the change affects the wider financial plan, and names NetSuite as a source of live data.", "sourceUrl": "https://www.abacum.ai/use-cases/headcount-planning", "checkedAt": "2026-11-04" },
+    { "text": "The homepage lists SOC 2 Type II certification.", "sourceUrl": "https://www.abacum.ai/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page lists no plans or prices, and its calls to action are Book a Demo and Explore the platform.", "sourceUrl": "https://www.abacum.ai/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Abacum", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices published. Buyers book a demo" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.abacum.ai/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.abacum.ai/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.abacum.ai/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["NetSuite"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

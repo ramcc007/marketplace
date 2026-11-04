@@ -1,0 +1,57 @@
+{
+  "name": "Anaplan",
+  "status": "published",
+  "vendor": { "name": "Anaplan, Inc.", "website": "https://www.anaplan.com" },
+  "primaryCategory": "workforce-planning",
+  "summary": "Anaplan is a connected-planning platform with workforce and headcount expense planning for large finance and HR teams. Its pages describe position plans tied to the financial budget and unlimited what-if scenarios on salary, benefits, reporting lines and location. It publishes no prices and routes buyers to a demo form.",
+  "qualifies": [
+    {
+      "category": "workforce-planning",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "headcount plans", "sourceUrl": "https://www.anaplan.com/solutions/headcount-expense-planning/" },
+        { "capability": "position management", "sourceUrl": "https://www.anaplan.com/use-case/workforce-planning-software/" },
+        { "capability": "budget scenarios", "sourceUrl": "https://www.anaplan.com/solutions/headcount-expense-planning/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The workforce planning page promises continuous position planning aligned with the financial budget and lists optimizing headcount and position plans as a goal.", "sourceUrl": "https://www.anaplan.com/use-case/workforce-planning-software/", "checkedAt": "2026-11-04" },
+    { "text": "The headcount expense page describes modeling what-if scenarios across multiple variables, with headcount changes, terminations, transfers and merit increases as examples.", "sourceUrl": "https://www.anaplan.com/solutions/headcount-expense-planning/", "checkedAt": "2026-11-04" },
+    { "text": "The headcount expense page mentions dashboards that track variance to budget and tools for business unit finance partners to create and justify staffing cost requests.", "sourceUrl": "https://www.anaplan.com/solutions/headcount-expense-planning/", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page shows no prices or plans and sends visitors to a form to reach an Anaplan expert.", "sourceUrl": "https://www.anaplan.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Anaplan", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No prices published. The pricing page offers a form to reach an Anaplan expert and a personalized demo" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.anaplan.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.anaplan.com/use-case/workforce-planning-software/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.anaplan.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "ChartHop",
+  "status": "published",
+  "vendor": { "name": "ChartHop, Inc.", "website": "https://www.charthop.com" },
+  "primaryCategory": "workforce-planning",
+  "summary": "ChartHop is an org and people-planning platform whose Headcount Planning module lets HR and Finance plan together. Teams model reorgs and open requisitions, build scenarios privately and then share or combine them, and see the budget effect as they go. Pricing is quoted from a three-question form that asks for employee count.",
+  "qualifies": [
+    {
+      "category": "workforce-planning",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "headcount plans", "sourceUrl": "https://www.charthop.com/modules/headcount-planning" },
+        { "capability": "position management", "sourceUrl": "https://www.charthop.com/modules/headcount-planning" },
+        { "capability": "budget scenarios", "sourceUrl": "https://www.charthop.com/modules/headcount-planning" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The module page says managers can open a new job, update an existing job, or terminate and create a backfill through guided workflows.", "sourceUrl": "https://www.charthop.com/modules/headcount-planning", "checkedAt": "2026-11-04" },
+    { "text": "The page says scenarios can be built privately and then shared or combined with other leaders, with access controls on what each person sees.", "sourceUrl": "https://www.charthop.com/modules/headcount-planning", "checkedAt": "2026-11-04" },
+    { "text": "Approved requisitions can be pushed to Ashby, Greenhouse, Jobvite or Lever.", "sourceUrl": "https://www.charthop.com/modules/headcount-planning", "checkedAt": "2026-11-04" },
+    { "text": "The pricing page shows no dollar amounts. It asks for the number of employees to size a plan and promises a proposal within one business day.", "sourceUrl": "https://www.charthop.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "The site footer says ChartHop completed a SOC 2 Type 2 examination by Schellman & Company.", "sourceUrl": "https://www.charthop.com/modules/headcount-planning", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "ChartHop Core plus modules", "priceUsd": null, "billing": "quote", "unit": "per employee", "notes": "No prices published. The homepage FAQ describes a base fee per employee per month plus the modules chosen, and the pricing page returns a proposal after a short form" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.charthop.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.charthop.com/modules/headcount-planning",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.charthop.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["ADP", "Gusto", "Ashby", "Greenhouse", "Jobvite", "Lever"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
