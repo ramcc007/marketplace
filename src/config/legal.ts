@@ -16,11 +16,11 @@ export interface Owner {
 }
 
 export const OWNER: Owner = {
-  legalName: null,
-  country: null,
-  address: null,
-  email: null,
-  editor: null,
+  legalName: 'Ram C, trading as B2BRated',
+  country: 'United States',
+  address: '697 Hog Camp Road, Arlington Heights, IL 60005',
+  email: 'support@b2brated.com',
+  editor: 'Ram C',
 };
 
 export const LEGAL = {
