@@ -1,0 +1,62 @@
+{
+  "name": "Descope",
+  "status": "published",
+  "vendor": { "name": "Descope, Inc.", "website": "https://www.descope.com" },
+  "primaryCategory": "identity-access-management",
+  "summary": "Descope is a developer-focused identity service for apps that sell to businesses. Single sign-on is set up per customer tenant, SCIM provisions and deprovisions users from the customer's identity provider, and roles plus fine-grained authorization decide access. A free plan covers 7,500 monthly active users, and Pro starts at $249 a month billed annually.",
+  "qualifies": [
+    {
+      "category": "identity-access-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "single sign-on", "sourceUrl": "https://docs.descope.com/auth-methods/sso" },
+        { "capability": "user provisioning and deprovisioning", "sourceUrl": "https://docs.descope.com/management/tenant-management/scim" },
+        { "capability": "access policies", "sourceUrl": "https://docs.descope.com/authorization" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Descope configures single sign-on per tenant, so each customer organization gets its own setup rather than one project-wide setting.", "sourceUrl": "https://docs.descope.com/auth-methods/sso", "checkedAt": "2026-11-04" },
+    { "text": "Descope's SCIM support lets an identity provider provision, update and deprovision users and groups in a Descope project.", "sourceUrl": "https://docs.descope.com/management/tenant-management/scim", "checkedAt": "2026-11-04" },
+    { "text": "Descope offers role-based authorization and fine-grained authorization that includes ReBAC and ABAC.", "sourceUrl": "https://docs.descope.com/authorization", "checkedAt": "2026-11-04" },
+    { "text": "On the Free Forever plan there are no overages, so going past the limits requires an upgrade.", "sourceUrl": "https://www.descope.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free Forever", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "7,500 monthly active users and 3 SSO connections" },
+      { "name": "Pro", "priceUsd": 249, "billing": "month", "unit": "per account", "notes": "Starts at $249 a month, billed annually. 10,000 monthly active users and 5 SSO connections. Usage-based overages apply" },
+      { "name": "Growth", "priceUsd": 799, "billing": "month", "unit": "per account", "notes": "Starts at $799 a month, billed annually. 25,000 monthly active users and 10 SSO connections. Usage-based overages apply" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Custom pricing" }
+    ],
+    "hiddenCosts": [
+      "Pro and Growth charge usage-based overages above the included users and SSO connections, and the page does not publish the per-unit rates."
+    ],
+    "sourceUrl": "https://www.descope.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Free Forever (3 SSO connections)",
+    "sourceUrl": "https://www.descope.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.descope.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["SAML", "OIDC", "SCIM"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

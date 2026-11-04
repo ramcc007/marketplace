@@ -1,0 +1,62 @@
+{
+  "name": "authentik",
+  "status": "published",
+  "vendor": { "name": "authentik Security", "website": "https://goauthentik.io" },
+  "primaryCategory": "identity-access-management",
+  "summary": "authentik is an identity provider with a free open-source edition that can be self-hosted. Its Enterprise edition costs $5 per workforce user per month, billed annually. It acts as a SAML provider for single sign-on, provisions users to other apps over SCIM, and decides who reaches an application with reusable policies.",
+  "qualifies": [
+    {
+      "category": "identity-access-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "single sign-on", "sourceUrl": "https://docs.goauthentik.io/add-secure-apps/providers/saml/" },
+        { "capability": "user provisioning and deprovisioning", "sourceUrl": "https://docs.goauthentik.io/add-secure-apps/providers/scim/" },
+        { "capability": "access policies", "sourceUrl": "https://docs.goauthentik.io/customize/policies/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "authentik's SAML provider lets it integrate with service providers using the SAML 2.0 protocol.", "sourceUrl": "https://docs.goauthentik.io/add-secure-apps/providers/saml/", "checkedAt": "2026-11-04" },
+    { "text": "authentik's SCIM provider provisions and syncs users from authentik into other applications, and a removed user is deprovisioned from the target SCIM endpoint.", "sourceUrl": "https://docs.goauthentik.io/add-secure-apps/providers/scim/", "checkedAt": "2026-11-04" },
+    { "text": "authentik describes policies as reusable checks that can decide whether someone reaches an application and can also control flow stages, sources and prompt validation.", "sourceUrl": "https://docs.goauthentik.io/customize/policies/", "checkedAt": "2026-11-04" },
+    { "text": "The Open Source edition is free with community support through GitHub and Discord. Its pricing page lists OIDC, SAML and SCIM as included.", "sourceUrl": "https://goauthentik.io/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Open Source", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "Self-hosted. Community support only" },
+      { "name": "Enterprise (workforce accounts)", "priceUsd": 5, "billing": "month", "unit": "per user", "notes": "Billed annually. Agent and service accounts are included" },
+      { "name": "Enterprise (customer accounts)", "priceUsd": 0.02, "billing": "month", "unit": "per user", "notes": "Billed annually" },
+      { "name": "Enterprise Plus", "priceUsd": 20000, "billing": "year", "unit": "per account", "notes": "Starting at $20,000 a year, for custom contracts and dedicated support" }
+    ],
+    "hiddenCosts": [
+      "The Open Source edition is self-hosted, so the buyer pays for servers and the staff time to run and update them."
+    ],
+    "sourceUrl": "https://goauthentik.io/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Open Source (SAML and OIDC)",
+    "sourceUrl": "https://goauthentik.io/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://goauthentik.io/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["SAML 2.0", "OIDC", "SCIM"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

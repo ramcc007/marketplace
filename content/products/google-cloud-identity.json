@@ -1,0 +1,60 @@
+{
+  "name": "Google Cloud Identity",
+  "status": "published",
+  "vendor": { "name": "Google LLC", "website": "https://cloud.google.com/identity" },
+  "primaryCategory": "identity-access-management",
+  "summary": "Cloud Identity is Google's identity service for organizations that do not need Workspace. The Free edition includes single sign-on to SAML apps. Premium adds automated user provisioning and context-aware access, and costs $7.20 per user per month on the flexible plan or $6 with a one-year commitment.",
+  "qualifies": [
+    {
+      "category": "identity-access-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "single sign-on", "sourceUrl": "https://docs.cloud.google.com/identity/docs/editions" },
+        { "capability": "user provisioning and deprovisioning", "sourceUrl": "https://knowledge.workspace.google.com/admin/users/advanced/about-automated-user-provisioning?hl=en" },
+        { "capability": "access policies", "sourceUrl": "https://docs.cloud.google.com/identity/docs/editions" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Single sign-on to third-party and custom SAML apps, with Google as the identity provider, is listed for both the Free and Premium editions. The editions page does not mention OIDC.", "sourceUrl": "https://docs.cloud.google.com/identity/docs/editions", "checkedAt": "2026-11-04" },
+    { "text": "Automated user provisioning and context-aware access are listed as Premium-only features.", "sourceUrl": "https://docs.cloud.google.com/identity/docs/editions", "checkedAt": "2026-11-04" },
+    { "text": "Google's help page says an admin can add, modify or delete a user in the Admin console and the change syncs to the third-party app. It does not say outright that suspensions are passed on.", "sourceUrl": "https://knowledge.workspace.google.com/admin/users/advanced/about-automated-user-provisioning?hl=en", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Cloud Identity Free", "priceUsd": 0, "billing": "month", "unit": "per user", "notes": "SAML single sign-on, without automated provisioning or context-aware access" },
+      { "name": "Cloud Identity Premium (flexible plan)", "priceUsd": 7.2, "billing": "month", "unit": "per user", "notes": "No commitment, and it can be cancelled at any time without penalty" },
+      { "name": "Cloud Identity Premium (annual plan)", "priceUsd": 6, "billing": "month", "unit": "per user", "notes": "$72 per license for a one-year commitment" }
+    ],
+    "hiddenCosts": [
+      "On the annual plan, cancelling early does not reduce what is owed, and licenses can only be reduced at renewal."
+    ],
+    "sourceUrl": "https://docs.cloud.google.com/identity/docs/how-to/compare-cloud-identity-billing-plans",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": "Free and Premium (SAML apps)",
+    "sourceUrl": "https://docs.cloud.google.com/identity/docs/editions",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The flexible plan can be cancelled at any time without penalty. The annual plan is a one-year commitment, and early cancellation does not reduce the amount owed.",
+    "dataExport": null,
+    "sourceUrl": "https://docs.cloud.google.com/identity/docs/how-to/compare-cloud-identity-billing-plans",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["SAML apps", "Microsoft Entra ID", "Atlassian"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
