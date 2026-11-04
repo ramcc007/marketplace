@@ -2,11 +2,15 @@
 title: Expense management software compared
 definition: Nine expense management products compared on receipt capture, policies, approvals and reimbursement, with prices read from vendor pages for US buyers.
 primaryKeyword: expense management software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Nine products checked against vendor pages, with IRS rules read from irs.gov.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Expense management software collects receipts from employees, checks each claim against company rules, routes it to an approver and pays the employee back. The nine products on this page each capture receipts, enforce expense policies with an approval step, and handle reimbursement. We read every price on the vendor's own website, checked each one a second time on a separate page load, and linked the pages we used from each product page. Prices depend on the visitor's location, so the figures here are the US dollar prices a US visitor sees.

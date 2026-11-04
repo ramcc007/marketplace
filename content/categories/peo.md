@@ -2,11 +2,15 @@
 title: PEO services compared
 definition: Nine professional employer organizations compared on co-employment terms, IRS certification, benefits access, payroll and what vendors publish about price.
 primaryKeyword: PEO services
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Nine PEOs checked against vendor pages. Insperity and Justworks left out because their sites blocked automated reading.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 A professional employer organization, or PEO, takes over a defined set of employer tasks for a small or midsize business under a service agreement. The nine providers on this page each state that they act as a co-employer, give clients access to group benefits plans, and run payroll with HR compliance support. We read each vendor's own pages, and each product page links to the sources we used.

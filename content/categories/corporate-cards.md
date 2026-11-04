@@ -2,11 +2,15 @@
 title: Corporate cards compared
 definition: Nine corporate card platforms compared on physical and virtual cards, spend limits, accounting sync, personal guarantees and fees checked at the source.
 primaryKeyword: corporate cards
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Nine products checked against vendor pages, with card law checked against Regulation Z and Regulation B.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 A corporate card platform issues payment cards to a company's employees, lets finance set limits on each card, and sends the resulting transactions to the accounting system. The nine products on this page all meet the same three tests: they issue both physical and virtual cards, they let an administrator set spend limits, and they sync card transactions with accounting software. We read each claim on the vendor's own website, and every product page links to the pages we used.

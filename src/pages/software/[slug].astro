@@ -9,7 +9,8 @@ import { categories, categoryTitle, childrenOf, getCategory, getDepartment, rela
 import { getSiteIndex } from '../../lib/site-index';
 import { priceSummary } from '../../lib/catalog';
 import { GATE } from '../../lib/quality-gate';
-import { breadcrumbList, itemList } from '../../lib/schema';
+import { breadcrumbList, collectionPage } from '../../lib/schema';
+import { SITE } from '../../config/site';
 import { formatUsd } from '../../lib/dates';
 
 export function getStaticPaths() {
@@ -48,7 +49,17 @@ const crumbs = [
 ];
 const jsonLd = [breadcrumbList(crumbs, site)];
 if (products.length > 0) {
-  jsonLd.push(itemList(products.map((p) => ({ name: p.data.name, path: `/products/${p.id}` })), site));
+  jsonLd.push(
+    collectionPage({
+      name: title,
+      description,
+      path: `/software/${category.slug}`,
+      siteName: SITE.name,
+      site,
+      about: category.name,
+      products: products.map((p) => ({ name: p.data.name, path: `/products/${p.id}` })),
+    }),
+  );
 }
 
 const toc = [

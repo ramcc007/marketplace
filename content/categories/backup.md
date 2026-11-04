@@ -2,11 +2,15 @@
 title: Backup software for business computers and servers
 definition: Eight backup products compared on prices checked at the source, schedules, restore points, encryption, storage terms and how each one is bought.
 primaryKeyword: backup software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages and help documentation.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 A small office with twenty laptops and one file server loses a drive on a Monday morning. The person who set up the backups needs to know when the last good copy ran and whether a file can come back as it looked last Thursday. The eight products on this page each run backups on a schedule, keep restore points, and encrypt the data. We read the vendor's own pricing, help and product pages, and each product page links to the pages we used.

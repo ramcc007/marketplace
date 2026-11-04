@@ -2,11 +2,15 @@
 title: Usage-based billing software compared
 definition: Eight usage-based billing platforms compared on event metering, tiered rating, usage invoices and prices checked at the vendor's own pages.
 primaryKeyword: usage-based billing software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages and documentation.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Usage-based billing software, also called metered billing, charges customers for what they consume instead of, or on top of, a flat subscription. The eight products on this page each do three things. They meter usage events, they rate that usage with pricing tiers, and they produce invoices from the result. We read prices and capability claims from each vendor's own pages, and every product page links to the pages we used.

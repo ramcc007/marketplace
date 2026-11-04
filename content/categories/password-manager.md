@@ -2,11 +2,15 @@
 title: Business password managers
 definition: Ten business password managers compared on prices checked at the source, the plan that adds single sign-on, security reports and contract terms.
 primaryKeyword: business password manager
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-03
     note: First draft. Ten products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 A team that keeps shared logins in a spreadsheet, a chat thread or one person's browser has no record of who can see which account. The ten products on this page each store logins in an encrypted vault, let people share them by team or group, and give an admin a set of policies and an activity report. We checked every price on the vendor's own website, and each product page links to the pages we used.

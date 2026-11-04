@@ -2,11 +2,15 @@
 title: HRIS software compared
 definition: Eight HRIS products compared on employee records, time-off tracking and HR reports, with list prices and quote-only vendors marked as such.
 primaryKeyword: hris software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 A company with 30 employees usually reaches the same point. Time-off requests live in a shared spreadsheet, offer letters sit in someone's email, and the founder cannot say how many people were hired last quarter without an hour of digging. An HRIS, short for human resources information system, replaces those scattered files with one employee record that the rest of HR work reads from. This page compares eight products that meet three tests: they keep employee records, they track time off, and they produce HR reports. We read each vendor's own pages, and every product page links to the pages we used.

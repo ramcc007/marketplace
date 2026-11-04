@@ -2,11 +2,15 @@
 title: Multi-factor authentication software compared
 definition: Eight MFA products compared on price, second-factor methods, risk-based rules and enrollment controls, with every figure checked at the vendor.
 primaryKeyword: multi-factor authentication software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages, with CISA and NIST guidance for context.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Multi-factor authentication software asks a user for a second proof of identity after the password, and it lets an administrator decide who must use which method and when. The eight products on this page each support second-factor methods such as app push or hardware keys, apply risk-based rules to decide when to ask, and give administrators control over enrollment. We read every price and capability on the vendor's own website, and each product page links to the pages we used. Figures are in US dollars as shown to US visitors, and prices can differ by country.

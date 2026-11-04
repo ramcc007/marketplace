@@ -2,11 +2,15 @@
 title: Error tracking software for web and mobile apps
 definition: Nine error trackers compared on prices checked at the source, event quotas, grouping, release tracking, data location and PII scrubbing.
 primaryKeyword: error tracking software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Nine products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 An error tracker collects exceptions and crashes from a running application, adds the stack trace and context, groups repeats into one issue and tells someone when a new problem appears. The nine products on this page each capture exceptions with stack traces, group them and send alerts, and tie errors to releases. We read every price on the vendor's own website, and each product page links to the pages we used.

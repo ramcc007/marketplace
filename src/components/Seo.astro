@@ -16,7 +16,7 @@ const serialize = (data: Record<string, unknown>) => JSON.stringify(data).replac
 <title>{fullTitle}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
-<meta name="robots" content={index ? 'index, follow, max-image-preview:large' : 'noindex, follow'} />
+<meta name="robots" content={index ? 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' : 'noindex, follow'} />
 <meta name="theme-color" content="#0f766e" />
 <link rel="manifest" href="/site.webmanifest" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />

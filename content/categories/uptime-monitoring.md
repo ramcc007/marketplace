@@ -2,11 +2,15 @@
 title: Uptime monitoring tools for websites and APIs
 definition: Eleven uptime monitors compared on prices checked at the source, check locations, how failures are confirmed, alert costs and status pages.
 primaryKeyword: uptime monitoring
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-03
     note: First draft. Eleven products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 An uptime monitor requests a website, an API or a server from the outside at a set interval and tells someone when it stops answering. The eleven products on this page each run HTTP and ICMP ping checks from several locations, send alerts, and keep uptime reports. We checked every price on the vendor's own website, and each product page links to the pages we used.

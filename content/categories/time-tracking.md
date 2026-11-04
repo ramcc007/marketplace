@@ -2,11 +2,15 @@
 title: Time tracking software for teams
 definition: Eleven time trackers compared on prices checked at the source, the plan where timesheet approval starts, payroll exports and monitoring features.
 primaryKeyword: time tracking software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-03
     note: First draft. Eleven products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Time tracking software records the hours people work by project, client or shift, then passes those hours to whoever runs payroll or sends invoices. The eleven products on this page each let staff enter time or clock in and out, let a manager approve timesheets or time entries, and send hours on to payroll or invoicing. We checked every price on the vendor's own website, and each product page links to the pages we used.

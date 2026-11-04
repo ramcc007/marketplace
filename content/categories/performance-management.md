@@ -2,11 +2,15 @@
 title: Performance management software compared
 definition: Nine performance management tools compared on published prices, review cycles, goals and OKRs, continuous feedback, and what each vendor leaves out.
 primaryKeyword: performance review software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Nine products checked against vendor pages and sources linked in the text.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 A head of people at a 200-person company is told to replace spreadsheets and email threads before the next review season, and the first quote she asks for shows a $4,000 minimum annual agreement. Performance management software runs review cycles, tracks goals, and gives managers and employees a place to exchange feedback during the year. The nine products here each cover review cycles, goals or OKRs, and continuous feedback, and we checked every price on the vendor's own website. Each product page links to the pages we used.

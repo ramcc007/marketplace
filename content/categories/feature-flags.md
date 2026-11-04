@@ -2,11 +2,15 @@
 title: Feature flag software compared
 definition: Eight feature flag tools compared on targeting rules, gradual rollouts, SDK coverage and prices checked at the source, from free tiers to quotes.
 primaryKeyword: feature flag software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages and documentation.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Feature flag software lets a team change what users see without shipping new code. A flag is a switch evaluated at run time, so a release can reach a few users first, be turned off in seconds if it misbehaves, and be switched on for everyone later. The eight products here all offer flag targeting rules, gradual rollouts and SDKs for major languages. We read every price on the vendor's own website, and each product page links to the pages we used.

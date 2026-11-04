@@ -2,11 +2,15 @@
 title: Transactional email services compared
 definition: Eight transactional email services compared on checked prices, log retention, bounce and complaint handling, security claims and contract terms.
 primaryKeyword: transactional email service
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages, prices fetched twice.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 A password reset that arrives ten minutes late is a support ticket. Transactional email services exist to prevent that: they take a message your application generates, deliver it to the recipient's mailbox, and tell you what happened to it. The eight products on this page each send by API or SMTP, keep delivery logs, and handle bounces and spam complaints. We read every price on the vendor's own pricing page and fetched each page a second time to confirm it.

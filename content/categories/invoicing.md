@@ -2,11 +2,15 @@
 title: Invoicing software compared
 definition: Eight invoicing products compared on fees checked at the source, free plan limits, payment methods, status tracking and e-invoicing rules.
 primaryKeyword: invoicing software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages. Prices read from US pages and confirmed by a second fetch.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Invoicing software creates a bill, delivers it to the customer, lets the customer pay it online and shows whether it has been paid. The eight products on this page each create invoices, attach an online payment option to them and track the payment status. We read every fee on the vendor's own website, using the US pages, and each product page links to the sources we used. Prices shown to visitors outside the US can differ.

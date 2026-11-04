@@ -2,11 +2,15 @@
 title: Patch management software compared
 definition: Eight patch management tools compared on OS and third-party patching, scheduling, compliance reports and prices checked at each vendor.
 primaryKeyword: patch management software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Patch management software finds missing updates on laptops, desktops and servers, installs them on a schedule you control and shows an auditor what is still open. The eight products on this page patch operating systems and third-party applications, let an admin schedule deployments, and produce patch compliance reports. We read each vendor's own pages, and each product page links to the pages we used.

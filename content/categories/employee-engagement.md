@@ -2,11 +2,15 @@
 title: Employee engagement software compared
 definition: Eight employee engagement tools compared on survey anonymity, reporting thresholds, team results, list prices and contract minimums checked at the source.
 primaryKeyword: employee engagement software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages and help centers.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Employee engagement software sends surveys to staff, protects who said what, and shows managers how each team scored. The eight products on this page each run engagement surveys, offer anonymous or confidential feedback, and report results by team. We read the vendors' own pricing pages and help-center articles, and each product page links to the pages we used.

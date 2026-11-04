@@ -2,11 +2,15 @@
 title: Subscription billing software compared
 definition: Eleven subscription billing platforms compared on fees checked at the source, merchant of record terms, dunning, card portability and tax.
 primaryKeyword: subscription billing software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-03
     note: First draft. Eleven products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Subscription billing software creates the recurring charges for a subscription business, prorates plan changes, retries failed payments and reports recurring revenue. The eleven products on this page each handle recurring plans with proration, run dunning for failed payments, and report MRR and churn. We checked every fee on the vendor's own website, and each product page links to the pages we used.

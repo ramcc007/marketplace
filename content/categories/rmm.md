@@ -2,11 +2,15 @@
 title: RMM software compared
 definition: Eight remote monitoring and management tools compared on published pricing, agents, scripting, patching, alerting and licensing, checked at vendor pages.
 primaryKeyword: rmm software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 An IT team of two looks after 60 laptops and a handful of servers, and Windows updates are landing on some machines and not others. Remote monitoring and management software, usually shortened to RMM, fixes that by putting a small agent on each device and giving technicians one console to watch, patch and script them. The eight products on this page each run endpoint monitoring agents, remote scripting and patching, and alerting. We checked every price and claim on the vendor's own website, and each product page links to the pages we used.

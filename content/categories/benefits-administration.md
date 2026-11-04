@@ -2,11 +2,15 @@
 title: Benefits administration software compared
 definition: Eight benefits administration platforms compared on enrollment, carrier connections, eligibility tracking and ACA reporting, with prices checked at source.
 primaryKeyword: benefits administration software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages, with ACA, ERISA and COBRA context from IRS and Department of Labor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Benefits administration software lets employees choose health, dental, vision and other coverage online, keeps track of who is eligible for what, and passes the resulting elections to insurance carriers. The eight products on this page each handle online enrollment, connect to carriers or set up plans for the employer, and track eligibility. We read every price, or the lack of one, on the vendor's own website, and each product page links to the pages we used. All figures are in US dollars, and carrier availability, plan rules and state requirements depend on where the employees live.

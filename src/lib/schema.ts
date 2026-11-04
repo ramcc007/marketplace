@@ -31,6 +31,40 @@ export function itemList(items: { name: string; path: string }[], site: URL): Re
   };
 }
 
+/** A category page: a CollectionPage whose main entity is the list of products on it, in the order shown. */
+export function collectionPage(input: {
+  name: string;
+  description: string;
+  path: string;
+  siteName: string;
+  site: URL;
+  about: string;
+  products: { name: string; path: string }[];
+}): Record<string, unknown> {
+  const url = new URL(input.path, input.site).toString();
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: input.name,
+    description: input.description,
+    url,
+    inLanguage: 'en',
+    about: { '@type': 'Thing', name: input.about },
+    isPartOf: { '@type': 'WebSite', name: input.siteName, url: new URL('/', input.site).toString() },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: input.products.length,
+      itemListOrder: 'https://schema.org/ItemListOrderAscending',
+      itemListElement: input.products.map((p, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: p.name,
+        url: new URL(p.path, input.site).toString(),
+      })),
+    },
+  };
+}
+
 export function softwareApplication(input: {
   name: string;
   path: string;

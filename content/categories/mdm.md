@@ -2,11 +2,15 @@
 title: Mobile device management software compared
 definition: Eight mobile device management products compared on enrollment, policy enforcement, remote lock and wipe, with prices checked at the source.
 primaryKeyword: mobile device management software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages and documentation.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Mobile device management software lets an IT team enroll phones, tablets and laptops, push settings to them and take the data back when a device is lost. Enterprise mobility management and EMM are older names for the same job. The eight products on this page each document device enrollment, policy enforcement, and remote lock and wipe. We checked every price on the vendor's own website, and each product page links to the documentation we used.

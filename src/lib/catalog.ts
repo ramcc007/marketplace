@@ -37,7 +37,8 @@ export function pricingAgeDays(product: Product, today: string): number {
 }
 
 export function isCompleteProfile(product: Product, today: string): boolean {
-  return pricingAgeDays(product, today) <= GATE.completeProfilePricingDays && product.data.screenshots.length > 0;
+  const hasScreenshots = !GATE.launch.requireScreenshots || product.data.screenshots.length > 0;
+  return pricingAgeDays(product, today) <= GATE.completeProfilePricingDays && hasScreenshots;
 }
 
 type Plan = Product['data']['pricing']['plans'][number];

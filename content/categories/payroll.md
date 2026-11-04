@@ -2,11 +2,15 @@
 title: Payroll software compared
 definition: Eight US payroll services compared on prices checked at the source, tax filing, direct deposit, pay stubs, add-on fees and contract terms.
 primaryKeyword: payroll software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages. Every price was read twice from separate fetches.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Payroll software works out what each person is owed, withholds income and payroll taxes, pays the net amount and files the paperwork that follows. The eight products on this page each run pay runs and pay stubs, handle tax withholding and filings, and pay by direct deposit. We read every price on the vendor's own website, then read it a second time from a separate fetch. Each product page links to the pages we used.

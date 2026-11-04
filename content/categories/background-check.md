@@ -2,11 +2,15 @@
 title: Background check software compared
 definition: Eight employment background check providers compared on published prices, candidate consent, ATS links and US rules, all checked at the source.
 primaryKeyword: background check software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages and primary legal sources.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Employment background check software orders criminal and employment history reports on job candidates, collects the candidate's permission, and returns results to the hiring team. The eight products on this page each run criminal and employment checks, have a way for candidates to give consent, and connect to at least one applicant tracking system. We read every price and claim on the vendor's own website, and each product page links to the pages we used.

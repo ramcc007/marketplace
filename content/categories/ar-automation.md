@@ -2,11 +2,15 @@
 title: AR automation software compared
 definition: Eight AR automation platforms compared on invoice delivery, payment matching, aging reports, published pricing and security claims checked at the source.
 primaryKeyword: AR automation software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages. Four vendors considered and left out for lack of documented must-haves.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 AR automation software sits between the invoice a business sends and the cash that lands in its bank account. It delivers invoices, chases late payers, matches incoming payments to open invoices and reports how overdue the book is. The eight products on this page each document all three of those jobs on the vendor's own site: [Upflow](/products/upflow), [Versapay](/products/versapay), [Kolleno](/products/kolleno), [Gaviti](/products/gaviti), [Billtrust](/products/billtrust), [HighRadius](/products/highradius), [Paystand](/products/paystand) and [Tesorio](/products/tesorio). We checked every price and claim, and each product page links to the pages we used.

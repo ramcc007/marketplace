@@ -2,11 +2,15 @@
 title: Security awareness training software compared
 definition: Eight security awareness training products compared on phishing simulations, training modules, completion reports and the prices vendors publish.
 primaryKeyword: security awareness training software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Security awareness training software teaches employees to spot and report attacks such as phishing, then records who finished which course. The eight products on this page each offer training modules, send simulated phishing emails to staff and report on who completed their training. We checked prices and features on each vendor's own site, and every product page links to the pages we used.

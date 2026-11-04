@@ -17,7 +17,14 @@ export const GATE = {
   completeProfilePricingDays: 120,
   /** After this many days without re-verification, prices are shown as stale. */
   stalePricingDays: 180,
-} as const;
+  /**
+   * Launch phase, set by the site owner on 4 November 2026. Review collection has not opened and no product has
+   * screenshots yet, so neither can be required. Set both to true once they exist to restore the full rules.
+   */
+  launch: { requireScreenshots: false, requireReviewsOrNotes: false },
+};
+
+export type LaunchRules = typeof GATE.launch;
 
 export interface GateResult {
   indexable: boolean;
@@ -47,7 +54,7 @@ function result(reasons: string[]): GateResult {
   return { indexable: reasons.length === 0, reasons };
 }
 
-export function evaluateCategory(input: CategoryGateInput): GateResult {
+export function evaluateCategory(input: CategoryGateInput, launch: LaunchRules = GATE.launch): GateResult {
   const c = GATE.category;
   const reasons: string[] = [];
   const minProducts = input.level === 'L2' ? GATE.subcategory.minQualifyingProducts : c.minQualifyingProducts;
@@ -58,7 +65,7 @@ export function evaluateCategory(input: CategoryGateInput): GateResult {
   if (input.completeProfiles < c.minCompleteProfiles) {
     reasons.push(`${input.completeProfiles} of ${c.minCompleteProfiles} complete product profiles`);
   }
-  if (input.reviewCount < c.minReviews && input.handsOnProducts < c.minHandsOnProducts) {
+  if (launch.requireReviewsOrNotes && input.reviewCount < c.minReviews && input.handsOnProducts < c.minHandsOnProducts) {
     reasons.push(
       `${input.reviewCount} of ${c.minReviews} reviews, and ${input.handsOnProducts} of ${c.minHandsOnProducts} products with hands-on notes`,
     );

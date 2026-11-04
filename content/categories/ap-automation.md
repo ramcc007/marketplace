@@ -2,11 +2,15 @@
 title: AP automation software compared
 definition: Eight AP automation products compared on invoice capture, approvals and vendor payments, with prices and payment fees checked at the vendor's own site.
 primaryKeyword: AP automation software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages; every price fetched twice.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 AP automation software takes a supplier invoice from the moment it arrives to the moment the supplier is paid. It reads the invoice into structured data, sends it to the right people for approval, and then pays the supplier by ACH, check, card or wire, usually posting the result to the accounting system. The eight products on this page each state all three of those capabilities on their own sites: invoice capture, approval workflows and vendor payments. We read those pages, and each product page links to the exact ones we used. We did not run hands-on tests of any product for this draft, so the notes below describe what vendors state, not how the software behaves in daily use.

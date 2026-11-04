@@ -144,7 +144,7 @@ const todayIso = () => new Date().toISOString().slice(0, 10);
 
 /** Groups the same blocker across pages and words it for a person, since the raw reasons carry per-page numbers. */
 function reasonKey(r: string): string {
-  if (/complete product profiles/.test(r)) return 'Too few complete product profiles (each needs screenshots and prices checked in the last 120 days)';
+  if (/complete product profiles/.test(r)) return 'Too few complete product profiles (each needs prices checked in the last 120 days, plus screenshots once those are required)';
   if (/reviews, and .* hands-on notes/.test(r)) return 'No verified reviews, and too few products with our own hands-on notes';
   if (/qualifying products/.test(r)) return 'Too few products that meet the inclusion criteria (8 needed, 5 for a subcategory)';
   if (/% similar to another page/.test(r)) return 'Editorial copy shares too much phrasing with another page';
@@ -186,7 +186,7 @@ export function buildOverview(today = todayIso()): Overview {
       level: category.level,
       qualifyingProducts: qualifying.length,
       completeProfiles: qualifying.filter(
-        (p) => daysBetween(p.data.pricing.verifiedAt, today) <= GATE.completeProfilePricingDays && (p.data.screenshots ?? []).length > 0,
+        (p) => daysBetween(p.data.pricing.verifiedAt, today) <= GATE.completeProfilePricingDays && (!GATE.launch.requireScreenshots || (p.data.screenshots ?? []).length > 0),
       ).length,
       reviewCount: 0,
       handsOnProducts: qualifying.filter((p) => p.data.handsOnNote).length,

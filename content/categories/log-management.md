@@ -2,11 +2,15 @@
 title: Log management software for application and server logs
 definition: Eight log management tools compared on prices checked at the source, how retention is set, how log alerts are built and what free plans allow.
 primaryKeyword: log management
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pricing and documentation pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Log management software collects log lines from servers, containers and applications, stores them in one place, lets people search them, and sends an alert when a pattern appears. The eight products on this page each do all three jobs the category needs: log collection and search, retention policies, and alerts built on log queries. We read prices and documentation on the vendors' own websites, checked each price a second time, and link the pages we used from every product page.

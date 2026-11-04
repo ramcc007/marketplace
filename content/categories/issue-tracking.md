@@ -2,11 +2,15 @@
 title: Bug and issue tracking software compared
 definition: Eight bug and issue trackers compared on workflow states, assignment, priorities and Git links, with prices checked at the vendor.
 primaryKeyword: bug and issue tracking software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pricing and documentation pages. Jira and YouTrack left out because their prices could not be read.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 An issue tracker keeps a list of problems and tasks, shows who owns each one, and records how far each has moved. The eight products on this page all do three things. They move issues through defined states, they let a team assign issues and rank them by priority, and they connect to version control so that commits and pull requests tie to issues. We read each vendor's own pricing and documentation pages, and each product page links to the pages we used.

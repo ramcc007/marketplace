@@ -2,11 +2,15 @@
 title: Applicant tracking software compared
 definition: Nine applicant tracking systems compared on posted prices, quote-only plans, job posting, interview scorecards, record keeping and hiring-law exposure.
 primaryKeyword: applicant tracking software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Nine products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Applicant tracking software holds every job opening, application and interview note in one place, so a hiring team can see who applied, who has been contacted and who is waiting on a decision. The nine products on this page each post jobs to outside boards, move candidates through stages and handle interview scheduling and feedback. We read every price and claim on the vendor's own website, and each product page links to the pages we used. Prices below are in US dollars unless a sentence says otherwise, and several vendors change what they show by company size or location.

@@ -2,11 +2,15 @@
 title: Budgeting and forecasting software compared
 definition: Eight budgeting and forecasting tools compared on published prices, quote-only terms, scenarios, variance reports and security claims.
 primaryKeyword: budgeting and forecasting software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages; prices read twice.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 A bookkeeper who reports on forty client companies and a finance director closing ten legal entities both need a budget, a forecast and a variance report. The tools they buy have almost nothing else in common. This page compares eight products that, on their own websites, offer budget models, forecasts with scenarios and variance reports: [LivePlan](/products/liveplan), [Fathom](/products/fathom), [Jirav](/products/jirav), [Cube](/products/cube), [Prophix](/products/prophix), [Datarails](/products/datarails), [Workday Adaptive Planning](/products/workday-adaptive-planning) and [Pigment](/products/pigment). We read each vendor's pages, and every product page links to the pages we used.

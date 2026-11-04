@@ -2,11 +2,15 @@
 title: Payment processing software compared
 definition: Eight payment processors compared on card and wallet acceptance, payouts and fraud screening, with fees checked at each vendor's own page.
 primaryKeyword: payment processing software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages. Stripe Payments left out because its US pricing page could not be read.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Payment processing software lets a business accept card and wallet payments, receive the money in a bank account and screen out fraudulent orders. The eight products on this page each meet all three of those tests, and we checked every fee on the vendor's own website. Prices here are US figures in dollars unless a row says otherwise, and several vendors change their rates by country.

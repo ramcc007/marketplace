@@ -2,11 +2,15 @@
 title: Sales tax and VAT software compared
 definition: Nine sales tax and VAT tools compared on rate calculation, registration, filing and nexus monitoring, with fees checked at the source.
 primaryKeyword: sales tax software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Nine products checked against vendor pages. Figures are US dollars unless noted.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Sales tax software works out how much tax to charge on each sale, tells a seller where it has to register, and prepares and files the returns. To appear on this page a product had to show, on its own website, tax rate calculation, filing and remittance, and either registration or nexus tracking. Nine products met that bar: [Stripe Tax](/products/stripe-tax), [Avalara](/products/avalara), [TaxJar](/products/taxjar), [TaxCloud](/products/taxcloud), [Numeral](/products/numeral), [Zamp](/products/zamp), [Kintsugi](/products/kintsugi), [Sphere](/products/sphere) and [Quaderno](/products/quaderno). We read every price on the vendor's own site, and read each price a second time before publishing.

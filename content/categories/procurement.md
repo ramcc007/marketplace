@@ -2,11 +2,15 @@
 title: Procurement software compared
 definition: Nine procurement platforms compared on published prices, purchase order and approval controls, supplier onboarding and security claims.
 primaryKeyword: procurement software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Nine products checked against vendor pages, with prices verified in two separate fetches.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Procurement software controls how a company buys things before the money is spent. An employee asks for a purchase, the right people approve it, a purchase order goes to the supplier, and finance later matches the receipt and the invoice against that order. The nine products on this page each take purchase requests and turn approved ones into purchase orders, route requests through approval rules, and keep supplier records through a catalog or an onboarding process. We read every price and claim on the vendor's own website, and each product page links to the pages we used.

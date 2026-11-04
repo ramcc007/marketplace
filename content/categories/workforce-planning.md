@@ -2,11 +2,15 @@
 title: Workforce planning software compared
 definition: Eight workforce planning tools compared on headcount plans, position control, budget scenarios, published prices and security claims checked at the source.
 primaryKeyword: workforce planning software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages, with five vendors left out for missing evidence.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 A finance lead approves 40 hires in the budget, and by the third quarter nobody can say how many of those jobs are filled, open or quietly changed into something more expensive. Workforce planning software exists to answer that question from one record. The eight products on this page each let a team build headcount plans, track positions that are approved, open or filled, and compare budget scenarios. We read each vendor's own pages, and each product page links to the sources.

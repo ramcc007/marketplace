@@ -2,11 +2,15 @@
 title: IT asset management software compared
 definition: Eight IT asset management tools compared on discovery, lifecycle tracking and license or contract tracking, with prices checked at the source.
 primaryKeyword: IT asset management software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages, four of them service desk suites that also qualify here.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 IT asset management software keeps a record of the hardware, software and contracts an organization owns, from purchase to retirement. The eight products on this page each meet three conditions we set for the category. They find assets without relying on manual entry, they follow an asset through its lifecycle, and they track licenses or contracts. We read each vendor's own pages, and every product page links to the pages we used.

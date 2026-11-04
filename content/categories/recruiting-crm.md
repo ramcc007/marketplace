@@ -2,11 +2,15 @@
 title: Recruiting CRM software compared
 definition: Nine recruiting CRMs compared on posted prices, talent pools, nurture campaigns, sourcing tools and the email and privacy rules that apply to outreach.
 primaryKeyword: recruiting CRM software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Nine products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 A recruiting CRM keeps a database of people who are not applying today but might be hired tomorrow. Where an applicant tracking system follows a candidate through one opening, a recruiting CRM follows the person across years, through every job, email and conversation. The nine products on this page each hold a searchable pool of candidates, send automated or bulk email to keep those people warm, and connect to outside sources such as LinkedIn, job boards or a browser extension. We read every price and claim on the vendor's own website, and each product page links to the pages we used. Prices are in US dollars, and several vendors change what they show by company size or country.

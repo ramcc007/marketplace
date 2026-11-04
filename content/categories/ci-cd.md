@@ -2,11 +2,15 @@
 title: CI/CD software compared
 definition: Nine CI/CD tools compared on prices checked at the source, minute and credit allowances, approvals, logs and supply chain exposure.
 primaryKeyword: CI/CD software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Nine products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 CI/CD software runs a team's automated builds and tests on every change, then moves the result through deployment pipelines to staging and production. The nine products on this page each run automated builds and tests, support deployment pipelines, and keep pipeline logs a developer can read. We checked every price on the vendor's own website, and each product page links to the pages we used.

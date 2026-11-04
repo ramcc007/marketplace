@@ -65,13 +65,22 @@ const weights = [
           for a more specific subcategory
         </li>
         <li>
-          At least {g.minCompleteProfiles} of those products with screenshots and prices checked in the last
-          {' '}{GATE.completeProfilePricingDays} days
+          At least {g.minCompleteProfiles} of those products with prices checked in the last
+          {' '}{GATE.completeProfilePricingDays} days{GATE.launch.requireScreenshots ? ', and screenshots' : ''}
         </li>
-        <li>
-          At least {g.minReviews} verified reviews across the category, or our own hands-on notes on {g.minHandsOnProducts} products
-        </li>
-        <li>At least {g.minEditorialWords} words of editorial copy, approved and signed off by a named editor</li>
+        {
+          GATE.launch.requireReviewsOrNotes ? (
+            <li>
+              At least {g.minReviews} verified reviews across the category, or our own hands-on notes on {g.minHandsOnProducts} products
+            </li>
+          ) : (
+            <li>
+              Reviews and screenshots are not required yet, because review collection has not opened. They will become a
+              requirement once they exist, and this list will change when they do.
+            </li>
+          )
+        }
+        <li>At least {g.minEditorialWords} words of editorial copy, with the inclusion criteria approved and the copy signed off by the site's editor</li>
         <li>Editorial copy that shares less than {g.maxSimilarity * 100}% of its phrasing with any other page on the site</li>
       </ul>
 

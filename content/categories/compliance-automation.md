@@ -2,11 +2,15 @@
 title: Compliance automation software compared
 definition: Eight compliance automation platforms compared on framework coverage, evidence collection, auditor access and how each one publishes its price.
 primaryKeyword: compliance automation software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 A sales lead at a software company hears the same sentence from a prospect's security team: send us your SOC 2 report. Compliance automation software exists for that moment. It maps your systems to a framework, collects the proof that controls are working, and gives an outside auditor a place to review that proof. The eight products on this page each ship framework templates such as SOC 2 and ISO 27001, collect evidence automatically, and give auditors a way into the work. We read each vendor's own pages, and each product page links to the sources.

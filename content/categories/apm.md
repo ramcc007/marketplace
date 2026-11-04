@@ -2,11 +2,15 @@
 title: Application performance monitoring tools compared
 definition: Ten APM tools compared on prices read from vendor pages, how each charges, tracing depth, alerting and the cost of sampling.
 primaryKeyword: application performance monitoring
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Ten products checked against vendor pages, with prices confirmed by a second fetch.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Application performance monitoring tools record how long requests take inside your own software and where the time goes. A slow checkout page, a database call that runs 200 times per request or a service that fails only under load all show up as traces and metrics before a customer writes in. The ten products on this page each trace requests across services, report performance metrics and send alerts. We read every price on the vendor's own website, and each product page links to the pages we used.

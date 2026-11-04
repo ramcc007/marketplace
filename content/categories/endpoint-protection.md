@@ -2,11 +2,15 @@
 title: Endpoint protection software compared
 definition: Eight endpoint protection products compared on published prices, malware detection, threat response and management consoles, checked at the vendor.
 primaryKeyword: endpoint protection software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages. Prices read twice.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 A company with 50 laptops needs three things from endpoint protection: a way to catch malware, a way to act when something gets through, and one place where an admin can see every device. Those are the three must-haves for this page. The eight products here each state all three on their own websites, and we read each vendor's pages. Prices are in US dollars and can differ by region, reseller and contract.

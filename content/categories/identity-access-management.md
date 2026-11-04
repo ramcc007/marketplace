@@ -2,11 +2,15 @@
 title: Identity and access management software compared
 definition: Eight identity and access management products compared on checked prices, SSO, SCIM deprovisioning behavior, access policies and licensing traps.
 primaryKeyword: identity and access management software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages and documentation.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Identity and access management software decides who can sign in to which applications, creates and removes their accounts, and applies rules to each sign-in. The eight products on this page each offer single sign-on, user provisioning and deprovisioning, and access policies. We read the prices and capability claims on each vendor's own pages, and every product page links to the sources we used.

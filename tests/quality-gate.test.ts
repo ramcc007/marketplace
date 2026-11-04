@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { evaluateCategory, evaluateDepartment, evaluateProduct, type CategoryGateInput } from '../src/lib/quality-gate';
+import { GATE, evaluateCategory, evaluateDepartment, evaluateProduct, type CategoryGateInput } from '../src/lib/quality-gate';
 
 const passing: CategoryGateInput = {
   level: 'L1',
@@ -31,9 +31,15 @@ describe('evaluateCategory', () => {
     expect(result.reasons).toContain('No editorial copy yet');
   });
 
-  it('accepts hands-on notes in place of reviews', () => {
-    expect(evaluateCategory({ ...passing, reviewCount: 0, handsOnProducts: 5 }).indexable).toBe(true);
-    expect(evaluateCategory({ ...passing, reviewCount: 24, handsOnProducts: 4 }).indexable).toBe(false);
+  it('accepts hands-on notes in place of reviews once reviews are required', () => {
+    const strict = { requireScreenshots: true, requireReviewsOrNotes: true };
+    expect(evaluateCategory({ ...passing, reviewCount: 0, handsOnProducts: 5 }, strict).indexable).toBe(true);
+    expect(evaluateCategory({ ...passing, reviewCount: 24, handsOnProducts: 4 }, strict).indexable).toBe(false);
+  });
+
+  it('does not ask for reviews or notes during the launch phase', () => {
+    expect(evaluateCategory({ ...passing, reviewCount: 0, handsOnProducts: 0 }).indexable).toBe(true);
+    expect(GATE.launch.requireReviewsOrNotes).toBe(false);
   });
 
   it('needs only 5 products for a subcategory', () => {

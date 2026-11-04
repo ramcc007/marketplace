@@ -2,11 +2,15 @@
 title: Employer of record services compared
 definition: Nine employer of record services compared on starting fees checked at the source, deposits, contract terms and the tax and classification risks they cover.
 primaryKeyword: employer of record
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Nine products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 A start-up signs a senior engineer in Portugal and a sales lead in Brazil, and neither country has a company of its own to hire through. An employer of record, usually shortened to EOR, solves that by putting the hire on the payroll of a local entity it already owns, while the customer directs the daily work. The nine services on this page each employ people in countries where the customer has no entity, issue local contracts with benefits, and run payroll with tax filings. We read every price on the vendor's own website, and each product page links to the pages we used.

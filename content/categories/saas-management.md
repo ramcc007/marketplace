@@ -2,11 +2,15 @@
 title: SaaS management software compared
 definition: Eight SaaS management platforms compared on app discovery, license usage tracking and renewal management, with pricing checked at the source.
 primaryKeyword: SaaS management software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 SaaS management software finds the cloud apps a company pays for or uses, shows how much of each license is in use, and tracks when each contract renews. The eight products on this page each do all three: app discovery, license usage tracking and renewal management. We read every claim and price on the vendor's own website, and each product page links to the pages we used. Everything below is what the vendors say about themselves, since we have not run these products ourselves.

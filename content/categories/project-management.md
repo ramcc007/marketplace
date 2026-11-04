@@ -2,11 +2,15 @@
 title: Project management software compared
 definition: Nine project management tools compared on fees checked at the source, free-plan limits, timeline gating, seat rules and single sign-on.
 primaryKeyword: project management software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Nine products checked against vendor pages.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Project management software gives a team one place to list tasks, move them across boards, schedule them on a timeline and discuss the work where it happens. The nine products on this page each offer task lists and boards, a timeline or Gantt view, and team collaboration on tasks. We read every price on the vendor's own website and confirmed it with a second, separate fetch. Each product page links to the pages we used. All figures are US dollars and can differ by country, tax and billing currency.

@@ -2,11 +2,15 @@
 title: Incident management and on-call software compared
 definition: Eight incident management tools compared on prices checked at the source, on-call, alert routing and postmortems.
 primaryKeyword: incident management software
-criteriaApproved: false
+criteriaApproved: true
+editor: B2BRated site owner
+signedOffAt: 2026-11-04
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Eight products checked against vendor pages. Prices read twice from the vendor's own site.
+  - date: 2026-11-04
+    note: Criteria approved and page opened for indexing by the site owner.
 ---
 
 Incident management software decides who gets paged when something breaks, escalates when that person does not answer, and keeps a record of what happened so the team can write the postmortem. The eight products on this page each provide on-call schedules with escalation, alert routing, and an incident timeline with postmortem support. We read every price on the vendor's own website, twice in separate fetches, and each product page links to the pages we used. Prices are in US dollars and some vendors vary them by region or contract.
