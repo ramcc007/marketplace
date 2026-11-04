@@ -13,9 +13,20 @@
         { "capability": "local contracts and benefits", "sourceUrl": "https://www.lano.io/global-employment" },
         { "capability": "payroll and tax compliance", "sourceUrl": "https://www.lano.io/global-employment" }
       ]
+    },
+    {
+      "category": "global-payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "payroll in multiple countries", "sourceUrl": "https://www.lano.io/" },
+        { "capability": "local compliance", "sourceUrl": "https://www.lano.io/" },
+        { "capability": "consolidated reporting", "sourceUrl": "https://www.lano.io/" }
+      ]
     }
   ],
   "facts": [
+    { "text": "Lano's home page says it covers compliance, accurate calculations and reporting across 170+ countries and can centralize data from multiple payroll providers and systems into one platform.", "sourceUrl": "https://www.lano.io/", "checkedAt": "2026-11-04" },
+    { "text": "Lano lists Multi-Country Payroll from 19 euros per employee per month and Payroll Consolidation from 3 euros per employee per month. No USD price is published.", "sourceUrl": "https://www.lano.io/pricing", "checkedAt": "2026-11-04" },
     { "text": "Lano states it is SOC 2 Type II certified, in a post dated May 10, 2024.", "sourceUrl": "https://www.lano.io/blog/lano-is-now-soc-2-type-ii-certified", "checkedAt": "2026-11-04" },
     { "text": "Lano's pricing is set by proposal based on team size, number of countries and services, and volume discounts exist without published amounts.", "sourceUrl": "https://lano.io/pricing", "checkedAt": "2026-11-04" },
     { "text": "Payments over SWIFT cost 25 euros per transaction, and local-network payments are free where available as part of an optional Integrated Payments add-on.", "sourceUrl": "https://lano.io/pricing", "checkedAt": "2026-11-04" }

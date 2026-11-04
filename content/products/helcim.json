@@ -1,0 +1,69 @@
+{
+  "name": "Helcim",
+  "status": "published",
+  "vendor": { "name": "Helcim Inc.", "website": "https://www.helcim.com" },
+  "primaryCategory": "payment-processing",
+  "summary": "Helcim is a merchant account and gateway that prices card payments as interchange plus a markup that falls as monthly volume rises, from 0.50% plus 25 cents for keyed and online payments below $50,000 a month. It lists no monthly, setup or cancellation fees, and deposits credit and debit sales the next business morning.",
+  "qualifies": [
+    {
+      "category": "payment-processing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "card and wallet payments", "sourceUrl": "https://devdocs.helcim.com/docs/available-payment-types-and-methods-through-helcimpayjs" },
+        { "capability": "payouts", "sourceUrl": "https://www.helcim.com/pricing/" },
+        { "capability": "fraud screening", "sourceUrl": "https://learn.helcim.com/docs/using-helcim-fraud-defender" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "HelcimPay.js supports credit cards, ACH payments in the United States and Google Pay.", "sourceUrl": "https://devdocs.helcim.com/docs/available-payment-types-and-methods-through-helcimpayjs", "checkedAt": "2026-11-04" },
+    { "text": "Fraud Defender scores each online, customer-initiated payment from 1.0 (high risk) to 10.0 (low risk) using seven factors, including CVV, address verification, IP location and card BIN country.", "sourceUrl": "https://learn.helcim.com/docs/using-helcim-fraud-defender", "checkedAt": "2026-11-04" },
+    { "text": "Auto-void settings can cancel payments that fail an address check or fall below a score threshold, and a voided transaction cannot be un-voided.", "sourceUrl": "https://learn.helcim.com/docs/using-helcim-fraud-defender", "checkedAt": "2026-11-04" },
+    { "text": "Helcim says it is a Level 1 PCI-DSS compliant service provider.", "sourceUrl": "https://www.helcim.com/security/", "checkedAt": "2026-11-04" },
+    { "text": "Credit and debit sales are deposited the next business morning, and a lost chargeback costs $15 while a won one costs nothing.", "sourceUrl": "https://www.helcim.com/pricing/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Up to $50K a month", "priceUsd": 0, "billing": "month", "unit": "per account", "volumeFee": { "percent": 0.5, "fixedUsd": 0.25, "basis": "markup over interchange on keyed and online cards" }, "notes": "In-person cards cost 0.40% plus 8 cents" },
+      { "name": "$50K to $100K a month", "priceUsd": 0, "billing": "month", "unit": "per account", "volumeFee": { "percent": 0.45, "fixedUsd": 0.2, "basis": "markup over interchange on keyed and online cards" }, "notes": "In-person cards cost 0.35% plus 7 cents" },
+      { "name": "$100K to $500K a month", "priceUsd": 0, "billing": "month", "unit": "per account", "volumeFee": { "percent": 0.35, "fixedUsd": 0.2, "basis": "markup over interchange on keyed and online cards" }, "notes": "In-person cards cost 0.25% plus 7 cents" },
+      { "name": "$500K to $1M a month", "priceUsd": 0, "billing": "month", "unit": "per account", "volumeFee": { "percent": 0.25, "fixedUsd": 0.15, "basis": "markup over interchange on keyed and online cards" }, "notes": "In-person cards cost 0.20% plus 6 cents" },
+      { "name": "$1M to $5M a month", "priceUsd": 0, "billing": "month", "unit": "per account", "volumeFee": { "percent": 0.15, "fixedUsd": 0.15, "basis": "markup over interchange on keyed and online cards" }, "notes": "In-person cards cost 0.15% plus 6 cents. Above $5M a month, contact sales" }
+    ],
+    "hiddenCosts": [
+      "Interchange and card scheme costs are passed through on top of the markup and change in April and October.",
+      "Recurring payments add 0.4% per transaction.",
+      "ACH and EFT-PAD payments cost 0.5% plus 25 cents, capped at $6, with 0.05% more on amounts over $25,000, and a rejected ACH payment costs $5.",
+      "A lost chargeback costs $15.",
+      "Refunds carry no added fee, but the original processing fees are not returned.",
+      "Card readers cost $199 and the Smart Terminal costs $349, or $32 a month for a year."
+    ],
+    "sourceUrl": "https://www.helcim.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.helcim.com/security/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The pricing page lists no cancellation fee and no contracts.",
+    "dataExport": "Card and customer data migration is free, per the pricing page.",
+    "sourceUrl": "https://www.helcim.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Google Pay"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

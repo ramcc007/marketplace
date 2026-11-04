@@ -1,0 +1,47 @@
+{
+  "name": "Braintree",
+  "status": "published",
+  "vendor": { "name": "PayPal, Inc. (Braintree)", "website": "https://www.braintreepayments.com" },
+  "primaryCategory": "payment-processing",
+  "summary": "Braintree is PayPal's payment gateway and merchant account for online businesses. It charges 2.89% plus 29 cents for cards and third-party wallets with no monthly fee listed, 3.49% plus 49 cents for Venmo, and 0.75% capped at $5 for standard ACH. One integration also takes PayPal payments.",
+  "qualifies": [
+    {
+      "category": "payment-processing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "card and wallet payments", "sourceUrl": "https://developer.paypal.com/braintree/articles/get-started/payment-methods" },
+        { "capability": "payouts", "sourceUrl": "https://developer.paypal.com/braintree/docs/reference/general/webhooks/disbursement/php" },
+        { "capability": "fraud screening", "sourceUrl": "https://developer.paypal.com/braintree/docs/guides/premium-fraud-management-tools/overview" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "US merchant accounts bundle Visa, Mastercard, Discover, UnionPay and JCB, and sometimes American Express.", "sourceUrl": "https://developer.paypal.com/braintree/articles/get-started/payment-methods", "checkedAt": "2026-11-04" },
+    { "text": "Apple Pay and Google Pay are open to most merchants in the US, Canada, Europe, Australia and APAC, with Google's approval needed for Google Pay, and Venmo is available to US merchants.", "sourceUrl": "https://developer.paypal.com/braintree/articles/get-started/payment-methods", "checkedAt": "2026-11-04" },
+    { "text": "Premium Fraud Management Tools run checks before a request goes to the customer's bank, and they work with all credit and debit cards plus Apple Pay and Google Pay.", "sourceUrl": "https://developer.paypal.com/braintree/docs/guides/premium-fraud-management-tools/overview", "checkedAt": "2026-11-04" },
+    { "text": "Braintree sends one disbursement notification per merchant account per day for Braintree-funded accounts, with the amount, date and the transactions in the payout.", "sourceUrl": "https://developer.paypal.com/braintree/docs/reference/general/webhooks/disbursement/php", "checkedAt": "2026-11-04" },
+    { "text": "Chargeback Protection costs from 0.4% per transaction and Effortless Chargeback Protection from 0.6%.", "sourceUrl": "https://www.paypal.com/us/enterprise/paypal-braintree-fees", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Cards and third-party wallets", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 2.89, "fixedUsd": 0.29, "basis": "standard US merchants" }, "notes": "No monthly fee is listed. Custom flat rates and interchange-plus pricing may be offered to established businesses" },
+      { "name": "Venmo", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 3.49, "fixedUsd": 0.49, "basis": "per Venmo transaction" } },
+      { "name": "ACH direct debit", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 0.75, "basis": "standard schedule, capped at $5.00 per transaction" }, "notes": "The same-day window costs 1.5% plus 10 cents" }
+    ],
+    "hiddenCosts": [
+      "An extra 1% applies to payments presented in a non-USD currency and to cards issued outside the US.",
+      "Each chargeback costs $15.00, and an ACH payment returned or disputed as unauthorized costs $5.00.",
+      "Pass-through American Express costs $0.15 per transaction.",
+      "Chargeback Protection tools start at 0.4% or 0.6% per transaction and are optional."
+    ],
+    "sourceUrl": "https://www.paypal.com/us/enterprise/paypal-braintree-fees",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["PayPal", "Venmo", "Apple Pay", "Google Pay"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

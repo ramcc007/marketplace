@@ -13,9 +13,20 @@
         { "capability": "local contracts and benefits", "sourceUrl": "https://www.deel.com/employer-of-record/" },
         { "capability": "payroll and tax compliance", "sourceUrl": "https://www.deel.com/employer-of-record/" }
       ]
+    },
+    {
+      "category": "global-payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "payroll in multiple countries", "sourceUrl": "https://www.deel.com/global-payroll/" },
+        { "capability": "local compliance", "sourceUrl": "https://www.deel.com/global-payroll/" },
+        { "capability": "consolidated reporting", "sourceUrl": "https://www.deel.com/global-payroll/" }
+      ]
     }
   ],
   "facts": [
+    { "text": "Deel's global payroll page says payroll runs in 150+ countries, applies local tax rules and statutory requirements, and tracks status, variances and gross-to-net calculations across all countries and worker types.", "sourceUrl": "https://www.deel.com/global-payroll/", "checkedAt": "2026-11-04" },
+    { "text": "Deel's pricing page lists no price for global payroll alone, only for contractors, EOR and US PEO, so the payroll cost comes from a demo quote.", "sourceUrl": "https://www.deel.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Deel's EOR page cites 150+ countries for hiring and 130+ countries for owned entities and its payroll engine.", "sourceUrl": "https://www.deel.com/employer-of-record/", "checkedAt": "2026-11-04" },
     { "text": "Deel says its team includes 200+ legal experts who cover employment regulations and tax laws by country.", "sourceUrl": "https://www.deel.com/employer-of-record/", "checkedAt": "2026-11-04" },
     { "text": "Deel's pricing page describes month-to-month pricing with no long-term commitment for EOR, and lists no deposit or termination fee.", "sourceUrl": "https://www.deel.com/pricing/", "checkedAt": "2026-11-04" },

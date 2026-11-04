@@ -13,9 +13,20 @@
         { "capability": "local contracts and benefits", "sourceUrl": "https://www.playroll.com/employer-of-record" },
         { "capability": "payroll and tax compliance", "sourceUrl": "https://www.playroll.com/employer-of-record" }
       ]
+    },
+    {
+      "category": "global-payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "payroll in multiple countries", "sourceUrl": "https://www.playroll.com/global-payroll" },
+        { "capability": "local compliance", "sourceUrl": "https://www.playroll.com/global-payroll" },
+        { "capability": "consolidated reporting", "sourceUrl": "https://www.playroll.com/global-payroll" }
+      ]
     }
   ],
   "facts": [
+    { "text": "Playroll's global payroll page says it runs payroll for your entities in 45+ countries from one platform, checks each run against local labour and tax laws, and consolidates data and reporting whether Playroll or your local vendors run payroll.", "sourceUrl": "https://www.playroll.com/global-payroll", "checkedAt": "2026-11-04" },
+    { "text": "Playroll lists Global Payroll Services from $9 per employee per month with minimums that are not stated, and Payroll Analytics from $2.07 per employee per month plus $21 to $200 per pay group.", "sourceUrl": "https://www.playroll.com/pricing/payroll-software", "checkedAt": "2026-11-04" },
     { "text": "Playroll says it employs people in 180+ countries and supports 60+ currencies.", "sourceUrl": "https://www.playroll.com/employer-of-record", "checkedAt": "2026-11-04" },
     { "text": "Playroll says each contract is vetted by its in-house legal experts and that it has 120+ legal and tax specialists.", "sourceUrl": "https://www.playroll.com/employer-of-record", "checkedAt": "2026-11-04" },
     { "text": "Statutory employment costs and government charges are billed separately from the monthly fee.", "sourceUrl": "https://www.playroll.com/pricing", "checkedAt": "2026-11-04" },

@@ -13,9 +13,20 @@
         { "capability": "local contracts and benefits", "sourceUrl": "https://remote.com/employer-of-record" },
         { "capability": "payroll and tax compliance", "sourceUrl": "https://remote.com/employer-of-record" }
       ]
+    },
+    {
+      "category": "global-payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "payroll in multiple countries", "sourceUrl": "https://remote.com/global-payroll" },
+        { "capability": "local compliance", "sourceUrl": "https://remote.com/global-payroll" },
+        { "capability": "consolidated reporting", "sourceUrl": "https://remote.com/global-payroll" }
+      ]
     }
   ],
   "facts": [
+    { "text": "Remote's global payroll page says it pays employees in 100+ countries in local currency, automates statutory deductions and remittances in-country, and offers reports by country, entity and cost center.", "sourceUrl": "https://remote.com/global-payroll", "checkedAt": "2026-11-04" },
+    { "text": "Remote lists global payroll for employees in countries where you own the entity from $29 per employee per month, with no base fee and no setup or onboarding fees. The page does not state a contract term.", "sourceUrl": "https://remote.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "Remote says it is an employer of record in 90+ countries with 100+ entities that it owns and operates.", "sourceUrl": "https://remote.com/employer-of-record", "checkedAt": "2026-11-04" },
     { "text": "Remote states that onboarding averages 3 days and that payroll accuracy is 99% across every run.", "sourceUrl": "https://remote.com/employer-of-record", "checkedAt": "2026-11-04" },
     { "text": "Remote charges no standard deposit, but it may ask for a refundable reserve in some cases and says the amount is disclosed before payment.", "sourceUrl": "https://remote.com/pricing", "checkedAt": "2026-11-04" },

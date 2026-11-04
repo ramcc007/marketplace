@@ -1,0 +1,44 @@
+{
+  "name": "Checkout.com",
+  "status": "published",
+  "vendor": { "name": "Checkout.com", "website": "https://www.checkout.com" },
+  "primaryCategory": "payment-processing",
+  "summary": "Checkout.com is an enterprise payment processor that accepts cards, Apple Pay and Google Pay through its API and Flow interface. It publishes no rates and prices by business profile and risk category on interchange++ terms, with risk and fraud tools included and free processing for registered charities. Fraud Detection is switched on through an account manager.",
+  "qualifies": [
+    {
+      "category": "payment-processing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "card and wallet payments", "sourceUrl": "https://www.checkout.com/docs/payments/add-payment-methods/apple-pay" },
+        { "capability": "card and wallet payments", "sourceUrl": "https://www.checkout.com/docs/payments/add-payment-methods/google-pay" },
+        { "capability": "payouts", "sourceUrl": "https://www.checkout.com/docs/funds-management/retrieve-financial-reports/settlement-reports/payouts-report" },
+        { "capability": "fraud screening", "sourceUrl": "https://www.checkout.com/docs/business-operations/prevent-fraud" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Apple Pay is available through Flow, the Payment Setup API and other integrations, and processing it through an entity outside the EEA or UK requires contacting the account manager.", "sourceUrl": "https://www.checkout.com/docs/payments/add-payment-methods/apple-pay", "checkedAt": "2026-11-04" },
+    { "text": "Google Pay is available for Flow, and in the UAE and Saudi Arabia the account manager must enable it.", "sourceUrl": "https://www.checkout.com/docs/payments/add-payment-methods/google-pay", "checkedAt": "2026-11-04" },
+    { "text": "Fraud Detection lets a merchant build pre-authentication and post-authentication risk strategies, rules, lists and tests in the Dashboard, and Fraud Detection Pro adds more complex strategies.", "sourceUrl": "https://www.checkout.com/docs/business-operations/prevent-fraud", "checkedAt": "2026-11-04" },
+    { "text": "The Payouts Report shows each settlement payout with its fees, can be generated daily, weekly or monthly, and is used to reconcile payouts with bank statements.", "sourceUrl": "https://www.checkout.com/docs/funds-management/retrieve-financial-reports/settlement-reports/payouts-report", "checkedAt": "2026-11-04" },
+    { "text": "Checkout.com says it provides free payment processing for registered charities in the countries where it operates.", "sourceUrl": "https://www.checkout.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Priced on business profile and risk category with interchange++ card fees. The pricing page states no figures" }
+    ],
+    "hiddenCosts": [
+      "No rates are published, so the real cost can only be learned from a sales quote.",
+      "Fraud Detection must be enabled by the account manager or support, and Fraud Detection Pro is an upgrade whose price is not published."
+    ],
+    "sourceUrl": "https://www.checkout.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Apple Pay", "Google Pay"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

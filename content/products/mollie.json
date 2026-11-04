@@ -1,0 +1,58 @@
+{
+  "name": "Mollie",
+  "status": "published",
+  "vendor": { "name": "Mollie B.V.", "website": "https://www.mollie.com" },
+  "primaryCategory": "payment-processing",
+  "summary": "Mollie is a European payment service provider for cards, Apple Pay, Google Pay, PayPal and local methods. Its pricing page shows euro fees, from 1.80% plus 0.25 euro for EEA consumer Visa and Mastercard cards, and it lists no monthly fee for online payments. Basic fraud screening is included, and payouts default to weekly on Wednesdays.",
+  "qualifies": [
+    {
+      "category": "payment-processing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "card and wallet payments", "sourceUrl": "https://docs.mollie.com/docs/payment-methods" },
+        { "capability": "payouts", "sourceUrl": "https://docs.mollie.com/docs/payouts" },
+        { "capability": "fraud screening", "sourceUrl": "https://www.mollie.com/products/fraud-acceptance-risk" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Mollie lists cards under Cards and Apple Pay, Google Pay and PayPal under Wallets in its payment methods documentation.", "sourceUrl": "https://docs.mollie.com/docs/payment-methods", "checkedAt": "2026-11-04" },
+    { "text": "Payout options are every day (Mollie Business Account), every business day, weekly, monthly, Revenue Day Payouts or manual, with a default of weekly on Wednesdays.", "sourceUrl": "https://docs.mollie.com/docs/payouts", "checkedAt": "2026-11-04" },
+    { "text": "Payouts below a minimum of 5 euros by default are skipped and roll over to the next scheduled payout.", "sourceUrl": "https://docs.mollie.com/docs/payouts", "checkedAt": "2026-11-04" },
+    { "text": "Mollie provides basic fraud screening for every transaction at no extra cost with a standard account, and Acceptance & Risk is a paid upgrade with advanced fraud detection tools and customizable block lists.", "sourceUrl": "https://www.mollie.com/products/fraud-acceptance-risk", "checkedAt": "2026-11-04" },
+    { "text": "Payouts are available in 12 currencies including USD, and payments in other currencies are converted to the primary currency before payout.", "sourceUrl": "https://www.mollie.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "EEA consumer Visa and Mastercard", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 1.8, "basis": "plus 0.25 euro per transaction; listed in euros, not converted" } },
+      { "name": "EEA commercial Visa and Mastercard", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 2.9, "basis": "plus 0.25 euro per transaction; listed in euros, not converted" } },
+      { "name": "Non-EEA Visa and Mastercard", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 3.25, "basis": "plus 0.25 euro per transaction; listed in euros, not converted" } },
+      { "name": "American Express", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 2.9, "basis": "plus 0.25 euro per transaction; listed in euros, not converted" } }
+    ],
+    "hiddenCosts": [
+      "Prices are shown in euros and depend on the merchant's location.",
+      "Below 500,000 euros processed per year, payouts after the fifth in a month cost 0.25 euro each.",
+      "A payout in a currency other than the primary balance currency costs 1% of the amount.",
+      "A chargeback fee is not listed on the pricing page.",
+      "Acceptance & Risk, the premium fraud upgrade, has no published price."
+    ],
+    "sourceUrl": "https://www.mollie.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.mollie.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Apple Pay", "Google Pay", "PayPal"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

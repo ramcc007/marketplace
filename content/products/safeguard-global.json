@@ -1,0 +1,58 @@
+{
+  "name": "Safeguard Global",
+  "status": "published",
+  "vendor": { "name": "Safeguard Global", "website": "https://www.safeguardglobal.com" },
+  "primaryCategory": "global-payroll",
+  "summary": "Safeguard Global's Global Pay service covers payroll in 170+ countries, with local experts for compliance and standardized reports for every country and pay run. It publishes no price, and the page sends buyers to a contact form.",
+  "qualifies": [
+    {
+      "category": "global-payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "payroll in multiple countries", "sourceUrl": "https://www.safeguardglobal.com/solutions/global-pay/" },
+        { "capability": "local compliance", "sourceUrl": "https://www.safeguardglobal.com/solutions/global-pay/" },
+        { "capability": "consolidated reporting", "sourceUrl": "https://www.safeguardglobal.com/solutions/global-pay/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Global Pay page title says employees can be paid in 170+ countries, while another line on the same page offers to view all 187 countries.", "sourceUrl": "https://www.safeguardglobal.com/solutions/global-pay/", "checkedAt": "2026-11-04" },
+    { "text": "A section headed local experts, full compliance says the team handles compliance, filings and reports across almost any country.", "sourceUrl": "https://www.safeguardglobal.com/solutions/global-pay/", "checkedAt": "2026-11-04" },
+    { "text": "A section headed consolidated reporting promises standardized payroll outputs and reports for every country and every pay run.", "sourceUrl": "https://www.safeguardglobal.com/solutions/global-pay/", "checkedAt": "2026-11-04" },
+    { "text": "The page names no security certification, no integration partners and no contract terms.", "sourceUrl": "https://www.safeguardglobal.com/solutions/global-pay/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [
+      "No price is published. The page asks buyers to contact the company.",
+      "Contract length, setup fees and per-country charges are not stated on the page."
+    ],
+    "sourceUrl": "https://www.safeguardglobal.com/solutions/global-pay/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.safeguardglobal.com/solutions/global-pay/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.safeguardglobal.com/solutions/global-pay/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "PayPal Checkout and Card Payments",
+  "status": "published",
+  "vendor": { "name": "PayPal, Inc.", "website": "https://www.paypal.com/us/business" },
+  "primaryCategory": "payment-processing",
+  "summary": "PayPal takes payments by PayPal Checkout, standard cards and advanced card processing. Checkout costs 3.49% plus 49 cents, standard cards 2.99% plus 49 cents, and advanced cards 2.89% plus 29 cents. Interchange-plus-plus pricing adds 0.49% and 39 cents to pass-through costs. Merchants can move a balance to a bank account, and send batch payouts through a separate product.",
+  "qualifies": [
+    {
+      "category": "payment-processing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "card and wallet payments", "sourceUrl": "https://www.paypal.com/us/webapps/mpp/merchant-fees" },
+        { "capability": "payouts", "sourceUrl": "https://developer.paypal.com/docs/payouts/" },
+        { "capability": "fraud screening", "sourceUrl": "https://developer.paypal.com/expanded/fraud-protection" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "PayPal Fraud Protection approves legitimate card transactions and declines fraudulent ones using a machine learning engine, and it offers filters, a simulation of filter impact and dashboards.", "sourceUrl": "https://developer.paypal.com/expanded/fraud-protection", "checkedAt": "2026-11-04" },
+    { "text": "Fraud Protection is for merchants who have integrated advanced credit and debit card payments, and it is switched on in the PayPal App Center with no extra onboarding.", "sourceUrl": "https://developer.paypal.com/expanded/fraud-protection", "checkedAt": "2026-11-04" },
+    { "text": "PayPal Payouts sends batch payments to email addresses, phone numbers or PayPal IDs, across 20+ currencies and 96 countries or regions.", "sourceUrl": "https://developer.paypal.com/docs/payouts/", "checkedAt": "2026-11-04" },
+    { "text": "Withdrawing a PayPal balance to a bank account instantly costs 1.50% of the amount, with a $0.50 minimum.", "sourceUrl": "https://www.paypal.com/us/webapps/mpp/merchant-fees", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "PayPal Checkout", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 3.49, "fixedUsd": 0.49, "basis": "commercial transactions received in USD" } },
+      { "name": "Standard cards", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 2.99, "fixedUsd": 0.49, "basis": "standard credit and debit card payments" } },
+      { "name": "Advanced cards", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 2.89, "fixedUsd": 0.29, "basis": "advanced credit and debit card payments" } },
+      { "name": "Interchange plus plus", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 0.49, "fixedUsd": 0.39, "basis": "on top of interchange and scheme costs passed through" } }
+    ],
+    "hiddenCosts": [
+      "Receiving an international commercial transaction adds 1.50%, except on interchange-plus-plus advanced card payments.",
+      "Each chargeback costs $20.00.",
+      "Instant withdrawal to a bank costs 1.50% of the amount, with a $0.50 minimum.",
+      "The rates are for US-market accounts and differ by country."
+    ],
+    "sourceUrl": "https://www.paypal.com/us/webapps/mpp/merchant-fees",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["PayPal"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

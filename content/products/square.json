@@ -1,0 +1,48 @@
+{
+  "name": "Square Payments",
+  "status": "published",
+  "vendor": { "name": "Block, Inc.", "website": "https://squareup.com" },
+  "primaryCategory": "payment-processing",
+  "summary": "Square Payments processes cards, digital wallets and ACH bank transfers for in-person and online sales with no fee until a payment is taken. Card-in-person rates run from 2.4% to 2.6% plus 15 cents depending on the Square plan, and online API payments cost 2.9% plus 30 cents. Funds go to a bank account in batches, and sellers can pay for an instant deposit.",
+  "qualifies": [
+    {
+      "category": "payment-processing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "card and wallet payments", "sourceUrl": "https://developer.squareup.com/docs/web-payments/overview" },
+        { "capability": "payouts", "sourceUrl": "https://developer.squareup.com/docs/payouts-api/overview" },
+        { "capability": "fraud screening", "sourceUrl": "https://squareup.com/help/us/en/article/7623-risk-manager-3d-secure-3ds" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Web Payments SDK takes credit cards, gift cards, digital wallets (including Apple Pay and Google Pay), ACH bank transfers, Afterpay and Cash App Pay.", "sourceUrl": "https://developer.squareup.com/docs/web-payments/overview", "checkedAt": "2026-11-04" },
+    { "text": "Risk Manager lets a seller create rules, blocks and alerts, including a rule that requires 3D Secure for payments that meet chosen conditions.", "sourceUrl": "https://squareup.com/help/us/en/article/7623-risk-manager-3d-secure-3ds", "checkedAt": "2026-11-04" },
+    { "text": "Instant Deposit moves funds to a linked bank account or debit card within seconds for a service fee, in the US, UK, Canada and Australia.", "sourceUrl": "https://developer.squareup.com/docs/payouts-api/overview", "checkedAt": "2026-11-04" },
+    { "text": "For US sellers the payout cutoff is 5 PM Pacific on each business day, so the dashboard balance for a day can differ from the funds in the bank account.", "sourceUrl": "https://developer.squareup.com/docs/payouts-api/overview", "checkedAt": "2026-11-04" },
+    { "text": "Manually entered cards and cards on file cost 3.5% plus 15 cents on every plan, and Afterpay costs 6% plus 30 cents.", "sourceUrl": "https://squareup.com/us/en/payments/our-fees", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "In-person card payments", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 2.4, "fixedUsd": 0.15, "basis": "tap, dip or swipe; the rate is 2.4%, 2.5% or 2.6% depending on the Square plan" } },
+      { "name": "Online card payments and invoices", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 2.9, "fixedUsd": 0.3, "basis": "online or invoice; the rate is 2.9% or 3.3% depending on the Square plan" } },
+      { "name": "Online API card payments", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 2.9, "fixedUsd": 0.3, "basis": "payments in your own app or website through the API, the same on every plan" } },
+      { "name": "ACH bank transfer", "priceUsd": null, "billing": "month", "unit": "per transaction", "volumeFee": { "percent": 1, "basis": "$1 minimum; $10 cap on invoices for the paid plans and $5 cap through the API" } }
+    ],
+    "hiddenCosts": [
+      "Manually entered cards and cards on file cost 3.5% plus 15 cents on every plan.",
+      "Afterpay costs 6% plus 30 cents.",
+      "Square's Plus and Premium plans change the processing rates, and the monthly price of those plans was not on the fees page we checked.",
+      "Instant Deposit carries a service fee that the pages we checked do not state."
+    ],
+    "sourceUrl": "https://squareup.com/us/en/payments/our-fees",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": ["Apple Pay", "Google Pay", "Cash App Pay", "Afterpay"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

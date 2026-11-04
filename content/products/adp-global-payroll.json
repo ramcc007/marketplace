@@ -1,0 +1,58 @@
+{
+  "name": "ADP Global Payroll",
+  "status": "published",
+  "vendor": { "name": "ADP", "website": "https://www.adp.com" },
+  "primaryCategory": "global-payroll",
+  "summary": "ADP Global Payroll runs payroll for companies with their own entities in 140+ countries and territories. It publishes no price, so cost comes from a quote requested through the vendor's pricing and demo forms.",
+  "qualifies": [
+    {
+      "category": "global-payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "payroll in multiple countries", "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-global-payroll.aspx" },
+        { "capability": "local compliance", "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-global-payroll.aspx" },
+        { "capability": "consolidated reporting", "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-global-payroll.aspx" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "ADP's product page says the service scales from 1 employee to hundreds of thousands in 140+ countries and territories.", "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-global-payroll.aspx", "checkedAt": "2026-11-04" },
+    { "text": "The page cites deep local regulatory and compliance expertise, and global security and compliance programs backed by 300+ security specialists.", "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-global-payroll.aspx", "checkedAt": "2026-11-04" },
+    { "text": "ADP says customers can access consolidated, real-time payroll data across countries.", "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-global-payroll.aspx", "checkedAt": "2026-11-04" },
+    { "text": "The page names no SOC or ISO certification and no specific integration partners, only a general statement about connecting to popular software, ERPs and HR systems.", "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-global-payroll.aspx", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [
+      "No price is published. The page offers a Get Pricing link and a demo request only.",
+      "Contract length, setup fees and per-country charges are not stated on the page."
+    ],
+    "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-global-payroll.aspx",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-global-payroll.aspx",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.adp.com/what-we-offer/products/adp-global-payroll.aspx",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

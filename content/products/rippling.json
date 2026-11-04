@@ -6,6 +6,15 @@
   "summary": "Rippling sells HR, payroll and IT as separate products on one employee record. Its pricing page says plans start at $8 per employee per month plus a monthly base fee whose amount is not shown, and the total comes from a custom quote based on the products chosen.",
   "qualifies": [
     {
+      "category": "workforce-planning",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "headcount plans", "sourceUrl": "https://www.rippling.com/headcount-planning" },
+        { "capability": "position management", "sourceUrl": "https://www.rippling.com/headcount-planning" },
+        { "capability": "budget scenarios", "sourceUrl": "https://www.rippling.com/blog/headcount-planning-software-rfp-template" }
+      ]
+    },
+    {
       "category": "hris",
       "checkedAt": "2026-11-04",
       "evidence": [
@@ -13,9 +22,20 @@
         { "capability": "time-off tracking", "sourceUrl": "https://www.rippling.com/hris" },
         { "capability": "hr reports", "sourceUrl": "https://www.rippling.com/hris" }
       ]
+    },
+    {
+      "category": "global-payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "payroll in multiple countries", "sourceUrl": "https://www.rippling.com/global-payroll" },
+        { "capability": "local compliance", "sourceUrl": "https://www.rippling.com/global-payroll" },
+        { "capability": "consolidated reporting", "sourceUrl": "https://www.rippling.com/global-payroll" }
+      ]
     }
   ],
   "facts": [
+    { "text": "Rippling's global payroll page says employees and contractors worldwide are paid in a single system in local currency, that payroll taxes are calculated and filed worldwide, and that employee data across the world can be reported on in one place. It gives no country count.", "sourceUrl": "https://www.rippling.com/global-payroll", "checkedAt": "2026-11-04" },
+    { "text": "Neither the global payroll page nor the pricing page lists a global payroll price, only the general figure of $8 per employee per month plus an unstated base fee.", "sourceUrl": "https://www.rippling.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The HRIS page describes custom PTO policies, request approval and real-time balances, and a report builder for reports and dashboards.", "sourceUrl": "https://www.rippling.com/hris", "checkedAt": "2026-11-04" },
     { "text": "The HRIS page cites more than 650 integrations, including Slack, Microsoft Teams, Zoom and Salesforce.", "sourceUrl": "https://www.rippling.com/hris", "checkedAt": "2026-11-04" },
     { "text": "A startup program gives eligible US VC-backed startups free access for 6 months, depending on funding status and stage.", "sourceUrl": "https://www.rippling.com/pricing", "checkedAt": "2026-11-04" }

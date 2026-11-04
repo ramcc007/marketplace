@@ -1,0 +1,58 @@
+{
+  "name": "CloudPay",
+  "status": "published",
+  "vendor": { "name": "CloudPay", "website": "https://www.cloudpay.com" },
+  "primaryCategory": "global-payroll",
+  "summary": "CloudPay sells managed global payroll for companies paying staff in anywhere from five countries to 50, with in-country legislation experts and one interface for pay data from every country. It publishes no price, and the page points to a contact form.",
+  "qualifies": [
+    {
+      "category": "global-payroll",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "payroll in multiple countries", "sourceUrl": "https://www.cloudpay.com/solutions/payroll/" },
+        { "capability": "local compliance", "sourceUrl": "https://www.cloudpay.com/solutions/payroll/" },
+        { "capability": "consolidated reporting", "sourceUrl": "https://www.cloudpay.com/solutions/payroll/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "CloudPay's payroll page says its solutions suit companies whether they manage employee pay in five countries or 50, and gives no exact country count in readable text.", "sourceUrl": "https://www.cloudpay.com/solutions/payroll/", "checkedAt": "2026-11-04" },
+    { "text": "The page describes end-to-end compliance with in-country legislation experts.", "sourceUrl": "https://www.cloudpay.com/solutions/payroll/", "checkedAt": "2026-11-04" },
+    { "text": "A Local Payroll Information capability consolidates all global pay data into a single interface, with real-time reporting through customizable dashboards.", "sourceUrl": "https://www.cloudpay.com/solutions/payroll/", "checkedAt": "2026-11-04" },
+    { "text": "The page names four HCM partners: Workday, Oracle, HiBob and SAP SuccessFactors, and says the only contract is with CloudPay.", "sourceUrl": "https://www.cloudpay.com/solutions/payroll/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [
+      "No price is published. The page offers Talk to us and Contact us links only.",
+      "Contract length, setup fees and per-country charges are not stated on the page."
+    ],
+    "sourceUrl": "https://www.cloudpay.com/solutions/payroll/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.cloudpay.com/solutions/payroll/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The page says your only contract is with CloudPay. It states no length or termination terms.",
+    "dataExport": null,
+    "sourceUrl": "https://www.cloudpay.com/solutions/payroll/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Workday", "Oracle", "HiBob", "SAP SuccessFactors"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Adyen",
+  "status": "published",
+  "vendor": { "name": "Adyen N.V.", "website": "https://www.adyen.com" },
+  "primaryCategory": "payment-processing",
+  "summary": "Adyen processes cards, wallets and local payment methods on one platform. Pricing is a fixed $0.13 per transaction plus a fee set by payment method, such as interchange plus scheme fees plus 0.60% for Visa and Mastercard. It lists no monthly, setup, integration or closure fees, though a minimum invoice can apply depending on industry.",
+  "qualifies": [
+    {
+      "category": "payment-processing",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "card and wallet payments", "sourceUrl": "https://www.adyen.com/pricing" },
+        { "capability": "payouts", "sourceUrl": "https://docs.adyen.com/account/getting-paid/" },
+        { "capability": "fraud screening", "sourceUrl": "https://docs.adyen.com/risk-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page lists Visa, Mastercard, American Express, Apple Pay, Google Pay, Cash App Pay, ACH Direct Debit, Klarna, Affirm and other methods, each with its own fee.", "sourceUrl": "https://www.adyen.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Adyen's risk engine screens every payment and decides to block, allow or review it, and it is enabled by default.", "sourceUrl": "https://docs.adyen.com/risk-management/", "checkedAt": "2026-11-04" },
+    { "text": "After a payable batch closes, a payout can take one to two business days to be initiated, and the bank may need up to three more business days to post the funds.", "sourceUrl": "https://docs.adyen.com/account/getting-paid/", "checkedAt": "2026-11-04" },
+    { "text": "Payouts equal sales minus transaction costs, refunds, chargebacks and other adjustments.", "sourceUrl": "https://docs.adyen.com/account/getting-paid/", "checkedAt": "2026-11-04" },
+    { "text": "American Express in North America costs $0.13 + 3.3% + $0.10, and ACH Direct Debit costs $0.13 + $0.27.", "sourceUrl": "https://www.adyen.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Visa and Mastercard", "priceUsd": null, "billing": "quote", "unit": "per transaction", "volumeFee": { "percent": 0.6, "fixedUsd": 0.13, "basis": "on top of interchange and scheme fees, which Adyen passes through at cost" }, "notes": "Indicative list pricing; custom pricing is available through sales" },
+      { "name": "ACH Direct Debit", "priceUsd": null, "billing": "quote", "unit": "per transaction", "volumeFee": { "percent": 0, "fixedUsd": 0.4, "basis": "$0.13 processing fee plus $0.27 method fee" } }
+    ],
+    "hiddenCosts": [
+      "Adyen applies a minimum invoice depending on industry or business model, and the amount is not published.",
+      "Chargeback, refund and risk fees are not listed on the pricing page.",
+      "Interchange varies by card, so the all-in cost of a Visa or Mastercard payment cannot be read from the list price alone."
+    ],
+    "sourceUrl": "https://www.adyen.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": "The pricing FAQ says there are no monthly fees, set-up fees, integration fees or closure fees.",
+    "dataExport": null,
+    "sourceUrl": "https://www.adyen.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Apple Pay", "Google Pay", "PayPal", "Klarna", "Affirm"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
