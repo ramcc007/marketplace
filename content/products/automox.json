@@ -1,0 +1,63 @@
+{
+  "name": "Automox",
+  "status": "published",
+  "vendor": { "name": "Automox", "website": "https://www.automox.com" },
+  "primaryCategory": "patch-management",
+  "summary": "Automox is a cloud patching service for Windows, macOS and Linux. Its Patch OS plan costs $1 per endpoint per month on an annual commitment, or buyers can pay monthly with no commitment at a higher rate. Automate Essentials and Automate Enterprise are quoted by sales.",
+  "qualifies": [
+    {
+      "category": "patch-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "os and third-party patching", "sourceUrl": "https://www.automox.com/platform/patching" },
+        { "capability": "patch scheduling", "sourceUrl": "https://www.automox.com/" },
+        { "capability": "compliance reports", "sourceUrl": "https://www.automox.com/platform/reporting" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "One policy, one schedule and one set of rollout rings apply across Windows, macOS and Linux, and the example policy runs the day after Patch Tuesday.", "sourceUrl": "https://www.automox.com/", "checkedAt": "2026-11-04" },
+    { "text": "Automox's own pages give third-party catalog sizes of 580+ and 630+ titles, so the exact count is unclear.", "sourceUrl": "https://www.automox.com/platform/patching", "checkedAt": "2026-11-04" },
+    { "text": "Policy Results reports show whether recent patches were deployed, and the FAQ says compliance status updates in real time.", "sourceUrl": "https://www.automox.com/platform/reporting", "checkedAt": "2026-11-04" },
+    { "text": "Annual billing saves 25% against paying monthly, and the page does not state the length of the free trial.", "sourceUrl": "https://www.automox.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Patch OS", "priceUsd": 1, "billing": "month", "unit": "per endpoint", "notes": "Annual commitment. OS patching for Windows, macOS and Linux. Monthly pay as you go is also offered, and annual plans save 25%" },
+      { "name": "Automate Essentials", "priceUsd": null, "billing": "quote", "unit": "per quote", "notes": "Custom pricing with volume discounts" },
+      { "name": "Automate Enterprise", "priceUsd": null, "billing": "quote", "unit": "per quote", "notes": "Custom pricing with volume discounts" }
+    ],
+    "hiddenCosts": [
+      "Endpoints added mid-term are billed at the same annualized rate, prorated for the rest of the term.",
+      "Automox Resolve is an add-on module with no published price.",
+      "Volume discounts start at 200 or more device licenses or multi-year contracts, and purchase orders go through sales."
+    ],
+    "sourceUrl": "https://www.automox.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.automox.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": false,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.automox.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

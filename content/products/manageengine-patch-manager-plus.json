@@ -1,0 +1,45 @@
+{
+  "name": "ManageEngine Patch Manager Plus",
+  "status": "published",
+  "vendor": { "name": "ManageEngine (Zoho Corporation)", "website": "https://www.manageengine.com" },
+  "primaryCategory": "patch-management",
+  "summary": "Patch Manager Plus covers Windows, macOS, Linux and more than 1,100 third-party applications. It is priced by computer count, server count and technician, with cloud and on-premises editions. Professional cloud costs $345 a year for 50 computers, and a 30-day trial needs no credit card.",
+  "qualifies": [
+    {
+      "category": "patch-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "os and third-party patching", "sourceUrl": "https://www.manageengine.com/patch-management/" },
+        { "capability": "patch scheduling", "sourceUrl": "https://www.manageengine.com/patch-management/patch-compliance.html" },
+        { "capability": "compliance reports", "sourceUrl": "https://www.manageengine.com/patch-management/patch-compliance.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The product page names Windows, macOS, Linux and 1100+ third-party applications.", "sourceUrl": "https://www.manageengine.com/patch-management/", "checkedAt": "2026-11-04" },
+    { "text": "ManageEngine describes deploying patches to non-compliant systems in controlled waves during maintenance windows.", "sourceUrl": "https://www.manageengine.com/patch-management/patch-compliance.html", "checkedAt": "2026-11-04" },
+    { "text": "Vulnerable Systems, Vulnerable Patches and System Health reports can be scheduled and emailed to stakeholders.", "sourceUrl": "https://www.manageengine.com/patch-management/patch-compliance.html", "checkedAt": "2026-11-04" },
+    { "text": "Cloud service is sold on subscription only, while on-premises licenses come as annual or perpetual.", "sourceUrl": "https://www.manageengine.com/patch-management/pricing.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Professional cloud, 50 computers (annual)", "priceUsd": 345, "billing": "year", "unit": "per 50 computers", "notes": "Includes one technician. Monthly billing is $34.50. 100 computers cost $595 a year" },
+      { "name": "Enterprise cloud, 50 computers (annual)", "priceUsd": 445, "billing": "year", "unit": "per 50 computers", "notes": "Includes one technician. 100 computers cost $845 a year" },
+      { "name": "Professional cloud, 10 servers (annual)", "priceUsd": 145, "billing": "year", "unit": "per 10 servers", "notes": "Servers are priced separately from computers" }
+    ],
+    "hiddenCosts": [
+      "Servers are licensed separately from computers.",
+      "Each technician beyond the first costs extra, starting at $195 a year for one on cloud.",
+      "The pricing page lists no free edition, so the 30-day trial is the only no-cost route."
+    ],
+    "sourceUrl": "https://www.manageengine.com/patch-management/pricing.html",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

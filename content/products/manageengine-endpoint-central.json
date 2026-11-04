@@ -1,0 +1,46 @@
+{
+  "name": "ManageEngine Endpoint Central",
+  "status": "published",
+  "vendor": { "name": "ManageEngine (Zoho Corporation)", "website": "https://www.manageengine.com" },
+  "primaryCategory": "patch-management",
+  "summary": "Endpoint Central bundles patching with device management for Windows, Mac, Linux and third-party applications. Professional starts at $1.32 per endpoint per month, or $795 a year for 50 endpoints. A free edition covers up to 25 endpoints, and the 30-day trial runs the full feature set.",
+  "qualifies": [
+    {
+      "category": "patch-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "os and third-party patching", "sourceUrl": "https://www.manageengine.com/products/desktop-central/patch-management.html" },
+        { "capability": "patch scheduling", "sourceUrl": "https://www.manageengine.com/products/desktop-central/patch-management.html" },
+        { "capability": "compliance reports", "sourceUrl": "https://www.manageengine.com/products/desktop-central/patch-management-reports.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The patch page claims testing and deployment of patches for over 1000 third-party applications.", "sourceUrl": "https://www.manageengine.com/products/desktop-central/patch-management.html", "checkedAt": "2026-11-04" },
+    { "text": "Deployment policies set days, weeks, install windows and reboot behavior, and offline computers can be woken on LAN.", "sourceUrl": "https://www.manageengine.com/products/desktop-central/patch-management.html", "checkedAt": "2026-11-04" },
+    { "text": "Missing Patches and System Health reports export as PDF or CSV.", "sourceUrl": "https://www.manageengine.com/products/desktop-central/patch-management-reports.html", "checkedAt": "2026-11-04" },
+    { "text": "Driver and BIOS patching appears from the Enterprise edition, and vulnerability remediation from the Security edition.", "sourceUrl": "https://www.manageengine.com/products/desktop-central/pricing.html", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "up to 25 endpoints", "notes": "No time limit" },
+      { "name": "Professional", "priceUsd": 795, "billing": "year", "unit": "per 50 endpoints", "notes": "From $1.32 per endpoint per month. Automated patching including third-party apps" },
+      { "name": "Enterprise", "priceUsd": 945, "billing": "year", "unit": "per 50 endpoints", "notes": "From $1.57 per endpoint per month. Adds driver and BIOS patching" },
+      { "name": "UEM", "priceUsd": 1095, "billing": "year", "unit": "per 50 endpoints", "notes": "From $1.82 per endpoint per month" },
+      { "name": "Security", "priceUsd": 1695, "billing": "year", "unit": "per 50 endpoints", "notes": "From $2.82 per endpoint per month. Adds vulnerability remediation" }
+    ],
+    "hiddenCosts": [
+      "The cards show starting prices for the smallest tier, and the page does not label them as cloud or on-premises.",
+      "Driver and BIOS patching needs Enterprise or higher."
+    ],
+    "sourceUrl": "https://www.manageengine.com/products/desktop-central/pricing.html",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

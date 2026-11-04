@@ -1,0 +1,57 @@
+{
+  "name": "CloudEagle",
+  "status": "published",
+  "vendor": { "name": "CloudEagle.ai", "website": "https://www.cloudeagle.ai" },
+  "primaryCategory": "saas-management",
+  "summary": "CloudEagle builds its app inventory from integrations across SSO, finance, HRIS, browser, firewall and contract data. It tracks active versus assigned users per license and extracts renewal dates from contracts, with alerts at 30, 60 and 90 days. No price is published, and a free trial link has no stated terms.",
+  "qualifies": [
+    {
+      "category": "saas-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "app discovery", "sourceUrl": "https://www.cloudeagle.ai/discover" },
+        { "capability": "license usage tracking", "sourceUrl": "https://www.cloudeagle.ai/saas-management/license-management" },
+        { "capability": "renewal management", "sourceUrl": "https://www.cloudeagle.ai/saas-management/contract-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "CloudEagle says it builds its inventory through 500+ direct integrations across SSO, finance, HRIS, browser, firewall and contract data.", "sourceUrl": "https://www.cloudeagle.ai/discover", "checkedAt": "2026-11-04" },
+    { "text": "CloudEagle says it shows active versus assigned users and last login per license, with nightly syncs.", "sourceUrl": "https://www.cloudeagle.ai/saas-management/license-management", "checkedAt": "2026-11-04" },
+    { "text": "CloudEagle says AI pulls renewal dates, notice terms and opt-out clauses from contracts. Its page describes alerts both as starting 90 days early and as going out at 30, 60 and 90 days, so confirm the schedule with the vendor.", "sourceUrl": "https://www.cloudeagle.ai/saas-management/contract-management", "checkedAt": "2026-11-04" },
+    { "text": "CloudEagle's security page describes what the product helps customers meet and does not state CloudEagle's own certifications in text.", "sourceUrl": "https://www.cloudeagle.ai/product/saas-security-and-compliance", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "SaaS Management", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price published. The pricing page offers a demo and a specialist call, and links a free trial without stating its terms." }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.cloudeagle.ai/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.cloudeagle.ai/product/saas-security-and-compliance",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.cloudeagle.ai/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

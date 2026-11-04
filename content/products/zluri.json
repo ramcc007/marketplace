@@ -1,0 +1,57 @@
+{
+  "name": "Zluri",
+  "status": "published",
+  "vendor": { "name": "Zluri", "website": "https://www.zluri.com" },
+  "primaryCategory": "saas-management",
+  "summary": "Zluri is a SaaS management platform that builds its app inventory from single sign-on, device management, CASB and direct API connections. It monitors activity to find unused licenses and sends renewal alerts from a contract record. Prices are quoted after a demo.",
+  "qualifies": [
+    {
+      "category": "saas-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "app discovery", "sourceUrl": "https://www.zluri.com/solutions/monitor-shadow-it" },
+        { "capability": "license usage tracking", "sourceUrl": "https://www.zluri.com/saas-management" },
+        { "capability": "renewal management", "sourceUrl": "https://www.zluri.com/saas-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Zluri says its discovery engine pulls from SSO systems, mobile device management tools, CASBs and local devices, and that it reveals apps outside SSO coverage.", "sourceUrl": "https://www.zluri.com/solutions/monitor-shadow-it", "checkedAt": "2026-11-04" },
+    { "text": "Zluri cites 300+ direct API integrations and a catalog of 239K+ apps.", "sourceUrl": "https://www.zluri.com/saas-management", "checkedAt": "2026-11-04" },
+    { "text": "Zluri says it can auto-reclaim or downgrade licenses based on usage thresholds and sends software renewal alerts.", "sourceUrl": "https://www.zluri.com/saas-management", "checkedAt": "2026-11-04" },
+    { "text": "Zluri's FAQ states compliance with GDPR, NIST, SOC 2 Type II, PCI-DSS, ISO/IEC 27001 and ISO 27701.", "sourceUrl": "https://www.zluri.com/security", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "SaaS Management Platform", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price published. The only call to action is a demo request." }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.zluri.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.zluri.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.zluri.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

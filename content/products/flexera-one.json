@@ -1,0 +1,57 @@
+{
+  "name": "Flexera One SaaS Management",
+  "status": "published",
+  "vendor": { "name": "Flexera", "website": "https://www.flexera.com" },
+  "primaryCategory": "saas-management",
+  "summary": "Flexera One SaaS Management finds apps from financial data, API connectors, a browser extension, SSO and CASB connections and the Flexera agent. It reports usage for managed and unmanaged apps and shows upcoming renewal dates next to actual use. No price is published, and the page offers a demo.",
+  "qualifies": [
+    {
+      "category": "saas-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "app discovery", "sourceUrl": "https://www.flexera.com/products/flexera-one/saas-management" },
+        { "capability": "license usage tracking", "sourceUrl": "https://www.flexera.com/products/flexera-one/saas-management" },
+        { "capability": "renewal management", "sourceUrl": "https://www.flexera.com/products/flexera-one/saas-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Flexera lists financial data, API connectors including a Universal Connector, a browser extension, SSO and CASB connections and the Flexera agent as discovery sources.", "sourceUrl": "https://www.flexera.com/products/flexera-one/saas-management", "checkedAt": "2026-11-04" },
+    { "text": "Flexera says usage insights cover managed and unmanaged apps, and combine online and installed usage for hybrid apps such as Microsoft 365 and Adobe Creative Cloud.", "sourceUrl": "https://www.flexera.com/products/flexera-one/saas-management", "checkedAt": "2026-11-04" },
+    { "text": "Flexera shows upcoming contract renewal dates alongside usage. The page does not mention renewal alerts.", "sourceUrl": "https://www.flexera.com/products/flexera-one/saas-management", "checkedAt": "2026-11-04" },
+    { "text": "Flexera's FAQ says SaaS Management data is stored in Microsoft Azure, with some services on AWS, and encrypted in transit.", "sourceUrl": "https://www.flexera.com/products/flexera-one/saas-management", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Flexera One SaaS Management", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price is listed. The page offers a personalized demo and a phone number." }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.flexera.com/products/flexera-one/saas-management",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": null,
+    "iso27001": null,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.flexera.com/products/flexera-one/saas-management",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.flexera.com/products/flexera-one/saas-management",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["SAP Concur", "Coupa", "Microsoft 365", "Adobe Creative Cloud"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Josys",
+  "status": "published",
+  "vendor": { "name": "Josys", "website": "https://www.josys.com" },
+  "primaryCategory": "saas-management",
+  "summary": "Josys builds a SaaS inventory from login data, browser activity and integrations, and connects to apps to track licenses and usage. Its renewal alerts are described on a vendor article rather than a product page. Pricing depends on the number of identities governed, with a 14-day trial of the full platform.",
+  "qualifies": [
+    {
+      "category": "saas-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "app discovery", "sourceUrl": "https://www.josys.com/saas-management" },
+        { "capability": "license usage tracking", "sourceUrl": "https://www.josys.com/saas-management" },
+        { "capability": "renewal management", "sourceUrl": "https://www.josys.com/article/how-to-manage-saas-contract-renewals-with-automation" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Josys says its inventory comes from login data, browser activity and integrations, and that unauthorized apps can be flagged for approval.", "sourceUrl": "https://www.josys.com/saas-management", "checkedAt": "2026-11-04" },
+    { "text": "Josys says it connects directly to 300+ SaaS apps to track licenses, usage and expenses, and offers a License Optimization Dashboard.", "sourceUrl": "https://www.josys.com/saas-management", "checkedAt": "2026-11-04" },
+    { "text": "A Josys article lists automated alerts and workflows so teams do not miss a renewal date.", "sourceUrl": "https://www.josys.com/article/how-to-manage-saas-contract-renewals-with-automation", "checkedAt": "2026-11-04" },
+    { "text": "Josys's pricing page offers a 14-day free trial of the full platform with no credit card required.", "sourceUrl": "https://www.josys.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": 14,
+    "plans": [
+      { "name": "Platform", "priceUsd": null, "billing": "quote", "unit": "per identity governed", "notes": "No price published. The page says price depends on the number of identities and governance needs." }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.josys.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.josys.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.josys.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "BetterCloud",
+  "status": "published",
+  "vendor": { "name": "BetterCloud", "website": "https://www.bettercloud.com" },
+  "primaryCategory": "saas-management",
+  "summary": "BetterCloud discovers sanctioned and unsanctioned apps through SSO, a browser extension and ERP data. It finds underused licenses through direct integrations and sets renewal reminders at 30, 60 or 90 days. Spend Optimization Basic is listed at $0 a month, and other modules are quoted.",
+  "qualifies": [
+    {
+      "category": "saas-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "app discovery", "sourceUrl": "https://www.bettercloud.com/use-case/shadow-it/" },
+        { "capability": "license usage tracking", "sourceUrl": "https://www.bettercloud.com/platform/spend-optimization/" },
+        { "capability": "renewal management", "sourceUrl": "https://www.bettercloud.com/platform/spend-optimization/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "BetterCloud says it discovers sanctioned and unsanctioned SaaS apps via SSO, a browser extension and ERP data.", "sourceUrl": "https://www.bettercloud.com/use-case/shadow-it/", "checkedAt": "2026-11-04" },
+    { "text": "BetterCloud lists direct integrations with Zoom, Salesforce and Microsoft 365 for feature-level usage insights.", "sourceUrl": "https://www.bettercloud.com/platform/spend-optimization/", "checkedAt": "2026-11-04" },
+    { "text": "BetterCloud offers custom 30, 60 and 90 day key date alerts for renewals.", "sourceUrl": "https://www.bettercloud.com/platform/spend-optimization/", "checkedAt": "2026-11-04" },
+    { "text": "BetterCloud says it holds a SOC 2 Type II attestation and ISO/IEC 27001:2022 certification, and offers a pre-signed data processing addendum for GDPR.", "sourceUrl": "https://www.bettercloud.com/security-and-compliance/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Spend Optimization Basic", "priceUsd": 0, "billing": "month", "unit": "per account" },
+      { "name": "Spend Optimization (full module)", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "The page says price reflects license count, connected apps, chosen modules and add-ons." },
+      { "name": "User Automation", "priceUsd": null, "billing": "quote", "unit": "per account" }
+    ],
+    "hiddenCosts": [
+      "Add-ons such as Data Loss Prevention are priced separately, per the pricing page."
+    ],
+    "sourceUrl": "https://www.bettercloud.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": true,
+    "gdpr": null,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.bettercloud.com/security-and-compliance/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.bettercloud.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Google Workspace", "Microsoft 365", "Okta", "Zoom", "Salesforce"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

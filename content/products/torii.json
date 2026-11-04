@@ -1,0 +1,57 @@
+{
+  "name": "Torii",
+  "status": "published",
+  "vendor": { "name": "Torii", "website": "https://www.toriihq.com" },
+  "primaryCategory": "saas-management",
+  "summary": "Torii is a SaaS management platform that finds apps through several sources at once, including single sign-on, finance data, direct integrations and a browser extension. It tracks license use against assignments and builds a renewal view from contract data. Pricing is not published and starts from a demo request.",
+  "qualifies": [
+    {
+      "category": "saas-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "app discovery", "sourceUrl": "https://www.toriihq.com/solutions/saas-visibility" },
+        { "capability": "license usage tracking", "sourceUrl": "https://www.toriihq.com/solutions/license-optimization" },
+        { "capability": "renewal management", "sourceUrl": "https://www.toriihq.com/solutions/contract-and-renewal-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Torii says discovery runs continuously and draws on identity provider and SSO data, finance and expense data, direct integrations and a browser extension.", "sourceUrl": "https://www.toriihq.com/solutions/saas-visibility", "checkedAt": "2026-11-04" },
+    { "text": "Torii says it flags inactive, duplicate and abandoned seats and can reclaim them through policies, and that it keeps a ledger of every license assignment and change.", "sourceUrl": "https://www.toriihq.com/solutions/license-optimization", "checkedAt": "2026-11-04" },
+    { "text": "Torii lists auto-alerts for renewals and auto-renew clauses, plus a shared renewal calendar.", "sourceUrl": "https://www.toriihq.com/solutions/contract-and-renewal-management", "checkedAt": "2026-11-04" },
+    { "text": "Torii's pricing page names three offerings, IGA, SMP (app discovery, savings and renewals) and AI Management, and shows no prices.", "sourceUrl": "https://www.toriihq.com/pricing", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "SMP (app discovery, savings and renewals)", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "No price published. The page sends buyers to a demo request." }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.toriihq.com/pricing",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://www.toriihq.com/security",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://www.toriihq.com/pricing",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Microsoft 365", "Okta", "Slack", "Google Workspace", "Salesforce", "Workday HCM", "Microsoft Entra ID", "AWS IAM"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

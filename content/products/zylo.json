@@ -1,0 +1,59 @@
+{
+  "name": "Zylo",
+  "status": "published",
+  "vendor": { "name": "Zylo", "website": "https://zylo.com" },
+  "primaryCategory": "saas-management",
+  "summary": "Zylo finds software by reading financial systems such as ERP, accounts payable and expense records, then matches purchases to apps. It compares purchased licenses with usage data and keeps a renewal calendar ranked by savings potential. Plans are Core, Premium and Enterprise, all priced by quote.",
+  "qualifies": [
+    {
+      "category": "saas-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "app discovery", "sourceUrl": "https://zylo.com/product" },
+        { "capability": "license usage tracking", "sourceUrl": "https://zylo.com/solutions/license-waste" },
+        { "capability": "renewal management", "sourceUrl": "https://zylo.com/solutions/renewal-savings" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Zylo says its AI scans ERP, accounts payable and expense systems to find software purchases and match them to applications.", "sourceUrl": "https://zylo.com/product", "checkedAt": "2026-11-04" },
+    { "text": "Zylo says it gets usage data through integrations with supported SaaS apps to flag inactive users and underused seats.", "sourceUrl": "https://zylo.com/solutions/license-waste", "checkedAt": "2026-11-04" },
+    { "text": "Zylo describes a centralized renewal calendar that can be ranked by spend and recommends starting renewal preparation about 120 days ahead. The page does not mention renewal alerts.", "sourceUrl": "https://zylo.com/solutions/renewal-savings", "checkedAt": "2026-11-04" },
+    { "text": "Zylo's trust center lists SOC 2 Type 2 and GDPR. It does not list ISO 27001.", "sourceUrl": "https://trust.zylo.com/", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Zylo Core", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "For teams building a SaaS system of record. No price published." },
+      { "name": "Zylo Premium", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Adds task automation and workflow connections. No price published." },
+      { "name": "Zylo Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "For large global teams with multiple instances. No price published." }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://zylo.com/pricing/",
+    "verifiedAt": "2026-11-04"
+  },
+  "security": {
+    "soc2": true,
+    "iso27001": null,
+    "gdpr": true,
+    "hipaa": null,
+    "ssoPlan": null,
+    "sourceUrl": "https://trust.zylo.com/",
+    "checkedAt": "2026-11-04"
+  },
+  "contract": {
+    "annualOnly": null,
+    "minSeats": null,
+    "autoRenew": null,
+    "cancellation": null,
+    "dataExport": null,
+    "sourceUrl": "https://zylo.com/pricing/",
+    "checkedAt": "2026-11-04"
+  },
+  "integrations": ["Anthropic", "OpenAI", "Salesforce", "Workday", "Microsoft Entra", "Okta", "Snowflake", "Databricks"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}

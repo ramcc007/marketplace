@@ -1,0 +1,38 @@
+{
+  "name": "ConnectWise Automate",
+  "status": "published",
+  "vendor": { "name": "ConnectWise", "website": "https://www.connectwise.com" },
+  "primaryCategory": "patch-management",
+  "summary": "ConnectWise Automate is sold to managed service providers and publishes no prices, only Request Pricing links. Its patch page promises deployment windows by day, time, site or device, third-party application patching, and a compliance dashboard. A trial is available on request.",
+  "qualifies": [
+    {
+      "category": "patch-management",
+      "checkedAt": "2026-11-04",
+      "evidence": [
+        { "capability": "os and third-party patching", "sourceUrl": "https://www.connectwise.com/platform/unified-management/automate/patch-management" },
+        { "capability": "patch scheduling", "sourceUrl": "https://www.connectwise.com/platform/unified-management/automate/patch-management" },
+        { "capability": "compliance reports", "sourceUrl": "https://www.connectwise.com/platform/unified-management/automate/patch-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The page says patch deployment windows can be set by day, time, site or device, and missed updates are retried.", "sourceUrl": "https://www.connectwise.com/platform/unified-management/automate/patch-management", "checkedAt": "2026-11-04" },
+    { "text": "The page names Adobe Acrobat Reader, Dropbox, Slack and Zoom as examples of third-party applications it patches.", "sourceUrl": "https://www.connectwise.com/platform/unified-management/automate/patch-management", "checkedAt": "2026-11-04" },
+    { "text": "The dashboard tracks patch compliance status, device patch history and patching schedules, and the FAQ mentions per-device OS patch compliance scores.", "sourceUrl": "https://www.connectwise.com/platform/unified-management/automate/patch-management", "checkedAt": "2026-11-04" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Quote", "priceUsd": null, "billing": "quote", "unit": "per quote", "notes": "No prices published; the page offers Request Pricing and a Request Trial button" }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://www.connectwise.com/platform/unified-management/automate/patch-management",
+    "verifiedAt": "2026-11-04"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-04"
+}
