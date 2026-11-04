@@ -6,10 +6,10 @@ criteriaApproved: false
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
-    note: First draft. Eight products checked against vendor pages on November 4, 2026.
+    note: First draft. Eight products checked against vendor pages.
 ---
 
-IT service management software gives a company one place to record what employees ask of IT and what breaks. Each product here handles incident and request tickets, an IT service catalog, and SLA tracking. We checked every price on the vendor's own website on November 4, 2026, and each product page links to the pages we used. Prices below are list prices in US dollars unless a vendor showed another currency, and several vendors set what you see by country.
+IT service management software gives a company one place to record what employees ask of IT and what breaks. Each product here handles incident and request tickets, an IT service catalog, and SLA tracking. We checked every price on the vendor's own website, and each product page links to the pages we used. Prices below are list prices in US dollars unless a vendor showed another currency, and several vendors set what you see by country.
 
 ## What the three required features mean
 

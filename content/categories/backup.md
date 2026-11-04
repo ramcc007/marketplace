@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages and help documentation.
 ---
 
-A small office with twenty laptops and one file server loses a drive on a Monday morning. The person who set up the backups needs to know when the last good copy ran and whether a file can come back as it looked last Thursday. The eight products on this page each run backups on a schedule, keep restore points, and encrypt the data. We read the vendor's own pricing, help and product pages on November 4, 2026, and each product page links to the pages we used.
+A small office with twenty laptops and one file server loses a drive on a Monday morning. The person who set up the backups needs to know when the last good copy ran and whether a file can come back as it looked last Thursday. The eight products on this page each run backups on a schedule, keep restore points, and encrypt the data. We read the vendor's own pricing, help and product pages, and each product page links to the pages we used.
 
 ## What backup software has to do
 

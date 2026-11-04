@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages.
 ---
 
-SaaS management software finds the cloud apps a company pays for or uses, shows how much of each license is in use, and tracks when each contract renews. The eight products on this page each do all three: app discovery, license usage tracking and renewal management. We read every claim and price on the vendor's own website on November 4, 2026, and each product page links to the pages we used. Everything below is what the vendors say about themselves, since we have not run these products ourselves.
+SaaS management software finds the cloud apps a company pays for or uses, shows how much of each license is in use, and tracks when each contract renews. The eight products on this page each do all three: app discovery, license usage tracking and renewal management. We read every claim and price on the vendor's own website, and each product page links to the pages we used. Everything below is what the vendors say about themselves, since we have not run these products ourselves.
 
 ## What the three required capabilities mean
 

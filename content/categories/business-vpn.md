@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Five products checked against vendor pages.
 ---
 
-A finance team needs its accounting vendor to see requests from one fixed address, and a dozen contractors need access to a few internal tools without sharing a password. Both problems point to a business VPN: a service that encrypts remote access, lets an administrator control who gets in, and can give the company an IP address that outside services can recognize. The five products on this page meet all three of those tests, and we checked every price and claim on the vendor's own website on November 4, 2026.
+A finance team needs its accounting vendor to see requests from one fixed address, and a dozen contractors need access to a few internal tools without sharing a password. Both problems point to a business VPN: a service that encrypts remote access, lets an administrator control who gets in, and can give the company an IP address that outside services can recognize. The five products on this page meet all three of those tests, and we checked every price and claim on the vendor's own website.
 
 ## What the three tests mean
 

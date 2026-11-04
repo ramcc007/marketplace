@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages and primary legal sources.
 ---
 
-Employment background check software orders criminal and employment history reports on job candidates, collects the candidate's permission, and returns results to the hiring team. The eight products on this page each run criminal and employment checks, have a way for candidates to give consent, and connect to at least one applicant tracking system. We read every price and claim on the vendor's own website on November 4, 2026, and each product page links to the pages we used.
+Employment background check software orders criminal and employment history reports on job candidates, collects the candidate's permission, and returns results to the hiring team. The eight products on this page each run criminal and employment checks, have a way for candidates to give consent, and connect to at least one applicant tracking system. We read every price and claim on the vendor's own website, and each product page links to the pages we used.
 
 Only three of the eight publish a full price list in US dollars. The other five sell by quote or, in one case, list prices in Canadian dollars. That gap is the first thing to know when you build a shortlist.
 

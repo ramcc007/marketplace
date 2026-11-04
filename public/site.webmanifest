@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "B2BRated",
   "short_name": "B2BRated",
-  "description": "Business software compared with dated prices and a public ranking method.",
+  "description": "Business software compared with sourced prices and a public ranking method.",
   "start_url": "/",
   "display": "browser",
   "background_color": "#ffffff",
@@ -12,3 +12,4 @@
     { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
   ]
 }
+

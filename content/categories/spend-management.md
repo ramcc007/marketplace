@@ -6,10 +6,10 @@ criteriaApproved: false
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
-    note: First draft. Nine products checked against vendor pages, with prices verified twice on November 4, 2026.
+    note: First draft. Nine products checked against vendor pages, with prices verified twice.
 ---
 
-A finance lead at a 60-person company often meets spend management after a familiar problem. Three teams share one corporate card, a software subscription renews unnoticed, and the approval for a large purchase sits in a chat thread. Spend management software tries to move control to the moment before the money leaves. The nine products on this page each issue company or virtual cards, route purchases to an approver, and show spending by team or department. We read each capability on the vendor's own website on November 4, 2026, and every product page links to the pages we used.
+A finance lead at a 60-person company often meets spend management after a familiar problem. Three teams share one corporate card, a software subscription renews unnoticed, and the approval for a large purchase sits in a chat thread. Spend management software tries to move control to the moment before the money leaves. The nine products on this page each issue company or virtual cards, route purchases to an approver, and show spending by team or department. We read each capability on the vendor's own website, and every product page links to the pages we used.
 
 ## What spend management software covers
 

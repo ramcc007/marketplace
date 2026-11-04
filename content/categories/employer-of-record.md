@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Nine products checked against vendor pages.
 ---
 
-A start-up signs a senior engineer in Portugal and a sales lead in Brazil, and neither country has a company of its own to hire through. An employer of record, usually shortened to EOR, solves that by putting the hire on the payroll of a local entity it already owns, while the customer directs the daily work. The nine services on this page each employ people in countries where the customer has no entity, issue local contracts with benefits, and run payroll with tax filings. We read every price on the vendor's own website on November 4, 2026, and each product page links to the pages we used.
+A start-up signs a senior engineer in Portugal and a sales lead in Brazil, and neither country has a company of its own to hire through. An employer of record, usually shortened to EOR, solves that by putting the hire on the payroll of a local entity it already owns, while the customer directs the daily work. The nine services on this page each employ people in countries where the customer has no entity, issue local contracts with benefits, and run payroll with tax filings. We read every price on the vendor's own website, and each product page links to the pages we used.
 
 ## What an employer of record does
 

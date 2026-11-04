@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages.
 ---
 
-A sales lead at a software company hears the same sentence from a prospect's security team: send us your SOC 2 report. Compliance automation software exists for that moment. It maps your systems to a framework, collects the proof that controls are working, and gives an outside auditor a place to review that proof. The eight products on this page each ship framework templates such as SOC 2 and ISO 27001, collect evidence automatically, and give auditors a way into the work. We read each vendor's own pages on November 4, 2026, and each product page links to the sources.
+A sales lead at a software company hears the same sentence from a prospect's security team: send us your SOC 2 report. Compliance automation software exists for that moment. It maps your systems to a framework, collects the proof that controls are working, and gives an outside auditor a place to review that proof. The eight products on this page each ship framework templates such as SOC 2 and ISO 27001, collect evidence automatically, and give auditors a way into the work. We read each vendor's own pages, and each product page links to the sources.
 
 ## What the software does and does not do
 

@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages. Stripe Payments left out because its US pricing page could not be read.
 ---
 
-Payment processing software lets a business accept card and wallet payments, receive the money in a bank account and screen out fraudulent orders. The eight products on this page each meet all three of those tests, and we checked every fee on the vendor's own website on November 4, 2026. Prices here are US figures in dollars unless a row says otherwise, and several vendors change their rates by country.
+Payment processing software lets a business accept card and wallet payments, receive the money in a bank account and screen out fraudulent orders. The eight products on this page each meet all three of those tests, and we checked every fee on the vendor's own website. Prices here are US figures in dollars unless a row says otherwise, and several vendors change their rates by country.
 
 ## What counts as a payment processor here
 

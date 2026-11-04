@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Seven products checked against vendor pages and documentation.
 ---
 
-Email security software sits between the internet and a mailbox. It scans inbound messages for phishing links, malicious attachments and forged senders, then delivers, tags or holds each message. The seven products on this page each filter phishing and malware, protect named people or domains from impersonation, and give administrators a quarantine to review. We read each vendor's own product pages and documentation on November 4, 2026, and every product page links to the sources we used.
+Email security software sits between the internet and a mailbox. It scans inbound messages for phishing links, malicious attachments and forged senders, then delivers, tags or holds each message. The seven products on this page each filter phishing and malware, protect named people or domains from impersonation, and give administrators a quarantine to review. We read each vendor's own product pages and documentation, and every product page links to the sources we used.
 
 Two limits shape this page. Most vendors in this category publish no prices, so we can compare how each one sells but not what each one costs. We also did not test detection rates. The catch-rate percentages that vendors quote are their own claims, and we repeat one only when we label it that way.
 

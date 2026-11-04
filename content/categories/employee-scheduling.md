@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages, and three government sources read for the regulatory section.
 ---
 
-A restaurant manager with 22 hourly staff who builds next week's rota in a spreadsheet will usually hit the same problems: people text in availability, two cooks ask to swap Saturday, and the finished schedule goes out as a photo. Employee scheduling software replaces that loop with a shared schedule that staff see on their phones. The eight products on this page each let a manager build a shift schedule, take staff availability into account, let employees swap or cover shifts, and give staff mobile access. We read every price and capability on the vendor's own website on November 4, 2026, and each product page links to the pages we used.
+A restaurant manager with 22 hourly staff who builds next week's rota in a spreadsheet will usually hit the same problems: people text in availability, two cooks ask to swap Saturday, and the finished schedule goes out as a photo. Employee scheduling software replaces that loop with a shared schedule that staff see on their phones. The eight products on this page each let a manager build a shift schedule, take staff availability into account, let employees swap or cover shifts, and give staff mobile access. We read every price and capability on the vendor's own website, and each product page links to the pages we used.
 
 ## What is employee scheduling software
 
@@ -41,7 +41,7 @@ That matters when you leave a product. [When I Work](/products/when-i-work) says
 
 ## What the plans cost for 15 people
 
-Prices vary by billing choice and by how a product counts users, so we priced one reference team: an admin and 14 staff, 15 users in total, on one location. The figures use list prices from each pricing page on November 4, 2026.
+Prices vary by billing choice and by how a product counts users, so we priced one reference team: an admin and 14 staff, 15 users in total, on one location. The figures use list prices from each pricing page.
 
 Sling Premium costs $25.50 a month on annual billing ($1.70 times 15) and Business costs $51 ($3.40 times 15). On monthly billing those become $30 and $60. When I Work costs $37.50 on Essentials, $75 on Pro and $120 on Premium, but its pricing page does not say whether those are monthly or annual rates. Deputy costs $75 on Lite, $97.50 on Core and $135 on Pro, though its monthly plans carry a $30 minimum monthly spend per invoice. Humanity Essentials costs $41.25 a month ($2.75 times 15), billed annually.
 

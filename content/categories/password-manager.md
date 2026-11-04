@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Ten products checked against vendor pages.
 ---
 
-A team that keeps shared logins in a spreadsheet, a chat thread or one person's browser has no record of who can see which account. The ten products on this page each store logins in an encrypted vault, let people share them by team or group, and give an admin a set of policies and an activity report. We checked every price on the vendor's own website on November 3, 2026, and each product page links to the pages we used.
+A team that keeps shared logins in a spreadsheet, a chat thread or one person's browser has no record of who can see which account. The ten products on this page each store logins in an encrypted vault, let people share them by team or group, and give an admin a set of policies and an activity report. We checked every price on the vendor's own website, and each product page links to the pages we used.
 
 ## What security guidance says
 

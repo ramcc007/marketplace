@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages, with CISA and NIST guidance for context.
 ---
 
-Multi-factor authentication software asks a user for a second proof of identity after the password, and it lets an administrator decide who must use which method and when. The eight products on this page each support second-factor methods such as app push or hardware keys, apply risk-based rules to decide when to ask, and give administrators control over enrollment. We read every price and capability on the vendor's own website on November 4, 2026, and each product page links to the pages we used. Figures are in US dollars as shown to US visitors, and prices can differ by country.
+Multi-factor authentication software asks a user for a second proof of identity after the password, and it lets an administrator decide who must use which method and when. The eight products on this page each support second-factor methods such as app push or hardware keys, apply risk-based rules to decide when to ask, and give administrators control over enrollment. We read every price and capability on the vendor's own website, and each product page links to the pages we used. Figures are in US dollars as shown to US visitors, and prices can differ by country.
 
 ## What a product must do to be listed
 

@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Ten products checked against vendor pages, with prices confirmed by a second fetch.
 ---
 
-Application performance monitoring tools record how long requests take inside your own software and where the time goes. A slow checkout page, a database call that runs 200 times per request or a service that fails only under load all show up as traces and metrics before a customer writes in. The ten products on this page each trace requests across services, report performance metrics and send alerts. We read every price on the vendor's own website on November 4, 2026, and each product page links to the pages we used.
+Application performance monitoring tools record how long requests take inside your own software and where the time goes. A slow checkout page, a database call that runs 200 times per request or a service that fails only under load all show up as traces and metrics before a customer writes in. The ten products on this page each trace requests across services, report performance metrics and send alerts. We read every price on the vendor's own website, and each product page links to the pages we used.
 
 ## What a product needs to be listed
 

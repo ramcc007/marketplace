@@ -10,7 +10,7 @@ import { getSiteIndex } from '../../lib/site-index';
 import { priceSummary } from '../../lib/catalog';
 import { GATE } from '../../lib/quality-gate';
 import { breadcrumbList, itemList } from '../../lib/schema';
-import { formatDate, formatUsd } from '../../lib/dates';
+import { formatUsd } from '../../lib/dates';
 
 export function getStaticPaths() {
   return categories.map((c) => ({ params: { slug: c.slug } }));
@@ -28,17 +28,12 @@ const site = Astro.site ?? new URL(Astro.url.origin);
 const title = editorial?.data.title ?? categoryTitle(category);
 const description =
   editorial?.data.definition ??
-  `${title} compared: what a product needs to be listed, which products qualify, and prices with the date we checked them.`;
+  `${title} compared: what a product needs to be listed, which products qualify, and where their prices come from.`;
 const Editorial = editorial ? (await render(editorial)).Content : null;
 const minProducts = category.level === 'L2' ? GATE.subcategory.minQualifyingProducts : GATE.category.minQualifyingProducts;
 const prices = priceSummary(products);
 const paying = products.filter((p) => p.data.paidRelationship);
 const lastUpdate = editorial?.data.updateLog.at(-1);
-
-// Newest and oldest price check, so the header can say how fresh the data is.
-const checkedDates = products.map((p) => p.data.pricing.verifiedAt).sort();
-const oldestCheck = checkedDates[0];
-const newestCheck = checkedDates.at(-1);
 
 // Where to send someone who landed on a category with nothing in it yet.
 const populatedRelated = [...index.categories.values()]
@@ -78,16 +73,6 @@ const toc = [
           <dt class="text-slate-500">Products checked</dt>
           <dd class="text-base font-semibold text-slate-900">{products.length}</dd>
         </div>
-        {
-          newestCheck && (
-            <div>
-              <dt class="text-slate-500">Prices checked</dt>
-              <dd class="text-base font-semibold text-slate-900">
-                {oldestCheck === newestCheck ? formatDate(newestCheck) : `${formatDate(oldestCheck)} to ${formatDate(newestCheck)}`}
-              </dd>
-            </div>
-          )
-        }
         <div>
           <dt class="text-slate-500">Order of the list</dt>
           <dd class="text-base font-semibold text-slate-900">Alphabetical</dd>
@@ -248,7 +233,7 @@ const toc = [
               <ul class="mt-3 list-disc pl-5 text-slate-700">
                 {paying.map((p) => (
                   <li>
-                    {p.data.name}: {p.data.paidRelationship!.type} since {formatDate(p.data.paidRelationship!.since)}
+                    {p.data.name}: {p.data.paidRelationship!.type}
                   </li>
                 ))}
               </ul>
@@ -262,7 +247,7 @@ const toc = [
         {
           lastUpdate && (
             <p class="mt-10 border-t border-slate-200 pt-4 text-sm text-slate-500">
-              Last updated {formatDate(lastUpdate.date)}: {lastUpdate.note}
+              Latest change: {lastUpdate.note}
             </p>
           )
         }

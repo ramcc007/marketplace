@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eleven products checked against vendor pages.
 ---
 
-An uptime monitor requests a website, an API or a server from the outside at a set interval and tells someone when it stops answering. The eleven products on this page each run HTTP and ICMP ping checks from several locations, send alerts, and keep uptime reports. We checked every price on the vendor's own website on November 3, 2026, and each product page links to the pages we used.
+An uptime monitor requests a website, an API or a server from the outside at a set interval and tells someone when it stops answering. The eleven products on this page each run HTTP and ICMP ping checks from several locations, send alerts, and keep uptime reports. We checked every price on the vendor's own website, and each product page links to the pages we used.
 
 ## Why the check runs from outside
 

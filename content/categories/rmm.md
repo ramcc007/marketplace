@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages.
 ---
 
-An IT team of two looks after 60 laptops and a handful of servers, and Windows updates are landing on some machines and not others. Remote monitoring and management software, usually shortened to RMM, fixes that by putting a small agent on each device and giving technicians one console to watch, patch and script them. The eight products on this page each run endpoint monitoring agents, remote scripting and patching, and alerting. We checked every price and claim on the vendor's own website on November 4, 2026, and each product page links to the pages we used.
+An IT team of two looks after 60 laptops and a handful of servers, and Windows updates are landing on some machines and not others. Remote monitoring and management software, usually shortened to RMM, fixes that by putting a small agent on each device and giving technicians one console to watch, patch and script them. The eight products on this page each run endpoint monitoring agents, remote scripting and patching, and alerting. We checked every price and claim on the vendor's own website, and each product page links to the pages we used.
 
 ## What RMM software does
 

@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Three products checked against vendor pages. More vendors are waiting on prices we could read and confirm.
 ---
 
-Remote desktop software lets one person see and control another computer over the internet. IT staff use it to fix a laptop in another city, small businesses use it to reach an office PC from home, and managed service providers use it to support hundreds of client machines. This page lists the products that meet our three entry tests: remote control of computers, unattended access and session security and logging. We read every price and claim on the vendor's own site on November 4, 2026, and each product page links to the pages we used.
+Remote desktop software lets one person see and control another computer over the internet. IT staff use it to fix a laptop in another city, small businesses use it to reach an office PC from home, and managed service providers use it to support hundreds of client machines. This page lists the products that meet our three entry tests: remote control of computers, unattended access and session security and logging. We read every price and claim on the vendor's own site, and each product page links to the pages we used.
 
 ## Only three products qualify so far
 

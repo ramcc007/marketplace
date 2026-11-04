@@ -4,7 +4,6 @@ import { SITE } from '../config/site';
 import { categories, departments } from '../lib/taxonomy';
 import { getSiteIndex } from '../lib/site-index';
 import { fromPhrase, startingMonthlyUsd, startingPriceLabel } from '../lib/catalog';
-import { formatDate } from '../lib/dates';
 
 const site = Astro.site ?? new URL(Astro.url.origin);
 const index = await getSiteIndex();
@@ -25,8 +24,6 @@ const sample = withProducts
     return true;
   })
   .slice(0, 6);
-const checkDates = index.products.map((p) => p.data.pricing.verifiedAt).sort();
-const lastChecked = checkDates.at(-1);
 
 // A real product, used to show how every price on the site is presented.
 const example = index.products.find((p) => p.id === 'clockify') ?? index.products[0];
@@ -34,8 +31,8 @@ const exampleCategory = example ? categories.find((c) => c.slug === example.data
 
 const principles = [
   {
-    title: 'Every price has a source and a date',
-    text: 'Each price links to the vendor page it came from and shows the day we read it. Costs that sit outside the plan price, such as single sign-on kept for the top plan, are listed next to it.',
+    title: 'Every price has a source',
+    text: 'Each price links to the vendor page it came from. Costs that sit outside the plan price, such as single sign-on kept for the top plan, are listed next to it.',
     href: '/methodology#prices',
   },
   {
@@ -79,7 +76,7 @@ const jsonLd = [
           Software prices you can check for yourself
         </h1>
         <p class="mt-5 max-w-xl text-lg leading-relaxed text-slate-600">
-          Every price here links to the vendor page it came from and carries the date we read it. A product is listed only
+          Every price here links to the vendor page it came from. A product is listed only
           when it meets the written rules for its category. Nobody pays to be listed or ranked.
         </p>
 
@@ -117,10 +114,6 @@ const jsonLd = [
             <p class="text-sm text-slate-500">By {example.data.vendor.name}</p>
             <p class="mt-4 text-3xl font-bold tracking-tight text-slate-900">{startingPriceLabel(example)}</p>
             <ul class="mt-4 space-y-2 border-t border-slate-100 pt-4 text-sm text-slate-700">
-              <li class="flex gap-2">
-                <span aria-hidden="true" class="font-bold text-brand-700">&#10003;</span>
-                <span>Checked {formatDate(example.data.pricing.verifiedAt)}</span>
-              </li>
               <li class="flex gap-2">
                 <span aria-hidden="true" class="font-bold text-brand-700">&#10003;</span>
                 <span>
@@ -199,7 +192,7 @@ const jsonLd = [
     <div class="mx-auto max-w-6xl px-4 py-14">
       <h2 id="recent" class="text-2xl font-bold tracking-tight text-slate-900">A few of the prices we have checked</h2>
       <p class="mt-1 max-w-2xl text-slate-600">
-        One product from each of six categories, with the date its price was read.{lastChecked && ` Our latest checks were made on ${formatDate(lastChecked)}.`}
+        One product from each of six categories, with the starting price from its own pricing page.
       </p>
       <ul class="mt-6 divide-y divide-slate-200 overflow-hidden rounded-xl border border-slate-200 bg-white">
         {
@@ -211,7 +204,7 @@ const jsonLd = [
                   <span class="ml-2 text-sm text-slate-500">{categories.find((c) => c.slug === p.data.primaryCategory)?.name}</span>
                 </span>
                 <span class="text-sm text-slate-600">
-                  {fromPhrase(p)}<span class="text-slate-500"> &middot; checked {formatDate(p.data.pricing.verifiedAt)}</span>
+                  {fromPhrase(p)}
                 </span>
               </a>
             </li>

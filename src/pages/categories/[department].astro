@@ -28,7 +28,7 @@ const crossDepartment = dept.categories.filter((c) => c.level === 'L2' && !topLe
 
 <BaseLayout
   title={`${dept.name} software`}
-  description={`${dept.categories.length} ${dept.name.toLowerCase()} software categories, each with written inclusion criteria and dated prices.`}
+  description={`${dept.categories.length} ${dept.name.toLowerCase()} software categories, each with written inclusion criteria and sourced prices.`}
   path={`/categories/${dept.slug}`}
   index={gate.indexable}
   jsonLd={[breadcrumbList(crumbs, site)]}

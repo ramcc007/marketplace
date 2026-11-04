@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages and documentation.
 ---
 
-Feature flag software lets a team change what users see without shipping new code. A flag is a switch evaluated at run time, so a release can reach a few users first, be turned off in seconds if it misbehaves, and be switched on for everyone later. The eight products here all offer flag targeting rules, gradual rollouts and SDKs for major languages. We read every price on the vendor's own website on November 4, 2026, and each product page links to the pages we used.
+Feature flag software lets a team change what users see without shipping new code. A flag is a switch evaluated at run time, so a release can reach a few users first, be turned off in seconds if it misbehaves, and be switched on for everyone later. The eight products here all offer flag targeting rules, gradual rollouts and SDKs for major languages. We read every price on the vendor's own website, and each product page links to the pages we used.
 
 ## What the three must-haves mean
 

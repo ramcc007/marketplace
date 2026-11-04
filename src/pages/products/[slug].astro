@@ -17,7 +17,7 @@ import { getSiteIndex } from '../../lib/site-index';
 import { getReviewStats } from '../../lib/reviews';
 import { GATE } from '../../lib/quality-gate';
 import { breadcrumbList, softwareApplication } from '../../lib/schema';
-import { formatDate, formatMoney, formatUsd, formatVolumeFee } from '../../lib/dates';
+import { formatMoney, formatUsd, formatVolumeFee } from '../../lib/dates';
 
 export async function getStaticPaths() {
   const products = await getProducts();
@@ -133,10 +133,6 @@ const jump = [
             {data.pricing.freeTrialDays ? `${data.pricing.freeTrialDays} days` : 'No'}
           </dd>
         </div>
-        <div class="bg-white p-4">
-          <dt class="text-slate-500">Prices checked</dt>
-          <dd class="mt-0.5 font-semibold text-slate-900">{formatDate(data.pricing.verifiedAt)}</dd>
-        </div>
       </dl>
     </div>
   </section>
@@ -170,7 +166,7 @@ const jump = [
     <section class="mt-10" aria-labelledby="pricing">
       <h2 id="pricing" class="text-xl font-semibold text-slate-900">Pricing</h2>
       <p class="mt-1 text-sm text-slate-500">
-        Checked {formatDate(data.pricing.verifiedAt)} on the <a href={data.pricing.sourceUrl} rel="nofollow noopener" class="text-brand-700 underline">vendor's pricing page</a>.
+        Taken from the <a href={data.pricing.sourceUrl} rel="nofollow noopener" class="text-brand-700 underline">vendor's pricing page</a>.
         {data.pricing.freeTrialDays ? ` Free trial: ${data.pricing.freeTrialDays} days.` : ''}
       </p>
       {
@@ -263,7 +259,7 @@ const jump = [
               <li class="leading-relaxed">
                 {f.text}{' '}
                 <a href={f.sourceUrl} rel="nofollow noopener" class="text-sm text-slate-500 underline hover:text-brand-700">
-                  Source, checked {formatDate(f.checkedAt)}
+                  Source
                 </a>
               </li>
             ))}
@@ -284,7 +280,7 @@ const jump = [
             <div class="rounded-lg border border-slate-200 p-3"><dt class="text-slate-500">Single sign-on</dt><dd class="font-medium text-slate-900">{data.security.ssoPlan ? `${data.security.ssoPlan} plan and up` : 'Not stated'}</dd></div>
           </dl>
           <p class="mt-2 text-sm text-slate-500">
-            Checked {formatDate(data.security.checkedAt)} on the <a href={data.security.sourceUrl} rel="nofollow noopener" class="text-brand-700 underline">vendor's security page</a>.
+            Taken from the <a href={data.security.sourceUrl} rel="nofollow noopener" class="text-brand-700 underline">vendor's security page</a>.
           </p>
         </section>
       )
@@ -310,7 +306,7 @@ const jump = [
             </div>
           </dl>
           <p class="mt-2 text-sm text-slate-500">
-            Checked {formatDate(data.contract.checkedAt)} in the <a href={data.contract.sourceUrl} rel="nofollow noopener" class="text-brand-700 underline">vendor's terms</a>.
+            Taken from the <a href={data.contract.sourceUrl} rel="nofollow noopener" class="text-brand-700 underline">vendor's terms</a>.
           </p>
         </section>
       )
@@ -332,7 +328,7 @@ const jump = [
       <p class="mt-3 text-slate-600">
         {
           data.paidRelationship
-            ? `${data.vendor.name} pays us (${data.paidRelationship.type}) since ${formatDate(data.paidRelationship.since)}. This does not change its ranking.`
+            ? `${data.vendor.name} pays us (${data.paidRelationship.type}). This does not change its ranking.`
             : `${data.vendor.name} does not pay us anything.`
         }
       </p>

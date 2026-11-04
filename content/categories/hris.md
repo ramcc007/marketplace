@@ -6,10 +6,10 @@ criteriaApproved: false
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
-    note: First draft. Eight products checked against vendor pages on November 4, 2026.
+    note: First draft. Eight products checked against vendor pages.
 ---
 
-A company with 30 employees usually reaches the same point. Time-off requests live in a shared spreadsheet, offer letters sit in someone's email, and the founder cannot say how many people were hired last quarter without an hour of digging. An HRIS, short for human resources information system, replaces those scattered files with one employee record that the rest of HR work reads from. This page compares eight products that meet three tests: they keep employee records, they track time off, and they produce HR reports. We read each vendor's own pages on November 4, 2026, and every product page links to the pages we used.
+A company with 30 employees usually reaches the same point. Time-off requests live in a shared spreadsheet, offer letters sit in someone's email, and the founder cannot say how many people were hired last quarter without an hour of digging. An HRIS, short for human resources information system, replaces those scattered files with one employee record that the rest of HR work reads from. This page compares eight products that meet three tests: they keep employee records, they track time off, and they produce HR reports. We read each vendor's own pages, and every product page links to the pages we used.
 
 ## What counts as an HRIS here
 
@@ -51,7 +51,7 @@ That means only two of the eight give a buyer a number to plan around before tal
 
 ## What the published prices say
 
-Both published figures are starting prices, not rate cards, and both were checked twice on November 4, 2026. Zoho People is the only product with a free plan, and its own pages disagree on the limit: one says up to 53 users, while the comparison page says 5 users in one table and 3 in another. Rippling says plans start at $8 per employee per month plus a monthly base fee, and the page does not state the base fee. It sells products separately, and the total depends on which ones you pick and on headcount. A startup program gives eligible US VC-backed startups free access for 6 months, subject to funding status and stage.
+Both published figures are starting prices, not rate cards, and both were checked twice. Zoho People is the only product with a free plan, and its own pages disagree on the limit: one says up to 53 users, while the comparison page says 5 users in one table and 3 in another. Rippling says plans start at $8 per employee per month plus a monthly base fee, and the page does not state the base fee. It sells products separately, and the total depends on which ones you pick and on headcount. A startup program gives eligible US VC-backed startups free access for 6 months, subject to funding status and stage.
 
 Factorial says it starts at $8 per user per month and includes Factorial Core, which covers an employee directory, onboarding and offboarding, payslip distribution, bulk document sending and legal e-signature. Time Off, Time Tracking, Performance, Shift Management and Recruitment are add-on modules, and the page lists no prices for them. Because time-off tracking is one of our three tests, the $8 starting price may not include the module a buyer needs most. The page shows a dollar sign with no currency code.
 

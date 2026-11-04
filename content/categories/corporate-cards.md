@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Nine products checked against vendor pages, with card law checked against Regulation Z and Regulation B.
 ---
 
-A corporate card platform issues payment cards to a company's employees, lets finance set limits on each card, and sends the resulting transactions to the accounting system. The nine products on this page all meet the same three tests: they issue both physical and virtual cards, they let an administrator set spend limits, and they sync card transactions with accounting software. We read each claim on the vendor's own website on November 4, 2026, and every product page links to the pages we used.
+A corporate card platform issues payment cards to a company's employees, lets finance set limits on each card, and sends the resulting transactions to the accounting system. The nine products on this page all meet the same three tests: they issue both physical and virtual cards, they let an administrator set spend limits, and they sync card transactions with accounting software. We read each claim on the vendor's own website, and every product page links to the pages we used.
 
 Some of these products are broader spend management suites that also handle reimbursements, bill payment and procurement. Here we look only at the card side. The cards are the part that carries credit risk, legal liability and fees, so they deserve their own comparison.
 

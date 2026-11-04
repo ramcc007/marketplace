@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pricing and documentation pages.
 ---
 
-Log management software collects log lines from servers, containers and applications, stores them in one place, lets people search them, and sends an alert when a pattern appears. The eight products on this page each do all three jobs the category needs: log collection and search, retention policies, and alerts built on log queries. We read prices and documentation on the vendors' own websites on November 4, 2026, checked each price a second time, and link the pages we used from every product page.
+Log management software collects log lines from servers, containers and applications, stores them in one place, lets people search them, and sends an alert when a pattern appears. The eight products on this page each do all three jobs the category needs: log collection and search, retention policies, and alerts built on log queries. We read prices and documentation on the vendors' own websites, checked each price a second time, and link the pages we used from every product page.
 
 Two products on this page, [New Relic](/products/new-relic) and [SigNoz](/products/signoz), are also listed under application performance monitoring, and [Better Stack](/products/better-stack) is listed under uptime monitoring. Logs are one product among several for all three, and the prices below are for the logs part only unless we say otherwise.
 

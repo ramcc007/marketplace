@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eleven products checked against vendor pages.
 ---
 
-Time tracking software records the hours people work by project, client or shift, then passes those hours to whoever runs payroll or sends invoices. The eleven products on this page each let staff enter time or clock in and out, let a manager approve timesheets or time entries, and send hours on to payroll or invoicing. We checked every price on the vendor's own website on November 3, 2026, and each product page links to the pages we used.
+Time tracking software records the hours people work by project, client or shift, then passes those hours to whoever runs payroll or sends invoices. The eleven products on this page each let staff enter time or clock in and out, let a manager approve timesheets or time entries, and send hours on to payroll or invoicing. We checked every price on the vendor's own website, and each product page links to the pages we used.
 
 ## Three kinds of product share the name
 

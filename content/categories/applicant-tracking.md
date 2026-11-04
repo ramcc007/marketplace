@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Nine products checked against vendor pages.
 ---
 
-Applicant tracking software holds every job opening, application and interview note in one place, so a hiring team can see who applied, who has been contacted and who is waiting on a decision. The nine products on this page each post jobs to outside boards, move candidates through stages and handle interview scheduling and feedback. We read every price and claim on the vendor's own website on November 4, 2026, and each product page links to the pages we used. Prices below are in US dollars unless a sentence says otherwise, and several vendors change what they show by company size or location.
+Applicant tracking software holds every job opening, application and interview note in one place, so a hiring team can see who applied, who has been contacted and who is waiting on a decision. The nine products on this page each post jobs to outside boards, move candidates through stages and handle interview scheduling and feedback. We read every price and claim on the vendor's own website, and each product page links to the pages we used. Prices below are in US dollars unless a sentence says otherwise, and several vendors change what they show by company size or location.
 
 ## Who buys this and what they pay for
 

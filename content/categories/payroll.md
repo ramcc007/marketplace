@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages. Every price was read twice from separate fetches.
 ---
 
-Payroll software works out what each person is owed, withholds income and payroll taxes, pays the net amount and files the paperwork that follows. The eight products on this page each run pay runs and pay stubs, handle tax withholding and filings, and pay by direct deposit. We read every price on the vendor's own website on November 4, 2026, then read it a second time from a separate fetch. Each product page links to the pages we used.
+Payroll software works out what each person is owed, withholds income and payroll taxes, pays the net amount and files the paperwork that follows. The eight products on this page each run pay runs and pay stubs, handle tax withholding and filings, and pay by direct deposit. We read every price on the vendor's own website, then read it a second time from a separate fetch. Each product page links to the pages we used.
 
 All figures are in US dollars for US employers. Payroll prices depend on where your employees work, because the number of states, local tax areas and filing frequencies changes what a provider does for you. Several vendors say so on their own pages, and the example costs below assume one state.
 

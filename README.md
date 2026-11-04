@@ -1,6 +1,6 @@
-# Software marketplace (working name)
+﻿# Software marketplace (working name)
 
-A B2B software review and comparison site built on trust: dated prices with sources, written inclusion criteria per category, and rankings that money cannot move. The full plan is in [docs/PLAN.md](docs/PLAN.md).
+A B2B software review and comparison site built on trust: prices with sources, written inclusion criteria per category, and rankings that money cannot move. The full plan is in [docs/PLAN.md](docs/PLAN.md).
 
 ## Commands
 

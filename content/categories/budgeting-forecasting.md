@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages; prices read twice.
 ---
 
-A bookkeeper who reports on forty client companies and a finance director closing ten legal entities both need a budget, a forecast and a variance report. The tools they buy have almost nothing else in common. This page compares eight products that, on their own websites, offer budget models, forecasts with scenarios and variance reports: [LivePlan](/products/liveplan), [Fathom](/products/fathom), [Jirav](/products/jirav), [Cube](/products/cube), [Prophix](/products/prophix), [Datarails](/products/datarails), [Workday Adaptive Planning](/products/workday-adaptive-planning) and [Pigment](/products/pigment). We read each vendor's pages on November 4, 2026, and every product page links to the pages we used.
+A bookkeeper who reports on forty client companies and a finance director closing ten legal entities both need a budget, a forecast and a variance report. The tools they buy have almost nothing else in common. This page compares eight products that, on their own websites, offer budget models, forecasts with scenarios and variance reports: [LivePlan](/products/liveplan), [Fathom](/products/fathom), [Jirav](/products/jirav), [Cube](/products/cube), [Prophix](/products/prophix), [Datarails](/products/datarails), [Workday Adaptive Planning](/products/workday-adaptive-planning) and [Pigment](/products/pigment). We read each vendor's pages, and every product page links to the pages we used.
 
 ## What the software has to do
 

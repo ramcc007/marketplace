@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages. Prices read from US pages and confirmed by a second fetch.
 ---
 
-Invoicing software creates a bill, delivers it to the customer, lets the customer pay it online and shows whether it has been paid. The eight products on this page each create invoices, attach an online payment option to them and track the payment status. We read every fee on the vendor's own website on November 4, 2026, using the US pages, and each product page links to the sources we used. Prices shown to visitors outside the US can differ.
+Invoicing software creates a bill, delivers it to the customer, lets the customer pay it online and shows whether it has been paid. The eight products on this page each create invoices, attach an online payment option to them and track the payment status. We read every fee on the vendor's own website, using the US pages, and each product page links to the sources we used. Prices shown to visitors outside the US can differ.
 
 ## Two kinds of cost
 

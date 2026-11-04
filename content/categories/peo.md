@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Nine PEOs checked against vendor pages. Insperity and Justworks left out because their sites blocked automated reading.
 ---
 
-A professional employer organization, or PEO, takes over a defined set of employer tasks for a small or midsize business under a service agreement. The nine providers on this page each state that they act as a co-employer, give clients access to group benefits plans, and run payroll with HR compliance support. We read each vendor's own pages on November 4, 2026, and each product page links to the sources we used.
+A professional employer organization, or PEO, takes over a defined set of employer tasks for a small or midsize business under a service agreement. The nine providers on this page each state that they act as a co-employer, give clients access to group benefits plans, and run payroll with HR compliance support. We read each vendor's own pages, and each product page links to the sources we used.
 
 ## What a PEO does and who it fits
 
@@ -65,7 +65,7 @@ A flat fee and a percentage of payroll behave differently when raises happen. Tr
 
 Most PEOs set a minimum headcount. TriNet says it requires a minimum worksite employee count and does not publish it. ADP, G&A, Paychex and Vensure state no minimum on the pages we read. A business with a handful of employees may find that a lower plan fits better. CoAdvantage, for instance, lists two non-PEO plans on the same page, at $55 a month plus $5 per employee and $85 a month plus $6 per employee.
 
-We left out Insperity and Justworks. Their websites returned access denied errors to our automated reading on November 4, 2026, so we could not verify any statement or price from the vendor. We did not fill the gap from review sites, which disagree with each other. Engage PEO, DecisionHR and Sequoia One were also left out because the pages we could read did not describe co-employment.
+We left out Insperity and Justworks. Their websites returned access denied errors to our automated reading, so we could not verify any statement or price from the vendor. We did not fill the gap from review sites, which disagree with each other. Engage PEO, DecisionHR and Sequoia One were also left out because the pages we could read did not describe co-employment.
 
 ## Questions to put in writing before signing
 

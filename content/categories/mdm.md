@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages and documentation.
 ---
 
-Mobile device management software lets an IT team enroll phones, tablets and laptops, push settings to them and take the data back when a device is lost. Enterprise mobility management and EMM are older names for the same job. The eight products on this page each document device enrollment, policy enforcement, and remote lock and wipe. We checked every price on the vendor's own website on November 4, 2026, and each product page links to the documentation we used.
+Mobile device management software lets an IT team enroll phones, tablets and laptops, push settings to them and take the data back when a device is lost. Enterprise mobility management and EMM are older names for the same job. The eight products on this page each document device enrollment, policy enforcement, and remote lock and wipe. We checked every price on the vendor's own website, and each product page links to the documentation we used.
 
 ## What a product needs to be listed here
 

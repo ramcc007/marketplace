@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages.
 ---
 
-A finance lead at a company with entities in Germany, Singapore and Brazil gets three payroll reports from three local providers, in three formats, on three calendars. Closing the month means rebuilding those into one view of headcount and cost by hand. Global payroll software and services exist to remove that step. The eight products on this page each run payroll in more than one country, build local tax rules into the calculation, and report across countries. We read every claim and price on the vendor's own website on November 4, 2026, and each product page links to the pages we used.
+A finance lead at a company with entities in Germany, Singapore and Brazil gets three payroll reports from three local providers, in three formats, on three calendars. Closing the month means rebuilding those into one view of headcount and cost by hand. Global payroll software and services exist to remove that step. The eight products on this page each run payroll in more than one country, build local tax rules into the calculation, and report across countries. We read every claim and price on the vendor's own website, and each product page links to the pages we used.
 
 ## What global payroll covers and what it does not
 

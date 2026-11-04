@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages.
 ---
 
-A founder who opens a business checking account in March needs three things by the following spring. One is a ledger that records every transaction. Another is bank transactions that match what the bank says. The last is a set of statements an accountant can use to prepare a return. The eight products on this page each cover those three jobs: a general ledger, bank feeds with reconciliation, and financial statements. We checked every price on the vendor's own website on November 4, 2026, and each product page links to the pages we used. Prices are in US dollars and apply to US customers. Vendors change tiers and promotions by country, so a buyer elsewhere will see different figures.
+A founder who opens a business checking account in March needs three things by the following spring. One is a ledger that records every transaction. Another is bank transactions that match what the bank says. The last is a set of statements an accountant can use to prepare a return. The eight products on this page each cover those three jobs: a general ledger, bank feeds with reconciliation, and financial statements. We checked every price on the vendor's own website, and each product page links to the pages we used. Prices are in US dollars and apply to US customers. Vendors change tiers and promotions by country, so a buyer elsewhere will see different figures.
 
 ## What we counted as accounting software
 

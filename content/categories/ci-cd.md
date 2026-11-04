@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Nine products checked against vendor pages.
 ---
 
-CI/CD software runs a team's automated builds and tests on every change, then moves the result through deployment pipelines to staging and production. The nine products on this page each run automated builds and tests, support deployment pipelines, and keep pipeline logs a developer can read. We checked every price on the vendor's own website on November 4, 2026, and each product page links to the pages we used.
+CI/CD software runs a team's automated builds and tests on every change, then moves the result through deployment pipelines to staging and production. The nine products on this page each run automated builds and tests, support deployment pipelines, and keep pipeline logs a developer can read. We checked every price on the vendor's own website, and each product page links to the pages we used.
 
 ## What a buyer is really choosing
 

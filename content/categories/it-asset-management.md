@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages, four of them service desk suites that also qualify here.
 ---
 
-IT asset management software keeps a record of the hardware, software and contracts an organization owns, from purchase to retirement. The eight products on this page each meet three conditions we set for the category. They find assets without relying on manual entry, they follow an asset through its lifecycle, and they track licenses or contracts. We read each vendor's own pages on November 4, 2026, and every product page links to the pages we used.
+IT asset management software keeps a record of the hardware, software and contracts an organization owns, from purchase to retirement. The eight products on this page each meet three conditions we set for the category. They find assets without relying on manual entry, they follow an asset through its lifecycle, and they track licenses or contracts. We read each vendor's own pages, and every product page links to the pages we used.
 
 ## What we required of every product
 

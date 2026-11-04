@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Seven products checked against vendor pages.
 ---
 
-A learning management system, or LMS, delivers training courses to employees, assigns them to the right people and records who finished what. The seven products on this page each do three things: they deliver courses, they assign training and track it, and they produce reports on completion. We read every price and claim on the vendor's own website on November 4, 2026, and each product page links to the pages we used. Prices are in US dollars, and a vendor that shows a price without naming its currency is flagged on its product page.
+A learning management system, or LMS, delivers training courses to employees, assigns them to the right people and records who finished what. The seven products on this page each do three things: they deliver courses, they assign training and track it, and they produce reports on completion. We read every price and claim on the vendor's own website, and each product page links to the pages we used. Prices are in US dollars, and a vendor that shows a price without naming its currency is flagged on its product page.
 
 ## What the three requirements mean
 

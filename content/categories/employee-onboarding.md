@@ -6,10 +6,10 @@ criteriaApproved: false
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
-    note: First draft. Nine products checked against vendor pages on November 4, 2026.
+    note: First draft. Nine products checked against vendor pages.
 ---
 
-A restaurant group hires eleven people in a week. Each one needs a W-4, an I-9, a direct deposit form and a signed handbook page before the first shift, and the manager who owes those forms is also covering the grill. In that situation the question is not whether to have an onboarding process but where the paperwork lives and who gets nudged when it is late. Employee onboarding software gives each hire a task list, collects and signs the forms, and shows HR which items are still open. This page compares nine products that meet three tests, using each vendor's own pages as read on November 4, 2026.
+A restaurant group hires eleven people in a week. Each one needs a W-4, an I-9, a direct deposit form and a signed handbook page before the first shift, and the manager who owes those forms is also covering the grill. In that situation the question is not whether to have an onboarding process but where the paperwork lives and who gets nudged when it is late. Employee onboarding software gives each hire a task list, collects and signs the forms, and shows HR which items are still open. This page compares nine products that meet three tests, using each vendor's own pages as read.
 
 ## What counts as employee onboarding software here
 

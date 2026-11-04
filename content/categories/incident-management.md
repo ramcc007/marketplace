@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages. Prices read twice from the vendor's own site.
 ---
 
-Incident management software decides who gets paged when something breaks, escalates when that person does not answer, and keeps a record of what happened so the team can write the postmortem. The eight products on this page each provide on-call schedules with escalation, alert routing, and an incident timeline with postmortem support. We read every price on the vendor's own website on November 4, 2026, twice in separate fetches, and each product page links to the pages we used. Prices are in US dollars and some vendors vary them by region or contract.
+Incident management software decides who gets paged when something breaks, escalates when that person does not answer, and keeps a record of what happened so the team can write the postmortem. The eight products on this page each provide on-call schedules with escalation, alert routing, and an incident timeline with postmortem support. We read every price on the vendor's own website, twice in separate fetches, and each product page links to the pages we used. Prices are in US dollars and some vendors vary them by region or contract.
 
 ## Where this category sits next to uptime monitoring
 

@@ -6,10 +6,10 @@ criteriaApproved: false
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
-    note: First draft. Eight products checked against vendor pages. Prices read twice on November 4, 2026.
+    note: First draft. Eight products checked against vendor pages. Prices read twice.
 ---
 
-A company with 50 laptops needs three things from endpoint protection: a way to catch malware, a way to act when something gets through, and one place where an admin can see every device. Those are the three must-haves for this page. The eight products here each state all three on their own websites, and we read each vendor's pages on November 4, 2026. Prices are in US dollars and can differ by region, reseller and contract.
+A company with 50 laptops needs three things from endpoint protection: a way to catch malware, a way to act when something gets through, and one place where an admin can see every device. Those are the three must-haves for this page. The eight products here each state all three on their own websites, and we read each vendor's pages. Prices are in US dollars and can differ by region, reseller and contract.
 
 ## What endpoint protection covers
 

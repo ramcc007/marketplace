@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eleven products checked against vendor pages.
 ---
 
-Subscription billing software creates the recurring charges for a subscription business, prorates plan changes, retries failed payments and reports recurring revenue. The eleven products on this page each handle recurring plans with proration, run dunning for failed payments, and report MRR and churn. We checked every fee on the vendor's own website on November 3, 2026, and each product page links to the pages we used.
+Subscription billing software creates the recurring charges for a subscription business, prorates plan changes, retries failed payments and reports recurring revenue. The eleven products on this page each handle recurring plans with proration, run dunning for failed payments, and report MRR and churn. We checked every fee on the vendor's own website, and each product page links to the pages we used.
 
 ## Two different kinds of product
 

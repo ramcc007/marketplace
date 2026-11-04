@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages; every price fetched twice.
 ---
 
-AP automation software takes a supplier invoice from the moment it arrives to the moment the supplier is paid. It reads the invoice into structured data, sends it to the right people for approval, and then pays the supplier by ACH, check, card or wire, usually posting the result to the accounting system. The eight products on this page each state all three of those capabilities on their own sites: invoice capture, approval workflows and vendor payments. We read those pages on November 4, 2026, and each product page links to the exact ones we used. We did not run hands-on tests of any product for this draft, so the notes below describe what vendors state, not how the software behaves in daily use.
+AP automation software takes a supplier invoice from the moment it arrives to the moment the supplier is paid. It reads the invoice into structured data, sends it to the right people for approval, and then pays the supplier by ACH, check, card or wire, usually posting the result to the accounting system. The eight products on this page each state all three of those capabilities on their own sites: invoice capture, approval workflows and vendor payments. We read those pages, and each product page links to the exact ones we used. We did not run hands-on tests of any product for this draft, so the notes below describe what vendors state, not how the software behaves in daily use.
 
 ## Who this category is for
 

@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages, with five vendors left out for missing evidence.
 ---
 
-A finance lead approves 40 hires in the budget, and by the third quarter nobody can say how many of those jobs are filled, open or quietly changed into something more expensive. Workforce planning software exists to answer that question from one record. The eight products on this page each let a team build headcount plans, track positions that are approved, open or filled, and compare budget scenarios. We read each vendor's own pages on November 4, 2026, and each product page links to the sources.
+A finance lead approves 40 hires in the budget, and by the third quarter nobody can say how many of those jobs are filled, open or quietly changed into something more expensive. Workforce planning software exists to answer that question from one record. The eight products on this page each let a team build headcount plans, track positions that are approved, open or filled, and compare budget scenarios. We read each vendor's own pages, and each product page links to the sources.
 
 ## What the software has to do
 

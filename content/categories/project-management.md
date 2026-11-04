@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Nine products checked against vendor pages.
 ---
 
-Project management software gives a team one place to list tasks, move them across boards, schedule them on a timeline and discuss the work where it happens. The nine products on this page each offer task lists and boards, a timeline or Gantt view, and team collaboration on tasks. We read every price on the vendor's own website on November 4, 2026 and confirmed it with a second, separate fetch. Each product page links to the pages we used. All figures are US dollars and can differ by country, tax and billing currency.
+Project management software gives a team one place to list tasks, move them across boards, schedule them on a timeline and discuss the work where it happens. The nine products on this page each offer task lists and boards, a timeline or Gantt view, and team collaboration on tasks. We read every price on the vendor's own website and confirmed it with a second, separate fetch. Each product page links to the pages we used. All figures are US dollars and can differ by country, tax and billing currency.
 
 ## What the three inclusion tests mean
 
@@ -43,7 +43,7 @@ A buyer who only needs a simple Gantt can therefore pay as little as $9 per user
 
 ## What a 10-person team pays
 
-Per-seat prices hide the effect of seat rules, so a worked example helps. These figures use annual billing, multiply the listed per-user price by 10 users, and ignore tax and add-ons. Prices were checked on the dates shown on each product page.
+Per-seat prices hide the effect of seat rules, so a worked example helps. These figures use annual billing, multiply the listed per-user price by 10 users, and ignore tax and add-ons. Each product page links to the pricing page its figures came from.
 
 | Product | Entry plan with a schedule view | Per month for 10 users |
 |---|---|---|

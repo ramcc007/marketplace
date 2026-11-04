@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Nine products checked against vendor pages. Figures are US dollars unless noted.
 ---
 
-Sales tax software works out how much tax to charge on each sale, tells a seller where it has to register, and prepares and files the returns. To appear on this page a product had to show, on its own website, tax rate calculation, filing and remittance, and either registration or nexus tracking. Nine products met that bar: [Stripe Tax](/products/stripe-tax), [Avalara](/products/avalara), [TaxJar](/products/taxjar), [TaxCloud](/products/taxcloud), [Numeral](/products/numeral), [Zamp](/products/zamp), [Kintsugi](/products/kintsugi), [Sphere](/products/sphere) and [Quaderno](/products/quaderno). We read every price on the vendor's own site on November 4, 2026, and read each price a second time before publishing.
+Sales tax software works out how much tax to charge on each sale, tells a seller where it has to register, and prepares and files the returns. To appear on this page a product had to show, on its own website, tax rate calculation, filing and remittance, and either registration or nexus tracking. Nine products met that bar: [Stripe Tax](/products/stripe-tax), [Avalara](/products/avalara), [TaxJar](/products/taxjar), [TaxCloud](/products/taxcloud), [Numeral](/products/numeral), [Zamp](/products/zamp), [Kintsugi](/products/kintsugi), [Sphere](/products/sphere) and [Quaderno](/products/quaderno). We read every price on the vendor's own site, and read each price a second time before publishing.
 
 ## Why sellers need this software
 

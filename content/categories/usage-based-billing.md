@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages and documentation.
 ---
 
-Usage-based billing software, also called metered billing, charges customers for what they consume instead of, or on top of, a flat subscription. The eight products on this page each do three things. They meter usage events, they rate that usage with pricing tiers, and they produce invoices from the result. We read prices and capability claims from each vendor's own pages on November 4, 2026, and every product page links to the pages we used.
+Usage-based billing software, also called metered billing, charges customers for what they consume instead of, or on top of, a flat subscription. The eight products on this page each do three things. They meter usage events, they rate that usage with pricing tiers, and they produce invoices from the result. We read prices and capability claims from each vendor's own pages, and every product page links to the pages we used.
 
 A plain subscription tool can sell a plan with a fixed monthly fee. A usage-based tool has to answer harder questions. It must count millions of events without double billing, apply the right rate to the thousandth unit compared with the first, and show the customer what they owe in good time. Those needs decide which product fits, so this page starts with the mechanics and then turns to prices.
 

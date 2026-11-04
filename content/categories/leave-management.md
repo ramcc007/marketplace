@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Six products checked against vendor pages.
 ---
 
-Leave management software holds every employee's allowance, takes their time off requests, routes them to a manager and shows the whole team who is away. The six products on this page each let staff request leave and let a manager approve it, apply accrual or allowance policies, and show absences on a team calendar. We read every price on the vendor's own website on November 4, 2026, and each product page links to the pages we used. Our list is shorter than we wanted, and the reason is in the section on what we left out.
+Leave management software holds every employee's allowance, takes their time off requests, routes them to a manager and shows the whole team who is away. The six products on this page each let staff request leave and let a manager approve it, apply accrual or allowance policies, and show absences on a team calendar. We read every price on the vendor's own website, and each product page links to the pages we used. Our list is shorter than we wanted, and the reason is in the section on what we left out.
 
 ## Two kinds of product share the name
 

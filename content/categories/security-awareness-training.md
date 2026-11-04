@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages.
 ---
 
-Security awareness training software teaches employees to spot and report attacks such as phishing, then records who finished which course. The eight products on this page each offer training modules, send simulated phishing emails to staff and report on who completed their training. We checked prices and features on each vendor's own site on November 4, 2026, and every product page links to the pages we used.
+Security awareness training software teaches employees to spot and report attacks such as phishing, then records who finished which course. The eight products on this page each offer training modules, send simulated phishing emails to staff and report on who completed their training. We checked prices and features on each vendor's own site, and every product page links to the pages we used.
 
 ## Why many small businesses buy it
 

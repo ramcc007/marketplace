@@ -4,7 +4,6 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { getSiteIndex } from '../lib/site-index';
 import { categories } from '../lib/taxonomy';
 import { breadcrumbList } from '../lib/schema';
-import { formatDate } from '../lib/dates';
 
 const index = await getSiteIndex();
 const site = Astro.site ?? new URL(Astro.url.origin);
@@ -21,7 +20,7 @@ const rules = [
   'Every score links to the inputs and weights behind it.',
   'Every review shows how the reviewer was verified and whether the vendor invited them.',
   'Vendors can flag reviews and cannot delete them. Each removal is counted with its reason.',
-  'Every price shows its source and the date it was checked.',
+  'Every price shows its source.',
   'No account is needed to read any page, and contact details go only to vendors the visitor picks.',
   'Each category page lists which of its products pay us.',
 ];
@@ -37,7 +36,7 @@ const rules = [
     <Breadcrumbs crumbs={crumbs} />
     <h1 class="mt-4 text-3xl font-bold tracking-tight">Transparency</h1>
     <p class="mt-2 max-w-2xl text-slate-600">
-      The rules we hold ourselves to, and the current numbers behind them as of {formatDate(index.today)}. Several rules
+      The rules we hold ourselves to, and the current numbers behind them. Several rules
       cover features that have not launched yet, such as reviews and sponsored rows. We wrote them down first so they
       bind us when those features arrive.
     </p>

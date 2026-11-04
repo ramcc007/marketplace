@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages and documentation.
 ---
 
-Identity and access management software decides who can sign in to which applications, creates and removes their accounts, and applies rules to each sign-in. The eight products on this page each offer single sign-on, user provisioning and deprovisioning, and access policies. We read the prices and capability claims on each vendor's own pages on November 4, 2026, and every product page links to the sources we used.
+Identity and access management software decides who can sign in to which applications, creates and removes their accounts, and applies rules to each sign-in. The eight products on this page each offer single sign-on, user provisioning and deprovisioning, and access policies. We read the prices and capability claims on each vendor's own pages, and every product page links to the sources we used.
 
 ## What a product must do to be listed
 
@@ -87,4 +87,4 @@ Google's own SCIM documentation says its Cloud Identity SCIM API [implements a s
 - Ask in writing which features sit behind add-ons, and how the price changes at the next user or connection tier.
 - Ask how a departing employee's accounts are removed during the notice period, and how fast the change reaches each app.
 
-Pricing pages change often. Each product page shows the date we last verified its prices, and plans above the published tiers are quoted by the vendor.
+Pricing pages change often. Each product page links to the pages its prices came from, and plans above the published tiers are quoted by the vendor.

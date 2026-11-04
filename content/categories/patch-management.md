@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages.
 ---
 
-Patch management software finds missing updates on laptops, desktops and servers, installs them on a schedule you control and shows an auditor what is still open. The eight products on this page patch operating systems and third-party applications, let an admin schedule deployments, and produce patch compliance reports. We read each vendor's own pages on November 4, 2026, and each product page links to the pages we used.
+Patch management software finds missing updates on laptops, desktops and servers, installs them on a schedule you control and shows an auditor what is still open. The eight products on this page patch operating systems and third-party applications, let an admin schedule deployments, and produce patch compliance reports. We read each vendor's own pages, and each product page links to the pages we used.
 
 ## Why patching is a business problem and not only an IT chore
 
@@ -31,7 +31,7 @@ That split affects the price you see. A patch-only tool charges for the patching
 
 ## How the prices compare
 
-Only some vendors publish a price. Where they do, the unit differs, so a direct comparison needs arithmetic. All figures are USD list prices from the vendor's site on the date above, and ManageEngine's page says it lists prices in USD.
+Only some vendors publish a price. Where they do, the unit differs, so a direct comparison needs arithmetic. All figures are USD list prices from the vendor's site, and ManageEngine's page says it lists prices in USD.
 
 Automox sells its Patch OS plan at $1 per endpoint per month on an annual commitment. Its pricing page also offers monthly pay-as-you-go with no commitment, and says annual plans save 25%. For 200 endpoints on the annual plan, that works out to about $2,400 a year before any extras. The Automate Essentials and Automate Enterprise plans are quoted by sales.
 

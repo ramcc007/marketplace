@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages, with ACA, ERISA and COBRA context from IRS and Department of Labor pages.
 ---
 
-Benefits administration software lets employees choose health, dental, vision and other coverage online, keeps track of who is eligible for what, and passes the resulting elections to insurance carriers. The eight products on this page each handle online enrollment, connect to carriers or set up plans for the employer, and track eligibility. We read every price, or the lack of one, on the vendor's own website on November 4, 2026, and each product page links to the pages we used. All figures are in US dollars, and carrier availability, plan rules and state requirements depend on where the employees live.
+Benefits administration software lets employees choose health, dental, vision and other coverage online, keeps track of who is eligible for what, and passes the resulting elections to insurance carriers. The eight products on this page each handle online enrollment, connect to carriers or set up plans for the employer, and track eligibility. We read every price, or the lack of one, on the vendor's own website, and each product page links to the pages we used. All figures are in US dollars, and carrier availability, plan rules and state requirements depend on where the employees live.
 
 ## What a benefits administration system does
 

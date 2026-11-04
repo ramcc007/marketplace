@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Nine products checked against vendor pages, with IRS rules read from irs.gov.
 ---
 
-Expense management software collects receipts from employees, checks each claim against company rules, routes it to an approver and pays the employee back. The nine products on this page each capture receipts, enforce expense policies with an approval step, and handle reimbursement. We read every price on the vendor's own website on November 4, 2026, checked each one a second time on a separate page load, and linked the pages we used from each product page. Prices depend on the visitor's location, so the figures here are the US dollar prices a US visitor sees.
+Expense management software collects receipts from employees, checks each claim against company rules, routes it to an approver and pays the employee back. The nine products on this page each capture receipts, enforce expense policies with an approval step, and handle reimbursement. We read every price on the vendor's own website, checked each one a second time on a separate page load, and linked the pages we used from each product page. Prices depend on the visitor's location, so the figures here are the US dollar prices a US visitor sees.
 
 ## Two kinds of vendor
 

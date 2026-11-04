@@ -1,7 +1,6 @@
 ---
 import type { Product } from '../lib/catalog';
 import { startingPriceLabel } from '../lib/catalog';
-import { formatDate } from '../lib/dates';
 
 interface Props {
   product: Product;
@@ -29,10 +28,6 @@ const { data } = product;
     <div>
       <dt class="text-xs uppercase tracking-wide text-slate-500">Free plan</dt>
       <dd class="font-medium text-slate-900">{data.pricing.freePlan ? 'Yes' : 'No'}</dd>
-    </div>
-    <div>
-      <dt class="text-xs uppercase tracking-wide text-slate-500">Prices checked</dt>
-      <dd class="font-medium text-slate-900">{formatDate(data.pricing.verifiedAt)}</dd>
     </div>
   </dl>
 </li>

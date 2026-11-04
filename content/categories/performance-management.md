@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Nine products checked against vendor pages and sources linked in the text.
 ---
 
-A head of people at a 200-person company is told to replace spreadsheets and email threads before the next review season, and the first quote she asks for shows a $4,000 minimum annual agreement. Performance management software runs review cycles, tracks goals, and gives managers and employees a place to exchange feedback during the year. The nine products here each cover review cycles, goals or OKRs, and continuous feedback, and we checked every price on the vendor's own website on November 4, 2026. Each product page links to the pages we used.
+A head of people at a 200-person company is told to replace spreadsheets and email threads before the next review season, and the first quote she asks for shows a $4,000 minimum annual agreement. Performance management software runs review cycles, tracks goals, and gives managers and employees a place to exchange feedback during the year. The nine products here each cover review cycles, goals or OKRs, and continuous feedback, and we checked every price on the vendor's own website. Each product page links to the pages we used.
 
 Prices are in US dollars unless a vendor lists another currency. Several vendors price by location or by headcount band, so a quote for your country and team size can differ from the list prices below.
 

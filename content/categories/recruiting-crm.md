@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Nine products checked against vendor pages.
 ---
 
-A recruiting CRM keeps a database of people who are not applying today but might be hired tomorrow. Where an applicant tracking system follows a candidate through one opening, a recruiting CRM follows the person across years, through every job, email and conversation. The nine products on this page each hold a searchable pool of candidates, send automated or bulk email to keep those people warm, and connect to outside sources such as LinkedIn, job boards or a browser extension. We read every price and claim on the vendor's own website on November 4, 2026, and each product page links to the pages we used. Prices are in US dollars, and several vendors change what they show by company size or country.
+A recruiting CRM keeps a database of people who are not applying today but might be hired tomorrow. Where an applicant tracking system follows a candidate through one opening, a recruiting CRM follows the person across years, through every job, email and conversation. The nine products on this page each hold a searchable pool of candidates, send automated or bulk email to keep those people warm, and connect to outside sources such as LinkedIn, job boards or a browser extension. We read every price and claim on the vendor's own website, and each product page links to the pages we used. Prices are in US dollars, and several vendors change what they show by company size or country.
 
 ## How a recruiting CRM differs from an applicant tracking system
 

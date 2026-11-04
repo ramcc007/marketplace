@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Eight products checked against vendor pages and help centers.
 ---
 
-Employee engagement software sends surveys to staff, protects who said what, and shows managers how each team scored. The eight products on this page each run engagement surveys, offer anonymous or confidential feedback, and report results by team. We read the vendors' own pricing pages and help-center articles on November 4, 2026, and each product page links to the pages we used.
+Employee engagement software sends surveys to staff, protects who said what, and shows managers how each team scored. The eight products on this page each run engagement surveys, offer anonymous or confidential feedback, and report results by team. We read the vendors' own pricing pages and help-center articles, and each product page links to the pages we used.
 
 ## Why buyers look at these tools
 

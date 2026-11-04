@@ -9,7 +9,7 @@ updateLog:
     note: First draft. Nine products checked against vendor pages.
 ---
 
-An error tracker collects exceptions and crashes from a running application, adds the stack trace and context, groups repeats into one issue and tells someone when a new problem appears. The nine products on this page each capture exceptions with stack traces, group them and send alerts, and tie errors to releases. We read every price on the vendor's own website on November 4, 2026, and each product page links to the pages we used.
+An error tracker collects exceptions and crashes from a running application, adds the stack trace and context, groups repeats into one issue and tells someone when a new problem appears. The nine products on this page each capture exceptions with stack traces, group them and send alerts, and tie errors to releases. We read every price on the vendor's own website, and each product page links to the pages we used.
 
 Two well-known products are missing. Rollbar and Bugsnag both show a free plan on their pricing pages, but the paid plans displayed no dollar amounts when we fetched them, since their prices sit behind an event calculator. Airbrake publishes two sets of plan prices that its page does not label as monthly or annual, and its FAQ lists tiers that do not match its cards. We left all three out until a price can be read plainly.
 
