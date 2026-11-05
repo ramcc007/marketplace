@@ -17,7 +17,6 @@ const stats = [
   { value: String(productCount), label: 'products with prices checked' },
   { value: String(categories.length), label: 'software categories' },
   { value: String(departments.length), label: 'departments' },
-  { value: '0', label: 'reviews so far, none open yet' },
 ];
 
 const values = [
@@ -109,7 +108,7 @@ const jsonLd = [
   </section>
 
   <section class="bg-brand-700 text-white" aria-label="The site in numbers">
-    <dl class="mx-auto grid max-w-6xl grid-cols-2 gap-y-6 px-4 py-8 text-center sm:grid-cols-4">
+    <dl class="mx-auto grid max-w-6xl grid-cols-3 gap-y-6 px-4 py-8 text-center">
       {
         stats.map((s) => (
           <div class="px-2">
