@@ -7,7 +7,9 @@ import { getSiteIndex } from '../lib/site-index';
 // Narrow screens skip the panel and link straight to the full category list.
 const index = await getSiteIndex();
 const SHOWN = 4;
-const cards = departments.map((d) => {
+// Only departments that are open to search engines are listed; the rest join automatically when they open.
+const openDepartments = departments.filter((d) => index.departmentGates.get(d.slug)?.indexable);
+const cards = openDepartments.map((d) => {
   const top = d.categories
     .filter((c) => c.level === 'L1')
     .map((c, order) => ({ c, order, n: index.categories.get(c.slug)?.products.length ?? 0 }))
@@ -42,7 +44,7 @@ const cards = departments.map((d) => {
     data-mega-panel
   >
     <div class="flex items-center justify-between gap-4 border-b border-slate-100 bg-brand-50 px-6 py-3">
-      <p class="text-sm font-semibold text-brand-900">Browse {departments.length} departments</p>
+      <p class="text-sm font-semibold text-brand-900">Browse {openDepartments.length} departments</p>
       <a href="/categories" class="text-sm font-semibold text-brand-700 hover:underline">See every category</a>
     </div>
     <div class="max-h-[70vh] overflow-y-auto p-6">
