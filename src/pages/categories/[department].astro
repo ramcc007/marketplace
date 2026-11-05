@@ -5,6 +5,7 @@ import GateNote from '../../components/GateNote.astro';
 import { childrenOf, departments, getDepartment } from '../../lib/taxonomy';
 import { getSiteIndex } from '../../lib/site-index';
 import { breadcrumbList } from '../../lib/schema';
+import { render } from 'astro:content';
 
 export function getStaticPaths() {
   return departments.map((d) => ({ params: { department: d.slug } }));
@@ -13,6 +14,8 @@ export function getStaticPaths() {
 const dept = getDepartment(Astro.params.department!)!;
 const index = await getSiteIndex();
 const gate = index.departmentGates.get(dept.slug)!;
+const overview = index.departmentOverviews.get(dept.slug);
+const Overview = overview ? (await render(overview)).Content : null;
 const site = Astro.site ?? new URL(Astro.url.origin);
 const topLevel = dept.categories.filter((c) => c.level === 'L1');
 const productCount = (slug: string) => index.categories.get(slug)?.products.length ?? 0;
@@ -46,6 +49,14 @@ const crossDepartment = dept.categories.filter((c) => c.level === 'L2' && !topLe
 
   <div class="mx-auto max-w-6xl px-4 py-8">
     <GateNote gate={gate} />
+
+    {
+      Overview && (
+        <div class="editorial mb-10 max-w-3xl">
+          <Overview />
+        </div>
+      )
+    }
 
     <ul class="grid gap-4 md:grid-cols-2">
       {

@@ -19,9 +19,11 @@ export const GATE = {
   stalePricingDays: 180,
   /**
    * Launch phase, set by the site owner on 4 November 2026. Review collection has not opened and no product has
-   * screenshots yet, so neither can be required. Set both to true once they exist to restore the full rules.
+   * screenshots yet, so none of these can be required. While requireProductReviewsOrNote is off, a product page
+   * is indexed only if it sits in at least one category page that is itself indexed. Set all three to true once
+   * reviews and notes exist to restore the full rules.
    */
-  launch: { requireScreenshots: false, requireReviewsOrNotes: false },
+  launch: { requireScreenshots: false, requireReviewsOrNotes: false, requireProductReviewsOrNote: false },
 };
 
 export type LaunchRules = typeof GATE.launch;
@@ -99,9 +101,11 @@ export interface ProductGateInput {
   qualifiesForCategories: number;
   reviewCount: number;
   hasHandsOnNote: boolean;
+  /** Number of category pages that list this product and are indexed themselves. */
+  indexedCategories: number;
 }
 
-export function evaluateProduct(input: ProductGateInput): GateResult {
+export function evaluateProduct(input: ProductGateInput, launch: LaunchRules = GATE.launch): GateResult {
   const reasons: string[] = [];
   if (input.isDraft) reasons.push('Draft');
   if (!input.hasSummary) reasons.push('No summary written by us');
@@ -109,8 +113,12 @@ export function evaluateProduct(input: ProductGateInput): GateResult {
     reasons.push(`Prices last verified ${input.pricingAgeDays} days ago`);
   }
   if (input.qualifiesForCategories === 0) reasons.push('Does not meet the inclusion criteria of any category');
-  if (input.reviewCount < GATE.product.minReviews && !input.hasHandsOnNote) {
-    reasons.push(`${input.reviewCount} of ${GATE.product.minReviews} reviews and no hands-on note`);
+  if (launch.requireProductReviewsOrNote) {
+    if (input.reviewCount < GATE.product.minReviews && !input.hasHandsOnNote) {
+      reasons.push(`${input.reviewCount} of ${GATE.product.minReviews} reviews and no hands-on note`);
+    }
+  } else if (input.indexedCategories === 0) {
+    reasons.push('Not listed in any indexed category page');
   }
   return result(reasons);
 }

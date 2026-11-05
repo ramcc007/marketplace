@@ -95,6 +95,13 @@ export function loadEditorials(): EditorialFile[] {
     });
 }
 
+function departmentSignedOff(slug: string): boolean {
+  const file = join(process.cwd(), 'content', 'departments', `${slug}.md`);
+  if (!existsSync(file)) return false;
+  const { front } = parseFrontmatter(readFileSync(file, 'utf8'));
+  return Boolean(front.editor && front.signedOffAt);
+}
+
 function meetsInclusion(product: ProductFile, category: Category): boolean {
   const entry = product.data?.qualifies?.find((q: any) => q.category === category.slug);
   if (!entry) return false;
@@ -233,6 +240,7 @@ export function buildOverview(today = todayIso()): Overview {
       qualifiesForCategories: qualifiesFor,
       reviewCount: 0,
       hasHandsOnNote: Boolean(product.data.handsOnNote),
+      indexedCategories: categories.filter((c) => categoryIndexable.get(c.slug) && meetsInclusion(product, c)).length,
     });
     const facts = (product.data.facts ?? []).map((f: any) => f.text);
     const issues = checkProse([product.data.summary, product.data.handsOnNote, ...facts].filter(Boolean).join('\n\n'));
@@ -261,7 +269,7 @@ export function buildOverview(today = todayIso()): Overview {
   for (const [slug, cats] of departments) {
     const gate = evaluateDepartment({
       indexedCategories: cats.filter((c) => categoryIndexable.get(c.slug)).length,
-      hasOverview: false,
+      hasOverview: departmentSignedOff(slug),
     });
     pages.push({
       type: 'department',

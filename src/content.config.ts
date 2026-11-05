@@ -115,4 +115,17 @@ const categoryEditorial = defineCollection({
   }),
 });
 
-export const collections = { products, categoryEditorial };
+// One markdown file per department in content/departments, named by the department slug.
+// The page counts as written only after the editor signs it off (editor and signedOffAt both set).
+const departmentOverview = defineCollection({
+  loader: glob({ pattern: ['**/*.md', '!**/README.md'], base: './content/departments' }),
+  schema: z.object({
+    title: z.string().max(60),
+    description: z.string().max(160),
+    writer: z.string(),
+    editor: z.string().optional(),
+    signedOffAt: frontmatterDate.optional(),
+  }),
+});
+
+export const collections = { products, categoryEditorial, departmentOverview };

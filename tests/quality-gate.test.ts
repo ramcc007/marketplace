@@ -66,17 +66,31 @@ describe('evaluateProduct', () => {
     qualifiesForCategories: 1,
     reviewCount: 3,
     hasHandsOnNote: false,
+    indexedCategories: 1,
   };
+  const full = { ...GATE.launch, requireProductReviewsOrNote: true };
 
-  it('indexes a published product with reviews or a hands-on note', () => {
-    expect(evaluateProduct(product).indexable).toBe(true);
-    expect(evaluateProduct({ ...product, reviewCount: 0, hasHandsOnNote: true }).indexable).toBe(true);
+  it('indexes a published product with reviews or a hands-on note under the full rules', () => {
+    expect(evaluateProduct(product, full).indexable).toBe(true);
+    expect(evaluateProduct({ ...product, reviewCount: 0, hasHandsOnNote: true }, full).indexable).toBe(true);
   });
 
-  it('never indexes drafts, stale prices or products without reviews or notes', () => {
-    expect(evaluateProduct({ ...product, isDraft: true }).indexable).toBe(false);
-    expect(evaluateProduct({ ...product, pricingAgeDays: 181 }).indexable).toBe(false);
-    expect(evaluateProduct({ ...product, reviewCount: 2 }).indexable).toBe(false);
+  it('never indexes drafts, stale prices or products without reviews or notes under the full rules', () => {
+    expect(evaluateProduct({ ...product, isDraft: true }, full).indexable).toBe(false);
+    expect(evaluateProduct({ ...product, pricingAgeDays: 181 }, full).indexable).toBe(false);
+    expect(evaluateProduct({ ...product, reviewCount: 2 }, full).indexable).toBe(false);
+  });
+
+  it('does not ask for reviews or notes during the launch phase', () => {
+    expect(GATE.launch.requireProductReviewsOrNote).toBe(false);
+    expect(evaluateProduct({ ...product, reviewCount: 0 }).indexable).toBe(true);
+  });
+
+  it('during launch still needs fresh prices, a published profile and an indexed category', () => {
+    const none = { ...product, reviewCount: 0 };
+    expect(evaluateProduct({ ...none, isDraft: true }).indexable).toBe(false);
+    expect(evaluateProduct({ ...none, pricingAgeDays: 181 }).indexable).toBe(false);
+    expect(evaluateProduct({ ...none, indexedCategories: 0 }).indexable).toBe(false);
   });
 });
 

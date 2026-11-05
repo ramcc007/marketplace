@@ -24,6 +24,7 @@ export interface SiteIndex {
   products: Product[];
   categories: Map<string, CategoryData>;
   productGates: Map<string, GateResult>;
+  departmentOverviews: Map<string, CollectionEntry<'departmentOverview'>>;
   departmentGates: Map<string, GateResult>;
 }
 
@@ -93,21 +94,23 @@ async function build(): Promise<SiteIndex> {
         qualifiesForCategories: categories.filter((c) => meetsInclusion(product, c)).length,
         reviewCount: getReviewStats(product.id).count,
         hasHandsOnNote: Boolean(product.data.handsOnNote),
+        indexedCategories: [...categoryData.values()].filter((c) => c.gate.indexable && c.products.some((q) => q.id === product.id)).length,
       }),
     );
   }
 
+  const overviews = new Map((await getCollection('departmentOverview')).map((o) => [o.id, o]));
   const departmentGates = new Map<string, GateResult>();
   for (const dept of departments) {
     departmentGates.set(
       dept.slug,
       evaluateDepartment({
         indexedCategories: dept.categories.filter((c) => categoryData.get(c.slug)?.gate.indexable).length,
-        // Department overviews are not written yet.
-        hasOverview: false,
+        // An overview counts only once the editor has signed it off.
+        hasOverview: Boolean(overviews.get(dept.slug)?.data.editor && overviews.get(dept.slug)?.data.signedOffAt),
       }),
     );
   }
 
-  return { today, products, categories: categoryData, productGates, departmentGates };
+  return { today, products, categories: categoryData, productGates, departmentOverviews: overviews, departmentGates };
 }

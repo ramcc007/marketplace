@@ -84,6 +84,15 @@ const weights = [
         <li>Editorial copy that shares less than {g.maxSimilarity * 100}% of its phrasing with any other page on the site</li>
       </ul>
 
+      <h2 id="product-pages">When a product page opens</h2>
+      <p>
+        {
+          GATE.launch.requireProductReviewsOrNote
+            ? `A product page stays out of search results until it has at least ${GATE.product.minReviews} verified reviews or one of our own hands-on notes, a summary we wrote, and prices checked in the last ${GATE.stalePricingDays} days.`
+            : `A product page is open to search engines when it is published, has a summary we wrote, has prices checked in the last ${GATE.stalePricingDays} days, and appears in at least one category page that is itself open. Reviews and hands-on notes are not required yet, because review collection has not opened. A page with a hands-on note will say so; we write one only after using the product ourselves.`
+        }
+      </p>
+
       <h2 id="scores">How scores will work</h2>
       <p>
         No product has a score yet, because review collection has not opened. When scores arrive, each one will combine
