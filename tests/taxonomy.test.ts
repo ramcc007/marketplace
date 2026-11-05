@@ -65,3 +65,17 @@ describe('categoryTitle', () => {
     expect(categoryTitle(getCategory('webinar')!)).toBe('Webinar platforms');
   });
 });
+
+describe('category descriptions', () => {
+  it('gives every category one short, unique sentence', () => {
+    const seen = new Set<string>();
+    for (const c of categories) {
+      expect(c.description, c.slug).not.toBe('');
+      expect(c.description.length, c.slug).toBeLessThanOrEqual(90);
+      expect(c.description.endsWith('.'), c.slug).toBe(true);
+      expect(c.description.includes('—'), c.slug).toBe(false);
+      expect(seen.has(c.description), `${c.slug} repeats a description`).toBe(false);
+      seen.add(c.description);
+    }
+  });
+});

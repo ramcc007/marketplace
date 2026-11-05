@@ -1,4 +1,5 @@
 import raw from '../../data/taxonomy.csv?raw';
+import descriptionsRaw from '../../data/category-descriptions.json';
 
 export type Level = 'L1' | 'L2';
 export type Wave = 1 | 2 | 3;
@@ -11,6 +12,8 @@ export interface Category {
   name: string;
   parentSlug: string | null;
   aliases: string[];
+  /** One plain sentence on what the software does. Shown on department cards. */
+  description: string;
   mustHave: string[];
   wave: Wave;
 }
@@ -61,13 +64,16 @@ export function parseTaxonomy(text: string): Category[] {
       name,
       parentSlug: parentSlug || null,
       aliases: aliases ? aliases.split('|') : [],
+      description: '',
       mustHave: mustHave.split(';'),
       wave: waveNumber,
     };
   });
 }
 
-export const categories: Category[] = parseTaxonomy(raw);
+const descriptions = descriptionsRaw as Record<string, string>;
+
+export const categories: Category[] = parseTaxonomy(raw).map((c) => ({ ...c, description: descriptions[c.slug] ?? '' }));
 
 const bySlug = new Map(categories.map((c) => [c.slug, c]));
 
