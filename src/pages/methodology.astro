@@ -35,8 +35,8 @@ const weights = [
 ---
 
 <BaseLayout
-  title="How we rank and list software"
-  description="The inclusion rules, quality thresholds, score weights, price checks and review verification behind every page on this site."
+  title="How We Check Software Prices"
+  description="Where each price comes from, how often we re-check it, and what the page says when a price is out of date. Plus the rules for listing a product."
   path="/methodology"
   jsonLd={[breadcrumbList(crumbs, site)]}
 >
@@ -126,6 +126,12 @@ const weights = [
       <p>
         Costs outside the plan price are listed separately. Common examples are single sign-on offered only on the top
         plan, setup fees, minimum seat counts and annual-only billing.
+      </p>
+      <p>
+        Some vendors publish no price at all and only offer a quote or a demo. We still list them when their own pages
+        confirm the features a category requires. The page says the vendor only quotes, and we record nothing we could
+        not read on the vendor's site. The absence of a published price is noted on the page and counted in the value and
+        price clarity part of the score.
       </p>
 
       <h2 id="reviews">How reviews will be verified</h2>

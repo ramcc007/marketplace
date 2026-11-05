@@ -1,0 +1,42 @@
+{
+  "name": "Pebl",
+  "status": "published",
+  "vendor": { "name": "Pebl", "website": "https://www.hellopebl.com" },
+  "primaryCategory": "contractor-management",
+  "summary": "Pebl runs a contractor management platform for onboarding, contracts and payments across 180+ countries. Its pages describe 50 contract templates, invoice generation with worker approval, and 1099-NEC forms for US companies. No price is published, and the contractor page offers only contact and demo buttons.",
+  "qualifies": [
+    {
+      "category": "contractor-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "contractor onboarding and contracts", "sourceUrl": "https://hellopebl.com/platform/contractor-management/" },
+        { "capability": "invoices and payments", "sourceUrl": "https://hellopebl.com/platform/contractor-management/" },
+        { "capability": "compliance documents", "sourceUrl": "https://hellopebl.com/platform/contractor-management/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Pebl's contractor page says onboarding starts from a single email, with compliance validation controls, built-in background checks and e-signature.", "sourceUrl": "https://hellopebl.com/platform/contractor-management/", "checkedAt": "2026-11-05" },
+    { "text": "Pebl's contractor page says it provides 50 ready-to-use contract templates prepared by legal experts, with local tailoring.", "sourceUrl": "https://hellopebl.com/platform/contractor-management/", "checkedAt": "2026-11-05" },
+    { "text": "Pebl's contractor page says its platform computes contractor payables and generates invoices, and that workers can approve or deny invoices or raise a dispute in the app.", "sourceUrl": "https://hellopebl.com/platform/contractor-management/", "checkedAt": "2026-11-05" },
+    { "text": "Pebl's contractor page says it creates and delivers 1099-NEC forms for US-based companies, and that contractors can choose to withhold a percentage of their payments for taxes.", "sourceUrl": "https://hellopebl.com/platform/contractor-management/", "checkedAt": "2026-11-05" },
+    { "text": "Pebl's contractor page reports 4x faster onboarding, a 90% cut in admin hours for calculating worker pay and a 50% cut in administrative time for payments. These are the vendor's own figures and have not been checked against customer data.", "sourceUrl": "https://hellopebl.com/platform/contractor-management/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Contractor management", "priceUsd": null, "billing": "quote", "unit": "per contractor", "notes": "No price is published. The page offers 'Talk to us', 'Contact us', 'Get started' and 'Speak with an expert' buttons, and does not state a quote basis." }
+    ],
+    "hiddenCosts": [
+      "The page does not say whether the platform fee, payment fees or FX charges are separate from the quote."
+    ],
+    "sourceUrl": "https://hellopebl.com/platform/contractor-management/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

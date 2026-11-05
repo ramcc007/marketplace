@@ -2,6 +2,6 @@
 export const SITE = {
   name: 'B2BRated',
   description:
-    'Compare business software with sourced prices, published inclusion criteria and a public ranking method.',
+    'Compare business software pricing and features, with every price linked to the vendor page it came from.',
   locale: 'en_US',
 } as const;

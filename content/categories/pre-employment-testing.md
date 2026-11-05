@@ -8,7 +8,7 @@ updateLog:
   - date: 2026-11-05
     note: First draft. Four products checked against vendor pricing and product pages. Prices recorded as shown. Tools that did not show all three criteria are listed with the reason.
   - date: 2026-11-05
-    note: Second pass. Four products added, each checked on the vendor's own pages: Coderbyte, TestDome, Vervoe and HackerEarth. Vendors that publish no price are marked quote only. Page count is now eight.
+    note: Second pass. Four products added, each checked on the vendor's own pages (Coderbyte, TestDome, Vervoe and HackerEarth). Vendors that publish no price are marked quote only. Page count is now eight.
 ---
 
 Pre-employment testing software gives a hiring team a skills or aptitude test that candidates take before an interview, then scores the results so applicants can be compared. The tool sets the test, controls what a candidate can do while taking it, and produces a score that a reviewer reads. This page compares eight tools that meet all three inclusion criteria on the vendor's own pages.

@@ -1,0 +1,45 @@
+{
+  "name": "Ruul",
+  "status": "published",
+  "vendor": { "name": "Ruul", "website": "https://ruul.io" },
+  "primaryCategory": "contractor-management",
+  "summary": "Ruul pays contractors and freelancers and becomes the legal counterparty for each payment, so the business pays Ruul instead of the individual. Its business product collects contractor details, contracts and tax forms, and issues a business-ready invoice for each payment. The pricing page lists a 5.0% transaction commission, with bulk payouts covered by the business.",
+  "qualifies": [
+    {
+      "category": "contractor-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "contractor onboarding and contracts", "sourceUrl": "https://ruul.io/business/contractor-management" },
+        { "capability": "invoices and payments", "sourceUrl": "https://ruul.io/business/contractor-management" },
+        { "capability": "compliance documents", "sourceUrl": "https://ruul.io/business/contractor-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Ruul's contractor page says contractor details, contracts and supporting files can be stored under each contractor, with invoices, payments and documents kept together.", "sourceUrl": "https://ruul.io/business/contractor-management", "checkedAt": "2026-11-05" },
+    { "text": "Ruul's contractor page says it completes built-in KYC and AML checks when a contractor is added, and that tax forms are stored where available.", "sourceUrl": "https://ruul.io/business/contractor-management", "checkedAt": "2026-11-05" },
+    { "text": "Ruul's contractor page says contractor records can be exported from the dashboard, and that contractors can be added in bulk.", "sourceUrl": "https://ruul.io/business/contractor-management", "checkedAt": "2026-11-05" },
+    { "text": "Ruul's pricing page says that, for businesses, Ruul acts as the Agent of Record and the legal counterparty for each payment, and issues a business-ready invoice with the issuer details.", "sourceUrl": "https://ruul.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Ruul's pricing page says the business can pay one or several contractors in a single run, and that bulk payouts do not need a separate setting.", "sourceUrl": "https://ruul.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Ruul's pricing page says payouts are available in 190 countries and 140 currencies, and that contractors receive payouts within one business day.", "sourceUrl": "https://ruul.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Ruul's pricing page says freelancers and businesses in countries restricted under FATF guidelines are not supported, and that some regulated industries such as gambling are excluded.", "sourceUrl": "https://ruul.io/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Transaction commission", "priceUsd": null, "billing": "one_time", "unit": "per payment", "volumeFee": { "percent": 5, "basis": "Transaction commission on each payment, as listed on the pricing page" }, "notes": "Listed as a 5.0% transaction commission. For bulk payouts the commission is always covered by the business and cannot be passed on to the contractor." },
+      { "name": "Volume pricing", "priceUsd": null, "billing": "quote", "unit": "per monthly payout volume", "notes": "Volume-based rates are agreed on request. The request form asks for monthly payout ranges from under $10,000 to over $250,000." }
+    ],
+    "hiddenCosts": [
+      "The pricing page lists optional add-ons only when used: a payout fee of +1.5% for crypto withdrawals and a fee of +3.5% for Early Pay, which pays 30 days in advance."
+    ],
+    "sourceUrl": "https://ruul.io/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

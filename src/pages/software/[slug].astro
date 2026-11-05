@@ -30,6 +30,14 @@ const title = editorial?.data.title ?? categoryTitle(category);
 const description =
   editorial?.data.definition ??
   `${title} compared: what a product needs to be listed, which products qualify, and where their prices come from.`;
+// Search titles and descriptions follow the pattern buyers see on comparison sites. The edition year is 2027 by owner decision.
+const seoName = categoryTitle(category).replace(/ software$/, ' Software');
+// Longest form first. Google shows about 60 characters, so long category names fall back to a shorter ending.
+const seoTitle =
+  [`Best ${seoName} 2027: Pricing & Comparison`, `Best ${seoName} 2027: Pricing`, `Best ${seoName} 2027`].find((t) => t.length <= 60) ??
+  `${seoName} 2027`;
+const listDescription = `Compare ${products.length} ${category.name} tools by pricing, plans and features. Every price links to the vendor page it came from.`;
+const seoDescription = products.length > 0 && listDescription.length <= 160 ? listDescription : description;
 const Editorial = editorial ? (await render(editorial)).Content : null;
 const minProducts = category.level === 'L2' ? GATE.subcategory.minQualifyingProducts : GATE.category.minQualifyingProducts;
 const prices = priceSummary(products);
@@ -72,7 +80,7 @@ const toc = [
 ];
 ---
 
-<BaseLayout title={title} description={description} path={`/software/${category.slug}`} index={gate.indexable} jsonLd={jsonLd}>
+<BaseLayout title={seoTitle} description={seoDescription} path={`/software/${category.slug}`} index={gate.indexable} jsonLd={jsonLd}>
   <section class="hero-bg border-b border-slate-200">
     <div class="mx-auto max-w-6xl px-4 py-8 sm:py-10">
       <Breadcrumbs crumbs={crumbs} />
