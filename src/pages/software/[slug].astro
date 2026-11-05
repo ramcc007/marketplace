@@ -28,7 +28,7 @@ const site = Astro.site ?? new URL(Astro.url.origin);
 
 const title = editorial?.data.title ?? categoryTitle(category);
 // Other names buyers search for, minus ones that only repeat the title with a generic word swapped in.
-const GENERIC = /(software|tools?|platforms?|builders?|systems?|solutions?|apps?|management|manager|makers?)/g;
+const GENERIC = new RegExp("\\b(software|tools?|platforms?|builders?|systems?|solutions?|apps?|management|manager|makers?)\\b", 'g');
 const core = (text: string) => text.toLowerCase().replace(GENERIC, ' ').split(/\s+/).filter(Boolean).join(' ');
 const otherNames = category.aliases.filter((alias) => core(alias) !== core(category.name));
 const description =
