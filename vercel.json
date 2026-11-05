@@ -1,6 +1,7 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [{ "source": "/transparency", "destination": "/advertising-disclosure", "permanent": true }],
   "headers": [
     {
       "source": "/(.*)",

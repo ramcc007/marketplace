@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "GitHub, Inc.", "website": "https://github.com" },
   "primaryCategory": "ci-cd",
-  "summary": "GitHub Actions runs workflows from a repository on GitHub. Every plan includes a monthly dollar allowance for hosted runners, from $12 on Free to $300 on Enterprise Cloud, and a Linux 2-core runner costs $0.006 a minute after that. Self-hosted runners and public repositories cost nothing today.",
+  "summary": "GitHub Actions runs workflows from a repository on GitHub. Every plan includes a monthly dollar allowance for hosted runners, from $12 on Free to $300 on Enterprise Cloud, and a Linux 2-core runner costs $0.006 a minute after that. Self-hosted runners and public repositories cost nothing as of November 2026.",
   "qualifies": [
     {
       "category": "ci-cd",
@@ -36,7 +36,7 @@
     "hiddenCosts": [
       "Larger runners are billed even in public repositories.",
       "The allowance is in dollars, so minutes on macOS, Windows or larger runners use it up faster than Linux minutes.",
-      "Self-hosted runners are free today, but GitHub announced and then postponed a $0.002 per minute charge for them."
+      "Self-hosted runners were free as of November 2026, but GitHub announced and then postponed a $0.002 per minute charge for them."
     ],
     "sourceUrl": "https://docs.github.com/en/billing/managing-billing-for-your-products/about-billing-for-github-actions",
     "verifiedAt": "2026-11-04"
