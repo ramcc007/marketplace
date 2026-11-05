@@ -36,12 +36,25 @@ export function isLegalReady(owner: Owner): boolean {
 
 export const legalReady = isLegalReady(OWNER);
 
-/** Pages built from this file, in footer order. */
+/** Pages built from this file, listed in the sitemap. */
 export const LEGAL_PAGES = [
   { href: '/about', label: 'About us' },
   { href: '/contact', label: 'Contact and corrections' },
-  { href: '/privacy', label: 'Privacy' },
-  { href: '/terms', label: 'Terms of use' },
+  { href: '/privacy', label: 'Privacy policy' },
+  { href: '/cookies', label: 'Cookie policy' },
+  { href: '/content-policy', label: 'Content policy' },
+  { href: '/terms', label: 'Terms and conditions' },
   { href: '/advertising-disclosure', label: 'Advertising and sponsorship' },
   { href: '/review-guidelines', label: 'Review guidelines' },
 ] as const;
+
+/** Footer columns. */
+export const COMPANY_LINKS = [
+  { href: '/about', label: 'About us' },
+  { href: '/faq', label: 'FAQs' },
+  { href: '/methodology', label: 'How we rank' },
+  { href: '/vendors', label: 'Are you a vendor?' },
+  { href: '/contact', label: 'Contact' },
+] as const;
+
+export const FOOTER_LEGAL_LINKS = LEGAL_PAGES.filter((p) => !['/about', '/contact'].includes(p.href));

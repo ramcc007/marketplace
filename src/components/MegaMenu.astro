@@ -1,0 +1,120 @@
+---
+import { departments } from '../lib/taxonomy';
+
+// Broad groups on the left, the categories of the hovered group on the right. Built from the taxonomy,
+// so it follows the data. Narrow screens skip the panel and link straight to the full category list.
+const groups = departments.map((d) => ({
+  slug: d.slug,
+  name: d.name,
+  categories: d.categories.filter((c) => c.level === 'L1'),
+}));
+---
+
+<div class="relative" data-mega>
+  <a
+    href="/categories"
+    class="inline-flex min-h-10 items-center rounded-md px-3 text-sm font-medium text-slate-700 hover:bg-slate-100 hover:text-brand-800 lg:hidden"
+    >Software</a
+  >
+  <button
+    type="button"
+    class="hidden min-h-10 items-center gap-1 rounded-md px-3 text-sm font-medium text-slate-700 hover:bg-slate-100 hover:text-brand-800 lg:inline-flex"
+    aria-expanded="false"
+    aria-controls="mega-panel"
+    data-mega-button
+  >
+    Software
+    <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+  </button>
+
+  <div
+    id="mega-panel"
+    hidden
+    class="fixed left-1/2 top-[4rem] z-50 w-[min(64rem,94vw)] -translate-x-1/2 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-xl"
+    data-mega-panel
+  >
+    <div class="grid grid-cols-[16rem_1fr]">
+      <ul class="max-h-[26rem] overflow-y-auto border-r border-slate-100 bg-slate-50 p-2" role="list">
+        {
+          groups.map((g, i) => (
+            <li>
+              <button
+                type="button"
+                data-group={g.slug}
+                class="w-full rounded-md px-3 py-2 text-left text-sm text-slate-700 hover:bg-white aria-selected:bg-brand-700 aria-selected:font-semibold aria-selected:text-white"
+                aria-selected={i === 0 ? 'true' : 'false'}
+              >
+                {g.name}
+              </button>
+            </li>
+          ))
+        }
+      </ul>
+      <div class="max-h-[26rem] overflow-y-auto p-5">
+        {
+          groups.map((g, i) => (
+            <div data-group-panel={g.slug} hidden={i !== 0}>
+              <p class="mb-3 text-sm">
+                <a href={`/categories/${g.slug}`} class="font-semibold text-brand-700 hover:underline">All {g.name} software</a>
+              </p>
+              <ul class="grid gap-x-6 gap-y-0.5 text-sm sm:grid-cols-2" role="list">
+                {g.categories.map((c) => (
+                  <li>
+                    <a href={`/software/${c.slug}`} class="inline-block py-1 text-slate-700 hover:text-brand-700 hover:underline">
+                      {c.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-mega]');
+  if (root) {
+    const button = root.querySelector<HTMLButtonElement>('[data-mega-button]')!;
+    const panel = root.querySelector<HTMLElement>('[data-mega-panel]')!;
+    const groups = [...root.querySelectorAll<HTMLButtonElement>('[data-group]')];
+    const panels = [...root.querySelectorAll<HTMLElement>('[data-group-panel]')];
+    const hover = () => window.matchMedia('(hover: hover) and (min-width: 1024px)').matches;
+
+    const show = (slug: string) => {
+      for (const g of groups) g.setAttribute('aria-selected', String(g.dataset.group === slug));
+      for (const p of panels) p.hidden = p.dataset.groupPanel !== slug;
+    };
+    const setOpen = (open: boolean) => {
+      panel.hidden = !open;
+      button.setAttribute('aria-expanded', String(open));
+    };
+
+    // With a mouse the menu opens on hover, so a click must not close it again.
+    button.addEventListener('click', () => setOpen(hover() ? true : panel.hidden));
+    for (const g of groups) {
+      g.addEventListener('mouseenter', () => show(g.dataset.group!));
+      g.addEventListener('focus', () => show(g.dataset.group!));
+      g.addEventListener('click', () => show(g.dataset.group!));
+    }
+    let closeTimer: number | undefined;
+    root.addEventListener('mouseenter', () => {
+      window.clearTimeout(closeTimer);
+      if (hover()) setOpen(true);
+    });
+    root.addEventListener('mouseleave', () => {
+      if (hover()) closeTimer = window.setTimeout(() => setOpen(false), 250);
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !panel.hidden) {
+        setOpen(false);
+        button.focus();
+      }
+    });
+    document.addEventListener('click', (e) => {
+      if (!panel.hidden && !root.contains(e.target as Node)) setOpen(false);
+    });
+  }
+</script>

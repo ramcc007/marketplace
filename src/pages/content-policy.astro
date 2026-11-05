@@ -1,0 +1,48 @@
+---
+import LegalPage from '../layouts/LegalPage.astro';
+import Fill from '../components/Fill.astro';
+import { OWNER } from '../config/legal';
+---
+
+<LegalPage
+  title="Content policy"
+  description="What B2BRated publishes, what it will not publish, and how to ask us to correct or remove something."
+  path="/content-policy"
+>
+  <h2>What we publish</h2>
+  <p>
+    Category comparisons, product pages and guides written by us. Facts about a product, such as prices, plan limits
+    and contract terms, come from the vendor's own pages and link back to them. Our own commentary is labelled as ours.
+    The <a href="/methodology">methodology page</a> explains how we choose and check what goes on a page.
+  </p>
+
+  <h2>What we will not publish</h2>
+  <ul>
+    <li>Prices, features or claims we could not read on a public vendor page or in a written quote.</li>
+    <li>Invented reviews, ratings, customers or testimonials.</li>
+    <li>Paid placements that look like editorial content.</li>
+    <li>Copied text from vendors, review sites or other publishers.</li>
+    <li>Other people's private data, threats, harassment or hate speech.</li>
+  </ul>
+
+  <h2>Reviews and other user content</h2>
+  <p>
+    Reviews are not open yet. When they open, only signed-in users can write them, and every review must follow the
+    <a href="/review-guidelines">review guidelines</a>. We may remove content that breaks those rules, and we say why when
+    we do.
+  </p>
+
+  <h2>Report a problem</h2>
+  <p>
+    If something on the site is wrong, out of date or should not be there, write to
+    <Fill value={OWNER.email} label="contact email" /> with the page address and what is wrong. For a factual error,
+    include a link to a public page that shows the correct fact. We read every report, change what the evidence supports,
+    and tell you if we disagree. See the <a href="/contact">contact page</a> for the full process.
+  </p>
+
+  <h2>Use of our content</h2>
+  <p>
+    You may quote short passages with a link back to the page. Copying whole pages or republishing our comparisons is not
+    allowed without written permission. The <a href="/terms">terms</a> cover the details.
+  </p>
+</LegalPage>

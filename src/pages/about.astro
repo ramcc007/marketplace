@@ -6,45 +6,55 @@ import { OWNER } from '../config/legal';
 
 <LegalPage
   title="About us"
-  description="Who runs B2BRated, how the site is paid for and who signs off the pages."
+  description="B2BRated is a business software comparison site run by an individual. Here is what we aim to do, how pages are checked and how the site is paid for."
   path="/about"
 >
-  <h2>Who runs this site</h2>
+  <h2>Who we are</h2>
   <p>
-    B2BRated is run by <Fill value={OWNER.legalName} label="legal name" />, based in
-    <Fill value={OWNER.country} label="country" />. Postal address for legal notices:
+    B2BRated is a business software comparison site run by an individual, <Fill value={OWNER.legalName} label="legal name" />,
+    based in <Fill value={OWNER.country} label="country" />. Postal address for legal notices:
     <Fill value={OWNER.address} label="address" />. You can reach us at <Fill value={OWNER.email} label="contact email" />.
   </p>
 
-  <h2>What the site is for</h2>
+  <h2>What we are trying to do</h2>
   <p>
-    We compare business software by category. For each product we publish the plan prices, what each plan includes,
-    security and contract terms where the vendor states them, and a link to the vendor page each figure came from. The
-    <a href="/methodology">methodology page</a> explains how a product earns a place in a category.
+    Our goal is to make business software pricing and features something a buyer can check for themselves. Every price on
+    the site links to the vendor page it came from, so you can open the source and confirm the figure before you rely on
+    it. The same goes for features: a claim about what a plan includes should be traceable to something the vendor has
+    published, not to our say-so.
+  </p>
+
+  <h2>How a product earns a listing</h2>
+  <p>
+    Each category has a written capability list. A product is listed only when it meets that list, and we check each
+    point against the vendor's own documentation. The <a href="/methodology">methodology page</a> sets out the details.
+  </p>
+  <p>
+    Some vendors publish no price and only quote. We still list them when their own pages confirm the features, and we
+    mark them quote only. A missing price is not a reason to leave a good product out, but we will not guess one either.
   </p>
 
   <h2>Who writes and checks the pages</h2>
   <p>
-    Category pages are drafted with AI assistance and checked against the vendors' own pages. Each page will be signed
-    off by <Fill value={OWNER.editor} label="editor name" /> before it is treated as final. A sign-off means the editor
-    approved the inclusion criteria and the copy. It does not mean the editor has used every product.
+    Category pages are drafted with AI assistance and checked against vendors' own pages. They are then signed off by
+    <Fill value={OWNER.editor} label="editor name" />, who approves the inclusion criteria and the copy. A sign-off does
+    not mean the editor has used every product. It means the editor has read the criteria and the copy and agrees that
+    they say what the vendors' pages support.
   </p>
 
   <h2>How the site is paid for</h2>
   <p>
-    Today the owner pays for it and it earns nothing. No vendor pays us, and there are no affiliate links or ads. We
-    expect to charge vendors for tools such as claimed profiles, lead requests and clearly labelled sponsored
-    placements. We will describe each paid product on the <a href="/advertising-disclosure">advertising and
-    sponsorship page</a> before the first payment, and the rules on that page will apply from the start.
+    Today the owner pays for the site and it earns nothing. No vendor pays us, and there are no affiliate links or ads.
+    Later we may charge vendors for tools such as claimed profiles, lead requests and clearly labelled sponsored
+    placements. Payment will never change a product's score or its place in the organic order. We will describe each paid
+    product on the <a href="/advertising-disclosure">advertising and sponsorship page</a> before the first payment.
   </p>
 
-  <h2>Reviews</h2>
+  <h2>Reviews and corrections</h2>
   <p>
-    Review collection has not opened. There are no reviews on the site and no scores. When reviews open, the
+    Reviews and user accounts are not open yet. When reviews open, only signed-in users can write them, and the
     <a href="/review-guidelines">review guidelines</a> apply.
   </p>
-
-  <h2>Mistakes</h2>
   <p>
     If something on a page is wrong, tell us on the <a href="/contact">contact page</a> and include a link to a public
     page that shows the correct fact.

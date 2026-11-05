@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { breadcrumbList } from '../lib/schema';
+import { OWNER } from '../config/legal';
+
+const site = Astro.site ?? new URL(Astro.url.origin);
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Vendors', path: '/vendors' },
+];
+const today = [
+  {
+    title: 'Get listed on the same terms as everyone',
+    text: 'A product appears in a category when it meets that category’s written capability list, checked against your own public documentation. There is no fee and no application form. If your product meets the list, it can be added.',
+  },
+  {
+    title: 'Correct a mistake',
+    text: 'If a price, limit or term on your product page is wrong, send us the page address and a link to a public page that shows the right fact. We check it and change the page if the evidence supports it.',
+  },
+  {
+    title: 'Be listed when you only quote',
+    text: 'Products with no public price are still listed when their own pages confirm the required features. The page says the vendor only quotes.',
+  },
+];
+const later = [
+  'Claim and maintain your profile',
+  'Reply publicly to reviews and flag a review with a reason',
+  'Receive lead requests from buyers who choose you',
+  'Clearly labelled sponsored placements',
+];
+---
+
+<BaseLayout
+  title="For Software Vendors"
+  description="How software vendors get listed on B2BRated, how to correct a page, and what we will and will not sell. Payment never changes a score or ranking."
+  path="/vendors"
+  jsonLd={[breadcrumbList(crumbs, site)]}
+>
+  <section class="hero-bg border-b border-slate-200">
+    <div class="mx-auto max-w-4xl px-4 py-12 sm:py-16">
+      <Breadcrumbs crumbs={crumbs} />
+      <h1 class="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Are you a software vendor?</h1>
+      <p class="mt-4 max-w-2xl text-lg leading-relaxed text-slate-600">
+        Buyers use B2BRated to compare plans, prices and terms before they talk to a salesperson. Here is what you can do
+        today, what we plan to offer, and the rule that holds for both: money never changes a score or a ranking.
+      </p>
+    </div>
+  </section>
+
+  <div class="mx-auto max-w-4xl px-4 py-10">
+    <h2 class="text-2xl font-bold tracking-tight text-slate-900">What you can do today</h2>
+    <div class="mt-5 grid gap-5 md:grid-cols-3">
+      {
+        today.map((item) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-5 shadow-card">
+            <h3 class="font-semibold text-slate-900">{item.title}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-slate-600">{item.text}</p>
+          </div>
+        ))
+      }
+    </div>
+    <p class="mt-6">
+      Write to <a href={`mailto:${OWNER.email}`} class="font-semibold text-brand-700 underline">{OWNER.email}</a> or use the
+      <a href="/contact" class="font-semibold text-brand-700 underline">contact page</a>. No vendor pays us today.
+    </p>
+
+    <h2 class="mt-12 text-2xl font-bold tracking-tight text-slate-900">What we plan to offer</h2>
+    <p class="mt-2 max-w-2xl text-slate-600">None of this is open yet, and vendor accounts need user accounts, which are coming soon too.</p>
+    <ul class="mt-4 grid gap-2 sm:grid-cols-2">
+      {
+        later.map((item) => (
+          <li class="flex items-center gap-3 rounded-lg border border-slate-200 bg-white px-4 py-3 text-slate-700">
+            <span class="flex-none rounded-full bg-slate-100 px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-wide text-slate-500">Soon</span>
+            {item}
+          </li>
+        ))
+      }
+    </ul>
+
+    <h2 class="mt-12 text-2xl font-bold tracking-tight text-slate-900">The rules that do not change</h2>
+    <ul class="mt-4 list-disc space-y-2 pl-5 text-slate-700">
+      <li>Payment never changes a product’s score, its place in the ranked list, or whether it is listed.</li>
+      <li>Sponsored placements sit in a separate block marked as sponsored, never mixed into the ranked list.</li>
+      <li>You can reply to reviews and flag them. You cannot delete them.</li>
+      <li>We do not accept payment for reviews or for a particular rating.</li>
+    </ul>
+    <p class="mt-4">
+      The full list is on the <a href="/advertising-disclosure" class="font-semibold text-brand-700 underline">advertising and sponsorship page</a>,
+      and the inclusion rules are on <a href="/methodology" class="font-semibold text-brand-700 underline">how we rank</a>.
+    </p>
+  </div>
+</BaseLayout>

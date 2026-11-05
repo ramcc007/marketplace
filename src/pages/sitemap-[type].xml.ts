@@ -16,7 +16,7 @@ export const GET: APIRoute = async ({ params, site }) => {
 
   switch (params.type) {
     case 'pages':
-      entries = ['/', '/categories', '/methodology', '/transparency', ...(legalReady ? LEGAL_PAGES.map((p) => p.href) : [])].map(
+      entries = ['/', '/categories', '/methodology', '/faq', '/vendors', ...(legalReady ? LEGAL_PAGES.map((p) => p.href) : [])].map(
         (p) => ({ loc: url(p) }),
       );
       break;

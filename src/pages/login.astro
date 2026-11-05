@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const field = 'mt-1.5 min-h-12 w-full rounded-lg border border-slate-300 bg-slate-50 px-4 text-base text-slate-500';
+---
+
+<BaseLayout
+  title="Log in"
+  description="Log in to your B2BRated account to write and manage reviews. Accounts are not open yet."
+  path="/login"
+  index={false}
+>
+  <div class="mx-auto max-w-md px-4 py-14">
+    <h1 class="text-3xl font-bold tracking-tight text-slate-900">Log in</h1>
+    <p class="mt-3 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">
+      Accounts are not open yet. This page shows what logging in will look like. You do not need an account to read the
+      site.
+    </p>
+
+    <form class="mt-6" aria-disabled="true" onsubmit="return false">
+      <fieldset disabled class="space-y-4">
+        <div>
+          <label for="l-email" class="block text-sm font-medium text-slate-700">Email</label>
+          <input id="l-email" type="email" class={field} />
+        </div>
+        <div>
+          <label for="l-pass" class="block text-sm font-medium text-slate-700">Password</label>
+          <input id="l-pass" type="password" class={field} />
+        </div>
+        <button type="button" class="min-h-12 w-full rounded-lg bg-slate-300 px-5 font-semibold text-white">Log in (coming soon)</button>
+      </fieldset>
+    </form>
+
+    <p class="mt-6 text-sm text-slate-600">
+      New here? <a href="/register" class="font-semibold text-brand-700 underline">Register</a>.
+    </p>
+  </div>
+</BaseLayout>

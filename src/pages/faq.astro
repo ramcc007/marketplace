@@ -1,0 +1,99 @@
+---
+import LegalPage from '../layouts/LegalPage.astro';
+---
+
+<LegalPage
+  title="Frequently asked questions"
+  description="Short answers on what B2BRated is, where prices come from, how products are listed, whether vendors pay us, and how to report a mistake."
+  path="/faq"
+>
+  <div class="space-y-3">
+    <details class="rounded-lg border border-slate-200 bg-white px-4 py-3">
+      <summary class="cursor-pointer font-semibold">What is B2BRated?</summary>
+      <p class="mt-3">
+        B2BRated compares business software by category. For each product we show plan prices, what each plan includes,
+        and a link to the vendor page each price came from. The <a href="/about">about page</a> says who runs the site,
+        and the <a href="/categories">categories page</a> lists what we cover.
+      </p>
+    </details>
+
+    <details class="rounded-lg border border-slate-200 bg-white px-4 py-3">
+      <summary class="cursor-pointer font-semibold">Where do the prices come from?</summary>
+      <p class="mt-3">
+        Each price comes from the vendor's public pricing page or from a written quote, and the page links to its
+        source. We plan to check every price again within 90 days. If a price goes 180 days without a new check, the
+        page flags it as old next to the figure. The <a href="/methodology">methodology page</a> has the detail.
+      </p>
+    </details>
+
+    <details class="rounded-lg border border-slate-200 bg-white px-4 py-3">
+      <summary class="cursor-pointer font-semibold">How does a product get listed?</summary>
+      <p class="mt-3">
+        Each category has a short written list of capabilities. A product is listed only when its own vendor
+        documentation confirms them. Nobody can pay to be listed, and nobody can skip a requirement. The rules are on
+        the <a href="/methodology">methodology page</a>.
+      </p>
+    </details>
+
+    <details class="rounded-lg border border-slate-200 bg-white px-4 py-3">
+      <summary class="cursor-pointer font-semibold">Do vendors pay you?</summary>
+      <p class="mt-3">
+        Not today. The site has no affiliate links and no ads. We may later charge vendors for claimed profiles, lead
+        requests and clearly labelled sponsored placements. Payment never changes a score or the organic order. See the
+        <a href="/advertising-disclosure">advertising and sponsorship page</a>.
+      </p>
+    </details>
+
+    <details class="rounded-lg border border-slate-200 bg-white px-4 py-3">
+      <summary class="cursor-pointer font-semibold">Why do some products show no price?</summary>
+      <p class="mt-3">
+        Some vendors publish no price and only offer a quote or a demo. We still list them when their own pages confirm
+        the features a category requires, and we mark them quote only. We record nothing we could not read on the
+        vendor's site.
+      </p>
+    </details>
+
+    <details class="rounded-lg border border-slate-200 bg-white px-4 py-3">
+      <summary class="cursor-pointer font-semibold">Are there reviews and scores?</summary>
+      <p class="mt-3">
+        Not yet. Reviews have not opened, so there are none on the site and no scores. When they open, only signed-in
+        users can write a review, and the <a href="/review-guidelines">review guidelines</a> apply to every one.
+      </p>
+    </details>
+
+    <details class="rounded-lg border border-slate-200 bg-white px-4 py-3">
+      <summary class="cursor-pointer font-semibold">Do I need an account or cookies to use the site?</summary>
+      <p class="mt-3">
+        No account is needed to read any page. Register and Log in are coming soon. The site sets no tracking or
+        advertising cookies today. Details are on the <a href="/cookies">cookies page</a>, and the
+        <a href="/privacy">privacy page</a> covers the data we handle.
+      </p>
+    </details>
+
+    <details class="rounded-lg border border-slate-200 bg-white px-4 py-3">
+      <summary class="cursor-pointer font-semibold">Who writes the pages?</summary>
+      <p class="mt-3">
+        Category pages are drafted with AI assistance and checked against the vendors' own pages. The editor, Ram C,
+        signs them off and approves the criteria and the copy. A sign-off does not mean he has used every product. Read
+        more on the <a href="/about">about page</a>.
+      </p>
+    </details>
+
+    <details class="rounded-lg border border-slate-200 bg-white px-4 py-3">
+      <summary class="cursor-pointer font-semibold">What if something on a page is wrong?</summary>
+      <p class="mt-3">
+        Tell us on the <a href="/contact">contact page</a> and include a link to a public page that shows the correct
+        fact. You can also email <a href="mailto:support@b2brated.com">support@b2brated.com</a>. A public source lets
+        us check the fix quickly.
+      </p>
+    </details>
+
+    <details class="rounded-lg border border-slate-200 bg-white px-4 py-3">
+      <summary class="cursor-pointer font-semibold">What can vendors do on the site?</summary>
+      <p class="mt-3">
+        The <a href="/vendors">vendors page</a> explains what a vendor can and cannot do. Paid features are not open
+        yet. Our <a href="/terms">terms</a> apply to everyone who uses the site, vendors included.
+      </p>
+    </details>
+  </div>
+</LegalPage>

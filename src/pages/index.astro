@@ -3,7 +3,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { SITE } from '../config/site';
 import { categories, departments } from '../lib/taxonomy';
 import { getSiteIndex } from '../lib/site-index';
-import { fromPhrase, startingMonthlyUsd, startingPriceLabel } from '../lib/catalog';
 
 const site = Astro.site ?? new URL(Astro.url.origin);
 const index = await getSiteIndex();
@@ -11,43 +10,36 @@ const index = await getSiteIndex();
 const withProducts = [...index.categories.values()]
   .filter((c) => c.products.length > 0)
   .sort((a, b) => b.products.length - a.products.length || a.category.name.localeCompare(b.category.name));
-const openCount = [...index.categories.values()].filter((c) => c.gate.indexable).length;
+const popular = withProducts.slice(0, 12);
+const productCount = index.products.filter((p) => p.data.status === 'published').length;
 
-// A sample of real published prices, one product per category so the list shows range rather than one niche.
-const seenCategories = new Set<string>();
-const sample = withProducts
-  .flatMap((c) => c.products.slice(0, 1))
-  .filter((p) => startingMonthlyUsd(p) !== null)
-  .filter((p) => {
-    if (seenCategories.has(p.data.primaryCategory)) return false;
-    seenCategories.add(p.data.primaryCategory);
-    return true;
-  })
-  .slice(0, 6);
+const stats = [
+  { value: String(productCount), label: 'products with prices checked' },
+  { value: String(categories.length), label: 'software categories' },
+  { value: String(departments.length), label: 'departments' },
+  { value: '0', label: 'reviews so far, none open yet' },
+];
 
-// A real product, used to show how every price on the site is presented.
-const example = index.products.find((p) => p.id === 'clockify') ?? index.products[0];
-const exampleCategory = example ? categories.find((c) => c.slug === example.data.primaryCategory) : undefined;
-
-const principles = [
+const values = [
   {
-    title: 'Every price has a source',
-    text: 'Each price links to the vendor page it came from. Costs that sit outside the plan price, such as single sign-on kept for the top plan, are listed next to it.',
+    title: 'Prices you can check',
+    text: 'Every price links to the vendor page it came from, with costs outside the plan price listed beside it.',
     href: '/methodology#prices',
+    cta: 'How prices are checked',
   },
   {
-    title: 'Written rules for who gets listed',
-    text: 'Each category lists the capabilities a product needs. We check each one against the vendor’s own documentation and keep the page we used.',
+    title: 'Written rules for listing',
+    text: 'Each category has a short capability list. A product appears only when its own documentation meets it.',
     href: '/methodology#inclusion',
+    cta: 'How products are listed',
   },
   {
     title: 'No paid rankings',
-    text: 'No vendor pays us today. If that changes, each paid relationship will be named on the pages it touches, and payment will not move a product up a list.',
-    href: '/transparency',
+    text: 'No vendor pays us today. If that changes, paid relationships will be named, and money will not move a product up a list.',
+    href: '/advertising-disclosure',
+    cta: 'Read the rules',
   },
 ];
-
-const popular = withProducts.slice(0, 6).map((c) => c.category);
 
 const jsonLd = [
   {
@@ -74,143 +66,95 @@ const jsonLd = [
   jsonLd={jsonLd}
 >
   <section class="hero-bg border-b border-slate-200">
-    <div class="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:py-20 lg:grid-cols-[1.15fr_1fr] lg:items-center">
+    <div class="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:py-20 lg:grid-cols-[1.1fr_1fr] lg:items-center">
       <div>
-        <p class="text-sm font-semibold uppercase tracking-wider text-brand-700">Business software, compared</p>
-        <h1 class="mt-3 text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">
-          Software prices you can check for yourself
-        </h1>
+        <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl">Find the right software for your business</h1>
         <p class="mt-5 max-w-xl text-lg leading-relaxed text-slate-600">
-          Every price here links to the vendor page it came from. A product is listed only
-          when it meets the written rules for its category. Nobody pays to be listed or ranked.
+          Compare plans, pricing and features across {categories.length} software categories. Every price links to the
+          vendor page it came from.
         </p>
 
         <form action="/categories" method="get" role="search" class="mt-8 max-w-xl">
-          <label for="home-search" class="block text-sm font-medium text-slate-700">Find a category</label>
-          <div class="mt-1.5 flex gap-2">
+          <label for="home-search" class="sr-only">Search categories</label>
+          <div class="flex gap-2">
             <input
               id="home-search"
               name="q"
               type="search"
               autocomplete="off"
-              placeholder="Payroll, password manager, help desk"
+              placeholder="Search a category, for example payroll or help desk"
               class="min-h-12 w-full rounded-lg border border-slate-300 bg-white px-4 text-base shadow-sm placeholder:text-slate-400 focus:border-brand-700 focus:outline-none"
             />
-            <button type="submit" class="min-h-12 rounded-lg bg-brand-700 px-5 font-semibold text-white hover:bg-brand-800">Search</button>
+            <button type="submit" class="min-h-12 rounded-lg bg-brand-700 px-6 font-semibold text-white hover:bg-brand-800">Search</button>
           </div>
         </form>
-        <p class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-slate-600">
-          <span>Already checked:</span>
-          {
-            popular.map((c) => (
-              <a href={`/software/${c.slug}`} class="font-medium text-brand-700 underline underline-offset-2 hover:text-brand-900">
-                {c.name}
-              </a>
-            ))
-          }
-        </p>
       </div>
 
-      {
-        example && (
-          <figure class="rounded-2xl border border-slate-200 bg-white p-6 shadow-card">
-            <figcaption class="text-xs font-semibold uppercase tracking-wider text-slate-500">How every price is shown</figcaption>
-            <p class="mt-3 text-xl font-semibold text-slate-900">{example.data.name}</p>
-            <p class="text-sm text-slate-500">By {example.data.vendor.name}</p>
-            <p class="mt-4 text-3xl font-bold tracking-tight text-slate-900">{startingPriceLabel(example)}</p>
-            <ul class="mt-4 space-y-2 border-t border-slate-100 pt-4 text-sm text-slate-700">
-              <li class="flex gap-2">
-                <span aria-hidden="true" class="font-bold text-brand-700">&#10003;</span>
-                <span>
-                  Read from <a href={example.data.pricing.sourceUrl} rel="nofollow noopener" class="text-brand-700 underline">the vendor's pricing page</a>
-                </span>
+      <div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-card">
+        <p class="text-sm font-semibold text-slate-900">Browse by department</p>
+        <ul class="mt-4 grid grid-cols-2 gap-2">
+          {
+            departments.slice(0, 8).map((dept) => (
+              <li>
+                <a href={`/categories/${dept.slug}`} class="block rounded-lg border border-slate-200 px-3 py-2.5 text-sm font-medium text-slate-800 hover:border-brand-700 hover:text-brand-800">
+                  {dept.name}
+                </a>
               </li>
-              <li class="flex gap-2">
-                <span aria-hidden="true" class="font-bold text-brand-700">&#10003;</span>
-                <span>
-                  {example.data.pricing.hiddenCosts.length > 0
-                    ? `${example.data.pricing.hiddenCosts.length} cost${example.data.pricing.hiddenCosts.length === 1 ? '' : 's'} outside the plan price listed`
-                    : 'Costs outside the plan price listed when there are any'}
-                </span>
-              </li>
-            </ul>
-            <p class="mt-4 text-sm">
-              <a href={`/products/${example.id}`} class="font-medium text-brand-700 hover:underline">See the full {example.data.name} page</a>
-              {exampleCategory && (
-                <>
-                  {' '}or <a href={`/software/${exampleCategory.slug}`} class="font-medium text-brand-700 hover:underline">compare {exampleCategory.name.toLowerCase()} products</a>
-                </>
-              )}
-            </p>
-          </figure>
-        )
-      }
+            ))
+          }
+        </ul>
+        <a href="/categories" class="mt-4 inline-block text-sm font-semibold text-brand-700 hover:underline">See all {departments.length} departments</a>
+      </div>
     </div>
   </section>
 
-  <section class="border-b border-slate-200 bg-white">
-    <dl class="mx-auto grid max-w-6xl grid-cols-3 divide-x divide-slate-200 px-4 py-6 text-center sm:py-8">
-      <div class="px-2">
-        <dd class="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">{index.products.length}</dd>
-        <dt class="mt-1 text-xs text-slate-500 sm:text-sm">products with pricing checked</dt>
-      </div>
-      <div class="px-2">
-        <dd class="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">{withProducts.length}</dd>
-        <dt class="mt-1 text-xs text-slate-500 sm:text-sm">categories with products checked</dt>
-      </div>
-      <div class="px-2">
-        <dd class="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">{categories.length}</dd>
-        <dt class="mt-1 text-xs text-slate-500 sm:text-sm">categories planned in {departments.length} departments</dt>
-      </div>
+  <section class="bg-brand-700 text-white" aria-label="The site in numbers">
+    <dl class="mx-auto grid max-w-6xl grid-cols-2 gap-y-6 px-4 py-8 text-center sm:grid-cols-4">
+      {
+        stats.map((s) => (
+          <div class="px-2">
+            <dd class="text-3xl font-bold tracking-tight sm:text-4xl">{s.value}</dd>
+            <dt class="mt-1 text-sm text-brand-50">{s.label}</dt>
+          </div>
+        ))
+      }
     </dl>
   </section>
 
-  <section class="mx-auto max-w-6xl px-4 py-14" aria-labelledby="checked">
-    <div class="flex flex-wrap items-end justify-between gap-3">
-      <div>
-        <h2 id="checked" class="text-2xl font-bold tracking-tight text-slate-900">Categories with products checked</h2>
-        <p class="mt-1 max-w-2xl text-slate-600">Open one to compare plans, prices and what each vendor does not say up front.</p>
-      </div>
-      <a href="/categories" class="text-sm font-semibold text-brand-700 hover:underline">All {categories.length} categories</a>
-    </div>
-    <ul class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+  <section class="mx-auto max-w-6xl px-4 py-14" aria-labelledby="values">
+    <h2 id="values" class="text-center text-2xl font-bold tracking-tight text-slate-900">Why B2BRated</h2>
+    <div class="mt-8 grid gap-5 md:grid-cols-3">
       {
-        withProducts.slice(0, 12).map((c) => (
-          <li>
-            <a
-              href={`/software/${c.category.slug}`}
-              class="flex items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3.5 shadow-card transition hover:border-brand-700"
-            >
-              <span>
-                <span class="block font-semibold text-slate-900">{c.category.name}</span>
-                <span class="block text-xs text-slate-500">{c.category.department}</span>
-              </span>
-              <span class="flex-none rounded-full bg-brand-50 px-2.5 py-1 text-xs font-semibold text-brand-800">{c.products.length} products</span>
-            </a>
-          </li>
+        values.map((v) => (
+          <div class="rounded-xl border border-slate-200 bg-white p-6 text-center shadow-card">
+            <h3 class="text-lg font-semibold text-slate-900">{v.title}</h3>
+            <p class="mt-2 leading-relaxed text-slate-600">{v.text}</p>
+            <a href={v.href} class="mt-4 inline-block text-sm font-semibold text-brand-700 hover:underline">{v.cta}</a>
+          </div>
         ))
       }
-    </ul>
+    </div>
   </section>
 
-  <section class="border-y border-slate-200 bg-slate-50" aria-labelledby="recent">
+  <section class="border-y border-slate-200 bg-slate-50" aria-labelledby="departments">
     <div class="mx-auto max-w-6xl px-4 py-14">
-      <h2 id="recent" class="text-2xl font-bold tracking-tight text-slate-900">A few of the prices we have checked</h2>
-      <p class="mt-1 max-w-2xl text-slate-600">
-        One product from each of six categories, with the starting price from its own pricing page.
-      </p>
-      <ul class="mt-6 divide-y divide-slate-200 overflow-hidden rounded-xl border border-slate-200 bg-white">
+      <div class="flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <h2 id="departments" class="text-2xl font-bold tracking-tight text-slate-900">Software for every team</h2>
+          <p class="mt-1 max-w-2xl text-slate-600">Start from the team that will use the tool, then narrow to a category.</p>
+        </div>
+        <a href="/categories" class="text-sm font-semibold text-brand-700 hover:underline">All {categories.length} categories</a>
+      </div>
+      <ul class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {
-          sample.map((p) => (
+          departments.map((dept) => (
             <li>
-              <a href={`/products/${p.id}`} class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 px-4 py-3.5 hover:bg-slate-50">
-                <span>
-                  <span class="font-semibold text-slate-900">{p.data.name}</span>
-                  <span class="ml-2 text-sm text-slate-500">{categories.find((c) => c.slug === p.data.primaryCategory)?.name}</span>
-                </span>
-                <span class="text-sm text-slate-600">
-                  {fromPhrase(p)}
-                </span>
+              <a
+                href={`/categories/${dept.slug}`}
+                class="flex items-baseline justify-between rounded-lg border border-slate-200 bg-white px-4 py-3 hover:border-brand-700"
+              >
+                <span class="font-medium text-slate-900">{dept.name}</span>
+                <span class="text-sm text-slate-500">{dept.categories.length} categories</span>
               </a>
             </li>
           ))
@@ -219,53 +163,33 @@ const jsonLd = [
     </div>
   </section>
 
-  <section class="mx-auto max-w-6xl px-4 py-14" aria-labelledby="how">
-    <h2 id="how" class="text-2xl font-bold tracking-tight text-slate-900">How we work</h2>
-    <div class="mt-6 grid gap-5 md:grid-cols-3">
+  <section class="mx-auto max-w-6xl px-4 py-14" aria-labelledby="popular">
+    <h2 id="popular" class="text-2xl font-bold tracking-tight text-slate-900">Popular categories</h2>
+    <p class="mt-1 max-w-2xl text-slate-600">The categories where we have checked the most products.</p>
+    <ul class="mt-6 flex flex-wrap gap-3">
       {
-        principles.map((p) => (
-          <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-card">
-            <h3 class="text-lg font-semibold text-slate-900">{p.title}</h3>
-            <p class="mt-2 leading-relaxed text-slate-600">{p.text}</p>
-            <a href={p.href} class="mt-4 inline-block text-sm font-semibold text-brand-700 hover:underline">Read the detail</a>
-          </div>
-        ))
-      }
-    </div>
-  </section>
-
-  <section class="border-y border-slate-200 bg-slate-900 text-slate-200" aria-labelledby="status">
-    <div class="mx-auto max-w-6xl px-4 py-12">
-      <h2 id="status" class="text-2xl font-bold tracking-tight text-white">Where the site stands today</h2>
-      <ul class="mt-5 grid gap-x-10 gap-y-3 sm:grid-cols-2">
-        <li class="leading-relaxed"><span class="font-semibold text-white">Reviews:</span> not open yet, so there are none to show.</li>
-        <li class="leading-relaxed"><span class="font-semibold text-white">Rankings:</span> not shown yet. Lists are alphabetical until verified reviews exist.</li>
-        <li class="leading-relaxed">
-          <span class="font-semibold text-white">Search engines:</span> {openCount} of {categories.length} category pages meet our publishing
-          thresholds. The rest are open to read, and we ask search engines to skip them for now.
-        </li>
-        <li class="leading-relaxed"><span class="font-semibold text-white">Payment:</span> no vendor pays us anything.</li>
-      </ul>
-      <p class="mt-6 text-sm"><a href="/transparency" class="font-semibold text-brand-100 underline underline-offset-2 hover:text-white">See the numbers and our rules</a></p>
-    </div>
-  </section>
-
-  <section class="mx-auto max-w-6xl px-4 py-14" aria-labelledby="departments">
-    <h2 id="departments" class="text-2xl font-bold tracking-tight text-slate-900">Browse by department</h2>
-    <ul class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-      {
-        departments.map((dept) => (
+        popular.map((c) => (
           <li>
             <a
-              href={`/categories/${dept.slug}`}
-              class="flex items-baseline justify-between rounded-lg border border-slate-200 bg-white px-4 py-3 hover:border-brand-700"
+              href={`/software/${c.category.slug}`}
+              class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-800 shadow-card hover:border-brand-700 hover:text-brand-800"
             >
-              <span class="font-medium text-slate-900">{dept.name}</span>
-              <span class="text-sm text-slate-500">{dept.categories.length} categories</span>
+              {c.category.name}
+              <span class="rounded-full bg-brand-50 px-2 py-0.5 text-xs font-semibold text-brand-800">{c.products.length}</span>
             </a>
           </li>
         ))
       }
     </ul>
+  </section>
+
+  <section class="border-t border-slate-200 bg-slate-900 text-slate-200" aria-labelledby="vendor-cta">
+    <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-6 px-4 py-12">
+      <div class="max-w-2xl">
+        <h2 id="vendor-cta" class="text-2xl font-bold tracking-tight text-white">Are you a software vendor?</h2>
+        <p class="mt-2 leading-relaxed">See how products get listed, how to correct a page, and why payment never changes a ranking.</p>
+      </div>
+      <a href="/vendors" class="inline-flex min-h-12 items-center rounded-lg bg-white px-6 font-semibold text-slate-900 hover:bg-brand-50">For vendors</a>
+    </div>
   </section>
 </BaseLayout>

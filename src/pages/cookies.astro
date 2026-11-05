@@ -1,0 +1,36 @@
+---
+import LegalPage from '../layouts/LegalPage.astro';
+import Fill from '../components/Fill.astro';
+import { OWNER } from '../config/legal';
+---
+
+<LegalPage
+  title="Cookie policy"
+  description="Which cookies B2BRated sets today, and what we will tell you before that changes."
+  path="/cookies"
+>
+  <h2>Cookies we set today</h2>
+  <p>
+    None. The site does not set cookies of its own, and it runs no analytics, advertising or tracking tools that set
+    them. You can read every page without accepting anything, so there is no cookie banner.
+  </p>
+
+  <h2>Cookies from other companies</h2>
+  <p>
+    Pages load fonts, scripts and images from our own site. We do not embed videos, social buttons or ad networks, so no
+    outside company sets a cookie through our pages. Links to vendor websites leave this site, and those sites have
+    their own cookie rules.
+  </p>
+
+  <h2>What will change</h2>
+  <p>
+    When accounts open, signing in will need a cookie that keeps you logged in. That cookie will be strictly necessary
+    for the sign-in to work. If we later add analytics or advertising that use cookies, we will ask for your consent
+    first, and we will update this page and the <a href="/privacy">privacy policy</a> before either goes live.
+  </p>
+
+  <h2>Questions</h2>
+  <p>
+    Write to <Fill value={OWNER.email} label="contact email" />, or use the <a href="/contact">contact page</a>.
+  </p>
+</LegalPage>

@@ -18,8 +18,9 @@ describe('isLegalReady', () => {
     }
   });
 
-  it('lists the six legal pages once', () => {
+  it('lists each legal page once', () => {
     const hrefs = LEGAL_PAGES.map((p) => p.href);
-    expect(new Set(hrefs).size).toBe(6);
+    expect(new Set(hrefs).size).toBe(hrefs.length);
+    for (const href of ['/privacy', '/cookies', '/content-policy', '/terms']) expect(hrefs).toContain(href);
   });
 });

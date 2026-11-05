@@ -38,6 +38,7 @@ function tableHeaderScope() {
 export default defineConfig({
   site: process.env.PUBLIC_SITE_URL ?? 'http://localhost:4321',
   trailingSlash: 'never',
+  redirects: { '/transparency': '/advertising-disclosure' },
   build: { format: 'file' },
   // The writing rules use straight quotes; stop markdown from curling them.
   markdown: { smartypants: false },

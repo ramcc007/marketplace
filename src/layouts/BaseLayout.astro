@@ -3,19 +3,18 @@ import '../styles/global.css';
 import Seo from '../components/Seo.astro';
 import type { SeoProps } from '../lib/seo';
 import { SITE } from '../config/site';
-import { departments } from '../lib/taxonomy';
-import { LEGAL_PAGES, legalReady } from '../config/legal';
+import MegaMenu from '../components/MegaMenu.astro';
+import { COMPANY_LINKS as company, FOOTER_LEGAL_LINKS as legalLinks, legalReady } from '../config/legal';
 
 type Props = SeoProps;
 const props = Astro.props;
 const nav = [
-  { href: '/categories', label: 'Categories' },
-  { href: '/methodology', label: 'How we rank' },
-  { href: '/transparency', label: 'Transparency' },
+  { href: '/about', label: 'About us' },
+  { href: '/leave-a-review', label: 'Leave a review', soon: true },
+  { href: '/vendors', label: 'Are you a vendor?' },
 ];
 const current = Astro.url.pathname;
 const isCurrent = (href: string) => current === href || current.startsWith(`${href}/`);
-// The footer links to every department so each one is reachable from every page.
 ---
 
 <!doctype html>
@@ -32,31 +31,33 @@ const isCurrent = (href: string) => current === href || current.startsWith(`${hr
       class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-white focus:px-3 focus:py-2 focus:shadow"
       >Skip to content</a
     >
-    <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur">
-      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-6 gap-y-2 px-4 py-3">
-        <a href="/" class="inline-flex" aria-label={`${SITE.name} home`}>
+    <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
+      <div class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3">
+        <a href="/" class="mr-2 inline-flex" aria-label={`${SITE.name} home`}>
           <img src="/logo.svg" alt={SITE.name} width="166" height="36" class="h-9 w-auto" />
         </a>
-        <nav aria-label="Main">
-          <ul class="flex flex-wrap items-center gap-x-1 text-sm">
-            {
-              nav.map((item) => (
-                <li>
-                  <a
-                    href={item.href}
-                    class:list={[
-                      'inline-flex min-h-10 items-center rounded-md px-3 hover:bg-slate-100 hover:text-brand-800',
-                      isCurrent(item.href) ? 'bg-brand-50 font-semibold text-brand-800' : 'text-slate-600',
-                    ]}
-                    aria-current={isCurrent(item.href) ? 'page' : undefined}
-                  >
-                    {item.label}
-                  </a>
-                </li>
-              ))
-            }
-          </ul>
+        <nav aria-label="Main" class="flex flex-wrap items-center gap-x-1 text-sm">
+          <MegaMenu />
+          {
+            nav.map((item) => (
+              <a
+                href={item.href}
+                class:list={[
+                  'inline-flex min-h-10 items-center gap-1.5 rounded-md px-3 font-medium hover:bg-slate-100 hover:text-brand-800',
+                  isCurrent(item.href) ? 'bg-brand-50 text-brand-800' : 'text-slate-700',
+                ]}
+                aria-current={isCurrent(item.href) ? 'page' : undefined}
+              >
+                {item.label}
+                {item.soon && <span class="rounded-full bg-slate-100 px-1.5 py-0.5 text-[0.65rem] font-semibold uppercase tracking-wide text-slate-500">Soon</span>}
+              </a>
+            ))
+          }
         </nav>
+        <div class="ml-auto flex items-center gap-2 text-sm">
+          <a href="/login" class="inline-flex min-h-10 items-center rounded-md px-3 font-medium text-slate-700 hover:bg-slate-100 hover:text-brand-800">Log in</a>
+          <a href="/register" class="inline-flex min-h-10 items-center rounded-lg bg-brand-700 px-4 font-semibold text-white hover:bg-brand-800">Register</a>
+        </div>
       </div>
     </header>
 
@@ -65,40 +66,34 @@ const isCurrent = (href: string) => current === href || current.startsWith(`${hr
     </main>
 
     <footer class="mt-20 bg-slate-900 text-slate-300">
-      <div class="mx-auto grid max-w-6xl gap-10 px-4 py-12 text-sm md:grid-cols-[1.2fr_1fr_2fr]">
+      <div class="mx-auto grid max-w-6xl gap-10 px-4 py-12 text-sm md:grid-cols-[1.6fr_1fr_1fr]">
         <div>
           <p>
             <img src="/logo-light.svg" alt={SITE.name} width="148" height="32" class="h-8 w-auto" loading="lazy" />
           </p>
-          <p class="mt-4 max-w-xs leading-relaxed">
-            Prices come from each vendor's own pages and link back to them. No vendor pays to be listed or ranked.
+          <p class="mt-4 max-w-sm leading-relaxed">
+            <span class="font-semibold text-white">{SITE.name}</span> helps businesses compare software by category. Every price links to the vendor page it came
+            from, a product is listed only when it meets written criteria, and no vendor pays to be listed or ranked.
           </p>
         </div>
         <div>
-          <p class="font-semibold text-white">About</p>
+          <p class="font-semibold text-white">Company</p>
           <ul class="mt-2">
-            <li><a class="inline-block py-1.5 hover:text-white hover:underline" href="/categories">All categories</a></li>
-            <li><a class="inline-block py-1.5 hover:text-white hover:underline" href="/methodology">How we rank</a></li>
-            <li><a class="inline-block py-1.5 hover:text-white hover:underline" href="/transparency">Transparency</a></li>
             {
-              legalReady &&
-                LEGAL_PAGES.map((page) => (
-                  <li><a class="inline-block py-1.5 hover:text-white hover:underline" href={page.href}>{page.label}</a></li>
-                ))
+              company.map((link) => (
+                <li><a class="inline-block py-1.5 hover:text-white hover:underline" href={link.href}>{link.label}</a></li>
+              ))
             }
           </ul>
         </div>
         <div>
-          <p class="font-semibold text-white">Departments</p>
-          <ul class="mt-2 grid grid-cols-2 gap-x-4 sm:grid-cols-3">
+          <p class="font-semibold text-white">Legal</p>
+          <ul class="mt-2">
             {
-              departments.map((dept) => (
-                <li>
-                  <a class="inline-block py-1.5 hover:text-white hover:underline" href={`/categories/${dept.slug}`}>
-                    {dept.name}
-                  </a>
-                </li>
-              ))
+              legalReady &&
+                legalLinks.map((link) => (
+                  <li><a class="inline-block py-1.5 hover:text-white hover:underline" href={link.href}>{link.label}</a></li>
+                ))
             }
           </ul>
         </div>

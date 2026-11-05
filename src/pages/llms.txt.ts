@@ -31,7 +31,7 @@ ${SITE.name} compares business software by category. A product is listed only wh
 ## How the site works
 
 - [How we rank and list software](${u('/methodology')}): inclusion rules, how prices are checked, how scores and reviews will work
-- [Transparency](${u('/transparency')}): who pays us, what we publish and what we do not
+- [Advertising and sponsorship](${u('/advertising-disclosure')}): who pays us and the rules that apply to every paid placement
 - [All categories](${u('/categories')}): every software category, with the number of products checked in each
 
 ## Category comparisons
