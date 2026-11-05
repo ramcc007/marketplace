@@ -1,0 +1,41 @@
+{
+  "name": "Xurrent",
+  "status": "published",
+  "vendor": { "name": "Xurrent", "website": "https://www.xurrent.com" },
+  "primaryCategory": "cmdb",
+  "summary": "Xurrent is an IT service management platform with a configuration management area for IT assets and configuration items. Its feature page describes mapping the relationships between configuration items and services, with visual maps that help change managers judge the impact of planned changes. The pricing page publishes no license prices and lists user counts for each plan instead.",
+  "qualifies": [
+    {
+      "category": "cmdb",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "configuration item records", "sourceUrl": "https://www.xurrent.com/features/service-configuration-and-it-asset-management" },
+        { "capability": "relationship mapping", "sourceUrl": "https://www.xurrent.com/features/service-configuration-and-it-asset-management" },
+        { "capability": "change impact view", "sourceUrl": "https://www.xurrent.com/features/service-configuration-and-it-asset-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The service configuration page says the product captures the technical attributes and financial information of IT assets, and tracks their lifecycle from purchase to retirement.", "sourceUrl": "https://www.xurrent.com/features/service-configuration-and-it-asset-management", "checkedAt": "2026-11-05" },
+    { "text": "The page says teams can map the relationships between configuration items and services.", "sourceUrl": "https://www.xurrent.com/features/service-configuration-and-it-asset-management", "checkedAt": "2026-11-05" },
+    { "text": "The page says visual maps help support specialists and change managers determine the impact of potential failures or planned changes.", "sourceUrl": "https://www.xurrent.com/features/service-configuration-and-it-asset-management", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says Xurrent does not publish specific pricing for its license plans.", "sourceUrl": "https://www.xurrent.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists user counts for Starter, Corporate, Enterprise, MSP Corporate and MSP Enterprise, and does not say which of these plans include CMDB features.", "sourceUrl": "https://www.xurrent.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [
+      "The pricing page publishes no license prices, so the cost of each plan is not known from the page.",
+      "The pricing page does not say which plans include CMDB or configuration management features."
+    ],
+    "sourceUrl": "https://www.xurrent.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

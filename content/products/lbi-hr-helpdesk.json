@@ -1,0 +1,43 @@
+{
+  "name": "LBi HR HelpDesk",
+  "status": "published",
+  "vendor": { "name": "LBi Software", "website": "https://lbisoftware.com" },
+  "primaryCategory": "hr-help-desk",
+  "summary": "LBi HR HelpDesk is HR case management software from LBi Software. Cases can be created by email or through the self-service portal, and the product keeps an FAQ and wiki knowledge base and a real-time case history. The vendor's news page gives a starting price of $1,530 a year on annual billing.",
+  "qualifies": [
+    {
+      "category": "hr-help-desk",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "employee case intake", "sourceUrl": "https://lbisoftware.com/hr-helpdesk/" },
+        { "capability": "hr knowledge base", "sourceUrl": "https://lbisoftware.com/hr-helpdesk/" },
+        { "capability": "case tracking", "sourceUrl": "https://lbisoftware.com/hr-helpdesk/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The HR HelpDesk page lists an employee self-service portal and 'Email > case creation' under case management.", "sourceUrl": "https://lbisoftware.com/hr-helpdesk/", "checkedAt": "2026-11-05" },
+    { "text": "The page lists a full knowledge base in FAQs and an embedded wiki knowledge base.", "sourceUrl": "https://lbisoftware.com/hr-helpdesk/", "checkedAt": "2026-11-05" },
+    { "text": "The page lists real-time case history and says the software tracks cases to closure. It does not say whether employees, as opposed to HR staff, can see the status of their own cases.", "sourceUrl": "https://lbisoftware.com/hr-helpdesk/", "checkedAt": "2026-11-05" },
+    { "text": "The LBi news page lists a Free tier for up to 100 employees and two administrative users with no expiry, and Pro and ProPlus tiers with 30-day free trials.", "sourceUrl": "https://lbisoftware.com/news-events/saas-hr-case-management/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": 30,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "up to 100 employees and 2 administrative users", "notes": "No expiration date, as stated on the news page." },
+      { "name": "Pro", "priceUsd": null, "billing": "year", "unit": "up to 500 employees and 10 administrative users", "notes": "Free for 30 days. The news page gives one figure, 'starting at $1,530 per year' on annual billing, and does not say which tier it applies to." },
+      { "name": "ProPlus", "priceUsd": null, "billing": "year", "unit": "up to 2,000 employees and 20 administrative users", "notes": "Free for 30 days. See the Pro note on the single starting figure." }
+    ],
+    "hiddenCosts": [
+      "The news page shows a dollar sign without a currency code. The figure is recorded as shown."
+    ],
+    "sourceUrl": "https://lbisoftware.com/news-events/saas-hr-case-management/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

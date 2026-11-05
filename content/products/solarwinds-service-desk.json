@@ -22,9 +22,30 @@
         { "capability": "it service catalog", "sourceUrl": "https://www.solarwinds.com/service-desk/use-cases/it-service-catalog" },
         { "capability": "sla tracking", "sourceUrl": "https://www.solarwinds.com/service-desk/use-cases/service-level-management" }
       ]
+    },
+    {
+      "category": "cmdb",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        {
+          "capability": "configuration item records",
+          "sourceUrl": "https://documentation.solarwinds.com/en/Success_Center/SWSD/Content/CompleteGuideToSWSD/cmdb-admin.htm"
+        },
+        {
+          "capability": "relationship mapping",
+          "sourceUrl": "https://documentation.solarwinds.com/en/success_center/swsd/content/completeguidetoswsd/cmdb-visualmap.htm"
+        },
+        {
+          "capability": "change impact view",
+          "sourceUrl": "https://documentation.solarwinds.com/en/Success_Center/SWSD/Content/CompleteGuideToSWSD/cmdb-admin.htm"
+        }
+      ]
     }
   ],
   "facts": [
+    {"text":"The CMDB administrator guide says the CMDB helps IT teams assess the risks and impacts of IT changes, and that impact and risk can be analyzed before a change is decided.","sourceUrl":"https://documentation.solarwinds.com/en/Success_Center/SWSD/Content/CompleteGuideToSWSD/cmdb-admin.htm","checkedAt":"2026-11-05"},
+    {"text":"The CMDB administrator guide says the CMDB stores up-to-date information about all the technology components an organization uses.","sourceUrl":"https://documentation.solarwinds.com/en/Success_Center/SWSD/Content/CompleteGuideToSWSD/cmdb-admin.htm","checkedAt":"2026-11-05"},
+    {"text":"The CMDB Visual Map shows dependent CIs as a tree, and the page says it is included in the Premier package.","sourceUrl":"https://documentation.solarwinds.com/en/success_center/swsd/content/completeguidetoswsd/cmdb-visualmap.htm","checkedAt":"2026-11-05"},
     { "text": "SolarWinds says Service Desk is ISO 27001 certified and is GDPR compliant.", "sourceUrl": "https://www.solarwinds.com/service-desk/data-security-certifications-accreditations", "checkedAt": "2026-11-04" },
     { "text": "Servers are hosted by AWS in the United States, the European Union and Australia, and the customer chooses the region.", "sourceUrl": "https://www.solarwinds.com/service-desk/data-security-certifications-accreditations", "checkedAt": "2026-11-04" },
     { "text": "The vendor says it signs HIPAA Business Associate Agreements.", "sourceUrl": "https://www.solarwinds.com/service-desk/data-security-certifications-accreditations", "checkedAt": "2026-11-04" },

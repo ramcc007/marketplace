@@ -1,0 +1,44 @@
+{
+  "name": "TripLog",
+  "status": "published",
+  "vendor": { "name": "TripLog", "website": "https://www.triplog.net" },
+  "primaryCategory": "mileage-tracking",
+  "summary": "TripLog logs drives automatically with GPS, and its Basic plan is free with no trip cap. Premium costs $4.99 a month, or $59.99 billed annually, and adds unlimited reporting, automatic expense tracking and integrations.",
+  "qualifies": [
+    {
+      "category": "mileage-tracking",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "gps or manual trip logging", "sourceUrl": "https://www.triplog.net/pricing" },
+        { "capability": "mileage rate calculation", "sourceUrl": "https://www.triplog.net/pricing" },
+        { "capability": "reimbursement reports", "sourceUrl": "https://www.triplog.net/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Basic is free forever and includes automatic GPS mileage logging with no trip cap, according to the pricing page.", "sourceUrl": "https://www.triplog.net/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Premium adds unlimited reporting, automatic expense tracking and integrations.", "sourceUrl": "https://www.triplog.net/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists tax-compliant reports and custom business activities and mileage rates in its comparison, but it does not show which plan includes each one.", "sourceUrl": "https://www.triplog.net/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The page offers a 7-day Premium pass once per calendar year, starting January 1, and the pass includes an annual mileage report download.", "sourceUrl": "https://www.triplog.net/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page does not say whether manual trip entry is included.", "sourceUrl": "https://www.triplog.net/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Basic", "priceUsd": 0, "billing": "month", "unit": "per individual", "notes": "Automatic GPS mileage logging with no trip cap and basic expense management.", "sourceUrl": "https://www.triplog.net/pricing" },
+      { "name": "Premium", "priceUsd": 4.99, "billing": "month", "unit": "per individual per month", "notes": "Paid annually as $59.99. Adds unlimited reporting, automatic expense tracking and integrations.", "sourceUrl": "https://www.triplog.net/pricing" }
+    ],
+    "hiddenCosts": [
+      "The pricing page does not name its currency. The site offers USD, CAD, GBP, EUR and AUD, so the currency depends on the locale selected.",
+      "The single-user pricing page does not show multi-user prices."
+    ],
+    "sourceUrl": "https://www.triplog.net/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

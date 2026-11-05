@@ -13,6 +13,15 @@
         { "capability": "expense policies and approvals", "sourceUrl": "https://help.expensify.com/articles/new-expensify/workspaces/Workspace-Rules" },
         { "capability": "reimbursement", "sourceUrl": "https://use.expensify.com/blog/collect-plan-pricing-update" }
       ]
+    },
+    {
+      "category": "mileage-tracking",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "gps or manual trip logging", "sourceUrl": "https://use.expensify.com/mileage-tracking-app" },
+        { "capability": "mileage rate calculation", "sourceUrl": "https://use.expensify.com/mileage-tracking-app" },
+        { "capability": "reimbursement reports", "sourceUrl": "https://use.expensify.com/mileage-tracking-app" }
+      ]
     }
   ],
   "facts": [
@@ -20,7 +29,10 @@
     { "text": "Receipt requirements and amount flags need the Control plan, while Collect gets only a few rules such as required fields.", "sourceUrl": "https://help.expensify.com/articles/new-expensify/workspaces/Workspace-Rules", "checkedAt": "2026-11-04" },
     { "text": "On Control, an active member is anyone who creates, submits, approves, reimburses or exports reports in the month.", "sourceUrl": "https://help.expensify.com/articles/expensify-classic/expensify-billing/Billing-Overview", "checkedAt": "2026-11-04" },
     { "text": "The $9 Control rate needs an annual subscription and the Expensify Card for 50% or more of settled US spending in the month.", "sourceUrl": "https://help.expensify.com/articles/expensify-classic/expensify-billing/Billing-Overview", "checkedAt": "2026-11-04" },
-    { "text": "Expensify says it is free for individuals and offers a 30-day free trial for companies.", "sourceUrl": "https://www.expensify.com/", "checkedAt": "2026-11-04" }
+    { "text": "Expensify says it is free for individuals and offers a 30-day free trial for companies.", "sourceUrl": "https://www.expensify.com/", "checkedAt": "2026-11-04" },
+    { "text": "The mileage page says trips can be tracked with GPS, entered as start and stop addresses on a map, logged from an odometer photo, or entered as total distance.", "sourceUrl": "https://use.expensify.com/mileage-tracking-app", "checkedAt": "2026-11-05" },
+    { "text": "Admins can set custom mileage rates by employee group, role or project, or use the IRS mileage rate, according to the mileage page.", "sourceUrl": "https://use.expensify.com/mileage-tracking-app", "checkedAt": "2026-11-05" },
+    { "text": "Mileage expenses route into an expense report with category, tags and descriptions, and the mileage page says reports can be exported for tax season.", "sourceUrl": "https://use.expensify.com/mileage-tracking-app", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

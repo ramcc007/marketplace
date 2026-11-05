@@ -1,0 +1,44 @@
+{
+  "name": "HCP Terraform",
+  "status": "published",
+  "vendor": { "name": "HashiCorp, Inc.", "website": "https://www.hashicorp.com" },
+  "primaryCategory": "infrastructure-as-code",
+  "summary": "HCP Terraform is HashiCorp's hosted service for running Terraform. Its pricing page lists Essentials, Standard and Premium at $0.10, $0.47 and $0.99 per resource a month, with a $500 HCP trial credit. Self-managed IBM Terraform Enterprise is quote-only.",
+  "qualifies": [
+    {
+      "category": "infrastructure-as-code",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "declarative infrastructure definitions", "sourceUrl": "https://developer.hashicorp.com/terraform/language/state/purpose" },
+        { "capability": "plan and apply workflow", "sourceUrl": "https://developer.hashicorp.com/terraform/cloud-docs/run/ui" },
+        { "capability": "state management", "sourceUrl": "https://developer.hashicorp.com/terraform/language/state/purpose" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "By default, run plans require confirmation before HCP Terraform applies them, and the View Plan button shows what a run will change.", "sourceUrl": "https://developer.hashicorp.com/terraform/cloud-docs/run/ui", "checkedAt": "2026-11-05" },
+    { "text": "HCP Terraform runs a speculative plan when a pull request is opened against the branch.", "sourceUrl": "https://developer.hashicorp.com/terraform/cloud-docs/run/ui", "checkedAt": "2026-11-05" },
+    { "text": "The Terraform docs say state is needed to map configuration to real resources, and that remote locking stops two users running Terraform at the same time.", "sourceUrl": "https://developer.hashicorp.com/terraform/language/state/purpose", "checkedAt": "2026-11-05" },
+    { "text": "Standard and Premium include HCP Waypoint, according to the pricing page. Each plan offers the same $500 HCP trial credit.", "sourceUrl": "https://www.hashicorp.com/en/products/terraform/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Essentials", "priceUsd": 0.10, "billing": "month", "unit": "per resource per month", "notes": "Hourly rate of $0.00013 is listed in a footnote. Includes a $500 HCP trial credit.", "sourceUrl": "https://www.hashicorp.com/en/products/terraform/pricing" },
+      { "name": "Standard", "priceUsd": 0.47, "billing": "month", "unit": "per resource per month", "notes": "Hourly rate of $0.00064 is listed in a footnote. Includes HCP Waypoint.", "sourceUrl": "https://www.hashicorp.com/en/products/terraform/pricing" },
+      { "name": "Premium", "priceUsd": 0.99, "billing": "month", "unit": "per resource per month", "notes": "Hourly rate of $0.00135 is listed in a footnote. Includes HCP Waypoint.", "sourceUrl": "https://www.hashicorp.com/en/products/terraform/pricing" },
+      { "name": "IBM Terraform Enterprise", "priceUsd": null, "billing": "quote", "unit": "self-managed", "notes": "Custom pricing on the page. A separate IBM HCP Terraform Europe service is also quote-only.", "sourceUrl": "https://www.hashicorp.com/en/products/terraform/pricing" }
+    ],
+    "hiddenCosts": [
+      "The plan prices are starting prices per resource, and the page's module test publishing limit is 10 modules on Essentials."
+    ],
+    "sourceUrl": "https://www.hashicorp.com/en/products/terraform/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

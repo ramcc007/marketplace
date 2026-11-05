@@ -1,0 +1,45 @@
+{
+  "name": "TestGorilla",
+  "status": "published",
+  "vendor": { "name": "TestGorilla", "website": "https://www.testgorilla.com" },
+  "primaryCategory": "pre-employment-testing",
+  "summary": "TestGorilla sells pre-employment skills tests. Its Free plan includes five skills tests, and its Assessments plans are listed from $215 a month for Core and $520 a month for Plus, billed annually. The feature table lists webcam snapshots and a candidate behavior monitor, and the pricing page says AI scores video responses.",
+  "qualifies": [
+    {
+      "category": "pre-employment-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "skill or aptitude tests", "sourceUrl": "https://www.testgorilla.com/pricing/" },
+        { "capability": "anti-cheating controls", "sourceUrl": "https://www.testgorilla.com/pricing/" },
+        { "capability": "candidate scoring", "sourceUrl": "https://www.testgorilla.com/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page cites a library of 350 or more science-backed skills tests.", "sourceUrl": "https://www.testgorilla.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The Free plan includes five essential skills tests with unlimited use, covering areas such as problem solving and time management.", "sourceUrl": "https://www.testgorilla.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The Behavior monitoring section of the feature table lists a candidate behavior monitor, webcam snapshots, full-screen mode, disabled copy and paste, and multiple attempt prevention. The text read from the page did not show which plan includes each feature.", "sourceUrl": "https://www.testgorilla.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says video responses are AI scored, with three recording attempts per candidate.", "sourceUrl": "https://www.testgorilla.com/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Assessments Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "Five essential skills tests with unlimited use." },
+      { "name": "Assessments Core", "priceUsd": 215, "billing": "month", "unit": "per account, billed annually", "notes": "Listed from $215 a month per account, billed annually. Monthly rates are not shown." },
+      { "name": "Assessments Plus", "priceUsd": 520, "billing": "month", "unit": "per account, billed annually", "notes": "Listed from $520 a month per account, billed annually." }
+    ],
+    "hiddenCosts": [
+      "The page offers a pay monthly option but does not state the monthly rates.",
+      "The Sourcing product has its own plans and prices, which this profile does not cover.",
+      "The pricing page shows dollar amounts. The text read does not name the currency."
+    ],
+    "sourceUrl": "https://www.testgorilla.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

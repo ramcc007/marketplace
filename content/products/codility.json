@@ -1,0 +1,42 @@
+{
+  "name": "Codility",
+  "status": "published",
+  "vendor": { "name": "Codility", "website": "https://www.codility.com" },
+  "primaryCategory": "pre-employment-testing",
+  "summary": "Codility sells coding and skills tests for hiring teams. Its pricing page lists online plans from $800 a month or $4,800 a year, and quotes Enterprise. The online plans include plagiarism detection and proctoring with snapshots, and selected task types are scored automatically.",
+  "qualifies": [
+    {
+      "category": "pre-employment-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "skill or aptitude tests", "sourceUrl": "https://www.codility.com/pricing" },
+        { "capability": "anti-cheating controls", "sourceUrl": "https://www.codility.com/pricing" },
+        { "capability": "candidate scoring", "sourceUrl": "https://www.codility.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page says coding tests can be set with AI use turned on or off for each task.", "sourceUrl": "https://www.codility.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists plagiarism detection and proctoring with snapshots on its online and Enterprise plans. Video proctoring and flagging of unauthorized apps are listed for Enterprise only.", "sourceUrl": "https://www.codility.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says selected task types are scored against fixed rules, and that no AI or machine learning makes hiring decisions.", "sourceUrl": "https://www.codility.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists weighted scoring and premium analytics for Enterprise only.", "sourceUrl": "https://www.codility.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Online", "priceUsd": 800, "billing": "month", "unit": "per month", "notes": "Listed from $800 a month, or from $4,800 a year. Plan limits were not recorded." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "not listed", "notes": "The page says Enterprise is quoted for products, integrations and support." }
+    ],
+    "hiddenCosts": [
+      "The dollar figures are recorded as shown. The text read from the pricing page does not name the currency."
+    ],
+    "sourceUrl": "https://www.codility.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Joveo",
+  "status": "published",
+  "vendor": { "name": "Joveo", "website": "https://www.joveo.com" },
+  "primaryCategory": "job-distribution",
+  "summary": "Joveo's job distribution page says jobs are posted across hundreds of job boards. It describes centralized management of media spend across recruiting teams and campaign tracking from source click through to hire. The pricing page shows no dollar amounts and describes volume-based discounts per transaction.",
+  "qualifies": [
+    {
+      "category": "job-distribution",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "posting to many job boards", "sourceUrl": "https://www.joveo.com/job-distribution/" },
+        { "capability": "posting budget management", "sourceUrl": "https://www.joveo.com/job-distribution/" },
+        { "capability": "applicant source tracking", "sourceUrl": "https://www.joveo.com/job-distribution/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The job distribution page says jobs are posted across hundreds of duration and slot-based job boards.", "sourceUrl": "https://www.joveo.com/job-distribution/", "checkedAt": "2026-11-05" },
+    { "text": "The page says teams can centralize and manage sources, inventory, permissions and media spends across distributed recruiting teams.", "sourceUrl": "https://www.joveo.com/job-distribution/", "checkedAt": "2026-11-05" },
+    { "text": "The page says recruiters can track media buying campaigns from source click through to application and hire.", "sourceUrl": "https://www.joveo.com/job-distribution/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says the more media a buyer purchases through its platform, the less it pays per transaction. It shows no dollar amounts.", "sourceUrl": "https://www.joveo.com/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [
+      "The pricing page shows no dollar amounts and offers a Let's Talk Pricing call to action. It does not say whether pricing is customized or quote-only, so that is not recorded as fact.",
+      "Costs depend on the media bought through the platform, and the page describes discounts that fall as media volume rises."
+    ],
+    "sourceUrl": "https://www.joveo.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "env0",
+  "status": "published",
+  "vendor": { "name": "env0, Inc.", "website": "https://www.envzero.com" },
+  "primaryCategory": "infrastructure-as-code",
+  "summary": "env0 runs infrastructure deployments with remote plan, remote apply and remote state storage. Its pricing page lists a free tier with 250 runs a month, and its paid tiers, Cloud Navigator and Cloud Pilot, are sold by quote.",
+  "qualifies": [
+    {
+      "category": "infrastructure-as-code",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "plan and apply workflow", "sourceUrl": "https://www.envzero.com/pricing" },
+        { "capability": "state management", "sourceUrl": "https://www.envzero.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page lists Remote Plan and Remote Apply as features. It does not say which paid tier includes each feature.", "sourceUrl": "https://www.envzero.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists Remote State Storage and Self-hosted Remote State as features, with the same plan-mapping gap.", "sourceUrl": "https://www.envzero.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The Free tier allows 250 runs a month, 30 active environments, one concurrent run and one self-hosted runner.", "sourceUrl": "https://www.envzero.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Once the monthly run cap is reached on the Free tier, scheduled runs such as TTL destroys and drift detection are skipped until the next cycle.", "sourceUrl": "https://www.envzero.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free Tier", "priceUsd": 0, "billing": "month", "unit": "forever, up to 250 runs a month", "notes": "30 active environments, one concurrent run and a 20-minute maximum run duration.", "sourceUrl": "https://www.envzero.com/pricing" },
+      { "name": "Cloud Navigator", "priceUsd": null, "billing": "quote", "unit": "per successful apply or environment", "notes": "Contact sales. The page offers a Get a free quote button.", "sourceUrl": "https://www.envzero.com/pricing" },
+      { "name": "Cloud Pilot", "priceUsd": null, "billing": "quote", "unit": "per successful apply or environment", "notes": "Contact sales. The page mentions a Proof-of-Value Guarantee without details.", "sourceUrl": "https://www.envzero.com/pricing" }
+    ],
+    "hiddenCosts": [
+      "The pricing page does not name a currency for any plan.",
+      "The page has a Start Free link, but it gives no trial length or terms."
+    ],
+    "sourceUrl": "https://www.envzero.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

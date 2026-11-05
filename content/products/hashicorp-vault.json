@@ -1,0 +1,44 @@
+{
+  "name": "HashiCorp Vault",
+  "status": "published",
+  "vendor": { "name": "HashiCorp, Inc.", "website": "https://www.hashicorp.com" },
+  "primaryCategory": "encryption",
+  "summary": "HashiCorp Vault is a self-managed or hosted service for secrets, encryption keys and encryption operations. Its Transit engine acts as encryption as a service, with named keys that can be rotated. Access is set by policies on resource paths, and stored data is encrypted at rest. HashiCorp publishes no Vault price: its pricing page points buyers to sales for Flex and Enterprise Self Managed, so both are shown as quote only.",
+  "qualifies": [
+    {
+      "category": "encryption",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "encryption at rest", "sourceUrl": "https://developer.hashicorp.com/vault/docs/about-vault/what-is-vault" },
+        { "capability": "key management", "sourceUrl": "https://developer.hashicorp.com/vault/docs/secrets/transit" },
+        { "capability": "access controls", "sourceUrl": "https://developer.hashicorp.com/vault/docs/concepts/policies" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The what-is-Vault page says Vault encrypts data at rest and gates access to that data with authentication and authorization methods.", "sourceUrl": "https://developer.hashicorp.com/vault/docs/about-vault/what-is-vault", "checkedAt": "2026-11-05" },
+    { "text": "The Transit secrets engine page describes the engine as encryption as a service. Vault does not store the data it encrypts, so the calling application keeps the ciphertext.", "sourceUrl": "https://developer.hashicorp.com/vault/docs/secrets/transit", "checkedAt": "2026-11-05" },
+    { "text": "The Transit page says rotating a named key adds a new key version, that future encryptions use the new version, and that older data can still be decrypted.", "sourceUrl": "https://developer.hashicorp.com/vault/docs/secrets/transit", "checkedAt": "2026-11-05" },
+    { "text": "The policies page says policies grant or forbid access to paths and operations in Vault, and that an empty policy grants no permission.", "sourceUrl": "https://developer.hashicorp.com/vault/docs/concepts/policies", "checkedAt": "2026-11-05" },
+    { "text": "The Transit page does not describe how to delete a key, so key deletion is not confirmed by this profile.", "sourceUrl": "https://developer.hashicorp.com/vault/docs/secrets/transit", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Flex", "priceUsd": null, "billing": "quote", "unit": "per plan, quoted by sales", "notes": "The pricing page shows a Contact sales button and no amount. The vendor publishes no price for Vault." },
+      { "name": "Enterprise Self Managed", "priceUsd": null, "billing": "quote", "unit": "per license, quoted by sales", "notes": "The pricing page shows a Contact sales button and no amount. The vendor publishes no price for Vault." }
+    ],
+    "hiddenCosts": [
+      "The vendor publishes no price for Vault. The pricing page shows figures only for other HashiCorp products, and points Vault buyers to sales.",
+      "The Vault documentation refers to HCP Vault Dedicated and to a Vault Enterprise license, with no costs given."
+    ],
+    "sourceUrl": "https://www.hashicorp.com/products/vault/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

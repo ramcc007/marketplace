@@ -1,0 +1,44 @@
+{
+  "name": "AWS CloudFormation",
+  "status": "published",
+  "vendor": { "name": "Amazon Web Services, Inc.", "website": "https://aws.amazon.com" },
+  "primaryCategory": "infrastructure-as-code",
+  "summary": "AWS CloudFormation provisions AWS resources from templates and previews stack updates in change sets. It has no separate charge for AWS resource types, so you pay for the resources, and registry extension types are billed per handler operation.",
+  "qualifies": [
+    {
+      "category": "infrastructure-as-code",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "declarative infrastructure definitions", "sourceUrl": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html" },
+        { "capability": "plan and apply workflow", "sourceUrl": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html" },
+        { "capability": "state management", "sourceUrl": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "A change set previews how proposed changes to a stack might affect running resources before anything is executed.", "sourceUrl": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html", "checkedAt": "2026-11-05" },
+    { "text": "CloudFormation makes changes to a stack only when the change set is executed, and it removes all change sets for the stack after an execution.", "sourceUrl": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says there is no additional charge for using CloudFormation with resource providers in the AWS and Alexa namespaces.", "sourceUrl": "https://aws.amazon.com/cloudformation/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says registry extensions are charged per handler operation, and the first 30 seconds of each operation are free.", "sourceUrl": "https://aws.amazon.com/cloudformation/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "AWS resource stacks", "priceUsd": 0, "billing": "month", "unit": "no separate charge for CloudFormation", "notes": "You pay for the underlying AWS resources, as you would if you created them manually.", "sourceUrl": "https://aws.amazon.com/cloudformation/pricing/" },
+      { "name": "Registry extension operations", "priceUsd": null, "billing": "quote", "unit": "per handler operation", "notes": "The per-operation rate is not stated in the page text. The $0.0009 figure appears only in worked examples.", "sourceUrl": "https://aws.amazon.com/cloudformation/pricing/" }
+    ],
+    "hiddenCosts": [
+      "Handler operations that run longer than 30 seconds cost $0.00008 per second above that threshold, according to the page.",
+      "The free tier includes hook and third-party resource provider operations, and the page does not state the free quantity directly.",
+      "The pricing page uses dollar signs without naming a currency code."
+    ],
+    "sourceUrl": "https://aws.amazon.com/cloudformation/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

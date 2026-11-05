@@ -1,0 +1,46 @@
+{
+  "name": "Graylog Security",
+  "status": "published",
+  "vendor": { "name": "Graylog, Inc.", "website": "https://graylog.org" },
+  "primaryCategory": "siem",
+  "summary": "Graylog Security is the SIEM tier of Graylog's log platform. It adds Sigma rule support and machine-learning anomaly detection over Enterprise, with a published starting price of $18,000 a year. A free Graylog Open edition is also listed.",
+  "qualifies": [
+    {
+      "category": "siem",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "log collection from many sources", "sourceUrl": "https://graylog.org/products/security/" },
+        { "capability": "correlation rules", "sourceUrl": "https://graylog.org/products/security/" },
+        { "capability": "alerts and investigation", "sourceUrl": "https://graylog.org/products/security/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Guided onboarding deploys the first Collector from the web UI, with prebuilt content and instant search, according to the security product page.", "sourceUrl": "https://graylog.org/products/security/", "checkedAt": "2026-11-05" },
+    { "text": "Sigma rules can be imported from private GitHub, GitLab or Bitbucket repositories, and every rule type runs through one import wizard.", "sourceUrl": "https://graylog.org/products/security/", "checkedAt": "2026-11-05" },
+    { "text": "Impossible Travel Detection flags credential compromise when a user appears in two impossible locations.", "sourceUrl": "https://graylog.org/products/security/", "checkedAt": "2026-11-05" },
+    { "text": "The page says correlated signals become verified incidents automatically, and that a case is built and pre-loaded when an asset's risk score passes a set threshold.", "sourceUrl": "https://graylog.org/products/security/", "checkedAt": "2026-11-05" },
+    { "text": "Graylog Security adds machine-learning anomaly detection and Sigma rule support to the Enterprise plan.", "sourceUrl": "https://graylog.org/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Graylog Open is free permanently, according to the pricing page FAQ.", "sourceUrl": "https://graylog.org/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Graylog Open", "priceUsd": 0, "billing": "month", "unit": "per deployment", "notes": "Free download. The pricing page says it is free permanently.", "sourceUrl": "https://graylog.org/pricing/" },
+      { "name": "Graylog Enterprise", "priceUsd": 15000, "billing": "year", "unit": "per year, from 10 GB a day on daily volume or 100 GCUs on annual consumption", "notes": "Starting price shown with Contact Sales. Quote follows.", "sourceUrl": "https://graylog.org/pricing/" },
+      { "name": "Graylog Security", "priceUsd": 18000, "billing": "year", "unit": "per year, from 10 GB a day on daily volume or 100 GCUs on annual consumption", "notes": "Starting price shown with Contact Sales. Adds SIEM features over Enterprise.", "sourceUrl": "https://graylog.org/pricing/" }
+    ],
+    "hiddenCosts": [
+      "The pricing page does not name its currency. The figures use the dollar sign, and the page says licenses are annual subscriptions.",
+      "The page does not describe a free trial. The Try Graylog link gives no terms."
+    ],
+    "sourceUrl": "https://graylog.org/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["AWS Security Lake", "GitHub", "GitLab", "Bitbucket"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

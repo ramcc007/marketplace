@@ -1,0 +1,42 @@
+{
+  "name": "Google Cloud Infrastructure Manager",
+  "status": "published",
+  "vendor": { "name": "Google LLC", "website": "https://cloud.google.com" },
+  "primaryCategory": "infrastructure-as-code",
+  "summary": "Google Cloud Infrastructure Manager deploys Terraform configurations to Google Cloud. Preview deployments show the effect of a change before it is applied, and the service keeps a state file for each deployment and revision. Google's pricing page says the service itself has no fee, and that Cloud Build and Cloud Storage are billed separately.",
+  "qualifies": [
+    {
+      "category": "infrastructure-as-code",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "declarative infrastructure definitions", "sourceUrl": "https://docs.cloud.google.com/infrastructure-manager/docs/overview" },
+        { "capability": "plan and apply workflow", "sourceUrl": "https://docs.cloud.google.com/infrastructure-manager/docs/overview" },
+        { "capability": "state management", "sourceUrl": "https://docs.cloud.google.com/infrastructure-manager/docs/overview" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Infrastructure Manager overview says Terraform is defined declaratively in a Terraform configuration that describes the end state of the infrastructure.", "sourceUrl": "https://docs.cloud.google.com/infrastructure-manager/docs/overview", "checkedAt": "2026-11-05" },
+    { "text": "The overview says preview deployments show how changes affect the infrastructure before they are applied.", "sourceUrl": "https://docs.cloud.google.com/infrastructure-manager/docs/overview", "checkedAt": "2026-11-05" },
+    { "text": "The overview says Infrastructure Manager stores the state file created as part of each deployment and revision.", "sourceUrl": "https://docs.cloud.google.com/infrastructure-manager/docs/overview", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says there is no fee for Infrastructure Manager itself. Cloud Build and Cloud Storage are the services that bill for its runs and artifacts.", "sourceUrl": "https://cloud.google.com/infrastructure-manager/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "free",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Infrastructure Manager", "priceUsd": 0, "billing": "month", "unit": "per deployment, no fee for the service", "notes": "No fee for the service itself. Cloud Build and Cloud Storage bill separately." }
+    ],
+    "hiddenCosts": [
+      "Infrastructure Manager runs Terraform through Cloud Build, which charges for build minutes above the amount included.",
+      "The service creates a Cloud Storage bucket for provisioning artifacts, which is billed at Cloud Storage rates."
+    ],
+    "sourceUrl": "https://cloud.google.com/infrastructure-manager/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

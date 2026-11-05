@@ -1,0 +1,45 @@
+{
+  "name": "Pulumi",
+  "status": "published",
+  "vendor": { "name": "Pulumi Corporation", "website": "https://www.pulumi.com" },
+  "primaryCategory": "infrastructure-as-code",
+  "summary": "Pulumi defines infrastructure in general-purpose programming languages and stores its state in Pulumi Cloud or another backend. Its pricing page lists a free tier for 1 user, Essentials at $40 a month and Pro at $400 a month, with Enterprise by quote.",
+  "qualifies": [
+    {
+      "category": "infrastructure-as-code",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "declarative infrastructure definitions", "sourceUrl": "https://www.pulumi.com/docs/iac/concepts/state-and-backends/" },
+        { "capability": "plan and apply workflow", "sourceUrl": "https://www.pulumi.com/docs/iac/cli/commands/pulumi_preview/" },
+        { "capability": "state management", "sourceUrl": "https://www.pulumi.com/docs/iac/concepts/state-and-backends/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Pulumi compares its recorded state against the configuration declared in the program.", "sourceUrl": "https://www.pulumi.com/docs/iac/concepts/state-and-backends/", "checkedAt": "2026-11-05" },
+    { "text": "A Pulumi backend is an API and storage endpoint that the CLI uses to coordinate updates. Pulumi Cloud is one backend option.", "sourceUrl": "https://www.pulumi.com/docs/iac/concepts/state-and-backends/", "checkedAt": "2026-11-05" },
+    { "text": "The pulumi preview command shows a preview of updates to a stack's resources, and no changes to the stack take place.", "sourceUrl": "https://www.pulumi.com/docs/iac/cli/commands/pulumi_preview/", "checkedAt": "2026-11-05" },
+    { "text": "The free tier includes IaC state management and Pulumi Deployments, with 1 user and up to 500 workflow minutes, according to the pricing page.", "sourceUrl": "https://www.pulumi.com/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account, 1 user", "notes": "No credit card required. Up to 500 workflow minutes, 25 secrets and 10,000 API calls a month.", "sourceUrl": "https://www.pulumi.com/pricing/" },
+      { "name": "Essentials", "priceUsd": 40, "billing": "month", "unit": "per month, includes 40 Credits", "notes": "Up to 500 managed resources and unlimited users.", "sourceUrl": "https://www.pulumi.com/pricing/" },
+      { "name": "Pro", "priceUsd": 400, "billing": "month", "unit": "per month, includes 400 Credits", "notes": "Up to 2,000 managed resources and unlimited users.", "sourceUrl": "https://www.pulumi.com/pricing/" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "contract pricing", "notes": "Contact sales only.", "sourceUrl": "https://www.pulumi.com/pricing/" }
+    ],
+    "hiddenCosts": [
+      "The page lists per-unit rates for IaC resources, ESC secrets and workflow minutes on top of the monthly base. Workflow minutes cost $0.01 each on Essentials and Pro.",
+      "The pricing page does not mention preview or plan features in its plan table."
+    ],
+    "sourceUrl": "https://www.pulumi.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

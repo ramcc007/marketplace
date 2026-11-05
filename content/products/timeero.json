@@ -1,0 +1,44 @@
+{
+  "name": "Timeero",
+  "status": "published",
+  "vendor": { "name": "Timeero", "website": "https://timeero.com" },
+  "primaryCategory": "mileage-tracking",
+  "summary": "Timeero records trips automatically for employees on the clock, applies built-in IRS rate calculations and exports detailed mileage reports to payroll tools. Its pricing page lists Basic at $5 a user a month on annual billing, Pro at $7.50 and Premium at $10, with Enterprise by contact sales.",
+  "qualifies": [
+    {
+      "category": "mileage-tracking",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "gps or manual trip logging", "sourceUrl": "https://timeero.com/" },
+        { "capability": "mileage rate calculation", "sourceUrl": "https://timeero.com/" },
+        { "capability": "reimbursement reports", "sourceUrl": "https://timeero.com/mileage-tracking" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Timeero home page says trips are captured automatically while employees are on the clock, and that each stop's timestamp and full route are recorded.", "sourceUrl": "https://timeero.com/", "checkedAt": "2026-11-05" },
+    { "text": "The Timeero home page says built-in IRS rate calculations make reimbursement fast and accurate. The page does not mention custom rates.", "sourceUrl": "https://timeero.com/", "checkedAt": "2026-11-05" },
+    { "text": "The mileage page says Timeero provides detailed mileage reports that can be exported to payroll software to automate reimbursement calculations.", "sourceUrl": "https://timeero.com/mileage-tracking", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says Enterprise pricing is available by contacting sales.", "sourceUrl": "https://timeero.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Basic", "priceUsd": 5, "billing": "month", "unit": "per user per month, annual billing", "notes": "$6 per user a month on monthly billing." },
+      { "name": "Pro", "priceUsd": 7.5, "billing": "month", "unit": "per user per month, annual billing", "notes": "$9 per user a month on monthly billing." },
+      { "name": "Premium", "priceUsd": 10, "billing": "month", "unit": "per user per month, annual billing", "notes": "$12 per user a month on monthly billing." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales for pricing." }
+    ],
+    "hiddenCosts": [
+      "The pricing page shows dollar signs without naming a currency. The figures are recorded as shown."
+    ],
+    "sourceUrl": "https://timeero.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

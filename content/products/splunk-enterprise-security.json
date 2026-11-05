@@ -1,0 +1,43 @@
+{
+  "name": "Splunk Enterprise Security",
+  "status": "published",
+  "vendor": { "name": "Splunk LLC", "website": "https://www.splunk.com" },
+  "primaryCategory": "siem",
+  "summary": "Splunk Enterprise Security is Splunk's SIEM for detection, investigation and response across data from many sources. Its pricing page shows only a Get a quote button for it, with no price, editions priced or free trial length.",
+  "qualifies": [
+    {
+      "category": "siem",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "log collection from many sources", "sourceUrl": "https://www.splunk.com/en_us/products/enterprise-security.html" },
+        { "capability": "correlation rules", "sourceUrl": "https://www.splunk.com/en_us/products/enterprise-security.html" },
+        { "capability": "alerts and investigation", "sourceUrl": "https://www.splunk.com/en_us/products/enterprise-security.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The product page describes managing, searching and analyzing data across every domain, cloud and device.", "sourceUrl": "https://www.splunk.com/en_us/products/enterprise-security.html", "checkedAt": "2026-11-05" },
+    { "text": "The page describes Detection Studio as a detection lifecycle for testing, deploying and monitoring detections. It does not use the term correlation search.", "sourceUrl": "https://www.splunk.com/en_us/products/enterprise-security.html", "checkedAt": "2026-11-05" },
+    { "text": "The page says Risk-Based Alerting can reduce alert volumes by up to 90%.", "sourceUrl": "https://www.splunk.com/en_us/products/enterprise-security.html", "checkedAt": "2026-11-05" },
+    { "text": "The page describes automatic threat enrichment and investigation guidance, and says the product integrates detection, investigation and response in one platform.", "sourceUrl": "https://www.splunk.com/en_us/products/enterprise-security.html", "checkedAt": "2026-11-05" },
+    { "text": "The page describes Federated Search and Federated Analytics for querying data across sources.", "sourceUrl": "https://www.splunk.com/en_us/products/enterprise-security.html", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Enterprise Security (Essentials and Premier)", "priceUsd": null, "billing": "quote", "unit": "per quote", "notes": "Shown with a Get a quote button only. No price or trial length is listed.", "sourceUrl": "https://www.splunk.com/en_us/products/pricing.html" }
+    ],
+    "hiddenCosts": [
+      "The pricing page lists Splunk Enterprise Security with a Get a quote button and no price.",
+      "The pricing page shows a free trial link for Splunk Cloud Platform and Enterprise but states no trial length."
+    ],
+    "sourceUrl": "https://www.splunk.com/en_us/products/pricing.html",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

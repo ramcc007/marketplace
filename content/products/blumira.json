@@ -1,0 +1,48 @@
+{
+  "name": "Blumira",
+  "status": "published",
+  "vendor": { "name": "Blumira, Inc.", "website": "https://www.blumira.com" },
+  "primaryCategory": "siem",
+  "summary": "Blumira sells a SIEM with managed detection and automated response, priced per employee per month. Detect is $12, Respond $16 and Automate $21 on the pricing page, with annual service terms and a 30-day trial on Automate only.",
+  "qualifies": [
+    {
+      "category": "siem",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "log collection from many sources", "sourceUrl": "https://www.blumira.com/pricing/" },
+        { "capability": "correlation rules", "sourceUrl": "https://www.blumira.com/pricing/" },
+        { "capability": "alerts and investigation", "sourceUrl": "https://www.blumira.com/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Cloud connectors and on-premises sensors are listed for all plans, but the page does not state how many log sources each plan supports.", "sourceUrl": "https://www.blumira.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Data ingestion is unlimited on all plans, and retention is one year on all plans.", "sourceUrl": "https://www.blumira.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Managed detection, detection filters, detection rule management and custom detections are listed as features, without a count of detection rules.", "sourceUrl": "https://www.blumira.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Only the Automate plan has a stated trial, which is 30 days. The page gives no trial pricing or payment terms.", "sourceUrl": "https://www.blumira.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Additional Blumira Agents cost $3 per agent a month on every edition.", "sourceUrl": "https://www.blumira.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "A one-time white-glove onboarding fee is $250 on Detect and $500 on Respond, and it is included on Automate.", "sourceUrl": "https://www.blumira.com/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Detect", "priceUsd": 12, "billing": "month", "unit": "per employee per month", "notes": "Employees are knowledge workers with a corporate email address and a workstation or device. Onboarding fee of $250 applies.", "sourceUrl": "https://www.blumira.com/pricing/" },
+      { "name": "Respond", "priceUsd": 16, "billing": "month", "unit": "per employee per month", "notes": "Includes one Blumira Agent per employee. Onboarding fee of $500 applies.", "sourceUrl": "https://www.blumira.com/pricing/" },
+      { "name": "Automate", "priceUsd": 21, "billing": "month", "unit": "per employee per month", "notes": "Includes one Blumira Agent per employee and onboarding. Includes a 30-day trial and automated threat containment.", "sourceUrl": "https://www.blumira.com/pricing/" }
+    ],
+    "hiddenCosts": [
+      "The pricing page shows dollar signs without naming a currency code.",
+      "Service terms are annual, with multi-year options. The price labels say per month.",
+      "Additional Blumira Agents cost $3 per agent a month on all editions.",
+      "Volume, nonprofit, government and education discounts are handled through sales, and no figures are given."
+    ],
+    "sourceUrl": "https://www.blumira.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

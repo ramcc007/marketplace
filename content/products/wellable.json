@@ -1,0 +1,45 @@
+{
+  "name": "Wellable",
+  "status": "published",
+  "vendor": { "name": "Wellable", "website": "https://www.wellable.co" },
+  "primaryCategory": "employee-wellness",
+  "summary": "Wellable runs employee wellness challenges from a library of more than 40 turnkey challenges, with a mobile app, wearable integrations and real-time participation insights. Essentials and Pro are each listed at $625 a month with a $1.25 per-user figure beside the price. Enterprise is quoted on request.",
+  "qualifies": [
+    {
+      "category": "employee-wellness",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "wellness challenges", "sourceUrl": "https://www.wellable.co/wellness-challenges/" },
+        { "capability": "health programs or content", "sourceUrl": "https://www.wellable.co/wellness-challenges/" },
+        { "capability": "participation reports", "sourceUrl": "https://www.wellable.co/wellness-challenges/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The challenges page says Wellable's Challenge Library offers over 40 turnkey challenges that employers can set up with help from a customer success manager.", "sourceUrl": "https://www.wellable.co/wellness-challenges/", "checkedAt": "2026-11-05" },
+    { "text": "The page names challenges including Move More, Mental Health Matters, Nutrition Ambition, Step It Up, Wealth and Hydrate for Health.", "sourceUrl": "https://www.wellable.co/wellness-challenges/", "checkedAt": "2026-11-05" },
+    { "text": "The page says real-time insights give clear visibility into participation and results, and that progress can be tracked during a challenge.", "sourceUrl": "https://www.wellable.co/wellness-challenges/", "checkedAt": "2026-11-05" },
+    { "text": "The page says employees can track progress in a native mobile app and through integrations for wearables and fitness apps.", "sourceUrl": "https://www.wellable.co/wellness-challenges/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists Essentials and Pro at $625 a month each, with $1.25 per user shown beside each price. Enterprise has no listed price and requires a custom quote.", "sourceUrl": "https://www.wellable.co/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Essentials", "priceUsd": 625, "billing": "month", "unit": "per month, with $1.25 per user shown beside the price", "notes": "Billed monthly by default, according to the pricing FAQ. The page does not expand the per-user abbreviation." },
+      { "name": "Pro", "priceUsd": 625, "billing": "month", "unit": "per month, with $1.25 per user shown beside the price", "notes": "Same listed price and per-user figure as Essentials. The page does not show what Pro adds." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "The page says a custom quote is needed for the program." }
+    ],
+    "hiddenCosts": [
+      "The FAQ says the first invoice includes a one-time implementation fee. The amount is not stated.",
+      "The standard contract term is one year, with an option to renew annually."
+    ],
+    "sourceUrl": "https://www.wellable.co/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

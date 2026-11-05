@@ -1,0 +1,46 @@
+{
+  "name": "Spark Hire",
+  "status": "published",
+  "vendor": { "name": "Spark Hire", "website": "https://www.sparkhire.com" },
+  "primaryCategory": "video-interviewing",
+  "summary": "Spark Hire sells applicant tracking and video interviewing. Its pricing page lists Recruit Pro from $335 a month and the Video Interviews plan from $249 a month, both billed annually. The pages cover one-way and live video interviews, self-service scheduling and scorecards.",
+  "qualifies": [
+    {
+      "category": "video-interviewing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "one-way or live video interviews", "sourceUrl": "https://www.sparkhire.com/pricing" },
+        { "capability": "interview scheduling", "sourceUrl": "https://www.sparkhire.com/pricing" },
+        { "capability": "reviewer scoring", "sourceUrl": "https://www.sparkhire.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page lists one-way video interviews on Recruit Pro, Growth and Enterprise, and unlimited live and one-way video interviews on the Video Interviews plan.", "sourceUrl": "https://www.sparkhire.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists self-service interview scheduling on Recruit Pro, Growth and Enterprise. Automated panel scheduling is listed for Growth and Enterprise only.", "sourceUrl": "https://www.sparkhire.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists configurable interview scorecards for evaluation on the Video Interviews plan, and customizable scorecards on Growth and Enterprise.", "sourceUrl": "https://www.sparkhire.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says prices exclude applicable sales tax and vary by company size.", "sourceUrl": "https://www.sparkhire.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Recruit Pro", "priceUsd": 335, "billing": "month", "unit": "per month, billed annually", "notes": "Applicant tracking plan. Listed from $335 a month." },
+      { "name": "Recruit Growth", "priceUsd": 499, "billing": "month", "unit": "per month, billed annually", "notes": "Listed from $499 a month, billed annually." },
+      { "name": "Recruit Enterprise", "priceUsd": null, "billing": "quote", "unit": "not listed", "notes": "No price listed." },
+      { "name": "Video Interviews", "priceUsd": 249, "billing": "month", "unit": "per month, billed annually", "notes": "Listed from $249 a month billed annually, or from $299 a month billed monthly." }
+    ],
+    "hiddenCosts": [
+      "Prices exclude applicable sales tax and vary by company size.",
+      "Behavioral Assessment is listed separately and is not covered by this profile.",
+      "The pricing page shows dollar amounts. The text read does not name the currency."
+    ],
+    "sourceUrl": "https://www.sparkhire.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

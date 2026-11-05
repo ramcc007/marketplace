@@ -1,0 +1,45 @@
+{
+  "name": "AnyDesk",
+  "status": "published",
+  "vendor": { "name": "AnyDesk", "website": "https://anydesk.com" },
+  "primaryCategory": "remote-desktop",
+  "summary": "AnyDesk sells remote desktop access on Standard and Advanced plans, billed annually in Indian rupees on its pricing page. Standard includes unattended access for 500 managed devices and session recording. Single sign-on is listed only on the Ultimate plan, which is sold by quote.",
+  "qualifies": [
+    {
+      "category": "remote-desktop",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "remote control of computers", "sourceUrl": "https://anydesk.com/en/pricing" },
+        { "capability": "unattended access", "sourceUrl": "https://anydesk.com/en/pricing" },
+        { "capability": "session security and logging", "sourceUrl": "https://anydesk.com/en/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Standard plan lists unlimited connections under Interactive Access and 500 managed devices under Unattended Access, and includes file transfer, session recording and privacy mode.", "sourceUrl": "https://anydesk.com/en/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The Advanced plan starts with 2 connections and 1,000 managed devices under Unattended Access, and adds a command-line interface, mass deployment by MSI and Windows Group Policy support.", "sourceUrl": "https://anydesk.com/en/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The Ultimate plan lists Single Sign-On, a custom namespace, cloud or on-premises hosting, and a dedicated support team. The page says to contact AnyDesk for a personalized quote.", "sourceUrl": "https://anydesk.com/en/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page shows a 20% discount on the first subscription year and says multi-year subscriptions are available on request.", "sourceUrl": "https://anydesk.com/en/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists no free plan. The rendered page showed rupee prices, and the page says all prices exclude GST.", "sourceUrl": "https://anydesk.com/en/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Standard", "priceUsd": null, "listedPrice": { "amount": 1536.8, "currency": "INR" }, "billing": "month", "unit": "per month for 1 connection, billed annually", "notes": "Shown as ₹1,536.80 a month, billed annually, after a 20% discount from ₹1,921.00. Up to 20 users and 500 managed devices. Additional connections are ₹1,729.00 each a month." },
+      { "name": "Advanced", "priceUsd": null, "listedPrice": { "amount": 3428.8, "currency": "INR" }, "billing": "month", "unit": "per month for 2 connections, billed annually", "notes": "Shown as ₹3,428.80 a month for 2 connections, billed annually, after a 20% discount from ₹4,286.00. Up to 100 users and 1,000 managed devices." },
+      { "name": "Ultimate", "priceUsd": null, "billing": "quote", "unit": "per organization", "notes": "The page shows no price and says to contact AnyDesk for a personalized quote. Starts with 5 licensed users and 2,000 managed devices." }
+    ],
+    "hiddenCosts": [
+      "The rendered page showed prices in Indian rupees and excluded GST. It showed no US dollar figures, so no USD amount is recorded.",
+      "Add-on connections on Standard and Advanced are billed separately, at the add-on rate shown on the page."
+    ],
+    "sourceUrl": "https://anydesk.com/en/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

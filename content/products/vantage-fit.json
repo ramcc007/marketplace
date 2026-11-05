@@ -1,0 +1,46 @@
+{
+  "name": "Vantage Fit",
+  "status": "published",
+  "vendor": { "name": "Vantage Fit", "website": "https://www.vantagefit.io" },
+  "primaryCategory": "employee-wellness",
+  "summary": "Vantage Fit runs step, multi-activity and mindfulness challenges for employers, with participation analytics for boards. Its pricing page lists USD prices for 200 employees, from $1,600 for one 4-week Single Challenge to $3,200 a year for unlimited Basic challenges. The page prices only 200 employees.",
+  "qualifies": [
+    {
+      "category": "employee-wellness",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "wellness challenges", "sourceUrl": "https://www.vantagefit.io/" },
+        { "capability": "health programs or content", "sourceUrl": "https://www.vantagefit.io/" },
+        { "capability": "participation reports", "sourceUrl": "https://www.vantagefit.io/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The homepage says Vantage Fit runs step, multi-activity, mindfulness and custom challenges for teams, regions or the whole organization.", "sourceUrl": "https://www.vantagefit.io/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage lists a baseline health screening with aggregate insights, guided mindfulness and structured plans with the content behind them.", "sourceUrl": "https://www.vantagefit.io/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says participation, challenge and activity analytics are available for a board to read.", "sourceUrl": "https://www.vantagefit.io/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page shows Single Challenge Basic at 1,600 USD and Pro at 2,000 USD, each for 200 employees and one 4-week challenge.", "sourceUrl": "https://www.vantagefit.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page shows Unlimited Challenges Basic at 3,200 USD and Pro at 4,000 USD a year, each for 200 employees. It says unlimited challenges cost the same as two Single Challenges.", "sourceUrl": "https://www.vantagefit.io/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Single Challenge, Basic", "priceUsd": 1600, "billing": "one_time", "unit": "per 200 employees for one 4-week challenge", "notes": "Daily step tracking only. The page does not state a billing period for this plan." },
+      { "name": "Single Challenge, Pro", "priceUsd": 2000, "billing": "one_time", "unit": "per 200 employees for one 4-week challenge", "notes": "Counts several activities, such as walking, running, cycling and yoga. The page does not state a billing period for this plan." },
+      { "name": "Unlimited Challenges, Basic", "priceUsd": 3200, "billing": "year", "unit": "per 200 employees per year", "notes": "Unlimited step challenges for the year. Billed annually, according to the page." },
+      { "name": "Unlimited Challenges, Pro", "priceUsd": 4000, "billing": "year", "unit": "per 200 employees per year", "notes": "Unlimited challenges covering several activities. Billed annually, according to the page." }
+    ],
+    "hiddenCosts": [
+      "The page prices only 200 employees. A headcount slider runs from 25 to 1,000, but no amounts appear for other headcounts.",
+      "The page does not state taxes, setup fees, multi-year terms or whether monthly billing is available."
+    ],
+    "sourceUrl": "https://www.vantagefit.io/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

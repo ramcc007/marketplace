@@ -1,0 +1,41 @@
+{
+  "name": "Oracle Cloud Infrastructure Resource Manager",
+  "status": "published",
+  "vendor": { "name": "Oracle Corporation", "website": "https://www.oracle.com" },
+  "primaryCategory": "infrastructure-as-code",
+  "summary": "Oracle Cloud Infrastructure Resource Manager runs Terraform configurations as stacks. A plan job produces an execution plan before an apply job provisions resources, and the service stores and locks the stack's state file. Oracle's Resource Manager page says the service has no dedicated charge.",
+  "qualifies": [
+    {
+      "category": "infrastructure-as-code",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "declarative infrastructure definitions", "sourceUrl": "https://docs.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm" },
+        { "capability": "plan and apply workflow", "sourceUrl": "https://docs.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm" },
+        { "capability": "state management", "sourceUrl": "https://docs.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Resource Manager overview says a Terraform configuration codifies infrastructure in declarative configuration files, in HCL or JSON format.", "sourceUrl": "https://docs.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm", "checkedAt": "2026-11-05" },
+    { "text": "The overview says a plan job produces an execution plan for review, and an apply job provisions the resources.", "sourceUrl": "https://docs.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm", "checkedAt": "2026-11-05" },
+    { "text": "The overview says Resource Manager stores Terraform state files for stacks and locks the stack state, so only one job runs on a stack at a time.", "sourceUrl": "https://docs.oracle.com/en-us/iaas/Content/ResourceManager/Concepts/resourcemanager.htm", "checkedAt": "2026-11-05" },
+    { "text": "Oracle's Resource Manager page says the service has no dedicated charge, and that customers pay for the underlying resources they provision.", "sourceUrl": "https://www.oracle.com/cloud/cloud-native/resource-manager/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "free",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Resource Manager", "priceUsd": 0, "billing": "month", "unit": "per service, no dedicated charge", "notes": "No dedicated charge for the service. Customers pay for the compute, storage, network and other resources a stack provisions." }
+    ],
+    "hiddenCosts": [
+      "Customers pay for the underlying resources provisioned through a stack, and those charges are not part of this price."
+    ],
+    "sourceUrl": "https://www.oracle.com/cloud/cloud-native/resource-manager/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

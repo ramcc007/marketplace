@@ -1,0 +1,45 @@
+{
+  "name": "Gravitee",
+  "status": "published",
+  "vendor": { "name": "Gravitee", "website": "https://www.gravitee.io" },
+  "primaryCategory": "api-management",
+  "summary": "Gravitee is an API management platform built around its own gateway. The platform page lists rate limiting and authentication policies, and analytics for REST, GraphQL, gRPC and event traffic. The Planet plan is listed at $2,500 a month, and the Galaxy and Universe plans have no listed price. The pricing page does not name its currency.",
+  "qualifies": [
+    {
+      "category": "api-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "gateway or proxy", "sourceUrl": "https://www.gravitee.io/platform/api-management" },
+        { "capability": "authentication and rate limiting", "sourceUrl": "https://www.gravitee.io/platform/api-management" },
+        { "capability": "developer portal or analytics", "sourceUrl": "https://www.gravitee.io/platform/api-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The platform page says the gateway is written in Java and proxies traffic. It also claims the gateway performs four times faster, which is a vendor claim that we did not test.", "sourceUrl": "https://www.gravitee.io/platform/api-management", "checkedAt": "2026-11-05" },
+    { "text": "The platform page lists pre-built policies for rate limiting and traffic shaping, and names OAuth 2.0, JWT, mTLS, API key and OIDC as authentication options.", "sourceUrl": "https://www.gravitee.io/platform/api-management", "checkedAt": "2026-11-05" },
+    { "text": "The platform page lists unified analytics for REST, GraphQL, gRPC and event streams, and real-time alerts sent by email, Slack or webhook.", "sourceUrl": "https://www.gravitee.io/platform/api-management", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists the Planet plan at $2,500 a month, with one production and one non-production gateway and 50 million requests a month.", "sourceUrl": "https://gravitee.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page gives no price or billing period for the Galaxy and Universe plans, and it does not name the currency for the Planet price.", "sourceUrl": "https://gravitee.io/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Planet", "priceUsd": 2500, "billing": "month", "unit": "per month", "notes": "Unlimited users, one production and one non-production gateway, 50 million requests a month and 7 days of log retention. The page shows a dollar sign without naming the currency." },
+      { "name": "Galaxy", "priceUsd": null, "billing": "quote", "unit": "not listed", "notes": "No price listed. Two production and two non-production gateways, 100 million requests a month and 14 days of log retention." },
+      { "name": "Universe", "priceUsd": null, "billing": "quote", "unit": "not listed", "notes": "No price listed. Four or more production and non-production gateways, 200 million requests a month and 30 days of log retention." }
+    ],
+    "hiddenCosts": [
+      "The pricing page does not name its currency. The Planet figure is recorded as shown.",
+      "The pricing page lists no price for Galaxy or Universe, so the cost of the larger plans is not known from the page."
+    ],
+    "sourceUrl": "https://gravitee.io/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

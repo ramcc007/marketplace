@@ -1,0 +1,47 @@
+{
+  "name": "TestDome",
+  "status": "published",
+  "vendor": { "name": "TestDome", "website": "https://www.testdome.com" },
+  "primaryCategory": "pre-employment-testing",
+  "summary": "TestDome runs skills screening tests with AI proctoring, webcam recording and a Safe Exam Browser lockdown option. Answers are scored automatically, and results show scores by question and skill. The pricing page lists per-candidate packs from $7 to $20, with no subscription.",
+  "qualifies": [
+    {
+      "category": "pre-employment-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "skill or aptitude tests", "sourceUrl": "https://www.testdome.com/" },
+        { "capability": "anti-cheating controls", "sourceUrl": "https://www.testdome.com/" },
+        { "capability": "candidate scoring", "sourceUrl": "https://www.testdome.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The homepage says skills are assessed separately, protected with AI proctoring.", "sourceUrl": "https://www.testdome.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says AI-powered proctoring detects signs of improper human or AI assistance, and that webcam recording detects off-screen glances, phones and other people.", "sourceUrl": "https://www.testdome.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says a Safe Exam Browser lockdown can be enabled to prevent candidates from using hidden AI assistants, and that retakes from the same IP address or browser are detected.", "sourceUrl": "https://www.testdome.com/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says all answers, from code to Excel, are scored automatically, and that results show scores by question and skill and the proctoring events for each screening test.", "sourceUrl": "https://www.testdome.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says there are no subscriptions and that the buyer pays only when a candidate is tested or interviewed. Packs have no expiration date, according to the page.", "sourceUrl": "https://www.testdome.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Starter", "priceUsd": 20, "billing": "one_time", "unit": "per candidate, 5-candidate pack", "notes": "$100 for the pack. The page shows no billing period." },
+      { "name": "Small", "priceUsd": 16, "billing": "one_time", "unit": "per candidate, 25-candidate pack", "notes": "$400 for the pack." },
+      { "name": "Medium", "priceUsd": 10, "billing": "one_time", "unit": "per candidate, 100-candidate pack", "notes": "$1,000 for the pack." },
+      { "name": "Large", "priceUsd": 8, "billing": "one_time", "unit": "per candidate, 300-candidate pack", "notes": "$2,400 for the pack." },
+      { "name": "Extra Large", "priceUsd": 7, "billing": "one_time", "unit": "per candidate, 600-candidate pack", "notes": "$4,200 for the pack." }
+    ],
+    "hiddenCosts": [
+      "The pricing page shows dollar amounts without naming a currency.",
+      "The page shows no billing period for the packs. It describes them as one-off purchases with no subscription."
+    ],
+    "sourceUrl": "https://www.testdome.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

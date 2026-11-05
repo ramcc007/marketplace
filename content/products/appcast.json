@@ -1,0 +1,38 @@
+{
+  "name": "Appcast",
+  "status": "published",
+  "vendor": { "name": "Appcast", "website": "https://www.appcast.io" },
+  "primaryCategory": "job-distribution",
+  "summary": "Appcast advertises jobs across a source-neutral network of thousands of sites. Its homepage says it allocates the recruitment marketing budget across every channel and identifies the sources that drive qualified applicants. The homepage shows no prices and offers a demo request only.",
+  "qualifies": [
+    {
+      "category": "job-distribution",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "posting to many job boards", "sourceUrl": "https://www.appcast.io/" },
+        { "capability": "posting budget management", "sourceUrl": "https://www.appcast.io/" },
+        { "capability": "applicant source tracking", "sourceUrl": "https://www.appcast.io/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The homepage says Appcast advertises jobs across a source-neutral network of thousands of sites. It gives no exact count of job boards.", "sourceUrl": "https://www.appcast.io/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says Appcast automatically allocates the recruitment marketing budget across every channel and gives transparent reporting on that spend.", "sourceUrl": "https://www.appcast.io/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says Appcast connects job ad media performance, candidate behavior and ATS outcomes, and helps identify the sources that drive qualified applicants.", "sourceUrl": "https://www.appcast.io/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [
+      "The homepage shows no prices and offers request-a-demo calls to action, so no price is recorded here. We did not confirm that pricing is quote-only. A pricing page at /pricing/ returned 404 when checked."
+    ],
+    "sourceUrl": "https://www.appcast.io/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

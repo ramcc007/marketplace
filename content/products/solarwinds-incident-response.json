@@ -1,0 +1,45 @@
+{
+  "name": "SolarWinds Incident Response",
+  "status": "published",
+  "vendor": { "name": "SolarWinds", "website": "https://www.solarwinds.com" },
+  "primaryCategory": "incident-management",
+  "summary": "SolarWinds Incident Response, previously sold as Squadcast, provides calendar-based on-call schedules, escalation policies, alert routing and a recorded incident timeline with a blameless postmortem template. Its pricing page lists the Pro plan at $15 per user a month billed annually and Premium at $24, with Enterprise by quote.",
+  "qualifies": [
+    {
+      "category": "incident-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "on-call schedules and escalation", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software" },
+        { "capability": "alert routing", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software" },
+        { "capability": "incident timeline and postmortems", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The product page describes calendar-based on-call schedules with round-robin rotations, and multi-tier escalation policies with automatic failover.", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software", "checkedAt": "2026-11-05" },
+    { "text": "The product page says each service generates a unique webhook integration URL for receiving alerts, and that live call routing pages high-severity incidents by phone.", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software", "checkedAt": "2026-11-05" },
+    { "text": "The product page says the platform auto-captures the full incident timeline, covering alerts, acknowledgments, status changes and actions, and compiles it into a blameless postmortem template that teams can edit.", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software", "checkedAt": "2026-11-05" },
+    { "text": "The product page names the product as SolarWinds Incident Response (previously Squadcast).", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists Pro with postmortems with templates and schedules and escalations, and Premium with advanced escalations and exportable, editable incident timelines.", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Pro", "priceUsd": 15, "billing": "month", "unit": "per user per month, billed annually", "notes": "The pricing page does not offer monthly billing for this plan." },
+      { "name": "Premium", "priceUsd": 24, "billing": "month", "unit": "per user per month, billed annually", "notes": "The pricing page does not offer monthly billing for this plan." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per user", "notes": "Custom pricing. The page directs buyers to a sales conversation." }
+    ],
+    "hiddenCosts": [
+      "The pricing page shows dollar signs but does not name a currency.",
+      "The page does not state a free plan or a free trial period."
+    ],
+    "sourceUrl": "https://www.solarwinds.com/it-incident-response-software/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

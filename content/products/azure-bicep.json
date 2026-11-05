@@ -1,0 +1,39 @@
+{
+  "name": "Azure Bicep",
+  "status": "published",
+  "vendor": { "name": "Microsoft", "website": "https://azure.microsoft.com" },
+  "primaryCategory": "infrastructure-as-code",
+  "summary": "Azure Bicep is a declarative language for deploying Azure resources. The what-if operation lists what a deployment would create, change or delete before it runs, and Azure keeps the deployment state, so the user does not manage a state file. Microsoft's Bicep page says the language is free and open source.",
+  "qualifies": [
+    {
+      "category": "infrastructure-as-code",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "declarative infrastructure definitions", "sourceUrl": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview" },
+        { "capability": "plan and apply workflow", "sourceUrl": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview" },
+        { "capability": "state management", "sourceUrl": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Bicep overview says Bicep uses declarative syntax, and that a Bicep file defines the infrastructure to deploy to Azure.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview", "checkedAt": "2026-11-05" },
+    { "text": "The overview says the what-if operation shows which resources to create, update or delete, and which properties to change, before the Bicep file is deployed.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview", "checkedAt": "2026-11-05" },
+    { "text": "The overview says Azure stores all states, so users have no state files to manage.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview", "checkedAt": "2026-11-05" },
+    { "text": "The overview says Bicep is free and open source, and that Microsoft Support supports it.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "free",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Bicep", "priceUsd": 0, "billing": "month", "unit": "per tool, no charge", "notes": "Free and open source according to the Bicep overview. Azure resources deployed with Bicep are not covered by this price." }
+    ],
+    "hiddenCosts": [],
+    "sourceUrl": "https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

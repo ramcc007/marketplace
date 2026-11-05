@@ -13,9 +13,29 @@
         { "capability": "policy enforcement", "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-security/compliance/overview" },
         { "capability": "remote lock and wipe", "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-management/actions/remote-lock" }
       ]
+    },
+    {
+      "category": "encryption",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        {
+          "capability": "encryption at rest",
+          "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-configuration/endpoint-security/encrypt-bitlocker-windows"
+        },
+        {
+          "capability": "key management",
+          "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-configuration/endpoint-security/encrypt-bitlocker-windows"
+        },
+        {
+          "capability": "access controls",
+          "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-configuration/endpoint-security/encrypt-bitlocker-windows"
+        }
+      ]
     }
   ],
   "facts": [
+    {"text":"The Intune guide says administrators configure BitLocker encryption on Windows devices through endpoint security disk encryption policies.","sourceUrl":"https://learn.microsoft.com/en-us/intune/device-configuration/endpoint-security/encrypt-bitlocker-windows","checkedAt":"2026-11-05"},
+    {"text":"The Intune guide says administrators can view and rotate BitLocker recovery keys, and that managing BitLocker needs an Intune role-based access control role with the rotation right.","sourceUrl":"https://learn.microsoft.com/en-us/intune/device-configuration/endpoint-security/encrypt-bitlocker-windows","checkedAt":"2026-11-05"},
     { "text": "Intune supports enrollment of Android, Android Enterprise, iOS, iPadOS, Linux, macOS and Windows devices, and a device must be registered in Microsoft Entra ID before it can enroll.", "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-enrollment/enroll-devices", "checkedAt": "2026-11-04" },
     { "text": "A tenant can submit up to 500 Wipe actions per day, counted across single-device actions, bulk actions and Graph API requests.", "sourceUrl": "https://learn.microsoft.com/mem/intune/remote-actions/devices-wipe", "checkedAt": "2026-11-04" },
     { "text": "Remote lock only works well when a passcode or PIN is already set. Without one, the screen may turn off and the user can still use the device.", "sourceUrl": "https://learn.microsoft.com/en-us/intune/device-management/actions/remote-lock", "checkedAt": "2026-11-04" },

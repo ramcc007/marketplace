@@ -22,9 +22,30 @@
         { "capability": "it service catalog", "sourceUrl": "https://www.manageengine.com/products/service-desk/itsm/it-service-catalog-software.html" },
         { "capability": "sla tracking", "sourceUrl": "https://www.manageengine.com/products/service-desk/automation/sla-management.html" }
       ]
+    },
+    {
+      "category": "cmdb",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        {
+          "capability": "configuration item records",
+          "sourceUrl": "https://www.manageengine.com/products/service-desk/itil/configuration-management-database.html"
+        },
+        {
+          "capability": "relationship mapping",
+          "sourceUrl": "https://www.manageengine.com/products/service-desk/itil/configuration-management-database.html"
+        },
+        {
+          "capability": "change impact view",
+          "sourceUrl": "https://www.manageengine.com/products/service-desk/itsm/cmdb-enhancements.html"
+        }
+      ]
     }
   ],
   "facts": [
+    {"text":"The relationship map help page says users can analyze the impact a CI has on a business service, and that the map shows the number of pending requests, problems and changes.","sourceUrl":"https://www.manageengine.com/products/service-desk-msp/help/adminguide/cmdb/relationship_map.html","checkedAt":"2026-11-05"},
+    {"text":"The CMDB page says CI records can be populated by discovery scans, and that the CI inventory shows CIs together with their dependencies and associations.","sourceUrl":"https://www.manageengine.com/products/service-desk/itil/configuration-management-database.html","checkedAt":"2026-11-05"},
+    {"text":"The CMDB enhancements page says the complete picture of the CIs involved in a change helps change advisory boards account for potential service impact.","sourceUrl":"https://www.manageengine.com/products/service-desk/itsm/cmdb-enhancements.html","checkedAt":"2026-11-05"},
     { "text": "The free Standard edition covers up to five technicians and only one service desk instance can use that allowance.", "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html", "checkedAt": "2026-11-04" },
     { "text": "End users are not charged, and each service desk instance is billed separately.", "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html", "checkedAt": "2026-11-04" },
     { "text": "The pricing page lists the service catalog as a $1,195 a year add-on on Standard and Professional, and as included in Enterprise.", "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html", "checkedAt": "2026-11-04" },

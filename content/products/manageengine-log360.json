@@ -1,0 +1,47 @@
+{
+  "name": "ManageEngine Log360",
+  "status": "published",
+  "vendor": { "name": "ManageEngine", "website": "https://www.manageengine.com" },
+  "primaryCategory": "siem",
+  "summary": "ManageEngine Log360 is an on-premises SIEM with log collection, detection rules and ticket handoff to ServiceDesk Plus, Jira or ServiceNow. Annual licenses are priced by domain controller, file server, log source, cloud account and endpoint count, starting at $245 a year for 100 endpoints.",
+  "qualifies": [
+    {
+      "category": "siem",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "log collection from many sources", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html" },
+        { "capability": "correlation rules", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html" },
+        { "capability": "alerts and investigation", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The page says Log360 parses over 750 source types, including Linux, network devices, databases, web servers and cloud platforms.", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html", "checkedAt": "2026-11-05" },
+    { "text": "The page lists 2,000 or more MITRE ATT&CK-mapped detection rules as ready on day one. It does not say whether customers can write their own correlation rules.", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html", "checkedAt": "2026-11-05" },
+    { "text": "The page says alerts can be handed off as tickets to ServiceDesk Plus, Jira or ServiceNow. It does not name email or SMS notification channels.", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html", "checkedAt": "2026-11-05" },
+    { "text": "The page offers a single-click correlated investigation from alerts, and a natural-language query over logs and alerts.", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html", "checkedAt": "2026-11-05" },
+    { "text": "Annual license prices depend on the count of domain controllers, Windows file servers, log sources, cloud accounts and endpoints.", "sourceUrl": "https://www.manageengine.com/log-management/manageengine-log360-pricing.html", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Log sources, 10", "priceUsd": 795, "billing": "year", "unit": "per annual license, 10 log sources", "notes": "Perpetual price also shown. Other log source counts run up to 250.", "sourceUrl": "https://www.manageengine.com/log-management/manageengine-log360-pricing.html" },
+      { "name": "Domain controllers, 2", "priceUsd": 945, "billing": "year", "unit": "per annual license, 2 domain controllers", "notes": "Counts run from 2 to 20 domain controllers.", "sourceUrl": "https://www.manageengine.com/log-management/manageengine-log360-pricing.html" },
+      { "name": "Endpoints, 100", "priceUsd": 245, "billing": "year", "unit": "per annual license, 100 endpoints", "notes": "Counts run from 100 to 1,000 endpoints.", "sourceUrl": "https://www.manageengine.com/log-management/manageengine-log360-pricing.html" }
+    ],
+    "hiddenCosts": [
+      "The pricing page shows dollar signs without naming a currency code.",
+      "Prices shown are annual and perpetual licenses. The page shows no monthly price.",
+      "Each licensing category is priced separately, so a full deployment adds several line items. Custom quotes are available through a Request a Quote link.",
+      "The page does not list a free edition, and it does not say which features each license category includes."
+    ],
+    "sourceUrl": "https://www.manageengine.com/log-management/manageengine-log360-pricing.html",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["ServiceDesk Plus", "Jira", "ServiceNow"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

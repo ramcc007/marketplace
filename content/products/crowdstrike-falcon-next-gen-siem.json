@@ -1,0 +1,42 @@
+{
+  "name": "CrowdStrike Falcon Next-Gen SIEM",
+  "status": "published",
+  "vendor": { "name": "CrowdStrike, Inc.", "website": "https://www.crowdstrike.com" },
+  "primaryCategory": "siem",
+  "summary": "Falcon Next-Gen SIEM is CrowdStrike's SIEM for third-party security and IT data as well as Falcon telemetry. Its product page shows per-endpoint pricing labels but no figures.",
+  "qualifies": [
+    {
+      "category": "siem",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "log collection from many sources", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/" },
+        { "capability": "correlation rules", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/" },
+        { "capability": "alerts and investigation", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The page says Falcon Next-Gen SIEM can analyze third-party security and IT data without other Falcon modules.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" },
+    { "text": "The page says federated search gives teams access to the right data when they need it, including S3 and Snowflake sources.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" },
+    { "text": "The page says data from licensed Falcon modules comes in without additional ingestion charges.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" },
+    { "text": "The page says the SIEM correlates agent behavior with identity and endpoint activity after it learns normal patterns.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" },
+    { "text": "The page describes coordinated expert agents that investigate across every associated domain at once.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Falcon Next-Gen SIEM", "priceUsd": null, "billing": "quote", "unit": "per endpoint", "notes": "The cart widget shows the labels per endpoint per year and per endpoint per month, with no figures.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/" }
+    ],
+    "hiddenCosts": [
+      "No price figure appears on the product page, and the page links to a separate pricing page that we did not read."
+    ],
+    "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["Amazon S3", "Snowflake"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

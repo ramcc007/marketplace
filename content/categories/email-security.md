@@ -1,15 +1,17 @@
 ---
 title: Email security software compared
-definition: Seven email security products compared on phishing and malware filtering, impersonation protection, quarantine controls and published pricing.
+definition: Eight email security products compared on phishing and malware filtering, impersonation protection, quarantine controls and published pricing.
 primaryKeyword: email security software
 criteriaApproved: false
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Seven products checked against vendor pages and documentation.
+  - date: 2026-11-05
+    note: Eighth product added. Mimecast Email Security's own pages confirm phishing filtering, impersonation protection and quarantine for review, and it publishes no price. Proofpoint, Hornetsecurity, Abnormal and Cloudflare Email Security were checked and left out, with reasons given on the page.
 ---
 
-Email security software sits between the internet and a mailbox. It scans inbound messages for phishing links, malicious attachments and forged senders, then delivers, tags or holds each message. The seven products on this page each filter phishing and malware, protect named people or domains from impersonation, and give administrators a quarantine to review. We read each vendor's own product pages and documentation, and every product page links to the sources we used.
+Email security software sits between the internet and a mailbox. It scans inbound messages for phishing links, malicious attachments and forged senders, then delivers, tags or holds each message. The eight products on this page each filter phishing and malware, protect named people or domains from impersonation, and give administrators a quarantine to review. We read each vendor's own product pages and documentation, and every product page links to the sources we used.
 
 Two limits shape this page. Most vendors in this category publish no prices, so we can compare how each one sells but not what each one costs. We also did not test detection rates. The catch-rate percentages that vendors quote are their own claims, and we repeat one only when we label it that way.
 
@@ -51,7 +53,7 @@ Mailbox-integrated products connect to Microsoft 365 or Google Workspace. [Sopho
 
 [Microsoft Defender for Office 365](/products/microsoft-defender-for-office-365) is part of the Microsoft 365 platform itself, so its policies sit in the Microsoft Defender portal and need no routing change. We have not checked how the other vendors deploy beyond what their pages state, so confirm the method with each one. [SpamTitan](/products/spamtitan), [TrendAI Email Security](/products/trendai-email-security) and [Cisco Secure Email Threat Defense](/products/cisco-secure-email-threat-defense) fall into that last group.
 
-## The seven products
+## The eight products
 
 [Microsoft Defender for Office 365](/products/microsoft-defender-for-office-365) is the only product here with a published price. Plan 1 is $2 per user per month and Plan 2 is $5, both paid yearly on an annual subscription that auto-renews. Microsoft's basic anti-phishing protection comes with every cloud mailbox, but impersonation settings, phishing thresholds and the rest are exclusive to Defender for Office 365. Each anti-phishing policy can protect up to 350 users and 50 custom domains from impersonation, and by default none are configured, so the protection does nothing until an administrator lists the people and domains to watch. Microsoft also offers a 90-day trial of Plan 2.
 
@@ -69,9 +71,13 @@ Microsoft's quarantine documentation shows how much control administrators get. 
 
 [TrendAI Email Security](/products/trendai-email-security) filters phishing, spam, virus and business email compromise mail. Its high profile users list is the impersonation control, checking mail that forges the display names of the people on it. Administrators use the Query screen to review quarantined messages, delete them or release them for further scanning.
 
+[Mimecast Email Security](/products/mimecast-email-security) scans every email, attachment and URL for phishing and spear-phishing attacks. Its product page says the FAQ covers impersonation fraud detection, and its advanced scanning checks branding and login page impersonation. Its targeted attack protection page says suspicious emails can be blocked, quarantined for review or tagged with a warning. That page does not say who can release a held message. Mimecast publishes no price, and its product page offers only quote and sales links.
+
+Four well-known products did not make the list. Proofpoint, Hornetsecurity, Abnormal Security and Cloudflare Email Security were checked against their own pages. Proofpoint's pages describe phishing detection and impostor protection but do not confirm admin or user release from quarantine on a page we could read. Hornetsecurity's spam and malware page describes a quarantine that users can release from the spam report, but we did not find an impersonation feature on a page we could read. Abnormal's page does not describe a quarantine for review. Cloudflare's page describes no filtering feature in the three areas we checked.
+
 ## What the price pages tell you
 
-Six of the seven products publish no price. That is common in this category, and it changes how to shop.
+Seven of the eight products publish no price. That is common in this category, and it changes how to shop.
 
 Ask each vendor for a written quote that states the unit being counted. Mailboxes, users and domains are all plausible units, and shared mailboxes and service accounts may or may not count. Ask for the contract length, because Cisco lists terms of one, three and five years and Microsoft's plans renew automatically each year. Ask what is excluded from the plan you are quoted. Barracuda splits its offer into six plans, and Check Point has two packages across two forms, so the cheapest line on a quote may omit the feature you wanted.
 
@@ -79,12 +85,12 @@ Microsoft's $2 and $5 figures give a floor for comparison, but they are list pri
 
 ## How to choose
 
-Start with where your mail lives. A company on Microsoft 365 already has basic anti-phishing in every cloud mailbox and can add Defender for Office 365 for $2 or $5 a user. The other six products then have to justify their cost against that baseline, which means testing them against your own mail.
+Start with where your mail lives. A company on Microsoft 365 already has basic anti-phishing in every cloud mailbox and can add Defender for Office 365 for $2 or $5 a user. The other seven products then have to justify their cost against that baseline, which means testing them against your own mail.
 
 Run a trial with real traffic before you sign. Check Point lists 14 days and Microsoft lists 90 days for Plan 2. Put the vendor in monitor mode first if it offers one, log what it would have blocked for two weeks, and compare the list with what your current filter caught.
 
 Test impersonation on purpose. List five executives and the finance team's approvers, then send test messages from a lookalike domain and from a personal address using an executive's display name. Check whether each product tags, holds or ignores them, and whether the quarantine lets the right person release a false positive.
 
-Check who can release held mail. Microsoft stops users releasing their own malware messages from quarantine, and Check Point lets administrators allow users to release suspected phishing. Decide whether your help desk or your users will review held messages, and confirm the product allows that split.
+Check who can release held mail. Microsoft stops users releasing their own malware messages from quarantine, and Check Point lets administrators allow users to release suspected phishing. Mimecast's page says suspicious mail can be quarantined for review but does not name the person who releases it. Decide whether your help desk or your users will review held messages, and confirm the product allows that split.
 
 Finally, fix your own domain's DMARC record. If you send more than 5,000 messages a day to Gmail accounts, Google requires it, and Yahoo requires a passing record from bulk senders. A filter on your inbound mail will not cover that gap.

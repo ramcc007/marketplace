@@ -1,0 +1,42 @@
+{
+  "name": "CoreHealth",
+  "status": "published",
+  "vendor": { "name": "CoreHealth", "website": "https://corehealth.global" },
+  "primaryCategory": "employee-wellness",
+  "summary": "CoreHealth is a white-label wellness platform with a library of challenges, 1:1 and group coaching, health assessments and self-paced content, and a dashboard for participation metrics. The vendor publishes no price, and its page offers only demo bookings.",
+  "qualifies": [
+    {
+      "category": "employee-wellness",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "wellness challenges", "sourceUrl": "https://corehealth.global/?p=463" },
+        { "capability": "health programs or content", "sourceUrl": "https://corehealth.global/?p=463" },
+        { "capability": "participation reports", "sourceUrl": "https://corehealth.global/?p=463" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The page says the buyer can choose from a library of customizable challenges, covering physical, nutritional, financial and other themes, in individual, buddy or team formats.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" },
+    { "text": "The page says the platform supports 1:1 or group coaching by chat, video or email, and that health assessments are available in multiple languages and can be customized.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" },
+    { "text": "The page says self-paced programs are available that build mindfulness, resilience and mental health, and that content can be created and edited by the buyer.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" },
+    { "text": "The page says the dashboard lets the buyer manage participants and monitor program performance, and describes its scope as covering participation metrics.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" },
+    { "text": "The page shows no price. Its calls to action are Request A Demo and Book A Demo.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom quote", "priceUsd": null, "billing": "quote", "unit": "not stated on the page", "notes": "The vendor publishes no price. Pricing is available on request only." }
+    ],
+    "hiddenCosts": [
+      "The vendor publishes no price, so no amount is recorded. The page does not say whether individual participant names appear in reports."
+    ],
+    "sourceUrl": "https://corehealth.global/?p=463",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

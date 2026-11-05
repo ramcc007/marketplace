@@ -1,0 +1,41 @@
+{
+  "name": "Bullhorn",
+  "status": "published",
+  "vendor": { "name": "Bullhorn, Inc.", "website": "https://www.bullhorn.com" },
+  "primaryCategory": "video-interviewing",
+  "summary": "Bullhorn offers on-demand and live video interviewing alongside its recruiting software. Candidates can book their own slots against synced interviewer calendars, and reviewers can rate and score candidates in real time. The vendor publishes no price.",
+  "qualifies": [
+    {
+      "category": "video-interviewing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "one-way or live video interviews", "sourceUrl": "https://www.bullhorn.com/?p=74463" },
+        { "capability": "interview scheduling", "sourceUrl": "https://www.bullhorn.com/?p=74463" },
+        { "capability": "reviewer scoring", "sourceUrl": "https://www.bullhorn.com/?p=74463" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The page lists On Demand Video Interviewing and Live Video Interviewing as products, and shows a caption describing a hiring team reviewing a recorded one-way interview.", "sourceUrl": "https://www.bullhorn.com/?p=74463", "checkedAt": "2026-11-05" },
+    { "text": "The page says candidates can schedule their interview from their phone, laptop, or anywhere with a browser, and that scheduling syncs client calendar availability for individual, back-to-back and panel interviews.", "sourceUrl": "https://www.bullhorn.com/?p=74463", "checkedAt": "2026-11-05" },
+    { "text": "The page says the product allows clients to rate and score candidates in real time, and that its interview builder provides structured guides for evaluating candidates.", "sourceUrl": "https://www.bullhorn.com/?p=74463", "checkedAt": "2026-11-05" },
+    { "text": "The page shows no prices, currency or plan tiers. It offers a live demo and a partner demo.", "sourceUrl": "https://www.bullhorn.com/?p=74463", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Bullhorn video interviewing (quote only)", "priceUsd": null, "billing": "quote", "unit": "not stated on the vendor pages read", "notes": "The vendor publishes no price. The page offers a live demo and a partner demo only." }
+    ],
+    "hiddenCosts": [
+      "The vendor publishes no price, so the cost of video interviewing must be requested from the vendor."
+    ],
+    "sourceUrl": "https://www.bullhorn.com/?p=74463",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

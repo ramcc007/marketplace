@@ -1,0 +1,44 @@
+{
+  "name": "AWS Key Management Service",
+  "status": "published",
+  "vendor": { "name": "Amazon Web Services, Inc.", "website": "https://aws.amazon.com" },
+  "primaryCategory": "encryption",
+  "summary": "AWS KMS is a managed service for creating and controlling the keys that encrypt data in AWS services and in customer applications. Each customer managed key costs $1 a month, and rotation adds $1 a month for the first two rotations. The free tier covers 20,000 requests a month. Key policies and IAM control who can use or manage keys. The pricing page does not name its currency.",
+  "qualifies": [
+    {
+      "category": "encryption",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "encryption at rest", "sourceUrl": "https://aws.amazon.com/kms/features/" },
+        { "capability": "key management", "sourceUrl": "https://docs.aws.amazon.com/kms/latest/developerguide/overview.html" },
+        { "capability": "access controls", "sourceUrl": "https://docs.aws.amazon.com/kms/latest/developerguide/overview.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The features page says AWS KMS integrates with AWS services to encrypt data at rest, using envelope encryption with a KMS key protecting the data keys.", "sourceUrl": "https://aws.amazon.com/kms/features/", "checkedAt": "2026-11-05" },
+    { "text": "The features page says customers can control who manages keys separately from who uses them.", "sourceUrl": "https://aws.amazon.com/kms/features/", "checkedAt": "2026-11-05" },
+    { "text": "The overview says AWS KMS keys are protected by FIPS 140-3 Security Level 3 validated hardware security modules, and that the keys never leave AWS KMS unencrypted.", "sourceUrl": "https://docs.aws.amazon.com/kms/latest/developerguide/overview.html", "checkedAt": "2026-11-05" },
+    { "text": "The overview says key policies can be created and managed in AWS KMS, so that only trusted users have access to KMS keys.", "sourceUrl": "https://docs.aws.amazon.com/kms/latest/developerguide/overview.html", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says each customer managed key costs $1 a month, prorated hourly, and that the first and second rotations add $1 a month each.", "sourceUrl": "https://aws.amazon.com/kms/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Customer managed key", "priceUsd": 1, "billing": "month", "unit": "per key per month, prorated hourly", "notes": "Free tier of 20,000 requests a month. Rotation adds $1 a month for the first and second rotations." }
+    ],
+    "hiddenCosts": [
+      "Request prices are not in a rate table on the pricing page. They appear only in worked examples.",
+      "The pricing page uses the dollar sign and does not name a currency.",
+      "Requests to asymmetric key operations and some data key generation calls are excluded from the free tier."
+    ],
+    "sourceUrl": "https://aws.amazon.com/kms/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

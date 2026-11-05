@@ -7,6 +7,8 @@ writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Five products checked against vendor pages.
+  - date: 2026-11-05
+    note: Second pass over new candidates. Twingate, Check Point SASE (formerly Perimeter 81), CyberGhost, ExpressVPN and Cato Networks were checked and left out, with reasons in the section on candidates not listed. The page still lists five products and is below the eight the quality gate requires.
 ---
 
 A finance team needs its accounting vendor to see requests from one fixed address, and a dozen contractors need access to a few internal tools without sharing a password. Both problems point to a business VPN: a service that encrypts remote access, lets an administrator control who gets in, and can give the company an IP address that outside services can recognize. The five products on this page meet all three of those tests, and we checked every price and claim on the vendor's own website.
@@ -88,6 +90,22 @@ Minimum seat counts are a quiet cost for very small teams. Four of the five prod
 A team of five to twenty that needs an allowlisted address and wants a plain control panel should compare NordLayer and GoodAccess first, using the ten-user totals above as a starting point. A team that already runs Okta or Entra ID and values a long location list can trial Proton, after getting the dedicated IP price in writing. A team with a tight budget and one internal server to reach can consider Windscribe, accepting that the IP is shared.
 
 A larger company that wants a VPN, web filtering and device checks under one contract belongs in a sales conversation with Cloudflare. Ask for the dedicated egress IP price and the Enterprise plan terms before comparing it with the others.
+
+## Candidates not listed
+
+This pass also checked five more services against their own pages. None met all three tests on the evidence we could read, so none is listed.
+
+Twingate's pricing page lists Static IPs only on its Enterprise plan, and marks them as an add-on. The Enterprise price is set by sales. We did not find a vendor page we could read that describes how its traffic is encrypted, so the encryption test is open and the product is left out.
+
+Check Point SASE, formerly Perimeter 81, has a pricing URL that redirected to its home page. The home page we could read describes Private Access and zero trust access, but does not state a dedicated or static IP. A search result mentioned a static IP feature on a pricing page we could not open, so we did not rely on it.
+
+CyberGhost sells a dedicated IP as an add-on to a consumer VPN subscription. We found no business plan and no central user management on its pages, so it fails the second test.
+
+ExpressVPN's business address redirected to a consumer offer page, so we could not check its business plans or any dedicated IP offer.
+
+Cato Networks' pricing URL returned a not-found page on our reads, so we could not check its plans or its static IP terms.
+
+Any of these could qualify on a later pass if its own pages state the three tests. When that happens, the product would be added with a source URL for each test and, if no price is published, as a quote-only plan with no figure.
 
 ## What to test during a trial
 

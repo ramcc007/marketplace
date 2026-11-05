@@ -1,0 +1,43 @@
+{
+  "name": "MileIQ",
+  "status": "published",
+  "vendor": { "name": "MileIQ", "website": "https://www.mileiq.com" },
+  "primaryCategory": "mileage-tracking",
+  "summary": "MileIQ tracks drives automatically and sends them to a reporting dashboard for teams. Its Teams Pro plan includes custom rates, and approval and reminders with automatic reporting. The business pricing page lists Teams Lite at $8 a user a month, Teams at $9 and Teams Pro at $10, billed monthly, with no currency named.",
+  "qualifies": [
+    {
+      "category": "mileage-tracking",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "gps or manual trip logging", "sourceUrl": "https://www.mileiq.com/" },
+        { "capability": "mileage rate calculation", "sourceUrl": "https://www.mileiq.com/pricing-for-business" },
+        { "capability": "reimbursement reports", "sourceUrl": "https://www.mileiq.com/pricing-for-business" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The MileIQ home page says the app tracks mileage automatically, so the user does not have to stop and log a drive.", "sourceUrl": "https://www.mileiq.com/", "checkedAt": "2026-11-05" },
+    { "text": "The business pricing page lists automatic trip tracking on Teams Lite, Teams and Teams Pro.", "sourceUrl": "https://www.mileiq.com/pricing-for-business", "checkedAt": "2026-11-05" },
+    { "text": "The business pricing page says Teams Pro includes custom rates. The page does not say whether IRS rates are applied.", "sourceUrl": "https://www.mileiq.com/pricing-for-business", "checkedAt": "2026-11-05" },
+    { "text": "The business pricing page says Teams Pro includes a reporting dashboard, approve and reject, and reminders with automatic reporting.", "sourceUrl": "https://www.mileiq.com/pricing-for-business", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Teams Lite", "priceUsd": 8, "billing": "month", "unit": "per user per month, monthly billing", "notes": "$80 per user a year on annual billing. Report submission and review are included." },
+      { "name": "Teams", "priceUsd": 9, "billing": "month", "unit": "per user per month, monthly billing", "notes": "$90 per user a year on annual billing. Adds a reporting dashboard." },
+      { "name": "Teams Pro", "priceUsd": 10, "billing": "month", "unit": "per user per month, monthly billing", "notes": "$100 per user a year on annual billing. Adds custom rates, approve and reject, and reminders. The monthly option has a free trial with no card required." }
+    ],
+    "hiddenCosts": [
+      "The page names no currency. The figures are recorded with the dollar sign as shown."
+    ],
+    "sourceUrl": "https://www.mileiq.com/pricing-for-business",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

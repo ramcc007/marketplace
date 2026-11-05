@@ -13,9 +13,29 @@
         { "capability": "asset lifecycle tracking", "sourceUrl": "https://docs.device42.com/infrastructure-management/devices/device-lifecycle-tab/" },
         { "capability": "license or contract tracking", "sourceUrl": "https://www.device42.com/features/software-license-management/" }
       ]
+    },
+    {
+      "category": "cmdb",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        {
+          "capability": "configuration item records",
+          "sourceUrl": "https://www.device42.com/features/cmdb/"
+        },
+        {
+          "capability": "relationship mapping",
+          "sourceUrl": "https://www.device42.com/features/cmdb/"
+        },
+        {
+          "capability": "change impact view",
+          "sourceUrl": "https://www.device42.com/features/cmdb/"
+        }
+      ]
     }
   ],
   "facts": [
+    {"text":"The Device42 CMDB page says the product captures applications, services, IT infrastructure and their dependencies.","sourceUrl":"https://www.device42.com/features/cmdb/","checkedAt":"2026-11-05"},
+    {"text":"The Device42 CMDB page says the product offers upstream and downstream views to assess change risk, and supports impact analysis to help prevent change-related outages.","sourceUrl":"https://www.device42.com/features/cmdb/","checkedAt":"2026-11-05"},
     { "text": "Device42 says it discovers software on Windows, Mac and Linux across servers and desktops, covering on-premises and SaaS software.", "sourceUrl": "https://www.device42.com/features/software-license-management/", "checkedAt": "2026-11-04" },
     { "text": "Lifecycle events record a date, time and event type for each device, and purchases and contracts can be recorded against it.", "sourceUrl": "https://docs.device42.com/infrastructure-management/devices/device-lifecycle-tab/", "checkedAt": "2026-11-04" },
     { "text": "Licenses are valid for one year from purchase and renewal goes through Device42 support. A device uses 1 license unit, 10 containers use 1 unit and storage is bought separately at 1 unit per 50 TB.", "sourceUrl": "https://docs.device42.com/administration/licensing/", "checkedAt": "2026-11-04" }

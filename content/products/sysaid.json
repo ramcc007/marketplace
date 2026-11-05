@@ -13,9 +13,29 @@
         { "capability": "it service catalog", "sourceUrl": "https://www.sysaid.com/service-management/self-service-experience" },
         { "capability": "sla tracking", "sourceUrl": "https://www.sysaid.com/it-service-management" }
       ]
+    },
+    {
+      "category": "cmdb",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        {
+          "capability": "configuration item records",
+          "sourceUrl": "https://documentation.sysaid.com/docs/configuration-management-database-cmdb-guide"
+        },
+        {
+          "capability": "relationship mapping",
+          "sourceUrl": "https://documentation.sysaid.com/docs/configuration-management-database-cmdb-guide"
+        },
+        {
+          "capability": "change impact view",
+          "sourceUrl": "https://cdn.sysaid.com/it-service-management-software/cmdb-software"
+        }
+      ]
     }
   ],
   "facts": [
+    {"text":"The SysAid CMDB guide says each CI is a record for one tracked item, and that relations can be created on the CI Relations tab of a CI or imported in bulk from a CSV file.","sourceUrl":"https://documentation.sysaid.com/docs/configuration-management-database-cmdb-guide","checkedAt":"2026-11-05"},
+    {"text":"The SysAid CMDB page says the product can predict how a change, such as a server replacement or software upgrade, will affect the IT environment, users and services.","sourceUrl":"https://cdn.sysaid.com/it-service-management-software/cmdb-software","checkedAt":"2026-11-05"},
     { "text": "The ITSM Professional plan lists request, incident, change and problem management, asset management and SLA management.", "sourceUrl": "https://www.sysaid.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "SysAid also sells an AI product called Dex at $89 or $189 per technician a month, priced separately from ITSM.", "sourceUrl": "https://www.sysaid.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The product page lists PinkVERIFY certification and PeopleCert accreditation as an ITIL 4 tool vendor, and does not mention SOC 2 or ISO 27001.", "sourceUrl": "https://www.sysaid.com/it-service-management", "checkedAt": "2026-11-04" }

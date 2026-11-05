@@ -1,0 +1,42 @@
+{
+  "name": "Healthper",
+  "status": "published",
+  "vendor": { "name": "Healthper", "website": "https://www.healthper.com" },
+  "primaryCategory": "employee-wellness",
+  "summary": "Healthper runs more than 200 team and individual wellness challenges, along with health assessments, health coaching and a health library, and reports participation, utilization and risk. The vendor publishes no price on its site, and its program buttons link to Microsoft AppSource.",
+  "qualifies": [
+    {
+      "category": "employee-wellness",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "wellness challenges", "sourceUrl": "https://www.healthper.com" },
+        { "capability": "health programs or content", "sourceUrl": "https://www.healthper.com" },
+        { "capability": "participation reports", "sourceUrl": "https://www.healthper.com" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The homepage says the platform offers over 200 team and individual challenges, which can be customized.", "sourceUrl": "https://www.healthper.com", "checkedAt": "2026-11-05" },
+    { "text": "The homepage lists a 12-week miles tracking team challenge, a 12-week mental well-being challenge and a 12-week heart challenge.", "sourceUrl": "https://www.healthper.com", "checkedAt": "2026-11-05" },
+    { "text": "The homepage lists a comprehensive health assessment, digital and live health coaching, and a health library with over 300 activities and educational content.", "sourceUrl": "https://www.healthper.com", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says the platform provides in-depth participation, utilization and risk reporting and analytics, and a centralized dashboard to measure program performance.", "sourceUrl": "https://www.healthper.com", "checkedAt": "2026-11-05" },
+    { "text": "The homepage shows no prices. Program buy buttons link to Microsoft AppSource, which was not read for this profile.", "sourceUrl": "https://www.healthper.com", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom quote", "priceUsd": null, "billing": "quote", "unit": "not stated on the vendor's site", "notes": "The vendor's site publishes no price. Pricing is not stated on the pages read." }
+    ],
+    "hiddenCosts": [
+      "The vendor publishes no price on its own site, so no amount is recorded. Program buttons link to Microsoft AppSource, which may list prices. That page was not read and should be checked before this profile is updated."
+    ],
+    "sourceUrl": "https://www.healthper.com",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

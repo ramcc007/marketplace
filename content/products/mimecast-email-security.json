@@ -1,0 +1,49 @@
+{
+  "name": "Mimecast Email Security",
+  "status": "published",
+  "vendor": { "name": "Mimecast", "website": "https://www.mimecast.com" },
+  "primaryCategory": "email-security",
+  "summary": "Mimecast Email Security scans inbound mail, attachments and URLs for phishing and checks for impersonation of people and brands. Its product page says buyers can get a quote, and it publishes no price.",
+  "qualifies": [
+    {
+      "category": "email-security",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "phishing and malware filtering", "sourceUrl": "https://www.mimecast.com/products/email-security/" },
+        { "capability": "impersonation protection", "sourceUrl": "https://www.mimecast.com/products/email-security/" },
+        { "capability": "quarantine management", "sourceUrl": "https://www.mimecast.com/content/targeted-attack-protection/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The product page says the product scans every email, attachment and URL for phishing and spear-phishing attacks.", "sourceUrl": "https://www.mimecast.com/products/email-security/", "checkedAt": "2026-11-05" },
+    { "text": "The FAQ on the product page says the product scans messages to detect and prevent impersonation fraud. Its advanced scanning uses computer vision to identify branding and login page impersonation.", "sourceUrl": "https://www.mimecast.com/products/email-security/", "checkedAt": "2026-11-05" },
+    { "text": "The targeted attack protection page says suspicious emails can be blocked, quarantined for review, or tagged with a warning.", "sourceUrl": "https://www.mimecast.com/content/targeted-attack-protection/", "checkedAt": "2026-11-05" },
+    { "text": "The targeted attack protection page does not say whether an administrator or the recipient can release a quarantined message.", "sourceUrl": "https://www.mimecast.com/content/targeted-attack-protection/", "checkedAt": "2026-11-05" },
+    { "text": "The product page shows Get a Quote, Contact Sales and Explore Plans links and no price.", "sourceUrl": "https://www.mimecast.com/products/email-security/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      {
+        "name": "Mimecast Email Security",
+        "priceUsd": null,
+        "billing": "quote",
+        "unit": "not stated on the page",
+        "notes": "The vendor publishes no price. The product page offers Get a Quote, Contact Sales and Explore Plans, with no amounts, plan names or unit stated."
+      }
+    ],
+    "hiddenCosts": [
+      "The vendor publishes no price, so the cost of any plan is unknown until a written quote is received.",
+      "The product page does not state the unit that is priced, such as users, mailboxes or domains."
+    ],
+    "sourceUrl": "https://www.mimecast.com/products/email-security/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

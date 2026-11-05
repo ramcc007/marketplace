@@ -13,9 +13,29 @@
         { "capability": "patch scheduling", "sourceUrl": "https://www.manageengine.com/products/desktop-central/patch-management.html" },
         { "capability": "compliance reports", "sourceUrl": "https://www.manageengine.com/products/desktop-central/patch-management-reports.html" }
       ]
+    },
+    {
+      "category": "encryption",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        {
+          "capability": "encryption at rest",
+          "sourceUrl": "https://www.manageengine.com/products/desktop-central/bitlocker-overview.html"
+        },
+        {
+          "capability": "key management",
+          "sourceUrl": "https://www.manageengine.com/products/desktop-central/bitlocker-overview.html"
+        },
+        {
+          "capability": "access controls",
+          "sourceUrl": "https://www.manageengine.com/products/desktop-central/bitlocker-overview.html"
+        }
+      ]
     }
   ],
   "facts": [
+    {"text":"The BitLocker overview says BitLocker Management configures Windows BitLocker on eligible computers in selected groups, and does not deploy BitLocker policies to macOS or Linux.","sourceUrl":"https://www.manageengine.com/products/desktop-central/bitlocker-overview.html","checkedAt":"2026-11-05"},
+    {"text":"The BitLocker overview says recovery keys are stored automatically in Active Directory or on the Endpoint Central server, and that the product provides role-based access control for IT teams.","sourceUrl":"https://www.manageengine.com/products/desktop-central/bitlocker-overview.html","checkedAt":"2026-11-05"},
     { "text": "The patch page claims testing and deployment of patches for over 1000 third-party applications.", "sourceUrl": "https://www.manageengine.com/products/desktop-central/patch-management.html", "checkedAt": "2026-11-04" },
     { "text": "Deployment policies set days, weeks, install windows and reboot behavior, and offline computers can be woken on LAN.", "sourceUrl": "https://www.manageengine.com/products/desktop-central/patch-management.html", "checkedAt": "2026-11-04" },
     { "text": "Missing Patches and System Health reports export as PDF or CSV.", "sourceUrl": "https://www.manageengine.com/products/desktop-central/patch-management-reports.html", "checkedAt": "2026-11-04" },

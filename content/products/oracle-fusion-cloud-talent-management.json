@@ -1,0 +1,42 @@
+{
+  "name": "Oracle Fusion Cloud Talent Management",
+  "status": "published",
+  "vendor": { "name": "Oracle Corporation", "website": "https://www.oracle.com" },
+  "primaryCategory": "succession-planning",
+  "summary": "Oracle Fusion Cloud Talent Management includes Talent Review and Succession Management. Talent pools feed succession plans, a team dashboard shows which successors are rated Ready Now, and talent review meetings can carry both pools and plans. The vendor pages we read publish no price, so the figure is quoted per contract.",
+  "qualifies": [
+    {
+      "category": "succession-planning",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "successor pools", "sourceUrl": "https://docs.oracle.com/en/cloud/saas/talent-management/fatrs/how-succession-plans-talent-pools-and-talent-reviews-work.html" },
+        { "capability": "readiness assessments", "sourceUrl": "https://docs.oracle.com/en/cloud/saas/readiness/hcm/26b/tama-26b/26B-talent-mgmt-wn-f43450.htm" },
+        { "capability": "talent reviews", "sourceUrl": "https://docs.oracle.com/en/cloud/saas/talent-management/fatrs/how-succession-plans-talent-pools-and-talent-reviews-work.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Oracle help page says a user can select members from talent pools they own and add them as candidates to succession plans they manage.", "sourceUrl": "https://docs.oracle.com/en/cloud/saas/talent-management/fatrs/how-succession-plans-talent-pools-and-talent-reviews-work.html", "checkedAt": "2026-11-05" },
+    { "text": "The help page says that when a talent review meeting is set up, succession plans and talent pools the user can access can be associated with the meeting.", "sourceUrl": "https://docs.oracle.com/en/cloud/saas/talent-management/fatrs/how-succession-plans-talent-pools-and-talent-reviews-work.html", "checkedAt": "2026-11-05" },
+    { "text": "The Team Succession Planning Dashboard in the 26B release notes lists the names of successor candidates with a readiness of Ready Now, and the names of team members who have no Ready-Now successor.", "sourceUrl": "https://docs.oracle.com/en/cloud/saas/readiness/hcm/26b/tama-26b/26B-talent-mgmt-wn-f43450.htm", "checkedAt": "2026-11-05" },
+    { "text": "The release notes page does not say who sets a readiness level, and it names Ready Now as the only readiness level shown.", "sourceUrl": "https://docs.oracle.com/en/cloud/saas/readiness/hcm/26b/tama-26b/26B-talent-mgmt-wn-f43450.htm", "checkedAt": "2026-11-05" },
+    { "text": "The Oracle help overview says talent review and succession management is available only after an HCM Base or Talent Management Base is implemented.", "sourceUrl": "https://docs.oracle.com/en/cloud/saas/talent-management/fatrs/overview-of-implementing-talent-review-and-succession-management.html", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Talent Review and Succession Management (within Oracle Fusion Cloud HCM)", "priceUsd": null, "billing": "quote", "unit": "not published", "notes": "The vendor pages we read publish no price for this module. Pricing is by quote from Oracle." }
+    ],
+    "hiddenCosts": [
+      "The help overview says an HCM Base or Talent Management Base must be implemented before this module can be set up. Ask Oracle to price that base alongside the module."
+    ],
+    "sourceUrl": "https://docs.oracle.com/en/cloud/saas/talent-management/fatrs/overview-of-implementing-talent-review-and-succession-management.html",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

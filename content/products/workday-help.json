@@ -1,0 +1,41 @@
+{
+  "name": "Workday Help",
+  "status": "published",
+  "vendor": { "name": "Workday, Inc.", "website": "https://www.workday.com" },
+  "primaryCategory": "hr-help-desk",
+  "summary": "Workday Help is the knowledge and case management part of Workday Human Capital Management. Employees search articles before they open a case, then create cases and check their status from self-service. The product page shows no prices and offers Contact Sales.",
+  "qualifies": [
+    {
+      "category": "hr-help-desk",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "employee case intake", "sourceUrl": "https://doc.workday.com/admin-guide/en-us/human-capital-management/hcm-innovation-services/workday-help/case-management/hot1559060224551.html" },
+        { "capability": "hr knowledge base", "sourceUrl": "https://www.workday.com/en-ch/products/human-capital-management/knowledge-case-management.html" },
+        { "capability": "case tracking", "sourceUrl": "https://doc.workday.com/admin-guide/en-us/human-capital-management/hcm-innovation-services/workday-help/case-management/hot1559060224551.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Workday admin guide says employees use self-service to create cases, check their statuses and connect with the assigned case solver.", "sourceUrl": "https://doc.workday.com/admin-guide/en-us/human-capital-management/hcm-innovation-services/workday-help/case-management/hot1559060224551.html", "checkedAt": "2026-11-05" },
+    { "text": "The admin guide says employees can see suggested resources, such as articles and Workday tasks, before they create a case.", "sourceUrl": "https://doc.workday.com/admin-guide/en-us/human-capital-management/hcm-innovation-services/workday-help/case-management/hot1559060224551.html", "checkedAt": "2026-11-05" },
+    { "text": "The product page says employees can start case creation from desktop, mobile or Microsoft Teams, and says Workday makes it easier to find answers in topics, knowledge articles and cases.", "sourceUrl": "https://www.workday.com/en-ch/products/human-capital-management/knowledge-case-management.html", "checkedAt": "2026-11-05" },
+    { "text": "The product page shows Contact Sales and Contact us links and no dollar figures.", "sourceUrl": "https://www.workday.com/en-ch/products/human-capital-management/knowledge-case-management.html", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Workday Help", "priceUsd": null, "billing": "quote", "unit": "not published", "notes": "Contact Sales and Contact us links on the product page. No prices, minimums or per-employee rates are shown." }
+    ],
+    "hiddenCosts": [
+      "No prices or contract terms are published on the product page we read."
+    ],
+    "sourceUrl": "https://www.workday.com/en-ch/products/human-capital-management/knowledge-case-management.html",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

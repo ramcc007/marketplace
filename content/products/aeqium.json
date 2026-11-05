@@ -1,0 +1,43 @@
+{
+  "name": "Aeqium",
+  "status": "published",
+  "vendor": { "name": "Aeqium", "website": "https://www.aeqium.com" },
+  "primaryCategory": "compensation-management",
+  "summary": "Aeqium is compensation planning software. Its homepage lists salary bands with compa-ratios and equity gaps, merit matrices and bonus formulas inside cycle workflows, and pay equity monitoring. Its plans page names modules and add-ons but publishes no prices, so buyers request a demo to get pricing.",
+  "qualifies": [
+    {
+      "category": "compensation-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "salary bands", "sourceUrl": "https://www.aeqium.com/" },
+        { "capability": "merit and bonus cycles", "sourceUrl": "https://www.aeqium.com/" },
+        { "capability": "pay equity analysis", "sourceUrl": "https://www.aeqium.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The homepage lists 'Salary bands, compa-ratios, equity gaps' and has a section headed 'Compensation Benchmarks, Salary Bands, and Analytics'.", "sourceUrl": "https://www.aeqium.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says: 'Build merit matrices, bonus formulas, approval chains, and proration logic exactly the way your organization works.'", "sourceUrl": "https://www.aeqium.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says: 'Monitor pay equity, spot retention risks, and understand compensation patterns before they become problems.'", "sourceUrl": "https://www.aeqium.com/", "checkedAt": "2026-11-05" },
+    { "text": "The plans page lists a Compensation Management plan, labeled Foundations, with cycle management, compensation bands and interactive offer letters. Pay Equity is listed as one of the Compensation Analysis add-ons.", "sourceUrl": "https://www.aeqium.com/plans", "checkedAt": "2026-11-05" },
+    { "text": "The plans page says: 'We'll configure your complete compensation process in Aeqium at no charge when you request a demo.' The page does not publish a free plan.", "sourceUrl": "https://www.aeqium.com/plans", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Compensation Management (Foundations)", "priceUsd": null, "billing": "quote", "unit": "not published", "notes": "The plans page lists cycle management, compensation bands and interactive offer letters with no price. Buyers request a demo to get pricing." },
+      { "name": "Compensation Analysis add-ons", "priceUsd": null, "billing": "quote", "unit": "not published", "notes": "Automated compensation alerts, the My Team manager reporting suite and Pay Equity are listed as add-ons with no price." }
+    ],
+    "hiddenCosts": [
+      "The plans page shows no prices, currency or billing period, so the cost of each module and add-on is not known from the vendor site."
+    ],
+    "sourceUrl": "https://www.aeqium.com/plans",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

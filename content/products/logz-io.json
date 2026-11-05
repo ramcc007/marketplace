@@ -13,11 +13,24 @@
         { "capability": "retention policies", "sourceUrl": "https://logz.io/pricing/" },
         { "capability": "log-based alerts", "sourceUrl": "https://logz.io/platform/log-management/" }
       ]
+    },
+    {
+      "category": "siem",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "correlation rules", "sourceUrl": "https://docs.logz.io/docs/user-guide/cloud-siem/security-rules/security-correlated-queries/" },
+        { "capability": "log collection from many sources", "sourceUrl": "https://logz.io/blog/cloud-based-siem-for-security-teams/" },
+        { "capability": "alerts and investigation", "sourceUrl": "https://docs.logz.io/user-guide/cloud-siem/security-events.html" }
+      ]
     }
   ],
   "facts": [
     { "text": "Additional retention is priced per extra day at $0.03 for the hot tier, $0.015 for warm and $0.001 for cold.", "sourceUrl": "https://logz.io/pricing/", "checkedAt": "2026-11-04" },
     { "text": "The page describes alerts that can combine several queries and trigger conditions, with a setting for how often they fire.", "sourceUrl": "https://logz.io/platform/log-management/", "checkedAt": "2026-11-04" },
+    { "text": "Cloud SIEM logs a security event each time a rule triggers, and the Investigate button pulls up the logs that caused the trigger.", "sourceUrl": "https://docs.logz.io/user-guide/cloud-siem/security-events.html", "checkedAt": "2026-11-05" },
+    { "text": "Correlated rules write one event log per query, numbered 1/2 and 2/2, and the join values field links the matching events.", "sourceUrl": "https://docs.logz.io/docs/user-guide/cloud-siem/security-rules/security-correlated-queries/", "checkedAt": "2026-11-05" },
+    { "text": "The blog says Cloud SIEM takes in data from cloud, SaaS, network, identity, endpoint and on-premises sources, and cites more than 350 built-in integrations.", "sourceUrl": "https://logz.io/blog/cloud-based-siem-for-security-teams/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says Cloud SIEM is priced like Log Management, by GB ingested and retention period, and lists no separate Cloud SIEM price.", "sourceUrl": "https://logz.io/pricing/", "checkedAt": "2026-11-05" },
     { "text": "Monthly billing costs 1.2 times the annual rate, and overage is billed at 1.4 times the subscription rate.", "sourceUrl": "https://logz.io/pricing/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

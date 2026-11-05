@@ -13,6 +13,15 @@
         { "capability": "expense policies and approvals", "sourceUrl": "https://www.zoho.com/us/expense/pricing/" },
         { "capability": "reimbursement", "sourceUrl": "https://www.zoho.com/us/expense/pricing/" }
       ]
+    },
+    {
+      "category": "mileage-tracking",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "gps or manual trip logging", "sourceUrl": "https://www.zoho.com/us/expense/mileage-reimbursement-tracker/" },
+        { "capability": "mileage rate calculation", "sourceUrl": "https://www.zoho.com/us/expense/mileage-reimbursement-tracker/" },
+        { "capability": "reimbursement reports", "sourceUrl": "https://www.zoho.com/us/expense/help/expenses/creating-mileage-expenses/" }
+      ]
     }
   ],
   "facts": [
@@ -20,7 +29,10 @@
     { "text": "Standard allows 200 scans per user a month and Premium allows 1,000.", "sourceUrl": "https://www.zoho.com/us/expense/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Cash advances, ACH payments and direct bank reimbursements start on Standard.", "sourceUrl": "https://www.zoho.com/us/expense/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Zoho states that Zoho Expense is ISO 27001 and SOC Type 2 certified.", "sourceUrl": "https://www.zoho.com/expense/compliance/", "checkedAt": "2026-11-04" },
-    { "text": "The service is pay as you go with no contract, and Zoho says users can cancel any time.", "sourceUrl": "https://www.zoho.com/us/expense/pricing/", "checkedAt": "2026-11-04" }
+    { "text": "The service is pay as you go with no contract, and Zoho says users can cancel any time.", "sourceUrl": "https://www.zoho.com/us/expense/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "The mileage page says a user taps start and stop to record a trip, and the app calculates the distance from it or from an odometer reading the user enters.", "sourceUrl": "https://www.zoho.com/us/expense/mileage-reimbursement-tracker/", "checkedAt": "2026-11-05" },
+    { "text": "Mileage amounts are calculated from pre-set rates per mile or kilometer, and the help page says the vehicle's mileage rate is set by the admin.", "sourceUrl": "https://www.zoho.com/us/expense/mileage-reimbursement-tracker/", "checkedAt": "2026-11-05" },
+    { "text": "Mileage expenses are added to a report through the Add to Report option, which can use an existing report or a new one.", "sourceUrl": "https://www.zoho.com/us/expense/help/expenses/creating-mileage-expenses/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "freemium",

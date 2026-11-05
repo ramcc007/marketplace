@@ -1,0 +1,39 @@
+{
+  "name": "Broadbean",
+  "status": "published",
+  "vendor": { "name": "Broadbean", "website": "https://www.broadbean.com" },
+  "primaryCategory": "job-distribution",
+  "summary": "Broadbean's job distribution platform posts one job advert to more than 7,000 job boards, search engines and social media channels, according to its product page. The page describes a custom quota on job board credits and tracking of the source of each application. It shows no prices and offers a demo request only.",
+  "qualifies": [
+    {
+      "category": "job-distribution",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "posting to many job boards", "sourceUrl": "https://www.broadbean.com/product-suite/job-distribution-platform/" },
+        { "capability": "posting budget management", "sourceUrl": "https://www.broadbean.com/product-suite/job-distribution-platform/" },
+        { "capability": "applicant source tracking", "sourceUrl": "https://www.broadbean.com/product-suite/job-distribution-platform/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The job distribution platform page says the platform connects to over 7,000 job boards, search engines and social media channels, and that adverts can be published to boards in more than 100 countries.", "sourceUrl": "https://www.broadbean.com/product-suite/job-distribution-platform/", "checkedAt": "2026-11-05" },
+    { "text": "The page says a custom quota on job board credits lets a team control costs and guard against excessive spending.", "sourceUrl": "https://www.broadbean.com/product-suite/job-distribution-platform/", "checkedAt": "2026-11-05" },
+    { "text": "The page says the platform accurately tracks the source of every candidate application.", "sourceUrl": "https://www.broadbean.com/product-suite/job-distribution-platform/", "checkedAt": "2026-11-05" },
+    { "text": "The page says reporting supports cost-effective decisions at channel level and at team level.", "sourceUrl": "https://www.broadbean.com/product-suite/job-distribution-platform/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [
+      "The product page shows no prices and offers only a request-a-demo call to action, so no price is recorded here. We did not confirm that pricing is quote-only. A pricing page at /pricing/ returned 404 when checked."
+    ],
+    "sourceUrl": "https://www.broadbean.com/product-suite/job-distribution-platform/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

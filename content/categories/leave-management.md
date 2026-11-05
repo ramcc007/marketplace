@@ -7,6 +7,8 @@ writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Six products checked against vendor pages.
+  - date: 2026-11-05
+    note: Re-checked for new candidates. No product added. Breathe HR's pages confirm approvals, a team calendar and an automatic yearly allowance, but not accrual over time, so it is not listed. Gusto, Personio and Sage HR could not be read on their vendor pages during this check.
 ---
 
 Leave management software holds every employee's allowance, takes their time off requests, routes them to a manager and shows the whole team who is away. The six products on this page each let staff request leave and let a manager approve it, apply accrual or allowance policies, and show absences on a team calendar. We read every price on the vendor's own website, and each product page links to the pages we used. Our list is shorter than we wanted, and the reason is in the section on what we left out.
@@ -73,7 +75,7 @@ Cancellation terms are also thin. Vacation Tracker ends access at the end of the
 
 Several well-known tools did not make the list. Timetastic shows $1.50 and $2.50 per user a month for its Business and Pro plans, but the same page lists £1.20 and £2.00 in its structured data, so we could not tell which currency applies to a US visitor. Calamari lists a Time Off price that differs by a factor of ten between two parts of its pricing page. Kenjo and absence.io price in euros, and neither page described accrual rules in enough detail for us to confirm that capability. Leave Dates shows a starting price of £0.75 per user but £0.00 on each plan card, and its pages do not mention accrual.
 
-Factorial and HiBob publish no plan-level leave prices we could use. Zoho People, Sage HR and Personio pages could not be read at all during our check. These are gaps in our evidence, not judgments about the products, and we will add them when the pages can be verified.
+Breathe HR's holiday tracking page says requests go "straight to their manager for approval," that the allowance refreshes when the holiday year begins, and that a visual calendar shows upcoming leave. Breathe prices in pounds, and its pages give different figures for the smallest plan. Its pages do not describe accrual earned over time, so we did not list it. Gusto's help center and product pages returned errors when we tried to read them, and Personio and Sage HR returned errors or could not be loaded, so none of the three could be checked against the three required features. Factorial and HiBob publish no plan-level leave prices we could use. Zoho People, Sage HR and Personio pages could not be read at all during our check. These are gaps in our evidence, not judgments about the products, and we will add them when the pages can be verified.
 
 ## What to test during a trial
 

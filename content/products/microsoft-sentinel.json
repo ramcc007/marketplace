@@ -1,0 +1,45 @@
+{
+  "name": "Microsoft Sentinel",
+  "status": "published",
+  "vendor": { "name": "Microsoft Corporation", "website": "https://www.microsoft.com" },
+  "primaryCategory": "siem",
+  "summary": "Microsoft Sentinel is a cloud SIEM that collects logs through data connectors and runs scheduled analytics rules that raise alerts and incidents. Its pricing page describes pay-as-you-go and commitment tiers in US dollars, but the text we read shows no per-GB rates.",
+  "qualifies": [
+    {
+      "category": "siem",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "log collection from many sources", "sourceUrl": "https://learn.microsoft.com/en-us/azure/sentinel/configure-data-connector" },
+        { "capability": "correlation rules", "sourceUrl": "https://learn.microsoft.com/en-us/azure/sentinel/create-analytics-rules" },
+        { "capability": "alerts and investigation", "sourceUrl": "https://learn.microsoft.com/en-us/azure/sentinel/create-analytics-rules" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Data connectors are installed from the Content hub and then configured before they start ingesting data into Microsoft Sentinel.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/sentinel/configure-data-connector", "checkedAt": "2026-11-05" },
+    { "text": "Scheduled analytics rules run a Kusto query on a set interval. The run interval and the lookback period can each be set from 5 minutes to 14 days.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/sentinel/create-analytics-rules", "checkedAt": "2026-11-05" },
+    { "text": "A rule can create one incident per alert, or group up to 150 related alerts into a single incident.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/sentinel/create-analytics-rules", "checkedAt": "2026-11-05" },
+    { "text": "Microsoft says Sentinel in the Azure portal stops being supported after March 31, 2027, and is then available only in the Defender portal.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/sentinel/configure-data-connector", "checkedAt": "2026-11-05" },
+    { "text": "The analytics tier can be paired with a data lake tier that keeps data for up to 12 years.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/sentinel/configure-data-connector", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page describes commitment tiers that reserve daily ingestion from 100 GB to 50,000 GB, with savings of up to 52% against pay-as-you-go.", "sourceUrl": "https://www.microsoft.com/en-us/security/pricing/microsoft-sentinel/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Pay-as-you-go", "priceUsd": null, "billing": "quote", "unit": "per GB ingested into the analytics tier", "notes": "No per-GB figure appears in the pricing page text we read. The page links to the Microsoft Sentinel cost estimator.", "sourceUrl": "https://www.microsoft.com/en-us/security/pricing/microsoft-sentinel/" },
+      { "name": "Commitment tiers", "priceUsd": null, "billing": "quote", "unit": "per day of reserved ingestion, 100 GB to 50,000 GB", "notes": "Savings of up to 52% against pay-as-you-go, per the page. No dollar figure appears in the text we read.", "sourceUrl": "https://www.microsoft.com/en-us/security/pricing/microsoft-sentinel/" }
+    ],
+    "hiddenCosts": [
+      "The pricing page says prices are calculated in US dollars, but it shows no amounts in the text we read.",
+      "Per-GB rates and retention charges are not stated in the text, so the figures must come from the cost estimator the page links to."
+    ],
+    "sourceUrl": "https://www.microsoft.com/en-us/security/pricing/microsoft-sentinel/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

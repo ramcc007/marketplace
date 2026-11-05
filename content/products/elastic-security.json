@@ -1,0 +1,44 @@
+{
+  "name": "Elastic Security",
+  "status": "published",
+  "vendor": { "name": "Elastic N.V.", "website": "https://www.elastic.co" },
+  "primaryCategory": "siem",
+  "summary": "Elastic Security is Elastic's SIEM, with 400 or more prebuilt integrations and case management listed on its product page. Elastic's pricing page describes hosted, serverless and self-managed options, but the text we read shows no prices.",
+  "qualifies": [
+    {
+      "category": "siem",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "log collection from many sources", "sourceUrl": "https://www.elastic.co/security/siem" },
+        { "capability": "correlation rules", "sourceUrl": "https://www.elastic.co/security/siem" },
+        { "capability": "alerts and investigation", "sourceUrl": "https://www.elastic.co/security/siem" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Elastic says Security supports 400 or more prebuilt integrations and up to 1,000 security and data source integrations in total.", "sourceUrl": "https://www.elastic.co/security/siem", "checkedAt": "2026-11-05" },
+    { "text": "The page says Elastic recommends detection rules developed by Elastic Security Labs and validated by the community, mapped to MITRE ATT&CK.", "sourceUrl": "https://www.elastic.co/security/siem", "checkedAt": "2026-11-05" },
+    { "text": "The page says Attack Discovery correlates alerts into prioritized attack narratives.", "sourceUrl": "https://www.elastic.co/security/siem", "checkedAt": "2026-11-05" },
+    { "text": "The page says an investigation timeline is assembled before the analyst is notified, and it lists case management and incident response with approval gates.", "sourceUrl": "https://www.elastic.co/security/siem", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Hosted and serverless", "priceUsd": null, "billing": "quote", "unit": "resource-based (hosted) or usage-based (serverless)", "notes": "Billed pay as you go monthly or prepaid, per the pricing page. No prices appear in the text we read.", "sourceUrl": "https://www.elastic.co/pricing" },
+      { "name": "Self-managed Platinum", "priceUsd": null, "billing": "quote", "unit": "per node and used RAM", "notes": "License-based subscription tier. No price appears in the text we read.", "sourceUrl": "https://www.elastic.co/pricing" },
+      { "name": "Self-managed Enterprise", "priceUsd": null, "billing": "quote", "unit": "per node and used RAM", "notes": "License-based subscription tier. No price appears in the text we read.", "sourceUrl": "https://www.elastic.co/pricing" }
+    ],
+    "hiddenCosts": [
+      "The pricing page text shows no figures for any plan, and it does not state a billing period for self-managed licenses.",
+      "The page offers a free trial but the text we read gives no length for it."
+    ],
+    "sourceUrl": "https://www.elastic.co/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Vervoe",
+  "status": "published",
+  "vendor": { "name": "Vervoe", "website": "https://vervoe.com" },
+  "primaryCategory": "pre-employment-testing",
+  "summary": "Vervoe builds skills assessments from real job tasks. Its FAQ says integrity checks flag copy-paste, tab switching and AI-generated answers, and its homepage describes continuous identity proctoring. Its machine learning models score responses. The vendor publishes no price.",
+  "qualifies": [
+    {
+      "category": "pre-employment-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "skill or aptitude tests", "sourceUrl": "https://vervoe.com/" },
+        { "capability": "anti-cheating controls", "sourceUrl": "https://vervoe.com/" },
+        { "capability": "candidate scoring", "sourceUrl": "https://vervoe.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The homepage describes its skills assessments as built on real job tasks.", "sourceUrl": "https://vervoe.com/", "checkedAt": "2026-11-05" },
+    { "text": "The FAQ says integrity checks run on every response, flagging copy-paste, tab switching and AI-generated answers.", "sourceUrl": "https://vervoe.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage refers to continuous identity proctoring tied to identity verification. The page does not describe webcam monitoring or a locked browser.", "sourceUrl": "https://vervoe.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says proprietary machine learning models learn from the team's grading and score responses based on the team's preferences.", "sourceUrl": "https://vervoe.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage links to a pricing section, but the text read shows no figures or currency.", "sourceUrl": "https://vervoe.com/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Vervoe (quote only)", "priceUsd": null, "billing": "quote", "unit": "not stated on the vendor pages read", "notes": "The vendor publishes no price. Its pages show a Pricing link and a free trial, but no figures." }
+    ],
+    "hiddenCosts": [
+      "The vendor publishes no price, so the cost of any plan must be requested from the vendor."
+    ],
+    "sourceUrl": "https://vervoe.com/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

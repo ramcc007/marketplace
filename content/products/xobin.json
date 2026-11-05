@@ -1,0 +1,41 @@
+{
+  "name": "Xobin",
+  "status": "published",
+  "vendor": { "name": "Xobin", "website": "https://www.xobin.com" },
+  "primaryCategory": "video-interviewing",
+  "summary": "Xobin offers one-way video assessments with structured scoring and live video interviews. Its documentation says candidates can book slots against interviewer availability, and that interviewers fill in scorecards during the session. The vendor publishes no price.",
+  "qualifies": [
+    {
+      "category": "video-interviewing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "one-way or live video interviews", "sourceUrl": "https://www.xobin.com/video-interview" },
+        { "capability": "interview scheduling", "sourceUrl": "https://docs.xobin.com/en-us/article/live-interviews-in-xobin-x7lvho/" },
+        { "capability": "reviewer scoring", "sourceUrl": "https://docs.xobin.com/en-us/article/live-interviews-in-xobin-x7lvho/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The video interview page describes one-way video assessments with structured scoring.", "sourceUrl": "https://www.xobin.com/video-interview", "checkedAt": "2026-11-05" },
+    { "text": "The live interview documentation says recruiters can coordinate times manually, or allow candidates to book slots based on real-time interviewer availability.", "sourceUrl": "https://docs.xobin.com/en-us/article/live-interviews-in-xobin-x7lvho/", "checkedAt": "2026-11-05" },
+    { "text": "The live interview documentation says scorecards are filled out live, during the session, and that recordings can be shared with stakeholders.", "sourceUrl": "https://docs.xobin.com/en-us/article/live-interviews-in-xobin-x7lvho/", "checkedAt": "2026-11-05" },
+    { "text": "The pages read show no price. The pricing link on the video interview page leads to a page without figures in the text read.", "sourceUrl": "https://www.xobin.com/video-interview", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Xobin video interviews (quote only)", "priceUsd": null, "billing": "quote", "unit": "not stated on the vendor pages read", "notes": "The vendor publishes no price on the pages read. Pricing is by quote." }
+    ],
+    "hiddenCosts": [
+      "The vendor publishes no price on the pages read, so the cost must be requested from the vendor."
+    ],
+    "sourceUrl": "https://www.xobin.com/video-interview",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Zuplo",
+  "status": "published",
+  "vendor": { "name": "Zuplo", "website": "https://zuplo.com" },
+  "primaryCategory": "api-management",
+  "summary": "Zuplo is a gateway for APIs and AI traffic, with per-key rate limits, API key, JWT and OAuth authentication, a developer portal and request analytics. The Free plan is listed at $0 with 100,000 requests a month. Builder is $25 a month billed monthly, and Enterprise starts from $1,000 a month on an annual contract. The pricing page does not name its currency.",
+  "qualifies": [
+    {
+      "category": "api-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "gateway or proxy", "sourceUrl": "https://zuplo.com/" },
+        { "capability": "authentication and rate limiting", "sourceUrl": "https://zuplo.com/" },
+        { "capability": "developer portal or analytics", "sourceUrl": "https://zuplo.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The homepage describes Zuplo as the unified gateway for APIs and AI.", "sourceUrl": "https://zuplo.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says API keys, JWT and OAuth tokens can be used with per-key rate limits, and that every call is authenticated as a verified identity.", "sourceUrl": "https://zuplo.com/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says the Developer Portal is hosted on the customer's own domain and is included in every plan.", "sourceUrl": "https://zuplo.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists 1 day of analytics on Free, 7 days on Builder and 30 days on Enterprise, with custom options for longer periods.", "sourceUrl": "https://zuplo.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page shows dollar signs and does not name a currency.", "sourceUrl": "https://zuplo.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "100,000 requests a month, 2 developer seats, 5 environments and 1 day of analytics." },
+      { "name": "Builder", "priceUsd": 25, "billing": "month", "unit": "per account, billed monthly", "notes": "100,000 requests included, 2 custom domains, 10 environments, 2 developer seats and 7 days of analytics." },
+      { "name": "Enterprise", "priceUsd": 1000, "billing": "month", "unit": "from, per month on an annual contract", "notes": "Custom limits, volume discounts above 1 million requests a month and 30 days of analytics." }
+    ],
+    "hiddenCosts": [
+      "The pricing page does not name its currency. The figures use the dollar sign.",
+      "The Builder request allowance and the charge for extra requests are described in ways that do not match on the page, so check the current terms before budgeting."
+    ],
+    "sourceUrl": "https://zuplo.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

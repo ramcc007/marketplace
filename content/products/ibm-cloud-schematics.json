@@ -1,0 +1,41 @@
+{
+  "name": "IBM Cloud Schematics",
+  "status": "published",
+  "vendor": { "name": "IBM", "website": "https://www.ibm.com" },
+  "primaryCategory": "infrastructure-as-code",
+  "summary": "IBM Cloud Schematics runs Terraform templates as workspaces on IBM Cloud. A plan job lists the resource changes before an apply job provisions, modifies or removes resources, and Schematics stores the Terraform state with access control and locking. IBM's product page says it is free to get started.",
+  "qualifies": [
+    {
+      "category": "infrastructure-as-code",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "declarative infrastructure definitions", "sourceUrl": "https://www.ibm.com/products/schematics" },
+        { "capability": "plan and apply workflow", "sourceUrl": "https://cloud.ibm.com/docs/schematics?topic=schematics-sch-plan-wks&format=markdown" },
+        { "capability": "state management", "sourceUrl": "https://www.ibm.com/products/schematics" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The product page says Schematics uses Terraform to automate provisioning and lifecycle management of cloud resources.", "sourceUrl": "https://www.ibm.com/products/schematics", "checkedAt": "2026-11-05" },
+    { "text": "The workspace plan page says the plan shows the resources that will be created, modified or deleted on a later apply, and that plan summary logs can be used to verify changes before the template is applied.", "sourceUrl": "https://cloud.ibm.com/docs/schematics?topic=schematics-sch-plan-wks&format=markdown", "checkedAt": "2026-11-05" },
+    { "text": "The workspace apply page says an apply job provisions, modifies or removes the cloud resources described in the template.", "sourceUrl": "https://cloud.ibm.com/docs/schematics?topic=schematics-sch-deploy-wks&format=markdown", "checkedAt": "2026-11-05" },
+    { "text": "The product page says Schematics centralizes the storage of Terraform state, with access control and locking.", "sourceUrl": "https://www.ibm.com/products/schematics", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Get started", "priceUsd": 0, "billing": "month", "unit": "per account", "notes": "The product page says Get started at no charge. No paid plan prices are shown on the page." }
+    ],
+    "hiddenCosts": [
+      "The product page shows no paid prices, so paid usage has to be confirmed with IBM before a budget is set."
+    ],
+    "sourceUrl": "https://www.ibm.com/products/schematics",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

@@ -13,9 +13,29 @@
         { "capability": "asset lifecycle tracking", "sourceUrl": "https://invgate.com/asset-management" },
         { "capability": "license or contract tracking", "sourceUrl": "https://invgate.com/pricing?p=assetManagement" }
       ]
+    },
+    {
+      "category": "cmdb",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        {
+          "capability": "configuration item records",
+          "sourceUrl": "https://invgate.com/asset-management/product-tour/cmdb-for-change-process"
+        },
+        {
+          "capability": "relationship mapping",
+          "sourceUrl": "https://invgate.com/asset-management/product-tour/cmdb-for-change-process"
+        },
+        {
+          "capability": "change impact view",
+          "sourceUrl": "https://invgate.com/asset-management/product-tour/cmdb-for-change-process"
+        }
+      ]
     }
   ],
   "facts": [
+    {"text":"The InvGate product tour says each CI has a detailed profile, and that relationships are set on each CI with a criticality level of Low, Medium or High.","sourceUrl":"https://invgate.com/asset-management/product-tour/cmdb-for-change-process","checkedAt":"2026-11-05"},
+    {"text":"The InvGate product tour says the map shows which CIs are most critical and where a change might have the most impact, and that InvGate Asset Management must be integrated with InvGate Service Management to link changes.","sourceUrl":"https://invgate.com/asset-management/product-tour/cmdb-for-change-process","checkedAt":"2026-11-05"},
     { "text": "InvGate describes tracking assets from request to retirement, with warranty tracking, maintenance alerts and renewals.", "sourceUrl": "https://invgate.com/asset-management", "checkedAt": "2026-11-04" },
     { "text": "The pricing page includes contracts and warranties on Starter, and adds licensing contract management for tracking licenses, renewal dates and compliance on Pro and Enterprise.", "sourceUrl": "https://invgate.com/pricing?p=assetManagement", "checkedAt": "2026-11-04" },
     { "text": "Listed prices are the base subscription list price, exclude taxes and additional fees, and may change without notice.", "sourceUrl": "https://invgate.com/pricing?p=assetManagement", "checkedAt": "2026-11-04" }

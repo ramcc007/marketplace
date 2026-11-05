@@ -1,15 +1,17 @@
 ---
 title: Corporate LMS software compared
-definition: Seven corporate learning management systems compared on published prices, minimums, assignment rules, reporting and security checked at the source.
+definition: Eight corporate learning management systems compared on published prices, minimums, assignment rules, reporting and security checked at the source.
 primaryKeyword: corporate LMS software
 criteriaApproved: false
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04
     note: First draft. Seven products checked against vendor pages.
+  - date: 2026-11-05
+    note: Eighth product added. Easy LMS's own pages confirm course delivery, group assignment, completion reports and Excel export, and list two plans in euros. EdApp was checked and left out because its link leads to a different product's pages.
 ---
 
-A learning management system, or LMS, delivers training courses to employees, assigns them to the right people and records who finished what. The seven products on this page each do three things: they deliver courses, they assign training and track it, and they produce reports on completion. We read every price and claim on the vendor's own website, and each product page links to the pages we used. Prices are in US dollars, and a vendor that shows a price without naming its currency is flagged on its product page.
+A learning management system, or LMS, delivers training courses to employees, assigns them to the right people and records who finished what. The eight products on this page each do three things: they deliver courses, they assign training and track it, and they produce reports on completion. We read every price and claim on the vendor's own website, and each product page links to the pages we used. Prices are in US dollars unless noted. Easy LMS lists its plans in euros, and its figures are shown as listed. A vendor that shows a price without naming its currency is flagged on its product page.
 
 ## What the three requirements mean
 
@@ -29,9 +31,9 @@ xAPI, also called Tin Can, records learning activity as statements in the form o
 
 LTI connects outside learning tools to the LMS without a separate login. The [1EdTech description of LTI](https://www.1edtech.org/standards/lti) says version 1.3 moves authentication to OAuth2 and JSON Web Tokens, and that the LTI Advantage extensions can create gradebook columns and post grades. TalentLMS lists LTI 1.3 on its features page, which matters if you plan to plug in third-party assessment tools.
 
-## What these seven cost
+## What these eight cost
 
-Only some of the seven publish enough to price a purchase, and the gap is the first thing to know before building a shortlist.
+Only some of the eight publish enough to price a purchase, and the gap is the first thing to know before building a shortlist.
 
 TalentLMS is the only product here with a free plan that has no time limit. It covers up to 5 users and 10 courses. Paid plans are shown at $119, $229 and $449 a month for Core, Grow and Pro, and the Pro plan adds $6 for each additional user. The pricing page says yearly billing saves 20%, though it does not show the yearly dollar totals, and its user band selector is unclear about which price applies to which band. Treat the figures as the entry price for the smallest band and confirm the band you need.
 
@@ -43,17 +45,21 @@ iSpring Learn prices its Business plan per user: $6.91 a month at 100 users, $4.
 
 [Docebo](/products/docebo), [Absorb LMS](/products/absorb-lms) and [LearnUpon](/products/learnupon) publish no prices. Docebo says pricing is based on active learner usage, with monthly active user, yearly active user and registered active user models, and that commercial terms are documented in each agreement. Absorb's pricing page is a form that asks how many learners you have, in bands from 1 to 50 up to 25,000 or more. LearnUpon states minimums: from 100 users for employee training, 150 for associations and 300 for customer education, and its FAQ says it is not a fit for fewer than 100 users.
 
+[Easy LMS](/products/easy-lms) lists two monthly plans in euros: Basic at €70 a month or €700 a year, and Advanced at €200 a month or €2,000 a year. The home page also shows $80 and $230 a month for the same two plans, and we show the figures as listed rather than converting them. Its pricing page does not say how many learners each plan covers or which plan includes group assignment.
+
 A published price is not automatically a better deal. Quote-only vendors often serve larger organizations, and the right comparison is the total annual cost for your headcount, including implementation. Continu, which we did not list, states in its pricing FAQ that implementation costs 10% of the first-year contract value, and it is worth asking any quote-only vendor whether a similar fee applies.
 
 ## How assignment rules differ
 
-All seven can assign training, but they describe the mechanism differently, and the difference shows up in compliance work.
+All eight can assign training, but they describe the mechanism differently, and the difference shows up in compliance work.
 
 Litmos and Absorb both put rule-based assignment at the center of their pitch. Litmos says courses are assigned automatically by role, location, department or risk classification, and that employees in different states receive their own required courses on their own renewal schedules. Absorb says compliance training is auto-assigned by role, region or regulation. Both fit a business where the rule, not a manager, decides who must take a course.
 
 360Learning describes dynamic enrollment through custom filters that keep assignments current as the workforce changes. It also offers automatic re-enrollment that recycles training when a certificate expires. iSpring Learn offers selection filters by team, job title, country or custom parameters, plus automatic assignments to selected employees. TalentLMS describes learning paths that release training in a set order and automations triggered by completions, expirations or inactivity.
 
 For Docebo and LearnUpon, the vendor pages we could read were thinner on the assignment mechanics. Docebo's pages describe dashboards for enrollments, completions and learning plans, and LearnUpon's describe reports on course status and user progression. Both are established products, but a buyer who needs a specific assignment rule should ask for it in a demo and get the answer in writing.
+
+Easy LMS's pricing page lists the feature "Assign exams and courses based on group." That is a group rule, not an automatic assignment by role or region, and the page does not say which plan includes it.
 
 ## What the reports actually show
 
@@ -62,6 +68,8 @@ Completion reporting is where product pages are vaguest, so we recorded what eac
 TalentLMS lists real-time reports of learner progress and completions, scheduled reports emailed weekly or monthly, and custom reports filtered by user activity, learning progress or certifications. It also keeps a timeline with an audit trail. 360Learning lists a custom completion dashboard, downloadable reports and weekly automated emails, and its completion certificates carry start and end dates, time spent, failed attempts and scores.
 
 iSpring Learn names content reports, people reports and quiz reports, and its pages mention Performance Summary and Course Details views. Its page does not use the words "completion report", so ask for a sample before assuming the layout you need exists. Litmos lists manager and executive dashboards with escalation for overdue completions, tamper-evident time-stamped records and exportable audit documentation.
+
+Easy LMS's reports page says a user can see who has completed a course, their pass or fail rate and certificate status, and it describes a progress report per group that shows who has not finished yet. Detailed data can be exported to Excel, and the page does not mention CSV.
 
 Docebo's learning intelligence page says its pre-built dashboards let you analyze certifications, enrollments, completions, instructor-led sessions and learning plans, and that reports can be emailed as CSV attachments daily, weekly or monthly. LearnUpon lists reports for course status, certificates and credits, exams and surveys, with filtering, export and scheduling. Absorb names Absorb Analyze for custom performance reports and says admins can monitor progress and completion.
 
@@ -93,6 +101,6 @@ A larger company with customers or partners to train as well as staff should rea
 
 ## How we picked and what we left out
 
-Products were found by name from vendor pages and kept only if their own pages documented all three requirements. We excluded LearnWorlds because its pricing page showed plan figures without any currency symbol, so we could not confirm the amounts were in dollars. We excluded LearnDash because its price is sold in a bundle with other software and the page did not state a currency. Thinkific and Teachable are built to sell courses to the public and fall outside this category. Canvas and Brightspace did not publish prices on the pages we read, and both are built mainly for schools and universities. Moodle and Open edX could not be checked: Moodle's pages refused our requests, and the Open edX documentation we reached did not describe assignments or reports.
+Products were found by name from vendor pages and kept only if their own pages documented all three requirements. We checked EdApp, but its address redirects to a different SafetyCulture product, Mitti, whose pages describe on-the-job training rather than the course assignment and completion reporting we need, so EdApp is not listed until its own pages can be read. We excluded LearnWorlds because its pricing page showed plan figures without any currency symbol, so we could not confirm the amounts were in dollars. We excluded LearnDash because its price is sold in a bundle with other software and the page did not state a currency. Thinkific and Teachable are built to sell courses to the public and fall outside this category. Canvas and Brightspace did not publish prices on the pages we read, and both are built mainly for schools and universities. Moodle and Open edX could not be checked: Moodle's pages refused our requests, and the Open edX documentation we reached did not describe assignments or reports.
 
 No vendor paid for a place on this page, and none of the products has a paid relationship with us. Criteria on this page are a draft and have not yet been approved by an editor.

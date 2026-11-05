@@ -1,0 +1,46 @@
+{
+  "name": "Amazon API Gateway",
+  "status": "published",
+  "vendor": { "name": "Amazon Web Services, Inc.", "website": "https://aws.amazon.com" },
+  "primaryCategory": "api-management",
+  "summary": "Amazon API Gateway is AWS's managed service for REST, HTTP and WebSocket APIs. It throttles requests with usage plans and API keys, and access can be controlled with IAM, Lambda authorizers and Amazon Cognito. Metrics go to CloudWatch. The pricing page shows per-million request rates in worked examples and lists API Gateway Portals at $125 a portal a month. The page does not name its currency.",
+  "qualifies": [
+    {
+      "category": "api-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "gateway or proxy", "sourceUrl": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html" },
+        { "capability": "authentication and rate limiting", "sourceUrl": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html" },
+        { "capability": "authentication and rate limiting", "sourceUrl": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-control-access-to-api.html" },
+        { "capability": "developer portal or analytics", "sourceUrl": "https://docs.aws.amazon.com/apigateway/latest/developerguide/monitoring-cloudwatch.html" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The throttling documentation says API Gateway throttles requests to an API using a token bucket, and returns HTTP 429 when requests exceed the limits.", "sourceUrl": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html", "checkedAt": "2026-11-05" },
+    { "text": "The throttling documentation says per-client limits apply to clients that use API keys tied to a usage plan.", "sourceUrl": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html", "checkedAt": "2026-11-05" },
+    { "text": "The access control documentation lists IAM policies, Lambda authorizers, Amazon Cognito user pools and resource policies as ways to control who can call an API.", "sourceUrl": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-control-access-to-api.html", "checkedAt": "2026-11-05" },
+    { "text": "The CloudWatch documentation says API Gateway sends metrics to CloudWatch in one-minute periods, and keeps them for 15 months.", "sourceUrl": "https://docs.aws.amazon.com/apigateway/latest/developerguide/monitoring-cloudwatch.html", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists API Gateway Portals at $125 a portal a month, including 10 portal products, with extra portal products at $12.50 each.", "sourceUrl": "https://aws.amazon.com/api-gateway/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "REST APIs", "priceUsd": 3.5, "billing": "month", "unit": "per million API calls, shown in worked examples", "notes": "Free tier of one million REST API calls a month for up to 12 months." },
+      { "name": "HTTP APIs", "priceUsd": 1, "billing": "month", "unit": "per million API calls for the first 300 million, shown in worked examples", "notes": "Free tier of one million HTTP API calls a month." },
+      { "name": "API Gateway Portals", "priceUsd": 125, "billing": "month", "unit": "per portal per month, includes 10 portal products", "notes": "Extra portal products are $12.50 each per month." }
+    ],
+    "hiddenCosts": [
+      "The pricing page uses the dollar sign and does not name a currency.",
+      "Data transfer out, caching and WebSocket charges are billed separately, and the page gives only partial rates for them."
+    ],
+    "sourceUrl": "https://aws.amazon.com/api-gateway/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

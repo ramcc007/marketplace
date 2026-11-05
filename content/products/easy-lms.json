@@ -1,0 +1,60 @@
+{
+  "name": "Easy LMS",
+  "status": "published",
+  "vendor": { "name": "Easy LMS", "website": "https://easy-lms.com" },
+  "primaryCategory": "learning-management-system",
+  "summary": "Easy LMS builds and delivers courses and exams, and assigns them to groups. Its reports show who has completed a course and export results to Excel. Its pricing page lists two monthly plans in euros, and the home page also shows dollar figures.",
+  "qualifies": [
+    {
+      "category": "learning-management-system",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "course delivery", "sourceUrl": "https://easy-lms.com/" },
+        { "capability": "assignments and tracking", "sourceUrl": "https://www.easy-lms.com/pricing" },
+        { "capability": "completion reports", "sourceUrl": "https://www.easy-lms.com/features/reports" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The home page says trainers can upload existing material, including SCORM packages, or build content from scratch.", "sourceUrl": "https://easy-lms.com/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists the feature Assign exams and courses based on group.", "sourceUrl": "https://www.easy-lms.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The reports page says a user can see immediately who has completed the course, their pass or fail rate, and certificate status.", "sourceUrl": "https://www.easy-lms.com/features/reports", "checkedAt": "2026-11-05" },
+    { "text": "The reports page says the progress report per group shows which participants have not completed their course or exam yet, and that reminders can be sent to them.", "sourceUrl": "https://www.easy-lms.com/features/reports", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists the feature Export results to Excel. The reports page says detailed data can be exported to Excel, and does not mention CSV.", "sourceUrl": "https://www.easy-lms.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page does not show which plan includes each feature in its comparison table.", "sourceUrl": "https://www.easy-lms.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      {
+        "name": "Basic",
+        "priceUsd": null,
+        "listedPrice": { "amount": 70, "currency": "EUR" },
+        "billing": "month",
+        "unit": "flat fee per month, billed monthly",
+        "notes": "Listed at €70 a month, or €700 a year. The home page also shows $80 a month or $800 a year. Figures are shown as listed and not converted."
+      },
+      {
+        "name": "Advanced",
+        "priceUsd": null,
+        "listedPrice": { "amount": 200, "currency": "EUR" },
+        "billing": "month",
+        "unit": "flat fee per month, billed monthly",
+        "notes": "Listed at €200 a month, or €2,000 a year. The home page also shows $230 a month or $2,300 a year. Figures are shown as listed and not converted."
+      }
+    ],
+    "hiddenCosts": [
+      "The pricing page shows euro and dollar figures, and the page does not say which currency applies to a US buyer.",
+      "The pricing page says yearly plans include two months free, and does not state the number of users or learners either plan covers.",
+      "The pricing page does not show which plan includes each feature, so confirm tier coverage for group assignment and Excel export."
+    ],
+    "sourceUrl": "https://www.easy-lms.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

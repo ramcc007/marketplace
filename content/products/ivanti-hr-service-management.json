@@ -1,0 +1,41 @@
+{
+  "name": "Ivanti HR Service Management",
+  "status": "published",
+  "vendor": { "name": "Ivanti, Inc.", "website": "https://www.ivanti.com" },
+  "primaryCategory": "hr-help-desk",
+  "summary": "Ivanti HR Service Management (HRSM) runs on the Ivanti Neurons Platform. Employees submit HR requests in a portal and read HR knowledge articles there, and they see their open HR cases and their status. The product page shows no prices and offers Contact Sales.",
+  "qualifies": [
+    {
+      "category": "hr-help-desk",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "employee case intake", "sourceUrl": "https://help.ivanti.com/ch/help/en_US/CSM/2023/documentation_bundle/esm_solutions/neurons_for_hr/neurons_for_hr_portal.htm" },
+        { "capability": "hr knowledge base", "sourceUrl": "https://help.ivanti.com/ch/help/en_US/CSM/2023/documentation_bundle/esm_solutions/neurons_for_hr/neurons_for_hr_portal.htm" },
+        { "capability": "case tracking", "sourceUrl": "https://www.ivanti.com/products/hr-service-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The portal help page from the 2023 documentation bundle lists forms for submitting a new HR case.", "sourceUrl": "https://help.ivanti.com/ch/help/en_US/CSM/2023/documentation_bundle/esm_solutions/neurons_for_hr/neurons_for_hr_portal.htm", "checkedAt": "2026-11-05" },
+    { "text": "The same help page says the portal gives access to HR knowledge articles and FAQs, and filters content by the employee's profile.", "sourceUrl": "https://help.ivanti.com/ch/help/en_US/CSM/2023/documentation_bundle/esm_solutions/neurons_for_hr/neurons_for_hr_portal.htm", "checkedAt": "2026-11-05" },
+    { "text": "The same help page says employees can see their open HR cases and assigned HR tasks.", "sourceUrl": "https://help.ivanti.com/ch/help/en_US/CSM/2023/documentation_bundle/esm_solutions/neurons_for_hr/neurons_for_hr_portal.htm", "checkedAt": "2026-11-05" },
+    { "text": "The product page says HR case management captures every employee request from the self-service portal, email or chat, and says managers and employees see status at every step.", "sourceUrl": "https://www.ivanti.com/products/hr-service-management", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "HR Service Management", "priceUsd": null, "billing": "quote", "unit": "not published", "notes": "The product page offers See Plans and Pricing, Watch the Demo and Contact Sales. No prices appear on the page we read." }
+    ],
+    "hiddenCosts": [
+      "Plan details sit behind the See Plans and Pricing link. That linked page was not read for this profile."
+    ],
+    "sourceUrl": "https://www.ivanti.com/products/hr-service-management",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

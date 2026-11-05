@@ -1,0 +1,42 @@
+{
+  "name": "Motus",
+  "status": "published",
+  "vendor": { "name": "Motus", "website": "https://www.motus.com" },
+  "primaryCategory": "mileage-tracking",
+  "summary": "Motus runs mileage reimbursement programs for companies with many drivers. Its driver app captures GPS-verified mileage, and its CPM and FAVR programs set the rate per mile or per vehicle. Motus publishes no prices, and every product is sold by quote.",
+  "qualifies": [
+    {
+      "category": "mileage-tracking",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "gps or manual trip logging", "sourceUrl": "https://www.motus.com/pricing" },
+        { "capability": "mileage rate calculation", "sourceUrl": "https://www.motus.com/pricing" },
+        { "capability": "reimbursement reports", "sourceUrl": "https://www.motus.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The Motus pricing page describes GPS-verified mileage capture in the driver app.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The page says the CPM program pays employees a per-mile rate, typically the IRS standard mileage rate, set by the employer.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The page says the FAVR program uses IRS-substantiated logic for fixed and variable vehicle costs.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The page lists built-in reporting and visibility across the driver population, and end-to-end reimbursement processing.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The page says all pricing is by quote, priced per driver with volume discounts, and that contracts are typically annual.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Motus Reimburse", "priceUsd": null, "billing": "quote", "unit": "per driver", "notes": "No prices published. Programs are FAVR, CPM and TAAP, and they can be used alone or together." }
+    ],
+    "hiddenCosts": [
+      "The page publishes no prices for Motus Protect or the add-ons, which include Insights Pro analytics and HRIS, payroll and SAP Concur connections."
+    ],
+    "sourceUrl": "https://www.motus.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

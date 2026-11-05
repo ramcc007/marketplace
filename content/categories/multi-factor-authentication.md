@@ -1,6 +1,6 @@
 ---
 title: Multi-factor authentication software compared
-definition: Eight MFA products compared on price, second-factor methods, risk-based rules and enrollment controls, with every figure checked at the vendor.
+definition: Nine MFA products compared on price, second-factor methods, risk-based rules and enrollment controls, with every figure checked at the vendor.
 primaryKeyword: multi-factor authentication software
 criteriaApproved: true
 editor: B2BRated site owner
@@ -11,9 +11,11 @@ updateLog:
     note: First draft. Eight products checked against vendor pages, with CISA and NIST guidance for context.
   - date: 2026-11-04
     note: Criteria approved and page opened for indexing by the site owner.
+  - date: 2026-11-05
+    note: HYPR added. Its pricing page, FIDO2 security key list and policy documentation were checked. Page now lists nine products.
 ---
 
-Multi-factor authentication software asks a user for a second proof of identity after the password, and it lets an administrator decide who must use which method and when. The eight products on this page each support second-factor methods such as app push or hardware keys, apply risk-based rules to decide when to ask, and give administrators control over enrollment. We read every price and capability on the vendor's own website, and each product page links to the pages we used. Figures are in US dollars as shown to US visitors, and prices can differ by country.
+Multi-factor authentication software asks a user for a second proof of identity after the password, and it lets an administrator decide who must use which method and when. The nine products on this page each support second-factor methods such as app push or hardware keys, apply risk-based rules to decide when to ask, and give administrators control over enrollment. We read every price and capability on the vendor's own website, and each product page links to the pages we used. Figures are in US dollars as shown to US visitors, and prices can differ by country.
 
 ## What a product must do to be listed
 
@@ -47,6 +49,7 @@ Risk-based rules are the feature most often held back for a higher plan. The pat
 - JumpCloud sells Conditional Access as a separate $3 product, so MFA plus Conditional Access is $6 per user per month billed annually.
 - Auth0 requires an Enterprise plan with a paid Adaptive MFA add-on. Neither has a published price.
 - Rublon includes Authorized Networks, Remembered Devices and Geolocation policies on Business at $2 per user per month, and leaves them out of its free plan.
+- HYPR lists Adaptive Authentication and Real-Time Risk Scoring under its Adapt product. Its pricing page does not say which of the $3, $6 or $9 plans includes them, so confirm that before buying.
 
 Ping Identity describes a cloud risk service that uses time since last sign-in, IP reputation and geo-velocity anomalies. WatchGuard documents geofence conditions that enforce different MFA requirements by location, and a Geokinetics policy that blocks logins that do not fit the distance and time limits an operator sets. Both sell by quote, so we cannot say what those features cost.
 
@@ -60,6 +63,8 @@ JumpCloud lets admins set a global grace period and require one primary MFA fact
 
 Ping's MFA policy has an Allow Pairing checkbox for each method and a configurable pairing key lifetime. WatchGuard lets admins add users and resend activation emails. Auth0 handles enrollment through post-login Actions, which gives the most control and also asks for code. Its enrollWith commands choose the factors a user is prompted to enroll, and a single flow can run only four enroll and challenge commands.
 
+HYPR's policy documentation lets administrators decide which authenticators users can register, through a Registration Policy in its Control Center. Turning an authenticator off affects every user already enrolled with it.
+
 ## How the prices compare
 
 Prices below are list prices per user per month for 100 users, and none include taxes or phone credits. Seat blocks, minimums and billing terms change the real figure, so read the product page before budgeting.
@@ -69,6 +74,7 @@ Prices below are list prices per user per month for 100 users, and none include 
 - Duo Essentials is $3, Advantage is $6 and Premier is $9. The same 100 users cost about $3,600, $7,200 and $10,800 a year.
 - Microsoft Entra ID P1 is $7 and P2 is $10, or about $8,400 and $12,000 a year, billed yearly.
 - Okta Starter is $6 and Essentials is $17, or about $7,200 and $20,400 a year, with a $1,500 annual minimum.
+- HYPR's Identity Assurance plans are $3, $6 and $9 per user a month. The page shows dollar signs without naming a currency and does not state whether billing is monthly or annual.
 
 Auth0 is priced by monthly active users rather than seats. The B2C Essentials plan starts at $35 a month for 500 users, and B2C Professional starts at $240. Its free plan covers up to 25,000 users. Ping Identity and WatchGuard publish no prices on the pages we checked.
 

@@ -1,0 +1,45 @@
+{
+  "name": "Hiresome",
+  "status": "published",
+  "vendor": { "name": "Hiresome", "website": "https://www.hiresome.ai" },
+  "primaryCategory": "job-distribution",
+  "summary": "Hiresome posts one role to many job boards, manages sponsored posts and job board budgets from one dashboard, and tracks which boards deliver candidates. Its pricing page lists Lite at $4 and Pro at $16 a month per recruiter on yearly billing, with an Enterprise plan by quote.",
+  "qualifies": [
+    {
+      "category": "job-distribution",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "posting to many job boards", "sourceUrl": "https://hiresome.ai/job-boards" },
+        { "capability": "posting budget management", "sourceUrl": "https://hiresome.ai/job-boards" },
+        { "capability": "applicant source tracking", "sourceUrl": "https://hiresome.ai/job-boards" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The job boards page says the buyer stops logging into several job boards to post the same position.", "sourceUrl": "https://hiresome.ai/job-boards", "checkedAt": "2026-11-05" },
+    { "text": "The page says sponsored posts and job board budgets can be managed from one central dashboard.", "sourceUrl": "https://hiresome.ai/job-boards", "checkedAt": "2026-11-05" },
+    { "text": "The page says the buyer can track which job boards deliver the best candidates and adjust spending.", "sourceUrl": "https://hiresome.ai/job-boards", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists Lite at a current price of $4 a month and a regular price of $6.15, billed yearly per recruiter.", "sourceUrl": "https://hiresome.ai/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists Pro at a current price of $16 a month and a regular price of $32, billed yearly per recruiter. Enterprise is listed as custom.", "sourceUrl": "https://hiresome.ai/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Lite", "priceUsd": 4, "billing": "month", "unit": "per recruiter, billed yearly", "notes": "Current price shown on the pricing page. The regular price shown is $6.15." },
+      { "name": "Pro", "priceUsd": 16, "billing": "month", "unit": "per recruiter, billed yearly", "notes": "Current price shown on the pricing page. The regular price shown is $32." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per recruiter", "notes": "Listed as custom. No amount is shown." }
+    ],
+    "hiddenCosts": [
+      "The pricing page offers a free trial but does not state its length in the text we read. Quarterly billing is described as saving an extra 7 percent, and yearly billing an extra 20 percent.",
+      "The currency selector offers INR, USD and EUR. Only dollar amounts appear in the text we read."
+    ],
+    "sourceUrl": "https://hiresome.ai/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

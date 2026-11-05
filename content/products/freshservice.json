@@ -22,9 +22,31 @@
         { "capability": "it service catalog", "sourceUrl": "https://www.freshworks.com/freshservice/it-service-desk/it-service-catalog-management/" },
         { "capability": "sla tracking", "sourceUrl": "https://www.freshworks.com/freshservice/it-service-desk/sla-management/" }
       ]
+    },
+    {
+      "category": "cmdb",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        {
+          "capability": "configuration item records",
+          "sourceUrl": "https://support.freshservice.com/support/solutions/articles/164412-add-new-assets-or-configuration-items-manually"
+        },
+        {
+          "capability": "relationship mapping",
+          "sourceUrl": "https://support.freshservice.com/support/solutions/articles/234460-analyzing-impact-using-relationship-maps"
+        },
+        {
+          "capability": "change impact view",
+          "sourceUrl": "https://support.freshservice.com/support/solutions/articles/50000006342-automating-business-impact-of-changes"
+        }
+      ]
     }
   ],
   "facts": [
+    {"text":"The help article says a new CI takes a display name, asset tag, impact and description, and that its record can also hold cost and assignment details.","sourceUrl":"https://support.freshservice.com/support/solutions/articles/164412-add-new-assets-or-configuration-items-manually","checkedAt":"2026-11-05"},
+    {"text":"The relationship map article says the map shows all parent and child CIs linked to a CI, and that it helps track dependencies and foresee the impact of changes.","sourceUrl":"https://support.freshservice.com/support/solutions/articles/234460-analyzing-impact-using-relationship-maps","checkedAt":"2026-11-05"},
+    {"text":"The help article says a new configuration item is added to the configuration management database, which Freshservice calls the Asset Management module.","sourceUrl":"https://support.freshservice.com/support/solutions/articles/164412-add-new-assets-or-configuration-items-manually","checkedAt":"2026-11-05"},
+    {"text":"The change impact article says Impacted services fills automatically once CMDB relationships are set up and assets are added to the change, and that only downstream relationships count as impacting.","sourceUrl":"https://support.freshservice.com/support/solutions/articles/50000006342-automating-business-impact-of-changes","checkedAt":"2026-11-05"},
     { "text": "Freshservice lists incident management on Starter, and the service catalog and SLA management on Growth and above.", "sourceUrl": "https://www.freshworks.com/freshservice/pricing/", "checkedAt": "2026-11-04" },
     { "text": "The 14-day trial gives access to all features, and new accounts get 3 free Day Passes for occasional agents.", "sourceUrl": "https://www.freshworks.com/freshservice/pricing/", "checkedAt": "2026-11-04" },
     { "text": "After an account closes, customer data is available for export for 14 days, and Freshworks may keep it for up to three months before deletion.", "sourceUrl": "https://www.freshworks.com/terms/", "checkedAt": "2026-11-04" },

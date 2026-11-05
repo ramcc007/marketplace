@@ -1,0 +1,42 @@
+{
+  "name": "JobTarget",
+  "status": "published",
+  "vendor": { "name": "JobTarget", "website": "https://www.jobtarget.com" },
+  "primaryCategory": "job-distribution",
+  "summary": "JobTarget's Marketplace lets a team post a job to many job boards from one cart, manage spend and renewals from one dashboard, and see which boards produce applicants. The vendor publishes no price, and its page says pricing depends on the boards and postings chosen.",
+  "qualifies": [
+    {
+      "category": "job-distribution",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "posting to many job boards", "sourceUrl": "https://www.jobtarget.com/job-posting-distribution" },
+        { "capability": "posting budget management", "sourceUrl": "https://www.jobtarget.com/job-posting-distribution" },
+        { "capability": "applicant source tracking", "sourceUrl": "https://www.jobtarget.com/job-posting-distribution" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The job posting distribution page says a job can be added to the cart and then appears on as many sites as the buyer wants, without posting one board at a time.", "sourceUrl": "https://www.jobtarget.com/job-posting-distribution", "checkedAt": "2026-11-05" },
+    { "text": "The FAQ says a team can manage spend and renewals from one dashboard.", "sourceUrl": "https://www.jobtarget.com/job-posting-distribution", "checkedAt": "2026-11-05" },
+    { "text": "The features section says teams can use subscriptions or credits and control their distribution from a single dashboard. The page does not describe a per-posting budget cap.", "sourceUrl": "https://www.jobtarget.com/job-posting-distribution", "checkedAt": "2026-11-05" },
+    { "text": "The FAQ says the Marketplace reports which boards produce applicants.", "sourceUrl": "https://www.jobtarget.com/job-posting-distribution", "checkedAt": "2026-11-05" },
+    { "text": "The FAQ says there are no platform fees to use the Marketplace and that pricing is based on the boards selected and the postings bought. No amount is shown.", "sourceUrl": "https://www.jobtarget.com/job-posting-distribution", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Marketplace, pay per board and posting", "priceUsd": null, "billing": "quote", "unit": "per board and posting selected", "notes": "The vendor publishes no price. The page says pricing depends on the boards selected and the postings purchased." }
+    ],
+    "hiddenCosts": [
+      "The vendor publishes no price, so no amount is recorded. The page says there are no platform fees for the Marketplace, but it does not say what each board or posting costs."
+    ],
+    "sourceUrl": "https://www.jobtarget.com/job-posting-distribution",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

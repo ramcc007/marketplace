@@ -1,0 +1,41 @@
+{
+  "name": "Jobma",
+  "status": "published",
+  "vendor": { "name": "Jobma", "website": "https://www.jobma.com" },
+  "primaryCategory": "video-interviewing",
+  "summary": "Jobma runs one-way and live video interviews, with self-service interview booking and scorecards for reviewers. Its pricing page names no plans or prices and says custom packages depend on volume, integrations and feature needs.",
+  "qualifies": [
+    {
+      "category": "video-interviewing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "one-way or live video interviews", "sourceUrl": "https://www.jobma.com/" },
+        { "capability": "interview scheduling", "sourceUrl": "https://www.jobma.com/" },
+        { "capability": "reviewer scoring", "sourceUrl": "https://www.jobma.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The homepage describes structured, on-demand video interviews that candidates complete on their own schedule.", "sourceUrl": "https://www.jobma.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage describes structured live interviews with hiring managers and panelists, and says evaluations are shared in real time.", "sourceUrl": "https://www.jobma.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says interview scheduling includes self-service booking, calendar sync and automated reminders.", "sourceUrl": "https://www.jobma.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says reviewers rate against the same scorecard and leave comments on specific answers.", "sourceUrl": "https://www.jobma.com/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom package", "priceUsd": null, "billing": "quote", "unit": "not listed", "notes": "The FAQ says custom packages are based on volume, integrations and feature needs. No prices are listed." }
+    ],
+    "hiddenCosts": [
+      "The pricing page lists no plan names, prices or minimums."
+    ],
+    "sourceUrl": "https://www.jobma.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

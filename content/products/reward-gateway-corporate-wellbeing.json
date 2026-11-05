@@ -1,0 +1,41 @@
+{
+  "name": "Reward Gateway Corporate Wellbeing",
+  "status": "published",
+  "vendor": { "name": "Reward Gateway", "website": "https://www.rewardgateway.com" },
+  "primaryCategory": "employee-wellness",
+  "summary": "Reward Gateway's corporate wellbeing app runs activity and wellness challenges, gives access to a library of wellbeing content, and offers downloadable reports on individual performance and engagement. The page shows no price and directs visitors to a demo.",
+  "qualifies": [
+    {
+      "category": "employee-wellness",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "wellness challenges", "sourceUrl": "https://www.rewardgateway.com/solution/corporate-wellbeing-app" },
+        { "capability": "health programs or content", "sourceUrl": "https://www.rewardgateway.com/solution/corporate-wellbeing-app" },
+        { "capability": "participation reports", "sourceUrl": "https://www.rewardgateway.com/solution/corporate-wellbeing-app" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The page says the app can run challenges based on any activity, including virtual fitness and walking challenges and habit streaks.", "sourceUrl": "https://www.rewardgateway.com/solution/corporate-wellbeing-app", "checkedAt": "2026-11-05" },
+    { "text": "The page says the app gives access to a library of wellbeing content, including workouts, meditations and recipes, and describes a Wellbeing+ Playbook.", "sourceUrl": "https://www.rewardgateway.com/solution/corporate-wellbeing-app", "checkedAt": "2026-11-05" },
+    { "text": "The page says buyers can download reports with detailed data on individual performance and engagement, and that user analytics identify the most improved participants.", "sourceUrl": "https://www.rewardgateway.com/solution/corporate-wellbeing-app", "checkedAt": "2026-11-05" },
+    { "text": "The page does not describe health coaching or health screenings. It shows no price and offers a demo.", "sourceUrl": "https://www.rewardgateway.com/solution/corporate-wellbeing-app", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom quote", "priceUsd": null, "billing": "quote", "unit": "not stated on the page", "notes": "The vendor publishes no price on this page. Pricing is available on request only." }
+    ],
+    "hiddenCosts": [
+      "The vendor publishes no price on this page, so no amount is recorded. The participation evidence describes individual-level reports, so check whether team-level reports are included."
+    ],
+    "sourceUrl": "https://www.rewardgateway.com/solution/corporate-wellbeing-app",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

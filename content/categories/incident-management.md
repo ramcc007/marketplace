@@ -1,6 +1,6 @@
 ---
 title: Incident management and on-call software compared
-definition: Eight incident management tools compared on prices checked at the source, on-call, alert routing and postmortems.
+definition: Nine incident management tools compared on prices checked at the source, on-call, alert routing and postmortems.
 primaryKeyword: incident management software
 criteriaApproved: true
 editor: B2BRated site owner
@@ -11,9 +11,11 @@ updateLog:
     note: First draft. Eight products checked against vendor pages. Prices read twice from the vendor's own site.
   - date: 2026-11-04
     note: Criteria approved and page opened for indexing by the site owner.
+  - date: 2026-11-05
+    note: SolarWinds Incident Response added (formerly Squadcast). Its product and pricing pages were checked. Page now lists nine products.
 ---
 
-Incident management software decides who gets paged when something breaks, escalates when that person does not answer, and keeps a record of what happened so the team can write the postmortem. The eight products on this page each provide on-call schedules with escalation, alert routing, and an incident timeline with postmortem support. We read every price on the vendor's own website, twice in separate fetches, and each product page links to the pages we used. Prices are in US dollars and some vendors vary them by region or contract.
+Incident management software decides who gets paged when something breaks, escalates when that person does not answer, and keeps a record of what happened so the team can write the postmortem. The nine products on this page each provide on-call schedules with escalation, alert routing, and an incident timeline with postmortem support. We read every price on the vendor's own website, twice in separate fetches, and each product page links to the pages we used. Prices are in US dollars and some vendors vary them by region or contract.
 
 ## Where this category sits next to uptime monitoring
 
@@ -39,7 +41,7 @@ Prices are quoted per user, per responder or per active user, and the unit chang
 
 PagerDuty Professional costs $21 per user a month on annual billing, or $210 for ten. On monthly billing it costs $25. incident.io Team costs $15 per user a month on annual billing plus $10 for on-call, which comes to $250 for ten. On monthly billing the same setup costs $29 per user. incident.io Pro costs $25 plus a $20 on-call add-on, or $450 for ten, though the page does not say whether Pro is billed monthly or annually. Rootly's Incident Response and On-Call products cost $20 each per user, so a team that wants both pays $400 for ten.
 
-FireHydrant Pro costs $25 per responder a month billed annually, or $250 for ten, and it lists no monthly option. [Better Stack](/products/better-stack) costs $29 per responder a month on annual billing, or $290 for ten, as of our November 3 check. All Quiet costs $4.99 per user a month on Standard and $9.99 on Pro, both billed monthly, so ten users cost $49.90 or $99.90. Zenduty lists $6 for Starter and $16 for Growth, though its page does not say whether yearly billing is assumed. Grafana IRM charges $20 per active IRM user plus a $19 monthly platform fee that includes 3 active users.
+FireHydrant Pro costs $25 per responder a month billed annually, or $250 for ten, and it lists no monthly option. [Better Stack](/products/better-stack) costs $29 per responder a month on annual billing, or $290 for ten, as of our November 3 check. All Quiet costs $4.99 per user a month on Standard and $9.99 on Pro, both billed monthly, so ten users cost $49.90 or $99.90. Zenduty lists $6 for Starter and $16 for Growth, though its page does not say whether yearly billing is assumed. Grafana IRM charges $20 per active IRM user plus a $19 monthly platform fee that includes 3 active users. SolarWinds Incident Response, which was sold as Squadcast until SolarWinds took it over, lists Pro at $15 per user a month and Premium at $24, both billed annually with no monthly option. Ten users come to $150 a month on Pro and $240 a month on Premium. Its Enterprise plan is quoted.
 
 ## Which vendors publish enough to compare
 
@@ -49,7 +51,7 @@ All Quiet is the opposite case. Its FAQ says there are no per-channel or per-mes
 
 ## Free plans and trials
 
-Four of the eight products have a free plan that includes some incident features. PagerDuty's covers 5 users, 1 schedule, 1 escalation policy and 100 SMS or phone notifications a month. incident.io's Basic plan covers single-team on-call and one public status page. FireHydrant's free plan covers up to 10 responders with a chat bot and one status page. Grafana IRM is free for up to 3 active users a month.
+Four of the nine products have a free plan that includes some incident features. PagerDuty's covers 5 users, 1 schedule, 1 escalation policy and 100 SMS or phone notifications a month. incident.io's Basic plan covers single-team on-call and one public status page. FireHydrant's free plan covers up to 10 responders with a chat bot and one status page. Grafana IRM is free for up to 3 active users a month.
 
 Trials fill the gap for the rest. FireHydrant, All Quiet and Zenduty state 14 days, and Rootly says trials typically last two weeks and can be extended. Rootly also runs a startup program with up to 50% off for companies under 100 employees. Companies under 25 employees can pay what they can, starting at $1 according to its FAQ.
 

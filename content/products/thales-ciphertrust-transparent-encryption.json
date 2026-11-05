@@ -1,0 +1,40 @@
+{
+  "name": "CipherTrust Transparent Encryption",
+  "status": "published",
+  "vendor": { "name": "Thales", "website": "https://cpl.thalesgroup.com" },
+  "primaryCategory": "encryption",
+  "summary": "CipherTrust Transparent Encryption is Thales's data-at-rest product for files, volumes and linked cloud storage. Its agents apply policies by user, group, application and process, and keys and policies are managed centrally in CipherTrust Manager. The product page lists no prices and directs buyers to a sales contact.",
+  "qualifies": [
+    {
+      "category": "encryption",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "encryption at rest", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption" },
+        { "capability": "key management", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption" },
+        { "capability": "access controls", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The product page describes data-at-rest encryption with centralized key management, for files, volumes and linked cloud storage.", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption", "checkedAt": "2026-11-05" },
+    { "text": "The product page says the agent works at file or volume level, on local disks and on cloud storage such as S3 and Azure.", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption", "checkedAt": "2026-11-05" },
+    { "text": "The product page says the product integrates with the FIPS 140-3 Level 3 compliant CipherTrust Manager for centralized key and policy management.", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption", "checkedAt": "2026-11-05" },
+    { "text": "The product page says security policies can be based on users, applications, processes and data types, and can define who can access what, when, where and how.", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption", "checkedAt": "2026-11-05" },
+    { "text": "The product page shows no prices. Its purchase links are Contact Sales and Get in Touch.", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [
+      "The product page shows no prices or license terms and directs buyers to a Data Security Specialist or a sales contact."
+    ],
+    "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

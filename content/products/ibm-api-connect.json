@@ -1,0 +1,42 @@
+{
+  "name": "IBM API Connect",
+  "status": "published",
+  "vendor": { "name": "IBM", "website": "https://www.ibm.com" },
+  "primaryCategory": "api-management",
+  "summary": "IBM API Connect is an API management product with a DataPower gateway, self-service developer portals and built-in analytics. The product page describes strong authentication and authorization for APIs, and IBM's documentation describes rate limit policies. The pricing page lists tiers without any prices, and the product page describes usage-based pricing on AWS.",
+  "qualifies": [
+    {
+      "category": "api-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "gateway or proxy", "sourceUrl": "https://www.ibm.com/products/api-connect" },
+        { "capability": "authentication and rate limiting", "sourceUrl": "https://www.ibm.com/docs/en/api-connect/saas?topic=policies-rate-limit" },
+        { "capability": "authentication and rate limiting", "sourceUrl": "https://www.ibm.com/products/api-connect" },
+        { "capability": "developer portal or analytics", "sourceUrl": "https://www.ibm.com/products/api-connect" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The product page describes a DataPower Nano Gateway as a zero-trust API gateway that runs close to business applications, and says traffic is secured through the built-in DataPower Gateway.", "sourceUrl": "https://www.ibm.com/products/api-connect", "checkedAt": "2026-11-05" },
+    { "text": "The product page says the platform enforces authentication and authorization for APIs from design time through runtime.", "sourceUrl": "https://www.ibm.com/products/api-connect", "checkedAt": "2026-11-05" },
+    { "text": "The product page says APIs can be shared and promoted through customizable self-service developer portals, and that usage is tracked with built-in analytics across environments.", "sourceUrl": "https://www.ibm.com/products/api-connect", "checkedAt": "2026-11-05" },
+    { "text": "The IBM documentation says the Rate Limit policy applies rate, burst or count limits at any point in an API assembly flow.", "sourceUrl": "https://www.ibm.com/docs/en/api-connect/saas?topic=policies-rate-limit", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists Pay-as-you-Go, Standard Tier, Premium Tier, Reserved Instance and Software options, with no prices or currency shown.", "sourceUrl": "https://www.ibm.com/products/api-connect/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [
+      "The pricing page lists no prices or currency. Buyers are directed to a price estimator or a quote request.",
+      "The product page describes usage-based pricing on AWS with no upfront costs, but gives no figures."
+    ],
+    "sourceUrl": "https://www.ibm.com/products/api-connect/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

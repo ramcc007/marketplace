@@ -1,0 +1,41 @@
+{
+  "name": "Vidcruiter",
+  "status": "published",
+  "vendor": { "name": "Vidcruiter", "website": "https://www.vidcruiter.com" },
+  "primaryCategory": "video-interviewing",
+  "summary": "Vidcruiter is a recruiting platform with one-way and live video interviews, candidate self-booking from synced calendars, and structured scorecards for hiring managers. Its pricing page names no plans or prices and asks visitors to fill in a form.",
+  "qualifies": [
+    {
+      "category": "video-interviewing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "one-way or live video interviews", "sourceUrl": "https://www.vidcruiter.com/" },
+        { "capability": "interview scheduling", "sourceUrl": "https://www.vidcruiter.com/" },
+        { "capability": "reviewer scoring", "sourceUrl": "https://www.vidcruiter.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The homepage says candidates answer structured questions on their own schedule, and that live video sessions include built-in rating guides.", "sourceUrl": "https://www.vidcruiter.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says candidates book, reschedule and cancel interviews from synced interviewer calendars.", "sourceUrl": "https://www.vidcruiter.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says hiring managers review, score and collaborate on candidates, and that they get structured scorecards with adjustable rating scales.", "sourceUrl": "https://www.vidcruiter.com/", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says automated scoring evaluates every response against role-specific rubrics.", "sourceUrl": "https://www.vidcruiter.com/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom quote", "priceUsd": null, "billing": "quote", "unit": "not listed", "notes": "The pricing page says visitors fill in a form to get pricing. No plan names or prices are shown." }
+    ],
+    "hiddenCosts": [
+      "No plan names, prices or minimums are published in the text read from the pricing page."
+    ],
+    "sourceUrl": "https://www.vidcruiter.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

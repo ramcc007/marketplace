@@ -1,0 +1,45 @@
+{
+  "name": "Incentfit",
+  "status": "published",
+  "vendor": { "name": "Incentfit", "website": "https://incentfit.com" },
+  "primaryCategory": "employee-wellness",
+  "summary": "Incentfit runs structured individual and team wellness challenges, gives employees health education and a content hub, and offers real-time, exportable reports on participation. Its pricing page lists per-employee monthly rates from $1.80 to $6.00.",
+  "qualifies": [
+    {
+      "category": "employee-wellness",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "wellness challenges", "sourceUrl": "https://incentfit.com/?p=18" },
+        { "capability": "health programs or content", "sourceUrl": "https://incentfit.com/?p=18" },
+        { "capability": "participation reports", "sourceUrl": "https://incentfit.com/?p=18" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The page says the platform offers unlimited, customizable individual or team wellness challenges on the Essentials, Engage and Empower plans.", "sourceUrl": "https://incentfit.com/?p=18", "checkedAt": "2026-11-05" },
+    { "text": "The page says the platform gives employees trusted health education, resources and personalized wellness guidance, and lists a health encyclopedia and newsfeed for ongoing education on the Engage and Empower plans.", "sourceUrl": "https://incentfit.com/?p=18", "checkedAt": "2026-11-05" },
+    { "text": "The page says the platform delivers real-time dashboards and exportable reports that track participation, spending and compliance outcomes.", "sourceUrl": "https://incentfit.com/?p=18", "checkedAt": "2026-11-05" },
+    { "text": "The page does not describe health coaching or health screenings.", "sourceUrl": "https://incentfit.com/?p=18", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Essentials", "priceUsd": 3.00, "billing": "month", "unit": "per employee", "notes": "Listed on the pricing page as $3.00 per employee per month." },
+      { "name": "Engage", "priceUsd": 4.50, "billing": "month", "unit": "per employee", "notes": "Listed on the pricing page as $4.50 per employee per month." },
+      { "name": "Empower", "priceUsd": 6.00, "billing": "month", "unit": "per employee", "notes": "Listed on the pricing page as $6.00 per employee per month." },
+      { "name": "Challenges", "priceUsd": 2.20, "billing": "month", "unit": "per employee", "notes": "Listed on the pricing page as $2.20 per employee per month." },
+      { "name": "Dedicated account management", "priceUsd": 300, "billing": "month", "unit": "per month", "notes": "Listed under customer support on the pricing page, with no product named." }
+    ],
+    "hiddenCosts": [
+      "The pricing page lists amounts per employee per month. The page does not say how a minimum headcount or contract length affects the bill."
+    ],
+    "sourceUrl": "https://incentfit.com/?p=18",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

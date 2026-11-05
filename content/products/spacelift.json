@@ -1,0 +1,45 @@
+{
+  "name": "Spacelift",
+  "status": "published",
+  "vendor": { "name": "Spacelift Inc.", "website": "https://spacelift.io" },
+  "primaryCategory": "infrastructure-as-code",
+  "summary": "Spacelift runs Terraform stacks through plan and apply runs, with approval rules and optional Spacelift-managed state. Its pricing page lists a free plan for 2 users, a Starter plan from $399 a month, and Business and Enterprise plans by quote.",
+  "qualifies": [
+    {
+      "category": "infrastructure-as-code",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "declarative infrastructure definitions", "sourceUrl": "https://docs.spacelift.io/vendors/terraform/state-management" },
+        { "capability": "plan and apply workflow", "sourceUrl": "https://docs.spacelift.io/concepts/run" },
+        { "capability": "state management", "sourceUrl": "https://docs.spacelift.io/vendors/terraform/state-management" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Spacelift stores a stack's Terraform state only when Spacelift-managed state is chosen at stack creation.", "sourceUrl": "https://docs.spacelift.io/vendors/terraform/state-management", "checkedAt": "2026-11-05" },
+    { "text": "The Spacelift state backend is an HTTP endpoint that follows Terraform's standard backend protocol.", "sourceUrl": "https://docs.spacelift.io/vendors/terraform/state-management", "checkedAt": "2026-11-05" },
+    { "text": "By default, terraform plan acquires a state lock, and the SPACELIFT_DISABLE_STATE_LOCK environment variable turns that off.", "sourceUrl": "https://docs.spacelift.io/vendors/terraform/state-management", "checkedAt": "2026-11-05" },
+    { "text": "A tracked run with changes waits in an unconfirmed state until someone reviews it, and it does not apply until the plan is confirmed.", "sourceUrl": "https://docs.spacelift.io/concepts/run", "checkedAt": "2026-11-05" },
+    { "text": "The Free plan allows 2 users and 1 API key, according to the pricing page. The page does not list a worker limit for Free.", "sourceUrl": "https://spacelift.io/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per account, 2 users", "notes": "Start from the free trial page. Includes one API key.", "sourceUrl": "https://spacelift.io/pricing" },
+      { "name": "Starter", "priceUsd": 399, "billing": "month", "unit": "starting price per month", "notes": "The FAQ says Starter is an annual subscription. Trial available, length not stated.", "sourceUrl": "https://spacelift.io/pricing" },
+      { "name": "Business", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Request a quote. Trial available, length not stated.", "sourceUrl": "https://spacelift.io/pricing" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "Contact sales. Trial available, length not stated.", "sourceUrl": "https://spacelift.io/pricing" }
+    ],
+    "hiddenCosts": [
+      "The pricing page does not state the length or terms of its free trials."
+    ],
+    "sourceUrl": "https://spacelift.io/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": ["Terraform"],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

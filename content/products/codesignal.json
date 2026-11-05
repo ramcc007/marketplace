@@ -1,0 +1,43 @@
+{
+  "name": "CodeSignal Hire",
+  "status": "published",
+  "vendor": { "name": "CodeSignal, Inc.", "website": "https://codesignal.com" },
+  "primaryCategory": "pre-employment-testing",
+  "summary": "CodeSignal Hire is a skills assessment product with a library of certified assessments and AI proctoring. Its pricing page lists Build at $79 a month and Grow at $479 a month on annual billing, and quotes Pro. The comparison table lists AI grading and insights, but the page text does not show which plans include it.",
+  "qualifies": [
+    {
+      "category": "pre-employment-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "skill or aptitude tests", "sourceUrl": "https://www.codesignal.com/pricing" },
+        { "capability": "anti-cheating controls", "sourceUrl": "https://www.codesignal.com/pricing" },
+        { "capability": "candidate scoring", "sourceUrl": "https://www.codesignal.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page says CodeSignal offers hundreds of Certified Assessments by skill, role and function.", "sourceUrl": "https://www.codesignal.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The Build plan lists AI Proctoring and ID Verification. The Pro plan lists Advanced Fraud Prevention and RBAC.", "sourceUrl": "https://www.codesignal.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The comparison table lists AI grading and insights. The text read from the page did not show which plans include it.", "sourceUrl": "https://www.codesignal.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Build", "priceUsd": 79, "billing": "month", "unit": "per month, billed annually", "notes": "Listed at $99 a month when billed monthly." },
+      { "name": "Grow", "priceUsd": 479, "billing": "month", "unit": "per month, billed annually", "notes": "Listed at $599 a month when billed monthly." },
+      { "name": "Pro", "priceUsd": null, "billing": "quote", "unit": "custom", "notes": "The page lists Pro as custom and tailored to the plan." }
+    ],
+    "hiddenCosts": [
+      "The Learn and Education suites have separate pricing and are not covered by this profile.",
+      "The dollar figures are recorded as shown. The text read from the pricing page does not name the currency."
+    ],
+    "sourceUrl": "https://www.codesignal.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

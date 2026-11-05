@@ -1,0 +1,41 @@
+{
+  "name": "Mercer | Mettl",
+  "status": "published",
+  "vendor": { "name": "Mercer | Mettl", "website": "https://www.mettl.com" },
+  "primaryCategory": "pre-employment-testing",
+  "summary": "Mercer | Mettl sells online assessments with aptitude and psychometric tests, AI and human-based proctoring, and auto-graded coding evaluations. Its product pages list no prices, and the page routes buyers to a demo request.",
+  "qualifies": [
+    {
+      "category": "pre-employment-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "skill or aptitude tests", "sourceUrl": "https://mettl.com/" },
+        { "capability": "anti-cheating controls", "sourceUrl": "https://mettl.com/" },
+        { "capability": "candidate scoring", "sourceUrl": "https://mettl.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The product pages list aptitude tests and psychometric tests, including a General Aptitude Test and a Cognitive Abilities Assessment.", "sourceUrl": "https://mettl.com/", "checkedAt": "2026-11-05" },
+    { "text": "The product pages describe AI and human-based proctoring, secure browser controls and an AI-powered secured exam browser.", "sourceUrl": "https://mettl.com/", "checkedAt": "2026-11-05" },
+    { "text": "A case study on the page says all tabs apart from the exam tab were disabled to minimize cheating.", "sourceUrl": "https://mettl.com/", "checkedAt": "2026-11-05" },
+    { "text": "The page says coding tests offer auto-graded evaluations. A case study describes a credibility index report for each candidate.", "sourceUrl": "https://mettl.com/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Demo and quote", "priceUsd": null, "billing": "quote", "unit": "not listed", "notes": "The page shows no plan names or prices. It offers demo requests and a Pricing link." }
+    ],
+    "hiddenCosts": [
+      "No plan names, prices or minimums are published in the text read from the site."
+    ],
+    "sourceUrl": "https://mettl.com/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

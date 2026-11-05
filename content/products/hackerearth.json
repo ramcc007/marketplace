@@ -1,0 +1,41 @@
+{
+  "name": "HackerEarth",
+  "status": "published",
+  "vendor": { "name": "HackerEarth", "website": "https://www.hackerearth.com" },
+  "primaryCategory": "pre-employment-testing",
+  "summary": "HackerEarth Recruit offers developer screening assessments drawn from a bank of more than 25,000 questions. Its page describes advanced proctoring to ensure authenticity, and says coding tests are auto-graded and produce a leaderboard. The vendor publishes no price.",
+  "qualifies": [
+    {
+      "category": "pre-employment-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "skill or aptitude tests", "sourceUrl": "http://www.hackerearth.com/recruit" },
+        { "capability": "anti-cheating controls", "sourceUrl": "http://www.hackerearth.com/recruit" },
+        { "capability": "candidate scoring", "sourceUrl": "http://www.hackerearth.com/recruit" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The recruit page describes role-based developer screening assessments across more than 25,000 vetted questions.", "sourceUrl": "http://www.hackerearth.com/recruit", "checkedAt": "2026-11-05" },
+    { "text": "The recruit page refers to advanced proctoring to ensure authenticity. The text read does not say whether webcam monitoring, plagiarism detection or tab-switch detection is included.", "sourceUrl": "http://www.hackerearth.com/recruit", "checkedAt": "2026-11-05" },
+    { "text": "The recruit page says auto-graded coding tests are used, and that coding tests generate a leaderboard after every assessment.", "sourceUrl": "http://www.hackerearth.com/recruit", "checkedAt": "2026-11-05" },
+    { "text": "The page offers an access free demo and demo requests. No price or currency is shown in the text read.", "sourceUrl": "http://www.hackerearth.com/recruit", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "HackerEarth Recruit (quote only)", "priceUsd": null, "billing": "quote", "unit": "not stated on the vendor pages read", "notes": "The vendor publishes no price. The page offers a free demo and demo requests only." }
+    ],
+    "hiddenCosts": [
+      "The vendor publishes no price, so the cost of any plan must be requested from the vendor."
+    ],
+    "sourceUrl": "http://www.hackerearth.com/recruit",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

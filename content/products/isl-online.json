@@ -1,0 +1,46 @@
+{
+  "name": "ISL Online",
+  "status": "published",
+  "vendor": { "name": "ISL Online", "website": "https://www.islonline.com" },
+  "primaryCategory": "remote-desktop",
+  "summary": "ISL Online sells cloud remote support and unattended access with a 15-day free trial. Its Starter, Standard and Premium cloud plans are priced in US dollars, billed annually. Premium adds single sign-on through SAML, and the Enterprise plan is sold by quote.",
+  "qualifies": [
+    {
+      "category": "remote-desktop",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "remote control of computers", "sourceUrl": "https://www.islonline.com/pricing/" },
+        { "capability": "unattended access", "sourceUrl": "https://www.islonline.com/pricing/" },
+        { "capability": "session security and logging", "sourceUrl": "https://www.islonline.com/pricing/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page's feature comparison lists Remote support, Share my screen and Unattended access, and an Unattended Access Features section that includes Computer access history and Automatic session recording.", "sourceUrl": "https://www.islonline.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The comparison table lists AES 256-bit end-to-end encryption, two-factor authentication and an allow or deny list under Security. The page does not show which plan includes each item in the text we read.", "sourceUrl": "https://www.islonline.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Single sign-on is listed as Premium only, under Premium Services, and the Premium plan lists SSO/SAML.", "sourceUrl": "https://www.islonline.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page offers a free trial for 15 days covering 1 user and 5 managed devices, with no credit card needed. It also states a 15-day money-back guarantee on paid plans.", "sourceUrl": "https://www.islonline.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "The page says prices are in USD and exclude tax.", "sourceUrl": "https://www.islonline.com/pricing/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": 15,
+    "plans": [
+      { "name": "Starter", "priceUsd": 16.9, "billing": "month", "unit": "per user per month, billed annually", "notes": "Billed at $202.80 a year. 1 licensed user and 10 managed devices. The page shows no SSO on this plan." },
+      { "name": "Standard", "priceUsd": 34.9, "billing": "month", "unit": "per concurrent user per month, billed annually", "notes": "Billed at $418.80 a year for the base option. The page offers a concurrent-user selector from 1 to 20+. Up to 40 licensed users and 1,000 managed devices. Standard customization is included." },
+      { "name": "Premium", "priceUsd": 54.9, "billing": "month", "unit": "per concurrent user per month, billed annually", "notes": "Billed at $658.80 a year for the base option. The page offers a concurrent-user selector from 1 to 20+. Unlimited users and devices, SSO/SAML and premium support." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "per account", "notes": "The page shows no price and says to contact us. It lists a private cloud and an account manager." }
+    ],
+    "hiddenCosts": [
+      "Standard and Premium prices shown are for one concurrent user. The page does not state the per-user price for larger concurrent counts.",
+      "The page says prices exclude tax."
+    ],
+    "sourceUrl": "https://www.islonline.com/pricing/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

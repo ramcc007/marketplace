@@ -1,0 +1,44 @@
+{
+  "name": "Scalr",
+  "status": "published",
+  "vendor": { "name": "Scalr, Inc.", "website": "https://scalr.com" },
+  "primaryCategory": "infrastructure-as-code",
+  "summary": "Scalr runs Terraform plan and apply jobs as billable runs, with policy checks in each run. Its Business plan costs $0.99 per run, with a free tier of 50 runs a month, and Enterprise is priced by quote.",
+  "qualifies": [
+    {
+      "category": "infrastructure-as-code",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "plan and apply workflow", "sourceUrl": "https://scalr.com/pricing" },
+        { "capability": "state management", "sourceUrl": "https://scalr.com/pricing" },
+        { "capability": "policy checks", "sourceUrl": "https://scalr.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "An apply run covers plan, cost estimation, policy check and apply. A dry run covers plan, cost estimation and policy check, including pull request plans.", "sourceUrl": "https://scalr.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "In state storage only mode, Terraform runs locally and Scalr stores the state, and those runs are not billed.", "sourceUrl": "https://scalr.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Unused runs in a prepaid plan do not roll over, and Scalr does not block a run when the quota is used up.", "sourceUrl": "https://scalr.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Scalr starts with five concurrent runs, and each self-hosted agent adds five more.", "sourceUrl": "https://scalr.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "up to 50 runs a month", "notes": "Start free button leads to sign-up.", "sourceUrl": "https://scalr.com/pricing" },
+      { "name": "Business", "priceUsd": 0.99, "billing": "month", "unit": "per run", "notes": "Usage-based with volume discounts and annual plans. The page example shows 100 runs for $99 a month.", "sourceUrl": "https://scalr.com/pricing" },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "from 20,000 runs per year", "notes": "Request a quote or book a demo. No published price.", "sourceUrl": "https://scalr.com/pricing" }
+    ],
+    "hiddenCosts": [
+      "The pricing page uses dollar signs without naming a currency code.",
+      "Runs beyond the prepaid plan are billed at $0.99 each at the end of the subscription period."
+    ],
+    "sourceUrl": "https://scalr.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

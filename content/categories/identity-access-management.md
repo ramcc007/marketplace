@@ -11,6 +11,8 @@ updateLog:
     note: First draft. Eight products checked against vendor pages and documentation.
   - date: 2026-11-04
     note: Criteria approved and page opened for indexing by the site owner.
+  - date: 2026-11-05
+    note: Top-up pass. No product added, because no candidate's vendor pages confirmed single sign-on, provisioning and access policies together. Page still lists the same eight products.
 ---
 
 Identity and access management software decides who can sign in to which applications, creates and removes their accounts, and applies rules to each sign-in. The eight products on this page each offer single sign-on, user provisioning and deprovisioning, and access policies. We read the prices and capability claims on each vendor's own pages, and every product page links to the sources we used.

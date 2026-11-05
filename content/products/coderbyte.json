@@ -1,0 +1,45 @@
+{
+  "name": "Coderbyte",
+  "status": "published",
+  "vendor": { "name": "Coderbyte", "website": "https://www.coderbyte.com" },
+  "primaryCategory": "pre-employment-testing",
+  "summary": "Coderbyte runs timed skills tests that candidates take on their own. Its pricing lists a monthly plan at $99 for 20 invites and a pay-as-you-go pack at $799 for 60 invites. The site lists webcam proctoring, plagiarism detection and tab-leaving detection, and says tests and projects are graded automatically.",
+  "qualifies": [
+    {
+      "category": "pre-employment-testing",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "skill or aptitude tests", "sourceUrl": "https://www.coderbyte.com/" },
+        { "capability": "anti-cheating controls", "sourceUrl": "https://www.coderbyte.com/" },
+        { "capability": "candidate scoring", "sourceUrl": "https://www.coderbyte.com/" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The site describes its tests as timed, recorded and automatically graded tests that candidates take independently.", "sourceUrl": "https://www.coderbyte.com/", "checkedAt": "2026-11-05" },
+    { "text": "The site lists webcam proctoring for multiple people, no people, and second screens, along with plagiarism detection and tab-leaving detection as cheating prevention features.", "sourceUrl": "https://www.coderbyte.com/", "checkedAt": "2026-11-05" },
+    { "text": "The site says projects can be graded automatically against custom criteria, and lists automated grading and reporting on its Pro and Enterprise plans.", "sourceUrl": "https://www.coderbyte.com/", "checkedAt": "2026-11-05" },
+    { "text": "The site shows prices with a dollar sign but does not name a currency.", "sourceUrl": "https://www.coderbyte.com/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Pro", "priceUsd": null, "billing": "year", "unit": "per year, figure shown without a currency symbol", "notes": "Listed as 1,999 a year. Not recorded as USD because the page shows no currency symbol for this figure." },
+      { "name": "Monthly", "priceUsd": 99, "billing": "month", "unit": "per month, 20 invites", "notes": "Each additional invite is listed at $20." },
+      { "name": "Pay As You Go", "priceUsd": 799, "billing": "one_time", "unit": "60 invites", "notes": "Invites expire after 365 days, according to the page." },
+      { "name": "Enterprise", "priceUsd": 14995, "billing": "year", "unit": "per year, starting price", "notes": "Listed as starting at $14,995 a year. Add-ons are listed at $1,499 a year each." }
+    ],
+    "hiddenCosts": [
+      "The site does not name its currency. The dollar sign is used on most prices, and the Pro figure has no symbol.",
+      "Add-ons for SSO and SCIM, branding, premium analytics and proctoring, and personality testing are each listed at $1,499 a year."
+    ],
+    "sourceUrl": "https://www.coderbyte.com/",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

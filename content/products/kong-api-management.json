@@ -1,0 +1,46 @@
+{
+  "name": "Kong API Management",
+  "status": "published",
+  "vendor": { "name": "Kong", "website": "https://konghq.com" },
+  "primaryCategory": "api-management",
+  "summary": "Kong API Management covers an API gateway, a developer portal and usage analytics. The Plus plan is listed from $25 a month plus usage, billed monthly, and includes one million API requests before usage charges apply. Enterprise is priced on request and adds SSO, RBAC, SCIM and audit logging. The pricing page does not name its currency.",
+  "qualifies": [
+    {
+      "category": "api-management",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "gateway or proxy", "sourceUrl": "https://konghq.com/pricing" },
+        { "capability": "authentication and rate limiting", "sourceUrl": "https://developer.konghq.com/plugins/rate-limiting/" },
+        { "capability": "authentication and rate limiting", "sourceUrl": "https://konghq.com/pricing" },
+        { "capability": "developer portal or analytics", "sourceUrl": "https://konghq.com/pricing" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The pricing page lists API Management Plus from $25 a month, plus usage, billed monthly. It does not name the currency.", "sourceUrl": "https://konghq.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page says Plus includes one million API requests a month, charges $20 per additional million, and keeps analytics data for 14 months.", "sourceUrl": "https://konghq.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists a developer portal on Plus, with a maximum of two portals, and no maximum on Enterprise.", "sourceUrl": "https://konghq.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The pricing page lists SSO, RBAC, SCIM and audit logging as Enterprise controls.", "sourceUrl": "https://konghq.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "The rate limiting plugin documentation says it limits how many HTTP requests can be made in a set period, from seconds to years, and that it runs on Kong Gateway.", "sourceUrl": "https://developer.konghq.com/plugins/rate-limiting/", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Plus", "priceUsd": 25, "billing": "month", "unit": "from, per month, plus usage, billed monthly", "notes": "One million API requests included each month. Developer portal with a maximum of two portals." },
+      { "name": "Enterprise", "priceUsd": null, "billing": "quote", "unit": "custom, billed annually", "notes": "Custom pricing. Adds SSO, RBAC, SCIM and audit logging, and a developer portal with no maximum." }
+    ],
+    "hiddenCosts": [
+      "Requests above the one million included on Plus cost $20 per additional million, according to the pricing page.",
+      "Each additional developer portal is listed at $200 a month.",
+      "The pricing page does not name its currency. The Plus figure is recorded as shown."
+    ],
+    "sourceUrl": "https://konghq.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

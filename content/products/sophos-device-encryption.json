@@ -1,0 +1,41 @@
+{
+  "name": "Sophos Device Encryption",
+  "status": "published",
+  "vendor": { "name": "Sophos", "website": "https://www.sophos.com" },
+  "primaryCategory": "encryption",
+  "summary": "Sophos Device Encryption provides centrally managed full disk encryption for Windows devices using BitLocker and for Mac devices using FileVault. The product page describes secure storage and recovery of keys across devices, role-based management levels and self-service key recovery for users. The page shows no prices. It offers a Free Trial and a Get started button, with no trial length stated.",
+  "qualifies": [
+    {
+      "category": "encryption",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "encryption at rest", "sourceUrl": "https://www.sophos.com/en-us/products/central-device-encryption" },
+        { "capability": "key management", "sourceUrl": "https://www.sophos.com/en-us/products/central-device-encryption" },
+        { "capability": "access controls", "sourceUrl": "https://www.sophos.com/en-us/products/central-device-encryption" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The product page says Sophos provides centrally managed full disk encryption using Windows BitLocker and Mac FileVault.", "sourceUrl": "https://www.sophos.com/en-us/products/central-device-encryption", "checkedAt": "2026-11-05" },
+    { "text": "The product page says Sophos handles the secure storage, exchange and recovery of keys across devices.", "sourceUrl": "https://www.sophos.com/en-us/products/central-device-encryption", "checkedAt": "2026-11-05" },
+    { "text": "The product page says end users can recover their own keys through a self-service key recovery option.", "sourceUrl": "https://www.sophos.com/en-us/products/central-device-encryption", "checkedAt": "2026-11-05" },
+    { "text": "The product page cites role-based management to separate authorization levels, and dual officer authorization for critical tasks.", "sourceUrl": "https://www.sophos.com/en-us/products/central-device-encryption", "checkedAt": "2026-11-05" },
+    { "text": "The product page does not say which roles can view recovery keys.", "sourceUrl": "https://www.sophos.com/en-us/products/central-device-encryption", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "paid",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [],
+    "hiddenCosts": [
+      "The product page shows no prices or license terms.",
+      "The page offers a Free Trial and a Get started button, with no trial length stated."
+    ],
+    "sourceUrl": "https://www.sophos.com/en-us/products/central-device-encryption",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

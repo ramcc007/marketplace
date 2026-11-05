@@ -1,0 +1,41 @@
+{
+  "name": "Wellnify",
+  "status": "published",
+  "vendor": { "name": "Wellnify", "website": "https://www.wellnify.ai" },
+  "primaryCategory": "employee-wellness",
+  "summary": "Wellnify lets an organization launch wellness challenges and deliver its own or Wellnify's evidence-informed wellness content, with built-in analytics on participation. The vendor publishes no price, and its only calls to action are a demo request and an email contact.",
+  "qualifies": [
+    {
+      "category": "employee-wellness",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "wellness challenges", "sourceUrl": "https://www.wellnify.ai" },
+        { "capability": "health programs or content", "sourceUrl": "https://www.wellnify.ai" },
+        { "capability": "participation reports", "sourceUrl": "https://www.wellnify.ai" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "The homepage says organizations can launch challenges, deliver content and build wellness experiences without custom development.", "sourceUrl": "https://www.wellnify.ai", "checkedAt": "2026-11-05" },
+    { "text": "The homepage says clients can use Wellnify's evidence-informed wellness content, their own resources, or a combination of both.", "sourceUrl": "https://www.wellnify.ai", "checkedAt": "2026-11-05" },
+    { "text": "The homepage lists analytics dashboard among what the platform provides. An image on the page is described as a community wellness dashboard showing participation and engagement data.", "sourceUrl": "https://www.wellnify.ai", "checkedAt": "2026-11-05" },
+    { "text": "The homepage shows no price. The calls to action are Book a Demo and an email contact.", "sourceUrl": "https://www.wellnify.ai", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "quote_only",
+    "freePlan": false,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Custom quote", "priceUsd": null, "billing": "quote", "unit": "not stated on the vendor's site", "notes": "The vendor publishes no price. Pricing is available on request only." }
+    ],
+    "hiddenCosts": [
+      "The vendor publishes no price, so no amount is recorded. The participation evidence rests on an analytics listing and an image description, so confirm a sample report before buying."
+    ],
+    "sourceUrl": "https://www.wellnify.ai",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}

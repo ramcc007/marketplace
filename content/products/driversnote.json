@@ -1,0 +1,47 @@
+{
+  "name": "Driversnote",
+  "status": "published",
+  "vendor": { "name": "Driversnote", "website": "https://www.driversnote.com" },
+  "primaryCategory": "mileage-tracking",
+  "summary": "Driversnote logs trips automatically, lets managers collect and approve driver reports, and exports them to PDF or Excel. The Teams plan costs $11 per license a month, and the Free plan covers 15 trips a month.",
+  "qualifies": [
+    {
+      "category": "mileage-tracking",
+      "checkedAt": "2026-11-05",
+      "evidence": [
+        { "capability": "gps or manual trip logging", "sourceUrl": "https://www.driversnote.com/for-teams-lp" },
+        { "capability": "mileage rate calculation", "sourceUrl": "https://www.driversnote.com/for-teams-lp" },
+        { "capability": "reimbursement reports", "sourceUrl": "https://www.driversnote.com/for-teams-lp" }
+      ]
+    }
+  ],
+  "facts": [
+    { "text": "Trips are captured automatically as the team drives, and manually added trips are flagged and shown on a map.", "sourceUrl": "https://www.driversnote.com/for-teams-lp", "checkedAt": "2026-11-05" },
+    { "text": "Companies set their own mileage rates. The page says custom rates are an option, and it does not say IRS rates are applied automatically.", "sourceUrl": "https://www.driversnote.com/for-teams-lp", "checkedAt": "2026-11-05" },
+    { "text": "Drivers submit reports, and managers can approve, reject or check a route on a map from one dashboard.", "sourceUrl": "https://www.driversnote.com/for-teams-lp", "checkedAt": "2026-11-05" },
+    { "text": "Reports can be exported to PDF or Excel, for one driver or for the whole team.", "sourceUrl": "https://www.driversnote.com/for-teams-lp", "checkedAt": "2026-11-05" },
+    { "text": "The Free plan covers 15 trips a month, and the iBeacon is listed at $40 and is not included in Free.", "sourceUrl": "https://driversnote.com/pricing", "checkedAt": "2026-11-05" }
+  ],
+  "pricing": {
+    "model": "freemium",
+    "freePlan": true,
+    "freeTrialDays": null,
+    "plans": [
+      { "name": "Free", "priceUsd": 0, "billing": "month", "unit": "per individual, 15 trips a month", "notes": "Automatic trip logging on iOS, Android and web. Reports for up to 15 trips a month.", "sourceUrl": "https://driversnote.com/pricing" },
+      { "name": "Pro", "priceUsd": 11, "billing": "month", "unit": "per individual per month", "notes": "Unlimited trips and reporting, an edit log and public API access. Includes a free iBeacon with a yearly subscription.", "sourceUrl": "https://driversnote.com/pricing" },
+      { "name": "Teams", "priceUsd": 11, "billing": "month", "unit": "per license per month, teams of 2 to 10", "notes": "Adds web tools for admins to collect and validate reports. Includes a free iBeacon with a yearly subscription.", "sourceUrl": "https://driversnote.com/pricing" },
+      { "name": "Teams +", "priceUsd": null, "billing": "quote", "unit": "11 or more users", "notes": "Adds single sign-on, a tailored onboarding session and a Customer Success Manager.", "sourceUrl": "https://driversnote.com/pricing" }
+    ],
+    "hiddenCosts": [
+      "The page does not list a separate annual price for any plan.",
+      "The US pricing page lists prices in dollars and says they exclude taxes. The page does not name a currency code.",
+      "The iBeacon costs $40 on the Free plan, and it is included with a yearly subscription on Pro and Teams."
+    ],
+    "sourceUrl": "https://driversnote.com/pricing",
+    "verifiedAt": "2026-11-05"
+  },
+  "integrations": [],
+  "screenshots": [],
+  "paidRelationship": null,
+  "updatedAt": "2026-11-05"
+}
