@@ -39,7 +39,8 @@ export default defineConfig({
   site: process.env.PUBLIC_SITE_URL ?? 'http://localhost:4321',
   trailingSlash: 'never',
   redirects: { '/transparency': '/advertising-disclosure' },
-  build: { format: 'file' },
+  // The whole stylesheet is about 8 KiB, so it is inlined: no request blocks the first paint.
+  build: { format: 'file', inlineStylesheets: 'always' },
   // The writing rules use straight quotes; stop markdown from curling them.
   markdown: { smartypants: false },
   integrations: [tableHeaderScope()],
