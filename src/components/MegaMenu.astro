@@ -1,13 +1,21 @@
 ---
 import { departments } from '../lib/taxonomy';
+import { getSiteIndex } from '../lib/site-index';
 
-// Broad groups on the left, the categories of the hovered group on the right. Built from the taxonomy,
-// so it follows the data. Narrow screens skip the panel and link straight to the full category list.
-const groups = departments.map((d) => ({
-  slug: d.slug,
-  name: d.name,
-  categories: d.categories.filter((c) => c.level === 'L1'),
-}));
+// One panel with a card per department. Each card lists a few top categories (those with the most checked
+// products first) and links to the whole department. Built from the taxonomy, so it follows the data.
+// Narrow screens skip the panel and link straight to the full category list.
+const index = await getSiteIndex();
+const SHOWN = 4;
+const cards = departments.map((d) => {
+  const top = d.categories
+    .filter((c) => c.level === 'L1')
+    .map((c, order) => ({ c, order, n: index.categories.get(c.slug)?.products.length ?? 0 }))
+    .sort((a, b) => b.n - a.n || a.order - b.order)
+    .slice(0, SHOWN)
+    .map((x) => x.c);
+  return { slug: d.slug, name: d.name, total: d.categories.length, top };
+});
 ---
 
 <div class="relative" data-mega>
@@ -30,46 +38,37 @@ const groups = departments.map((d) => ({
   <div
     id="mega-panel"
     hidden
-    class="fixed left-1/2 top-[4rem] z-50 w-[min(64rem,94vw)] -translate-x-1/2 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-xl"
+    class="fixed left-1/2 top-[4rem] z-50 w-[min(72rem,95vw)] -translate-x-1/2 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xl"
     data-mega-panel
   >
-    <div class="grid grid-cols-[16rem_1fr]">
-      <ul class="max-h-[26rem] overflow-y-auto border-r border-slate-100 bg-slate-50 p-2" role="list">
+    <div class="flex items-center justify-between gap-4 border-b border-slate-100 bg-brand-50 px-6 py-3">
+      <p class="text-sm font-semibold text-brand-900">Browse {departments.length} departments</p>
+      <a href="/categories" class="text-sm font-semibold text-brand-700 hover:underline">See every category</a>
+    </div>
+    <div class="max-h-[70vh] overflow-y-auto p-6">
+      <ul class="grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-4" role="list">
         {
-          groups.map((g, i) => (
+          cards.map((card) => (
             <li>
-              <button
-                type="button"
-                data-group={g.slug}
-                class="w-full rounded-md px-3 py-2 text-left text-sm text-slate-700 hover:bg-white aria-selected:bg-brand-700 aria-selected:font-semibold aria-selected:text-white"
-                aria-selected={i === 0 ? 'true' : 'false'}
-              >
-                {g.name}
-              </button>
-            </li>
-          ))
-        }
-      </ul>
-      <div class="max-h-[26rem] overflow-y-auto p-5">
-        {
-          groups.map((g, i) => (
-            <div data-group-panel={g.slug} hidden={i !== 0}>
-              <p class="mb-3 text-sm">
-                <a href={`/categories/${g.slug}`} class="font-semibold text-brand-700 hover:underline">All {g.name} software</a>
-              </p>
-              <ul class="grid gap-x-6 gap-y-0.5 text-sm sm:grid-cols-2" role="list">
-                {g.categories.map((c) => (
+              <a href={`/categories/${card.slug}`} class="text-sm font-bold text-slate-900 hover:text-brand-700">
+                {card.name}
+              </a>
+              <ul class="mt-2 space-y-0.5" role="list">
+                {card.top.map((c) => (
                   <li>
-                    <a href={`/software/${c.slug}`} class="inline-block py-1 text-slate-700 hover:text-brand-700 hover:underline">
+                    <a href={`/software/${c.slug}`} class="inline-block py-0.5 text-sm text-slate-600 hover:text-brand-700 hover:underline">
                       {c.name}
                     </a>
                   </li>
                 ))}
               </ul>
-            </div>
+              <a href={`/categories/${card.slug}`} class="mt-1 inline-block text-xs font-semibold text-brand-700 hover:underline">
+                All {card.total} categories
+              </a>
+            </li>
           ))
         }
-      </div>
+      </ul>
     </div>
   </div>
 </div>
@@ -79,14 +78,8 @@ const groups = departments.map((d) => ({
   if (root) {
     const button = root.querySelector<HTMLButtonElement>('[data-mega-button]')!;
     const panel = root.querySelector<HTMLElement>('[data-mega-panel]')!;
-    const groups = [...root.querySelectorAll<HTMLButtonElement>('[data-group]')];
-    const panels = [...root.querySelectorAll<HTMLElement>('[data-group-panel]')];
     const hover = () => window.matchMedia('(hover: hover) and (min-width: 1024px)').matches;
 
-    const show = (slug: string) => {
-      for (const g of groups) g.setAttribute('aria-selected', String(g.dataset.group === slug));
-      for (const p of panels) p.hidden = p.dataset.groupPanel !== slug;
-    };
     const setOpen = (open: boolean) => {
       panel.hidden = !open;
       button.setAttribute('aria-expanded', String(open));
@@ -94,11 +87,6 @@ const groups = departments.map((d) => ({
 
     // With a mouse the menu opens on hover, so a click must not close it again.
     button.addEventListener('click', () => setOpen(hover() ? true : panel.hidden));
-    for (const g of groups) {
-      g.addEventListener('mouseenter', () => show(g.dataset.group!));
-      g.addEventListener('focus', () => show(g.dataset.group!));
-      g.addEventListener('click', () => show(g.dataset.group!));
-    }
     let closeTimer: number | undefined;
     root.addEventListener('mouseenter', () => {
       window.clearTimeout(closeTimer);
