@@ -27,6 +27,10 @@ const related = relatedCategories(category);
 const site = Astro.site ?? new URL(Astro.url.origin);
 
 const title = editorial?.data.title ?? categoryTitle(category);
+// Other names buyers search for, minus ones that only repeat the title with a generic word swapped in.
+const GENERIC = /(software|tools?|platforms?|builders?|systems?|solutions?|apps?|management|manager|makers?)/g;
+const core = (text: string) => text.toLowerCase().replace(GENERIC, ' ').split(/\s+/).filter(Boolean).join(' ');
+const otherNames = category.aliases.filter((alias) => core(alias) !== core(category.name));
 const description =
   editorial?.data.definition ??
   `${title} compared: what a product needs to be listed, which products qualify, and where their prices come from.`;
@@ -85,8 +89,12 @@ const toc = [
     <div class="mx-auto max-w-6xl px-4 py-8 sm:py-10">
       <Breadcrumbs crumbs={crumbs} />
       <h1 class="mt-4 max-w-3xl text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">{title}</h1>
-      {editorial?.data.definition && <p class="mt-3 max-w-3xl text-lg leading-relaxed text-slate-600">{editorial.data.definition}</p>}
-      <p class="mt-2 text-sm text-slate-500">Also called {category.aliases.join(', ')}</p>
+      {
+        (editorial?.data.definition ?? category.description) && (
+          <p class="mt-3 max-w-3xl text-lg leading-relaxed text-slate-600">{editorial?.data.definition ?? category.description}</p>
+        )
+      }
+      {otherNames.length > 0 && <p class="mt-2 text-sm text-slate-500">Also called {otherNames.join(', ')}</p>}
       <dl class="mt-5 flex flex-wrap gap-x-8 gap-y-2 text-sm">
         <div>
           <dt class="text-slate-500">Products checked</dt>
