@@ -2,6 +2,8 @@
 title: Security software
 description: Guides to nine security software categories, from endpoint protection and SIEM to encryption, with what each compares and what to ask vendors.
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 ---
 
 Security software covers very different jobs. Some tools sit on laptops, some read logs, some control who gets into an account, and some mainly produce evidence for an auditor. This department groups nine categories, each with a full comparison and product profiles.

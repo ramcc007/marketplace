@@ -2,6 +2,8 @@
 title: Software development and DevOps tools
 description: Compare the build, release and monitoring tools engineering teams buy, with a guide to each live development category on B2BRated.
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 ---
 
 Engineering teams buy software for three separate jobs: building and shipping code, watching it run, and dealing with the problems that follow. B2BRated has eleven live category pages for development and DevOps. Each compares eight to eleven products, and the notes below say what each page covers.

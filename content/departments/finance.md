@@ -2,6 +2,8 @@
 title: Finance software
 description: Finance and Accounting software on B2BRated, from the general ledger to billing, tax, cards and procurement, with a guide to the live category comparisons.
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 ---
 
 Finance and Accounting is a wide department. A ledger, a card program and a tax filing tool share a finance team, but they solve different problems and are bought by different people. This page groups the live comparisons by the job they do, so you can find the right one quickly.

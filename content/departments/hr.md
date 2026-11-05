@@ -2,6 +2,8 @@
 title: HR and People software
 description: Comparison pages for HR and people software, from HRIS, payroll and hiring tools to benefits, learning and workforce planning.
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 ---
 
 HR software covers a wide span of work, from the day a candidate applies to the day a payslip is issued. B2BRated groups seventeen of its category pages under this department, and each one compares eight to eleven products against a short list of capabilities the vendors document themselves.

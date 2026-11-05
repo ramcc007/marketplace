@@ -2,6 +2,8 @@
 title: IT management software
 description: Comparison pages for IT service desks, device and patch tools, asset records, backup and SaaS spend, with prices checked at vendor pages.
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 ---
 
 IT management covers the tools a technology team uses to take requests, keep track of what the company owns, and keep devices and data in working order. This department groups eight comparison pages. Each one compares eight products and links to the vendor pages we used.
