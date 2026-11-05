@@ -3,8 +3,8 @@ title: Incident management and on-call software compared
 definition: Nine incident management tools compared on prices checked at the source, on-call, alert routing and postmortems.
 primaryKeyword: incident management software
 criteriaApproved: true
-editor: B2BRated site owner
-signedOffAt: 2026-11-04
+editor: Ram C
+signedOffAt: 2026-11-05
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04

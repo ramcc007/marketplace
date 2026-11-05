@@ -2,8 +2,10 @@
 title: API management software compared
 definition: Eight API management tools compared on gateway, rate limits, authentication, developer portal and analytics, with the prices each vendor publishes.
 primaryKeyword: API management software
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-05
     note: First draft. Seven products checked against vendor pricing and feature pages and their documentation. Several vendors show no prices, and the draft says so for each. Criteria not yet approved.

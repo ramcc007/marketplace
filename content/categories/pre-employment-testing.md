@@ -2,8 +2,10 @@
 title: Pre-employment testing software compared
 definition: Eight pre-employment testing tools compared on published prices, anti-cheating controls and candidate scoring, with the vendors that publish no price.
 primaryKeyword: pre-employment testing software
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-05
     note: First draft. Four products checked against vendor pricing and product pages. Prices recorded as shown. Tools that did not show all three criteria are listed with the reason.

@@ -2,8 +2,10 @@
 title: Mileage tracking apps compared
 definition: Seven mileage apps and expense tools compared on published prices, trip logging, rate calculation and reimbursement reports, quote-only pricing marked.
 primaryKeyword: mileage tracking app
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-05
     note: First draft. Four products checked against vendor pages. Expensify and Zoho Expense reused from their expense profiles with new mileage evidence. Apps whose rate, price or report pages could not be confirmed are listed without a verdict.

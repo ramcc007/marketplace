@@ -2,8 +2,10 @@
 title: Corporate LMS software compared
 definition: Eight corporate learning management systems compared on published prices, minimums, assignment rules, reporting and security checked at the source.
 primaryKeyword: corporate LMS software
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-04
     note: First draft. Seven products checked against vendor pages.

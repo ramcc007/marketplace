@@ -2,8 +2,10 @@
 title: Infrastructure as code tools compared
 definition: Eight infrastructure as code platforms compared on plan and apply steps, state handling and published prices, with vendors that publish no price marked.
 primaryKeyword: infrastructure as code tools
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-05
     note: First draft. Seven products checked against vendor pricing and documentation pages. Products whose plan, state or price could not be confirmed on a readable vendor page are listed without a price.

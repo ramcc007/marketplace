@@ -2,8 +2,10 @@
 title: Encryption software compared
 definition: Eight encryption and key management products compared on encryption at rest, key management and access controls, with the prices each vendor publishes.
 primaryKeyword: encryption software
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-05
     note: First draft. Six products checked against vendor pages and documentation, two of them existing profiles that gained an encryption qualification. Several vendors show no prices, and the draft says so for each. Criteria not yet approved.

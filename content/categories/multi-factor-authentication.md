@@ -3,8 +3,8 @@ title: Multi-factor authentication software compared
 definition: Nine MFA products compared on price, second-factor methods, risk-based rules and enrollment controls, with every figure checked at the vendor.
 primaryKeyword: multi-factor authentication software
 criteriaApproved: true
-editor: B2BRated site owner
-signedOffAt: 2026-11-04
+editor: Ram C
+signedOffAt: 2026-11-05
 writer: Claude (AI draft)
 updateLog:
   - date: 2026-11-04

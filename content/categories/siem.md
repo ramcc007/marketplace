@@ -2,8 +2,10 @@
 title: SIEM software compared
 definition: SIEM tools compared on published prices, log source coverage, correlation rules and alerting, with quote-only vendors marked as such.
 primaryKeyword: SIEM software
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-05
     note: First draft. Eight products checked against vendor pages, prices read from pricing pages. Logz.io reused from its log management profile with new Cloud SIEM evidence. Vendors whose feature or price pages could not be read are listed without figures.

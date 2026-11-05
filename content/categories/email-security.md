@@ -2,8 +2,10 @@
 title: Email security software compared
 definition: Eight email security products compared on phishing and malware filtering, impersonation protection, quarantine controls and published pricing.
 primaryKeyword: email security software
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-04
     note: First draft. Seven products checked against vendor pages and documentation.

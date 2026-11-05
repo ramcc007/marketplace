@@ -2,8 +2,10 @@
 title: CMDB software compared
 definition: Eight configuration management database tools compared on CI records, relationship mapping and change impact views, with the prices each vendor publishes.
 primaryKeyword: CMDB software
-criteriaApproved: false
+criteriaApproved: true
 writer: Claude (AI draft)
+editor: Ram C
+signedOffAt: 2026-11-05
 updateLog:
   - date: 2026-11-05
     note: First draft. Eight products with a CMDB qualification, seven from existing profiles and Xurrent added as a new profile. Each claim traces to a vendor page named on the product profile. Criteria not yet approved.
