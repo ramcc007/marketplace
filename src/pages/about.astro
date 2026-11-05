@@ -8,12 +8,13 @@ import { OWNER } from '../config/legal';
   title="About us"
   description="B2BRated is a business software comparison site run by an individual. Here is what we aim to do, how pages are checked and how the site is paid for."
   path="/about"
+  showUpdated={false}
 >
   <h2>Who we are</h2>
   <p>
     B2BRated is a business software comparison site run by an individual, <Fill value={OWNER.legalName} label="legal name" />,
     based in <Fill value={OWNER.country} label="country" />. Postal address for legal notices:
-    <Fill value={OWNER.address} label="address" />. You can reach us at <Fill value={OWNER.email} label="contact email" />.
+    <Fill value={OWNER.address} label="address" />. You can reach us at {OWNER.email ? <a href={`mailto:${OWNER.email}`}>{OWNER.email}</a> : <Fill value={OWNER.email} label="contact email" />}.
   </p>
 
   <h2>What we are trying to do</h2>
