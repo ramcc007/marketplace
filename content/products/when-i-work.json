@@ -16,7 +16,7 @@
     }
   ],
   "facts": [
-    { "text": "The pricing FAQ says $2.50 per user applies to single-location teams and $5 to multi-location businesses, which does not match the plan table where Essentials includes multi-location scheduling.", "sourceUrl": "https://wheniwork.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "In the pricing FAQ, $2.50 per user applies to single-location teams and $5 to multi-location businesses, which does not match the plan table where Essentials includes multi-location scheduling.", "sourceUrl": "https://wheniwork.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "Time Tracking and Attendance is an add-on toggle on the pricing page with no price shown.", "sourceUrl": "https://wheniwork.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The security page names no SOC 2, ISO 27001 or HIPAA claim, relies on AWS hosting and lists mobile two-step verification.", "sourceUrl": "https://wheniwork.com/security", "checkedAt": "2026-11-04" },
     { "text": "During a paid term the number of users cannot be reduced, and cancellation or early termination is non-refundable.", "sourceUrl": "https://wheniwork.com/terms", "checkedAt": "2026-11-04" }

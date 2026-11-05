@@ -19,7 +19,7 @@
     { "text": "The pricing page cites a library of 350 or more science-backed skills tests.", "sourceUrl": "https://www.testgorilla.com/pricing/", "checkedAt": "2026-11-05" },
     { "text": "The Free plan includes five essential skills tests with unlimited use, covering areas such as problem solving and time management.", "sourceUrl": "https://www.testgorilla.com/pricing/", "checkedAt": "2026-11-05" },
     { "text": "The Behavior monitoring section of the feature table lists a candidate behavior monitor, webcam snapshots, full-screen mode, disabled copy and paste, and multiple attempt prevention. The text read from the page did not show which plan includes each feature.", "sourceUrl": "https://www.testgorilla.com/pricing/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says video responses are AI scored, with three recording attempts per candidate.", "sourceUrl": "https://www.testgorilla.com/pricing/", "checkedAt": "2026-11-05" }
+    { "text": "Video responses are AI scored, with three recording attempts per candidate, according to the pricing page.", "sourceUrl": "https://www.testgorilla.com/pricing/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "freemium",

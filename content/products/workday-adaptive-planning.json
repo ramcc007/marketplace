@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Workday", "website": "https://www.workday.com" },
   "primaryCategory": "budgeting-forecasting",
-  "summary": "Workday Adaptive Planning is an enterprise planning platform for budgeting, forecasting, reporting and scenario modeling, with shareable what-if scenarios inside a governed model. The product page shows no prices and offers a free trial, a demo and a sales contact.",
+  "summary": "Workday Adaptive Planning is an enterprise planning platform for budgeting, forecasting, reporting and scenario modeling, with shareable what-if scenarios inside a governed model. The product page shows no prices and lists a free trial, a demo and a sales contact.",
   "qualifies": [
     {
       "category": "budgeting-forecasting",

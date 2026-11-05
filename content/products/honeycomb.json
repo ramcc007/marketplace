@@ -18,7 +18,7 @@
   "facts": [
     { "text": "Triggers notify a team when query results cross a threshold, through methods such as Slack, PagerDuty or email.", "sourceUrl": "https://docs.honeycomb.io/notify/alert/triggers/", "checkedAt": "2026-11-04" },
     { "text": "Application and system metrics can be sent to Honeycomb and queried alongside traces and logs.", "sourceUrl": "https://docs.honeycomb.io/send-data/metrics/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists unlimited seats and gives the Free plan 2 triggers, the Pro plan 100 triggers and 2 SLOs.", "sourceUrl": "https://www.honeycomb.io/pricing", "checkedAt": "2026-11-04" }
+    { "text": "Honeycomb's pricing page lists unlimited seats and gives the Free plan 2 triggers, the Pro plan 100 triggers and 2 SLOs.", "sourceUrl": "https://www.honeycomb.io/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "freemium",

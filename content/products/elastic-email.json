@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Elastic Email", "website": "https://elasticemail.com" },
   "primaryCategory": "transactional-email",
-  "summary": "Elastic Email offers a REST API for transactional and bulk sending, with plans from a free 3,000 emails a month. Starter costs $19 a month and Pro $49 a month, each starting at 50,000 emails, and the price rises with the volume chosen on a slider. Pro keeps logs 7 days.",
+  "summary": "Elastic Email has a REST API for transactional and bulk sending, with plans from a free 3,000 emails a month. Starter costs $19 a month and Pro $49 a month, each starting at 50,000 emails, and the price rises with the volume chosen on a slider. Pro keeps logs 7 days.",
   "qualifies": [
     {
       "category": "transactional-email",

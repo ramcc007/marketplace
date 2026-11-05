@@ -17,9 +17,9 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page lists Tyk Gateway as included in the Core and Professional plans, and says the gateway is open source under the MPL 2.0 license.", "sourceUrl": "https://tyk.io/pricing/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says the Developer Portal is included in both the Core and Professional plans.", "sourceUrl": "https://tyk.io/pricing/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists no prices, billing periods or currency for any plan, and says Tyk sales quotes plans on request.", "sourceUrl": "https://tyk.io/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Tyk Gateway is listed as included in the Core and Professional plans on the pricing page, which also says the gateway is open source under the MPL 2.0 license.", "sourceUrl": "https://tyk.io/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Tyk's pricing page says the Developer Portal is included in both the Core and Professional plans.", "sourceUrl": "https://tyk.io/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Tyk's pricing page lists no prices, billing periods or currency for any plan, and says Tyk sales quotes plans on request.", "sourceUrl": "https://tyk.io/pricing/", "checkedAt": "2026-11-05" },
     { "text": "The rate limit documentation says rate limits can be set per key, per API and per endpoint, and that requests over the rate limit receive HTTP 429.", "sourceUrl": "https://tyk.io/docs/api-management/rate-limit", "checkedAt": "2026-11-05" },
     { "text": "The authentication documentation says the Auth Token method works like a bearer token, and that the client can send it in a header, query parameter or cookie.", "sourceUrl": "https://tyk.io/docs/api-management/authentication", "checkedAt": "2026-11-05" }
   ],

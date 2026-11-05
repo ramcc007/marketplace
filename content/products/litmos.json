@@ -16,7 +16,7 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page shows Foundation as starting at $8K per year and Platinum as starting at $15K per year; Platinum AI is listed as talk to sales.", "sourceUrl": "https://www.litmos.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Foundation starts at $8K per year and Platinum at $15K per year on the pricing page; Platinum AI is listed as talk to sales.", "sourceUrl": "https://www.litmos.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The compliance page says courses are assigned automatically by role, location, department or risk classification.", "sourceUrl": "https://www.litmos.com/solutions/compliance-training", "checkedAt": "2026-11-04" },
     { "text": "The compliance page describes time-stamped training history for every employee and exportable audit reports in multiple formats.", "sourceUrl": "https://www.litmos.com/solutions/compliance-training", "checkedAt": "2026-11-04" },
     { "text": "The compliance page cites more than 17,700 courses across its content libraries, available in 37 or more languages.", "sourceUrl": "https://www.litmos.com/solutions/compliance-training", "checkedAt": "2026-11-04" }

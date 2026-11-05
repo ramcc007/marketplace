@@ -16,10 +16,10 @@
     }
   ],
   "facts": [
-    { "text": "The product page says Schematics uses Terraform to automate provisioning and lifecycle management of cloud resources.", "sourceUrl": "https://www.ibm.com/products/schematics", "checkedAt": "2026-11-05" },
+    { "text": "Schematics uses Terraform to automate provisioning and lifecycle management of cloud resources, the product page says.", "sourceUrl": "https://www.ibm.com/products/schematics", "checkedAt": "2026-11-05" },
     { "text": "The workspace plan page says the plan shows the resources that will be created, modified or deleted on a later apply, and that plan summary logs can be used to verify changes before the template is applied.", "sourceUrl": "https://cloud.ibm.com/docs/schematics?topic=schematics-sch-plan-wks&format=markdown", "checkedAt": "2026-11-05" },
     { "text": "The workspace apply page says an apply job provisions, modifies or removes the cloud resources described in the template.", "sourceUrl": "https://cloud.ibm.com/docs/schematics?topic=schematics-sch-deploy-wks&format=markdown", "checkedAt": "2026-11-05" },
-    { "text": "The product page says Schematics centralizes the storage of Terraform state, with access control and locking.", "sourceUrl": "https://www.ibm.com/products/schematics", "checkedAt": "2026-11-05" }
+    { "text": "According to the product page, Schematics centralizes the storage of Terraform state, with access control and locking.", "sourceUrl": "https://www.ibm.com/products/schematics", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "freemium",

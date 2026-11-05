@@ -16,11 +16,11 @@
     }
   ],
   "facts": [
-    { "text": "The home page says DMARC Report turns aggregate (RUA) and forensic (RUF) reports into dashboards.", "sourceUrl": "https://www.dmarcreport.com/", "checkedAt": "2026-11-05" },
+    { "text": "Home page: DMARC Report turns aggregate (RUA) and forensic (RUF) reports into dashboards.", "sourceUrl": "https://www.dmarcreport.com/", "checkedAt": "2026-11-05" },
     { "text": "The home page names DuoCircle's sister product AutoSPF for dedicated SPF management.", "sourceUrl": "https://www.dmarcreport.com/", "checkedAt": "2026-11-05" },
     { "text": "The monitoring page describes authentication failure alerts when a DMARC pass rate drops, with a default threshold of 90%, and immediate notice when a previously unseen IP sends email as the domain.", "sourceUrl": "https://dmarcreport.com/use-dmarcreports-to-monitor-your-domains/", "checkedAt": "2026-11-05" },
     { "text": "For SPF, the monitoring page describes DNS lookup tracking, warnings as a record nears the 10-lookup limit, and flattening recommendations. For DKIM, it describes key age tracking and rotation reminders, with a default key age threshold of 90 days.", "sourceUrl": "https://dmarcreport.com/use-dmarcreports-to-monitor-your-domains/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists its prices in USD. Annual billing is about 17% below monthly on Shield and Defender, but only about 8% below on Guard.", "sourceUrl": "https://www.dmarcreport.com/pricing/", "checkedAt": "2026-11-05" }
+    { "text": "Prices are listed in USD on the pricing page. Annual billing is about 17% below monthly on Shield and Defender, but only about 8% below on Guard.", "sourceUrl": "https://www.dmarcreport.com/pricing/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "freemium",

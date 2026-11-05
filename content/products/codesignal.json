@@ -16,7 +16,7 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page says CodeSignal offers hundreds of Certified Assessments by skill, role and function.", "sourceUrl": "https://www.codesignal.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Pricing page: CodeSignal offers hundreds of Certified Assessments by skill, role and function.", "sourceUrl": "https://www.codesignal.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "The Build plan lists AI Proctoring and ID Verification. The Pro plan lists Advanced Fraud Prevention and RBAC.", "sourceUrl": "https://www.codesignal.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "The comparison table lists AI grading and insights. The text read from the page did not show which plans include it.", "sourceUrl": "https://www.codesignal.com/pricing", "checkedAt": "2026-11-05" }
   ],

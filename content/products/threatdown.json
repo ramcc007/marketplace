@@ -18,7 +18,7 @@
   "facts": [
     { "text": "ThreatDown says Ransomware Rollback can restore files that were encrypted, detected or modified, up to 7 days after an attack.", "sourceUrl": "https://www.threatdown.com/products/", "checkedAt": "2026-11-04" },
     { "text": "The Core bundle lists threat monitoring and isolation plus automated endpoint remediation.", "sourceUrl": "https://www.threatdown.com/products/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page offers a 20% saving on a three-year term and bills per year, but showed no dollar amounts when we read it.", "sourceUrl": "https://www.threatdown.com/pricing/", "checkedAt": "2026-11-04" }
+    { "text": "A 20% saving on a three-year term is offered on the pricing page, which bills per year but showed no dollar amounts when we read it.", "sourceUrl": "https://www.threatdown.com/pricing/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

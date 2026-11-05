@@ -19,7 +19,7 @@
     { "text": "The platform page says the gateway is written in Java and proxies traffic. It also claims the gateway performs four times faster, which is a vendor claim that we did not test.", "sourceUrl": "https://www.gravitee.io/platform/api-management", "checkedAt": "2026-11-05" },
     { "text": "The platform page lists pre-built policies for rate limiting and traffic shaping, and names OAuth 2.0, JWT, mTLS, API key and OIDC as authentication options.", "sourceUrl": "https://www.gravitee.io/platform/api-management", "checkedAt": "2026-11-05" },
     { "text": "The platform page lists unified analytics for REST, GraphQL, gRPC and event streams, and real-time alerts sent by email, Slack or webhook.", "sourceUrl": "https://www.gravitee.io/platform/api-management", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists the Planet plan at $2,500 a month, with one production and one non-production gateway and 50 million requests a month.", "sourceUrl": "https://gravitee.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Pricing page: the Planet plan is listed at $2,500 a month, with one production and one non-production gateway and 50 million requests a month.", "sourceUrl": "https://gravitee.io/pricing", "checkedAt": "2026-11-05" },
     { "text": "The pricing page gives no price or billing period for the Galaxy and Universe plans, and it does not name the currency for the Planet price.", "sourceUrl": "https://gravitee.io/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {

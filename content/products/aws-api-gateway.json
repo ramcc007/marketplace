@@ -21,7 +21,7 @@
     { "text": "The throttling documentation says per-client limits apply to clients that use API keys tied to a usage plan.", "sourceUrl": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html", "checkedAt": "2026-11-05" },
     { "text": "The access control documentation lists IAM policies, Lambda authorizers, Amazon Cognito user pools and resource policies as ways to control who can call an API.", "sourceUrl": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-control-access-to-api.html", "checkedAt": "2026-11-05" },
     { "text": "The CloudWatch documentation says API Gateway sends metrics to CloudWatch in one-minute periods, and keeps them for 15 months.", "sourceUrl": "https://docs.aws.amazon.com/apigateway/latest/developerguide/monitoring-cloudwatch.html", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists API Gateway Portals at $125 a portal a month, including 10 portal products, with extra portal products at $12.50 each.", "sourceUrl": "https://aws.amazon.com/api-gateway/pricing/", "checkedAt": "2026-11-05" }
+    { "text": "API Gateway Portals are listed at $125 a portal a month, including 10 portal products, with extra portal products at $12.50 each, per the pricing page.", "sourceUrl": "https://aws.amazon.com/api-gateway/pricing/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "freemium",

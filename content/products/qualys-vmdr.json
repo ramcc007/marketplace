@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Qualys, Inc.", "website": "https://www.qualys.com" },
   "primaryCategory": "vulnerability-management",
-  "summary": "Qualys VMDR combines asset inventory, scanning with agents, sensors and scanners, TruRisk-based prioritization and built-in patching and ticketing. Qualys publishes no prices and offers a 30-day free trial, so budgets start with a sales call.",
+  "summary": "Qualys VMDR combines asset inventory, scanning with agents, sensors and scanners, TruRisk-based prioritization and built-in patching and ticketing. Qualys publishes no prices and has a 30-day free trial, so budgets start with a sales call.",
   "qualifies": [
     {
       "category": "vulnerability-management",

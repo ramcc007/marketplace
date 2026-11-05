@@ -16,7 +16,7 @@
     }
   ],
   "facts": [
-    { "text": "The page says patch deployment windows can be set by day, time, site or device, and missed updates are retried.", "sourceUrl": "https://www.connectwise.com/platform/unified-management/automate/patch-management", "checkedAt": "2026-11-04" },
+    { "text": "ConnectWise Automate's page says patch deployment windows can be set by day, time, site or device, and missed updates are retried.", "sourceUrl": "https://www.connectwise.com/platform/unified-management/automate/patch-management", "checkedAt": "2026-11-04" },
     { "text": "The page names Adobe Acrobat Reader, Dropbox, Slack and Zoom as examples of third-party applications it patches.", "sourceUrl": "https://www.connectwise.com/platform/unified-management/automate/patch-management", "checkedAt": "2026-11-04" },
     { "text": "The dashboard tracks patch compliance status, device patch history and patching schedules, and the FAQ mentions per-device OS patch compliance scores.", "sourceUrl": "https://www.connectwise.com/platform/unified-management/automate/patch-management", "checkedAt": "2026-11-04" }
   ],

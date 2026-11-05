@@ -18,7 +18,7 @@
   "facts": [
     { "text": "ADP states that co-employment is the legal foundation of TotalSource, with the client keeping control over hiring, firing and pay decisions.", "sourceUrl": "https://www.adp.com/what-we-offer/products/totalsource-peo.aspx", "checkedAt": "2026-11-04" },
     { "text": "ADP says it has been an IRS-certified PEO (CPEO) since 2017 and ESAC-accredited since 1995.", "sourceUrl": "https://www.adp.com/what-we-offer/products/totalsource-peo.aspx", "checkedAt": "2026-11-04" },
-    { "text": "The page says ADP TotalSource pricing is quoted rather than listed, and the only dollar figure on it describes a tax-payment bond of up to $1 million a year.", "sourceUrl": "https://www.adp.com/what-we-offer/products/totalsource-peo.aspx", "checkedAt": "2026-11-04" }
+    { "text": "According to the vendor's page, ADP TotalSource pricing is quoted rather than listed, and the only dollar figure on it describes a tax-payment bond of up to $1 million a year.", "sourceUrl": "https://www.adp.com/what-we-offer/products/totalsource-peo.aspx", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

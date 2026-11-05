@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Vanta", "website": "https://www.vanta.com" },
   "primaryCategory": "compliance-automation",
-  "summary": "Vanta covers SOC 2, ISO 27001, GDPR, HIPAA, HITRUST and AI frameworks such as ISO 42001 and the NIST AI Risk Management Framework. It collects evidence automatically and offers an auditor API and an auditor network. Prices are not published, so buyers request a quote after a free demo.",
+  "summary": "Vanta covers SOC 2, ISO 27001, GDPR, HIPAA, HITRUST and AI frameworks such as ISO 42001 and the NIST AI Risk Management Framework. It collects evidence automatically and provides an auditor API and an auditor network. Prices are not published, so buyers request a quote after a free demo.",
   "qualifies": [
     {
       "category": "compliance-automation",
@@ -20,7 +20,7 @@
     { "text": "The Essentials plan lists automated evidence collection for audit readiness and an Auditor API.", "sourceUrl": "https://www.vanta.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The comparison table has rows for access to Vanta's auditor network and for bringing your own auditor, but the page text does not show which plans include them.", "sourceUrl": "https://www.vanta.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "Frameworks named on the pricing page include SOC 2, ISO 27001, GDPR, HIPAA, HITRUST, ISO 42001 and custom frameworks.", "sourceUrl": "https://www.vanta.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The page offers a free demo for personalized pricing and does not mention a free trial.", "sourceUrl": "https://www.vanta.com/pricing", "checkedAt": "2026-11-04" }
+    { "text": "A free demo for personalized pricing is offered on the vendor's page, which does not mention a free trial.", "sourceUrl": "https://www.vanta.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

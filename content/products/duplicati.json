@@ -16,11 +16,11 @@
     }
   ],
   "facts": [
-    { "text": "The home page says all data is encrypted with AES-256 locally, before it reaches the network and cloud.", "sourceUrl": "https://duplicati.com/", "checkedAt": "2026-11-04" },
+    { "text": "According to the home page, all data is encrypted with AES-256 locally, before it reaches the network and cloud.", "sourceUrl": "https://duplicati.com/", "checkedAt": "2026-11-04" },
     { "text": "The restore guide says Duplicati selects the most recent version by default, and a dropdown lets the user pick a different version to restore from.", "sourceUrl": "https://docs.duplicati.com/getting-started/restoring-files", "checkedAt": "2026-11-04" },
-    { "text": "The home page lists retention options such as keeping a set number of backups or deleting backups older than a chosen age, and says heavy backups can be scheduled for off-peak hours.", "sourceUrl": "https://duplicati.com/", "checkedAt": "2026-11-04" },
-    { "text": "The home page lists Amazon S3, Azure Blob Storage, Google Cloud, Dropbox, OneDrive, Backblaze, IDrive e2, SFTP, WebDAV, external drives and NAS among supported destinations.", "sourceUrl": "https://duplicati.com/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page shows both $2 and $2.50 on the Pro plan card without saying which applies.", "sourceUrl": "https://duplicati.com/pricing", "checkedAt": "2026-11-04" }
+    { "text": "On the home page, retention options such as keeping a set number of backups or deleting backups older than a chosen age are listed, and heavy backups can be scheduled for off-peak hours.", "sourceUrl": "https://duplicati.com/", "checkedAt": "2026-11-04" },
+    { "text": "Duplicati's home page lists Amazon S3, Azure Blob Storage, Google Cloud, Dropbox, OneDrive, Backblaze, IDrive e2, SFTP, WebDAV, external drives and NAS among supported destinations.", "sourceUrl": "https://duplicati.com/", "checkedAt": "2026-11-04" },
+    { "text": "On the pricing page, the Pro plan card shows both $2 and $2.50 without saying which applies.", "sourceUrl": "https://duplicati.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "freemium",

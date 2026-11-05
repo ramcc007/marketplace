@@ -16,10 +16,10 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page lists Traefik Proxy as open source and available as a free download.", "sourceUrl": "https://traefik.io/traefik-hub/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Traefik Proxy is listed as open source and available as a free download on the pricing page.", "sourceUrl": "https://traefik.io/traefik-hub/pricing/", "checkedAt": "2026-11-05" },
     { "text": "The Hub API Gateway tier lists distributed rate limiting, and access control through LDAP, JWT, API keys, HMAC, OAuth, OIDC and Open Policy Agent.", "sourceUrl": "https://traefik.io/traefik-hub/pricing/", "checkedAt": "2026-11-05" },
     { "text": "The Hub API Management tier adds an API developer portal, API monitoring and observability, and subscriptions and plans for APIs.", "sourceUrl": "https://traefik.io/traefik-hub/pricing/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page shows no prices, billing periods or currency for the Hub products, and both Hub products show a Get Pricing button.", "sourceUrl": "https://traefik.io/traefik-hub/pricing/", "checkedAt": "2026-11-05" }
+    { "text": "No prices, billing periods or currency are shown for the Hub products on the pricing page, and both Hub products show a Get Pricing button.", "sourceUrl": "https://traefik.io/traefik-hub/pricing/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "freemium",

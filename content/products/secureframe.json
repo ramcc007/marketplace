@@ -17,10 +17,10 @@
   ],
   "facts": [
     { "text": "The home page names SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, NIST and CMMC among the frameworks it supports.", "sourceUrl": "https://secureframe.com/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists Automated Evidence Collection, an Evidence Library and access to the Secureframe Audit Partner Network, but its comparison columns are unlabeled, so the plan for each row is unclear.", "sourceUrl": "https://secureframe.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Automated Evidence Collection, an Evidence Library and access to the Secureframe Audit Partner Network are listed on the pricing page, but its comparison columns are unlabeled, so the plan for each row is unclear.", "sourceUrl": "https://secureframe.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "An admin adds an auditor to a specific audit, chooses which modules the auditor can see, and the auditor loses access after the audit is completed unless other audits are active.", "sourceUrl": "https://support.secureframe.com/en/articles/15111410-collaborating-with-auditors-using-the-audit-module", "checkedAt": "2026-11-04" },
     { "text": "The Defense plan is positioned for CMMC and lists an SSP, a POA&M and an SPRS score tracker.", "sourceUrl": "https://secureframe.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page shows no dollar amounts and no free trial.", "sourceUrl": "https://secureframe.com/pricing", "checkedAt": "2026-11-04" }
+    { "text": "Its pricing page shows no dollar amounts and no free trial.", "sourceUrl": "https://secureframe.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

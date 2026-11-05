@@ -17,8 +17,8 @@
   ],
   "facts": [
     { "text": "Assembla describes its offer as managed Subversion and Git hosting, with merge requests, rich diffs and branch locking.", "sourceUrl": "https://get.assembla.com/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says Starter, Growth and Custom Cloud support Subversion alongside Git and Git LFS. Its comparison table includes code review, merge requests and multi-reviewer approvals under source code management, without per-plan detail in the text.", "sourceUrl": "https://get.assembla.com/pricing/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says Starter focuses on source code hosting only, and that Growth and Custom Cloud include full project management.", "sourceUrl": "https://get.assembla.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "On the pricing page, Starter, Growth and Custom Cloud support Subversion alongside Git and Git LFS. Its comparison table includes code review, merge requests and multi-reviewer approvals under source code management, without per-plan detail in the text.", "sourceUrl": "https://get.assembla.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Pricing page: Starter focuses on source code hosting only, and Growth and Custom Cloud include full project management.", "sourceUrl": "https://get.assembla.com/pricing/", "checkedAt": "2026-11-05" },
     { "text": "Assembla states that SAML 2.0 single sign-on is supported across all plans, and that it holds a SOC 2 Type II certification.", "sourceUrl": "https://get.assembla.com/security/", "checkedAt": "2026-11-05" },
     { "text": "Starter includes 10 GB of storage per user and Growth includes 50 GB per user.", "sourceUrl": "https://get.assembla.com/pricing/", "checkedAt": "2026-11-05" },
     { "text": "The security page says customer data in EU deployments stays in Frankfurt, Germany, and that EU data residency is available.", "sourceUrl": "https://get.assembla.com/security/", "checkedAt": "2026-11-05" }

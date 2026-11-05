@@ -16,9 +16,9 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page says employees redeem rewards from the Bonusly catalog, and the employer pays face value when a reward is redeemed.", "sourceUrl": "https://bonusly.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Pricing page: employees redeem rewards from the Bonusly catalog, and the employer pays face value when a reward is redeemed.", "sourceUrl": "https://bonusly.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "Company-wide analytics, recognition quality reporting and SAML SSO are listed under the Organization plan, which has no published price.", "sourceUrl": "https://bonusly.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page offers a monthly billing toggle, while an FAQ on the same page says all plans are billed annually. The page does not resolve the conflict.", "sourceUrl": "https://bonusly.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Bonusly's pricing page has a monthly billing toggle, while an FAQ on the same page says all plans are billed annually. The page does not resolve the conflict.", "sourceUrl": "https://bonusly.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "The Bizy add-on costs $2 per user a month. The page also says Bizy is included in the Team and Organization plans, so the terms are unclear.", "sourceUrl": "https://bonusly.com/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {

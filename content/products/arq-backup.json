@@ -16,11 +16,11 @@
     }
   ],
   "facts": [
-    { "text": "The home page says Arq can back up hourly or daily, and can be blocked on specific Wi-Fi networks or on battery power.", "sourceUrl": "https://www.arqbackup.com/", "checkedAt": "2026-11-04" },
+    { "text": "Arq's home page says it can back up hourly or daily, and can be blocked on specific Wi-Fi networks or on battery power.", "sourceUrl": "https://www.arqbackup.com/", "checkedAt": "2026-11-04" },
     { "text": "By default Arq backs up from an APFS snapshot on macOS or a VSS snapshot on Windows, so each backup reflects one moment in time.", "sourceUrl": "https://www.arqbackup.com/documentation/arq7/English.lproj/createBackupPlan.html", "checkedAt": "2026-11-04" },
     { "text": "A backup plan can thin backup records as they age, keeping hourly, daily, weekly and monthly records for set periods.", "sourceUrl": "https://www.arqbackup.com/documentation/arq7/English.lproj/createBackupPlan.html", "checkedAt": "2026-11-04" },
     { "text": "When a password is chosen for a plan, Arq encrypts data before sending it and the password never leaves the computer.", "sourceUrl": "https://www.arqbackup.com/documentation/arq7/English.lproj/createBackupPlan.html", "checkedAt": "2026-11-04" },
-    { "text": "The product page offers a 30-day free trial and states that no storage is included.", "sourceUrl": "https://www.arqbackup.com/arqbackup/", "checkedAt": "2026-11-04" }
+    { "text": "Its product page offers a 30-day free trial and states that no storage is included.", "sourceUrl": "https://www.arqbackup.com/arqbackup/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

@@ -18,7 +18,7 @@
   "facts": [
     { "text": "The Essentials tier is described as automating threat responses with one-click isolation of an infected host.", "sourceUrl": "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html", "checkedAt": "2026-11-04" },
     { "text": "The Advantage tier mentions advanced endpoint detection and response.", "sourceUrl": "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html", "checkedAt": "2026-11-04" },
-    { "text": "The page lists no prices and links to a plan comparison page and a Help me choose form.", "sourceUrl": "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html", "checkedAt": "2026-11-04" }
+    { "text": "Cisco Secure Endpoint's page lists no prices and links to a plan comparison page and a Help me choose form.", "sourceUrl": "https://www.cisco.com/site/us/en/products/security/endpoint-security/secure-endpoint/index.html", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

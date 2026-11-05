@@ -20,7 +20,7 @@
     { "text": "Tipalti says approval rules can be set at header or line-item level, and approvers can sign off from email without logging in.", "sourceUrl": "https://tipalti.com/ap-automation/", "checkedAt": "2026-11-04" },
     { "text": "Tipalti advertises payments in 200+ countries and territories, 120 local currencies and 50+ payment methods.", "sourceUrl": "https://tipalti.com/ap-automation/", "checkedAt": "2026-11-04" },
     { "text": "Tipalti's data processing addendum says it undergoes a SOC 2 Type II audit every year.", "sourceUrl": "https://tipalti.com/legal/customer-dpa/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing FAQ says pricing is a subscription plus transaction-based fees, depending on payment volume, number of entities and enabled modules.", "sourceUrl": "https://tipalti.com/pricing/", "checkedAt": "2026-11-04" }
+    { "text": "Pricing FAQ: pricing is a subscription plus transaction-based fees, depending on payment volume, number of entities and enabled modules.", "sourceUrl": "https://tipalti.com/pricing/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

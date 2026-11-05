@@ -19,7 +19,7 @@
     { "text": "The Timeero home page says trips are captured automatically while employees are on the clock, and that each stop's timestamp and full route are recorded.", "sourceUrl": "https://timeero.com/", "checkedAt": "2026-11-05" },
     { "text": "The Timeero home page says built-in IRS rate calculations make reimbursement fast and accurate. The page does not mention custom rates.", "sourceUrl": "https://timeero.com/", "checkedAt": "2026-11-05" },
     { "text": "The mileage page says Timeero provides detailed mileage reports that can be exported to payroll software to automate reimbursement calculations.", "sourceUrl": "https://timeero.com/mileage-tracking", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says Enterprise pricing is available by contacting sales.", "sourceUrl": "https://timeero.com/pricing", "checkedAt": "2026-11-05" }
+    { "text": "Timeero's pricing page says Enterprise pricing is available by contacting sales.", "sourceUrl": "https://timeero.com/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

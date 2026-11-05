@@ -28,7 +28,7 @@
     { "text": "Monitoring and alerting cover Windows, Mac and Linux, plus network devices and IoT.", "sourceUrl": "https://www.pulseway.com/", "checkedAt": "2026-11-04" },
     { "text": "Patch management covers operating systems and third-party apps.", "sourceUrl": "https://www.pulseway.com/", "checkedAt": "2026-11-04" },
     { "text": "Antivirus, ransomware detection, phishing defense, ticketing, IT documentation and backup are listed as add-on products.", "sourceUrl": "https://www.pulseway.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The home page offers a demo and a contact route but mentions no free trial.", "sourceUrl": "https://www.pulseway.com/", "checkedAt": "2026-11-04" }
+    { "text": "Pulseway's home page offers a demo and a contact route but mentions no free trial.", "sourceUrl": "https://www.pulseway.com/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

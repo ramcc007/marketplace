@@ -18,7 +18,7 @@
   "facts": [
     { "text": "InvGate states it is certified under ISO 27001:2022 and refers to SOC 2 Type II audits.", "sourceUrl": "https://www.invgate.com/security", "checkedAt": "2026-11-04" },
     { "text": "The security page does not say where InvGate hosts its services and points to a separate trust center.", "sourceUrl": "https://www.invgate.com/security", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says prices are base list prices that exclude taxes and fees and may change without notice.", "sourceUrl": "https://www.invgate.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "InvGate Service Management's pricing page says prices are base list prices that exclude taxes and fees and may change without notice.", "sourceUrl": "https://www.invgate.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The Starter plan has no workflow builder, which starts on Pro.", "sourceUrl": "https://www.invgate.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

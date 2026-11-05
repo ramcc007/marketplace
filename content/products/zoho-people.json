@@ -25,9 +25,9 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page says the Free plan includes employee database management and time-off management, and that accounts move to the Free plan when the trial ends.", "sourceUrl": "https://www.zoho.com/people/zohopeople-pricing.html", "checkedAt": "2026-11-04" },
+    { "text": "Zoho People's pricing page says the Free plan includes employee database management and time-off management, and that accounts move to the Free plan when the trial ends.", "sourceUrl": "https://www.zoho.com/people/zohopeople-pricing.html", "checkedAt": "2026-11-04" },
     { "text": "The pricing page puts HR reports in Essential HR, attendance and timesheets in Professional, and performance, compensation and advanced HR analytics in Premium.", "sourceUrl": "https://www.zoho.com/people/zohopeople-pricing.html", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says the Free plan is free for up to 53 users.", "sourceUrl": "https://www.zoho.com/people/zohopeople-pricing.html", "checkedAt": "2026-11-04" },
+    { "text": "Per the pricing page, the Free plan is free for up to 53 users.", "sourceUrl": "https://www.zoho.com/people/zohopeople-pricing.html", "checkedAt": "2026-11-04" },
     { "text": "The pricing comparison page says Free for 5 users in one table and Free for 3 users in another.", "sourceUrl": "https://www.zoho.com/people/pricing-comparison.html", "checkedAt": "2026-11-04" },
     { "text": "Companies with more than 500 users are directed to request a quote.", "sourceUrl": "https://www.zoho.com/people/zohopeople-pricing.html", "checkedAt": "2026-11-04" }
   ],

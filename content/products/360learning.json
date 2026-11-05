@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "The Team plan covers up to 100 users and is billed monthly, and the FAQ says it can be cancelled at any time.", "sourceUrl": "https://360learning.com/pricing/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing FAQ says no minimum number of users is required and mentions a 30-day free trial.", "sourceUrl": "https://360learning.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Pricing FAQ: no minimum number of users is required, and a 30-day free trial is mentioned.", "sourceUrl": "https://360learning.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Dynamic enrollment uses custom filters to keep assignments current as the workforce changes, and automatic re-enrollment recycles training for compliance.", "sourceUrl": "https://360learning.com/product/learning-management-system/", "checkedAt": "2026-11-04" },
     { "text": "Completion certificates include start and end dates, time spent, failed attempts and scores.", "sourceUrl": "https://360learning.com/product/learning-management-system/", "checkedAt": "2026-11-04" },
     { "text": "The product page states the platform is GDPR-compliant and lists single sign-on with Microsoft, Google and Okta.", "sourceUrl": "https://360learning.com/product/learning-management-system/", "checkedAt": "2026-11-04" }

@@ -20,7 +20,7 @@
     { "text": "The key concepts page says the gateway verifies API keys and other credentials such as JWTs and certificates, and enforces usage quotas and rate limits.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts", "checkedAt": "2026-11-05" },
     { "text": "The key concepts page describes an open-source developer portal where API consumers read documentation, subscribe to get API keys and access analytics on their own usage.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts", "checkedAt": "2026-11-05" },
     { "text": "The key concepts page says the tiers are Classic (Developer, Basic, Standard and Premium), V2 (Basic v2, Standard v2 and Premium v2) and Consumption.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says prices are calculated in US dollars, but no amount on the page is filled in. Isolated is marked TBA, and the AI Gateway tier says pricing is coming soon.", "sourceUrl": "https://azure.microsoft.com/en-us/pricing/details/api-management/", "checkedAt": "2026-11-05" }
+    { "text": "According to the pricing page, prices are calculated in US dollars, but no amount on the page is filled in. Isolated is marked TBA, and the AI Gateway tier says pricing is coming soon.", "sourceUrl": "https://azure.microsoft.com/en-us/pricing/details/api-management/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "quote_only",

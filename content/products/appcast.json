@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Appcast", "website": "https://www.appcast.io" },
   "primaryCategory": "job-distribution",
-  "summary": "Appcast advertises jobs across a source-neutral network of thousands of sites. Its homepage says it allocates the recruitment marketing budget across every channel and identifies the sources that drive qualified applicants. The homepage shows no prices and offers a demo request only.",
+  "summary": "Appcast advertises jobs across a source-neutral network of thousands of sites. Its homepage says it allocates the recruitment marketing budget across every channel and identifies the sources that drive qualified applicants. The homepage shows no prices and has a demo request only.",
   "qualifies": [
     {
       "category": "job-distribution",

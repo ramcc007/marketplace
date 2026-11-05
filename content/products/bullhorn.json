@@ -16,10 +16,10 @@
     }
   ],
   "facts": [
-    { "text": "The page lists On Demand Video Interviewing and Live Video Interviewing as products, and shows a caption describing a hiring team reviewing a recorded one-way interview.", "sourceUrl": "https://www.bullhorn.com/?p=74463", "checkedAt": "2026-11-05" },
-    { "text": "The page says candidates can schedule their interview from their phone, laptop, or anywhere with a browser, and that scheduling syncs client calendar availability for individual, back-to-back and panel interviews.", "sourceUrl": "https://www.bullhorn.com/?p=74463", "checkedAt": "2026-11-05" },
-    { "text": "The page says the product allows clients to rate and score candidates in real time, and that its interview builder provides structured guides for evaluating candidates.", "sourceUrl": "https://www.bullhorn.com/?p=74463", "checkedAt": "2026-11-05" },
-    { "text": "The page shows no prices, currency or plan tiers. It offers a live demo and a partner demo.", "sourceUrl": "https://www.bullhorn.com/?p=74463", "checkedAt": "2026-11-05" }
+    { "text": "On Bullhorn's page, On Demand Video Interviewing and Live Video Interviewing are listed as products, with a caption describing a hiring team reviewing a recorded one-way interview.", "sourceUrl": "https://www.bullhorn.com/?p=74463", "checkedAt": "2026-11-05" },
+    { "text": "Bullhorn's page says candidates can schedule their interview from their phone, laptop, or anywhere with a browser, and that scheduling syncs client calendar availability for individual, back-to-back and panel interviews.", "sourceUrl": "https://www.bullhorn.com/?p=74463", "checkedAt": "2026-11-05" },
+    { "text": "Bullhorn's page says the product allows clients to rate and score candidates in real time, and that its interview builder provides structured guides for evaluating candidates.", "sourceUrl": "https://www.bullhorn.com/?p=74463", "checkedAt": "2026-11-05" },
+    { "text": "Bullhorn's page shows no prices, currency or plan tiers. It offers a live demo and a partner demo.", "sourceUrl": "https://www.bullhorn.com/?p=74463", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "quote_only",

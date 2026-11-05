@@ -19,7 +19,7 @@
     { "text": "The Infrastructure Manager overview says Terraform is defined declaratively in a Terraform configuration that describes the end state of the infrastructure.", "sourceUrl": "https://docs.cloud.google.com/infrastructure-manager/docs/overview", "checkedAt": "2026-11-05" },
     { "text": "The overview says preview deployments show how changes affect the infrastructure before they are applied.", "sourceUrl": "https://docs.cloud.google.com/infrastructure-manager/docs/overview", "checkedAt": "2026-11-05" },
     { "text": "The overview says Infrastructure Manager stores the state file created as part of each deployment and revision.", "sourceUrl": "https://docs.cloud.google.com/infrastructure-manager/docs/overview", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says there is no fee for Infrastructure Manager itself. Cloud Build and Cloud Storage are the services that bill for its runs and artifacts.", "sourceUrl": "https://cloud.google.com/infrastructure-manager/pricing", "checkedAt": "2026-11-05" }
+    { "text": "Per the pricing page, there is no fee for Infrastructure Manager itself. Cloud Build and Cloud Storage are the services that bill for its runs and artifacts.", "sourceUrl": "https://cloud.google.com/infrastructure-manager/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "free",

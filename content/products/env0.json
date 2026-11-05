@@ -15,8 +15,8 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page lists Remote Plan and Remote Apply as features. It does not say which paid tier includes each feature.", "sourceUrl": "https://www.envzero.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists Remote State Storage and Self-hosted Remote State as features, with the same plan-mapping gap.", "sourceUrl": "https://www.envzero.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Pricing page: Remote Plan and Remote Apply are listed as features. It does not say which paid tier includes each feature.", "sourceUrl": "https://www.envzero.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Remote State Storage and Self-hosted Remote State are listed as features on the pricing page, with the same plan-mapping gap.", "sourceUrl": "https://www.envzero.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "The Free tier allows 250 runs a month, 30 active environments, one concurrent run and one self-hosted runner.", "sourceUrl": "https://www.envzero.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "Once the monthly run cap is reached on the Free tier, scheduled runs such as TTL destroys and drift detection are skipped until the next cycle.", "sourceUrl": "https://www.envzero.com/pricing", "checkedAt": "2026-11-05" }
   ],

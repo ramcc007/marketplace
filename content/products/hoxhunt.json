@@ -16,9 +16,9 @@
     }
   ],
   "facts": [
-    { "text": "The product page lists 300+ ready training modules in video and text, plus interactive modules and several quiz formats.", "sourceUrl": "https://hoxhunt.com/product/security-awareness-training", "checkedAt": "2026-11-04" },
+    { "text": "Product page: 300+ ready training modules in video and text are listed, plus interactive modules and several quiz formats.", "sourceUrl": "https://hoxhunt.com/product/security-awareness-training", "checkedAt": "2026-11-04" },
     { "text": "Simulations are personalized by factors such as skill level, role and location, and the page says automation covers enrollment, reminders, completion tracking and manager escalations.", "sourceUrl": "https://hoxhunt.com/product/security-awareness-training", "checkedAt": "2026-11-04" },
-    { "text": "The page lists compliance training tracks for PCI DSS, HIPAA, DORA and GDPR.", "sourceUrl": "https://hoxhunt.com/product/security-awareness-training", "checkedAt": "2026-11-04" },
+    { "text": "Compliance training tracks for PCI DSS, HIPAA, DORA and GDPR are listed on the page.", "sourceUrl": "https://hoxhunt.com/product/security-awareness-training", "checkedAt": "2026-11-04" },
     { "text": "The scoping call covers challenges, employee count and integrations, a live view of the employee experience, and a tour of the administrator dashboard and reports.", "sourceUrl": "https://hoxhunt.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

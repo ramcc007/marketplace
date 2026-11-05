@@ -19,7 +19,7 @@
     { "text": "Grid, Gantt, Calendar, Table and Board views are included on all four plans, and a Timeline view needs Business or higher.", "sourceUrl": "https://www.smartsheet.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "Comments and conversations, and assigning people to work, are included on all plans.", "sourceUrl": "https://www.smartsheet.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "SAML single sign-on is listed for Enterprise and Advanced Work Management, while every plan allows sign-in with a Google, Microsoft or Apple account.", "sourceUrl": "https://www.smartsheet.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The page says the Pro plan is only available to new customers.", "sourceUrl": "https://www.smartsheet.com/pricing", "checkedAt": "2026-11-04" }
+    { "text": "On the vendor's page, the Pro plan is only available to new customers.", "sourceUrl": "https://www.smartsheet.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

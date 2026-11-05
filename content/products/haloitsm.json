@@ -16,7 +16,7 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page shows 66 pounds sterling per agent a month on annual billing and offers other currencies by region, but no US dollar price was displayed.", "sourceUrl": "https://usehalo.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "On the pricing page, 66 pounds sterling per agent a month is shown on annual billing, with other currencies offered by region, but no US dollar price was displayed.", "sourceUrl": "https://usehalo.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "The page's 70-agent example shows 55,440 pounds a year before a 5% milestone discount.", "sourceUrl": "https://usehalo.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "An Enterprise Package offers unlimited licences and funded implementation for a fixed $1M a year.", "sourceUrl": "https://usehalo.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Halo lists ISO 27001, SOC 2 Type II, HIPAA and GDPR on its product page and links to a trust centre for detail.", "sourceUrl": "https://usehalo.com/haloitsm/", "checkedAt": "2026-11-04" }

@@ -19,7 +19,7 @@
     { "text": "Colleagues nominate teammates, and managers track and approve nominations on a single dashboard.", "sourceUrl": "https://www.achievers.com/platform/recognize/", "checkedAt": "2026-11-05" },
     { "text": "Points can be bought by credit card, and a Boost action in the newsfeed lets employees add reward points to a recognition.", "sourceUrl": "https://www.achievers.com/platform/recognize/", "checkedAt": "2026-11-05" },
     { "text": "The Recognize page cites more than 3 million reward choices with no markups and free shipping, pre-configured visual reports, and more than 40 templated reports in the admin suite.", "sourceUrl": "https://www.achievers.com/platform/recognize/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says quotes are custom and that no annual points commitment is required. It does not state a currency or minimum.", "sourceUrl": "https://www.achievers.com/pricing/", "checkedAt": "2026-11-05" }
+    { "text": "Pricing page: quotes are custom and no annual points commitment is required. It does not state a currency or minimum.", "sourceUrl": "https://www.achievers.com/pricing/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "quote_only",

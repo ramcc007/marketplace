@@ -27,7 +27,7 @@
   "facts": [
     { "text": "Time Off, Time Tracking, Performance, Shift Management, Recruitment and several other modules are add-ons to Factorial Core, and the pricing page lists no prices for them.", "sourceUrl": "https://factorial.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The HR software page describes absence policies with request approval and downloadable reports based on company activity.", "sourceUrl": "https://factorial.com/hr-software/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page shows the $8 figure with a dollar sign only and gives no currency code, so the figure may differ by country.", "sourceUrl": "https://factorial.com/pricing", "checkedAt": "2026-11-04" }
+    { "text": "Factorial's pricing page shows the $8 figure with a dollar sign only and gives no currency code, so the figure may differ by country.", "sourceUrl": "https://factorial.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

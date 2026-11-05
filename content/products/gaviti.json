@@ -20,7 +20,7 @@
     { "text": "Gaviti describes matching payments to invoices from the invoice numbers or references customers provide, and says portal payments are matched with 100% accuracy. That figure is a vendor claim.", "sourceUrl": "https://gaviti.com/product/cash-application/", "checkedAt": "2026-11-04" },
     { "text": "The collections page says real-time reporting tracks aging analysis alongside DSO and collections efficiency, and that its workflows send reminders and escalations.", "sourceUrl": "https://gaviti.com/product/a-r-collections-management/", "checkedAt": "2026-11-04" },
     { "text": "Gaviti's security page states ISO 27001:2013 and ISO 27701:2019 certification and GDPR compliance. Its only SOC reference is for the data center facility.", "sourceUrl": "https://gaviti.com/security/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says the package is built around usage, not users, and lists unlimited users and workflows. It shows no dollar prices and offers a quote request form.", "sourceUrl": "https://www.gaviti.com/pricing", "checkedAt": "2026-11-04" }
+    { "text": "Gaviti's pricing page says the package is built around usage, not users, and lists unlimited users and workflows. It shows no dollar prices and offers a quote request form.", "sourceUrl": "https://www.gaviti.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

@@ -18,7 +18,7 @@
   "facts": [
     { "text": "Incidents automatically trigger notifications and update component statuses, and the history page keeps past incident and maintenance events.", "sourceUrl": "https://status.io/features/", "checkedAt": "2026-11-05" },
     { "text": "Subscribers choose which components they receive notifications for and can change their subscriptions at any time.", "sourceUrl": "https://status.io/features/", "checkedAt": "2026-11-05" },
-    { "text": "The page shows 90-day historical status charts, and metrics can come from a Custom Metric API or tools such as New Relic and Pingdom.", "sourceUrl": "https://status.io/features/", "checkedAt": "2026-11-05" },
+    { "text": "90-day historical status charts are shown on the page, and metrics can come from a Custom Metric API or tools such as New Relic and Pingdom.", "sourceUrl": "https://status.io/features/", "checkedAt": "2026-11-05" },
     { "text": "A custom domain is included in all plans.", "sourceUrl": "https://status.io/pricing/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {

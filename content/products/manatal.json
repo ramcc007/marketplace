@@ -19,7 +19,7 @@
     { "text": "The candidate database page says applicant profiles are consolidated in one deduplicated location, and candidates can keep their own details current through a self-service portal.", "sourceUrl": "https://www.manatal.com/candidate-database", "checkedAt": "2026-11-04" },
     { "text": "Mass email campaigns reach only recipients whose opt-in status is Pending or Given, and the sending domain must be verified first. Monthly email credits are 200 on Professional, 1,000 on Enterprise and 5,000 on Enterprise Plus.", "sourceUrl": "https://support.manatal.com/docs/mass-email-campaigns", "checkedAt": "2026-11-04" },
     { "text": "The sourcing page lists LinkedIn, Indeed, GitHub, SEEK Talent Search and Xing as sites its browser extension can pull candidate profiles from, and advertises posting to 2,500+ channels.", "sourceUrl": "https://www.manatal.com/features/candidate-sourcing", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists SSO and API access under Enterprise Plus only.", "sourceUrl": "https://www.manatal.com/pricing", "checkedAt": "2026-11-04" }
+    { "text": "Manatal's pricing page lists SSO and API access under Enterprise Plus only.", "sourceUrl": "https://www.manatal.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

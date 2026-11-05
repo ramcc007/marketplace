@@ -17,10 +17,10 @@
   ],
   "facts": [
     { "text": "The job boards page says the buyer stops logging into several job boards to post the same position.", "sourceUrl": "https://hiresome.ai/job-boards", "checkedAt": "2026-11-05" },
-    { "text": "The page says sponsored posts and job board budgets can be managed from one central dashboard.", "sourceUrl": "https://hiresome.ai/job-boards", "checkedAt": "2026-11-05" },
-    { "text": "The page says the buyer can track which job boards deliver the best candidates and adjust spending.", "sourceUrl": "https://hiresome.ai/job-boards", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists Lite at a current price of $4 a month and a regular price of $6.15, billed yearly per recruiter.", "sourceUrl": "https://hiresome.ai/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists Pro at a current price of $16 a month and a regular price of $32, billed yearly per recruiter. Enterprise is listed as custom.", "sourceUrl": "https://hiresome.ai/pricing", "checkedAt": "2026-11-05" }
+    { "text": "Per the vendor's page, sponsored posts and job board budgets can be managed from one central dashboard.", "sourceUrl": "https://hiresome.ai/job-boards", "checkedAt": "2026-11-05" },
+    { "text": "On Hiresome's page, the buyer can track which job boards deliver the best candidates and adjust spending.", "sourceUrl": "https://hiresome.ai/job-boards", "checkedAt": "2026-11-05" },
+    { "text": "Lite is listed on the pricing page at a current price of $4 a month and a regular price of $6.15, billed yearly per recruiter.", "sourceUrl": "https://hiresome.ai/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Hiresome lists Pro at a current price of $16 a month and a regular price of $32, billed yearly per recruiter, on its pricing page. Enterprise is listed as custom.", "sourceUrl": "https://hiresome.ai/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

@@ -19,7 +19,7 @@
     { "text": "GoodHire's pricing page describes the company as a Checkr company and lists the same three package prices as Checkr's workforce plans.", "sourceUrl": "https://www.goodhire.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "GoodHire offers three FCRA consent options: e-consent signed by the candidate on a phone or computer, a GoodHire consent form for onsite candidates, and a custom employer form that GoodHire reviews.", "sourceUrl": "https://www.goodhire.com/blog/3-steps-to-easy-background-check-consent/", "checkedAt": "2026-11-04" },
     { "text": "The integrations page says GoodHire comes pre-integrated with leading ATS and HRIS platforms and can be added to others through its API.", "sourceUrl": "https://www.goodhire.com/background-checks/hr-tech-integrations/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says additional third-party fees may apply and does not state the amounts.", "sourceUrl": "https://www.goodhire.com/pricing/", "checkedAt": "2026-11-04" }
+    { "text": "Per the pricing page, additional third-party fees may apply, and it does not state the amounts.", "sourceUrl": "https://www.goodhire.com/pricing/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

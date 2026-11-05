@@ -16,7 +16,7 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page shows only Request Quote buttons, and its FAQ says exact pricing is not publicly documented.", "sourceUrl": "https://www.datarails.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Only Request Quote buttons appear on the pricing page, and its FAQ says exact pricing is not publicly documented.", "sourceUrl": "https://www.datarails.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "The variance page says users can compare actuals with budget, with the latest forecast, or year over year.", "sourceUrl": "https://www.datarails.com/variance-analysis/", "checkedAt": "2026-11-04" },
     { "text": "The pricing page counts 1, 2 and 3 integrations for Professional, Premium and Expert, so connecting more data sources may change the quote.", "sourceUrl": "https://www.datarails.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "The site names more than 600 data sources, including NetSuite, Xero, Sage, QuickBooks, Dynamics 365, Salesforce and HubSpot.", "sourceUrl": "https://www.datarails.com/", "checkedAt": "2026-11-04" }

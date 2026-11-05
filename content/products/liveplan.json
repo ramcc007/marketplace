@@ -17,9 +17,9 @@
   ],
   "facts": [
     { "text": "Both plans include one active company at a time and five contributors, with unlimited guests.", "sourceUrl": "https://www.liveplan.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists up to 10 full forecast scenarios and CSV export of forecasts to Excel or Google Sheets.", "sourceUrl": "https://www.liveplan.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Up to 10 full forecast scenarios and CSV export of forecasts to Excel or Google Sheets are listed on the pricing page.", "sourceUrl": "https://www.liveplan.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "All subscriptions come with a 35-day money-back guarantee, and the page says there are no contracts.", "sourceUrl": "https://www.liveplan.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The page lists QuickBooks Online and Xero connections as Premium features.", "sourceUrl": "https://www.liveplan.com/pricing", "checkedAt": "2026-11-04" }
+    { "text": "LivePlan's page lists QuickBooks Online and Xero connections as Premium features.", "sourceUrl": "https://www.liveplan.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

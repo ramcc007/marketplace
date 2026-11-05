@@ -28,7 +28,7 @@
     { "text": "Procurify says approved requests automatically become purchase orders that keep the original account codes.", "sourceUrl": "https://www.procurify.com/procure-to-pay/procurement/purchase-order/", "checkedAt": "2026-11-04" },
     { "text": "Approval rules can be set by department, location, account code or amount, and the platform records who approved each purchase and when.", "sourceUrl": "https://www.procurify.com/procure-to-pay/procurement/approval-software/", "checkedAt": "2026-11-04" },
     { "text": "The vendor management page says buyers can onboard vendors with standardized forms and automated workflows, and can bring external supplier catalogs into Procurify.", "sourceUrl": "https://www.procurify.com/procure-to-pay/procurement/vendor-management-system/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists NetSuite, QuickBooks, Sage Intacct, Dynamics 365 and PunchOut among its integrations, and says basic users are unlimited while pricing is set by the number of Pro users.", "sourceUrl": "https://www.procurify.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Integrations listed on the pricing page include NetSuite, QuickBooks, Sage Intacct, Dynamics 365 and PunchOut, and the page says basic users are unlimited while pricing is set by the number of Pro users.", "sourceUrl": "https://www.procurify.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Procurify says independent SOC 1 Type 2 and SOC 2 Type 2 audits provide evidence of its controls.", "sourceUrl": "https://www.procurify.com/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

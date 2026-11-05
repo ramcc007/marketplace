@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Instatus", "website": "https://instatus.com" },
   "primaryCategory": "status-page",
-  "summary": "Instatus offers a free Starter plan with 200 subscribers, 15 monitors and 5 team members. Pro starts at $20 a month with 5,000 subscribers and SMS alerts. Subscribers can follow by email, SMS, webhook, chat tools and feeds.",
+  "summary": "Instatus has a free Starter plan with 200 subscribers, 15 monitors and 5 team members. Pro starts at $20 a month with 5,000 subscribers and SMS alerts. Subscribers can follow by email, SMS, webhook, chat tools and feeds.",
   "qualifies": [
     {
       "category": "status-page",

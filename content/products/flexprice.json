@@ -18,7 +18,7 @@
   "facts": [
     { "text": "Metered features link events by name to aggregation functions including Count, Sum, Average, Count Unique, Latest and Max.", "sourceUrl": "https://docs.flexprice.io/docs/event-ingestion/creating-a-metered-feature.md", "checkedAt": "2026-11-04" },
     { "text": "The plans documentation lists a volume-based billing model where the price changes with the volume of usage. It does not use the word tiered, so multi-tier support should be confirmed with the vendor.", "sourceUrl": "https://docs.flexprice.io/docs/product-catalogue/plans/create.md", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists PDF invoices, invoices sent by email, invoice grace periods, credit notes and editable draft invoices. It does not state in so many words that invoices are built from metered usage.", "sourceUrl": "https://flexprice.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Its pricing page lists PDF invoices, invoices sent by email, invoice grace periods, credit notes and editable draft invoices. It does not state in so many words that invoices are built from metered usage.", "sourceUrl": "https://flexprice.io/pricing", "checkedAt": "2026-11-04" },
     { "text": "The open-source version can be deployed from GitHub and is described as suited to small projects.", "sourceUrl": "https://flexprice.io/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

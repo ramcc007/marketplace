@@ -19,7 +19,7 @@
     { "text": "Precoro says approved purchase requests convert into purchase orders with no data re-entry, and documents route to approvers by department, amount, project or other custom criteria.", "sourceUrl": "https://precoro.com/", "checkedAt": "2026-11-04" },
     { "text": "The supplier management page describes customizable vendor registration forms with approval workflows, and a supplier portal where vendors upload documents and update product catalogs.", "sourceUrl": "https://precoro.com/solutions/supplier-management", "checkedAt": "2026-11-04" },
     { "text": "Precoro says it is SOC 2 Type II, GDPR and CCPA compliant, and that SSO, IP whitelisting and US or EU servers are supported.", "sourceUrl": "https://precoro.com/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists PunchOut connectors for suppliers such as Amazon Business, Grainger and Home Depot.", "sourceUrl": "https://precoro.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "PunchOut connectors for suppliers such as Amazon Business, Grainger and Home Depot are listed on the pricing page.", "sourceUrl": "https://precoro.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "Signing up means accepting the terms rather than signing a formal contract, and cancellation takes 30 days' notice with access until the billing period ends.", "sourceUrl": "https://precoro.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

@@ -16,7 +16,7 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page lists code hosting, issue tracking, pull requests, project management, Gitea Actions and packages on the Open Source edition.", "sourceUrl": "https://about.gitea.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Gitea's pricing page lists code hosting, issue tracking, pull requests, project management, Gitea Actions and packages on the Open Source edition.", "sourceUrl": "https://about.gitea.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "Protected branches enforce push and merge policies on selected branches and can require a set number of approvals before a merge. Only repository owners and administrators can manage the rules.", "sourceUrl": "https://docs.gitea.com/usage/access-control/protected-branches", "checkedAt": "2026-11-05" },
     { "text": "Maintainers can comment on, request changes to and approve pull requests. A WIP: or [WIP] title prefix stops a pull request from being merged by accident, and the prefixes can be changed in app.ini.", "sourceUrl": "https://docs.gitea.com/usage/pull-request", "checkedAt": "2026-11-05" },
     { "text": "The Enterprise plan lists SAML SSO, audit logs, Kubernetes autoscaling runners and priority support with an SLA.", "sourceUrl": "https://about.gitea.com/pricing", "checkedAt": "2026-11-05" },

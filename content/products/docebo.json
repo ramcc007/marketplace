@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "The pricing page states that pricing is based on active learner usage, not simply the number of accounts, and offers monthly active user, yearly active user and registered active user models.", "sourceUrl": "https://www.docebo.com/pricing/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says commercial terms are tailored to each organization and documented in the agreement; no dollar prices or minimums are shown.", "sourceUrl": "https://www.docebo.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Docebo's pricing page says commercial terms are tailored to each organization and documented in the agreement; no dollar prices or minimums are shown.", "sourceUrl": "https://www.docebo.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Docebo says it maintains an ISO 27001, 27017, 27018 and 27701 certified information security management system and releases a SOC 2 Type II report each year.", "sourceUrl": "https://www.docebo.com/company/compliance-security/", "checkedAt": "2026-11-04" },
     { "text": "The compliance page says audit reports are available under NDA through the Docebo trust center.", "sourceUrl": "https://www.docebo.com/company/compliance-security/", "checkedAt": "2026-11-04" },
     { "text": "The home page names Microsoft Teams, Salesforce, Workday, ServiceNow, Zoom and Slack among its integrations.", "sourceUrl": "https://www.docebo.com/", "checkedAt": "2026-11-04" }

@@ -37,7 +37,7 @@
     { "text": "BILL says vendors can email invoices to a dedicated AP address, and that optical character recognition then reads and extracts the invoice data.", "sourceUrl": "https://www.bill.com/product/accounts-payable", "checkedAt": "2026-11-04" },
     { "text": "Payment methods named on the AP page are ACH, virtual card, international wire and paper check.", "sourceUrl": "https://www.bill.com/product/accounts-payable", "checkedAt": "2026-11-04" },
     { "text": "BILL says it undergoes an annual SOC 1 and SOC 2 Type II audit, and it uses a PCI certified partner for credit card payments.", "sourceUrl": "https://www.bill.com/security", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists custom approval policies from the Corporate plan, and ERP syncs, 2-way and 3-way matching, single sign-on and API access on Enterprise.", "sourceUrl": "https://www.bill.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Custom approval policies are listed from the Corporate plan, and ERP syncs, 2-way and 3-way matching, single sign-on and API access on Enterprise, per the pricing page.", "sourceUrl": "https://www.bill.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "A subscription renews automatically each billing cycle, and cancellation takes effect on the last day of the current cycle with no prorated refund.", "sourceUrl": "https://www.bill.com/legal/terms-of-service", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

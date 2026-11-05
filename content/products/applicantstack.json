@@ -18,7 +18,7 @@
   "facts": [
     { "text": "ApplicantStack says it uploads job posts and updates to Indeed, JobTarget and more.", "sourceUrl": "https://www.applicantstack.com/job-boards/", "checkedAt": "2026-11-04" },
     { "text": "Its candidate management page describes triggers for each stage of the hiring process, scheduling emails and interviews, and scorecards the hiring team uses to rate applicants.", "sourceUrl": "https://www.applicantstack.com/candidate-management/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing FAQ says there are no required setup costs and no contract or cancellation fee.", "sourceUrl": "https://www.applicantstack.com/pricing/", "checkedAt": "2026-11-04" }
+    { "text": "According to the pricing FAQ, there are no required setup costs and no contract or cancellation fee.", "sourceUrl": "https://www.applicantstack.com/pricing/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

@@ -17,8 +17,8 @@
   ],
   "facts": [
     { "text": "The HR HelpDesk page lists an employee self-service portal and 'Email > case creation' under case management.", "sourceUrl": "https://lbisoftware.com/hr-helpdesk/", "checkedAt": "2026-11-05" },
-    { "text": "The page lists a full knowledge base in FAQs and an embedded wiki knowledge base.", "sourceUrl": "https://lbisoftware.com/hr-helpdesk/", "checkedAt": "2026-11-05" },
-    { "text": "The page lists real-time case history and says the software tracks cases to closure. It does not say whether employees, as opposed to HR staff, can see the status of their own cases.", "sourceUrl": "https://lbisoftware.com/hr-helpdesk/", "checkedAt": "2026-11-05" },
+    { "text": "LBi HR HelpDesk's page lists a full knowledge base in FAQs and an embedded wiki knowledge base.", "sourceUrl": "https://lbisoftware.com/hr-helpdesk/", "checkedAt": "2026-11-05" },
+    { "text": "Real-time case history is listed on the page, which says the software tracks cases to closure. It does not say whether employees, as opposed to HR staff, can see the status of their own cases.", "sourceUrl": "https://lbisoftware.com/hr-helpdesk/", "checkedAt": "2026-11-05" },
     { "text": "The LBi news page lists a Free tier for up to 100 employees and two administrative users with no expiry, and Pro and ProPlus tiers with 30-day free trials.", "sourceUrl": "https://lbisoftware.com/news-events/saas-hr-case-management/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {

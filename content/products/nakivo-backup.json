@@ -20,7 +20,7 @@
     { "text": "Job schedules can be weekly, monthly, yearly or periodical, or run after another job, and recovery points can be made immutable for a set number of days.", "sourceUrl": "https://helpcenter.nakivo.com/User-Guide/Content/Backup/Creating-Backup-Copy-Jobs/Backup-Copy-Job-Wizard-Schedule.htm", "checkedAt": "2026-11-04" },
     { "text": "The VMware backup page lists AES-256 encryption at source, in transit and at rest.", "sourceUrl": "https://www.nakivo.com/vmware-backup/", "checkedAt": "2026-11-04" },
     { "text": "The VMware backup page lists NAS devices, deduplication appliances, Amazon S3, Wasabi, Azure Blob, Backblaze B2 and tape as storage targets.", "sourceUrl": "https://www.nakivo.com/vmware-backup/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page offers a 15-day trial with no credit card, and shows subscription and perpetual license types with minimums such as 5 workloads or 10 Microsoft 365 users.", "sourceUrl": "https://www.nakivo.com/pricing/", "checkedAt": "2026-11-04" }
+    { "text": "A 15-day trial with no credit card is offered on the pricing page, which shows subscription and perpetual license types with minimums such as 5 workloads or 10 Microsoft 365 users.", "sourceUrl": "https://www.nakivo.com/pricing/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

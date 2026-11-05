@@ -18,8 +18,8 @@
   "facts": [
     { "text": "Basic is free forever and includes automatic GPS mileage logging with no trip cap, according to the pricing page.", "sourceUrl": "https://www.triplog.net/pricing", "checkedAt": "2026-11-05" },
     { "text": "Premium adds unlimited reporting, automatic expense tracking and integrations.", "sourceUrl": "https://www.triplog.net/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists tax-compliant reports and custom business activities and mileage rates in its comparison, but it does not show which plan includes each one.", "sourceUrl": "https://www.triplog.net/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The page offers a 7-day Premium pass once per calendar year, starting January 1, and the pass includes an annual mileage report download.", "sourceUrl": "https://www.triplog.net/pricing", "checkedAt": "2026-11-05" },
+    { "text": "TripLog's pricing page lists tax-compliant reports and custom business activities and mileage rates in its comparison, but it does not show which plan includes each one.", "sourceUrl": "https://www.triplog.net/pricing", "checkedAt": "2026-11-05" },
+    { "text": "TripLog's page offers a 7-day Premium pass once per calendar year, starting January 1, and the pass includes an annual mileage report download.", "sourceUrl": "https://www.triplog.net/pricing", "checkedAt": "2026-11-05" },
     { "text": "The pricing page does not say whether manual trip entry is included.", "sourceUrl": "https://www.triplog.net/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {

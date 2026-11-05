@@ -16,9 +16,9 @@
     }
   ],
   "facts": [
-    { "text": "The page says Log360 parses over 750 source types, including Linux, network devices, databases, web servers and cloud platforms.", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html", "checkedAt": "2026-11-05" },
-    { "text": "The page lists 2,000 or more MITRE ATT&CK-mapped detection rules as ready on day one. It does not say whether customers can write their own correlation rules.", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html", "checkedAt": "2026-11-05" },
-    { "text": "The page says alerts can be handed off as tickets to ServiceDesk Plus, Jira or ServiceNow. It does not name email or SMS notification channels.", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html", "checkedAt": "2026-11-05" },
+    { "text": "Vendor page: Log360 parses over 750 source types, including Linux, network devices, databases, web servers and cloud platforms.", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html", "checkedAt": "2026-11-05" },
+    { "text": "2,000 or more MITRE ATT&CK-mapped detection rules are listed on the page as ready on day one. It does not say whether customers can write their own correlation rules.", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html", "checkedAt": "2026-11-05" },
+    { "text": "According to the vendor's page, alerts can be handed off as tickets to ServiceDesk Plus, Jira or ServiceNow. It does not name email or SMS notification channels.", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html", "checkedAt": "2026-11-05" },
     { "text": "The page offers a single-click correlated investigation from alerts, and a natural-language query over logs and alerts.", "sourceUrl": "https://www.manageengine.com/log-management/siem/security-information-event-management.html", "checkedAt": "2026-11-05" },
     { "text": "Annual license prices depend on the count of domain controllers, Windows file servers, log sources, cloud accounts and endpoints.", "sourceUrl": "https://www.manageengine.com/log-management/manageengine-log360-pricing.html", "checkedAt": "2026-11-05" }
   ],

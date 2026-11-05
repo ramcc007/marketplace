@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Datto (a Kaseya company)", "website": "https://www.datto.com" },
   "primaryCategory": "rmm",
-  "summary": "Datto RMM is built for managed service providers and is sold by quote only. Its product page offers a trial on request and links to a separate pricing request form. A lightweight agent on each managed device reports to the platform, with scripting, policies, webhooks, patch deployment and alerts that can respond automatically.",
+  "summary": "Datto RMM is built for managed service providers and is sold by quote only. Its product page lists a trial on request and links to a separate pricing request form. A lightweight agent on each managed device reports to the platform, with scripting, policies, webhooks, patch deployment and alerts that can respond automatically.",
   "qualifies": [
     {
       "category": "rmm",

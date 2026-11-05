@@ -19,7 +19,7 @@
     { "text": "Segments group entities by constraints, and rules tie those segments to flag variants.", "sourceUrl": "https://docs.flipt.io/v2/concepts", "checkedAt": "2026-11-04" },
     { "text": "Rollouts use distributions that split variants by percentage, and threshold rollouts that return true for a given percentage of entities.", "sourceUrl": "https://docs.flipt.io/v2/concepts", "checkedAt": "2026-11-04" },
     { "text": "Pro includes email support with a 24 hour response, and Open Source has community support only.", "sourceUrl": "https://www.flipt.io/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page offers a 20% saving on annual Pro billing but does not list the annual price.", "sourceUrl": "https://www.flipt.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Flipt's pricing page offers a 20% saving on annual Pro billing but does not list the annual price.", "sourceUrl": "https://www.flipt.io/pricing", "checkedAt": "2026-11-04" },
     { "text": "The client integration page lists JavaScript, React, Python, Go, Java, Ruby, Dart, C#, Swift and Android SDKs.", "sourceUrl": "https://docs.flipt.io/v2/integration/client", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

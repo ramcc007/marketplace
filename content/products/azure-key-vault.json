@@ -20,7 +20,7 @@
     { "text": "The overview says all key vaults are encrypted at rest using keys stored in hardware security modules.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/key-vault/general/overview", "checkedAt": "2026-11-05" },
     { "text": "The overview says authorization may be done through Azure role-based access control or a Key Vault access policy, and that authentication is done through Microsoft Entra ID.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/key-vault/general/overview", "checkedAt": "2026-11-05" },
     { "text": "The overview says the Standard tier uses software cryptographic modules validated to FIPS 140 Level 1, and the Premium tier protects keys in HSMs validated to FIPS 140-3 Level 3.", "sourceUrl": "https://learn.microsoft.com/en-us/azure/key-vault/general/overview", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says prices are calculated in US dollars, but no amount is filled in. It bills secrets and software-protected keys per 10,000 transactions and charges HSM-protected keys per key per month, in the Premium tier only.", "sourceUrl": "https://azure.microsoft.com/en-us/pricing/details/key-vault/", "checkedAt": "2026-11-05" }
+    { "text": "According to the vendor's pricing page, prices are calculated in US dollars, but no amount is filled in. Secrets and software-protected keys are billed per 10,000 transactions, and HSM-protected keys are charged per key per month, in the Premium tier only.", "sourceUrl": "https://azure.microsoft.com/en-us/pricing/details/key-vault/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "quote_only",

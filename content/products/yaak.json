@@ -19,7 +19,7 @@
     { "text": "Yaak describes itself as a local-first API client for HTTP, GraphQL, gRPC, WebSocket and Server-Sent Events (SSE).", "sourceUrl": "https://yaak.app/", "checkedAt": "2026-11-05" },
     { "text": "Yaak imports Postman collections and environments, Insomnia exports, Bruno collections, OpenAPI and Swagger specs, and curl commands.", "sourceUrl": "https://yaak.app/", "checkedAt": "2026-11-05" },
     { "text": "Yaak says it is free for personal use. Using it at work requires a commercial license after a 30-day trial.", "sourceUrl": "https://yaak.app/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page offers licenses billed yearly only. It says there is no monthly billing option.", "sourceUrl": "https://yaak.app/pricing", "checkedAt": "2026-11-05" }
+    { "text": "Yaak's pricing page offers licenses billed yearly only. It says there is no monthly billing option.", "sourceUrl": "https://yaak.app/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "freemium",

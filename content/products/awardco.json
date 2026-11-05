@@ -17,10 +17,10 @@
   ],
   "facts": [
     { "text": "Spot is one of the recognition types. Standard lets buyers choose any 2 recognition types, Advanced any 3, Premier any 4, and Enterprise has access to all of them. The page does not say which plans include Spot.", "sourceUrl": "https://www.awardco.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The page says the catalog builder, points management with expiration and advanced reporting are available in every plan, with one exception it does not name.", "sourceUrl": "https://www.awardco.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "According to the vendor's page, the catalog builder, points management with expiration and advanced reporting are available in every plan, with one exception it does not name.", "sourceUrl": "https://www.awardco.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "HRIS Sync is sold as a premium add-on. The page does not say whether any plan includes it.", "sourceUrl": "https://www.awardco.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "The visible plan cards and the page's structured data use different plan names. The per-year billing period and USD currency for the $3,000 starting price appear only in the structured data.", "sourceUrl": "https://www.awardco.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The page lists user authentication and SSO among the capabilities in every plan, with the same unnamed exception.", "sourceUrl": "https://www.awardco.com/pricing", "checkedAt": "2026-11-05" }
+    { "text": "Per the vendor's page, user authentication and SSO are listed among the capabilities in every plan, with the same unnamed exception.", "sourceUrl": "https://www.awardco.com/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

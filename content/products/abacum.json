@@ -16,10 +16,10 @@
     }
   ],
   "facts": [
-    { "text": "The page says open roles, personnel costs, budgets and approvals sit alongside the forecast, and that teams can reconcile planned roles against actual workforce data.", "sourceUrl": "https://www.abacum.ai/use-cases/headcount-planning", "checkedAt": "2026-11-04" },
-    { "text": "The page says changing hiring assumptions shows how the change affects the wider financial plan, and names NetSuite as a source of live data.", "sourceUrl": "https://www.abacum.ai/use-cases/headcount-planning", "checkedAt": "2026-11-04" },
+    { "text": "Abacum's page says open roles, personnel costs, budgets and approvals sit alongside the forecast, and that teams can reconcile planned roles against actual workforce data.", "sourceUrl": "https://www.abacum.ai/use-cases/headcount-planning", "checkedAt": "2026-11-04" },
+    { "text": "Per the vendor's page, changing hiring assumptions shows how the change affects the wider financial plan, and NetSuite is named as a source of live data.", "sourceUrl": "https://www.abacum.ai/use-cases/headcount-planning", "checkedAt": "2026-11-04" },
     { "text": "The homepage lists SOC 2 Type II certification.", "sourceUrl": "https://www.abacum.ai/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists no plans or prices, and its calls to action are Book a Demo and Explore the platform.", "sourceUrl": "https://www.abacum.ai/pricing", "checkedAt": "2026-11-04" }
+    { "text": "Abacum's pricing page lists no plans or prices, and its calls to action are Book a Demo and Explore the platform.", "sourceUrl": "https://www.abacum.ai/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

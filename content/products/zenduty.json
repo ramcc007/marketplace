@@ -16,8 +16,8 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page says every plan includes scheduling, escalation policies, postmortem templates, alert rules by priority, service or team, and single sign-on.", "sourceUrl": "https://zenduty.com/pricing/", "checkedAt": "2026-11-04" },
-    { "text": "The page offers a Bill Yearly toggle labeled Save 16%, and it does not state which price is shown when the toggle is off.", "sourceUrl": "https://zenduty.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Every plan includes scheduling, escalation policies, postmortem templates, alert rules by priority, service or team, and single sign-on, the pricing page says.", "sourceUrl": "https://zenduty.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "A Bill Yearly toggle labeled Save 16% appears on the vendor's page, which does not state which price is shown when the toggle is off.", "sourceUrl": "https://zenduty.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Starter allows up to 5 seats and Growth up to 50, and Enterprise is quoted on request.", "sourceUrl": "https://zenduty.com/pricing/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

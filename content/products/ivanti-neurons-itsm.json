@@ -38,7 +38,7 @@
     {"text":"The FAQ on the Ivanti CMDB page says contextual relationship data shows what will be affected before a change is approved.","sourceUrl":"https://www.ivanti.com/neurons/system-of-record/contextual-relationships","checkedAt":"2026-11-05"},
     { "text": "The FAQ says the product is certified by PinkVERIFY as supporting 14 core ITIL 4 processes.", "sourceUrl": "https://www.ivanti.com/products/ivanti-neurons-for-itsm", "checkedAt": "2026-11-04" },
     { "text": "Ivanti says it holds SOC 2 and ISO/IEC 27001 compliance, with no certificate dates or audit scope on the page.", "sourceUrl": "https://www.ivanti.com/products/ivanti-neurons-for-itsm", "checkedAt": "2026-11-04" },
-    { "text": "The product page shows no pricing, tiers or license costs.", "sourceUrl": "https://www.ivanti.com/products/ivanti-neurons-for-itsm", "checkedAt": "2026-11-04" }
+    { "text": "Product page: no pricing, tiers or license costs are shown.", "sourceUrl": "https://www.ivanti.com/products/ivanti-neurons-for-itsm", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

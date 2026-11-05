@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "Trace search covers any combination of tag values, errors and latencies, and the page states that 100% of traces are stored.", "sourceUrl": "https://www.splunk.com/en_us/products/apm-application-performance-monitoring.html", "checkedAt": "2026-11-04" },
-    { "text": "The page says users can receive alerts on slow response times or problematic queries for common databases.", "sourceUrl": "https://www.splunk.com/en_us/products/apm-application-performance-monitoring.html", "checkedAt": "2026-11-04" },
+    { "text": "Splunk Observability Cloud's page says users can receive alerts on slow response times or problematic queries for common databases.", "sourceUrl": "https://www.splunk.com/en_us/products/apm-application-performance-monitoring.html", "checkedAt": "2026-11-04" },
     { "text": "The APM product is described as OpenTelemetry-native.", "sourceUrl": "https://www.splunk.com/en_us/products/apm-application-performance-monitoring.html", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

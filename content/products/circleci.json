@@ -18,7 +18,7 @@
   "facts": [
     { "text": "Free and Performance each include 30,000 credits a month, which expire monthly and do not roll over.", "sourceUrl": "https://circleci.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Self-hosted runners are not charged per build minute. Network overage costs 420 credits per GB.", "sourceUrl": "https://circleci.com/pricing/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists extra Performance users at $15 a month in one place and 25,000 credits per month in the plan table, and does not reconcile the two.", "sourceUrl": "https://circleci.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "CircleCI's pricing page lists extra Performance users at $15 a month in one place and 25,000 credits per month in the plan table, and does not reconcile the two.", "sourceUrl": "https://circleci.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "On January 4, 2023 CircleCI disclosed that an attacker had taken customer environment variables, tokens and keys, and told customers to rotate every secret stored in it.", "sourceUrl": "https://circleci.com/blog/jan-4-2023-incident-report/", "checkedAt": "2026-11-04" },
     { "text": "The Rerun job with SSH option lets an engineer inspect log files, running processes and directories on a failed job.", "sourceUrl": "https://circleci.com/docs/guides/execute/ssh-access-jobs/", "checkedAt": "2026-11-04" }
   ],

@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "ConnectWise", "website": "https://www.connectwise.com" },
   "primaryCategory": "rmm",
-  "summary": "ConnectWise RMM publishes no prices and routes buyers to a pricing request or a sales call. The page offers a free trial. Agents installed on devices send health and performance data to a central dashboard, scripts run in PowerShell, bash and batch, and alerts are prioritized for a 24/7 monitoring view.",
+  "summary": "ConnectWise RMM publishes no prices and routes buyers to a pricing request or a sales call. The page lists a free trial. Agents installed on devices send health and performance data to a central dashboard, scripts run in PowerShell, bash and batch, and alerts are prioritized for a 24/7 monitoring view.",
   "qualifies": [
     {
       "category": "rmm",

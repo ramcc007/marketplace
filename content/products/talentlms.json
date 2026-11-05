@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "The Free plan has no time limit and covers up to 5 users and up to 10 courses.", "sourceUrl": "https://www.talentlms.com/prices", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says yearly billing saves 20% compared with monthly billing.", "sourceUrl": "https://www.talentlms.com/prices", "checkedAt": "2026-11-04" },
+    { "text": "Yearly billing saves 20% compared with monthly billing, according to the pricing page.", "sourceUrl": "https://www.talentlms.com/prices", "checkedAt": "2026-11-04" },
     { "text": "The features page describes scheduled reports that can be emailed weekly or monthly, and custom reports filtered by user activity, learning progress or certifications.", "sourceUrl": "https://www.talentlms.com/features", "checkedAt": "2026-11-04" },
     { "text": "The features page lists SCORM import, LTI 1.3, a REST API, Zapier and SSO among its integration options.", "sourceUrl": "https://www.talentlms.com/features", "checkedAt": "2026-11-04" },
     { "text": "The security page lists ISO/IEC 27001:2022 certification and GDPR compliance verified under the EU Cloud Code of Conduct.", "sourceUrl": "https://www.talentlms.com/security", "checkedAt": "2026-11-04" }

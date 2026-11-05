@@ -16,10 +16,10 @@
     }
   ],
   "facts": [
-    { "text": "The page says Falcon Next-Gen SIEM can analyze third-party security and IT data without other Falcon modules.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" },
-    { "text": "The page says federated search gives teams access to the right data when they need it, including S3 and Snowflake sources.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" },
-    { "text": "The page says data from licensed Falcon modules comes in without additional ingestion charges.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" },
-    { "text": "The page says the SIEM correlates agent behavior with identity and endpoint activity after it learns normal patterns.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" },
+    { "text": "Falcon Next-Gen SIEM can analyze third-party security and IT data without other Falcon modules, according to the vendor's page.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" },
+    { "text": "On the vendor's page, federated search gives teams access to the right data when they need it, including S3 and Snowflake sources.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" },
+    { "text": "Vendor page: data from licensed Falcon modules comes in without additional ingestion charges.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" },
+    { "text": "After it learns normal patterns, the SIEM correlates agent behavior with identity and endpoint activity, the page says.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" },
     { "text": "The page describes coordinated expert agents that investigate across every associated domain at once.", "sourceUrl": "https://www.crowdstrike.com/products/next-gen-siem/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {

@@ -16,11 +16,11 @@
     }
   ],
   "facts": [
-    { "text": "The home page says trainers can upload existing material, including SCORM packages, or build content from scratch.", "sourceUrl": "https://easy-lms.com/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists the feature Assign exams and courses based on group.", "sourceUrl": "https://www.easy-lms.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Per the home page, trainers can upload existing material, including SCORM packages, or build content from scratch.", "sourceUrl": "https://easy-lms.com/", "checkedAt": "2026-11-05" },
+    { "text": "Easy LMS lists the feature Assign exams and courses based on group on its pricing page.", "sourceUrl": "https://www.easy-lms.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "The reports page says a user can see immediately who has completed the course, their pass or fail rate, and certificate status.", "sourceUrl": "https://www.easy-lms.com/features/reports", "checkedAt": "2026-11-05" },
     { "text": "The reports page says the progress report per group shows which participants have not completed their course or exam yet, and that reminders can be sent to them.", "sourceUrl": "https://www.easy-lms.com/features/reports", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists the feature Export results to Excel. The reports page says detailed data can be exported to Excel, and does not mention CSV.", "sourceUrl": "https://www.easy-lms.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Its pricing page lists the feature Export results to Excel. The reports page says detailed data can be exported to Excel, and does not mention CSV.", "sourceUrl": "https://www.easy-lms.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "The pricing page does not show which plan includes each feature in its comparison table.", "sourceUrl": "https://www.easy-lms.com/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {

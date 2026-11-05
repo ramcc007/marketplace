@@ -18,7 +18,7 @@
   "facts": [
     { "text": "Basware says fiscal and commercial requirements are built into every invoice and updated as mandates evolve.", "sourceUrl": "https://www.basware.com/en-us/solutions/e-invoicing", "checkedAt": "2026-11-05" },
     { "text": "Basware describes the e-Invoicing Network as an official Peppol Access Point.", "sourceUrl": "https://www.basware.com/en/resources/peppol-connectivity-with-basware-e-invoicing-network", "checkedAt": "2026-11-05" },
-    { "text": "The page says Basware covers tax compliance regulations in over 50 countries.", "sourceUrl": "https://www.basware.com/en-us/solutions/e-invoicing", "checkedAt": "2026-11-05" },
+    { "text": "Per the vendor's page, Basware covers tax compliance regulations in over 50 countries.", "sourceUrl": "https://www.basware.com/en-us/solutions/e-invoicing", "checkedAt": "2026-11-05" },
     { "text": "The e-invoicing page lists an e-Invoicing Archive (Vault) without describing it.", "sourceUrl": "https://www.basware.com/en-us/solutions/e-invoicing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {

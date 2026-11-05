@@ -20,7 +20,7 @@
     { "text": "Ramp says it routes every bill to the right approver, and that an agent recommends approvals and flags items that need review.", "sourceUrl": "https://ramp.com/accounts-payable", "checkedAt": "2026-11-04" },
     { "text": "Ramp says vendors can be paid by card, ACH or wire, with same-day ACH, checks and wires in foreign currencies also supported.", "sourceUrl": "https://ramp.com/accounts-payable", "checkedAt": "2026-11-04" },
     { "text": "Ramp states annual SOC 2 Type II audits and adherence to PCI standards, and supports single sign-on through Okta, Google and Microsoft Azure.", "sourceUrl": "https://ramp.com/security", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says Ramp Bill payments are subject to their own terms and conditions, and lists 1099 filing at $0.65 per IRS filing with free state filing.", "sourceUrl": "https://ramp.com/pricing", "checkedAt": "2026-11-04" }
+    { "text": "Ramp Bill payments are subject to their own terms and conditions, the pricing page says, and 1099 filing is listed at $0.65 per IRS filing with free state filing.", "sourceUrl": "https://ramp.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "freemium",

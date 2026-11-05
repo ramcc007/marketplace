@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Kaseya", "website": "https://www.kaseya.com" },
   "primaryCategory": "rmm",
-  "summary": "Kaseya VSA is quote-only: its product page publishes no prices, mentions no free trial and offers a demo request. Agents run on Windows, macOS and Linux, and policies carry more than 500 prebuilt components for scripts and installs. Alert thresholds can trigger tickets, webhooks or automated responses.",
+  "summary": "Kaseya VSA is quote-only: its product page publishes no prices, mentions no free trial and lists a demo request. Agents run on Windows, macOS and Linux, and policies carry more than 500 prebuilt components for scripts and installs. Alert thresholds can trigger tickets, webhooks or automated responses.",
   "qualifies": [
     {
       "category": "rmm",

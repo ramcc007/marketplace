@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Ordway Labs, Inc.", "website": "https://ordwaylabs.com" },
   "primaryCategory": "dunning-management",
-  "summary": "Ordway publishes no prices for its billing software and offers a 30-minute demo instead. Its Recurring Payments product combines a card auto updater with automated payment retries and dunning workflows.",
+  "summary": "Ordway publishes no prices for its billing software and provides a 30-minute demo instead. Its Recurring Payments product combines a card auto updater with automated payment retries and dunning workflows.",
   "qualifies": [
     {
       "category": "dunning-management",

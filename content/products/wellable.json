@@ -18,9 +18,9 @@
   "facts": [
     { "text": "The challenges page says Wellable's Challenge Library offers over 40 turnkey challenges that employers can set up with help from a customer success manager.", "sourceUrl": "https://www.wellable.co/wellness-challenges/", "checkedAt": "2026-11-05" },
     { "text": "The page names challenges including Move More, Mental Health Matters, Nutrition Ambition, Step It Up, Wealth and Hydrate for Health.", "sourceUrl": "https://www.wellable.co/wellness-challenges/", "checkedAt": "2026-11-05" },
-    { "text": "The page says real-time insights give clear visibility into participation and results, and that progress can be tracked during a challenge.", "sourceUrl": "https://www.wellable.co/wellness-challenges/", "checkedAt": "2026-11-05" },
-    { "text": "The page says employees can track progress in a native mobile app and through integrations for wearables and fitness apps.", "sourceUrl": "https://www.wellable.co/wellness-challenges/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists Essentials and Pro at $625 a month each, with $1.25 per user shown beside each price. Enterprise has no listed price and requires a custom quote.", "sourceUrl": "https://www.wellable.co/pricing/", "checkedAt": "2026-11-05" }
+    { "text": "Wellable's page says real-time insights give clear visibility into participation and results, and that progress can be tracked during a challenge.", "sourceUrl": "https://www.wellable.co/wellness-challenges/", "checkedAt": "2026-11-05" },
+    { "text": "Employees can track progress in a native mobile app and through integrations for wearables and fitness apps, per the vendor's page.", "sourceUrl": "https://www.wellable.co/wellness-challenges/", "checkedAt": "2026-11-05" },
+    { "text": "Essentials and Pro are listed at $625 a month each on the pricing page, with $1.25 per user shown beside each price. Enterprise has no listed price and requires a custom quote.", "sourceUrl": "https://www.wellable.co/pricing/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

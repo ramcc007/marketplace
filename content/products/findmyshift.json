@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "Plans are priced per team: Free covers 5 team members and 1 manager, Starter 20 members, Business 100 and Enterprise 300.", "sourceUrl": "https://www.findmyshift.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says all features are free for the first 3 months, with no credit card required.", "sourceUrl": "https://www.findmyshift.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "On the pricing page, all features are free for the first 3 months, with no credit card required.", "sourceUrl": "https://www.findmyshift.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The scheduling tour says employees can request shifts, submit cancellations and swap shifts, but it does not say employees can set their own availability.", "sourceUrl": "https://www.findmyshift.com/tour/employee-scheduling", "checkedAt": "2026-11-04" },
     { "text": "The terms allow refunds only for future dates and only to the original payment card, and they do not address data export after termination.", "sourceUrl": "https://www.findmyshift.com/terms-and-conditions", "checkedAt": "2026-11-04" }
   ],

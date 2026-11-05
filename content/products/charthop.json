@@ -17,9 +17,9 @@
   ],
   "facts": [
     { "text": "The module page says managers can open a new job, update an existing job, or terminate and create a backfill through guided workflows.", "sourceUrl": "https://www.charthop.com/modules/headcount-planning", "checkedAt": "2026-11-04" },
-    { "text": "The page says scenarios can be built privately and then shared or combined with other leaders, with access controls on what each person sees.", "sourceUrl": "https://www.charthop.com/modules/headcount-planning", "checkedAt": "2026-11-04" },
+    { "text": "ChartHop's page says scenarios can be built privately and then shared or combined with other leaders, with access controls on what each person sees.", "sourceUrl": "https://www.charthop.com/modules/headcount-planning", "checkedAt": "2026-11-04" },
     { "text": "Approved requisitions can be pushed to Ashby, Greenhouse, Jobvite or Lever.", "sourceUrl": "https://www.charthop.com/modules/headcount-planning", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page shows no dollar amounts. It asks for the number of employees to size a plan and promises a proposal within one business day.", "sourceUrl": "https://www.charthop.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Pricing page: no dollar amounts are shown. It asks for the number of employees to size a plan and promises a proposal within one business day.", "sourceUrl": "https://www.charthop.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The site footer says ChartHop completed a SOC 2 Type 2 examination by Schellman & Company.", "sourceUrl": "https://www.charthop.com/modules/headcount-planning", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

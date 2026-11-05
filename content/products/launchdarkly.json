@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "The Developer plan lists unlimited seats and flags, 5 service connections and 1K client-side monthly active users, with 14 days of data retention for AgentControl.", "sourceUrl": "https://launchdarkly.com/pricing/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page shows Foundation client-side usage at $8.33 per 1K monthly active users in the plan card and $10 per 1K in the comparison table.", "sourceUrl": "https://launchdarkly.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Foundation client-side usage is shown at $8.33 per 1K monthly active users in the plan card and $10 per 1K in the comparison table, on the pricing page.", "sourceUrl": "https://launchdarkly.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Workflows, approvals, custom roles and SCIM provisioning are listed under Enterprise, not Foundation.", "sourceUrl": "https://launchdarkly.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Server-side SDKs include Go, Java, Python, Ruby, PHP and Rust, and client-side SDKs include JavaScript, React Native, Android, iOS and Flutter.", "sourceUrl": "https://launchdarkly.com/docs/sdk", "checkedAt": "2026-11-04" }
   ],

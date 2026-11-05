@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "The Business plan is priced at 100, 300 and 500 user tiers, with annual prices of $8,286, $16,050 and $23,790.", "sourceUrl": "https://www.ispring.com/ispring-learn/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page offers a 30-day trial with no credit card required.", "sourceUrl": "https://www.ispring.com/ispring-learn/pricing", "checkedAt": "2026-11-04" },
+    { "text": "A 30-day trial with no credit card required is offered on the pricing page.", "sourceUrl": "https://www.ispring.com/ispring-learn/pricing", "checkedAt": "2026-11-04" },
     { "text": "Learning tracks can enforce a strict completion order so learners advance only after finishing the current chapter.", "sourceUrl": "https://www.ispring.com/ispring-learn/features", "checkedAt": "2026-11-04" },
     { "text": "The mobile app lets learners study offline, and progress syncs when they reconnect.", "sourceUrl": "https://www.ispring.com/ispring-learn/features", "checkedAt": "2026-11-04" },
     { "text": "Native connectors named on the product page are Salesforce, Microsoft Azure, Microsoft Exchange and BambooHR, plus course libraries from Udemy, Go1 and LinkedIn Learning.", "sourceUrl": "https://www.ispring.com/ispring-learn", "checkedAt": "2026-11-04" }

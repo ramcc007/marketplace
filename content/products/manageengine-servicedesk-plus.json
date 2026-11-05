@@ -48,8 +48,8 @@
     {"text":"The CMDB enhancements page says the complete picture of the CIs involved in a change helps change advisory boards account for potential service impact.","sourceUrl":"https://www.manageengine.com/products/service-desk/itsm/cmdb-enhancements.html","checkedAt":"2026-11-05"},
     { "text": "The free Standard edition covers up to five technicians and only one service desk instance can use that allowance.", "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html", "checkedAt": "2026-11-04" },
     { "text": "End users are not charged, and each service desk instance is billed separately.", "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists the service catalog as a $1,195 a year add-on on Standard and Professional, and as included in Enterprise.", "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html", "checkedAt": "2026-11-04" },
-    { "text": "The page says prices are current as of September 2026 and subject to change.", "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html", "checkedAt": "2026-11-04" }
+    { "text": "The service catalog is listed on the pricing page as a $1,195 a year add-on on Standard and Professional, and as included in Enterprise.", "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html", "checkedAt": "2026-11-04" },
+    { "text": "Prices are current as of September 2026 and subject to change, the page says.", "sourceUrl": "https://www.manageengine.com/products/service-desk/pricing.html", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "freemium",

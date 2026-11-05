@@ -19,7 +19,7 @@
     { "text": "Routing an alert to a team or service triggers that team's configured escalation policy.", "sourceUrl": "https://docs.rootly.com/alerts/alert-routing", "checkedAt": "2026-11-04" },
     { "text": "On-call, with paging, rotations and shift swaps, is a separate product from Incident Response, which includes retrospectives and status pages.", "sourceUrl": "https://rootly.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "Startups under 25 employees can pay what they can, and companies under 100 employees can get up to 50% off.", "sourceUrl": "https://rootly.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The page shows SOC 2 Type 2, HIPAA, GDPR and CCPA badges and does not mention ISO 27001.", "sourceUrl": "https://rootly.com/security", "checkedAt": "2026-11-04" }
+    { "text": "Rootly's page shows SOC 2 Type 2, HIPAA, GDPR and CCPA badges and does not mention ISO 27001.", "sourceUrl": "https://rootly.com/security", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

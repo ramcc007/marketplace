@@ -18,7 +18,7 @@
   "facts": [
     { "text": "Mimecast lists 200+ modules on topics such as AI threats, phishing and malware, available in 27 languages.", "sourceUrl": "https://www.mimecast.com/products/awareness-training/", "checkedAt": "2026-11-04" },
     { "text": "Completion data appears in individualized employee scorecards that show risk levels and completed training. The page does not describe a separate admin report.", "sourceUrl": "https://www.mimecast.com/products/awareness-training/", "checkedAt": "2026-11-04" },
-    { "text": "The page says human risk data can be reached through a SIEM, SOAR or custom dashboards.", "sourceUrl": "https://www.mimecast.com/products/awareness-training/", "checkedAt": "2026-11-04" }
+    { "text": "Human risk data can be reached through a SIEM, SOAR or custom dashboards, the vendor's page says.", "sourceUrl": "https://www.mimecast.com/products/awareness-training/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

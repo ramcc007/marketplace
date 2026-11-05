@@ -17,10 +17,10 @@
   ],
   "facts": [
     { "text": "The service configuration page says the product captures the technical attributes and financial information of IT assets, and tracks their lifecycle from purchase to retirement.", "sourceUrl": "https://www.xurrent.com/features/service-configuration-and-it-asset-management", "checkedAt": "2026-11-05" },
-    { "text": "The page says teams can map the relationships between configuration items and services.", "sourceUrl": "https://www.xurrent.com/features/service-configuration-and-it-asset-management", "checkedAt": "2026-11-05" },
-    { "text": "The page says visual maps help support specialists and change managers determine the impact of potential failures or planned changes.", "sourceUrl": "https://www.xurrent.com/features/service-configuration-and-it-asset-management", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says Xurrent does not publish specific pricing for its license plans.", "sourceUrl": "https://www.xurrent.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists user counts for Starter, Corporate, Enterprise, MSP Corporate and MSP Enterprise, and does not say which of these plans include CMDB features.", "sourceUrl": "https://www.xurrent.com/pricing", "checkedAt": "2026-11-05" }
+    { "text": "Teams can map the relationships between configuration items and services, according to Xurrent's page.", "sourceUrl": "https://www.xurrent.com/features/service-configuration-and-it-asset-management", "checkedAt": "2026-11-05" },
+    { "text": "Visual maps help support specialists and change managers determine the impact of potential failures or planned changes, the page says.", "sourceUrl": "https://www.xurrent.com/features/service-configuration-and-it-asset-management", "checkedAt": "2026-11-05" },
+    { "text": "Xurrent does not publish specific pricing for its license plans, the pricing page says.", "sourceUrl": "https://www.xurrent.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Xurrent's pricing page lists user counts for Starter, Corporate, Enterprise, MSP Corporate and MSP Enterprise, and does not say which of these plans include CMDB features.", "sourceUrl": "https://www.xurrent.com/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "quote_only",

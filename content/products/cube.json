@@ -25,7 +25,7 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page says no prices are published and that pricing is configured with each customer around entities, sources and teams.", "sourceUrl": "https://www.cubesoftware.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "According to its pricing page, no prices are published and pricing is configured with each customer around entities, sources and teams.", "sourceUrl": "https://www.cubesoftware.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "Cube states that it is SOC 1 and SOC 2 Type II certified and HIPAA compliant, with reports available on request.", "sourceUrl": "https://www.cubesoftware.com/security", "checkedAt": "2026-11-04" },
     { "text": "Multicurrency consolidation is an add-on on Bronze and Silver and is included in Gold.", "sourceUrl": "https://www.cubesoftware.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "Companies with more than 50 entities or more than 1 TB of data are directed to a custom Strategic quote.", "sourceUrl": "https://www.cubesoftware.com/pricing", "checkedAt": "2026-11-04" }

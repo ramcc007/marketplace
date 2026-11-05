@@ -20,7 +20,7 @@
     { "text": "Medius says AI suggests coding and approvers and routes invoices dynamically.", "sourceUrl": "https://www.medius.com/solutions/medius-accounts-payable-automation/", "checkedAt": "2026-11-04" },
     { "text": "The payments page lists ACH, electronic print checks and virtual card in the US, and SEPA, BACS, CHAPS, BankGiro and wire in Europe.", "sourceUrl": "https://www.medius.com/solutions/medius-payments/", "checkedAt": "2026-11-04" },
     { "text": "Medius says it returns a monthly vested share of virtual card spend to the customer.", "sourceUrl": "https://www.medius.com/solutions/medius-payments/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page shows two packages, AP Essentials and AP 360, and sends buyers to sales for a quote.", "sourceUrl": "https://www.medius.com/pricing/", "checkedAt": "2026-11-04" }
+    { "text": "Medius's pricing page shows two packages, AP Essentials and AP 360, and sends buyers to sales for a quote.", "sourceUrl": "https://www.medius.com/pricing/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

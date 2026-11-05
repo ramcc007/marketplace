@@ -16,10 +16,10 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page lists one-way video interviews on Recruit Pro, Growth and Enterprise, and unlimited live and one-way video interviews on the Video Interviews plan.", "sourceUrl": "https://www.sparkhire.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists self-service interview scheduling on Recruit Pro, Growth and Enterprise. Automated panel scheduling is listed for Growth and Enterprise only.", "sourceUrl": "https://www.sparkhire.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists configurable interview scorecards for evaluation on the Video Interviews plan, and customizable scorecards on Growth and Enterprise.", "sourceUrl": "https://www.sparkhire.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says prices exclude applicable sales tax and vary by company size.", "sourceUrl": "https://www.sparkhire.com/pricing", "checkedAt": "2026-11-05" }
+    { "text": "One-way video interviews are listed on Recruit Pro, Growth and Enterprise, and unlimited live and one-way video interviews on the Video Interviews plan, per the pricing page.", "sourceUrl": "https://www.sparkhire.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Spark Hire's pricing page lists self-service interview scheduling on Recruit Pro, Growth and Enterprise. Automated panel scheduling is listed for Growth and Enterprise only.", "sourceUrl": "https://www.sparkhire.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "On the Video Interviews plan, the pricing page lists configurable interview scorecards for evaluation, and customizable scorecards on Growth and Enterprise.", "sourceUrl": "https://www.sparkhire.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Prices exclude applicable sales tax and vary by company size, the pricing page says.", "sourceUrl": "https://www.sparkhire.com/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

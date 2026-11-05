@@ -20,7 +20,7 @@
     { "text": "Uptime.com's status page reported an IPv6 connectivity problem across several probe locations from September 29, 2026 that may cause false down alerts, with IPv4 checks unaffected.", "sourceUrl": "https://status.uptime.com/", "checkedAt": "2026-11-03" },
     { "text": "In 2025 Uptime.com replaced its Starter, Essential and Premium tiers with the current tiered plan.", "sourceUrl": "https://support.uptime.com/hc/en-us/articles/20337242655772", "checkedAt": "2026-11-03" },
     { "text": "Uptime.com hosts its main application on AWS in the United States.", "sourceUrl": "https://trust.uptime.com/faq", "checkedAt": "2026-11-03" },
-    { "text": "The pricing FAQ offers a 30-day money-back guarantee to new users, while the terms say paid fees are non-refundable.", "sourceUrl": "https://uptime.com/pricing", "checkedAt": "2026-11-03" }
+    { "text": "Pricing FAQ: a 30-day money-back guarantee is offered to new users, while the terms say paid fees are non-refundable.", "sourceUrl": "https://uptime.com/pricing", "checkedAt": "2026-11-03" }
   ],
   "pricing": {
     "model": "paid",

@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Flexera", "website": "https://www.flexera.com" },
   "primaryCategory": "saas-management",
-  "summary": "Flexera One SaaS Management finds apps from financial data, API connectors, a browser extension, SSO and CASB connections and the Flexera agent. It reports usage for managed and unmanaged apps and shows upcoming renewal dates next to actual use. No price is published, and the page offers a demo.",
+  "summary": "Flexera One SaaS Management finds apps from financial data, API connectors, a browser extension, SSO and CASB connections and the Flexera agent. It reports usage for managed and unmanaged apps and shows upcoming renewal dates next to actual use. No price is published, and the page provides a demo.",
   "qualifies": [
     {
       "category": "saas-management",

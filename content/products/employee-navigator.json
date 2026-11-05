@@ -19,7 +19,7 @@
     { "text": "The vendor says employees can self-enroll and manage their own benefits online, and admins can monitor enrollment status and deadlines.", "sourceUrl": "https://www.employeenavigator.com/benefits-administration/", "checkedAt": "2026-11-04" },
     { "text": "The vendor says it connects directly to insurance carriers, payroll companies and TPAs, and names ADP, Paylocity and Paychex as payroll partners and UnitedHealthcare, Principal, MetLife and Guardian as carriers.", "sourceUrl": "https://www.employeenavigator.com/modern-integrations/", "checkedAt": "2026-11-04" },
     { "text": "Its ACA tool uses the look-back measurement method to track hours, lets admins set measurement, stability and administrative periods, and generates 1094-C and 1095-C forms for employees and the IRS.", "sourceUrl": "https://www.employeenavigator.com/aca-reporting/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists 834 EDI feeds as not included on Enhanced, $0.45 PEPM on Enhanced Plus and Elite (with a note that additional fees apply), and free on Platinum.", "sourceUrl": "https://www.employeenavigator.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Employee Navigator's pricing page lists 834 EDI feeds as not included on Enhanced, $0.45 PEPM on Enhanced Plus and Elite (with a note that additional fees apply), and free on Platinum.", "sourceUrl": "https://www.employeenavigator.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "The security page states annual audits against SOC 2 Type II, HITRUST and GDPR, but also lists SOC 2 as Type III in its certifications section, so ask for the current report.", "sourceUrl": "https://www.employeenavigator.com/security/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

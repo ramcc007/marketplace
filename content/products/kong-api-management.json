@@ -17,10 +17,10 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page lists API Management Plus from $25 a month, plus usage, billed monthly. It does not name the currency.", "sourceUrl": "https://konghq.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says Plus includes one million API requests a month, charges $20 per additional million, and keeps analytics data for 14 months.", "sourceUrl": "https://konghq.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists a developer portal on Plus, with a maximum of two portals, and no maximum on Enterprise.", "sourceUrl": "https://konghq.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists SSO, RBAC, SCIM and audit logging as Enterprise controls.", "sourceUrl": "https://konghq.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "API Management Plus is listed from $25 a month, plus usage, billed monthly, on the pricing page. It does not name the currency.", "sourceUrl": "https://konghq.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Per the pricing page, Plus includes one million API requests a month, charges $20 per additional million, and keeps analytics data for 14 months.", "sourceUrl": "https://konghq.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Pricing page: a developer portal is listed on Plus, with a maximum of two portals, and no maximum on Enterprise.", "sourceUrl": "https://konghq.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "SSO, RBAC, SCIM and audit logging are listed as Enterprise controls on the pricing page.", "sourceUrl": "https://konghq.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "The rate limiting plugin documentation says it limits how many HTTP requests can be made in a set period, from seconds to years, and that it runs on Kong Gateway.", "sourceUrl": "https://developer.konghq.com/plugins/rate-limiting/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {

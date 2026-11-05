@@ -25,7 +25,7 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page lists the service catalog, ITIL processes, a CMDB and project management under Enterprise only.", "sourceUrl": "https://www.alloysoftware.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "Under Enterprise only, the pricing page lists the service catalog, ITIL processes, a CMDB and project management.", "sourceUrl": "https://www.alloysoftware.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "The page states that cloud hosting is subject to additional fees not included in the base price, and training costs extra.", "sourceUrl": "https://www.alloysoftware.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Alloy says its SOC 2 Type II audit finished in early November 2025, after a Type I report in April 2025.", "sourceUrl": "https://www.alloysoftware.com/blog/alloy-software-completes-soc-2-type-2/", "checkedAt": "2026-11-04" },
     { "text": "The software can run on premises or in the cloud.", "sourceUrl": "https://www.alloysoftware.com/pricing/", "checkedAt": "2026-11-04" }

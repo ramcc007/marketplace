@@ -18,10 +18,10 @@
   ],
   "facts": [
     { "text": "The product page describes a DataPower Nano Gateway as a zero-trust API gateway that runs close to business applications, and says traffic is secured through the built-in DataPower Gateway.", "sourceUrl": "https://www.ibm.com/products/api-connect", "checkedAt": "2026-11-05" },
-    { "text": "The product page says the platform enforces authentication and authorization for APIs from design time through runtime.", "sourceUrl": "https://www.ibm.com/products/api-connect", "checkedAt": "2026-11-05" },
-    { "text": "The product page says APIs can be shared and promoted through customizable self-service developer portals, and that usage is tracked with built-in analytics across environments.", "sourceUrl": "https://www.ibm.com/products/api-connect", "checkedAt": "2026-11-05" },
+    { "text": "Product page: the platform enforces authentication and authorization for APIs from design time through runtime.", "sourceUrl": "https://www.ibm.com/products/api-connect", "checkedAt": "2026-11-05" },
+    { "text": "On the product page, APIs can be shared and promoted through customizable self-service developer portals, and usage is tracked with built-in analytics across environments.", "sourceUrl": "https://www.ibm.com/products/api-connect", "checkedAt": "2026-11-05" },
     { "text": "The IBM documentation says the Rate Limit policy applies rate, burst or count limits at any point in an API assembly flow.", "sourceUrl": "https://www.ibm.com/docs/en/api-connect/saas?topic=policies-rate-limit", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists Pay-as-you-Go, Standard Tier, Premium Tier, Reserved Instance and Software options, with no prices or currency shown.", "sourceUrl": "https://www.ibm.com/products/api-connect/pricing", "checkedAt": "2026-11-05" }
+    { "text": "Pay-as-you-Go, Standard Tier, Premium Tier, Reserved Instance and Software options are listed on the pricing page, with no prices or currency shown.", "sourceUrl": "https://www.ibm.com/products/api-connect/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

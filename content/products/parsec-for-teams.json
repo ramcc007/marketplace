@@ -17,10 +17,10 @@
   ],
   "facts": [
     { "text": "The Parsec for Teams page says the product connects keyboard, mouse and gamepad input to a remote computer, and that team members can access shared workstations on demand.", "sourceUrl": "https://parsec.app/teams", "checkedAt": "2026-11-05" },
-    { "text": "The page says connections are encrypted and peer-to-peer, and that work does not pass through a server.", "sourceUrl": "https://parsec.app/teams", "checkedAt": "2026-11-05" },
+    { "text": "Parsec's page says connections are encrypted and peer-to-peer, and that work does not pass through a server.", "sourceUrl": "https://parsec.app/teams", "checkedAt": "2026-11-05" },
     { "text": "The Teams plan lists an admin panel, centralized billing, team managed groups and computers, single sign-on, and audit logs for the last 7 days.", "sourceUrl": "https://parsec.app/teams", "checkedAt": "2026-11-05" },
     { "text": "The Enterprise plan adds the Teams API, a high performance relay server, role-based access, full audit logs through the Teams API and SCIM provisioning.", "sourceUrl": "https://parsec.app/teams", "checkedAt": "2026-11-05" },
-    { "text": "The page says the Personal Use and Individuals plans are licensed for personal, non-commercial use only. Commercial use needs a Teams or Enterprise plan.", "sourceUrl": "https://parsec.app/teams", "checkedAt": "2026-11-05" },
+    { "text": "The Personal Use and Individuals plans are licensed for personal, non-commercial use only, the page says. Commercial use needs a Teams or Enterprise plan.", "sourceUrl": "https://parsec.app/teams", "checkedAt": "2026-11-05" },
     { "text": "Guest access for external users is listed on the Teams plan at $25 per invitation.", "sourceUrl": "https://parsec.app/teams", "checkedAt": "2026-11-05" }
   ],
   "pricing": {

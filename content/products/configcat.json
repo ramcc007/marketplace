@@ -18,7 +18,7 @@
   "facts": [
     { "text": "Targeting rules per flag are capped at 4 on Forever Free, 8 on Pro and unlimited on Smart and above.", "sourceUrl": "https://configcat.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Audit log retention is 7 days on Forever Free, 35 days on Pro and Smart, and 2 years on Enterprise and Dedicated.", "sourceUrl": "https://configcat.com/pricing/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page offers a saving of up to 10% on annual billing but does not list annual prices.", "sourceUrl": "https://configcat.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "A saving of up to 10% on annual billing is offered on the pricing page, but annual prices are not listed.", "sourceUrl": "https://configcat.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "SDKs cover .NET, Android, C++, Dart, Elixir, Go, Java, JavaScript, Kotlin Multiplatform, PHP, Python, Ruby, Rust, Swift, Unity and Unreal Engine.", "sourceUrl": "https://configcat.com/docs/sdk-reference/overview/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

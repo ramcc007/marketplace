@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "HireVue", "website": "https://www.hirevue.com" },
   "primaryCategory": "video-interviewing",
-  "summary": "HireVue sells video interviewing with on-demand and live interviews, automated scheduling and shared scorecards for reviewers. Its pricing page names no plans or prices and offers a demo request instead.",
+  "summary": "HireVue sells video interviewing with on-demand and live interviews, automated scheduling and shared scorecards for reviewers. Its pricing page names no plans or prices and has a demo request instead.",
   "qualifies": [
     {
       "category": "video-interviewing",
@@ -16,9 +16,9 @@
     }
   ],
   "facts": [
-    { "text": "The product page says candidates can respond on their own time, and that live interviews happen in real time with the interviewer and candidate on the call together.", "sourceUrl": "https://www.hirevue.com/products/video-interviewing", "checkedAt": "2026-11-05" },
-    { "text": "The product page says the platform includes automated scheduling.", "sourceUrl": "https://www.hirevue.com/products/video-interviewing", "checkedAt": "2026-11-05" },
-    { "text": "The product page says HireVue provides standard rating scales and shared scorecards, and that reviewers can watch, rate and share recordings.", "sourceUrl": "https://www.hirevue.com/products/video-interviewing", "checkedAt": "2026-11-05" }
+    { "text": "HireVue's product page says candidates can respond on their own time, and that live interviews happen in real time with the interviewer and candidate on the call together.", "sourceUrl": "https://www.hirevue.com/products/video-interviewing", "checkedAt": "2026-11-05" },
+    { "text": "Product page: the platform includes automated scheduling.", "sourceUrl": "https://www.hirevue.com/products/video-interviewing", "checkedAt": "2026-11-05" },
+    { "text": "HireVue's product page says it provides standard rating scales and shared scorecards, and that reviewers can watch, rate and share recordings.", "sourceUrl": "https://www.hirevue.com/products/video-interviewing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "quote_only",

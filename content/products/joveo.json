@@ -17,9 +17,9 @@
   ],
   "facts": [
     { "text": "The job distribution page says jobs are posted across hundreds of duration and slot-based job boards.", "sourceUrl": "https://www.joveo.com/job-distribution/", "checkedAt": "2026-11-05" },
-    { "text": "The page says teams can centralize and manage sources, inventory, permissions and media spends across distributed recruiting teams.", "sourceUrl": "https://www.joveo.com/job-distribution/", "checkedAt": "2026-11-05" },
-    { "text": "The page says recruiters can track media buying campaigns from source click through to application and hire.", "sourceUrl": "https://www.joveo.com/job-distribution/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says the more media a buyer purchases through its platform, the less it pays per transaction. It shows no dollar amounts.", "sourceUrl": "https://www.joveo.com/pricing/", "checkedAt": "2026-11-05" }
+    { "text": "Per the vendor's page, teams can centralize and manage sources, inventory, permissions and media spends across distributed recruiting teams.", "sourceUrl": "https://www.joveo.com/job-distribution/", "checkedAt": "2026-11-05" },
+    { "text": "Recruiters can track media buying campaigns from source click through to application and hire, the page says.", "sourceUrl": "https://www.joveo.com/job-distribution/", "checkedAt": "2026-11-05" },
+    { "text": "Joveo's pricing page says the more media a buyer purchases through its platform, the less it pays per transaction. It shows no dollar amounts.", "sourceUrl": "https://www.joveo.com/pricing/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "quote_only",

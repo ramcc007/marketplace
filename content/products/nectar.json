@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "Nectar Recognize lists peer-to-peer and manager recognition, points-based rewards with flexible budgets, and a global reward catalog of gift cards, Amazon, swag and custom rewards.", "sourceUrl": "https://www.nectarhr.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page shows no dollar figure for any plan. The Get pricing button links to the demo page at /get-a-demo, not to a price list.", "sourceUrl": "https://www.nectarhr.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "No dollar figure for any plan appears on the pricing page. The Get pricing button links to the demo page at /get-a-demo, not to a price list.", "sourceUrl": "https://www.nectarhr.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "Nectar One combines Recognize, Engage and Comms. Nectar Perform is marked as coming soon.", "sourceUrl": "https://www.nectarhr.com/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {

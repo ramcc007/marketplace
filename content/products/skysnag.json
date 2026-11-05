@@ -16,8 +16,8 @@
     }
   ],
   "facts": [
-    { "text": "The home page says the platform sends instant alerts for spoofing attempts, shadow IT senders and authentication failures, and that BrandGuard sends real-time alerts on suspicious domain registrations.", "sourceUrl": "https://www.skysnag.com/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists SPF record hosting, DKIM record management and an SPF optimization engine. These are feature names only, with no descriptions.", "sourceUrl": "https://www.skysnag.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Its home page says the platform sends instant alerts for spoofing attempts, shadow IT senders and authentication failures, and that BrandGuard sends real-time alerts on suspicious domain registrations.", "sourceUrl": "https://www.skysnag.com/", "checkedAt": "2026-11-05" },
+    { "text": "SPF record hosting, DKIM record management and an SPF optimization engine are listed on the pricing page. These are feature names only, with no descriptions.", "sourceUrl": "https://www.skysnag.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "Comply processes reports every 24 hours with 12 months of data. Protect processes them in real time with 5 years of data.", "sourceUrl": "https://www.skysnag.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "Non-profits may get up to 50% off Protect plans, and startups under 2 years old with under $5,000,000 in funding may get 20% off.", "sourceUrl": "https://www.skysnag.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "The trial is free for 14 days and does not require a credit card.", "sourceUrl": "https://www.skysnag.com/pricing", "checkedAt": "2026-11-05" }

@@ -19,7 +19,7 @@
     { "text": "The product pages list aptitude tests and psychometric tests, including a General Aptitude Test and a Cognitive Abilities Assessment.", "sourceUrl": "https://mettl.com/", "checkedAt": "2026-11-05" },
     { "text": "The product pages describe AI and human-based proctoring, secure browser controls and an AI-powered secured exam browser.", "sourceUrl": "https://mettl.com/", "checkedAt": "2026-11-05" },
     { "text": "A case study on the page says all tabs apart from the exam tab were disabled to minimize cheating.", "sourceUrl": "https://mettl.com/", "checkedAt": "2026-11-05" },
-    { "text": "The page says coding tests offer auto-graded evaluations. A case study describes a credibility index report for each candidate.", "sourceUrl": "https://mettl.com/", "checkedAt": "2026-11-05" }
+    { "text": "Coding tests offer auto-graded evaluations, the page says. A case study describes a credibility index report for each candidate.", "sourceUrl": "https://mettl.com/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "quote_only",

@@ -16,10 +16,10 @@
     }
   ],
   "facts": [
-    { "text": "The home page says Payment Recovery gets customers paid with smart retries, dunning campaigns and in-app card updates.", "sourceUrl": "https://churnkey.co/", "checkedAt": "2026-11-05" },
-    { "text": "The home page says Payment Recovery can recover failed payments without customer intervention, and that it reaches customers by SMS, email or in the app when hard declines happen.", "sourceUrl": "https://churnkey.co/", "checkedAt": "2026-11-05" },
+    { "text": "Churnkey's home page says Payment Recovery gets customers paid with smart retries, dunning campaigns and in-app card updates.", "sourceUrl": "https://churnkey.co/", "checkedAt": "2026-11-05" },
+    { "text": "Its home page says Payment Recovery can recover failed payments without customer intervention, and that it reaches customers by SMS, email or in the app when hard declines happen.", "sourceUrl": "https://churnkey.co/", "checkedAt": "2026-11-05" },
     { "text": "The pricing page's plan table lists Payment Recovery, unlimited dunning campaigns and self-improving retry logic. Core and Intelligence add A/B testing of Payment Recovery.", "sourceUrl": "https://churnkey.co/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says Intelligence is tailored by Churnkey's Retention Specialists, and Enterprise is a custom quote.", "sourceUrl": "https://churnkey.co/pricing", "checkedAt": "2026-11-05" }
+    { "text": "Its pricing page says Intelligence is tailored by Churnkey's Retention Specialists, and Enterprise is a custom quote.", "sourceUrl": "https://churnkey.co/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

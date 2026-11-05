@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "The product page describes Core HCM as a foundation for HR data, and says absence needs for a global workforce are managed in Workforce Management.", "sourceUrl": "http://www.workday.com/en-us/products/human-capital-management.html", "checkedAt": "2026-11-04" },
-    { "text": "The page shows Contact Sales and Request a Demo buttons and no dollar figures.", "sourceUrl": "http://www.workday.com/en-us/products/human-capital-management.html", "checkedAt": "2026-11-04" }
+    { "text": "Contact Sales and Request a Demo buttons appear on the vendor's page, with no dollar figures.", "sourceUrl": "http://www.workday.com/en-us/products/human-capital-management.html", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

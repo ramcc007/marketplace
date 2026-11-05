@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "Betterworks calls its review cycles Conversations, included from the Performance plan upward.", "sourceUrl": "https://www.betterworks.com/pricing/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing FAQ says final cost varies with active user count, package, complexity and deployment requirements.", "sourceUrl": "https://www.betterworks.com/pricing/", "checkedAt": "2026-11-04" }
+    { "text": "Per the pricing FAQ, final cost varies with active user count, package, complexity and deployment requirements.", "sourceUrl": "https://www.betterworks.com/pricing/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

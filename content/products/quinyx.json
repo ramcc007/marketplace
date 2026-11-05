@@ -16,7 +16,7 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page shows no dollar amounts and asks buyers to describe what they need so Quinyx can contact them.", "sourceUrl": "https://www.quinyx.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "No dollar amounts appear on the pricing page, which asks buyers to describe what they need so Quinyx can contact them.", "sourceUrl": "https://www.quinyx.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The privacy page says Quinyx complies with GDPR and names Sweden's IMY as its lead supervisory authority, but it does not state where data is hosted.", "sourceUrl": "https://www.quinyx.com/privacy", "checkedAt": "2026-11-04" },
     { "text": "The Employee Hub page describes a mobile-first app for teams, but it does not describe shift swapping or availability, which appear on the scheduling page.", "sourceUrl": "https://www.quinyx.com/workforce-management/employee-hub", "checkedAt": "2026-11-04" }
   ],

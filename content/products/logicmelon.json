@@ -17,9 +17,9 @@
   ],
   "facts": [
     { "text": "The multi-posting page says a job ad can be written once and distributed to a choice of hundreds of free and paid job boards.", "sourceUrl": "https://logicmelon.com/multi-posting/", "checkedAt": "2026-11-05" },
-    { "text": "The page says a team can handle multiple hiring locations, centralise spend, and assign access and credits to team members.", "sourceUrl": "https://logicmelon.com/multi-posting/", "checkedAt": "2026-11-05" },
-    { "text": "The page says the product offers source tracking, so a team can see where its applications come from.", "sourceUrl": "https://logicmelon.com/multi-posting/", "checkedAt": "2026-11-05" },
-    { "text": "The page shows no price. Its only call to action is a request-a-demo link.", "sourceUrl": "https://logicmelon.com/multi-posting/", "checkedAt": "2026-11-05" }
+    { "text": "On Logicmelon's page, a team can handle multiple hiring locations, centralise spend, and assign access and credits to team members.", "sourceUrl": "https://logicmelon.com/multi-posting/", "checkedAt": "2026-11-05" },
+    { "text": "Per the page, the product offers source tracking, so a team can see where its applications come from.", "sourceUrl": "https://logicmelon.com/multi-posting/", "checkedAt": "2026-11-05" },
+    { "text": "No price appears on the page. Its only call to action is a request-a-demo link.", "sourceUrl": "https://logicmelon.com/multi-posting/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "quote_only",

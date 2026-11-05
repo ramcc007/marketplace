@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Order.co", "website": "https://www.order.co" },
   "primaryCategory": "procurement",
-  "summary": "Order.co is a purchasing platform that puts orders from many vendors into one cart and converts requisitions into purchase orders. It publishes no prices and offers a demo instead of a trial. Its trust center lists SOC 2 and ISO 27001, and sign-in works with Okta or Ping Identity.",
+  "summary": "Order.co is a purchasing platform that puts orders from many vendors into one cart and converts requisitions into purchase orders. It publishes no prices and gives a demo instead of a trial. Its trust center lists SOC 2 and ISO 27001, and sign-in works with Okta or Ping Identity.",
   "qualifies": [
     {
       "category": "procurement",

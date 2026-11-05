@@ -18,8 +18,8 @@
   "facts": [
     { "text": "The position management page defines the practice as tracking and controlling every job in a company, whether approved, open or filled.", "sourceUrl": "https://www.headcount365.com/position-management", "checkedAt": "2026-11-04" },
     { "text": "The page says hiring teams can scenario plan and request changes without changing position data.", "sourceUrl": "https://www.headcount365.com/position-management", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists scenario plans, budget tools and position management under Core, and the Lite column of its comparison table leaves out scenario plans. Its FAQ says scenario planning is on all paid plans, so confirm with the vendor.", "sourceUrl": "https://www.headcount365.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says SAML 2.0 single sign-on is listed for Enterprise, while its FAQ calls SAML a paid add-on outside Enterprise.", "sourceUrl": "https://www.headcount365.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Its pricing page lists scenario plans, budget tools and position management under Core, and the Lite column of its comparison table leaves out scenario plans. Its FAQ says scenario planning is on all paid plans, so confirm with the vendor.", "sourceUrl": "https://www.headcount365.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Its pricing page lists SAML 2.0 single sign-on for Enterprise, while its FAQ calls SAML a paid add-on outside Enterprise.", "sourceUrl": "https://www.headcount365.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The homepage states that headcount365 is GDPR and SOC 2 Type 2 compliant.", "sourceUrl": "https://www.headcount365.com", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

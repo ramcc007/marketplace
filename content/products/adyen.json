@@ -16,7 +16,7 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page lists Visa, Mastercard, American Express, Apple Pay, Google Pay, Cash App Pay, ACH Direct Debit, Klarna, Affirm and other methods, each with its own fee.", "sourceUrl": "https://www.adyen.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Its pricing page lists Visa, Mastercard, American Express, Apple Pay, Google Pay, Cash App Pay, ACH Direct Debit, Klarna, Affirm and other methods, each with its own fee.", "sourceUrl": "https://www.adyen.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "Adyen's risk engine screens every payment and decides to block, allow or review it, and it is enabled by default.", "sourceUrl": "https://docs.adyen.com/risk-management/", "checkedAt": "2026-11-04" },
     { "text": "After a payable batch closes, a payout can take one to two business days to be initiated, and the bank may need up to three more business days to post the funds.", "sourceUrl": "https://docs.adyen.com/account/getting-paid/", "checkedAt": "2026-11-04" },
     { "text": "Payouts equal sales minus transaction costs, refunds, chargebacks and other adjustments.", "sourceUrl": "https://docs.adyen.com/account/getting-paid/", "checkedAt": "2026-11-04" },

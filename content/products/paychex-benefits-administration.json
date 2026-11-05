@@ -17,9 +17,9 @@
   ],
   "facts": [
     { "text": "Paychex says admins can stay on top of eligibility tracking, enrollment forms and benefit changes, and that employees can compare plans and enroll without a broker or HR.", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration", "checkedAt": "2026-11-04" },
-    { "text": "The page says the software connects with hundreds of national and regional carriers and integrates with Paychex Flex payroll.", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration", "checkedAt": "2026-11-04" },
-    { "text": "The page says Paychex Insurance Agency can help find a benefits provider and offer the benefits administration platform at no additional cost.", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration", "checkedAt": "2026-11-04" },
-    { "text": "The page lists built-in ACA and HIPAA compliance support but names no security certifications.", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration", "checkedAt": "2026-11-04" }
+    { "text": "Per the vendor's page, the software connects with hundreds of national and regional carriers and integrates with Paychex Flex payroll.", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration", "checkedAt": "2026-11-04" },
+    { "text": "According to the vendor's page, Paychex Insurance Agency can help find a benefits provider and offer the benefits administration platform at no additional cost.", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration", "checkedAt": "2026-11-04" },
+    { "text": "Paychex's page lists built-in ACA and HIPAA compliance support but names no security certifications.", "sourceUrl": "https://www.paychex.com/employee-benefits/benefits-administration", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

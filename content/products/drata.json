@@ -20,7 +20,7 @@
     { "text": "Advanced and Enterprise tiers include any available framework, and additional frameworks, user access reviews and custom frameworks are sold as add-ons on some plans.", "sourceUrl": "https://drata.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "Automated evidence collection is listed as included in all three compliance tiers.", "sourceUrl": "https://drata.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "Drata describes its Audit Hub as the place to centralize communication with your auditor and store documentation, and lists it in all three compliance tiers.", "sourceUrl": "https://drata.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page shows no dollar amounts and no free trial. The only free item is the first 25 approved domains for the Trust Center.", "sourceUrl": "https://drata.com/pricing", "checkedAt": "2026-11-04" }
+    { "text": "On the pricing page, no dollar amounts and no free trial are shown. The only free item is the first 25 approved domains for the Trust Center.", "sourceUrl": "https://drata.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

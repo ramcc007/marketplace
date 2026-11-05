@@ -16,7 +16,7 @@
     }
   ],
   "facts": [
-    { "text": "The pricing FAQ says licensing is per user for the bundle selected, and that prices depend on modules, staff count and implementation needs.", "sourceUrl": "https://workforce.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Per the pricing FAQ, licensing is per user for the bundle selected, and prices depend on modules, staff count and implementation needs.", "sourceUrl": "https://workforce.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The scheduling page says shifts can be scheduled to employee availability and lists Availability and Unavailability as a feature, without saying how employees submit it.", "sourceUrl": "https://workforce.com/software/scheduling-software", "checkedAt": "2026-11-04" },
     { "text": "Staff can find their own replacements through shift swapping and shift bidding, according to the scheduling page.", "sourceUrl": "https://workforce.com/software/scheduling-software", "checkedAt": "2026-11-04" }
   ],

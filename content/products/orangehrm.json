@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "OrangeHRM", "website": "https://www.orangehrm.com" },
   "primaryCategory": "leave-management",
-  "summary": "OrangeHRM offers a free open-source Starter edition with a leave management module, and sells an Advanced edition per employee per month on a quote. Its pricing page lists request and approval, a PTO calendar and automated PTO accrual for Advanced, with a 30-day trial. No price is published.",
+  "summary": "OrangeHRM has a free open-source Starter edition with a leave management module, and sells an Advanced edition per employee per month on a quote. Its pricing page lists request and approval, a PTO calendar and automated PTO accrual for Advanced, with a 30-day trial. No price is published.",
   "qualifies": [
     {
       "category": "leave-management",

@@ -17,10 +17,10 @@
   ],
   "facts": [
     { "text": "The product page describes calendar-based on-call schedules with round-robin rotations, and multi-tier escalation policies with automatic failover.", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software", "checkedAt": "2026-11-05" },
-    { "text": "The product page says each service generates a unique webhook integration URL for receiving alerts, and that live call routing pages high-severity incidents by phone.", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software", "checkedAt": "2026-11-05" },
-    { "text": "The product page says the platform auto-captures the full incident timeline, covering alerts, acknowledgments, status changes and actions, and compiles it into a blameless postmortem template that teams can edit.", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software", "checkedAt": "2026-11-05" },
+    { "text": "On the product page, each service generates a unique webhook integration URL for receiving alerts, and live call routing pages high-severity incidents by phone.", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software", "checkedAt": "2026-11-05" },
+    { "text": "Its product page says the platform auto-captures the full incident timeline, covering alerts, acknowledgments, status changes and actions, and compiles it into a blameless postmortem template that teams can edit.", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software", "checkedAt": "2026-11-05" },
     { "text": "The product page names the product as SolarWinds Incident Response (previously Squadcast).", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists Pro with postmortems with templates and schedules and escalations, and Premium with advanced escalations and exportable, editable incident timelines.", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software/pricing", "checkedAt": "2026-11-05" }
+    { "text": "Pro is listed on the pricing page with postmortems with templates and schedules and escalations, and Premium with advanced escalations and exportable, editable incident timelines.", "sourceUrl": "https://www.solarwinds.com/it-incident-response-software/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

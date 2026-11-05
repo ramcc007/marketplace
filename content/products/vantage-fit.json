@@ -19,8 +19,8 @@
     { "text": "The homepage says Vantage Fit runs step, multi-activity, mindfulness and custom challenges for teams, regions or the whole organization.", "sourceUrl": "https://www.vantagefit.io/", "checkedAt": "2026-11-05" },
     { "text": "The homepage lists a baseline health screening with aggregate insights, guided mindfulness and structured plans with the content behind them.", "sourceUrl": "https://www.vantagefit.io/", "checkedAt": "2026-11-05" },
     { "text": "The homepage says participation, challenge and activity analytics are available for a board to read.", "sourceUrl": "https://www.vantagefit.io/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page shows Single Challenge Basic at 1,600 USD and Pro at 2,000 USD, each for 200 employees and one 4-week challenge.", "sourceUrl": "https://www.vantagefit.io/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page shows Unlimited Challenges Basic at 3,200 USD and Pro at 4,000 USD a year, each for 200 employees. It says unlimited challenges cost the same as two Single Challenges.", "sourceUrl": "https://www.vantagefit.io/pricing", "checkedAt": "2026-11-05" }
+    { "text": "Single Challenge Basic is shown at 1,600 USD and Pro at 2,000 USD on the pricing page, each for 200 employees and one 4-week challenge.", "sourceUrl": "https://www.vantagefit.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "On the pricing page, Unlimited Challenges Basic is shown at 3,200 USD and Pro at 4,000 USD a year, each for 200 employees. It says unlimited challenges cost the same as two Single Challenges.", "sourceUrl": "https://www.vantagefit.io/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

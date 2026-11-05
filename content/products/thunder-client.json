@@ -18,11 +18,11 @@
   ],
   "facts": [
     { "text": "Running collections on a build server requires the Git Sync feature.", "sourceUrl": "https://docs.thunderclient.com/cli/ci-cd", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists Git Sync on the Starter, Business and Enterprise plans and not on Free.", "sourceUrl": "https://www.thunderclient.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Git Sync is listed on the Starter, Business and Enterprise plans and not on Free, per the pricing page.", "sourceUrl": "https://www.thunderclient.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "The tc command runs a collection and writes XML, HTML, JSON or CSV reports, and the docs include a sample GitHub Actions workflow.", "sourceUrl": "https://docs.thunderclient.com/cli/ci-cd", "checkedAt": "2026-11-05" },
     { "text": "The collection runner supports sequential and parallel runs, CSV or JSON data files, iterations and a delay between requests.", "sourceUrl": "https://docs.thunderclient.com/features/collection-runner", "checkedAt": "2026-11-05" },
     { "text": "Global and Local environments and .env files require the paid version.", "sourceUrl": "https://docs.thunderclient.com/features/environments", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says local runner limits are monthly and that CI/CD runs have no limit.", "sourceUrl": "https://www.thunderclient.com/pricing", "checkedAt": "2026-11-05" }
+    { "text": "Local runner limits are monthly and CI/CD runs have no limit, according to the pricing page.", "sourceUrl": "https://www.thunderclient.com/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "freemium",

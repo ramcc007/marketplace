@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "The homepage describes one place to plan, approve and track every hire, and says teams can model headcount scenarios to measure budget impact.", "sourceUrl": "https://www.teamohana.com", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists scenario planning from Professional upward and sells Position Management as an add-on for Growth and Enterprise at $3 per employee per month.", "sourceUrl": "https://www.teamohana.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "TeamOhana's pricing page lists scenario planning from Professional upward and sells Position Management as an add-on for Growth and Enterprise at $3 per employee per month.", "sourceUrl": "https://www.teamohana.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The pricing page contradicts itself on employee bands and contract terms. The cards show the free tier up to 100 employees while the table and FAQ say 150, and Growth is annual or multi-year on the cards but a two-year minimum in the table.", "sourceUrl": "https://www.teamohana.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The homepage names Greenhouse, Lever, Ashby, Deel, BambooHR, Workday, UKG, SAP SuccessFactors, HiBob and Slack among its integrations.", "sourceUrl": "https://www.teamohana.com", "checkedAt": "2026-11-04" }
   ],

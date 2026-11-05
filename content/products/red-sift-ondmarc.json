@@ -16,9 +16,9 @@
     }
   ],
   "facts": [
-    { "text": "The product page says OnDMARC protects and reports on every domain and subdomain, and translates aggregate reports into a sender dashboard.", "sourceUrl": "https://redsift.com/products/ondmarc", "checkedAt": "2026-11-05" },
-    { "text": "The product page says the platform configures SPF, DKIM, DMARC, BIMI and MTA-STS in one place. It describes a Dynamic SPF feature that consolidates records to avoid SPF lookup limits.", "sourceUrl": "https://redsift.com/products/ondmarc", "checkedAt": "2026-11-05" },
-    { "text": "The product page says OnDMARC can block unauthorised senders and prevent exact-domain spoofing.", "sourceUrl": "https://redsift.com/products/ondmarc", "checkedAt": "2026-11-05" },
+    { "text": "On the product page, OnDMARC protects and reports on every domain and subdomain, and translates aggregate reports into a sender dashboard.", "sourceUrl": "https://redsift.com/products/ondmarc", "checkedAt": "2026-11-05" },
+    { "text": "Red Sift OnDMARC's product page says the platform configures SPF, DKIM, DMARC, BIMI and MTA-STS in one place. It describes a Dynamic SPF feature that consolidates records to avoid SPF lookup limits.", "sourceUrl": "https://redsift.com/products/ondmarc", "checkedAt": "2026-11-05" },
+    { "text": "Product page: OnDMARC can block unauthorised senders and prevent exact-domain spoofing.", "sourceUrl": "https://redsift.com/products/ondmarc", "checkedAt": "2026-11-05" },
     { "text": "The Express plan lists up to 4 domains, up to 1 million monthly emails and 30 days of data history. Essentials, Enterprise and Premier list 25, 25 and 50 active sender domains, with unlimited email volume and one year of data history.", "sourceUrl": "https://redsift.com/products/ondmarc/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {

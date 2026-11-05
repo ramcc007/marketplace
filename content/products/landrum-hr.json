@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "Landrum's guide estimates that a PEO costs about $750 to $1,500 per employee per year depending on the package, which is $11,250 to $22,500 a year for 15 full-time employees. It is a general estimate, not a Landrum rate card.", "sourceUrl": "https://landrumhr.com/blogs/what-is-a-peo/", "checkedAt": "2026-11-04" },
-    { "text": "The home page shows an ESAC logo under a membership heading and does not mention IRS CPEO certification.", "sourceUrl": "https://landrumhr.com/", "checkedAt": "2026-11-04" },
+    { "text": "Home page: an ESAC logo appears under a membership heading, and IRS CPEO certification is not mentioned.", "sourceUrl": "https://landrumhr.com/", "checkedAt": "2026-11-04" },
     { "text": "The guide notes that not every PEO offers every payroll service, so a buyer should confirm the list in the contract.", "sourceUrl": "https://landrumhr.com/blogs/what-is-a-peo/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

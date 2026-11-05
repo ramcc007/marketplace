@@ -20,7 +20,7 @@
     { "text": "Password policies are applied by publishing them to selected device profiles, and profile-level policies override global settings.", "sourceUrl": "https://help.scalefusion.com/v1/docs/configure-password-policy-for-windows-devices", "checkedAt": "2026-11-04" },
     { "text": "The device actions page lists Lock/Unlock, Lock Screen and Reset Device, which factory resets the device.", "sourceUrl": "https://help.scalefusion.com/docs/device-level-actions", "checkedAt": "2026-11-04" },
     { "text": "Remote factory reset of a Mac works on Apple Silicon and T2 Macs running macOS 12 or later, while older Intel Macs need a six-digit Mac PIN.", "sourceUrl": "https://help.scalefusion.com/docs/factory-reset-wipe-a-macos-device", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says all plans are billed annually only, and that a minimum of 10 total devices is required.", "sourceUrl": "https://www.scalefusion.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "All plans are billed annually only, and a minimum of 10 total devices is required, the pricing page says.", "sourceUrl": "https://www.scalefusion.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The footer of the security page states ISO/IEC 27001:2022 certification and SOC-2 Type-2 compliance.", "sourceUrl": "https://www.scalefusion.com/security", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

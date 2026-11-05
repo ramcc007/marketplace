@@ -17,10 +17,10 @@
   ],
   "facts": [
     { "text": "The product page describes data-at-rest encryption with centralized key management, for files, volumes and linked cloud storage.", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption", "checkedAt": "2026-11-05" },
-    { "text": "The product page says the agent works at file or volume level, on local disks and on cloud storage such as S3 and Azure.", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption", "checkedAt": "2026-11-05" },
+    { "text": "Product page: the agent works at file or volume level, on local disks and on cloud storage such as S3 and Azure.", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption", "checkedAt": "2026-11-05" },
     { "text": "The product page says the product integrates with the FIPS 140-3 Level 3 compliant CipherTrust Manager for centralized key and policy management.", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption", "checkedAt": "2026-11-05" },
-    { "text": "The product page says security policies can be based on users, applications, processes and data types, and can define who can access what, when, where and how.", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption", "checkedAt": "2026-11-05" },
-    { "text": "The product page shows no prices. Its purchase links are Contact Sales and Get in Touch.", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption", "checkedAt": "2026-11-05" }
+    { "text": "Security policies can be based on users, applications, processes and data types, and can define who can access what, when, where and how, the product page says.", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption", "checkedAt": "2026-11-05" },
+    { "text": "Product page: no prices are shown. Its purchase links are Contact Sales and Get in Touch.", "sourceUrl": "https://cpl.thalesgroup.com/encryption/transparent-encryption", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "quote_only",

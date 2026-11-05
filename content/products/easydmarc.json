@@ -21,7 +21,7 @@
     { "text": "EasySPF publishes one TXT record that resolves SPF include dependencies into IP ranges and refreshes those ranges when the providers update their SPF data. The EasySPF page says it is available on the Premium and Enterprise plans.", "sourceUrl": "https://easydmarc.com/platform/dmarc/easyspf", "checkedAt": "2026-11-05" },
     { "text": "Managed DKIM publishes the DKIM public records from EasyDMARC through a one-time NS delegation. The sending system keeps the private signing key.", "sourceUrl": "https://easydmarc.com/platform/dmarc/managed-dkim", "checkedAt": "2026-11-05" },
     { "text": "The alerting page lists alerts for DNS record changes, unexpected sending volume and blocklist listings. It does not list spoofing alerts or unauthorized sender alerts.", "sourceUrl": "https://easydmarc.com/platform/alerting", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists proactive DMARC alerts under DMARC Premium and offers a free trial with no credit card on DMARC Plus and Premium. It does not state the trial length.", "sourceUrl": "https://easydmarc.com/pricing", "checkedAt": "2026-11-05" }
+    { "text": "Under DMARC Premium, the pricing page lists proactive DMARC alerts, and it offers a free trial with no credit card on DMARC Plus and Premium. It does not state the trial length.", "sourceUrl": "https://easydmarc.com/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

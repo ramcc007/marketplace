@@ -18,8 +18,8 @@
   "facts": [
     { "text": "Digits states that it is SOC 2 Type II compliant.", "sourceUrl": "https://digits.com/security", "checkedAt": "2026-11-04" },
     { "text": "Additional entities are free up to 250 transactions a year, then start at $35 a month.", "sourceUrl": "https://digits.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page offers a 30-day free trial and no setup fees, and notes that sales tax may apply depending on location.", "sourceUrl": "https://digits.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists the ledger as drill-down from category to transaction, which is the closest it comes to naming a general ledger.", "sourceUrl": "https://digits.com/pricing", "checkedAt": "2026-11-04" }
+    { "text": "Digits lists a 30-day free trial and no setup fees on its pricing page, and notes that sales tax may apply depending on location.", "sourceUrl": "https://digits.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Its pricing page lists the ledger as drill-down from category to transaction, which is the closest it comes to naming a general ledger.", "sourceUrl": "https://digits.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

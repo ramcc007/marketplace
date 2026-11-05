@@ -17,11 +17,11 @@
   ],
   "facts": [
     { "text": "Devolutions lists four tiers on its pricing page, all per user per year and billed annually: Workforce password management at $48, Remote access management at $265, Remote desktop management and IT operations at $400, and Privileged access management at $650.", "sourceUrl": "https://devolutions.net/pricing/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says all packages come with a 14-day free trial.", "sourceUrl": "https://devolutions.net/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Pricing page: all packages come with a 14-day free trial.", "sourceUrl": "https://devolutions.net/pricing/", "checkedAt": "2026-11-05" },
     { "text": "The vendor says admins can watch privileged sessions as they happen or review the recording afterward, and can tie each checkout to a ticket number.", "sourceUrl": "https://devolutions.net/privileged-access-management/", "checkedAt": "2026-11-05" },
     { "text": "The vendor says access is granted only for the moment it is needed and is revoked automatically after it is granted.", "sourceUrl": "https://devolutions.net/privileged-access-management/", "checkedAt": "2026-11-05" },
     { "text": "The 2026.1 release notes list temporary, time-boxed access to PAM accounts.", "sourceUrl": "https://devolutions.net/privileged-access-management/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page offers half price for teams of 5. The visible text gives no dollar figure for that offer.", "sourceUrl": "https://devolutions.net/pricing/", "checkedAt": "2026-11-05" }
+    { "text": "Pricing page: half price is offered for teams of 5. The visible text gives no dollar figure for that offer.", "sourceUrl": "https://devolutions.net/pricing/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

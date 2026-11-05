@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "The pricing request form asks how many learners you have, with tiers from 1 to 50 up to 25,000 or more, and shows no price figures.", "sourceUrl": "https://www.absorbai.com/get-pricing", "checkedAt": "2026-11-04" },
-    { "text": "The home page says compliance training is auto-assigned by role, region or regulation, and lets admins monitor course progress and completion.", "sourceUrl": "https://www.absorbai.com/", "checkedAt": "2026-11-04" },
+    { "text": "On the home page, compliance training is auto-assigned by role, region or regulation, and admins can monitor course progress and completion.", "sourceUrl": "https://www.absorbai.com/", "checkedAt": "2026-11-04" },
     { "text": "The home page names ADP, Workday and Salesforce integrations plus more than 40 other systems, with an API and webhooks.", "sourceUrl": "https://www.absorbai.com/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

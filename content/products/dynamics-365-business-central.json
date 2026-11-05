@@ -19,7 +19,7 @@
     { "text": "To import bank statements as bank feeds, an administrator must set up the Envestnet Yodlee Bank Feed service and link bank accounts. CSV statement files can be imported without it.", "sourceUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately", "checkedAt": "2026-11-04" },
     { "text": "The North American version also offers a Bank Rec. Worksheet that suits checks and deposits but does not import bank statement files.", "sourceUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately", "checkedAt": "2026-11-04" },
     { "text": "Account categories define the layout of the financial statements, and users with a Team Member license cannot edit the chart of accounts.", "sourceUrl": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-general-ledger", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page offers a free 30-day trial and says listed prices are for information only, with the actual price shown at checkout.", "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/products/business-central/pricing", "checkedAt": "2026-11-04" }
+    { "text": "A free 30-day trial is offered on the pricing page, which also says listed prices are for information only, with the actual price shown at checkout.", "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/products/business-central/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

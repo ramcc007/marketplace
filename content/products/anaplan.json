@@ -19,7 +19,7 @@
     { "text": "The workforce planning page promises continuous position planning aligned with the financial budget and lists optimizing headcount and position plans as a goal.", "sourceUrl": "https://www.anaplan.com/use-case/workforce-planning-software/", "checkedAt": "2026-11-04" },
     { "text": "The headcount expense page describes modeling what-if scenarios across multiple variables, with headcount changes, terminations, transfers and merit increases as examples.", "sourceUrl": "https://www.anaplan.com/solutions/headcount-expense-planning/", "checkedAt": "2026-11-04" },
     { "text": "The headcount expense page mentions dashboards that track variance to budget and tools for business unit finance partners to create and justify staffing cost requests.", "sourceUrl": "https://www.anaplan.com/solutions/headcount-expense-planning/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page shows no prices or plans and sends visitors to a form to reach an Anaplan expert.", "sourceUrl": "https://www.anaplan.com/pricing/", "checkedAt": "2026-11-04" }
+    { "text": "No prices or plans appear on Anaplan's pricing page, which sends visitors to a form to reach an Anaplan expert.", "sourceUrl": "https://www.anaplan.com/pricing/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

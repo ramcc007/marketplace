@@ -19,8 +19,8 @@
     { "text": "The pricing page's feature comparison lists Remote support, Share my screen and Unattended access, and an Unattended Access Features section that includes Computer access history and Automatic session recording.", "sourceUrl": "https://www.islonline.com/pricing/", "checkedAt": "2026-11-05" },
     { "text": "The comparison table lists AES 256-bit end-to-end encryption, two-factor authentication and an allow or deny list under Security. The page does not show which plan includes each item in the text we read.", "sourceUrl": "https://www.islonline.com/pricing/", "checkedAt": "2026-11-05" },
     { "text": "Single sign-on is listed as Premium only, under Premium Services, and the Premium plan lists SSO/SAML.", "sourceUrl": "https://www.islonline.com/pricing/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page offers a free trial for 15 days covering 1 user and 5 managed devices, with no credit card needed. It also states a 15-day money-back guarantee on paid plans.", "sourceUrl": "https://www.islonline.com/pricing/", "checkedAt": "2026-11-05" },
-    { "text": "The page says prices are in USD and exclude tax.", "sourceUrl": "https://www.islonline.com/pricing/", "checkedAt": "2026-11-05" }
+    { "text": "ISL Online's pricing page offers a free trial for 15 days covering 1 user and 5 managed devices, with no credit card needed. It also states a 15-day money-back guarantee on paid plans.", "sourceUrl": "https://www.islonline.com/pricing/", "checkedAt": "2026-11-05" },
+    { "text": "Prices are in USD and exclude tax, the page says.", "sourceUrl": "https://www.islonline.com/pricing/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

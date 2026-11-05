@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "NinjaOne", "website": "https://www.ninjaone.com" },
   "primaryCategory": "rmm",
-  "summary": "NinjaOne does not publish a full price list. Its pricing page says rates start as low as $1.50 per device per month at 10,000 endpoints and rise to $3.75 at 50 or fewer, varying by region and products. It offers a 14-day trial, no implementation fee, and cancellation on 60 days' notice for partners without a promotional commitment.",
+  "summary": "NinjaOne does not publish a full price list. Its pricing page says rates start as low as $1.50 per device per month at 10,000 endpoints and rise to $3.75 at 50 or fewer, varying by region and products. It includes a 14-day trial, no implementation fee, and cancellation on 60 days' notice for partners without a promotional commitment.",
   "qualifies": [
     {
       "category": "rmm",

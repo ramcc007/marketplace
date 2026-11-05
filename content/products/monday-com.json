@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "The free plan is limited to 2 seats, 3 boards and 3 docs.", "sourceUrl": "https://monday.com/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says plans start from 3 users, and plans for more than 40 users are quoted.", "sourceUrl": "https://monday.com/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Per the pricing page, plans start from 3 users, and plans for more than 40 users are quoted.", "sourceUrl": "https://monday.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "Timeline and Gantt views are included from the Standard plan, not on Basic or Free.", "sourceUrl": "https://monday.com/pricing", "checkedAt": "2026-11-04" },
     { "text": "The pricing page mentions a 14-day free trial of the Pro plan.", "sourceUrl": "https://monday.com/pricing", "checkedAt": "2026-11-04" }
   ],

@@ -17,10 +17,10 @@
   ],
   "facts": [
     { "text": "The Motus pricing page describes GPS-verified mileage capture in the driver app.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The page says the CPM program pays employees a per-mile rate, typically the IRS standard mileage rate, set by the employer.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The page says the FAVR program uses IRS-substantiated logic for fixed and variable vehicle costs.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The page lists built-in reporting and visibility across the driver population, and end-to-end reimbursement processing.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The page says all pricing is by quote, priced per driver with volume discounts, and that contracts are typically annual.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" }
+    { "text": "On Motus's page, the CPM program pays employees a per-mile rate, typically the IRS standard mileage rate, set by the employer.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Per the page, the FAVR program uses IRS-substantiated logic for fixed and variable vehicle costs.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Built-in reporting and visibility across the driver population, and end-to-end reimbursement processing, are listed on the vendor's page.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Motus's page says all pricing is by quote, priced per driver with volume discounts, and that contracts are typically annual.", "sourceUrl": "https://www.motus.com/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "quote_only",

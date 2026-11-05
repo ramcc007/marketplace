@@ -16,11 +16,11 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page lists FIDO2 security keys and PIV, WebAuthn passkeys and the HYPR Authenticate mobile app among its workforce authentication methods.", "sourceUrl": "https://www.hypr.com/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists Adaptive Authentication and Real-Time Risk Scoring under HYPR Adapt for workforce use, and Risk Based Authentication under Adapt for customer identity.", "sourceUrl": "https://www.hypr.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "HYPR's pricing page lists FIDO2 security keys and PIV, WebAuthn passkeys and the HYPR Authenticate mobile app among its workforce authentication methods.", "sourceUrl": "https://www.hypr.com/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Under HYPR Adapt for workforce use, the pricing page lists Adaptive Authentication and Real-Time Risk Scoring, and Risk Based Authentication under Adapt for customer identity.", "sourceUrl": "https://www.hypr.com/pricing", "checkedAt": "2026-11-05" },
     { "text": "HYPR's policy management documentation says administrators create the policies that govern access to an application, and use on/off switches to manage enabled authenticators. The Registration Policy sets the authenticator options shown to users when they enroll a device.", "sourceUrl": "https://docs.hypr.com/docs/10.5.0/auth/authInstallCfg/authInstallCfgAppMgmt/auth-install-cfg-app-mgmt-policy-management/", "checkedAt": "2026-11-05" },
     { "text": "The documentation says disabling or enabling an authenticator affects every user already enrolled with it.", "sourceUrl": "https://docs.hypr.com/docs/10.5.0/auth/authInstallCfg/authInstallCfgAppMgmt/auth-install-cfg-app-mgmt-policy-management/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page shows Contact Sales for the customer identity platform tier and for several add-on products, and says volume pricing is available at 100,000 users and above.", "sourceUrl": "https://www.hypr.com/pricing", "checkedAt": "2026-11-05" }
+    { "text": "Contact Sales is shown on the pricing page for the customer identity platform tier and for several add-on products, and volume pricing is said to be available at 100,000 users and above.", "sourceUrl": "https://www.hypr.com/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

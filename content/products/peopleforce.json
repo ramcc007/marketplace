@@ -16,7 +16,7 @@
     }
   ],
   "facts": [
-    { "text": "The pricing page lists Standard at $2.5 per employee a month and Professional at $3 per employee a month. It says billing starts from 50 employees.", "sourceUrl": "https://www.peopleforce.io/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Standard is listed at $2.5 per employee a month and Professional at $3 per employee a month on the pricing page. It says billing starts from 50 employees.", "sourceUrl": "https://www.peopleforce.io/pricing", "checkedAt": "2026-11-05" },
     { "text": "The pricing page shows a dollar sign but does not name a currency, so the amounts are shown as listed and are not confirmed as US dollars.", "sourceUrl": "https://www.peopleforce.io/pricing", "checkedAt": "2026-11-05" },
     { "text": "The plan comparison lists time-off tracking, leave timeline, leave requests and approvals, and custom leave policies. Standard and Professional both include them.", "sourceUrl": "https://www.peopleforce.io/pricing", "checkedAt": "2026-11-05" },
     { "text": "The pricing page does not explicitly mention leave types, accrual rules or leave balances.", "sourceUrl": "https://www.peopleforce.io/pricing", "checkedAt": "2026-11-05" }

@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "Puzzle says it connects to 12,000+ banks and cards through Plaid and syncs direct integrations daily.", "sourceUrl": "https://puzzle.io/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists AI-powered reconciliations from the Complete plan upward, and custom chart of accounts from Core.", "sourceUrl": "https://puzzle.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "AI-powered reconciliations are listed from the Complete plan upward, and custom chart of accounts from Core, per the pricing page.", "sourceUrl": "https://puzzle.io/pricing", "checkedAt": "2026-11-04" },
     { "text": "An Expert Reviewed add-on, where a bookkeeper checks reconciliations, costs $171 a month for up to $10,000 in monthly expenses.", "sourceUrl": "https://puzzle.io/pricing", "checkedAt": "2026-11-04" },
     { "text": "Yearly billing is offered as 12 months for the price of 10.", "sourceUrl": "https://puzzle.io/pricing", "checkedAt": "2026-11-04" }
   ],

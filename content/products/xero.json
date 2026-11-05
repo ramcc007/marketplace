@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "Xero's US pricing page lists an 80% discount for the first 3 months for new US customers buying their first organization.", "sourceUrl": "https://www.xero.com/us/pricing-plans/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says Xero has no per-user license fees.", "sourceUrl": "https://www.xero.com/us/pricing-plans/", "checkedAt": "2026-11-04" },
+    { "text": "Xero's pricing page says it has no per-user license fees.", "sourceUrl": "https://www.xero.com/us/pricing-plans/", "checkedAt": "2026-11-04" },
     { "text": "Xero's accounting software page says it integrates with 1000+ apps.", "sourceUrl": "https://www.xero.com/us/accounting-software/", "checkedAt": "2026-11-04" },
     { "text": "Xero states that it produces SOC 2 reports from independent audits and is certified to ISO/IEC 27001:2022.", "sourceUrl": "https://www.xero.com/us/security/", "checkedAt": "2026-11-04" },
     { "text": "Xero describes its general ledger as building itself as transactions are entered.", "sourceUrl": "https://www.xero.com/us/guides/general-ledger-basics/", "checkedAt": "2026-11-04" }

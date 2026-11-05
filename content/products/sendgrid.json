@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Twilio Inc.", "website": "https://sendgrid.com" },
   "primaryCategory": "transactional-email",
-  "summary": "Twilio SendGrid sends through an SMTP relay and a web API. It offers a 60-day free trial at 100 emails a day, then Essentials from $19.95 a month and Pro from $89.95. Pro adds a dedicated IP and single sign-on, and SendGrid does not sign a HIPAA Business Associate Agreement.",
+  "summary": "Twilio SendGrid sends through an SMTP relay and a web API. It has a 60-day free trial at 100 emails a day, then Essentials from $19.95 a month and Pro from $89.95. Pro adds a dedicated IP and single sign-on, and SendGrid does not sign a HIPAA Business Associate Agreement.",
   "qualifies": [
     {
       "category": "transactional-email",

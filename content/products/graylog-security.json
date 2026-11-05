@@ -19,7 +19,7 @@
     { "text": "Guided onboarding deploys the first Collector from the web UI, with prebuilt content and instant search, according to the security product page.", "sourceUrl": "https://graylog.org/products/security/", "checkedAt": "2026-11-05" },
     { "text": "Sigma rules can be imported from private GitHub, GitLab or Bitbucket repositories, and every rule type runs through one import wizard.", "sourceUrl": "https://graylog.org/products/security/", "checkedAt": "2026-11-05" },
     { "text": "Impossible Travel Detection flags credential compromise when a user appears in two impossible locations.", "sourceUrl": "https://graylog.org/products/security/", "checkedAt": "2026-11-05" },
-    { "text": "The page says correlated signals become verified incidents automatically, and that a case is built and pre-loaded when an asset's risk score passes a set threshold.", "sourceUrl": "https://graylog.org/products/security/", "checkedAt": "2026-11-05" },
+    { "text": "Graylog Security's page says correlated signals become verified incidents automatically, and that a case is built and pre-loaded when an asset's risk score passes a set threshold.", "sourceUrl": "https://graylog.org/products/security/", "checkedAt": "2026-11-05" },
     { "text": "Graylog Security adds machine-learning anomaly detection and Sigma rule support to the Enterprise plan.", "sourceUrl": "https://graylog.org/pricing/", "checkedAt": "2026-11-05" },
     { "text": "Graylog Open is free permanently, according to the pricing page FAQ.", "sourceUrl": "https://graylog.org/pricing/", "checkedAt": "2026-11-05" }
   ],

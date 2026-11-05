@@ -19,7 +19,7 @@
     { "text": "SentinelOne describes one-click rollback and remediation, and the ability to isolate devices and kill malicious processes.", "sourceUrl": "https://www.sentinelone.com/platform/endpoint-security/", "checkedAt": "2026-11-04" },
     { "text": "Singularity Complete keeps data for 14 days, while Commercial keeps it for 90 days.", "sourceUrl": "https://www.sentinelone.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Managed Threat Hunting and Managed Detection and Response appear in the comparison table as add-ons, and the page's table layout is hard to read, so confirm which apply to which plan.", "sourceUrl": "https://www.sentinelone.com/pricing/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says prices may vary by region and partner availability, and that the partner's price controls if the two differ.", "sourceUrl": "https://www.sentinelone.com/pricing/", "checkedAt": "2026-11-04" }
+    { "text": "SentinelOne's pricing page says prices may vary by region and partner availability, and that the partner's price controls if the two differ.", "sourceUrl": "https://www.sentinelone.com/pricing/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

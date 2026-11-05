@@ -20,7 +20,7 @@
     { "text": "The FAQ says Scrut integrates with over 80 tools to collect audit-ready evidence automatically, while the home page cites more than 150 integrations.", "sourceUrl": "https://www.scrut.io/faqs/general", "checkedAt": "2026-11-04" },
     { "text": "Scrut maintains a unified control library that automatically maps common controls between SOC 2 and ISO 27001.", "sourceUrl": "https://www.scrut.io/faqs/general", "checkedAt": "2026-11-04" },
     { "text": "The FAQ says plans carry no limits or hidden charges based on users or usage, and that audit charges may influence the final quote.", "sourceUrl": "https://www.scrut.io/faqs/general", "checkedAt": "2026-11-04" },
-    { "text": "The home page says the Evidence Collector pulls evidence from AWS, GitHub and Okta, and the dedicated pricing URL returned an error on the day of checking.", "sourceUrl": "https://www.scrut.io/", "checkedAt": "2026-11-04" }
+    { "text": "Home page: the Evidence Collector pulls evidence from AWS, GitHub and Okta. The dedicated pricing URL returned an error on the day of checking.", "sourceUrl": "https://www.scrut.io/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

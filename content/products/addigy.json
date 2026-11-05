@@ -19,7 +19,7 @@
     { "text": "Addigy's help article says the console can push a Remote Lock or Remote Wipe command to an MDM-enrolled device, and the device does not need a specific policy assigned.", "sourceUrl": "https://support.addigy.com/hc/en-us/articles/4403542406419-Remote-Lock-and-Remote-Wipe-with-Addigy-Mobile-Device-Management-MDM", "checkedAt": "2026-11-04" },
     { "text": "Once an Automated Device Enrollment token is uploaded, devices enroll automatically during first setup or after a wipe, and Apple tokens need yearly renewal.", "sourceUrl": "https://docs.addigy.com/mdm/Automated_Device_Enrollment/", "checkedAt": "2026-11-04" },
     { "text": "Policies are hierarchical, so assets and settings added to a parent policy are inherited by its child policies.", "sourceUrl": "https://docs.addigy.com/interface/Policies/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says no multi-year contracts are required and that committing to a multi-year plan can lower the rate.", "sourceUrl": "https://addigy.com/pricing/", "checkedAt": "2026-11-04" },
+    { "text": "On the pricing page, no multi-year contracts are required, and committing to a multi-year plan can lower the rate.", "sourceUrl": "https://addigy.com/pricing/", "checkedAt": "2026-11-04" },
     { "text": "Addigy's compliance page says it performs regular SOC 2 Type 2 audits and holds a SOC 3 report, with report access requiring an NDA.", "sourceUrl": "https://addigy.com/legal/compliance/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

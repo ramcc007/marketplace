@@ -18,7 +18,7 @@
   "facts": [
     { "text": "Essentials allows up to 500 users, 60 concurrent CI executions and 60 concurrent CD executions. Enterprise allows unlimited CI executions and up to 500 concurrent CD executions.", "sourceUrl": "https://www.harness.io/pricing", "checkedAt": "2026-11-04" },
     { "text": "Pipeline execution history is kept for 6 months on Essentials, and 25 months on Enterprise as an add-on.", "sourceUrl": "https://www.harness.io/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page lists no build minute limits and no limits for the Free plan.", "sourceUrl": "https://www.harness.io/pricing", "checkedAt": "2026-11-04" },
+    { "text": "On the pricing page, no build minute limits and no limits are listed for the Free plan.", "sourceUrl": "https://www.harness.io/pricing", "checkedAt": "2026-11-04" },
     { "text": "Execution logs can be downloaded from the UI or through the Log Service API as a logs.zip of NDJSON files.", "sourceUrl": "https://developer.harness.io/docs/platform/pipelines/executions-and-logs/download-logs", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

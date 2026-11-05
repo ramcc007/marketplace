@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Requestly", "website": "https://requestly.com" },
   "primaryCategory": "api-testing",
-  "summary": "Requestly is an API client with collections, environments, a collection runner and scheduled cloud runs. Team costs $10 and Team Pro $15 per user a month, billed annually. The pricing page lists no free plan, but it offers a 30-day trial with no credit card.",
+  "summary": "Requestly is an API client with collections, environments, a collection runner and scheduled cloud runs. Team costs $10 and Team Pro $15 per user a month, billed annually. The pricing page lists no free plan, but it has a 30-day trial with no credit card.",
   "qualifies": [
     {
       "category": "api-testing",
@@ -20,7 +20,7 @@
     { "text": "A Scheduled tab in the runner runs a collection automatically on a recurring schedule.", "sourceUrl": "https://docs.requestly.com/api-client/collection-runner.md", "checkedAt": "2026-11-05" },
     { "text": "Variables are scoped at global, runtime, environment and collection level, and the docs include a variable precedence page.", "sourceUrl": "https://docs.requestly.com/api-client/environments-and-variables.md", "checkedAt": "2026-11-05" },
     { "text": "The Team plan lists unlimited manual collection runs, unlimited automated cloud runs, a CLI runner and data-driven testing.", "sourceUrl": "https://requestly.com/pricing/", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page offers a 30-day trial with full Team Pro features and says 'no credit card required'.", "sourceUrl": "https://requestly.com/pricing/", "checkedAt": "2026-11-05" }
+    { "text": "A 30-day trial with full Team Pro features is offered on the pricing page, which says 'no credit card required'.", "sourceUrl": "https://requestly.com/pricing/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

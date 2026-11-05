@@ -30,7 +30,7 @@
     { "text": "The onboarding page describes automated tasks, reminders and hire-date triggers, with tasks assigned by role and plans that can be grouped by start date.", "sourceUrl": "https://www.namely.com/onboarding/", "checkedAt": "2026-11-04" },
     { "text": "The onboarding page says forms, tax documents and training materials are gathered in one system with document management and e-signatures, and that the I-9 workflow adds secure e-signing with tracking.", "sourceUrl": "https://www.namely.com/onboarding/", "checkedAt": "2026-11-04" },
     { "text": "The onboarding page does not use the term new hire portal. It describes mobile access that lets remote new hires complete their setup from a phone, which is the closest match to that test.", "sourceUrl": "https://www.namely.com/onboarding/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says contract terms run from month to month up to 3 years, and that managed services are priced by complexity, modules and services required after a diagnostic.", "sourceUrl": "https://namely.com/lp/pricing/", "checkedAt": "2026-11-04" }
+    { "text": "Contract terms run from month to month up to 3 years, and managed services are priced by complexity, modules and services required after a diagnostic, the pricing page says.", "sourceUrl": "https://namely.com/lp/pricing/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",

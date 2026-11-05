@@ -18,7 +18,7 @@
   "facts": [
     { "text": "The time and attendance page says time off policies can be set by location, department or employee group, and covers holidays, sick days and PTO.", "sourceUrl": "https://www.hibob.com/platform/payroll/time-and-attendance/", "checkedAt": "2026-11-04" },
     { "text": "The analytics page lists configurable HR dashboard views with role-based data access.", "sourceUrl": "https://www.hibob.com/platform/core/analytics/", "checkedAt": "2026-11-04" },
-    { "text": "The home page shows SOC 2 and ISO 27001 badge images but states neither certification in text.", "sourceUrl": "https://www.hibob.com/", "checkedAt": "2026-11-04" }
+    { "text": "SOC 2 and ISO 27001 badge images appear on the home page, but neither certification is stated in text.", "sourceUrl": "https://www.hibob.com/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

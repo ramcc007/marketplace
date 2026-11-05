@@ -19,8 +19,8 @@
     { "text": "The Standard plan lists unlimited connections under Interactive Access and 500 managed devices under Unattended Access, and includes file transfer, session recording and privacy mode.", "sourceUrl": "https://anydesk.com/en/pricing", "checkedAt": "2026-11-05" },
     { "text": "The Advanced plan starts with 2 connections and 1,000 managed devices under Unattended Access, and adds a command-line interface, mass deployment by MSI and Windows Group Policy support.", "sourceUrl": "https://anydesk.com/en/pricing", "checkedAt": "2026-11-05" },
     { "text": "The Ultimate plan lists Single Sign-On, a custom namespace, cloud or on-premises hosting, and a dedicated support team. The page says to contact AnyDesk for a personalized quote.", "sourceUrl": "https://anydesk.com/en/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page shows a 20% discount on the first subscription year and says multi-year subscriptions are available on request.", "sourceUrl": "https://anydesk.com/en/pricing", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page lists no free plan. The rendered page showed rupee prices, and the page says all prices exclude GST.", "sourceUrl": "https://anydesk.com/en/pricing", "checkedAt": "2026-11-05" }
+    { "text": "On the pricing page, AnyDesk shows a 20% discount on the first subscription year and says multi-year subscriptions are available on request.", "sourceUrl": "https://anydesk.com/en/pricing", "checkedAt": "2026-11-05" },
+    { "text": "Pricing page: no free plan is listed. The rendered page showed rupee prices, and the page says all prices exclude GST.", "sourceUrl": "https://anydesk.com/en/pricing", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "paid",

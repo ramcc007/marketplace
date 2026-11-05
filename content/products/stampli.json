@@ -3,7 +3,7 @@
   "status": "published",
   "vendor": { "name": "Stampli", "website": "https://www.stampli.com" },
   "primaryCategory": "ap-automation",
-  "summary": "Stampli is an AP platform that keeps invoice questions, comments and approvals attached to each invoice. Its pricing page shows no dollar amounts and offers a quote request. Invoices arrive by email, upload or vendor portal, and payments go out by ACH, check, virtual card or supported international methods, depending on configuration.",
+  "summary": "Stampli is an AP platform that keeps invoice questions, comments and approvals attached to each invoice. Its pricing page shows no dollar amounts and includes a quote request. Invoices arrive by email, upload or vendor portal, and payments go out by ACH, check, virtual card or supported international methods, depending on configuration.",
   "qualifies": [
     {
       "category": "ap-automation",

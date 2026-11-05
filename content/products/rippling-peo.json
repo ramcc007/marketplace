@@ -17,7 +17,7 @@
   ],
   "facts": [
     { "text": "Rippling's FAQ says co-employment lets small businesses get benefit rates by pooling employees across Rippling's client base, while the business keeps control of hiring, pay and daily management.", "sourceUrl": "https://www.rippling.com/peo", "checkedAt": "2026-11-04" },
-    { "text": "The page lists a Florida license (Rippling PEO 1, Inc., GL250) and does not mention IRS CPEO certification.", "sourceUrl": "https://www.rippling.com/peo", "checkedAt": "2026-11-04" },
+    { "text": "A Florida license (Rippling PEO 1, Inc., GL250) is listed on the page, which does not mention IRS CPEO certification.", "sourceUrl": "https://www.rippling.com/peo", "checkedAt": "2026-11-04" },
     { "text": "The PEO page has a pricing heading but gives no dollar figures, only a link to a separate pricing page.", "sourceUrl": "https://www.rippling.com/peo", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

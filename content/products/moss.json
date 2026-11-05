@@ -27,8 +27,8 @@
   "facts": [
     { "text": "Moss says virtual cards are unlimited with no per-user fee, and that limits, merchant rules and approvals can be set per card, team or project.", "sourceUrl": "https://www.getmoss.com/solutions/spend-management", "checkedAt": "2026-11-04" },
     { "text": "Moss says a purchase request can be required before a commitment is made, and that budgets are live by team, project or cost centre.", "sourceUrl": "https://www.getmoss.com/solutions/spend-management", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says the platform fee applies regardless of the number of users and that a variable fee depends on expected monthly transaction volume.", "sourceUrl": "https://www.getmoss.com/en/pricing", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page offers a free start with Cards or Accounts Payable but does not say what the free option includes.", "sourceUrl": "https://www.getmoss.com/en/pricing", "checkedAt": "2026-11-04" }
+    { "text": "Per the pricing page, the platform fee applies regardless of the number of users, and a variable fee depends on expected monthly transaction volume.", "sourceUrl": "https://www.getmoss.com/en/pricing", "checkedAt": "2026-11-04" },
+    { "text": "Moss's pricing page offers a free start with Cards or Accounts Payable but does not say what the free option includes.", "sourceUrl": "https://www.getmoss.com/en/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "quote_only",

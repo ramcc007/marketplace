@@ -16,11 +16,11 @@
     }
   ],
   "facts": [
-    { "text": "The page says the buyer can choose from a library of customizable challenges, covering physical, nutritional, financial and other themes, in individual, buddy or team formats.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" },
-    { "text": "The page says the platform supports 1:1 or group coaching by chat, video or email, and that health assessments are available in multiple languages and can be customized.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" },
-    { "text": "The page says self-paced programs are available that build mindfulness, resilience and mental health, and that content can be created and edited by the buyer.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" },
-    { "text": "The page says the dashboard lets the buyer manage participants and monitor program performance, and describes its scope as covering participation metrics.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" },
-    { "text": "The page shows no price. Its calls to action are Request A Demo and Book A Demo.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" }
+    { "text": "Per the page, the buyer can choose from a library of customizable challenges, covering physical, nutritional, financial and other themes, in individual, buddy or team formats.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" },
+    { "text": "Vendor page: the platform supports 1:1 or group coaching by chat, video or email, and health assessments are available in multiple languages and can be customized.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" },
+    { "text": "CoreHealth's page says self-paced programs are available that build mindfulness, resilience and mental health, and that content can be created and edited by the buyer.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" },
+    { "text": "Per the vendor's page, the dashboard lets the buyer manage participants and monitor program performance, and the page describes its scope as covering participation metrics.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" },
+    { "text": "No price is shown on the page. Its calls to action are Request A Demo and Book A Demo.", "sourceUrl": "https://corehealth.global/?p=463", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "quote_only",

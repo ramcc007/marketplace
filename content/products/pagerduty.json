@@ -18,7 +18,7 @@
   "facts": [
     { "text": "The free plan allows 5 users per escalation level and keeps 3 months of historical data, and it does not include postmortems.", "sourceUrl": "https://www.pagerduty.com/pricing/incident-management/", "checkedAt": "2026-11-04" },
     { "text": "Professional includes one custom postmortem template, while AI-generated post-incident reviews need the PagerDuty Advance add-on.", "sourceUrl": "https://www.pagerduty.com/pricing/incident-management/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page shows no price for the AIOps, Status Pages, Runbook Automation or Live Call Routing add-ons.", "sourceUrl": "https://www.pagerduty.com/pricing/incident-management/", "checkedAt": "2026-11-04" },
+    { "text": "PagerDuty's pricing page shows no price for the AIOps, Status Pages, Runbook Automation or Live Call Routing add-ons.", "sourceUrl": "https://www.pagerduty.com/pricing/incident-management/", "checkedAt": "2026-11-04" },
     { "text": "PagerDuty states that it completed SOC 2 Type II examinations and holds ISO 27001 certification.", "sourceUrl": "https://www.pagerduty.com/security/", "checkedAt": "2026-11-04" }
   ],
   "pricing": {

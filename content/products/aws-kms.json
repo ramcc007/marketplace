@@ -20,7 +20,7 @@
     { "text": "The features page says customers can control who manages keys separately from who uses them.", "sourceUrl": "https://aws.amazon.com/kms/features/", "checkedAt": "2026-11-05" },
     { "text": "The overview says AWS KMS keys are protected by FIPS 140-3 Security Level 3 validated hardware security modules, and that the keys never leave AWS KMS unencrypted.", "sourceUrl": "https://docs.aws.amazon.com/kms/latest/developerguide/overview.html", "checkedAt": "2026-11-05" },
     { "text": "The overview says key policies can be created and managed in AWS KMS, so that only trusted users have access to KMS keys.", "sourceUrl": "https://docs.aws.amazon.com/kms/latest/developerguide/overview.html", "checkedAt": "2026-11-05" },
-    { "text": "The pricing page says each customer managed key costs $1 a month, prorated hourly, and that the first and second rotations add $1 a month each.", "sourceUrl": "https://aws.amazon.com/kms/pricing/", "checkedAt": "2026-11-05" }
+    { "text": "According to the vendor's pricing page, each customer managed key costs $1 a month, prorated hourly, and the first and second rotations add $1 a month each.", "sourceUrl": "https://aws.amazon.com/kms/pricing/", "checkedAt": "2026-11-05" }
   ],
   "pricing": {
     "model": "freemium",

@@ -19,7 +19,7 @@
     { "text": "The onboarding page says admins can reuse packet templates for different roles and track which tasks each new hire has finished and which are outstanding.", "sourceUrl": "https://www.eddy.com/product/onboarding/", "checkedAt": "2026-11-04" },
     { "text": "The onboarding page says new hires can fill out and sign all necessary forms, including W-4s and I-9s, and that I-9 verification for managers and admins is also done online.", "sourceUrl": "https://www.eddy.com/product/onboarding/", "checkedAt": "2026-11-04" },
     { "text": "The onboarding page says an uploaded employee handbook can be made signable in two clicks, and that new hires can self-onboard before their first day. It does not use the word portal or say how new hires log in.", "sourceUrl": "https://www.eddy.com/product/onboarding/", "checkedAt": "2026-11-04" },
-    { "text": "The pricing page says billing counts active employees only, so inactive staff such as seasonal workers or people on leave are not charged.", "sourceUrl": "https://www.eddy.com/pricing", "checkedAt": "2026-11-04" }
+    { "text": "According to the pricing page, billing counts active employees only, so inactive staff such as seasonal workers or people on leave are not charged.", "sourceUrl": "https://www.eddy.com/pricing", "checkedAt": "2026-11-04" }
   ],
   "pricing": {
     "model": "paid",
