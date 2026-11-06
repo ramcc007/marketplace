@@ -11,23 +11,41 @@ import { OWNER } from '../config/legal';
 >
   <h2>Cookies we set today</h2>
   <p>
-    None. The site does not set cookies of its own, and it runs no analytics, advertising or tracking tools that set
-    them. You can read every page without accepting anything, so there is no cookie banner.
+    Nothing is set until you choose. The first time you visit, a banner asks whether we may use Google Analytics to count
+    visits. If you decline, or ignore the banner, we set no analytics cookies. If you click Accept analytics, Google
+    Analytics sets its own cookies, such as one named _ga, so it can tell visits apart. The site sets no other cookies.
+  </p>
+  <p>
+    Your choice is kept in your browser's local storage so the banner does not come back on every page. Local storage is
+    not a cookie and is not sent to any server. Google may still receive basic page-view signals without cookies, as its
+    consent mode allows, even when you decline.
+  </p>
+  <p>
+    You can change your choice at any time: <button type="button" id="reset-consent" class="font-medium text-brand-800 underline">change my analytics choice</button>.
   </p>
 
   <h2>Cookies from other companies</h2>
   <p>
-    Pages load fonts, scripts and images from our own site. We do not embed videos, social buttons or ad networks, so no
-    outside company sets a cookie through our pages. Links to vendor websites leave this site, and those sites have
-    their own cookie rules.
+    Pages load fonts, scripts and images from our own site, with one exception. The Google Tag Manager script loads from
+    Google on every page. Google Analytics only sets cookies after you accept. We do not embed videos, social buttons or
+    ad networks. Links to vendor websites leave this site, and those sites have their own cookie rules.
   </p>
 
   <h2>What will change</h2>
   <p>
     When accounts open, signing in will need a cookie that keeps you logged in. That cookie will be strictly necessary
-    for the sign-in to work. If we later add analytics or advertising that use cookies, we will ask for your consent
+    for the sign-in to work. If we later add advertising or other tools that use cookies, we will ask for your consent
     first, and we will update this page and the <a href="/privacy">privacy policy</a> before either goes live.
   </p>
+
+  <script>
+    document.getElementById('reset-consent')?.addEventListener('click', () => {
+      try {
+        localStorage.removeItem('b2b-analytics');
+      } catch {}
+      location.reload();
+    });
+  </script>
 
   <h2>Questions</h2>
   <p>

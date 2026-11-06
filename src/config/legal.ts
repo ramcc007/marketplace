@@ -27,7 +27,7 @@ export const LEGAL = {
   /** Shown at the top of each legal page and in the footer note until a lawyer has read the texts. */
   reviewedByLawyer: true,
   /** Date shown as "Last updated" on the legal pages. Change it whenever a text changes. */
-  updated: '5 November 2026',
+  updated: '6 November 2026',
 };
 
 export function isLegalReady(owner: Owner): boolean {

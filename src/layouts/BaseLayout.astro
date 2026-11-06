@@ -4,6 +4,7 @@ import Seo from '../components/Seo.astro';
 import type { SeoProps } from '../lib/seo';
 import { SITE } from '../config/site';
 import MegaMenu from '../components/MegaMenu.astro';
+import ConsentBanner from '../components/ConsentBanner.astro';
 import { COMPANY_LINKS as company, FOOTER_LEGAL_LINKS as legalLinks, legalReady } from '../config/legal';
 
 type Props = SeoProps;
@@ -22,6 +23,25 @@ const isCurrent = (href: string) => current === href || current.startsWith(`${hr
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline>
+      // Consent Mode: analytics stays denied until the visitor accepts in the banner.
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('consent', 'default', {
+        analytics_storage: 'denied',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        wait_for_update: 500,
+      });
+      try {
+        if (localStorage.getItem('b2b-analytics') === 'granted') gtag('consent', 'update', { analytics_storage: 'granted' });
+      } catch (e) {}
+      gtag('js', new Date());
+    </script>
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MZVWZMXR"></script>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <Seo {...props} />
   </head>
@@ -99,5 +119,6 @@ const isCurrent = (href: string) => current === href || current.startsWith(`${hr
         </div>
       </div>
     </footer>
+    <ConsentBanner />
   </body>
 </html>

@@ -1,0 +1,36 @@
+---
+// Asks before any analytics cookie is set. The choice is kept in local storage, which is not a cookie.
+---
+
+<div id="consent-banner" class="fixed inset-x-0 bottom-0 z-50 border-t border-slate-300 bg-white shadow-lg" hidden role="region" aria-label="Analytics choice">
+  <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 sm:flex-row sm:items-center sm:justify-between">
+    <p class="text-sm text-slate-700">
+      We would like to use Google Analytics to count visits to these pages. Nothing is set until you choose. You can read the site either way.
+      See the <a href="/cookies" class="font-medium text-brand-800 underline">cookie policy</a>.
+    </p>
+    <div class="flex shrink-0 gap-2">
+      <button type="button" data-choice="denied" class="inline-flex min-h-10 items-center rounded-lg border border-slate-300 bg-white px-4 text-sm font-semibold text-slate-800 hover:bg-slate-50">Decline</button>
+      <button type="button" data-choice="granted" class="inline-flex min-h-10 items-center rounded-lg bg-brand-700 px-4 text-sm font-semibold text-white hover:bg-brand-800">Accept analytics</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const KEY = 'b2b-analytics';
+  const banner = document.getElementById('consent-banner');
+  let saved: string | null = null;
+  try {
+    saved = localStorage.getItem(KEY);
+  } catch {}
+  if (banner && !saved) banner.hidden = false;
+  banner?.querySelectorAll<HTMLButtonElement>('button[data-choice]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const choice = button.dataset.choice === 'granted' ? 'granted' : 'denied';
+      try {
+        localStorage.setItem(KEY, choice);
+      } catch {}
+      (window as any).gtag?.('consent', 'update', { analytics_storage: choice });
+      banner.hidden = true;
+    });
+  });
+</script>
