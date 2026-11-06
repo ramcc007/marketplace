@@ -15,7 +15,7 @@ updateLog:
 
 Application performance monitoring tools record how long requests take inside your own software and where the time goes. A slow checkout page, a database call that runs 200 times per request or a service that fails only under load all show up as traces and metrics before a customer writes in. The ten products on this page each trace requests across services, report performance metrics and send alerts. We read every price on the vendor's own website, and each product page links to the pages we used.
 
-## What a product needs to be listed
+## How we apply the listing rule
 
 We list a product here when its own documentation or product pages show three things: request tracing, performance metrics and alerting. Request tracing means following one request through the services it touches. Performance metrics means latency, error rate and throughput per service or endpoint. Alerting means a rule that notifies a person or a chat channel when those numbers cross a limit.
 

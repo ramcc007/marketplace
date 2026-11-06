@@ -16,6 +16,8 @@ const index = await getSiteIndex();
 const gate = index.departmentGates.get(dept.slug)!;
 const overview = index.departmentOverviews.get(dept.slug);
 const Overview = overview ? (await render(overview)).Content : null;
+const fallbackDescription = `Compare ${dept.name} software across ${dept.categories.length} categories. See pricing and features for each product, with every price linked to the vendor page.`;
+const deptDescription = overview?.data.description && overview.data.description.length <= 160 ? overview.data.description : fallbackDescription;
 const site = Astro.site ?? new URL(Astro.url.origin);
 const topLevel = dept.categories.filter((c) => c.level === 'L1');
 const productCount = (slug: string) => index.categories.get(slug)?.products.length ?? 0;
@@ -31,7 +33,7 @@ const crossDepartment = dept.categories.filter((c) => c.level === 'L2' && !topLe
 
 <BaseLayout
   title={`${dept.name} Software 2027${dept.name.length > 24 ? ': Pricing' : ': Pricing & Comparison'}`}
-  description={`Compare ${dept.name} software across ${dept.categories.length} categories. See pricing and features for each product, with every price linked to the vendor page.`}
+  description={deptDescription}
   path={`/categories/${dept.slug}`}
   index={gate.indexable}
   jsonLd={[breadcrumbList(crumbs, site)]}

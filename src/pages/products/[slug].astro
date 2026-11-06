@@ -17,6 +17,7 @@ import { getSiteIndex } from '../../lib/site-index';
 import { getReviewStats } from '../../lib/reviews';
 import { GATE } from '../../lib/quality-gate';
 import { breadcrumbList, softwareApplication } from '../../lib/schema';
+import { metaDescription } from '../../lib/text';
 import { formatMoney, formatUsd, formatVolumeFee } from '../../lib/dates';
 
 export async function getStaticPaths() {
@@ -66,7 +67,7 @@ const crumbs = [
   ...(primary ? [{ name: primary.name, path: `/software/${primary.slug}` }] : []),
   { name: data.name, path: `/products/${product.id}` },
 ];
-const description = data.summary.length <= 155 ? data.summary : `${data.summary.slice(0, 152)}...`;
+const description = metaDescription(data.summary);
 
 const jump = [
   { id: 'pricing', label: 'Pricing' },

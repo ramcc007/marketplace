@@ -15,7 +15,7 @@ updateLog:
 
 Version control hosting keeps a team's Git repositories on a server the team can reach, and adds the controls that let several people change the same code safely. The eight products on this page each host Git repositories and offer pull or merge requests, and each has access controls that decide who can read, write and merge. We checked prices on each vendor's pricing page, and checked review and role rules against the vendor's own documentation.
 
-## What a product needs to be listed
+## How we apply the listing rule
 
 We list a product when we can point to a vendor page for each of three things. The first is Git repository hosting, meaning a place to create repositories and push to them over standard Git. The second is pull or merge requests, where one branch is proposed for merging into another and reviewers can comment or approve. The third is access controls, meaning roles, teams or branch rules that limit who can write to a repository or merge into a branch.
 

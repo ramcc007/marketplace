@@ -5,6 +5,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import GateNote from '../../components/GateNote.astro';
 import ProductCard from '../../components/ProductCard.astro';
 import CompareTable from '../../components/CompareTable.astro';
+import { titleCase } from '../../lib/text';
 import { categories, categoryTitle, childrenOf, getCategory, getDepartment, relatedCategories } from '../../lib/taxonomy';
 import { getSiteIndex } from '../../lib/site-index';
 import { priceSummary } from '../../lib/catalog';
@@ -35,12 +36,12 @@ const description =
   editorial?.data.definition ??
   `${title} compared: what a product needs to be listed, which products qualify, and where their prices come from.`;
 // Search titles and descriptions follow the pattern buyers see on comparison sites. The edition year is 2027 by owner decision.
-const seoName = categoryTitle(category).replace(/ software$/, ' Software');
+const seoName = titleCase(categoryTitle(category).replace(/ software$/, ' Software'));
 // Longest form first. Google shows about 60 characters, so long category names fall back to a shorter ending.
 const seoTitle =
   [`Best ${seoName} 2027: Pricing & Comparison`, `Best ${seoName} 2027: Pricing`, `Best ${seoName} 2027`].find((t) => t.length <= 60) ??
   `${seoName} 2027`;
-const listDescription = `Compare ${products.length} ${category.name} tools by pricing, plans and features. Every price links to the vendor page it came from.`;
+const listDescription = `${category.description} ${products.length} products compared, with each price linked to its vendor page.`;
 const seoDescription = products.length > 0 && listDescription.length <= 160 ? listDescription : description;
 const Editorial = editorial ? (await render(editorial)).Content : null;
 const minProducts = category.level === 'L2' ? GATE.subcategory.minQualifyingProducts : GATE.category.minQualifyingProducts;
